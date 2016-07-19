@@ -1,0 +1,323 @@
+		-----------------------------------------------------------
+		 Controlador ODBC de Microsoft® Visual FoxPro™ Versión 6.0
+		-----------------------------------------------------------
+
+		(c) Copyright Microsoft Corporation, 1998
+	 
+Notas sobre la versión
+19 de enero de 1998
+
+Versión del controlador ODBC de Visual FoxPro. Lea esta información importante.
+
+
+----------------------------
+Cómo utilizar este documento
+----------------------------
+
+Para ver el archivo Léame con el Bloc de Notas de Windows, maximice la ventana 
+del Bloc de notas y seleccione Ajuste de línea del menú Edición. Para imprimir 
+el archivo Léame, ábralo con el Bloc de Notas u otro procesador de textos y 
+elija el comando Imprimir del menú Archivo.
+
+---------
+CONTENIDO
+---------
+
+1.   NOTAS DE INSTALACIÓN
+     1.1 Requisitos del sistema
+     1.2 Lo nuevo en esta versión
+     1.3 Instalar el controlador
+     1.4 Agregar un origen de datos
+     1.5 Archivos de Ayuda
+     1.6 Convenciones de nomenclatura
+
+2.   Áreas compatibles
+     2.1 Compatibilidad con idiomas
+     2.2 Compatibilidad con ODBC 2.5
+     2.3 Integridad referencial
+     2.4 Compatibilidad con subprocesos
+     2.5 Compatibilidad con dBase®
+     2.6 Compatibilidad internacional
+
+3.   Áreas no compatibles
+
+4.   Temas conocidos
+
+5.   Solución de problemas
+
+6.   Libros
+
+
+1.1  Requisitos del sistema
+===========================
+Para el controlador ODBC de Microsoft(r) Visual FoxPro(tm) necesitará:
+ * Windows NT 3.51 o superior  (se recomienda el Service Pack 5),
+   o Windows 95 o superior.
+ * 2 MB de espacio en disco.
+
+Importante: el controlador ODBC de Visual FoxPro 1.0 es un controlador 
+sólo de 32 bits. Por tanto, las plataformas Windows 3.1 y Windows para 
+Trabajo en Grupo no lo admiten.
+
+1.2  Lo nuevo en esta versión
+=============================
+* El rendimiento de consultas es un 20% más rápido.
+* VFPODBC.DLL es más pequeño (~835KB, en lugar de 1,20 MB).
+* Se admiten ahora los comandos SET (consulte el archivo de Ayuda para 
+  obtener una lista de los comandos SET permitidos).
+* Se admite VERSION( ) a través de procedimientos almacenados.
+* Las vistas locales son de sólo lectura.
+* Si inserta o actualiza una tabla con un campo lógico (una columna 
+  de tipo de datos SQL_BIT), ahora podrá usar 1 (verdadero) o 0 (falso) 
+  para almacenar un valor en un campo. Al comparar valores o en una 
+  expresión, deberá utilizar .T. (verdadero) y .F. (falso).
+* La versión de 16 bits de Microsoft Query (versión 1.0) funciona 
+  ahora con el controlador ODBC de Visual FoxPro.
+* SQLGetInfo( ) y SQL_FILE_USAGE ahora devuelven SQL_FILE_QUALIFIER tanto 
+  para bases de datos como para orígenes de datos de tabla libre.
+
+
+1.3  Instalar el controlador
+============================
+Ejecute SETUP.EXE para instalar el controlador ODBC de Visual FoxPro.
+
+Nota: la instalación del controlador ODBC de Visual FoxPro actualiza los 
+componentes ODBC para ser compatibles con ODBC 2.5, si es necesario. Consulte 
+el archivo README25.TXT en el directorio de sistema Windows si desea obtener más 
+información acerca de mejoras o características de los componentes de ODBC 2.5.
+
+
+1.4  Agregar un origen de datos
+===============================
+Después de la instalación, defina un origen de datos:
+1. En el Panel de control, haga doble clic en el icono ODBC (32 bits).
+2. Haga clic en Agregar.
+3. Seleccione Microsoft Visual FoxPro Driver.
+4. En el cuadro de diálogo Configuración de ODBC de Visual FoxPro, escriba 
+   el nombre del origen de datos.
+5. Seleccione Base de datos de Visual FoxPro (.DBC) o Directorio de tabla libre.
+6. Escriba el nombre de la base de datos o de la ruta de acceso a la tabla 
+   libre, o haga clic en Examinar.
+7. Haga clic en Aceptar y, a continuación, en Cerrar.
+
+
+1.5  Archivos de Ayuda
+======================
+El controlador ODBC de Visual FoxPro incluye dos archivos de Ayuda, ubicados 
+en el directorio SYSTEM de Windows 95 o en SYSTEM32 de Windows NT:
+
+* ODBCINST.HLP - Información general de ODBC acerca de:
+*   El cuadro de diálogo del controlador ODBC
+*   Las opciones que se pueden establecer en el cuadro de diálogo de 
+    controladores del Panel de control
+* DRVVFP.HLP - Archivo de Ayuda del controlador ODBC de Visual FoxPro, que 
+  proporciona información acerca de:
+*   Instalación y configuración
+*   Utilización del controlador de Visual FoxPro
+*   Referencia técnica
+*   API de ODBC
+*   Referencia del lenguaje de Visual FoxPro
+*   Mensaje de error
+
+
+1.6  Convenciones de nomenclatura
+=================================
+El controlador ODBC de Visual FoxPro nombra las columnas de acuerdo con las 
+expresiones. Por ejemplo, si ejecuta la siguiente instrucción:
+
+	SELECT MIN (id_cliente) FROM clientes
+
+el controlador ODBC de Visual FoxPro devuelve min_idcliente como nombre de 
+la columna en el conjunto de resultados.
+Si desea controlar el nombre del campo resultante, use la cláusula AS, como 
+en el siguiente ejemplo:
+
+SELECT MIN(id_cliente) AS minimo_id_cliente FROM clientes
+
+
+=====================
+2.  Áreas compatibles
+=====================
+En la siguiente sección se describen las áreas particulares compatibles con 
+el controlador ODBC de Visual FoxPro.
+
+2.1  Compatibilidad con idiomas
+===============================
+Versiones admitidas de FoxBase+ y Tablas FoxPro
+El controlador ODBC de Visual FoxPro proporciona acceso a tablas de 
+Microsoft(r) FoxBase+(r), FoxPro 1.x, FoxPro 2.x y Visual FoxPro. Además, 
+el controlador ODBC de Visual FoxPro permite el acceso a tablas que se 
+encuentran en el contenedor de base de datos de Visual FoxPro (archivo .DBC).
+
+Nota   El controlador ODBC de Visual FoxPro solamente permite transacciones 
+en tablas dentro de la base de datos de Visual FoxPro (archivos .DBC), no 
+en tablas libres.
+
+
+2.2  Compatibilidad con ODBC 2.5
+================================
+El controlador ODBC de Visual FoxPro es compatible con la API Nivel 1 de ODBC 
+y también implementa varias API de Nivel 2. Todas las API admitidas se 
+implementan en esta etapa. Informe acerca de cualquier problema que encuentre 
+con las API. El archivo de Ayuda, DRVVFP.HLP, contiene información de las 
+funciones compatibles y los parámetros de entrada aceptables. Además, 
+Visual FoxPro SQL amplía la funcionalidad SQL disponible con el controlador. 
+Consulte la Referencia del lenguaje de Visual FoxPro y la gramática ampliada.
+
+
+2.3  Integridad referencial
+===========================
+El controlador ODBC de Visual FoxPro admite las reglas, los desencadenantes 
+y los valores predeterminados de Visual FoxPro, siempre y cuando contengan 
+funciones que admita el controlador. Consulte el archivo de Ayuda DRVVFP.HLP 
+si desea obtener más detalles acerca de los elementos compatibles del lenguaje 
+Visual FoxPro.
+
+
+2.4  Compatibilidad con subprocesos
+===================================
+El controlador es seguro en los subprocesos. El controlador ODBC de Visual FoxPro 
+puede procesar consultas en segundo plano. Si desea más información, consulte 
+el tema de Ayuda "Cuadro de diálogo Instalar ODBC de Visual FoxPro".
+Vistas remotas y vistas parametrizadas
+Siempre que se llama a SQLTables( ), se excluyen de la lista las vistas remotas 
+y las vistas parametrizadas. Las vistas locales basadas en vistas parametrizadas 
+no se excluyen, pero generarán errores si las utiliza. Sin embargo, si llama 
+a SQLTables( ) con un nombre de tabla único, encontrará vistas, si existen, 
+para poder comprobar los conflictos de nombres.
+
+
+2.5  Compatibilidad con dBase®
+==============================
+Versiones compatibles de las tablas de dBASE(r) IV
+El controlador ODBC de Visual FoxPro proporciona acceso tablas de dBASE(r) 4 
+y anteriores. Se admiten archivos dBASE(r) con las siguientes limitaciones:
+* dBASE(r) v2.x y 3.x: los archivos se pueden leer pero no convertir.
+* dBASE(r) v4.x y 5.x: se pueden leer los archivos que no tienen campos 
+  memo si la tabla dispone de menos de 255 columnas.
+
+Precaución   Si un archivo dBASE(r) v4.x o 5.x tiene archivos de índice 
+asociados (.MDX, .NDX), el controlador ODBC de Visual FoxPro no actualizará 
+adecuadamente el archivo y los índices resultarán dañados. El acceso a estos 
+archivos debe realizarse en modo de sólo lectura.
+
+* Tablas de dBASE(r)  v4.x y 5.x con campos memo. Estos archivos requieren 
+conversión en el producto completo de Visual FoxPro para Windows antes de usarlos 
+con el controlador ODBC de Visual FoxPro. El controlador no convertirá ni 
+leerá los archivos.
+
+
+2.6  Compatibilidad internacional
+=================================
+* El controlador está habilitado para DBCS.
+* Ahora puede establecer la secuencia de ordenación para ordenar el índice. 
+  Puede encontrar la lista de secuencias de ordenación en la descripción de 
+  SET COLLATE en el tema de Ayuda Referencia del lenguaje de Visual FoxPro.
+
+La secuencia de ordenación predeterminada es "MACHINE". Puede cambiar la 
+secuencia de ordenación si ejecuta SET COLLATE TO Idioma con la función 
+SQLExecDirect( ) de la API de ODBC para C que llama a SQLPrepare( ) y SQLExec( ) 
+(consulte el manual ODBC SDK Reference, páginas 42-44), o si selecciona una 
+secuencia de ordenación diferente en las opciones del controlador en 
+el cuadro de diálogo Configurar origen de datos.
+
+Nota   El archivo FOXPRO.INT se instala en el directorio del sistema. Si se 
+quita, no funcionarán las secuencias de ordenación en equipos con páginas de 
+código de Europa del Este.
+
+
+=======================
+3. Áreas no compatibles
+=======================
+* No se admite la actualización (Refresh) en reglas y desencadenantes.
+* En el archivo de Ayuda se describen los comandos y funciones admitidos y 
+  se muestra una lista de los no admitidos. Los comandos y funciones que no 
+  aparecen enumerados en el archivo de Ayuda no son compatibles.
+* Las vistas parametrizadas funcionan en un desencadenante únicamente si se 
+  asignó un valor al parámetro antes de abrir la vista. En ODBC no se admite 
+  la entrada interactiva del valor de un parámetro.
+* No se admiten las vistas remotas a otros orígenes de datos ODBC con el 
+  controlador ODBC de Visual FoxPro; sin embargo, sí se admiten vistas 
+  locales (no parametrizadas).
+
+
+===================
+4.  Temas conocidos
+===================
+* Si inserta, elimina o actualiza una tabla de Visual FoxPro mediante el 
+  controlador ODBC de Visual FoxPro, es posible que reciba el mensaje 
+  de error "Falló el desencadenante". Compruebe si hay algún comando no 
+  compatible en el desencadenante.
+* INDEX ON no se admite en esta versión.
+* Si abre una tabla en modo exclusivo y otro usuario tiene acceso a la 
+  misma mediante SET EXCLUSIVE OFF, el controlador ODBC Visual FoxPro 
+  devolverá el error "Valor de opción cambiado" en lugar del "Otra persona 
+  está utilizando el archivo".
+* MSQuery devuelve un mensaje de error "No se puede abrir el archivo" al 
+  crear una tabla que contiene un nombre de campo que empieza por un 
+  número. Por ejemplo, no está admitido el nombre de campo "1995: Ventas". 
+  Visual FoxPro no permite crear nombres de campos que comienzan por un 
+  número, aunque MSQuery sí lo admite.
+
+
+=========================
+5.  Solución de problemas
+=========================
+Si tiene algún problema al instalar el controlador, pruebe a realizar 
+las siguientes acciones y reinstalarlo:
+
+1. Inicie el equipo sin cargar elementos adicionales. Por ejemplo, en Windows 95, 
+   inicie el equipo en Modo A prueba de fallos.
+2. Cierre todas las aplicaciones, incluso software antivirus, shells de terceros 
+   o barras de herramientas como el Administrador de Microsoft Office.
+3. Si el equipo dispone de vídeo o copia de ROM del sistema, deshabilite estas 
+   opciones antes de reinstalar.
+4. Compruebe que el archivo .EXE no está dañado.
+
+Si aún tiene problemas:
+* Asegúrese de que está ejecutando una configuración limpia cuando realice pruebas.
+
+* Use la ficha Seguimiento del Administrador de orígenes de datos ODBC de 
+  Microsoft en el Panel de control de para que le ayuda a determinar la 
+  causa de los problemas.
+
+* Compruebe que ha instalado la última versión del controlador. Para ello:
+
+1. Vaya al Administrador de orígenes de datos ODBC; para ello, haga doble 
+   clic en el icono ODBC (32 bits) en el Panel de control.
+2. Haga clic en la ficha Controladores.
+
+* Puede generar un registro de seguimiento de ODBC mediante el Administrador de 
+  orígenes de datos ODBC del Panel de control:
+
+1. En el Panel de control, haga doble clic en el icono ODBC (32 bits).
+2. Seleccione la ficha Seguimiento.
+3. Especifique la opción Cuándo realizar seguimiento.
+4. Especifique un nombre de archivo de registro.
+5. Haga clic en Iniciar el seguimiento ahora.
+
+Al ejecutar su código ahora, se escribirán en el archivo de registro todas las 
+llamadas a la API de ODBC para C, sus parámetros de entrada y su salida. El 
+archivo de registro ODBC es texto ASCII que puede ver con cualquier procesador 
+de textos ASCII estándar, como Word, el Bloc de notas o WordPad. En algún caso 
+es posible que sea necesario incluir el registro de seguimiento en un informe 
+de errores. Puesto que el registro de seguimiento de ODBC puede ser extenso, 
+copie únicamente 4 ó 5 llamadas a funciones y péguelas en un documento 
+independiente antes de enviar el informe de errores.
+
+
+==========
+6.  Libros
+==========
+Microsoft ODBC 2.0 Programmer's Reference and SDK Guide (ISBN: 1-55615-658-8 
+de Microsoft Press) proporcionan la información de referencia básica.
+
+Inside ODBC (ISBN: 1-55615-815-7 de Microsoft Press) proporciona interesante 
+información de segundo plano acerca del desarrollo de especificaciones ODBC e 
+incluye un CD con ejemplos de código ODBC.
+
+Database Developer's Guide with Visual C++ (ISBN: 0-672-30613-1 de Sams Publishing) 
+incluye varios ejemplos interesantes en C++ que usan la API de ODBC.
+
+==========================
+

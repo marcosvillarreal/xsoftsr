@@ -1,0 +1,90 @@
+Gestion Santarrossa: 
+
+1- El init.exe no debe tener interfaz visual si llama al gestion.exe. De esta manera evitamos el pantallazo al ingresar.
+   el trabajo de avisar y actualizar lo deberia hacer otro exe, por ejemplo Upgrade.Exe
+
+OK
+
+2- El Arbol debe ser readonly o ver de que forma evitar que editen las opciones.
+   La pantalla deberia poder moverse.
+
+OK
+
+3- Grilla de buscar por nombre, cuando el resultado es la grilla vacia, volver el foco a
+   la parte de abajo donde se escribe la palabra a buscar
+
+OK
+
+4- Abm de productos
+
+    Cuando se pone espacios en el codigo y en el nombre del proveedor, y se le da grabar, aparece el cartel de la validacion
+    si luego se completan los datos y se graba de nuevo, aparece error csrsubroductos.
+
+    Lo mismo si pasa en seccion etc ..
+
+    Comportamiento extraño en los sabores, la grilla no deberia dejar editar, si pones en cero el codigo borra el sabor?
+    la grilla no deberia dejar añadir, sacar columna TROQUEL
+   
+    Grilla readonly please
+
+    OKOK
+
+5 - Cambiando de Usuario : La terminal se encuentra bloqueada, consulte con el administrador
+    OK
+
+6 - Bonificaciones por articulo - ver grilla readonly. (OJO VERIFICAR EL INSERT EN LA GRILLA VARIOS)
+
+7 - Bonificaciones por Clientes . La ventana no se puede correr de lugar
+    volacion de clave primaria. (OK ERAN LOS IDS, TENER CUIDADO CON ESO)
+
+8- unificacion de codigos - comportamiento extraño de la grilla OK
+
+9- Movimientos de entrada salida de stock - Muestra y deja elejir TODOS los comprobantes
+   Cuando no esta definido el Pto de Venta muestra mal la ayuda de que hacer
+   El formulario no puede moverse, verificar que todos los forms puedan moverse porque sino no se puede trabajar
+   en multiples pantallas.
+   Muestra mal el ultimo numero de comprobante despues de grabar, si esta puesto el numerador automatico.
+
+   OK
+
+10- Abm de cuentas corrientes - Falta pestaña Observaciones
+    averiguar con osvaldo tema comodatos.
+
+    OKOK
+
+11- Abm de vendedores. Cuando se carga una cuenta contable y se digita el numero da error.
+    tambien al subir y bajar con las flechas.
+    OKOK
+
+12- Abm de rutas, si el vendedor que se intenta asignar no esta activo
+    te mete en un ciclo infinito y no te deja salir.
+     OOK
+
+13- Abm de Fzas de vta - Te deja borrar una fza de venta que tenga vendedores.
+    OKOK 
+
+14 -Abm motivos de anulaxion cambiar de lugar, poner dentro de ventas
+    VER.
+    OK
+
+15 -Carga ruta de visitas no se puede mover el form.
+   - Falta opcion para buscar un codigo de cliente dentro de lo que ya esta cargado
+   - Ver que hace el F3
+    OK
+	
+16 -Cobranzas y Pagos , ver con hector.
+
+17 -Facturacion - La pantalla esta corrida. La pantalla no se puede correr.
+   - Cuando se sube a la grilla con el mouse no responde al F8, el F8 cierra el comprobamte??
+   - Ver si se puede mover con las flechas cursoras ademas de + y - en la grilla de producto.
+    OK
+
+   - COnsultando facturas o notas de pedido, grilla debe ser readonly en las columnas q no sean el chkbox.
+   - La busqueda por cliente y numero de comprobante deberia ser como antes.
+
+   - La consulta me deja ver las facturas hechas por facturacion pero no las hechas por facturacion de pedidos. OK
+		
+
+18 - Rendicion de fletero se corta con error afebcocar .. depues de cargar valores
+     OK
+19 - 

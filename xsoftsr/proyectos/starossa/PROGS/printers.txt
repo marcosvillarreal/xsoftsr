@@ -1,0 +1,101 @@
+ 
+
+lcPrinterName = GETPRINTER()
+
+nPrinters=APRINTERS(laAvailPrinters)
+
+FOR i = 1 TO nPrinters
+
+      IF UPPER(laAvailPrinters[i,1]) = UPPER(lcPrinterName)
+
+            lcPort = laAvailPrinters[i,2]
+
+            lcPort = CHRTRAN(lcPort,':','')
+
+            EXIT
+
+      ENDIF
+
+ENDFOR
+
+?"lcPort",lcPort
+
+?"lcPrinterName",lcPrinterName
+
+ 
+
+#define DC_BINS             6
+
+#define DC_BINNAMES         12
+
+DECLARE INTEGER DeviceCapabilities IN winspool.drv;
+
+      STRING pDevice, STRING pPort, INTEGER fwCapability,;
+
+      STRING @pOutput, INTEGER pDevMode
+
+ 
+
+DECLARE INTEGER GetLastError IN kernel32
+
+ 
+
+nResult= DeviceCapabilities(lcPrinterName, lcPort, DC_BINS, 0, 0)
+
+IF nResult=-1
+
+      ?"Err getting DC_BINS size",GetLastError()
+
+      RETURN
+
+ENDIF
+
+?nResult
+
+cstr=SPACE(nResult* 2)  && WORD is 2 bytes each
+
+nResult=DeviceCapabilities(lcPrinterName, lcPort, DC_BINS, @cstr, 0)
+
+IF nResult=-1
+
+      ?     "Err getting DC_BINS",GetLastError()
+
+ENDIF
+
+nBins=nResult
+
+?"Bins"
+
+DIMENSION aBins[nBins]
+
+FOR i = 1 TO nBins
+
+      aBins[i]=CTOBIN(SUBSTR(cstr,i*2-1,2),"2rs")
+
+      ?aBins[i]
+
+ENDFOR
+
+ 
+
+cstr=SPACE(nBins*24)
+
+nResult=DeviceCapabilities(lcPrinterName, lcPort, DC_BINNAMES, @cstr, 0)
+
+IF nResult=-1
+
+      ?     "Err getting DC_BINNAMES",GetLastError()
+
+ENDIF
+
+FOR i = 1 TO nBins
+
+      ?CHRTRAN(SUBSTR(cstr,(i-1)*24+1,24),CHR(0),"")
+
+ENDFOR
+
+ 
+
+ 
+
+ 

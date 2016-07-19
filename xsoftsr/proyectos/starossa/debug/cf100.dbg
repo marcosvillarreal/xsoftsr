@@ -1,0 +1,17 @@
+DBGCFGVERSION=4
+WATCH=ncantidad
+WATCH=nsubcant
+WATCH=CsrXCuerfac.cantidad
+WATCH=CsrXCuervari.cantidad
+WATCH=CsrXCuerfac.nombre
+WATCH=_nSubTotal +  (nPreUnita * nSubCant)
+WATCH=CsrAuxCuerfac.idmaopera
+WATCH=_nSubTotal
+WATCH=OscCabefac.idmaopera
+WATCH=_lnTotalCiva
+WATCH=nPreUnita
+WATCH=_lnTotalCiva + (nPreUnita * OscCuerfac.cantcf)
+WATCH=nPreUnita * OscCuerfac.cantcf
+BPMESSAGE=ON
+EVENTWINDOW=ON
+EVENTFILE=

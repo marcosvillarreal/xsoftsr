@@ -1,0 +1,23 @@
+12-04-2016 , Version 2.10d InstallDir C:\PROGRA~1\PyAfipWs1.16d C:\PROGRA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,10)WSFE.CompUltimoAutorizado(2,10)WSFE.CompUltimoAutorizado(3,10)WSFE.CompUltimoAutorizado(6,10)WSFE.CompUltimoAutorizado(7,10)WSFE.CompUltimoAutorizado(8,10)WSFE.CompUltimoAutorizado(1,10)Orden:2071287703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+15-04-2016 , Version 2.10d InstallDir C:\PROGRA~1\PyAfipWs1.16d C:\PROGRA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,10)WSFE.CompUltimoAutorizado(2,10)WSFE.CompUltimoAutorizado(3,10)WSFE.CompUltimoAutorizado(6,10)WSFE.CompUltimoAutorizado(7,10)WSFE.CompUltimoAutorizado(8,10)WSFE.CompUltimoAutorizado(6,10)10202: Campo CbteNro no lo ingreso o supera el tamaño permitido de 8 caracteres numericos.
+19-04-2016 , Version 2.10b HomologaciónInstallDir C:\PROGRA~1\PyAfipWs1.16d HomologaciónC:\PROGRA~1\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 152, in capturar_errores_wrapper
+  File "utils.pyc", line 375, in SetTicketAcceso
+RuntimeError: Ticket de Acceso vacio!
+Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 152, in capturar_errores_wrapper
+  File "utils.pyc", line 375, in SetTicketAcceso
+RuntimeError: Ticket de Acceso vacio!
+.Exepción: RuntimeError: Ticket de Acceso vacio!
+Traceback: Traceback (most recent call last):
+  File "utils.pyc", line 152, in capturar_errores_wrapper
+  File "utils.pyc", line 375, in SetTicketAcceso
+RuntimeError: Ticket de Acceso vacio!
+
+19-04-2016 , Version 2.10d InstallDir C:\PROGRA~1\PyAfipWs1.16d C:\PROGRA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,10)WSFE.CompUltimoAutorizado(2,10)WSFE.CompUltimoAutorizado(3,10)WSFE.CompUltimoAutorizado(6,10)WSFE.CompUltimoAutorizado(7,10)WSFE.CompUltimoAutorizado(8,10)WSFE.CompUltimoAutorizado(1,10)Orden:2076637780: El CAEA informado no se encuentra registrado en las bases de la AdministraciÃ³n.602: No existen datos en nuestros registros para los parametros ingresados.

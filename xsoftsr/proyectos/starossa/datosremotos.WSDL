@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Generated 02/15/06 by Microsoft SOAP Toolkit WSDL File Generator, Version 3.00.1325.0 --> 
+<definitions
+	name='datosremotos'
+	targetNamespace='http://servidorxp/datosremotos/wsdl/'
+	xmlns:wsdlns='http://servidorxp/datosremotos/wsdl/'
+	xmlns:typens='http://servidorxp/datosremotos/type/'
+	xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/'
+	xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+	xmlns:stk='http://schemas.microsoft.com/soap-toolkit/wsdl-extension'
+	xmlns:dime='http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/'
+	xmlns:ref='http://schemas.xmlsoap.org/ws/2002/04/reference/'
+	xmlns:content='http://schemas.xmlsoap.org/ws/2002/04/content-type/'
+	xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+	xmlns='http://schemas.xmlsoap.org/wsdl/'>
+
+	<types>
+		<schema
+			targetNamespace='http://servidorxp/datosremotos/type/'
+			xmlns='http://www.w3.org/2001/XMLSchema'
+			xmlns:SOAP-ENC='http://schemas.xmlsoap.org/soap/encoding/'
+			xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+			elementFormDefault='qualified'>
+
+			<import namespace='http://schemas.xmlsoap.org/soap/encoding/'/>
+			<import namespace='http://schemas.xmlsoap.org/wsdl/'/>
+			<import namespace='http://schemas.xmlsoap.org/ws/2002/04/reference/'/>
+			<import namespace='http://schemas.xmlsoap.org/ws/2002/04/content-type/'/>
+
+		</schema>
+	</types>
+
+	<message name='datosremotos.Listasimple'>
+		<part name='Lcdstpublico' type='xsd:string'/>
+		<part name='lccspublico' type='xsd:string'/>
+		<part name='lcCmd' type='xsd:string'/>
+		<part name='lcorigen' type='xsd:string'/>
+		<part name='lckey' type='xsd:string'/>
+	</message>
+
+	<message name='datosremotos.ListasimpleResponse'>
+		<part name='Result' type='xsd:anyType'/>
+		<part name='Lcdstpublico' type='xsd:string'/>
+		<part name='lccspublico' type='xsd:string'/>
+		<part name='lcCmd' type='xsd:string'/>
+		<part name='lcorigen' type='xsd:string'/>
+		<part name='lckey' type='xsd:string'/>
+	</message>
+
+	<portType name='datosremotosSoapPort'>
+
+		<operation name='Listasimple' parameterOrder='Lcdstpublico lccspublico lcCmd lcorigen lckey'>
+			<input message='wsdlns:datosremotos.Listasimple'/>
+			<output message='wsdlns:datosremotos.ListasimpleResponse'/>
+		</operation>
+
+	</portType>
+
+	<binding name='datosremotosSoapBinding' type='wsdlns:datosremotosSoapPort' >
+
+		<stk:binding preferredEncoding='UTF-8'/>
+		<soap:binding style='rpc' transport='http://schemas.xmlsoap.org/soap/http'/>
+
+		<operation name='Listasimple'>
+			<soap:operation soapAction='http://servidorxp/datosremotos/action/datosremotos.Listasimple'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://servidorxp/datosremotos/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Lcdstpublico lccspublico lcCmd lcorigen lckey'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://servidorxp/datosremotos/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result Lcdstpublico lccspublico lcCmd lcorigen lckey'/>
+			</output>
+		</operation>
+
+	</binding>
+
+	<service name='datosremotos' >
+		<port name='datosremotosSoapPort' binding='wsdlns:datosremotosSoapBinding' >
+			<soap:address location='http://SERVIDORXP/datosremotos/datosremotos.WSDL'/>
+		</port>
+	</service>
+
+</definitions>

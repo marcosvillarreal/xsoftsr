@@ -1,0 +1,2779 @@
+FUNCTION CursorAdapterToXML
+PARAMETERS cAlias,cFileName,cEncoding,nOutputFormat,nFlags
+cEncoding		= IIF(PCOUNT()<3,"iso-8859-1",cEncoding)
+nOutputFormat	= IIF(PCOUNT()<4,1,nOutputFormat)
+nFlags			= IIF(PCOUNT()<5,16,nFlags)
+LOCAL cXMLLocal
+
+SET SAFETY OFF 
+CURSORTOXML(cAlias,"cXMLLocal",nOutputFormat,nFlags)
+cXMLLocal=STRTRAN(cXMLLocal, 'encoding="Windows-1252"', 'encoding="'+cEncoding+'"')
+= STRTOFILE(cXMLLocal,cFileName)
+SET SAFETY ON 
+RETURN 
+
+*********************************************************
+* Funcion: GRABAR_LOG
+* Graba una linea en el log (en raiz\LOG.TXT)
+* Parametros:
+*       tctexto   - texto a grabar
+* Ejemplos:
+*       ret = GRABAR_LOG("Inicio de Programa")
+* Retorno:
+*        .T.    Grabacion correcta
+*        .F.	Error en la grabacion
+**********************************************************
+Function GRABAR_LOG
+
+Parameters tcTexto,tcArchivo,tcCarpeta
+
+Private plRet, pnFich, pnFichn, pnFtama, pnTammax, pnLongAc
+Private pcChar, pnPos,Lcdirlog,Lcfilelog,Lcnewlog
+
+tcArchivo=IIF(PCOUNT()<2,'Log.txt',tcArchivo)
+tcCarpeta=IIF(PCOUNT()<3,'Logs',tcCarpeta)
+
+Lcdirlog=Sys(5)+Sys(2003)+'\'+tcCarpeta
+Lcfilelog=Lcdirlog+'\'+tcArchivo
+LcNewlog=Lcdirlog+'\'+'New'+ALLTRIM(tcArchivo)
+
+If !Directory(Lcdirlog)
+	Md (Lcdirlog)
+Endif
+
+plRet    = .T.
+pnLongAc = 0
+pnTammax = 60000
+pnFtama = 0
+
+tcTexto=Dtoc(DATE())+' '+time()+' , '+tcTexto
+
+If File(Lcfilelog)                && ¿Existe el archivo?
+	pnFich = Fopen(Lcfilelog,12)  && Sí: abrir lect./escrit.
+	pnFtama=Fseek(pnFich, 0, 2)                     && Mueve el puntero a EOF
+&& y devuelve el tamaño
+Else
+	pnFich = Fcreate(Lcfilelog)   && Si no, crearlo
+Endif
+If pnFich < 0                                       && Comprobar el error
+&& abriendo el archivo
+	plRet = .F.
+	Wait 'No puedo abrir o crear el archivo de salida (fich)' Window Nowait
+Else                                                && Si no hay error,
+&& escribir en el archivo
+	If pnFtama > pnTammax                           && Si el tamaño es mayor que el max
+		pnFichn = Fcreate(Lcnewlog)    && Crear nuevo log
+		If pnFichn < 0
+			Wait 'No puedo abrir o crear el archivo de salida (fichn)' Window Nowait
+		Else
+			pnPos = Fseek(pnFich, -(pnTammax - 256), 1)
+			pcChar = Fread(pnFich, 1)
+			Do While pcChar <> Chr(10)
+				pcChar = Fread(pnFich, 1)
+			Enddo
+			pnPos = Fseek(pnFich, 0, 1)
+			Do While Not(Feof(pnFich))
+				= Fputs(pnFichn,Fgets(pnFich))
+			ENDDO
+			
+			=Fclose(pnFich)
+			=Fclose(pnFichn)
+			
+			Delete File &Lcfilelog
+			Rename &Lcnewlog To &Lcfilelog
+			pnFich = Fopen(Lcfilelog,12)
+			pnFtama=Fseek(pnFich, 0, 2)
+		Endif
+	Endif
+	=Fputs(pnFich, tcTexto)
+Endif
+=Fclose(pnFich)                                    && Cerrar archivo
+
+Return plRet
+
+*----------------------------------------------------------------------------
+* FUNCION StoC(lcFecha)
+*----------------------------------------------------------------------------
+* De String fecha sin formato a String con formato
+*----------------------------------------------------------------------------
+FUNCTION StoC
+PARAMETERS lcFecha
+lcfecha = alltrim(lcFecha)
+IF LEN(lcFecha)#8
+	RETURN "01-01-1900"
+ENDIF 
+RETURN RIGHT(lcfecha,2)+"-"+LEFT(RIGHT(lcfecha,4),2)+"-"+LEFT(lcfecha,4)
+
+*--------------------------------------------------------------
+*--------------------------------------------------------------
+FUNCTION ExisteCarpeta
+PARAMETERS cRuta,lCrear
+lCrear = IIF(PCOUNT()<2,.t.,lCrear)
+
+SET SAFETY OFF 
+IF (cRuta$SYS(5)) OR  LEN(cRuta)=0
+	RETURN SYS(5)+'\'
+ENDIF 
+IF !DIRECTORY(cRuta)
+	MKDIR &cRuta
+ENDIF 	
+SET SAFETY ON 
+
+RETURN cRuta
+
+*----------------------------------------------------------------------------
+* FUNCION Grabar_Sec(tcTexto,tcArchivo,tcCarpeta)
+*----------------------------------------------------------------------------
+*Grabamos secuencias de comenados en un archivo
+*tcTexto = Secuencia
+*tcArchivo = Nombre del Archivo
+*tcCarpeta = Ruta del archivo
+*----------------------------------------------------------------------------
+Function GRABAR_SEC
+
+Parameters tcTexto,tcArchivo,tcCarpeta
+
+Private plRet, pnFich, pnFichn, pnFtama, pnTammax, pnLongAc
+Private pcChar, pnPos,Lcdirlog,Lcfilelog,Lcnewlog
+
+tcArchivo=IIF(PCOUNT()<2,'Secuencia'+DTOS(DATE())+'.txt',tcArchivo)
+tcCarpeta=IIF(PCOUNT()<2,'Sec',tcCarpeta)
+
+Lcdirlog=Sys(5)+Sys(2003)+'\'+tcCarpeta
+Lcfilelog=Lcdirlog+'\'+tcArchivo
+LcNewlog=Lcdirlog+'\'+'New'+ALLTRIM(tcArchivo)
+
+If !Directory(Lcdirlog)
+	Md (Lcdirlog)
+Endif
+
+plRet    = .T.
+pnLongAc = 0
+pnTammax = 60000
+pnFtama = 0
+
+tcTexto=Dtoc(Datetime())+' , '+tcTexto
+
+If File(Lcfilelog)                && ¿Existe el archivo?
+	pnFich = Fopen(Lcfilelog,12)  && Sí: abrir lect./escrit.
+	pnFtama=Fseek(pnFich, 0, 2)                     && Mueve el puntero a EOF
+&& y devuelve el tamaño
+Else
+	pnFich = Fcreate(Lcfilelog)   && Si no, crearlo
+Endif
+If pnFich < 0                                       && Comprobar el error
+&& abriendo el archivo
+	plRet = .F.
+	Wait 'No puedo abrir o crear el archivo de salida (fich)' Window Nowait
+Else                                                && Si no hay error,
+&& escribir en el archivo
+	If pnFtama > pnTammax                           && Si el tamaño es mayor que el max
+		pnFichn = Fcreate(Lcnewlog)    && Crear nuevo log
+		If pnFichn < 0
+			Wait 'No puedo abrir o crear el archivo de salida (fichn)' Window Nowait
+		Else
+			pnPos = Fseek(pnFich, -(pnTammax - 256), 1)
+			pcChar = Fread(pnFich, 1)
+			Do While pcChar <> Chr(10)
+				pcChar = Fread(pnFich, 1)
+			Enddo
+			pnPos = Fseek(pnFich, 0, 1)
+			Do While Not(Feof(pnFich))
+				= Fputs(pnFichn,Fgets(pnFich))
+			ENDDO
+			
+			=Fclose(pnFich)
+			=Fclose(pnFichn)
+			
+			Delete File &Lcfilelog
+			Rename &Lcnewlog To &Lcfilelog
+			pnFich = Fopen(Lcfilelog,12)
+			pnFtama=Fseek(pnFich, 0, 2)
+		Endif
+	Endif
+	=Fputs(pnFich, tcTexto)
+Endif
+=Fclose(pnFich)                                    && Cerrar archivo
+
+Return plRet
+
+*----------------------------------------------------------------------------
+* FUNCION ArmarFechaWhere(cCampo,cFechaDesde,cFechaHasta)
+*----------------------------------------------------------------------------
+* Crea la cadena con el campo de donde debe buscarse las fechas
+* cCampo nombre del campo donde se hace refrencia a la busqueda
+* cFechaDesde campo caracter de donde se debe buscar la fecha
+* cFechaHasta campo caracter de donde se debe buscar la fecha
+*----------------------------------------------------------------------------
+FUNCTION ArmarFechaWhere
+PARAMETERS cCampo,cFechaDesde,cFechaHasta
+
+cCampo = ALLTRIM(IIF(PCOUNT()<1,"fecha",cCampo))
+cFechaDesde = IIF(PCOUNT()<2,"",cFechaDesde)
+cFechaHasta = IIF(PCOUNT()<3,"",cFechaHasta)
+LOCAL lHayFechaDesde,lHayFechaHasta,cWhere
+cWhere = ""
+*Tres Posibilidades 
+*Si existen ambas fechas se arma un between
+*Si solo existe una si es desde entonces >= , sino es hasta entonces <=
+lHayFechaDesde = IIF(LEN(LTRIM(cFechaDesde))#0,.t.,.f.)
+lHayFechaHasta = IIF(LEN(LTRIM(cFechaHasta))#0,.t.,.f.)
+IF lHayFechaDesde AND lHayFechaHasta
+	cWhere = " (" + cCampo + " BETWEEN '"+DTOS(CTOD(cFechaDesde)) + "' and '" + DTOS(CTOD(cFechaHasta))+ "')"
+ELSE
+	cWhere = IIF(lHayFechaDesde OR lHayFechaHasta," " + cCampo + IIF(lHayFechaDesde," >= "," <= ") + " '" +DTOS(CTOD(IIF(lHayFechaDesde,cFechaDesde,cFechaHasta)))+"' ","")
+ENDIF 
+RETURN  cWhere
+
+*------------------------------------------------------------------*
+*------------------------------------------------------------------*
+FUNCTION LenTrim
+PARAMETERS cDato
+
+IF VARTYPE(cDato)<>'C'
+	oavisar.usuario("Error Function LenTrim() requiere un dato caracter")
+	RETURN 0
+ENDIF 
+RETURN LEN(LTRIM(cDato))
+
+
+FUNCTION strzero
+PARAMETERS tcdato,tntamfinal,tndecimal
+tndecimal = iif(pcount()<3,0,tndecimal)
+local lcval,lcsigno
+lcsigno=1
+IF tcdato<0
+   tcdato=ABS(tcdato)
+   lcsigno=-1
+   tntamfinal=tntamfinal-1
+endif
+lcval = strtran(str(tcdato,tntamfinal,tndecimal),' ','0')
+IF lcsigno=-1
+   lcval='-'+lcval
+ENDIF
+return lcval
+*----------------------------------------------------------------------------
+* FUNCION ExcelVistaPreviaGrupo(Objeto,Grupos)
+*----------------------------------------------------------------------------
+* Crea el objeto que interactua para generar la salida por excel para vista previa
+* El Objeto debe ser pasado por referencia
+* Este objeto contendra las columnas por grupo
+* Grupos = la cantidad de grupos.
+*----------------------------------------------------------------------------
+FUNCTION ExcelVistaPreviaGrupo
+PARAMETERS loObjeto,lnGrupos
+lnGrupos = IIF(PCOUNT()<2,0,lnGrupos)
+
+loObjeto = CREATEOBJECT("Custom")
+WITH loObjeto
+	.AddProperty('recortarheader',.f.) &&Indica si el titulo se divide en filas
+	.AddProperty('cuantos',lnGrupos)
+	FOR i=1 TO lnGrupos
+		&&Se vuelve a crear el objeto, pq sino todos hacen referencia al mismo
+		ObjGrupo = CREATEOBJECT("Custom")
+		ObjGrupo.AddProperty('NameGroup',"") &&Titulo del Grupo
+		ObjGrupo.AddProperty('ListColumns',null)  &&Arreglo con los nombre de los campos
+		ObjGrupo.AddProperty('Columns',0) &&Cantidad de columnas
+		
+		.AddProperty('Grupo'+strzero(i,3),ObjGrupo) 
+		
+		ObjGrupo=null
+	NEXT 
+ENDWITH 
+RETURN
+
+*-------------------------------------------------------
+* FUNCTION AsociarColumnaGrupo
+*-------------------------------------------------------
+* Asocia un objeto columna al grupo
+* cObjetoGrupo = Nombre del objeto grupo
+* nGrupo = Numero del grupo a asociar
+* nColumna = Cantidad de columnas a asociar
+FUNCTION AsociarColumnaGrupo
+PARAMETERS cObjetoGrupo,nGrupo,nColumna
+cObjetoGrupo= IIF(PCOUNT()<1,"",cObjetoGrupo)
+nGrupo		= IIF(PCOUNT()<2,0,nGrupo)
+nColumna	= IIF(PCOUNT()<3,1,nColumna)
+
+IF EMPTY(cObjetoGrupo) AND nGrupo>0
+	oavisar.PROGRAMADOR("Falta definir el objeto grupo o el grupo")
+	RETURN .f.
+ENDIF 
+LOCAL cObjeto,oObjeto,cGrupo,oGrupo
+
+cObjeto = cObjetoGrupo + ".Grupo" + strzero(nGrupo,3)
+oObjeto	= &cObjeto
+=ExcelVistaPrevia(@oObjeto,nColumna,.t.,.f.)
+cGrupo	= cObjetoGrupo + ".Grupo" + strzero(nGrupo,3)
+oGrupo	= &cGrupo
+oGrupo	= oObjeto
+oGrupo.Columns = nColumna
+
+RETURN 		
+*----------------------------------------------------------------------------
+* FUNCION ExcelVistaPrevia(Objeto,Columnas,Titulo)
+*----------------------------------------------------------------------------
+* Crea el objeto que interactua para generar la salida por excel para vista previa
+* El Objeto debe ser pasado por referencia
+* Columnas = la cantidad de columnas.
+* Titulo = Por defecto determina si el titulos se divide en filas
+*----------------------------------------------------------------------------
+FUNCTION ExcelVistaPrevia
+PARAMETERS loObjeto,lnColumnas,llTitulo,llInit
+lnColumnas = IIF(PCOUNT()<2,0,lnColumnas)
+lltitulo = IIF(PCOUNT()<3,.t.,llTitulo)
+llInit	= IIF(PCOUNT()<4,.t.,llInit)
+
+IF llInit
+	loObjeto = CREATEOBJECT("Custom")
+ENDIF 
+
+WITH loObjeto
+	.Addproperty('cuantos',lnColumnas) &&Indica la cantidad de columnas
+	.AddProperty('recortarheader',lltitulo) &&Indica si el titulo se divide en filas
+	
+	FOR i=1 TO lnColumnas
+		&&Se vuelve a crear el objeto, pq sino todos hacen referencia al mismo
+		ObjColumna = CREATEOBJECT("Custom")
+		ObjColumna.AddProperty('Header',"") &&Indica el nombre del encabezado
+		ObjColumna.AddProperty('BodyFormat','')  &&Indica el formato del cuerpo
+		ObjColumna.AddProperty('Ajusta',.f.) &&Siempre es verdadero. Si se quiere Que el ancho funcione
+		ObjColumna.AddProperty('BodyWidth',-1) &&Determina en caso que exista un ancho especifico para la columna
+		
+		.AddProperty('Column'+strzero(i,3),ObjColumna) 
+		
+		ObjColumna=null
+	NEXT 
+ENDWITH 
+RETURN 
+*==============================================================
+*===Redifinimos el tamaño de id cuando se convierte en string
+*==============================================================
+FUNCTION strid
+PARAMETER tnconv,tntam
+lntam = IIF(PCOUNT()<2,12,tntam)
+LOCAL lcconv
+lcconv=(STR(tnconv,lntam))
+RETURN lcconv
+*----------------------------------------------------------------------------
+* FUNCION DefaultVar(lcpropiedad,loValor,lcTypeDefault)
+*----------------------------------------------------------------------------
+* Funcion que determina si existe la propiedad, darle el valor, sino el valor
+* 	por defecto.
+*----------------------------------------------------------------------------
+FUNCTION DefaultVar
+PARAMETERS lcpropiedad,loValor,lcTypeDefault
+	lcTypeDefault = IIF(PCOUNT()<3,Type(loValor),lcTypeDefault)
+	lbControla = IIF(PCOUNT()<3,.f.,.t.)
+	
+	lcCadenaPropiedad = "'"+lcPropiedad+"'"
+	*lcEjemplo = "'"+'CsrEmpresa.id'+"'"
+	IF !TYPE(&lcCadenaPropiedad)$'U'
+		IF !VARTYPE(&lcPropiedad)$'X'
+			IF lbControla
+				IF !VARTYPE(&lcPropiedad)$lcTypeDefault
+					RETURN loValor
+				ENDIF 
+			ENDIF 
+			lcProperty = &lcCadenaPropiedad &&Tiene un valor string dentro de otro.
+			loProperty = &lcProperty
+			loValor = loProperty
+		ENDIF 
+		
+		RETURN loValor
+	ELSE
+		RETURN loValor
+	ENDIF 
+	RETURN loValor
+ENDFUNC
+
+*----------------------------------------------------------------------------
+* FUNCION TtoS(tFecha)
+*----------------------------------------------------------------------------
+* Crea la cadena con el formato de un datetime que reconoce SQL
+* tFecha Fecha de tipo datetime 
+*----------------------------------------------------------------------------
+FUNCTION TtoS
+PARAMETERS tFecha
+
+cFecha = LEFT(TTOC(tFecha),10)
+cFecha = DTOS(CTOD(cFEcha))
+cHora = strzero(HOUR(tFecha),2)+":"+strzero(MINUTE(tFecha),2)+":"+strzero(SEC(tFecha),2)
+
+RETURN cFEcha+" "+cHora
+
+*----------------------------------------------------------------------------
+* FUNCION SaveSQL(lcCmd,lcArchivo)
+*----------------------------------------------------------------------------
+* Guarda la consulta al motor
+*----------------------------------------------------------------------------
+FUNCTION SaveSQL
+PARAMETERS lcCmd,lcArchivo
+IF LEN(LTRIM(lcCmd))=0
+	RETURN 
+ENDIF 
+IF LEN(LTRIM(lcArchivo))=0
+	RETURN 
+ENDIF 
+lcRuta = SYS(5)+ "\tempsql\"+ALLTRIM(goapp.initcatalo)
+IF VARTYPE(goapp.rutaaplicacion)$'C'
+	lcRuta = IIF(LEN(LTRIM(goapp.rutaaplicacion))#0,goapp.rutaaplicacion+ "\tempsql",lcRuta)	
+ENDIF 
+IF !DIRECTORY(lcRuta)
+	MKDIR &lcRuta
+ENDIF 
+SET SAFETY OFF 
+= STRTOFILE(lccmd,lcRuta+"\"+lcArchivo+".txt")
+SET SAFETY ON 
+
+RETURN 
+*----------------------------------------------------------------------------
+* FUNCION GuardaPagina(lnRecno)
+*----------------------------------------------------------------------------
+* Funcion que se utiliza en reportes, para guardar la ultima pagina generada
+* en un Cursor, para luego almacenarla en otro sitio
+*----------------------------------------------------------------------------
+FUNCTION GuardaPagina
+PARAMETERS lnRecno
+	replace ultpagina with nropagina + lnrecno in CsrEncabezado
+RETURN 
+*----------------------------------------------------------------------------
+* FUNCION StrTrim(lnValor,lnTam,lcDec)
+*----------------------------------------------------------------------------
+* Funcion que devuelve la trasformacion de str sin espaciones vacios.
+*----------------------------------------------------------------------------
+FUNCTION StrTrim
+PARAMETERS lnValor,lnTam,lnDec
+lnValor = IIF(PCOUNT()<1,0,lnValor)
+lnTam = IIF(PCOUNT()<2,10,lnTaM)
+lnDec = IIF(PCOUNT()<3,0,lnDec)
+
+RETURN ALLTRIM(STR(lnValor,lnTam,lnDec))
+*--------------------------------------------------
+* FUNCION Stop()
+*--------------------------------------------------
+* Funcion que se utiliza en desarrollo para debug
+*--------------------------------------------------
+FUNCTION STOP()
+	lldesarrollo=(_vfp.startmode()#4)
+	IF lldesarrollo
+		oavisar.proceso('N')
+		DEBUG
+		SUSPEND 
+	ENDIF 
+	RETURN
+ENDFUNC  
+*--------------------------------------------------
+* FUNCION Vista()
+*--------------------------------------------------
+* Funcion que se utiliza en desarrollo para browse
+*--------------------------------------------------
+FUNCTION VISTA()
+	lldesarrollo=(_vfp.startmode()#4)
+	IF lldesarrollo
+		oavisar.proceso('N')
+		SELECT (ALIAS())
+		BROWSE 
+	ENDIF 
+	RETURN
+ENDFUNC  
+*-------------------------------------------------
+FUNCTION pelocuit
+PARAMETERS lccuit
+lccuit=ALLTRIM(STRTRAN(lccuit,'-',''))
+lccuit=ALLTRIM(STRTRAN(lccuit,'/',''))
+lccuit=LEFT(lccuit+space(11),11)
+RETURN lccuit
+
+FUNCTION CrearCursorAdapterUpdate
+PARAMETERS lcaliasCursor,lccmdSelectCursor,cursorbuffermodeoverride
+
+IF USED(lcaliasCursor)
+   USE IN (lcaliasCursor)
+ENDIF
+
+cursorbuffermodeoverride = IIF(PCOUNT()<3,5,cursorbuffermodeoverride)
+
+lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ")
+lccmdSelectCursor= CHRTRAN(lccmdSelectCursor,CHR(13)," ")
+lccmdSelectCursor= CHRTRAN(lccmdSelectCursor,CHR(10)," ")
+
+Orslista = null 
+Ocalista = null
+
+IF LcDataSourceType="ADO"
+	Orslista= createobject('ADODB.RecordSet')
+	Orslista.CursorLocation   = 3  && adUseClient
+	Orslista.LockType         = 3  && adLockOptimistic
+	IF TYPE('loConnDataSource')='O' 
+	   Orslista.ActiveConnection = loConnDataSource
+	ENDIF 
+ENDIF
+IF LcDataSourceType="ODBC"
+   Orslista = lnconectorODBC
+ENDIF 
+
+OCAlista = CREATEOBJECT("CursorAdapter")
+WITH OCAlista
+    .Alias     = lcaliasCursor
+    .DataSource = Orslista
+    .DataSourceType = LcDataSourceType
+    .SelectCmd=lccmdSelectCursor
+    .UseDedatasource=.f.
+    .BufferModeOverride = cursorbuffermodeoverride 
+    .Name = lcaliasCursor
+    .UpdateType = 1
+ENDWITH 
+
+IF !OCAlista.CursorFill()
+	IF AERROR(laError) > 0
+		=Oavisar.Usuario("Error al obtener datos:"+laError[2]+" alias "+lcaliasCursor+CHR(13)+lccmdSelectCursor,0)
+	ENDIF
+	OCalista.CursorDetach()
+	Ocalista = null
+ELSE
+	lnCount = AFIELDS(ArrayFieldName,lcaliasCursor)
+	lcCampos = ""
+	FOR i = 1 TO  lnCount
+		lcCampos = LTRIM(lcCampos)+IIF(LEN(LTRIM(lcCampos))=0,"",",")+ PROPER(ArrayFieldName[i,1])
+	ENDFOR 
+	OCAlista.updatablefieldlist = lcCampos
+ENDIF
+    
+RETURN OCAlista
+
+function NNUEVOID(TCALIAS,tcnombreids)
+tcnombreids=iif(pcount()<2,'IDS',tcnombreids)
+	local LCALIAS, ;
+		LNID, ;
+		LCOLDREPROCESS, ;
+		LNOLDAREA
+
+	LNOLDAREA = select()
+
+	if parameters() < 1
+		LCALIAS = upper(alias())
+	else
+		LCALIAS = upper(TCALIAS)
+	endif
+
+	LCOLDREPROCESS = set('REPROCESS')
+
+	*-- Lock until user presses Esc
+	set reprocess to automatic
+
+	if !used('IDS')
+		use &tcnombreids in 0 alias ids
+	endif
+	select IDS
+	if seek(LCALIAS,'IDS', "table")
+		if rlock()
+			LNID = IDS.NEXTID
+			replace IDS.NEXTID with IDS.NEXTID + 1
+			unlock
+		endif
+	else
+		=messagebox('No se encontro '+LCALIAS+' en IDS',16, ;
+			'ERROR EN TABLA IDS')
+		LNID=0
+	endif
+
+	select (LNOLDAREA)
+	set reprocess to LCOLDREPROCESS
+
+	return LNID
+endfunc
+
+*=====================================
+*== CONVIERTE UN CURSOR EN MODIFICABLE
+*=====================================
+procedure hazmodificable
+
+	lparameters m.alias
+
+	use (dbf(m.alias)) in 0 again alias hazmodificable
+	use in (m.alias)
+	use (dbf("hazmodificable")) in 0 again alias (m.alias)
+	use in hazmodificable
+
+endproc
+
+*===================================================
+*== DEVOLVER REFERENCIAS DE OBJETOS DE NEGOCIOS HIJO
+*===================================================
+* PARAMETROS
+*	toContenedor: contenedor en donde se buscan los hijos
+*		las clases que se toman son las indicadas en la
+*		función lClaseContenedora, no se pasan clases tipo pageframe,
+*		sino que se pasan las páginas del mismo, ya que no tiene
+*		propiedad controls.
+*	tcNombre: nombre del padre a buscar
+*	taoHijos: devuelve las referencias (por referencia)
+*	tnHijos: cantidad de hijos encontrados (por referencia), el valor inicial debe ser 0
+* OBSERVACIONES:
+*	El procedimiento busca coincidencias entre el valor de la propiedad cObjNegPadre
+*		y el parametro tcNombre, los objetos que cumplen esta condición son agregados
+*		a la matriz taoHijos
+*	Para controles de tipo contenedor, realiza una llamada recursiva.
+function GetObjNegHijosRef
+parameters toContenedor,tcNombre,taoHijos,tnHijos
+
+local loControl,lnInd,lnPages
+FOR EACH loControl IN toContenedor.Controls
+	if pemstatus(loControl,'cObjNegPadre',5) ;
+		and upper(alltrim(loControl.cObjNegPadre))=upper(alltrim(tcNombre))
+		tnHijos=tnHijos+1
+		dimension taoHijos(tnHijos)		
+		taoHijos(tnHijos)=loControl
+	endif
+	*-- LLAMADA RECURSIVA PARA CONTROLES DE TIPO CONTENEDOR
+	if lClaseContenedora(loControl)      
+		*-- PARA PAGEFRAMES, LLAMAR POR CADA PAGINA, YA QUE NO TIENE PROPIEDAD CONTROLS
+		if upper(loControl.baseclass)='PAGEFRAME'
+			FOR EACH loPages IN loControl.Pages
+				=GetObjNegHijosRef(loPages,tcNombre,@taoHijos,@tnHijos)
+			ENDFOR 
+		else
+			=GetObjNegHijosRef(loControl,tcNombre,@taoHijos,@tnHijos)		
+		endif
+	endif
+ENDFOR 
+
+*====================================
+*== INDICA SI LA CLASE ES CONTENEDORA
+*====================================
+function lClaseContenedora
+parameters toControl
+
+local lcBC,lcnom
+if !pemstatus(toControl,'baseclass',5)
+   return .f.
+endif
+if vartype(toControl.baseclass)='U'
+   return .f.
+endif
+lcBC=upper(toControl.baseclass)
+lcnom=upper(toControl.name)
+return inlist(lcBC,'CONTAINER','PAGEFRAME','PAGE','FORM')
+
+function GetObjNegHijosRefInsDel
+parameters toContenedor,tcNombre,taoHijos,tnHijos
+
+local loControl,lnInd,lnPages
+FOR EACH locontrol IN toContenedor.Controls
+    
+	if pemstatus(loControl,'cObjNegPadre',5) ;
+		and upper(alltrim(loControl.cObjNegPadre))=upper(alltrim(tcNombre))
+		    if pemstatus(loControl,'hijoInsDel',5) and loControl.hijoInsdel
+         	   tnHijos=tnHijos+1
+		       dimension taoHijos(tnHijos)		
+		       taoHijos(tnHijos)=loControl
+		    endif   
+	endif
+	*-- LLAMADA RECURSIVA PARA CONTROLES DE TIPO CONTENEDOR
+	if lClaseContenedora(loControl)      
+		*-- PARA PAGEFRAMES, LLAMAR POR CADA PAGINA, YA QUE NO TIENE PROPIEDAD CONTROLS
+		if upper(loControl.baseclass)='PAGEFRAME'
+			FOR EACH loPages IN loControl.Pages
+				=GetObjNegHijosRefInsDel(loPages,tcNombre,@taoHijos,@tnHijos)
+			ENDFOR 
+		else
+			=GetObjNegHijosRefInsDel(loControl,tcNombre,@taoHijos,@tnHijos)		
+		endif
+	endif
+ENDFOR 
+
+
+*========
+*== VACIO
+*========
+function vacio
+* Usado como origen de datos en columnas de grilla
+*	que no muestran datos.
+return ''
+
+*==========
+*== XSetAll
+*==========
+function XSetAll
+Parameters tcGrupo, tcPropiedad, tuValor,toForm
+local loControl
+For Each loControl in toForm.Controls
+	If Upper( loControl.Tag ) = Upper( tcGrupo )
+		loControl.&tcPropiedad. = tuValor
+	Endif
+Next
+
+Function Reporte
+parameters nombreinforme,esvistaprevia
+
+do case
+
+	case esvistaprevia
+
+		wait window 'Generando vista previa , aguarde ...' nowait
+
+		SET RESOURCE OFF  
+		PUSH KEY
+
+		DEFINE WINDOW wPreview FROM 0,0 TO 1,1; 
+		    TITLE 'Vista preliminar' in screen CLOSE float grow minimize zoom SYSTEM NAME oPreview
+		    
+		ZOOM WINDOW wPreview MAX
+
+		ON KEY LABEL UPARROW; 
+			MOUSE CLICK AT 5,oPreview.Width-8;
+			PIXELS WINDOW wPreview
+
+		ON KEY LABEL DNARROW; 
+		    MOUSE CLICK AT oPreview.Height-22,oPreview.Width-8;
+		    PIXELS WINDOW wPreview
+
+		ON KEY LABEL LEFTARROW; 
+		    MOUSE CLICK AT oPreview.Height-10,6; 
+		    PIXELS WINDOW wPreview
+
+		ON KEY LABEL RIGHTARROW; 
+		    MOUSE CLICK AT oPreview.Height-10,oPreview.Width-22;
+		    PIXELS WINDOW wPreview
+
+		ON KEY LABEL HOME; 
+		    MOUSE DBLCLICK AT 18,oPreview.Width-8;
+		    PIXELS WINDOW wPreview
+
+		ON KEY LABEL END;
+		    MOUSE DBLCLICK AT oPreview.Height-35,oPreview.Width-8;
+		    PIXELS WINDOW wPreview
+
+		REPORT FORM (NombreInforme); 
+		    TO PRINTER PROMPT PREVIEW WINDOW wPreview
+
+		POP KEY
+		SET RESOURCE ON
+		wait clear
+	other
+		REPORT FORM (NombreInforme); 
+		    TO PRINTER PROMPT NOCONSOLE
+	endcase	
+Endfunc
+
+Function report_contarpaginas
+PARAMETERS lc_report
+LOCAL nPaginas
+nPaginas = 0
+
+DEFINE WINDOW x FROM 1,1 TO 2,2
+ACTIVATE WINDOW x NOSHOW
+REPORT FORM (lc_report) NOCONSOLE
+nPaginas = _PAGENO
+RELEASE WINDOW x
+RETURN npaginas
+
+
+FUNCTION ReportCopias
+LPARAMETER lcFRX, lnCopias
+LOCAL lcNewExpr, lnStartCopiesLine, lcStartAtCopiesLine, lnEndCopiesLine, ;
+lnLenCopiesLine, lcTop, lcBottom, lcAlias
+#DEFINE vfCRLF CHR(13) + CHR(10)
+
+IF !(UPPER(RIGHT(lcFRX, 4)) = ".FRX")
+lcFRX = lcFRX + ".FRX"
+ENDIF
+lcAlias = ALIAS()
+SELECT 0
+USE (lcFRX)
+LOCATE FOR objType = 1 AND objCode = 53
+
+IF EMPTY(EXPR)
+        lcNewExpr = "COPIES=" + ALLT(STR(lnCopias)) + vfCRLF
+ELSE
+        lnStartCopiesLine = ATC("COPIES", EXPR)
+        lcStartAtCopiesLine = SUBSTR(EXPR, lnStartCopiesLine)
+        lnEndCopiesLine = ATC(vfCRLF, lcStartAtCopiesLine)
+        lnLenCopiesLine = LEN(SUBSTR(lcStartAtCopiesLine, 1, lnEndCopiesLine))
+        lcTop = SUBSTR(EXPR, 1, lnStartCopiesLine - 1)
+        lcBottom = SUBSTR(EXPR, (LEN(lcTop) + lnLenCopiesLine))
+        lcNewExpr  = lcTop + "COPIES=" + ALLT(STR(lnCopias)) + lcBottom
+ENDIF
+
+REPLACE EXPR WITH lcNewExpr
+USE
+IF !EMPTY(lcAlias)
+SELECT (lcAlias)
+ENDIF
+ENDFUNC
+
+FUNCTION UNZAP
+PARAMETER Y
+IF Y>0 .AND. USED()
+   IF RECCOUNT()=0
+      FILENAME=DBF()
+      USE
+      HANDLE=FOPEN(FILENAME,2)
+      IF HANDLE>0
+         BYTE=FREAD(HANDLE,32)
+         BKUP_BYTE=BYTE
+         FIELD_SIZE=ASC(SUBSTR(BYTE,11,1))+(ASC(SUBSTR(BYTE,12,1))*256)
+         FILE_SIZE=FSEEK(HANDLE,0,2)
+         BYTE8=CHR(INT(Y/(256*256*256)))
+         BYTE7=CHR(INT(Y/(256*256)))
+         BYTE6=CHR(INT(Y/256))
+         BYTE5=CHR(MOD(Y,256))
+         BYTE=SUBSTR(BYTE,1,4)+BYTE5+BYTE6+BYTE7+BYTE8+SUBSTR(BYTE,9)
+         =FSEEK(HANDLE,0)
+         =FWRITE(HANDLE,BYTE)
+         =FCHSIZE(HANDLE,FILE_SIZE+(FIELD_SIZE*Y))
+         =FCLOSE(HANDLE)
+      ENDIF
+      USE &FILENAME
+   ENDIF
+ENDIF
+
+function sseek
+	parameters tuExpr
+
+	*-- GUARDAR VALOR DE NEAR
+	local lcNearIni
+	lcNearIni=set('near')
+	set near on
+
+	*-- BUSCAR DATO
+	seek tuExpr
+
+	*-- RESTABLECER NEAR
+	set near &lcNearIni
+
+	return .t.
+endfunc
+
+
+*-----------------------------
+*-- VERIFICA Nº DE CUIT VALIDO
+
+FUNCTION vericuit
+PARAMETER m_cuit,_sicartel
+_sicartel=IIF(PCOUNT()<2,.t.,_sicartel)
+
+LOCAL _cuit,i,_digito,j,suma,RESTO,dv,sale
+if len(alltrim(m_cuit))=0
+   return .t.
+endif
+_cuit=''
+sale = .F.
+FOR i=1 TO LEN(m_cuit)
+	IF SUBS(m_cuit,i,1)$'0123456789'
+		_cuit=_cuit+SUBS(m_cuit,i,1)
+	ENDIF
+NEXT
+IF LEN(_cuit)<>11
+	sale=.F.
+ELSE
+	_digito=VAL(RIGHT(_cuit,1))
+	j=2
+	suma=0
+	dv=0
+	FOR i=10 TO 1 STEP -1
+		suma = suma + VAL(SUBS(_cuit,i,1)) * j
+		j = j + 1
+		j=IIF(j=8,2,j)
+	NEXT
+	RESTO=MOD(suma,11)
+	IF RESTO=0
+		dv=0
+	ELSE
+		dv=11 - RESTO
+		dv=IIF(dv=10,9,dv)
+	ENDIF
+	sale= IIF(_digito=dv,.T.,.F.)
+ENDIF
+if not sale .and. _sicartel
+   =Oavisar.usuario('La c.u.i.t. es inválida',0)
+endif
+RETURN sale
+
+FUNCTION cuit
+PARAMETERS tCuit
+local lcCuit
+lcCuit=''
+if type('tCuit')='N'
+	lcCuit=alltrim(str(tCuit))
+else
+	lcCuit=tCuit
+endif
+if len(lcCuit)#11
+	return ''
+else
+	RETURN LEFT(lcCuit,2)+'-'+SUBSTR(lcCuit,3,8)+'-'+RIGHT(lcCuit,1)
+endif
+
+FUNCTION limpiar_teclado
+CLEAR TYPEAHEAD
+KEYBOARD CHR(32)
+INKEY()
+
+FUNCTION buscardato
+PARAMETERS tuvalor,tcalias,tcorden,tcnear
+LOCAL lcestadonearini,lnreg
+lcestadonearini=SET('near')
+SET NEAR &tcnear
+=SEEK(tuvalor,tcalias,tcorden)
+lnreg=IIF(EOF(tcalias),0,RECNO(tcalias))
+SET NEAR &lcestadonearini
+RETURN lnreg
+
+PROCEDURE isoperator
+PARAMETERS ccar
+RETURN INLIST(ccar,'*','/','+','-','^',' ','<','>','=',')')
+
+PROCEDURE variables
+PARAMETERS cexpr,avariab
+* cExpr: expresión a evaluar
+* aVariab(): nombre de variables encontradas en cExpr
+* nI:entero, indice
+* bInVar: lógico, si se encuentra dentro de una variable
+* cCar: cadena, caracter analizado actualmente
+* nTamMat: numero de elementos de aVar
+
+DIMENSION avariab(1)
+binvar=.F.
+ntammat=0
+
+FOR ni=1 TO LEN(cexpr)
+	ccar=SUBSTR(cexpr,ni,1) && Barre cada uno de los caracteres
+	IF NOT binvar && Primera letra de una posible variable
+		IF ISALPHA(ccar) OR ccar='_'
+			binvar=.T.
+			ntammat=ntammat+1
+			DO redim WITH avariab, ntammat
+			avariab(ntammat)=ccar
+		ENDIF
+	ELSE && Ya me encuentro en una variable
+		IF ccar='(' && Significa que no era una variable, sino una funcion 'xxx('
+			binvar=.F.
+			ntammat=ntammat-1
+			DO redim WITH avariab, ntammat
+		ELSE
+			IF isoperator(ccar) && Es un operador, llegamos al fin de la variable
+				binvar=.F.
+				cvaract=UPPER(avariab(ntammat))
+				IF cvaract='AND' OR cvaract='NOT' OR cvaract='OR' && La variable es;
+						en realidad un operador lógico, por lo que lo excluimos
+					ntammat=ntammat-1
+					DO redim WITH avariab, ntammat
+				ENDIF
+			ELSE && Se agregan más letras (o números) a la variable
+				avariab(ntammat)=avariab(ntammat)+ccar
+			ENDIF
+		ENDIF
+	ENDIF
+NEXT ni
+
+PROCEDURE redim
+PARAMETERS amatriz, ntam
+IF ntam>0 then
+	DIMENSION amatriz(ntam)
+ENDIF
+
+FUNCTION seek_dato
+PARAMETERS tcdatobuscado,tbtipobusqueda
+IF tbtipobusqueda
+	SET NEAR ON
+ELSE
+	SET NEAR OFF
+ENDIF
+SEEK(tcdatobuscado)
+SET NEAR OFF
+RETURN .T.
+
+FUNCTION strzero
+PARAMETERS tcdato,tntamfinal,tndecimal
+tndecimal = iif(pcount()<3,0,tndecimal)
+local lcval,lcsigno
+lcsigno=1
+IF tcdato<0
+   tcdato=ABS(tcdato)
+   lcsigno=-1
+   tntamfinal=tntamfinal-1
+endif
+lcval = strtran(str(tcdato,tntamfinal,tndecimal),' ','0')
+IF lcsigno=-1
+   lcval='-'+lcval
+ENDIF
+return lcval
+*RETURN REPLICATE('0',tntamfinal-LEN(alltrim(str(tcdato)))) + alltrim(str(tcdato))
+
+FUNCTION numtocod
+PARAMETERS tnnum,tntamcod
+RETURN strzero(ALLTRIM(STR(tnnum)),tntamcod)
+
+FUNCTION strz
+PARAMETER tnconv,tntam
+LOCAL lcconv
+lcconv=ALLTRIM(STR(tnconv))
+lcconv=REPLICATE('0',tntam-LEN(lcconv))+lcconv
+RETURN lcconv
+
+FUNCTION strzc
+PARAMETER tcconv,tntam
+LOCAL lcconv
+lcconv=ALLTRIM(tcconv)
+lcconv=REPLICATE('0',tntam-LEN(lcconv))+lcconv
+RETURN lcconv
+
+FUNCTION NombreDia
+PARAMETERS  fec
+
+DIMENSION NomDia[7]
+LOCAL lcnomdia
+lcnomdia  = ""
+
+Nomdia[1] = 'Domingo  '
+NomDia[2]= 'Lunes    '
+NomDia[3]= 'Martes   '
+Nomdia[4]= 'Miércoles'
+Nomdia[5]= 'Jueves   '
+Nomdia[6]= 'Viernes'
+Nomdia[7]= 'Sabado'
+
+DO CASE 	
+	CASE VARTYPE(fec)="D"
+		lcnomdia = Nomdia[dow(fec)]
+	CASE VARTYPE(fec)="N" 
+		IF fec >0 AND fec < 8
+			lcnomdia = Nomdia[fec]
+		ENDIF 			
+ENDCASE
+
+RETURN lcnomdia
+
+PROCEDURE cargararbol
+PARAMETERS tpadrebuscado,tnorden
+*-- Declaración de variables.
+LOCAL lpadrebuscado
+LOCAL lnregactual
+LOCAL lnvalitemdata && Valor de Item Data
+*-- Inicialización de variables.
+lpadrebuscado=tpadrebuscado
+*-- Busqueda de lPadreBuscado
+SELECT plancue
+SET ORDER TO ctamadre
+SEEK lpadrebuscado
+*-- Desplazarse por todos los elementos que tienen como padre a lPadreBuscado;
+para luego llamar a CargarArbol con cada uno de ellos.
+DO WHILE !EOF() AND ctamadre=lpadrebuscado
+	lnregactual=RECNO()
+	REPLACE orden WITH tnorden
+	tnorden=tnorden+1
+	=cargararbol(codcta,@tnorden)
+	GO lnregactual
+	SKIP
+ENDDO
+
+FUNCTION posiciono_cuenta
+LOCAL _cuenta
+SELE cuerasto
+_cuenta=cuerasto.codcta
+SET ORDER TO gab
+SEEK STR(_cuenta,10)+STR(goinfocont.nejeact*10^8+3,14)
+=MESSAGEBOX(STR(cuerasto.codasto,14))
+=MESSAGEBOX(STR(goinfocont.nejeact*10^8+3,14))
+RETURN .T.
+
+Function AFILL
+parameters Amatriz,lvalor
+local i
+for i=1 to Alen(Amatriz)
+   Amatriz[i] = lvalor
+next
+return .t.
+
+function cleartec
+clear typeahead
+keyboard chr(32)
+inkey()
+return .t.
+
+FUNCTION Truncar(tnNro, tnDec)
+  LOCAL ln
+  ln = 10 ^ tnDec
+  RETURN ROUND(INT(tnNro*ln)/ln,tnDec)
+ENDFUNC 
+
+FUNCTION RED
+parameters lnrimporte,lnrdecimal
+lnrdecimal = iif(pcount()<2,2,lnrdecimal)
+local nvar,lncinco,lncien,lcpic
+*nvar = round(lnrimporte,lnrdecimal)
+lcdecimals = VAL(SYS(2001,"DECIMALS"))
+SET DECIMALS TO lnrdecimal
+
+nvar = lnrimporte
+
+*!*	qdecimal = 10 ** lnrdecimal
+*!*	q5             = 0.5 /  qdecimal
+*!*	nvar =IIF(nvar>=0,((nvar + q5) * qdecimal),((nvar - q5) * qdecimal))
+*!*	nvar=INT(nvar)/qdecimal
+
+DO case
+       CASE lnrdecimal=2
+*       		nvar = VAL(TRANSFORM(nvar,"9999999999999.99"))
+			nvar = VAL(STR(nvar,18,2))
+       CASE lnrdecimal=3
+ *     		nvar = VAL(TRANSFORM(nvar,"999999999999.999"))
+			nvar = VAL(STR(nvar,18,3))
+       CASE lnrdecimal=4
+  *   		nvar = VAL(TRANSFORM(nvar,"99999999999.9999"))       		
+			nvar = VAL(STR(nvar,18,4))  
+ENDCASE 
+
+SET DECIMALS TO lcdecimals
+
+return nvar
+
+Function C_entro(_Cartel,_cc,_replica)
+Local _line
+_line = replicate(_replica,_cc)
+_line = stuff(_line,Int(_cc/2)-Int(Len(_Cartel)/2),Len(_Cartel),_Cartel)
+Return _line
+
+*-----------------------------
+*-- Digito Verificador
+
+FUNCTION digiveri
+PARAMETER m_cuit,lnlen,lbmensage
+LOCAL _cuit,i,_digito,j,suma,RESTO,dv,sale
+lbmensage=iif(pcount()<3,.t.,lbmensage)
+if len(alltrim(m_cuit))=0
+   return .t.
+endif
+_cuit=''
+sale = .F.
+FOR i=1 TO LEN(m_cuit)
+	IF SUBS(m_cuit,i,1)$'0123456789'
+		_cuit=_cuit+SUBS(m_cuit,i,1)
+	ENDIF
+NEXT
+IF LEN(_cuit)<>lnlen
+	sale=.F.
+ELSE
+	_digito=VAL(RIGHT(_cuit,1))
+	j=2
+	suma=0
+	dv=0
+	FOR i=lnlen-1 TO 1 STEP -1
+		suma = suma + VAL(SUBS(_cuit,i,1)) * j
+		j = j + 1
+		j=IIF(j=8,2,j)
+	NEXT
+	RESTO=MOD(suma,11)
+	IF RESTO=0
+		dv=0
+	ELSE
+		dv=11 - RESTO
+		dv=IIF(dv=10,9,dv)
+	ENDIF
+	sale= IIF(_digito=dv,.T.,.F.)
+ENDIF
+if !sale .and. lbmensage
+   =Oavisar.usuario('El dígito verificador es inválido',0)
+endif
+m_cuit = left(m_cuit,lnlen-1)+str(dv,1)
+RETURN sale
+
+function mesarg
+parameters lnmes
+local lcmes[12]
+lcmes[1] = 'Enero'
+lcmes[2] = 'Febrero'
+lcmes[3] = 'Marzo'
+lcmes[4] = 'Abril'
+lcmes[5] = 'Mayo'
+lcmes[6] = 'Junio'
+lcmes[7] = 'Julio'
+lcmes[8] = 'Agosto'
+lcmes[9] = 'Septiembre'
+lcmes[10]= 'Octubre'
+lcmes[11]= 'Noviembre'
+lcmes[12]= 'Diciembre'        
+
+return left(lcmes[lnmes]+space(10),10)
+
+function Acosto
+parameter lncosto,lncostobon,lncostosiva,lncostociva,lncostorepo
+local lniva
+
+lncostobon = lncosto - (lncosto *(lnbonif1/100))
+lncostobon = lncostobon -(lncostobon*(lnbonif2/100))
+lncostobon = lncostobon -(lncostobon*(lnbonif3/100))
+lncostobon = round(lncostobon -(lncostobon*(lnbonif4/100)),4)
+
+lncostosiva = round((lncostobon + lninterno),4)
+lniva       = round(((lncostosiva - lninterno) * tablaiva.ivari/100),4)
+lncostociva = round((lncostobon + lninterno + lniva),4)
+lncostorepo = iif(lncostorepo=0,lncostosiva,lncostorepo)
+
+return .t.
+
+function preciobase
+parameter lncosto,lnbonif1,lnbonif2,lnbonif3,lnbonif4,lninterno;
+          ,lnprecioasiva,lnprecioaciva,lnpreciobsiva,lnpreciobciva,lnpreciocsiva,lnpreciocciva;
+          ,lnutila,lnutilb,lnutilc,lncostorepo,lncostobon,lncostosiva,lncostociva;
+          ,lnutilrepa,lnutilrepob,lnutilrepoc
+
+Acosto(lncosto,@lncostobon,@lncostosiva,@lncostociva,@lncostorepo)
+
+lnprecioaciva = masiva(lninterno,lnprecioasiva,.t.)
+if lnutila<>0
+   A_venta(@lnPrecioasiva,@lnprecioaciva,lnutila,lnCostosiva)
+endif
+f_min(lnprecioAsiva,@lnutilrepoa,lncostorepo,lninterno)
+
+lnpreciobciva = masiva(lninterno,lnpreciobsiva,.t.)
+if lnutilb<>0
+   A_venta(@lnPreciobsiva,@lnpreciobciva,lnutilb,lnCostosiva)
+endif
+f_min(lnpreciobsiva,@lnutilrepob,lncostorepo,lninterno)
+
+lnprecioCciva = masiva(lninterno,lnprecioCsiva,.t.)
+if lnutilc<>0
+   A_venta(@lnPrecioCsiva,@lnprecioCciva,lnutilc,lnCostosiva)
+endif
+f_min(lnprecioCsiva,@lnutilrepoc,lncostorepo,lninterno)
+
+return .t.
+
+function a_venta
+parameter lnPreciosiva,lnpreciociva,lnutilidad,lnSobreCosto
+
+lnpreciosiva = round((lnSobrecosto + lnsobrecosto * (lnutilidad/100)),4)
+lnpreciociva = masiva(lninterno,lnpreciosiva,.t.)
+lnpreciosiva = masiva(lninterno,lnpreciociva,.f.)
+return .t.
+
+function f_min
+parameter lnpreciosiva,lnutil,lnsobrecosto,lninterno
+
+local lnauxi
+
+  auxi=lnSobrecosto
+  if auxi<>0
+     lnutil=(((lnpreciosiva/auxi)-1)*100)
+     lnutil=round(lnutil,4)
+     lnutil=iif(lnutil<0,0,lnutil)
+  else
+     lnutil=0
+  endif
+  
+  if lnutil > 900
+     =messagebox('Utilidad '+transform(lnutil,'@z 99999.999')+' demasiado grande';
+                 ,48,'información al usuario')
+  endif
+return .t.
+
+function masiva
+parameter lninterno,lnprecio,llqhago
+
+local lnbruto
+
+lnbruto = lnprecio - lninterno
+
+if llqhago
+   lnprecio = lnbruto * (1+(pnivari/100))
+else
+   lnprecio = lnbruto / (1+(pnivari/100))
+endif
+lnprecio = lnprecio + lninterno
+
+return round(lnprecio,4)
+
+function Nrointerno
+parameters _operacion
+local _orden
+_orden = 0
+if !used('Orden')
+   Use Orden in 0
+endif
+Sele Orden
+go top
+if eof()
+   append blank
+endif
+do while !flock()
+enddo
+_orden = numero + 1
+repl numero with numero + 1 
+=tableupdate(1,.t.,'Orden')
+Unlock
+return _orden
+
+function Cbanteafecta
+parameters lcnuevofiltro
+lcnuevofiltro = iif(pcount()<1,'',lcnuevofiltro)
+local lclinea,lnrecno,lcidentre,lcafectado,lcalias,lcfiltroold
+lcalias = alias()
+lclinea    = ''
+Sele CsrComprobante
+lnrecno    = recno()
+lcidentre  = Csrcomprobante.id
+lcafectado = Csrcomprobante.afectado
+
+lcfiltroold = filter()
+if len(trim(lcnuevofiltro))#0
+   set filter to &lcnuevofiltro
+else
+  set filter to 
+endif  
+go top
+Scan for !eof()
+    if id=lcidentre
+       loop
+    endif  
+    if trim(clase)$lcafectado
+       lclinea = lclinea + iif(len(trim(lclinea))=0,'','-') + STR(id,10)
+    endif
+ENDSCAN
+if len(trim(lcfiltroold))#0
+	set filter to &lcfiltroold
+else
+  set filter to 
+endif  
+go lnrecno
+Select(lcalias)
+return lclinea
+
+function Obtengonrocta
+parameters lnrecnocta,lcidcuenta
+lcidcuenta = iif(pcount()<2,"",lcidcuenta)
+local lnnrocuenta,lcalias,lok
+lcalias = Alias()
+
+if lnrecnocta<>0
+   Sele paraconta
+   go lnrecnocta 
+   lcidcuenta = idcuenta
+endif
+lok = seek(lcidcuenta,'plancue','cid')
+lnnrocuenta = iif(lok,plancue.cuenta,0)
+
+Select(lcalias)
+return lcidcuenta
+
+function localizar
+parameters Lccsralias,lccbusqueda
+local lcalias,lok
+lcalias = Alias()
+Select(lccsralias)
+locate for &lccbusqueda
+lok = iif(!eof() and &lccbusqueda,.t.,.f.)
+Select(lcalias)
+return lok
+
+function CajaValida
+parameters lnnrocaja,ldfechad,ldfechah
+local ldfechacaja,lok
+ldfechacaja = ctod(righ(str(lnnrocaja,8),2)+'-'+subs(str(lnnrocaja,8),5,2)+'-'+left(str(lnnrocaja,8),4))
+if empty(ldfechacaja)
+   =messagebox('El Número de caja '+strzero(lnnrocaja,8)+' no es valido',0,'Información al usuario')
+   return .f.
+endif
+lok=seek(lnnrocaja,'tablacaja','nrocaja')
+if lok
+   ldfechad = tablacaja.fecdesde
+   ldfechah = tablacaja.fechasta
+endif
+return .t.
+
+Function Usar
+lparameters mcdbf,mluse_ex,mcalias,mnbuffering
+local lcaliasactivo
+lcaliasactivo = alias()
+
+mcalias     = iif(pcount()<3,mcdbf,mcalias)
+mnbuffering = iif(pcount()<4,5,mnbuffering)
+
+if used('&mcalias')
+   return .t.
+endif
+
+if mluse_ex
+   use &mcdbf in 0 alias &mcalias exclusive
+else   
+   use &mcdbf in 0 alias &mcalias shared
+endif	
+Select &Pcbasedbf           
+cursorsetpro('BUFFERING',mnbuffering)     
+
+if len(trim(lcaliasactivo))#0
+   Select &lcaliasactivo
+endif
+
+return .t.
+
+Function LeerXMLClassID(tcArchivo)
+   Public Array gaClassIDs[1]
+   If !File( tcArchivo )
+      =Oavisar.usuario('No se encuentra el archivo xml de configuración',0)
+      Quit
+   Else
+      XmlToCursor( tcArchivo, 'Cur_Temporal',512 )
+      Select * From Cur_Temporal Into Array gaClassIDs
+      Use In Cur_Temporal
+   EndIf
+   Return .T.
+ENDFUNC
+
+Function ObtenerClassID(tcObjeto,lcServidor,lcOriObj)
+   Local lcClassID,niCount
+   LcClassID = ''   
+   For niCount = 1 To Alen(gaClassIDs,1)
+      if ALLTRIM(Lower(gaClassIDs[niCount,1])) == ALLTRIM(Lower(tcObjeto))
+         lcOriObj   = ALLTRIM(gaClassIds[niCount,2])         
+         lcClassID  = ALLTRIM(gaClassIDs[niCount,3])
+         lcServidor = ALLTRIM(gaClassIds[niCount,4])
+         Exit
+      EndIf
+   Next
+   Return lcClassID
+ENDFUNC
+
+Function CrearObjeto(tcObjeto)
+      
+   Local loObjeto, lcClassID,lcServidor,lcOriObj
+   lcServidor = ""
+   lcOriObj   = ""
+   lcClassID = ObtenerClassID(tcObjeto,@lcServidor,@lcOriObj)
+      
+   If Empty(lcClassID) AND lcOriObj='COM'
+      =Oavisar.programador('No se encuentra el class id del objeto ' + tcObjeto)
+      QUIT 
+   ELSE
+      DO CASE 
+         CASE lcOriObj='WS'         
+              LoObjeto=Createobject("mssoap.soapclient30") && Creamos Objeto Soap
+              LoObjeto.mssoapinit(LcServidor) 
+              LoObjeto.ConnectorProperty("ConnectTimeout")=90000
+         CASE LcOriObj='COM'
+              loObjeto = CreateObjectex(lcClassID,lcServidor,"")               
+         OTHERWISE 
+              loObjeto = CREATEOBJECT('&lcClassID')              
+      ENDCASE               
+   EndIf
+   Return loObjeto
+ENDFUNC
+
+
+FUNCTION ObtenerConfig
+PARAMETERS lObjConfig
+
+IF VARTYPE(Ofiscal)="O"
+	RELEASE Ofiscal
+ENDIF 
+ Ofiscal =NEWOBJECT("fiscal","fiscal.vcx")
+Ofiscal.objconfigfiscal(@lObjConfig,1)
+
+lcPathCf		 	   = lObjConfig.PathCf
+lnPuertoCom		   = lObjConfig.PuertoCom
+lnModeloFiscal	   = lObjConfig.ModeloFiscal
+lnVerificacionFiscal = lObjConfig.verificacionfiscal
+
+lcDirDato = lcPathCf + "DATOS\"
+lcDirExe   = lcPathCf + "EXE\"
+lcDirFiscal  = lcPathCf  + "FISCAL\"
+
+RETURN  .t.
+
+
+FUNCTION ObtenerServidor
+
+LOCAL lcServidor,lcUser,lcPwd
+
+lcSvrcf = ""
+lcSvrcfODBC = ""
+LcConectionString   = lcSvrCf
+LcDataSourceType  = "NATIVE"
+LcOrigenPublico      = ""
+LcWebService          = ""
+lcServername           = ""
+lsalgo				   = .f.
+
+lcConectionODBC = lcSvrcfODBC
+
+Oagregaobjeto = CREATEOBJECT("agregaobjeto")
+lObjConfig = null	
+Oagregaobjeto.objconfigbd(@lObjConfig,1)
+		
+lcOrigenData	= lObjConfig.origendata
+lcSourceType	= lObjConfig.sourcetype
+lcServidor		= lObjConfig.servername
+lcInitCatalo	= lObjConfig.initCatalogo
+lcUser			= lObjConfig.username
+lcPwd			= lObjConfig.pwdname
+Pnsucursal	= lObjConfig.sucursal
+
+Goapp.OrigenData	= LCorigendata
+Goapp.SourceType	= LCsourcetype
+Goapp.Servidor		= LCServidor
+Goapp.InitCatalo		= LCinitCatalo
+Goapp.Usuario		= LCUser
+Goapp.Pwd			= Lcpwd
+Goapp.sucursal		= Pnsucursal
+Goapp.terminal		= 0 &&Pnterminal
+   
+IF lcSourceType="NATIVE"
+	lcSvrCf =lcInitCatalo
+	ELSE 
+		IF LEN(TRIM(lcServidor))#0 AND LEN(TRIM(lcUser))#0 AND LEN(TRIM(lcPwd))#0
+			lcSvrCf = "Provider=SQLOLEDB.1;Persist Security Info=False"
+			lcSvrCf = lcSvrCf + ";Initial Catalog="+lcInitCatalo
+			lcSvrCf = lcSvrCf + ";Data Source=" + lcServidor
+			lcSvrCf = lcSvrCf + ";User ID="+lcUser
+			lcSvrCf = lcSvrCf + ";pwd="+lcPwd + ";"
+			
+			lcSvrcfODBC = "Driver={SQL Server}"
+			lcSvrcfODBC = lcSvrcfODBC + ";Server="+lcServidor
+			lcSvrcfODBC = lcSvrcfODBC + ";Database="+lcInitCatalo
+			lcSvrcfODBC = lcSvrcfODBC + ";Uid="+lcUser
+			lcSvrcfODBC = lcSvrcfODBC + ";Pwd="+lcPwd + ";"
+		ENDIF 		   
+ENDIF 
+   
+ LcConectionString	= lcSvrCf
+ LcDataSourceType	= lcSourceType
+ LcOrigenPublico		= lcOrigenData
+ LcWebService		= ''
+
+lcConectionODBC	= lcSvrcfODBC
+  
+ lsalgo = IIF(LEN(TRIM(lcInitCatalo))#0,.t.,.f.)
+
+RETURN  lsalgo
+
+ENDFUNC
+
+
+*lc = Encripta("MiClave", "MiLlave")
+
+* Desencripta(lc, "MiLlave")
+
+FUNCTION Encripta(tcCadena, tcLlave, tlSinDesencripta)
+
+	LOCAL lc, ln, lcRet
+	LOCAL lnClaveMul, lnClaveXor
+
+	IF EMPTY(tcLlave)
+		tcLlave = ""
+	ENDIF
+
+	=GetClaves(tcLlave,@lnClaveMul,@lnClaveXor)
+
+	lcRet = ""
+	lc = tcCadena
+
+	DO WHILE LEN(lc) > 0
+		ln = BITXOR(ASC(lc)*(lnClaveMul+1),lnClaveXor)
+		
+		IF tlSinDesencripta			&&-- Encripta de modo que no se puede desencriptar
+			ln = BITAND(ln+(ln%256)*17+INT(ln/256)*135+ iNT(ln/256)*(ln%256),65535)
+		ENDIF
+
+		lcRet = lcRet+BINTOC(ln-32768,2)
+		lnClaveMul = BITAND(lnClaveMul+59,0xFF)
+		lnClaveXor = BITAND(BITNOT(lnClaveXor),0xFFFF)
+		lc = IIF(LEN(lc) > 1,SUBS(lc,2),"")
+
+	ENDDO
+
+	RETURN lcRet
+
+ENDFUNC
+
+
+FUNCTION Desencripta(tcCadena, tcLlave)
+
+	LOCAL lc, ln, lcRet, lnByte
+	LOCAL lnClaveMul, lnClaveXor
+
+	IF EMPTY(tcLlave)
+		tcLlave = ""
+	ENDIF
+
+	=GetClaves(tcLlave, @lnClaveMul, @lnClaveXor)
+
+	lcRet = ""
+
+	FOR ln = 1 TO LEN(tcCadena)-1 STEP 2
+
+		lnByte = BITXOR(CTOBIN(SUBS(tcCadena, ln,2))+ 32768,lnClaveXor)/(lnClaveMul+1)
+
+		lnClaveMul = BITAND(lnClaveMul+59, 0xFF)
+		lnClaveXor = BITAND(BITNOT(lnClaveXor), 0xFFFF)
+		lcRet = lcRet+CHR(IIF(BETWEEN(lnByte,0,255),lnByte,0))
+
+	ENDFOR
+
+	RETURN lcRet
+
+ENDFUNC
+
+
+*---------------------------------------------
+* Función usada por Encripta y Desencripta
+*---------------------------------------------
+
+FUNCTION GetClaves(tcLlave, tnClaveMul, tnClaveXor)
+
+	LOCAL lc, ln
+
+	lc = ALLTRIM(LOWER(tcLlave))
+
+	tnClaveMul = 31
+	tnClaveXor = 3131
+
+	DO WHILE NOT EMPTY(lc)
+
+		tnClaveMul = BITXOR(tnClaveMul,ASC(lc))
+
+		tnClaveXor = BITAND((tnClaveXor+1)*(ASC(lc)+1),0xFFFF)
+
+		lc = IIF(LEN(lc) > 1,SUBS(lc,2),"")
+
+	ENDDO
+
+ENDFUNC
+
+FUNCTION Redondeo
+PARAMETERS pnredondeo
+
+LOCAL lcredondeo,lnredondeo
+
+SET DECIMALS TO 3
+lcredondeo = TRANSFORM(pnredondeo,'999999999.999')
+lnredondeo = VAL(LEFT(lcredondeo,LEN(lcredondeo)-1))
+SET DECIMALS TO 2
+
+RETURN lnRedondeo 
+
+
+FUNCTION  Proximomes
+PARAMETERS  fec,meses
+
+LOCAL dia_leido,anio_leido,mes_leido
+mesanio='312831303130313130313031'
+dia_leido=day(fec)
+anio_leido=year(fec)
+mes_leido=month(fec)
+mes_leido=mes_leido+meses
+if mes_leido > 12
+   mes_leido=mes_leido-12
+   anio_leido=anio_leido+1
+   do while mes_leido > 12
+      mes_leido=mes_leido-12
+      anio_leido=anio_leido+1
+   enddo
+else
+   if mes_leido<=0
+      mes_leido=12
+      anio_leido=anio_leido-1
+   endif
+endif
+if dia_leido>val(substr(mesanio,mes_leido*2-1,2))
+   dia_leido=val(substr(mesanio,mes_leido*2-1,2))
+endif
+fec=ctod(str(dia_leido,2)+'-'+str(mes_leido,2)+'-'+str(anio_leido,4))
+return (fec)
+
+FUNCTION  Semana
+PARAMETERS  ldfecha
+
+LOCAL  fecdesde,fechasta,dia,quesemana,j
+
+fecdesde = ctod('01-'+Strzero(month(ldfecha),2)+'-'+Strzero(Year(ldfecha),4))
+fechasta = gomo(fecdesde,1) - 1
+quesemana=0
+for j=1 to day(ldfecha)
+    dia = ctod(strzero(j,2)+'-'+strzero(month(ldfecha),2)+'-'+strzero(year(ldfecha),4))
+    if dow(dia)=1 OR  quesemana=0
+       quesemana = quesemana + 1
+    endif
+Next
+return quesemana
+
+FUNCTION ULDIA(_mes_leido,_anio)
+mesanio='312831303130313130313031'
+if int(_anio/4)=_anio/4
+   mesanio='312931303130313130313031'
+endif
+Return Val(subs(mesanio,_mes_leido*2-1,2))
+
+
+FUNCTION Cbanteafecta
+PARAMETERS lcnuevofiltro,lcAliasComp
+
+lcnuevofiltro = IIF(pcount()<1,'',lcnuevofiltro)
+lcAliasComp= IIF(PCOUNT()<2,"CsrComprobante",lcAliasComp)
+
+local lclinea,lnrecno,lcidentre,lcafectado,lcalias
+lcalias = alias()
+lclinea    = ''
+
+SELECT CsrComprobante
+lnrecno    = recno()
+lcidentre  = Csrcomprobante.id
+lcafectado = Csrcomprobante.afectado
+
+* lcAliasComp puede ser <> de Csrcomprobante ya que Csrcomprobante puede estar filtrado en el where del select 
+
+SELECT(lcAliasComp)
+GO TOP 
+SCAN  FOR  !eof()
+	IF len(trim(lcnuevofiltro))#0
+	   IF &lcnuevofiltro#1
+	       LOOP 
+	   ENDIF 
+	ENDIF 	     
+	IF id=lcidentre
+		LOOP 
+	ENDIF   
+	IF  trim(clase)$lcafectado
+		lclinea = lclinea + iif(len(trim(lclinea))=0,'','-') + STR(id,10)
+	ENDIF 
+ENDSCAN 
+GO  lnrecno
+Select(lcalias)
+RETURN  lclinea
+
+
+
+FUNCTION FArmoArray
+PARAMETERS lnfila,lncantCol,lcArray00,lcarray01,lcarray02,lcarray03,lcarray04,lcarray05,lcarray06,lcarray07,lcarray08,lcarray09,lcarray10,lcarray11,lcarray12,lcarray13,lcarray14;
+				,lcarray15,lcarray16,lcarray17,lcarray18,lcarray19,lcarray20,lcarray21,lcarray22,lcarray23,lcarray24,lcarray25,lcarray26
+
+* lcarray00 viene array ocx
+* lcarray01 viene modelo fiscal
+* lcarray02  a lcarray26 comprobantes por tipo de modelo
+
+LOCAL i,lcCol ,lcstringComp,lcvariable
+lcStringComp = ""
+lcvariable = "lcStringComp"
+
+FOR i=1 TO lncantCol + 1
+	lcCol = "lCarray"+strzero(i,2)
+	IF i=1        
+		lcArray00[lnfila,1] = &lcCol
+	ELSE
+		lcStringComp = lcStringComp + "-" + strzero(&lcCol,3)
+	ENDIF 	         
+NEXT 
+lcArray00[lnfila,2] = &lcvariable
+
+RETURN .t. 
+
+
+FUNCTION CrearCursorAdapter
+PARAMETERS lcaliasCursor,lccmdSelectCursor,cursorbuffermodeoverride
+
+IF USED(lcaliasCursor)
+   USE IN (lcaliasCursor)
+ENDIF
+
+cursorbuffermodeoverride = IIF(PCOUNT()<3,5,cursorbuffermodeoverride)
+
+lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ")
+lccmdSelectCursor= CHRTRAN(lccmdSelectCursor,CHR(13)," ")
+lccmdSelectCursor= CHRTRAN(lccmdSelectCursor,CHR(10)," ")
+
+Orslista = null 
+Ocalista = null
+Orslista= createobject('ADODB.RecordSet')
+Orslista.CursorLocation   = 3  && adUseClient
+Orslista.LockType         = 3  && adLockOptimistic
+IF TYPE('loConnDataSource')='O'
+   Orslista.ActiveConnection = loConnDataSource
+ENDIF 
+OCAlista = CREATEOBJECT("CursorAdapter")
+WITH OCAlista
+    .Alias     = lcaliasCursor
+    .DataSource = Orslista
+    .DataSourceType = LcDataSourceType
+    .SelectCmd=lccmdSelectCursor
+    .UseDedatasource=.f.
+    .BufferModeOverride = cursorbuffermodeoverride 
+    .Name = lcaliasCursor
+    .UpdateType = 1
+ENDWITH 
+
+LOCAL lreturn
+lreturn = .f.
+
+IF !OCAlista.CursorFill()
+	IF AERROR(laError) > 0
+		=Oavisar.Usuario("Error al obtener datos:"+laError[2]+" alias "+lcaliasCursor+CHR(13)+lccmdSelectCursor,0)
+	ENDIF
+ELSE
+	OCAlista.CursorDetach()
+	lreturn = .t.   
+ENDIF
+    
+RETURN lreturn
+
+FUNCTION EjecutaMenu
+PARAMETERS lcForm,lcparam1,lcparam2,lcparam3,lcparam4,lcparam5,lcparam6,lcparam7,lcparam8,lcparam9,lcparam10
+
+lcform       = IIF(PCOUNT()<1,"",lcForm)
+lcparam1 = IIF(PCOUNT()<2,"",lcparam1)
+lcparam2 = IIF(PCOUNT()<3,"",lcparam2)
+lcparam3 = IIF(PCOUNT()<4,"",lcparam3)
+lcparam4 = IIF(PCOUNT()<5,"",lcparam4)
+lcparam5 = IIF(PCOUNT()<6,"",lcparam5)
+lcparam6 = IIF(PCOUNT()<7,"",lcparam6)
+lcparam7 = IIF(PCOUNT()<8,"",lcparam7)
+lcparam8 = IIF(PCOUNT()<9,"",lcparam8)
+lcparam9 = IIF(PCOUNT()<10,"",lcparam9)
+lcparam10 = IIF(PCOUNT()<11,"",lcparam10)
+
+LOCAL lcCmd,lok,_siactiva
+
+IF UPPER(lcForm) = "FRMMENU"
+	TEXT TO lcCmd TEXTMERGE NOSHOW 
+	SELECT Csrseteotermi.* FROM seteotermi as Csrseteotermi WHERE sucursal = <<Goapp.sucursal>> and numero=<<Goapp.terminal>> 
+	ENDTEXT 
+	IF USED("CsrSeteotermi")
+		USE IN CsrSeteotermi
+	ENDIF
+	lok =CrearCursorAdapter("CsrSeteotermi",lcCmd)
+	_siactiva=Csrseteotermi.termiactiva
+ELSE
+    lok= .t.	
+    _siactiva=1
+ENDIF
+
+* Ejecuto si terminal activa, siempre FRMLOGOUT, siempre perfilusuario 1=Admin
+IF lok
+	IF _siactiva=1 OR UPPER(lcForm) = "FRMLOGOUT"  OR  Goapp.perfilusuario=1
+		RELEASE OrsTerminal
+		RELEASE OCaterminal
+		IF LEN(TRIM(lcform))#0 
+			DO CASE 
+				CASE  LEN(TRIM(lcparam1))=0
+					 DO FORM &lcForm
+				CASE  LEN(TRIM(lcparam2))=0
+					 DO FORM &lcForm WITH lcparam1
+				CASE  LEN(TRIM(lcparam3))=0
+					 DO FORM &lcForm WITH lcparam1,lcparam2
+				CASE  LEN(TRIM(lcparam4))=0
+					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3
+				CASE  LEN(TRIM(lcparam5))=0
+					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4
+				CASE  LEN(TRIM(lcparam6))=0
+					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4,lcparam5
+				CASE  LEN(TRIM(lcparam7))=0
+					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4,lcparam5,lcparam6
+				CASE  LEN(TRIM(lcparam8))=0
+					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4,lcparam5,lcparam6,lcparam7
+				CASE  LEN(TRIM(lcparam9))=0
+					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4,lcparam5,lcparam6,lcparam7,lcparam8
+				CASE  LEN(TRIM(lcparam10))=0
+					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4,lcparam5,lcparam6,lcparam7,lcparam8,lcparam9
+				CASE  LEN(TRIM(lcparam10))#0
+					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4,lcparam5,lcparam6,lcparam7,lcparam8,lcparam9,lcparm10
+		    ENDCASE 
+		ELSE
+		      =Oavisar.usuario("OPCION NO DISPONIBLE")
+		ENDIF      
+	ELSE
+		=Oavisar.usuario('LA TERMINAL SE ENCUENTRA BLOQUEADA'+CHR(13)+'CONSULTE CON EL ADMINISTRADOR',0)  
+	ENDIF    
+
+	RELEASE OrsTerminal
+	RELEASE OCaterminal
+ENDIF 
+IF USED("CsrSeteotermi")
+	USE IN CsrSeteotermi
+ENDIF
+
+RETURN .t.
+
+
+FUNCTION LeerEmpresa
+
+LOCAL lcCmd,lok,lcpc
+
+lcpc    = UPPER(TRIM(LEFT(SYS(0),(AT('#',SYS(0))-1))))
+
+TEXT TO lcCmd TEXTMERGE NOSHOW 
+SELECT Csrempresa.* FROM empresa as Csrempresa
+ENDTEXT 
+
+IF USED("Csrempresa")
+	USE IN Csrempresa 
+ENDIF
+
+lok =CrearCursorAdapter("Csrempresa",lcCmd)
+
+IF lok
+   GOapp.empresaid 				= Csrempresa.id
+   GOapp.empresanombre		= Csrempresa.nombre
+   GOapp.empresaramo			= Csrempresa.ramo
+   GOapp.empresadireccion		= Csrempresa.direccion
+   GOapp.empresacpostal		= Csrempresa.cpostal
+   GOapp.empresalocalidad		= Csrempresa.localidad
+   GOapp.empresaprovincia		= Csrempresa.provincia
+   GOapp.empresatelefono		= Csrempresa.telefono
+   GOapp.empresatipoiva			= Csrempresa.tipoiva
+   GOapp.empresacuit			= Csrempresa.cuit
+   GOapp.empresaibruto 			= Csrempresa.ibruto
+   GOapp.empresacajapre		= Csrempresa.cajapre
+   GOapp.empresaimpint			= Csrempresa.impint
+   Goapp.empresaagenteibb        = Csrempresa.agenteibb
+   GOapp.empresatag				= Csrempresa.tag
+ENDIF
+   
+IF USED("Csrseteotermi")
+	USE IN Csrseteotermi 
+ENDIF
+
+TEXT TO lcCmd TEXTMERGE NOSHOW 
+SELECT Csrseteotermi.* FROM seteotermi as Csrseteotermi WHERE sucursal = <<Goapp.sucursal>> and nombre='<<lcpc>>'
+ENDTEXT 
+
+lok =CrearCursorAdapter("Csrseteotermi",lcCmd)
+IF lok
+   Goapp.terminal               = Csrseteotermi.numero
+   Goapp.nombreterminal = Csrseteotermi.nombre
+ENDIF
+
+IF USED("Csrseteotermi")
+	USE IN Csrseteotermi 
+ENDIF
+
+RETURN .t.
+
+
+FUNCTION LeerVersionExe
+PARAMETERS lnopcion,lcExe
+
+LOCAL lcCmd,lok,lcfechaSis,lchoraSis,lchoraExe,lcfechaExe,lcCurdir
+
+DIMENSION lcMenPrioridad[3]
+lcMenPrioridad[1] = "ALTA HUBO MODIFICACION DE TABLAS"
+lcMenPrioridad[2] = "ALTA HUBO CAMBIO EN REGISTRACIONES"
+lcMenPrioridad[3] = "MEDIA HUBO CAMBIO EN LISTADOS"
+
+TEXT TO lcCmd TEXTMERGE NOSHOW 
+SELECT Csrsistema.* FROM sistema as Csrsistema
+ENDTEXT 
+
+IF USED("Csrsistema")
+	USE IN Csrsistema
+ENDIF
+
+lcCurdir = TRIM(SYS(5))+TRIM(CURDIR())
+
+lok =CrearCursorAdapter("Csrsistema",lcCmd)
+
+STORE "" TO lcfechasis,lchorasis,lchoraExe,lcfechaexe,lcExe
+
+IF lok
+	lcfechasis = CsrSistema.fecha
+	lchorasis   = CsrSistema.hora	    
+	lcExe          = lcCurdir+TRIM(CsrSistema.programa)     && guardo el nombre del ejecutable
+	
+	lnprioridad = IIF(CsrSistema.prioridad=0 or 	CsrSistema.prioridad > ALEN(lcMenPrioridad),1,CsrSistema.prioridad)
+	lcMensaje = lcMenPrioridad[lnprioridad]	
+	
+       x = Adir(lCarray, lcExe,"H")
+       
+	IF x=1
+		lcfechaexe = DTOS(lcArray[1,3])
+		lchoraexe   = lcarray[1,4]
+	ENDIF
+	
+	IF lcfechaExe # lcfechasis OR lchoraExe # lchorasis
+		_screen.Visible = .t.
+		_screen.lockscreen=.f.
+		IF lnopcion=1
+			=OAvisar.usuario("EXISTE UNA NUEVA VERSION DEL SISTEMA "+CHR(13)+CHR(13)+UPPER(lcExe)+CHR(13);
+								+"Fecha :  "+RIGHT(lcfechasis,2)+"-"+SUBSTR(lcfechasis,5,2)+"-"+LEFT(lcfechasis,4)+"    hora :  "+lchorasis+CHR(13)+CHR(13);
+								+"Prioridad : "+lcMensaje,0)
+			lok = IIF(strzero(lnprioridad,2)$"01-02",.f.	,.t.)
+		ELSE
+			=OAvisar.usuario("EXISTE UNA NUEVA VERSION DEL SISTEMA "+CHR(13)+CHR(13)+UPPER(lcExe)+CHR(13);
+								+"Fecha :  "+RIGHT(lcfechasis,2)+"-"+SUBSTR(lcfechasis,5,2)+"-"+LEFT(lcfechasis,4)+"    hora :  "+lchorasis+CHR(13)+CHR(13);
+								+"Prioridad : "+lcMensaje,0)
+
+		 	IF strzero(lnprioridad,2)$"01-02"
+		 	    lok=6
+		 	ELSE
+		 		lok=Oavisar.usuario("Prioridad "+lcMensaje+CHR(13)+"Lo actualiza",4+32+256)		 		
+		 	ENDIF 
+		 	
+			IF lok=6		 	
+				Oavisar.proceso('S','Aguarde un instante, actualizando '+UPPER(lcExe),.f.,0)				
+	                    INKEY(.5)
+	                    										      
+				TEXT TO lcCmd TEXTMERGE NOSHOW 
+				SELECT Csrgestion.* FROM gestion as Csrgestion
+				ENDTEXT 
+
+				IF USED("Csrgestion")
+					USE IN Csrgestion
+				ENDIF
+
+				lok    =CrearCursorAdapter("Csrgestion",lcCmd)
+				
+				IF lok
+				     lcdd = lcCurdir+TRIM(Csrgestion.nombrezip)   && nombre del archivo zip a extraer				     
+					STRTOFILE(Csrgestion.programa,lcdd)					
+					 oShell = createobject("WScript.Shell")					 
+					 IF FILE(lcdd)
+						 oShell.run("&lcdd",0,.t.)
+						 CLEAR EVENTS
+					ENDIF 					 
+					 oShell = null
+				ENDIF 		   					
+				Oavisar.proceso('N')
+			ENDIF 			
+			
+		ENDIF 			
+	ENDIF	       	
+ENDIF
+   
+IF USED("Csrsistema")
+	USE IN Csrsistema 
+ENDIF
+
+IF USED("CsrGestion")
+	USE IN CsrGestion  
+ENDIF 
+
+RETURN lok
+
+
+FUNCTION LeerParametrosDiario
+PARAMETERS lnopcion
+lnopcion = IIF(PCOUNT()<1,1,lnopcion)
+
+LOCAL lcCmd,lok,ldfechaserver,lreturn
+
+TEXT TO lcCmd TEXTMERGE NOSHOW 
+SELECT Csrparadiario.*,csrdetanrocaja.nrocaja as nrocaja,csrdetanrocaja.fecdesde as fecdesde,csrdetanrocaja.fechasta as fechasta,Csrdetanrocaja.switch as switch
+FROM paradiario as Csrparadiario
+left join detanrocaja as csrdetanrocaja on Csrparadiario.iddetanrocaja = csrdetanrocaja.id
+ENDTEXT 
+
+IF USED("CsrParametros")
+	USE IN CsrParametros
+ENDIF
+
+lok =CrearCursorAdapter("CsrParametros",lcCmd)
+lreturn = .t.
+
+IF lok
+	TEXT TO lcCmd TEXTMERGE NOSHOW 
+	Select Getdate() as fecha
+	ENDTEXT
+	IF USED("Servidor")
+		USE IN Servidor
+	ENDIF
+	lok =CrearCursorAdapter("Servidor",lcCmd) 
+	ldfechaserver = Servidor.fecha
+	IF USED("Servidor")
+		USE IN Servidor
+	ENDIF
+
+      DO case 
+    		CASE lnopcion=1
+	    			lcmensaje = "fecha activa actual de facturación "+DTOC(TTOD(Csrparametros.fechafac))+CHR(13);
+							+"estado de la caja "+IIF(LEFT(Csrparametros.switch,1)="1","CERRADA","ACTIVA")
+		CASE lnopcion=2
+	    			lcmensaje = "estado de la caja "+IIF(LEFT(Csrparametros.switch,1)="1","CERRADA","ACTIVA")
+      ENDCASE 
+		
+*	IF (TTOD(ldfechaserver)#TTOD(Csrparametros.fechaserver) AND lnopcion=1) OR LEFT(Csrparametros.switch,1)="1"
+
+	IF LEFT(Csrparametros.switch,1)="1"   && caja cerrada
+*!*		      IF TTOD(ldfechaserver)#TTOD(Csrparametros.fechaserver) AND lnopcion=1
+*!*		           lcmensaje = lcmensaje + CHR(13)+CHR(13)+ "Fecha actual servidor "+DTOC(TTOD(ldfechaserver))+" distinta a fecha parametros "+DTOC(TTOD(Csrparametros.fechaserver) )
+*!*		           lcmensaje = lcmensaje + CHR(13)+"DEBE CONFIRMAR LA FECHA DEL SERVIDOR, confirme en la opción indicada al pie"
+*!*			ENDIF 	     		
+		
+		TEXT TO lccmd TEXTMERGE NOSHOW
+		SELECT CsrDataMenu.* FROM Datamenu as csrdatamenu
+		ENDTEXT 
+		IF USED("CsrDatamenu")
+			USE IN Csrdatamenu
+		ENDIF 
+						
+		lok =CrearCursorAdapter("Csrdatamenu",lcCmd) 
+
+		IF lok
+			SELECT CsrDataMenu
+			LOCATE FOR "PARADIARIO"$UPPER(sec_doacce)
+			IF !EOF() AND "PARADIARIO"$UPPER(sec_doacce)
+				TEXT TO lccmd TEXTMERGE NOSHOW
+				SELECT Csrseguridad.* FROM seguridad as csrseguridad WHERE idmenu=<<Csrdatamenu.id>>				
+				ENDTEXT 
+				IF USED("Csrseguridad")
+					USE IN Csrseguridad
+				ENDIF 
+										
+				lok =CrearCursorAdapter("Csrseguridad",lcCmd) 
+
+				IF goapp.perfilusuario=CsrSeguridad.idperfil
+					=Oavisar.usuario("Contacte a un usuario con permiso para cambiar parametros diarios;"+CHR(13)+ lcmensaje +CHR(13)+CHR(13);
+							+"UTILES \\ PARAMETROS \\ PARAMETROS DIARIOS")
+				ELSE					
+					=Oavisar.usuario("Debe cambiar parametros diarios;"+CHR(13)+ lcmensaje +CHR(13)+CHR(13);
+							+"UTILES \\ PARAMETROS \\ PARAMETROS DIARIOS")
+				ENDIF
+				lreturn = .f.
+								
+				IF USED("Csrseguridad")
+					USE IN Csrseguridad				
+				ENDIF 			
+			ENDIF 		
+		ELSE 			
+			=Oavisar.usuario("Debe cambiar parametros diarios;"+CHR(13)+ lcmensaje +CHR(13)+CHR(13);
+							  +"UTILES \\ PARAMETROS \\ PARAMETROS DIARIOS")							    
+				lreturn = .f.							
+		ENDIF
+				
+		IF USED("CsrDatamenu")
+			USE IN Csrdatamenu
+		ENDIF		
+	ENDIF 		
+ENDIF 
+
+IF USED("CsrParametros")
+	USE IN CsrParametros
+ENDIF
+   
+RETURN lreturn
+
+
+FUNCTION ConeccionADO
+
+Local  loCatchErr As Exception
+
+TRY 
+	DO case
+		CASE LcDataSourceType='ADO' OR LcDataSourceType='ODBC'
+			loConnDataSource = createobject('ADODB.Connection')
+			loConnDataSource.ConnectionString = LcConectionString
+			loConnDataSource.CommandTimeout = 0    && indefinidamente
+			loConnDataSource.ConnectionTimeout = 60
+
+			Oavisar.proceso('S','Conectando con Base de Datos, tiempo de espera '+LTRIM(STR(loConnDataSource.ConnectionTimeout))+'"' ,.f.,0)
+							                              			    
+			loConnDataSource.Open()
+							                        			    
+			Oavisar.proceso('N')
+		                       			                           	  	
+		CASE LcDataSourceType='NATIVE'
+			IF !DBUSED('&LcConectionString')        
+				OPEN DATABASE (LcConectionString) SHARED
+			ENDIF  
+			SET DATABASE TO (LcConectionString)
+		OTHERWISE 
+			ERROR 1429
+		ENDCASE
+Catch To loCatchErr
+	=Oavisar.proceso('N')	
+	=Oavisar.usuario('La conexión a la Base de Datos a fallado'+CHR(13);
+					+CHR(13)+lcConectionString,0)
+	RETURN .f.
+ENDTRY 
+
+RETURN .t.
+
+
+FUNCTION ConeccionODBC
+*!*	***Evitar que aparezca  la ventana de login
+SQLSETPROP(0,"DispLogin",3)
+lnconectorODBC =SQLSTRINGCONNECT(lcConectionODBC)
+IF lnconectorODBC<0
+	RETURN .f.
+ENDIF 
+RETURN .t.
+
+FUNCTION ExisteDSN
+
+IF LcDataSourceType="NATIVE"
+   RETURN .t.
+ENDIF 
+
+#define ODBC_ADD_DSN  1    && Agregar Fuente de Datos
+#define ODBC_CONFIG_DSN  2    && Configurar (editar) fuente de datos
+#define ODBC_REMOVE_DSN  3    && Eliminar fuente de datos
+#define ODBC_ADD_SYS_DSN  4    && Agregar un DSN de Sistema
+#define ODBC_CONFIG_SYS_DSN  5    && Configurar un DSN de Sistema
+#define ODBC_REMOVE_SYS_DSN  6    && Eliminar un DSN de Sistema 
+#define vbAPINull          0    &&' NULL Pointer
+
+DECLARE LONG SQLConfigDataSource IN ODBCCP32.DLL ;
+LONG hwndParent, LONG fRequest, ;
+STRING lpszDriver, STRING lpszAttributes
+
+  LOCAL intRet, strDriver, strAttributes,lcdns
+
+  strDriver = "SQL Server"
+  
+  lcdns = STRTRAN(Goapp.servidor,".","_")
+  lcdns = ALLTRIM(LEFT(STRTRAN(lcdns,"\",""),8)) + "_"+ ALLTRIM(LEFT(TRIM(Goapp.InitCatalo),8))
+  
+  strAttributes = "SERVER="+TRIM(Goapp.Servidor )+ Chr(0)
+  strAttributes = strAttributes + "DESCRIPTION="+TRIM(lcDns)+ Chr(0)
+  strAttributes = strAttributes + "DSN="+TRIM(lcDns)  + Chr(0)
+  strAttributes = strAttributes + "DATABASE="+TRIM(Goapp.InitCatalo)  + Chr(0)
+*!*	  strAttributes = strAttributes + "UID="+Goapp.Usuario + Chr(0)
+*!*	  strAttributes = strAttributes + "PWD="+Goapp.Pwd + Chr(0)
+  
+  intRet = SQLConfigDataSource(vbAPINull, ODBC_CONFIG_DSN , strDriver, strAttributes)   
+  
+	IF intRet > 0    
+	      * ya existe el DNS
+	      RETURN .t.      
+	ELSE   
+		intRet = SQLConfigDataSource(vbAPINull, ODBC_ADD_DSN, strDriver, strAttributes)     
+		IF  intRet>0
+			RETURN .t.
+		ELSE 
+			RETURN .f.
+		ENDIF 
+	ENDIF 		
+ENDFUNC 
+
+
+FUNCTION LeerEjercicioActivo
+PARAMETERS lObjEjercicioActivo,lnhaycierre
+
+lnhaycierre = IIF(PCOUNT()<2,0,lnhaycierre)
+
+IF VARTYPE(lObjEjercicioActivo)="O"
+	RELEASE lObjEjercicioActivo
+ENDIF 
+lObjeto=NEWOBJECT("Agregaobjeto","odata.vcx")
+lObjeto.objejercicioactivo(@lObjEjercicioActivo)
+
+lObjEjercicioActivo.ejercicio = 0
+lObjEjercicioActivo.fecdesde = {}
+lObjEjercicioActivo.fechasta  = {}
+lObjEjercicioActivo.Nrocaja1 = 0
+lObjEjercicioActivo.nrocaja2  = 0
+lObjEjercicioActivo.cajaactual  = 0
+lObjEjercicioActivo.idcajaactual  = 0
+lObjEjercicioActivo.fecCajadesde = {}
+lObjEjercicioActivo.fecCajahasta  = {}
+
+LOCAL lcCmd,lok
+
+TEXT TO lcCmd TEXTMERGE NOSHOW 
+SELECT Csrparaconfig.idejercicio as idjercicio,csrdetaconta.ejercicio as ejercicio,csrdetaconta.fecdesde as fecdesde,csrdetaconta.fechasta as fechasta
+,csrdetaconta.nrocaja1 as nrocaja1,csrdetaconta.nrocaja2 as nrocaja2
+FROM paraconfig as Csrparaconfig
+left join detaconta as csrdetaconta on Csrparaconfig.idejercicio = csrdetaconta.id
+ENDTEXT 
+
+IF USED("Csrparaconfig")
+	USE IN Csparaconfig 
+ENDIF
+
+lok =CrearCursorAdapter("Csrparaconfig",lcCmd)
+
+IF lok
+	lObjEjercicioActivo.ejercicio = Csrparaconfig.ejercicio
+	lObjEjercicioActivo.fecdesde = Csrparaconfig.fecdesde
+	lObjEjercicioActivo.fechasta  = Csrparaconfig.fechasta
+	lObjEjercicioActivo.Nrocaja1 = Csrparaconfig.nrocaja1
+	lObjEjercicioActivo.nrocaja2  = Csrparaconfig.nrocaja2
+ENDIF
+
+IF USED("Csrparaconfig")
+	USE IN Csrparaconfig 
+ENDIF
+
+IF lnhaycierre=0
+	TEXT TO lcCmd TEXTMERGE NOSHOW 
+	SELECT csrdetanrocaja.id as id,csrdetanrocaja.nrocaja as nrocaja,csrdetanrocaja.fecdesde as fecdesde,csrdetanrocaja.fechasta as fechasta,Csrdetanrocaja.switch as switch
+	FROM paradiario as Csrparadiario
+	left join detanrocaja as csrdetanrocaja on Csrparadiario.iddetanrocaja = csrdetanrocaja.id
+	ENDTEXT 
+ELSE
+	TEXT TO lcCmd TEXTMERGE NOSHOW 
+	SELECT csrdetanrocaja.id as id,csrdetanrocaja.nrocaja as nrocaja,csrdetanrocaja.fecdesde as fecdesde,csrdetanrocaja.fechasta as fechasta,Csrdetanrocaja.switch as switch
+	FROM detanrocaja as csrdetanrocaja
+	where  Csrdetanrocaja.nrocaja >= <<lObjEjercicioActivo.Nrocaja1>> and Csrdetanrocaja.nrocaja <= <<lObjEjercicioActivo.Nrocaja2>>
+	order by Csrdetanrocaja.nrocaja
+	ENDTEXT 
+ENDIF
+
+IF USED("CsrCursor")
+	USE IN CsrCursor
+ENDIF
+
+lok =CrearCursorAdapter("CsrCursor",lcCmd)
+
+IF lok
+	IF lnhaycierre=1
+		* busco la primer caja que este sin cerrar
+		SELECT CsrCursor
+		GO top
+		SCAN 
+			IF LEFT(switch,1)#"1"
+				EXIT 
+			ENDIF 			
+		ENDSCAN 
+	ENDIF 
+	lObjEjercicioActivo.cajaactual     = CsrCursor.nrocaja
+	lObjEjercicioActivo.idcajaactual  = CsrCursor.id
+	lObjEjercicioActivo.fecCajadesde = CsrCursor.fecdesde
+	lObjEjercicioActivo.fecCajahasta  = CsrCursor.fechasta
+ENDIF
+
+RELEASE lObjeto
+
+RETURN .t.
+
+FUNCTION _XFVFPVERSION
+LOCAL lnversion
+lnversion = INT(VERSION(5)/100)
+RETURN lnversion
+
+FUNCTION _xfPrinterProperties
+PARAMETERS lcPrinter,lctag,ldisplay
+LOCAL lctagPrinter
+
+lctagPrinter = ""
+RETURN lcTagPrinter
+
+FUNCTION CrearCursorDbf
+PARAMETERS lcCursor
+
+IF used('&lcCursor')
+   USE  IN (lcCursor)
+ENDIF
+
+SET SAFETY  OFF 
+
+DO CASE 
+	CASE UPPER(lcCursor)="CSRPAGO"
+	Create Cursor Csrpago (id i AUTOINC,numero n(3),cnombre c(25),fecha d,importe n(10,2),idcuenta n(10);
+	              ,ctactebco c(6),titular c(30),banco c(30),localidad c(30),nrocheque n(12),idtipobco n(10);
+	              ,fechavto d,entregado c(30),idvalor n(10),idprovincia n(10),tipocaja c(2),esclase c(1),recibido c(30);
+	              ,nrotarjeta c(15),cupon c(15),cuota n(2),cuit c(13),idctabco n(10),idmaopera n(10),idcheque M ;
+	              ,detalle c(50),esvale n(1),idcomproba n(12),idbanco i)
+	Sele Csrpago
+ENDCASE 
+
+SET  SAFETY  ON 
+
+RETURN 
+
+FUNCTION ControlFechaCaja
+PARAMETERS ldfecha,ldfecdesde,ldFechasta
+IF ldfecha < ldfecdesde OR ldfecha > ldfechasta
+	RETURN .f.
+ENDIF 
+
+RETURN .t.
+
+FUNCTION NumeroLetra(tnNumero,loObjCampos,lenCampo)
+   LOCAL lnEntero, lnFraccion,lcenletras
+   *-- Elegir si se REDONDEA o TRUNCA
+   tnNumero = ROUND(tnNumero, 2)  && Redondeo a 2 decimales
+*   tnNumero = INT(tnNumero*100)/100 && Trunco a dos decimales
+   lnEntero = INT(tnNumero)
+   lnFraccion = INT((tnNumero - lnEntero) * 100)
+   lcenletras =  NaLetra(lnEntero, 0) + 'CON ' +  NaLetra(lnFraccion, 1) + 'CEN-TA-VOS.'
+   
+   =DIVIDELETRA(lcenletras,@loObjCampos,lenCampo)
+
+ENDFUNC
+
+FUNCTION NaLetra(tnNro, tnFlag)
+   IF EMPTY(tnFlag)
+      tnFlag = 0
+   ENDIF
+   LOCAL lnEntero, lcRetorno, lnTerna, lcMiles, ;
+      lcCadena, lnUnidades, lnDecenas, lnCentenas
+   lnEntero = INT(tnNro)
+   lcRetorno = ''
+   lnTerna = 1
+   DO WHILE lnEntero > 0
+      lcCadena = ''
+      lnUnidades = MOD(lnEntero, 10)
+      lnEntero = INT(lnEntero / 10)
+      lnDecenas = MOD(lnEntero, 10)
+      lnEntero = INT(lnEntero / 10)
+      lnCentenas = MOD(lnEntero, 10)
+      lnEntero = INT(lnEntero / 10)
+
+      *--- Analizo la terna
+      DO CASE
+         CASE lnTerna = 1
+            lcMiles = ''
+         CASE lnTerna = 2 AND (lnUnidades + lnDecenas + lnCentenas # 0)
+            lcMiles = 'MIL '
+         CASE lnTerna = 3 AND (lnUnidades + lnDecenas + lnCentenas # 0)
+            lcMiles = IIF(lnUnidades = 1 AND lnDecenas = 0 AND ;
+               lnCentenas = 0, 'MI-LLON ', 'MI-LLO-NES ')
+         CASE lnTerna = 4 AND (lnUnidades + lnDecenas + lnCentenas # 0)
+            lcMiles = 'MIL MI-LLO-NES '
+         CASE lnTerna = 5 AND (lnUnidades + lnDecenas + lnCentenas # 0)
+            lcMiles = IIF(lnUnidades = 1 AND lnDecenas = 0 AND ;
+               lnCentenas = 0, 'BI-LLON ', 'BI-LLO-NES ')
+         CASE lnTerna > 5
+            lcRetorno = ' ERROR: NUMERO DEMASIADO GRANDE '
+            EXIT
+      ENDCASE
+
+      *--- Analizo las unidades
+      DO CASE
+         CASE lnUnidades = 1
+            lcCadena = IIF(lnTerna = 1 AND tnFlag = 0, 'U-NO ', 'UN ')
+         CASE lnUnidades = 2
+            lcCadena = 'DOS '
+         CASE lnUnidades = 3
+            lcCadena = 'TRES '
+         CASE lnUnidades = 4
+            lcCadena = 'CUA-TRO '
+         CASE lnUnidades = 5
+            lcCadena = 'CIN-CO '
+         CASE lnUnidades = 6
+            lcCadena = 'SEIS '
+         CASE lnUnidades = 7
+            lcCadena = 'SIE-TE '
+         CASE lnUnidades = 8
+            lcCadena = 'O-CHO '
+         CASE lnUnidades = 9
+            lcCadena = 'NUE-VE '
+      ENDCASE
+
+      *--- Analizo las decenas
+      DO CASE
+         CASE lnDecenas = 1
+            DO CASE
+               CASE lnUnidades = 0
+                  lcCadena = 'DIEZ '
+               CASE lnUnidades = 1
+                  lcCadena = 'ON-CE '
+               CASE lnUnidades = 2
+                  lcCadena = 'DO-CE '
+               CASE lnUnidades = 3
+                  lcCadena = 'TRE-CE '
+               CASE lnUnidades = 4
+                  lcCadena = 'CA-TOR-CE '
+               CASE lnUnidades = 5
+                  lcCadena = 'QUIN-CE '
+               OTHER
+                  lcCadena = 'DIE-CI-' + lcCadena
+            ENDCASE
+         CASE lnDecenas = 2
+            lcCadena = IIF(lnUnidades = 0, 'VEIN-TE ', 'VEIN-TI-') + lcCadena
+         CASE lnDecenas = 3
+            lcCadena = 'TREIN-TA ' + IIF(lnUnidades = 0, '', 'Y ') + lcCadena
+         CASE lnDecenas = 4
+            lcCadena = 'CUA-REN-TA ' + IIF(lnUnidades = 0, '', 'Y ') + lcCadena
+         CASE lnDecenas = 5
+            lcCadena = 'CIN-CUEN-TA ' + IIF(lnUnidades = 0, '', 'Y ') + lcCadena
+         CASE lnDecenas = 6
+            lcCadena = 'SE-SEN-TA ' + IIF(lnUnidades = 0, '', 'Y ') + lcCadena
+         CASE lnDecenas = 7
+            lcCadena = 'SE-TEN-TA ' + IIF(lnUnidades = 0, '', 'Y ') + lcCadena
+         CASE lnDecenas = 8
+            lcCadena = 'O-CHEN-TA ' + IIF(lnUnidades = 0, '', 'Y ') + lcCadena
+         CASE lnDecenas = 9
+            lcCadena = 'NO-VEN-TA ' + IIF(lnUnidades = 0, '', 'Y ') + lcCadena
+      ENDCASE
+
+      *--- Analizo las centenas
+      DO CASE
+         CASE lnCentenas = 1
+            lcCadena = IIF(lnUnidades = 0 AND lnDecenas = 0, ;
+               'CIEN ', 'CIEN-TO- ') + lcCadena
+         CASE lnCentenas = 2
+            lcCadena = 'DOS-CIEN-TOS ' + lcCadena
+         CASE lnCentenas = 3
+            lcCadena = 'TRES-CIEN-TOS ' + lcCadena
+         CASE lnCentenas = 4
+            lcCadena = 'CUA-TRO-CIEN-TOS ' + lcCadena
+         CASE lnCentenas = 5
+            lcCadena = 'QUI-NIEN-TOS ' + lcCadena
+         CASE lnCentenas = 6
+            lcCadena = 'SEIS-CIEN-TOS ' + lcCadena
+         CASE lnCentenas = 7
+            lcCadena = 'SE-TE-CIEN-TOS ' + lcCadena
+         CASE lnCentenas = 8
+            lcCadena = 'O-CHO-CIEN-TOS ' + lcCadena
+         CASE lnCentenas = 9
+            lcCadena = 'NO-VE-CIEN-TOS ' + lcCadena
+      ENDCASE
+
+      *--- Armo el retorno terna a terna
+      lcRetorno = lcCadena + lcMiles + lcRetorno
+      lnTerna = lnTerna + 1
+   ENDDO
+   IF lnTerna = 1
+      lcRetorno = 'CERO '
+   ENDIF
+   RETURN lcRetorno
+ENDFUNC
+
+FUNCTION  DIVIDELETRA
+parameters nroletras,loObjCampos,lenCampo
+LOCAL  i,k,p,j,cadena1,subca,salir,cadena,ancho
+
+ancho = lenCampo
+store 1 to i,p
+j = 0
+if len(strtran(nroletras,'-',''))<=lenCampo
+   loObjcampos.campo1=strtran(nroletras,'-','')
+   return
+endif
+k=len(alltrim(nroletras))
+cadena1=alltrim(nroletras)
+subca=''
+salir = .t.
+do while salir
+   cadena=subs(cadena1,i,k-i+1)
+   if at(' ',cadena) >1
+      subca=subca+SUBS(cadena,1,AT(' ',cadena)-1)+' '
+   else
+         if at('-',cadena) <1
+             subca=subca+cadena
+             salir = .f.
+         ELSE
+         	subca=subca+cadena
+         	salir = .f.
+         endif
+   ENDIF
+ 
+   subca=strtran(subca,'-','')
+   if len(subca)<=ancho
+      i= i + AT(' ',subs(cadena1,i,k-i+1))
+      else
+         i= i - iif(subs(cadena1,i,1)=' ',1,0)
+         do while !subs(cadena1,i,1)$'! '
+            i = i - 1
+         enddo
+         subca=strtran(subs(cadena1,p,i-p+1),'-','')
+         p = i
+         j = j + 1
+         lcquecampo = "loObjCampos.campo"+LTRIM(STR(j))
+         &lcquecampo = ltrim(subca)
+         subca=''
+   endif
+enddo
+j = j + 1
+lcquecampo = "loObjCampos.campo"+LTRIM(STR(j))
+&lcquecampo = ltrim(subca)
+RETURN 
+         
+FUNCTION createStruct( toReflection, tcTypeName )
+  LOCAL loPropertyValue, loTemp
+  loPropertyValue = createobject( "relation" )
+  toReflection.forName( tcTypeName).createobject(@loPropertyValue)
+  return ( loPropertyValue )
+ENDPROC 
+
+FUNCTION ConvertToUrl (strFile)
+    strFile = STRTRAN(strFile, "\", "/")
+    strFile = STRTRAN(strFile, ":", "|")
+    strFile = STRTRAN(strFile, "", "20%")
+    strFile = "file:///" + strFile 
+    RETURN strFile
+ENDPROC 
+Function LeerXML(tcArchivo,oscreen)
+   If !File( tcArchivo )
+	   CREATE CURSOR temp (top n(12,0),left n(12,0),height n(12,0),width n(12,0))
+	   INSERT into temp VALUES (_screen.Top,_screen.Left,_screen.Height,_screen.Width)
+	   SELECT temp
+	   scatter name oscreen
+	   SET SAFETY off
+	   CURSORTOXML('Temp',  tcArchivo, 1, 512)
+	   SET SAFETY ON
+	   Use In Temp
+   Else
+      XmlToCursor( tcArchivo, 'Cur_Temporal',512 )
+      SELECT cur_temporal
+      SCATTER NAME oscreen
+      Use In Cur_Temporal
+   EndIf
+   Return .T.
+ENDFUNC
+
+Function GrabarXML(tcArchivo,oscreen)
+   IF USED('temp')
+      USE IN temp
+   endif
+   CREATE CURSOR temp (top n(12,0),left n(12,0),height n(12,0),width n(12,0))
+   APPEND BLANK IN temp   
+   SELECT temp
+   gather name oscreen
+   SET SAFETY off
+   CURSORTOXML('Temp',  tcArchivo, 1, 512)
+   SET SAFETY ON
+   Use In Temp
+   RELEASE oscreen
+   Return .T.
+   
+ENDFUNC
+
+*-----------------------------------------
+* FUNCTION FechaHoraCero(ldfecha)
+*-----------------------------------------
+* Pone en cero la hora
+*-----------------------------------------
+FUNCTION FechaHoraCero
+PARAMETERS ldfechahora
+
+ldfechahoracero = DATETIME(YEAR(ldfechahora),MONTH(ldfechahora),DAY(ldfechahora),0,0,0)
+
+RETURN ldfechahoracero
+ 
+
+*-----------------------------------------
+* FUNCTION IsNumeric(cNumero)
+*-----------------------------------------
+* Pone en cero la hora
+*-----------------------------------------
+FUNCTION IsNumeric
+PARAMETERS cNumero
+
+LOCAL bError,i
+bError = .t.
+
+cNumero = ALLTRIM(cNumero)
+
+FOR i=1 TO LEN(cNumero)
+	IF LEFT(cNumero,1)$".,"
+		LOOP  
+	ENDIF 
+	IF NOT ISDIGIT(LEFT(cNumero,1))
+		bError = .f.
+		EXIT 
+	ENDIF 
+	cNumero = SUBSTR(cNumero,2)
+ENDFOR 
+	
+RETURN bError
+
+*----------------------------------------
+*
+*----------------------------------------
+Procedure Verifica_OCX
+* CHECKOCX.PRG
+* Programa para checar si estan registrados los controles OCX necesarios
+* Junio, 22, 2004.
+*
+*
+* Necesitamos tener una variable en alguna parte para saber si ya esta registrado o no…
+* MOD: 14,Mayo,2008… Agregamos una funcion para detectar primero si el OCX esta registrado.
+*       En caso de no estarlo debemos hacerlo.
+*
+* Checando si los controles ActiveX necesarios para el sistema estan registrados
+*
+* Listado con todos los con todos los controles OCX necesarios.
+* Poner en el array tantos OCX como necesite el sistema. Este numero debera ser pasado
+* mas adelante para el proceso.
+*
+* El array necesita 2 dimensiones o columnas, ya que la segunda correspondera al
+* archivo fisico OCX y en donde se encuentra si es que esta en una subcarpeta.
+* Ejs.
+*  lstOCX(1,1) = "ctdropdate.ctdropdatectrl.2"
+*  lstOCX(1,2) = "ctdropdate.ocx"
+*   o
+*  lstOCX(1,2) = "OCX\ctdropdate.ocx"
+*
+* Tambien usaremos una variable de parametro para hacer 1 de 3 cosas:
+* 1) Check = Checar si el control esta registrado o no y registrarlo en su caso
+* 2) RegALL = Registrar el control aunque ya estuviera registrado
+* 3) UnRegALL = Desregistrar el control.
+*
+* La razon de estas opciones es que para aplicaciones portables necesitaremos desregistrar el control
+* para que no quede huella en el sistema Host.
+*
+Parameters cOpcion
+If Parameters() = 0
+	Return
+Endif
+*stop()
+Dimension lstOCX(6,2)
+lstOCX(1,1) = "SSubTimer6.Gsubclass"
+lstOCX(1,2) = "SSubTmr6.dll"
+lstOCX(2,1) ="vbalLbar6.cListBarItem"
+lstOCX(2,2) ="vbalLbar6.ocx"
+lstOCX(3,1) ="MSComctlLib.TreeCtrl.2"
+lstOCX(3,2) ="mscomctl.ocx"
+lstOCX(4,1) ="msvcp71.dll"
+lstOCX(4,2) ="msvcp71.dll"
+lstOCX(5,1) ="msvcr70.dll"
+lstOCX(5,2) ="msvcr70.dll"
+lstOCX(6,1) ="COMCTL.progctrl.1"
+lstOCX(6,2) ="COMCTL32.ocx"
+* Hacer un ciclo con el ultimo numero que corresponde a la cantidad de OCX necesarios
+* No calculamos porque nosotros le damos la cantidad
+For i = 1 To Alen('lstocx',1)
+	Do Case
+	Case cOpcion = "Check"
+
+		lCheck = OcxRegistrado( lstOCX( i, 1 ) ) && Llamamos la funcion que checa si esta registrado o no: (.T./.F.)
+		If lCheck = .F.
+* Si el control necesario no esta registrado en la PC, registremoslo
+* Debemos pasarle a esta funcion el archivo OCX a registrar
+			lRegistrado = OCXCmdReg( lstOCX( i, 2) )
+*  ? "Archivo " + lstOCX( i,2) +" Ya NO ESTABA registrado. Pero ahora si lo esta"
+		Else
+*  ? "Archivo " + lstOCX( i,2)+ " Ya estaba registrado"
+		Endif
+	Case cOpcion = "RegALL"
+		lRegistrado = OCXCmdReg( lstOCX( i, 2) )
+	Case cOpcion = "UnRegALL"
+		lRegistrado = OCXCmdUnReg( lstOCX( i, 2) )
+	Endcase
+NEXT
+on error do errorsys
+
+Return
+
+Function OcxRegistrado(cClase)
+Declare Integer RegOpenKey In Win32API ;
+	Integer nHKey, String @cSubKey, Integer @nResult
+Declare Integer RegCloseKey In Win32API ;
+	Integer nHKey
+nPos = 0
+lEsta = RegOpenKey(-2147483648, cClase, @nPos) = 0
+
+If lEsta
+	RegCloseKey(nPos)
+Endif
+
+Return lEsta
+Endfunc
+
+Function OCXRegistrar(cActiveX)
+Declare Integer DLLSelfRegister In "vb6stkit.DLL" String lpDllName
+* Debemos de poner una lista de los controles
+lcFileOCX = Sys(5) + Curdir() + cActiveX
+*lcFileOCX = "C:\DBITECH\Toolbox6\DBITech\Component Toolbox 6.0\Components\ctlist.ocx”
+liRet = DLLSelfRegister( lcFileOCX )
+If liRet = 0
+	SelfRegisterDLL = .T.
+* MESSAGEBOX( "Registrado OCX” )
+Else
+	SelfRegisterDLL = .F.
+	Messagebox( 'Error - No registrado OCX' )
+Endif
+Endfunc
+
+Function OCXCmdReg(cActiveX)
+On Error
+cRun='REGSVR32 /s ' +Sys(5) + Curdir()+ cActiveX
+Run /N &cRun
+*=Messagebox('Se ha registrado la siguiente librería : '+Sys(5) + Curdir()+ cActiveX)
+Endfunc
+
+Function OCXCmdUnReg(cActiveX)
+cRun='REGSVR32 /u /s ' + cActiveX
+Run /N &cRun
+Endfunc

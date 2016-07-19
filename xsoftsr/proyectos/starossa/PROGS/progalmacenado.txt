@@ -1,0 +1,196 @@
+PROCEDURE NUEVOID(TCALIAS as String,LNID AS Integer @)
+	local LCALIAS,LNID,LCOLDREPROCESS,LNOLDAREA,lcPrefix,lcdatabase,LcIds,lnrat
+    
+	LNOLDAREA = select()
+
+	if parameters() < 1
+		LCALIAS = upper(alias())
+	else
+		LCALIAS = upper(TCALIAS)
+	endif
+    lcdatabase = CursorGetProp("DATABASE",LCalias)
+    lnrat      = rat('\',lcdatabase)
+    lcdatabase = subs(lcdatabase,lnrat+1)
+        
+	LCOLDREPROCESS = set('REPROCESS')
+
+	*-- Lock until user presses Esc
+	set reprocess to automatic
+	
+    Lcids = iif(len(trim(lCdatabase))<>0,lcdatabase+'!KEYSID','KEYSID')
+        
+	if used("KEYSID")
+	   Use in KEYSID
+	endif
+
+    Use &Lcids in 0 alias KEYSID
+
+	select KEYSID
+    Set order to 1
+	IF !SEEK(alltrim(LCALIAS),"KEYSId", "tabla")
+	   APPEND BLANK
+	   REPLACE tabla WITH ALLTRIM(lcalias)
+	ENDIF
+	lnid = 0
+    if rlock()
+       LNID = KEYSID.NEXTID
+	   replace KEYSID.NEXTID with KEYSID.NEXTID + 1
+	   unlock
+	else
+		=messagebox('No se bloqueo '+LCALIAS+' en IDS base de datos '+lcdatabase,16, ;
+			'ERROR EN TABLA KEYSID')
+		quit
+	endif
+    Use in KEYSID
+	select (LNOLDAREA)
+	set reprocess to LCOLDREPROCESS
+	RETURN lnId
+ENDPROC 
+
+**__RI_HEADER!@ Do NOT REMOVE or MODIFY this line!!!! @!__RI_HEADER**
+procedure RIDELETE
+local llRetVal
+llRetVal=.t.
+ IF (ISRLOCKED() and !deleted()) OR !RLOCK()
+    llRetVal=.F.
+  ELSE
+    IF !deleted()
+      DELETE
+      IF CURSORGETPROP('BUFFERING') > 1
+      	=TABLEUPDATE()
+      ENDIF
+      llRetVal=pnerror=0
+    ENDIF not already deleted
+  ENDIF
+  UNLOCK RECORD (RECNO())
+RETURN llRetVal
+
+procedure RIUPDATE
+lparameters tcFieldName,tcNewValue,tcCascadeParent
+local llRetVal
+llRetVal=.t.
+ IF ISRLOCKED() OR !RLOCK()
+    llRetVal=.F.
+  ELSE
+    IF EVAL(tcFieldName)<>tcNewValue
+      PRIVATE pcCascadeParent
+      pcCascadeParent=upper(iif(type("tcCascadeParent")<>"C","",tcCascadeParent))
+      REPLACE (tcFieldName) WITH tcNewValue
+      IF CURSORGETPROP('BUFFERING') > 1
+      	=TABLEUPDATE()
+      ENDIF
+      llRetVal=pnerror=0
+    ENDIF values don't already match
+  ENDIF it's locked already, or I was able to lock it
+  UNLOCK RECORD (RECNO())
+return llRetVal
+
+procedure rierror
+parameters tnErrNo,tcMessage,tcCode,tcProgram
+local lnErrorRows,lnXX
+lnErrorRows=alen(gaErrors,1)
+if type('gaErrors[lnErrorRows,1]')<>"L"
+  dimension gaErrors[lnErrorRows+1,alen(gaErrors,2)]
+  lnErrorRows=lnErrorRows+1
+endif
+gaErrors[lnErrorRows,1]=tnErrNo
+gaErrors[lnErrorRows,2]=tcMessage
+gaErrors[lnErrorRows,3]=tcCode
+gaErrors[lnErrorRows,4]=""
+lnXX=1
+do while !empty(program(lnXX))
+  gaErrors[lnErrorRows,4]=gaErrors[lnErrorRows,4]+","+;
+  program(lnXX)
+  lnXX=lnXX+1
+enddo
+gaErrors[lnErrorRows,5]=pcParentDBF
+gaErrors[lnErrorRows,6]=pnParentRec
+gaErrors[lnErrorRows,7]=pcParentID
+gaErrors[lnErrorRows,8]=pcParentExpr
+gaErrors[lnErrorRows,9]=pcChildDBF
+gaErrors[lnErrorRows,10]=pnChildRec
+gaErrors[lnErrorRows,11]=pcChildID
+gaErrors[lnErrorRows,12]=pcChildExpr
+return tnErrNo
+
+
+PROCEDURE riopen
+PARAMETERS tcTable,tcOrder
+local lcCurWkArea,lcNewWkArea,lnInUseSpot
+lnInUseSpot=atc(tcTable+"*",pcRIcursors)
+IF lnInUseSpot=0
+  lcCurWkArea=select()
+  SELECT 0
+  lcNewWkArea=select()
+  IF NOT EMPTY(tcOrder)
+    USE (tcTable) AGAIN ORDER (tcOrder) ;
+      ALIAS ("__ri"+LTRIM(STR(SELECT()))) share
+  ELSE
+    USE (tcTable) AGAIN ALIAS ("__ri"+LTRIM(STR(SELECT()))) share
+  ENDIF
+  if pnerror=0
+    pcRIcursors=pcRIcursors+upper(tcTable)+"?"+STR(SELECT(),5)
+  else
+    lcNewWkArea=0
+  endif something bad happened while attempting to open the file
+ELSE
+  lcNewWkArea=val(substr(pcRIcursors,lnInUseSpot+len(tcTable)+1,5))
+  pcRIcursors = strtran(pcRIcursors,upper(tcTable)+"*"+str(lcNewWkArea,5),;
+    upper(tcTable)+"?"+str(lcNewWkArea,5))
+  IF NOT EMPTY(tcOrder)
+    SET ORDER TO (tcOrder) IN (lcNewWkArea)
+  ENDIF sent an order
+  if pnerror<>0
+    lcNewWkArea=0
+  endif something bad happened while setting order
+ENDIF
+RETURN (lcNewWkArea)
+
+
+PROCEDURE riend
+PARAMETERS tlSuccess
+local lnXX,lnSpot,lcWorkArea
+IF tlSuccess
+  END TRANSACTION
+ELSE
+  SET DELETED OFF
+  ROLLBACK
+  SET DELETED ON
+ENDIF
+IF EMPTY(pcRIolderror)
+  ON ERROR
+ELSE
+  ON ERROR &pcRIolderror.
+ENDIF
+FOR lnXX=1 TO occurs("*",pcRIcursors)
+  lnSpot=atc("*",pcRIcursors,lnXX)+1
+  USE IN (VAL(substr(pcRIcursors,lnSpot,5)))
+ENDFOR
+IF pcOldCompat = "ON"
+	SET COMPATIBLE ON
+ENDIF
+IF pcOldDele="OFF"
+  SET DELETED OFF
+ENDIF
+IF pcOldExact="ON"
+  SET EXACT ON
+ENDIF
+IF pcOldTalk="ON"
+  SET TALK ON
+ENDIF
+do case
+  case empty(pcOldDBC)
+    set data to
+  case pcOldDBC<>DBC()
+    set data to (pcOldDBC)
+endcase
+RETURN .T.
+
+
+PROCEDURE rireuse
+* rireuse.prg
+PARAMETERS tcTableName,tcWkArea
+pcRIcursors = strtran(pcRIcursors,upper(tcTableName)+"?"+str(tcWkArea,5),;
+  upper(tcTableName)+"*"+str(tcWkArea,5))
+RETURN .t.
+

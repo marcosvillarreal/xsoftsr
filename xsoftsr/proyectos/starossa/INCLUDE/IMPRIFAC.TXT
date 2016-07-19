@@ -1,0 +1,265 @@
+Procedure IMPRIFAC
+private transpo
+
+BEGIN SEQUENCE
+
+*  do inic_impre with 18,72,.f.
+
+qdim=dim&m_letra
+qdim=if(m_descto<>0,(qdim-2),qdim-1)
+do while .t.
+*   set print off
+*   set device to screen
+*   set conso on
+
+   set colo to &coloi_
+   do explota with 16,37,21,73,0
+   @ 18,45 say '     Imprimiendo   '
+   @ 19,45 say 'Un Momento Por Favor...'
+   set colo to &colon_
+
+   if m_copias <= 0
+      do errores with 'Cantidad de copias es cero'
+      break
+   endif
+
+   If len(alltrim(m_lpt))=0
+      do errores with 'No existe LPT1 o LPT2 o LPT3'
+      break
+   endif
+
+   set conso off
+   set device to print
+   set print on
+
+   cant_copias= m_copias
+   set printer to &m_lpt
+
+   ??chr(27)+'@'
+   ??CHR(27)+"C"+CHR(36)
+   ??chr(18)
+   for icopia=1 to cant_copias
+     canlin=0 ; _subfinal = 0
+     do impricab
+     for i=1 to topeta
+        _unibulto  = iif(unid[i]='B',1,porbulto[i])
+        m_detalle  = no[i]
+        m_codboni  = 0
+        if co[i]<>0
+           sele &_baseart ; set order to 1 ; seek co[i]
+           m_detalle   = iif(unid[i]='B',nombre,nombre)   &&nombulto)
+           m_codboni   = codboni
+        endif
+        m_importe  = imtot[i] / iif(unid[i]='B',1,porbulto[i])
+        m_unitario = im[i] / iif(unid[i]='B',1,porbulto[i])
+        If m_tipocte < 3
+           _xinter=intot[i]
+           _uinter=in[i]
+           if bon1[i]=100
+              _xinter=0
+              _uinter=0
+           endif
+           m_grav    = (imtot[i] - _xinter) / _unibulto
+           m_importe = red(m_grav / (1 + _ivari[i]/100))
+           m_grav    = ((im[i] - _uinter) / iif(unid[i]='B',1,porbulto[i]))
+           m_unitario= red2(m_grav / (1 + _ivari[i]/100))
+        endif
+        m_unitario = iif(co[i]=0 .and. ca[i]=0,0,m_unitario)
+
+        sele &_baseart
+
+        @ prow()+1,1      say ca[i]       pict '@z 9999999.99'
+        @ prow(),pcol()+1 say Left(m_detalle+space(40),40) pict '@!'
+        @ prow(),pcol()+1 say iif(co[i]<>0,'('+str(co[i],6)+')','        ')
+        if bon1[i]=0
+           @ prow(),pcol()+4 say m_unitario  pict '@z 999999.999' &&7
+           @ prow(),pcol()+1 say space(7)
+           @ prow(),pcol()+1 say m_importe   pict '@z 999,999.99'
+        else
+           _laboni='-'+alltrim(transform(bon1[i],'999.99'))+'%'
+           _laboni=left(_laboni+space(7),7)
+           @ prow(),pcol()+4 say m_unitario  pict '@z 999999.999'
+           @ prow(),pcol()+1 say _laboni
+           @ prow(),pcol()+1 say m_importe   pict '@z 999,999.99'
+        endif
+        @ prow(),pcol()+1 say unid[i]
+        _subfinal = red(_subfinal + m_importe)
+        ++canlin
+
+        Sele Auxart ; set filter to numero = co[i] ; go top
+        _detacarga = ''
+        do while !eof()
+           if red(cantidad)<>0
+              _detacarga = _detacarga+if(len(trim(_detacarga))=0,'','/')+transform(cantidad,'99999') + ' '+trim(detalle)
+           endif
+           skip
+        enddo
+
+        if len(trim(_detacarga))<>0
+           @ prow()+1,1 say '          '
+           @ prow(),pcol()+1 say chr(15)+chr(27)+chr(71)+_detacarga+chr(27)+chr(72)+chr(18)
+           ++canlin
+        endif
+        if bonarti[i]<>0 .or. bonpro[i]<>0
+           @ prow()+1,1      say (bonarti[i] + bonpro[i]) pict '@z 9999999.99'
+           @ prow(),pcol()+1 say chr(27)+chr(71)+'unidad/es de obsequio'+chr(27)+chr(72)
+           ++canlin
+        endif
+       * if m_codboni<>0 .and. red(int(ca[i]))<>0
+       *    sele &_baseart ; seek m_codboni
+       *    @ prow()+1,1      say int(ca[i])   pict '@z 9999999.99'
+       *    @ prow(),pcol()+1 say Left(nombre+space(40),40) pict '@!'
+       *    @ prow(),pcol()+1 say '('+str(m_codboni,6)+')'
+       *    ++canlin
+       * endif
+     next
+     for i=canlin to qdim
+         ?
+     next
+     _ccartel='CONTROLE LA MERCADERIA, NO SE ADMITEN RECLAMOS'
+     if _sisorteo='S'
+         iss=imprisor()
+         if !len(alltrim(iss))=0
+           _ccartel=iss
+         endif
+     endif
+      if m_descto<>0 &&.and. m_letra='B'
+         _xcar = ''
+         if bocli1<>0 .or. bocli2<>0
+            _xcar = transform(bocli1,'99.99')+'% + '+transform(bocli2,'99.99')+'% ..:'
+         endif
+         _ld='BONIFICACION '+_xcar
+         @ prow()+1,47 say 'SUBTOTAL..........: '
+         @ prow(),67 say red(_subfinal) pict '999999999.99'
+         @ prow()+1,0 say chr(15)+chr(27)+chr(71)+_ccartel+chr(27)+chr(72)+chr(18)
+         @ prow(),47 say chr(15)+_ld+chr(18)
+         if m_letra='A'
+            @ prow(),67 say red(_subfinal - m_netogravado) pict '999999999.99'        && m_desiva
+         else
+            _laspib=abs(m_perceib+m_pib)
+            @ prow(),67 say red(_subfinal - (_totalfac - _laspib)) pict '999999999.99'        && m_desiva
+         endif
+     else
+         @ prow()+1,0 say chr(15)+chr(27)+chr(71)+_ccartel+chr(27)+chr(72)+chr(18)
+     endif
+
+     if m_letra='B' .and. m_tipocte=3
+        @ prow()+1,1 say 'MERCADERIA CON DESTINO A CONSUMO PERSONAL'
+        *@ prow()+1,1 say ''
+     else
+        @ PROW()+1,1 SAY ''
+     endif
+
+     do impripie
+     eject
+   next
+
+   set print off
+   set printer to
+   set device to screen
+   set conso on
+   break
+enddo
+END
+RETURN
+
+Procedure IMPRICAB
+  @ prow()+2,51 say m_fecha
+  @ prow(),pcol()+2 say chr(14)+chr(15)+LEFT(nombre_c[ipocomp],10)+chr(20)+chr(18)
+  *_xnom = if(m_tipocte=3.and.ipocomp<>1,'CONSUMIDOR FINAL ',trim(m_nombre))+'('+str(numcli,5)+')'
+  _xnom = trim(m_nombre)+'('+str(numcli,5)+')'
+  @ prow()+5,9 say _xnom
+  @ prow(),54  say if(m_tipocte=3,'',m_cuit)
+  @ prow()+1,9 say upper(tipocli[m_tipocte])
+
+  @ prow(),54  say strzero(m_terminal,2)+'-'+m_letra
+  @ prow(),pcol()+1 say strzero(m_talon,4)+'-'+strzero(umero1,8)
+  if numcli=0
+     @ prow(),pcol()+1 say '/'+strzero(m_vendedor,3)+'-'+strzero(m_canal,1)
+  else
+    if m_canal=1
+     @ prow(),pcol()+1 say '/'+strzero(cliente->vendedor,3)+'-'+strzero(m_canal,1)
+    else
+     @ prow(),pcol()+1 say '/'+strzero(cliente->vende2,3)+'-'+strzero(m_canal,1)
+    endif
+  endif
+
+  if m_tipocte=3 .and. ipocomp<>1
+     @ prow()+1,9 say ''
+  else
+     @ prow()+1,9 say alltrim(upper(m_direccion))
+     @ prow(),54  say alltrim(upper(m_localidad))
+  endif
+  _condizion = left(plan->nombre,20)+' '+iif(_tipovta=1,dtoc(m_fecha),dtoc(m_vto))
+    if _esvale
+     _condizion='VALE'
+  endif
+  @ prow()+2,14 say _condizion
+  *@ prow(),54 say strzero(m_remito,8)+'     '+m_pedido
+  if numcli=0
+     @ prow(),54 say chr(15)+chr(27)+chr(71)+left(qvendedor(m_vendedor),35)+chr(27)+chr(72)+chr(18)
+  else
+    if m_canal=1
+     @ prow(),54 say chr(15)+chr(27)+chr(71)+left(qvendedor(cliente->vendedor),35)+chr(27)+chr(72)+chr(18)
+    else
+     @ prow(),54 say chr(15)+chr(27)+chr(71)+left(qvendedor(cliente->vende2),35)+chr(27)+chr(72)+chr(18)
+    endif
+  endif
+  ?? chr(27)+'M'
+  @ prow()+2,1 say ' '
+RETURN
+
+function qvendedor
+parameters _qvendedor
+local ulta
+ulta=select()
+sele vendedor
+set order to 1
+seek _qvendedor
+select(ulta)
+return str(vendedor->numero,3)
+
+Procedure IMPRIPIE
+?? chr(27)+'P'
+*if ipocomp<>1
+   if m_tipocte<3 .or. m_tipocte=6
+
+      @ prow()+1,0      say '            '
+      @ prow(),pcol()+1 say '           '
+      if m_perceib<>0
+         @ prow(),pcol()+1 say 'Per.IB.an.3% '
+      else
+         @ prow(),pcol()+1 say '             '
+      endif
+      if m_pib<>0
+         @ prow(),pcol()+14 say 'P.IB.'+transform(_piba,'9.99')+'%'
+      else
+         @ prow(),pcol()+14 say '         '
+      endif
+      @ prow()+1,0      say m_netogravado     pict '99999,999.99'
+      @ prow(),pcol()+1 say m_internos        pict '9999,999.99'
+      @ prow(),pcol()+1 say m_perceib   pict '9999,999.99'
+      @ prow(),pcol()+1 say m_iva             pict '99999,999.99'
+      @ prow(),pcol()+1 say m_acrecentamiento+m_pib pict '9999,999.99'
+   else
+      @ prow()+1,0      say if(m_tipocte=8,'PERCEPCION  ','            ')
+      @ prow(),pcol()+1 say m_percenoca pict '@z 9999,999.99'
+      if m_perceib<>0
+         @ prow(),pcol()+1 say 'P.IBt.Analc'
+         @ prow(),pcol()+1 say m_perceib    pict '99,999.99'
+      else
+         @ prow(),pcol()+1 say '           '
+         @ prow(),pcol()+1 say '         '
+      endif
+      if m_pib<>0
+         @ prow(),pcol()+1 say 'P.IB.'+transform(_piba,'9.99')+'%'
+         @ prow(),pcol()+1 say m_pib    pict '99,999.99'
+      else
+         @ prow(),pcol()+1 say '           '
+         @ prow(),pcol()+1 say '         '
+      endif
+   endif
+   @ prow(),67 say _totalfac pict '@z 9999999.99'
+*endif
+RETURN
+

@@ -1,0 +1,31 @@
+ALTER PROCEDURE dbo.NuevoId
+
+@NameTable varchar(20),
+@RetValor int OUTPUT
+
+/*
+	(
+		@parameter1 datatype = default value,
+		@parameter2 datatype OUTPUT
+	)
+*/
+AS
+	/* SET NOCOUNT ON */
+	
+	set @retvalor=0
+	
+	SELECT Name FROM SysObjects WHERE Name='KEYS' AND Type='U'
+	
+    IF @@ROWCOUNT < 1
+       CREATE TABLE Keys ( TableName Char(20), LastKeyVal Integer )
+  	 
+    SELECT LastKeyVal FROM Keys WHERE TableName=@NameTable
+    
+	IF @@ROWCOUNT < 1	   
+	   INSERT INTO Keys VALUES (@NameTable, 0 )		   
+	   
+       		
+  	UPDATE Keys  	       
+  	       SET @RetValor = LastkeyVal = LasTkeyVal + 1 WHERE TableName=@NameTable
+  	 	   	
+	RETURN 
