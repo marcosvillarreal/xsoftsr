@@ -1,4 +1,0 @@
-@ECHO OFF
-CLS
-TYPE %1 > %2
-DEL %1
