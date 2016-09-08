@@ -24,6 +24,7 @@ NEXT
 *!*								ECA = egreso caja
 *!*								BCO = registra bancos
 *!*								CAR = registra cartera
+*!*								PCC = rendicion facturas pasadas cuenta corriente
 
 *!*	 MOVCTACTE.switch		1	1= factura pasada a ctacte en rend.fletero 2=cobranza por rend vendedor
 
