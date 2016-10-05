@@ -148,1208 +148,6 @@
 
 
 
-00000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,0000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-18-07-2016 13:56:58 , Pila de llamadas
-18-07-2016 13:56:58 , Programa    : c:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-18-07-2016 13:56:58 , Objeto      : regfacvta.load
-18-07-2016 13:56:58 , Base Objeto : c:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-18-07-2016 13:56:58 , Nº de Linea :          3
-18-07-2016 13:56:58 , En el Fuente: thisform.crearcursor()
-18-07-2016 13:56:58 , Programa    : c:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-18-07-2016 13:56:58 , Objeto      : regfacvta.crearcursor
-18-07-2016 13:56:58 , Base Objeto : c:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-18-07-2016 13:56:58 , Nº de Linea :         19
-18-07-2016 13:56:58 , En el Fuente: SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1	   ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2	   ,CAST(0 a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasaret
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva   	   ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1506,8 +304,38 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ADWRITE  
 27-07-2016 16:28:18 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1815,6 +643,21 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 icacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*100,4) as importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JO
 
 
@@ -1958,7 +801,37 @@ icacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*10
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente ,Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsector,codsector,nomsector,sectorruta &lcorder 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2255,7 +1128,37 @@ INTO CURSOR csrimprimir readwrite;Error :       1832;Ultimo Alias Activo: CSRAUX
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dsector,codsector,nomsector,sectorruta,detalle as detaguiaFROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacteGROUP BY CsrAuxCabe.idVendedor,CsrA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2531,6 +1434,21 @@ uxCabe.ImporteFinal,Ctacte,NomCliente,Idctacte,CodVendedor,NomVendedor,Bonificac
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 icacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*100,4) as importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JO
 
 
@@ -2668,7 +1586,37 @@ icacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*10
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente ,Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsector,codsector,nomsector,sectorruta &lcorder 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2953,7 +1901,37 @@ INTO CURSOR csrimprimir readwrite;Error :       1832;Ultimo Alias Activo: CSRAUX
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dsector,codsector,nomsector,sectorruta,detalle as detaguiaFROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacteGROUP BY CsrAuxCabe.idVendedor,CsrA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3217,6 +2195,21 @@ uxCabe.ImporteFinal,Ctacte,NomCliente,Idctacte,CodVendedor,NomVendedor,Bonificac
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 icacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*100,4) as importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JO
 
 
@@ -3348,7 +2341,37 @@ icacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*10
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente ,CsrAuxCabe.Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsector,codsector,nomsector,sectorrut
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3621,7 +2644,37 @@ a &lcorder INTO CURSOR csrimprimir readwrite;Error :       1832;Ultimo Alias Act
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dsector,codsector,nomsector,sectorruta,detalle as detaguiaFROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacteGROUP BY CsrAuxCabe.idVendedor,CsrA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3873,6 +2926,21 @@ uxCabe.ImporteFinal,Ctacte,NomCliente,CsrAuxCabe.Idctacte,CodVendedor,NomVendedo
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 icacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*100,4) as importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JO
 
 
@@ -3998,7 +3066,37 @@ icacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*10
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente ,CsrAuxCabe.Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsector,codsector,nomsector,sectorrut
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4260,7 +3358,37 @@ a &lcorder INTO CURSOR csrimprimir readwrite;Error :       1832;Ultimo Alias Act
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dsector,codsector,nomsector,sectorruta,detalle as detaguiaFROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacteGROUP BY CsrAuxCabe.idVendedor,CsrA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4502,6 +3630,21 @@ uxCabe.ImporteFinal,Ctacte,NomCliente,CsrAuxCabe.Idctacte,CodVendedor,NomVendedo
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 omvendedor ,bonificacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*100,4) as importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.i
 
 
@@ -4622,7 +3765,37 @@ omvendedor ,bonificacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente ,CsrAuxCabe.Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsector,codsector,no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4872,7 +4045,37 @@ msector,sectorruta &lcorder INTO CURSOR csrimprimir readwrite;Error :       1807
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguiaFROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacteGROUP BY CsrAuxCabe.idVe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4988,6 +4191,21 @@ msector,sectorruta &lcorder INTO CURSOR csrimprimir readwrite;Error :       1807
 
 ndedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente,CsrAuxCabe.Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsector,codsector,nomsector,sectorruta&lcorder INTO CURSOR csrimprimir readwrite
 12-08-2016 13:51:00 , MAIN, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : ;Error :        107;Ultimo Alias Activo: CSRTEMPFECHACAEA;Ultimo registro:          1 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\00006G3T03PP.TMP;Ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5221,6 +4439,21 @@ timo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CHIVI\APPDATA\LOCAL\TEMP\00006G3T048P.TMP;Ultimo Control activo: 
 12-08-2016 13:52:41 , Pila de llamadas
 12-08-2016 13:52:42 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5234,6 +4467,21 @@ CHIVI\APPDATA\LOCAL\TEMP\00006G3T048P.TMP;Ultimo Control activo:
 12-08-2016 13:52:43 , Nº de Linea :         62
 12-08-2016 13:52:43 , En el Fuente: 	where periodo='<<cPeriodo>>' and quincena='<<cquincena>>' and estado=0
 02-09-2016 12:26:34 , MAIN, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF tcdato<0;Error :        107;Ultimo Alias Activo: CSRPROPERTY;Ultimo registro:         18 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\00009NGP00NS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5472,6 +4720,21 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TMP;Ultimo Control activo: 
 02-09-2016 12:29:40 , Pila de llamadas
 02-09-2016 12:29:40 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5510,6 +4773,21 @@ TMP;Ultimo Control activo:
 02-09-2016 12:29:44 , Nº de Linea :        993
 02-09-2016 12:29:44 , En el Fuente: IF tcdato<0
 02-09-2016 12:30:57 , MAIN, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF tcdato<0;Error :        107;Ultimo Alias Activo: CSRPROPERTY;Ultimo registro:         18 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\00009NGP01T6.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5688,6 +4966,21 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Control activo: 
 02-09-2016 12:31:11 , Pila de llamadas
 02-09-2016 12:31:11 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5713,6 +5006,21 @@ Control activo:
 02-09-2016 16:08:18 , Nº de Linea :         12
 02-09-2016 16:08:18 , En el Fuente: IF RECCOUNT('CsrDecimal')#0
 02-09-2016 16:08:58 , RESCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSORA'.;Linea : SELECT CsrCursorA;Error :         13;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:          1 VAL(CNUMERO);DBF: C:\USERS\CHIVI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5831,6 +5139,21 @@ Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DATA\LOCAL\TEMP\00009NGP06PH.TMP;Ultimo Control activo: 
 02-09-2016 16:24:42 , Pila de llamadas
 02-09-2016 16:24:43 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -5851,6 +5174,21 @@ DATA\LOCAL\TEMP\00009NGP06PH.TMP;Ultimo Control activo:
 06-09-2016 10:56:35 , Nº de Linea :         12
 06-09-2016 10:56:35 , En el Fuente: IF RECCOUNT('CsrDecimal')#0
 06-09-2016 10:58:47 , COMPARATIVO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: no se encuentra la columna 'PRODUCTO'.;Linea : SELECT grupo,codart,idarticulo,codigo,producto,idrubro,codrubro,nomrubro ,idctacte,ctacte,nomcliente,idvendedor,codvendedo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5938,7 +5276,37 @@ r,nomvendedor ,idfletero,codfletero,nomfltero,idproveedor,codproveedor,nomprovee
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rImprimir order BY codproveedor,codfletero,codvendedor,ctacte,codart INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRPROVEEDOR;Ultimo registro:        917 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\000080SP01NO.TMP;Ultimo Contro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6033,7 +5401,37 @@ l activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 M(unidades1) as unidades1,SUM(unidades2) as unidades2			,SUM(litros1) as litros1,SUM(litros2) as litros2			,SUM(importes1) as importes1,SUM(importes2) as importes2			FROM CsrImprimir 			order BY codproveedor,codfletero,codvendedor,ctacte,codart			INTO CU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6113,6 +5511,21 @@ RSOR CsrImprimir READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 or,nomvendedor ,idfletero,codfletero,nomfltero,idproveedor,codproveedor,nomproveedor ,SUM(unidades1) as unidades1,SUM(unidades2) as unidades2 ,SUM(litros1) as litros1,SUM(litros2) as litros2 ,SUM(importes1) as importes1,SUM(importes2) as importes2 FROM C
 
 
@@ -6152,7 +5565,37 @@ or,nomvendedor ,idfletero,codfletero,nomfltero,idproveedor,codproveedor,nomprove
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 srImprimir order BY codproveedor,codfletero,codvendedor,ctacte,codart INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRPROVEEDOR;Ultimo registro:        792 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\000080SP01P2.TMP;Ultimo Contr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6237,7 +5680,37 @@ ol activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 M(unidades1) as unidades1,SUM(unidades2) as unidades2			,SUM(litros1) as litros1,SUM(litros2) as litros2			,SUM(importes1) as importes1,SUM(importes2) as importes2			FROM CsrImprimir 			order BY codproveedor,codfletero,codvendedor,ctacte,codart			INTO CU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6307,6 +5780,21 @@ RSOR CsrImprimir READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dedor,nomvendedor ,idfletero,codfletero,nomfletero,idproveedor,codproveedor,nomproveedor ,SUM(unidades1) as unidades1,SUM(unidades2) as unidades2 ,SUM(litros1) as litros1,SUM(litros2) as litros2 ,SUM(importes1) as importes1,SUM(importes2) as importes2 FR
 
 
@@ -6341,7 +5829,37 @@ dedor,nomvendedor ,idfletero,codfletero,nomfletero,idproveedor,codproveedor,nomp
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 OM CsrImprimir order BY codproveedor,codfletero,codvendedor,ctacte,codart INTO CURSOR CsrImprimir READWRITE;Error :       1807;Ultimo Alias Activo: CSRPROVEEDOR;Ultimo registro:        656 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\000080SP01Q4.TMP;Ultimo C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6415,7 +5933,37 @@ ontrol activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 UM(unidades1) as unidades1,SUM(unidades2) as unidades2			,SUM(litros1) as litros1,SUM(litros2) as litros2			,SUM(importes1) as importes1,SUM(importes2) as importes2			FROM CsrImprimir 			order BY codproveedor,codfletero,codvendedor,ctacte,codart			INTO C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6484,6 +6032,21 @@ URSOR CsrImprimir READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 stro:         61 CNUMERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00000PAH007D.TMP;Ultimo Control activo: 
 12-09-2016 13:26:50 , Pila de llamadas
 12-09-2016 13:26:51 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -6502,6 +6065,21 @@ stro:         61 CNUMERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00000PAH007D.TMP
 12-09-2016 13:26:53 , Nº de Linea :         13
 12-09-2016 13:26:53 , En el Fuente: REPLACE ALL netogravado WITH netosinbonificar - bonisiva
 12-09-2016 13:30:57 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad LISTASECTOR.;Linea : FOR EACH oSector IN this.listasector;Error :       1734;Ultimo Alias Activo: _CSRFLETERO;Ultimo registro:         61 CNUM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6554,6 +6132,21 @@ ERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00001EDL003P.TMP;Ultimo Control activ
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00006SY1001S.TMP;Ultimo Control activo: 
 12-09-2016 13:34:24 , Pila de llamadas
 12-09-2016 13:34:24 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -6582,6 +6175,21 @@ ERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00006SY1001S.TMP;Ultimo Control activ
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 25-09-2016 18:12:47 , Pila de llamadas
 25-09-2016 18:12:47 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -6599,3 +6207,69 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 25-09-2016 18:12:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
 25-09-2016 18:12:49 , Nº de Linea :       1791
 25-09-2016 18:12:50 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
+05-10-2016 13:05:05 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad INSCRI01.;Linea : IF LEN(RTRIM(Objtabla.inscri01))#0 AND FechaHoraCero(DATETIME()) > Objtabla.fecins01;Error :       1734;Ultimo Alias Activo: CS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RIMPORTAR;Ultimo registro:          1 NUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000092Q1009U.TMP;Ultimo Control activo: 
+05-10-2016 13:05:05 , Pila de llamadas
+05-10-2016 13:05:06 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+05-10-2016 13:05:06 , Objeto      : generarcelu.imprimir_vistaprevia1.impresora.click
+05-10-2016 13:05:06 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+05-10-2016 13:05:06 , Nº de Linea :          6
+05-10-2016 13:05:06 , En el Fuente: 	llOK=thisform.CrearInforme()
+05-10-2016 13:05:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:05:06 , Objeto      : generarcelu.crearinforme
+05-10-2016 13:05:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:05:07 , Nº de Linea :         15
+05-10-2016 13:05:07 , En el Fuente: 	.generar('ctacte','Clientes','.t.','CTE000IN.TXT')
+05-10-2016 13:05:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:05:07 , Objeto      : generarcelu.generar
+05-10-2016 13:05:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:05:08 , Nº de Linea :         24
+05-10-2016 13:05:08 , En el Fuente: 			_existe = .leerctacte(_cartel)
+05-10-2016 13:05:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:05:08 , Objeto      : generarcelu.leerctacte
+05-10-2016 13:05:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:05:08 , Nº de Linea :         86
+05-10-2016 13:05:08 , En el Fuente: 		IF LEN(RTRIM(Objtabla.inscri01))#0 AND FechaHoraCero(DATETIME()) > Objtabla.fecins01
+05-10-2016 13:06:44 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'OBSERVACIONES'.;Linea : replace observaciones WITH "REBA Vencido" IN CsrImportar;Error :         12;Ultimo Alias Activo: CSRIMPORTAR;Ultimo regis
+
+
+
+
+
+
+tro:          1 NUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000092Q100B7.TMP;Ultimo Control activo: 
+05-10-2016 13:06:44 , Pila de llamadas
+05-10-2016 13:06:45 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+05-10-2016 13:06:45 , Objeto      : generarcelu.imprimir_vistaprevia1.impresora.click
+05-10-2016 13:06:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+05-10-2016 13:06:45 , Nº de Linea :          6
+05-10-2016 13:06:45 , En el Fuente: 	llOK=thisform.CrearInforme()
+05-10-2016 13:06:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:06:46 , Objeto      : generarcelu.crearinforme
+05-10-2016 13:06:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:06:46 , Nº de Linea :         15
+05-10-2016 13:06:46 , En el Fuente: 	.generar('ctacte','Clientes','.t.','CTE000IN.TXT')
+05-10-2016 13:06:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:06:46 , Objeto      : generarcelu.generar
+05-10-2016 13:06:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:06:46 , Nº de Linea :         24
+05-10-2016 13:06:46 , En el Fuente: 			_existe = .leerctacte(_cartel)
+05-10-2016 13:06:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:06:47 , Objeto      : generarcelu.leerctacte
+05-10-2016 13:06:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+05-10-2016 13:06:47 , Nº de Linea :         87
+05-10-2016 13:06:47 , En el Fuente: 			replace observaciones WITH "REBA Vencido" IN CsrImportar
