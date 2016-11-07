@@ -1,110 +1,4 @@
  Alias CSRCOMPROBANTE registro          4
-Control activo  REGFACVTA.KEYPRESS
-15-01-2016 11:29:48 , Linea nº thisform.agregaobjeto.objobteneribto(lccuit,lnidprovincia,@lcaliascateibto,@lnporperce,@lnporrete)
-Error nº:         12
-Error No se encuentra la variable 'LCALIASCATEIBTO'.
- Alias CSRCATECTACTE registro          1
-Control activo  REGFACVTA.KEYPRESS
-01-02-2016 12:34:36 , Linea nº replace estado WITH 0 IN CsrAuxMaopera
-Error nº:          9
-Error No coinciden los tipos de datos.
- Alias CSRCOMPROBANTE registro          4
-Control activo  REGFACVTA.KEYPRESS
-01-02-2016 12:44:28 , Linea nº SELECT CsrPediPda.*,CAST(0 as int) as idmotivo,CAST(0 as int) as idvendedor FROM CsrPediPda WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxPediPda READWRITE
-Error nº:          1
-Error El archivo 'csrpedipda.dbf' no existe.
- Alias CSRAUXEXISTENC registro          1
-Control activo  REGFACVTA.LOAD
-01-02-2016 13:09:14 , Linea nº INSERT INTO CsrAuxcuerfac (idcabefac,cantidad) VALUES (OscCabefac.id,nCantidad)
-Error nº:         12
-Error No se encuentra la variable 'IDCABEFAC'.
- Alias CSRXCUERVARI registro          1
-Control activo  REGFACVTA.CONTENEDORDNI.CMDSALVAR.CLICK
-01-02-2016 13:11:18 , Linea nº lobjprecio = CREATEOBJECT('custom')
-Error nº:       1549
-Error La sesión de datos nº 2 no se puede liberar si hay transacciones abiertas.
- Alias CSRAUXPEDIPDA registro          1
-Control activo  REGFACVTA.PRECIOPROD1.INIT
-01-02-2016 14:36:36 , Linea nº OscCuerfac.cantidad = OscCuerfac.cantfac
-Error nº:       1734
-Error No se encuentra la propiedad CANTFAC.
- Alias CSRAUXCUERFAC registro          2
-Control activo  REGFACVTA.CONTENEDORDNI.CMDSALVAR.CLICK
-01-02-2016 14:52:31 , Linea nº SET ORDER TO orden IN CsrAuxCuerfac
-Error nº:         12
-Error No se encuentra la variable 'ORDEN'.
- Alias CSRAUXCABEFAC registro          1
-Control activo  REGFACVTA.CONTENEDORDNI.CMDSALVAR.CLICK
-01-02-2016 15:24:19 , Linea nº SET ORDER TO orden IN CsrAuxCuerfac
-Error nº:         12
-Error No se encuentra la variable 'ORDEN'.
- Alias CSRAUXCABEFAC registro          1
-Control activo  REGFACVTA.CONTENEDORDNI.CMDSALVAR.CLICK
-01-02-2016 15:33:59 , Linea nº SET ORDER TO orden IN CsrAuxCuerfac
-Error nº:         12
-Error No se encuentra la variable 'ORDEN'.
- Alias CSRAUXCABEFAC registro          1
-Control activo  REGFACVTA.CONTENEDORDNI.CMDSALVAR.CLICK
-02-02-2016 11:24:43 , Linea nº thisform.dataenvironment.opentables()
-Error nº:       1967
-Error El entorno de datos ya está descargado.
- Alias  registro          0
-Control activo  ON... 
-02-02-2016 13:36:02 , Linea nº INSERT INTO CsrAuxcuerfac (idmaopera) VALUES (OscCabefac.idmaopera,0)
-Error nº:       1230
-Error Hay demasiados argumentos.
- Alias CSRAUXCUERFAC registro          2
-Control activo  REGFACVTA.KEYPRESS
-02-02-2016 13:48:39 , Linea nº INDEX on id TAG id
-Error nº:       1579
-Error No se puede ejecutar este comando en una tabla cuyos objetos Cursor estén en modo de almacenamiento de tablas en búfer.
- Alias CSRPRODFZAVTA registro         66
-Control activo  REGFACVTA.KEYPRESS
-02-02-2016 13:57:21 , Linea nº CURSORSETPROP("Buffering",1,'Csrprodfzavta')
-Error nº:       2076
-Error CursorAdapter no permite esta operación.
- Alias CSRPRODFZAVTA registro         66
-Control activo  REGFACVTA.KEYPRESS
-03-02-2016 12:30:03 , Linea nº cMonth	= strzero(this._cbomesfiscaldesde.Value,2)
-Error nº:       1925
-Error _CBOMESFISCALDESDE es un miembro desconocido.
- Alias CSRGRID registro          1
-Control activo  INF_CAEA.ACEPTAR2.CLICK
-04-02-2016 13:21:52 , Linea nº IF LEN(TRIM(lcimpresora))=0 OR lntipoimpresora=0
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias FSRCAEA registro          1
-Control activo  MAIN
-04-02-2016 13:33:28 , Linea nº IF LEN(TRIM(lcimpresora))=0 OR lntipoimpresora=0
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias FSRCAEA registro          1
-Control activo  REGFACVTA.CMDIMPRIMIR.CLICK
-12-02-2016 11:27:27 , Linea nº XMLTOCURSOR(cArchivo,"CabePedido",512+8192)
-Error nº:       1435
-Error Error de análisis de XML: Se encontró un carácter no válido en el contenido del texto.
- línea 28, posición 33.   		<observaciones>Rto36 un botell
- Alias CSROPCION registro          1
-Control activo ACTUALIZA REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS
-12-02-2016 11:47:06 , Linea nº CursorAdapterToXML('CabePedido',cRuta+"ZCabPedido"+cArchivo)
-Error nº:          1
-Error El archivo 'cursoradaptertoxml.prg' no existe.
- Alias CABEPEDIDO registro          1
-Control activo ACTUALIZA REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS
-12-02-2016 11:48:35 , Linea nº CursorAdapterToXML('CabePedido',cRuta+"ZCabPedido"+cArchivo)
-Error nº:          1
-Error El archivo 'cursoradaptertoxml.prg' no existe.
- Alias CABEPEDIDO registro          1
-Control activo ACTUALIZA REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS
-02-03-2016 12:35:26 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
-Error nº:          1
-Error El archivo 'csrproducto.dbf' no existe.
- Alias  registro          0
-Control activo  VENTASPORFECHA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
-03-03-2016 12:42:37 , Linea nº replace vencimien WITH thisform.fechafactura,infocae WITH '0' iN csrauxcabefac
-Error nº:          9
-Error No coinciden los tipos de datos.
- Alias CSRCOMPROBANTE registro          4
 Control activo  MAIN
 03-03-2016 12:44:06 , Linea nº replace vencimien WITH thisform.fechafactura,infocae WITH '0'IN csrauxcabefac
 Error nº:          9
@@ -165,7 +59,31 @@ Control activo ACTUALIZA REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEX
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ra,Csrcuerpo.idarticulo,Csrcuerpo.codigo,Csrcuerpo.cnombre ,Csrcuerpo.cantidad,Csrcuerpo.univenta,Csrcuerpo.unibulto,Csrcuerpo.preunita,Csrcuerpo.prearti,Csrcuerpo.interno ,Csrcuerpo.despor,Csrcuerpo.tasaiva,Csrcuerpo.espromocion,Csrcuerpo.perceibruto,Cs
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -206,7 +124,31 @@ Control activo  MAIN
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ra,Csrcuerpo.idarticulo,Csrcuerpo.codigo,Csrcuerpo.cnombre ,Csrcuerpo.cantidad,Csrcuerpo.univenta,Csrcuerpo.unibulto,Csrcuerpo.preunita,Csrcuerpo.prearti,Csrcuerpo.interno ,Csrcuerpo.despor,Csrcuerpo.tasaiva,Csrcuerpo.espromocion,Csrcuerpo.perceibruto,Cs
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -247,7 +189,31 @@ Control activo  RINDEFLETE.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ra,Csrcuerpo.idarticulo,Csrcuerpo.codigo,Csrcuerpo.cnombre ,Csrcuerpo.cantidad,Csrcuerpo.univenta,Csrcuerpo.unibulto,Csrcuerpo.preunita,Csrcuerpo.prearti,Csrcuerpo.interno ,Csrcuerpo.despor,Csrcuerpo.tasaiva,Csrcuerpo.espromocion,Csrcuerpo.perceibruto,Cs
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -298,7 +264,31 @@ Control activo  RINDEFLETE.LOAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -334,7 +324,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -370,7 +384,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaD
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -416,7 +454,31 @@ Control activo  MAIN
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -452,7 +514,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -488,7 +574,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaD
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -574,7 +684,31 @@ Control activo  MAIN
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -610,7 +744,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -646,7 +804,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaD
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -917,6 +1099,18 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 =0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITE
 Error nº:          1
 Error El archivo 'csrmargen.dbf' no existe.
@@ -1085,7 +1279,31 @@ Control activo  MAIN
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1121,7 +1339,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1157,7 +1399,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaD
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1198,7 +1464,31 @@ Control activo  MAIN
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1234,7 +1524,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1270,7 +1584,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaD
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1316,7 +1654,31 @@ Control activo  MAIN
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 tor,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAux
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1357,7 +1719,31 @@ Control activo  EST_RANKCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 tor,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAux
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1398,7 +1784,31 @@ Control activo  EST_RANKCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 tor,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAux
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1439,7 +1849,31 @@ Control activo  EST_RANKCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 tor,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAux
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1480,7 +1914,31 @@ Control activo  EST_RANKCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 orte ,idsector,codsector,nomsector,sectorruta,detalle as detaguia FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVend
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1571,7 +2029,31 @@ Control activo  COMPARATIVO.IMPRIMIR_VISTAPREVIA1.INIT
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 s unidades1,SUM(unidades2) as unidades2 ,SUM(litros1) as litros1,SUM(litros2) as litros2 ,SUM(importes1) as importes1,SUM(importes2) as importes2 FROM CsrImprimir order BY codproveedor,codfletero,codvendedor,ctacte,codart INTO CURSOR CsrImprimir READWRIT
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1612,7 +2094,31 @@ Control activo  COMPARATIVO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 s unidades1,SUM(unidades2) as unidades2 ,SUM(litros1) as litros1,SUM(litros2) as litros2 ,SUM(importes1) as importes1,SUM(importes2) as importes2 FROM CsrImprimir order BY codproveedor,codfletero,codvendedor,ctacte,codart INTO CURSOR CsrImprimir READWRIT
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1653,7 +2159,31 @@ Control activo  COMPARATIVO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 as unidades1,SUM(unidades2) as unidades2 ,SUM(litros1) as litros1,SUM(litros2) as litros2 ,SUM(importes1) as importes1,SUM(importes2) as importes2 FROM CsrImprimir order BY codproveedor,codfletero,codvendedor,ctacte,codart INTO CURSOR CsrImprimir READWRI
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1730,7 +2260,31 @@ Control activo  REGPIDOCAEA.ACEPTAR2.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1748,7 +2302,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1766,7 +2344,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaD
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1788,12 +2390,36 @@ Control activo  REGFACVTA.LOAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 E
 Error nº:          1
 Error El archivo 'csrmaopera.dbf' no existe.
  Alias  registro          0
 Control activo  REGFACVTA.LOAD
 03-11-2016 11:09:03 , Linea nº INSERT INTO  CsrImprimir (codigo, nomcliente, cuit, iva, direccion, telefono ,localidad, provincia, nomvendedor, codvendedor, canal, codsector,nomsector,rutasector) VALUES (CsrAux.cnumero,ALLTRIM(CsrAux.cnombre)	,ALLTRIM(Cs
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1811,7 +2437,31 @@ Control activo  LISTAPADRON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 M(CsrAux.cuit),ALLTRIM(CsrAux.iva) ,ALLTRIM(CsrAux.cdireccion),ALLTRIM(CsrAux.ctelefono),ALLTRIM(CsrAux.localidad) ,ALLTRIM(CsrAux.provincia),ALLTRIM(CsrAux.nomvendedor),CsrAux.Codvendedor,csraux.canal ,CsrAux.CodSector,CsrAux.NomSector,CsrAux.rutasector
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1827,7 +2477,31 @@ Control activo  LISTAPADRON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 M(CsrAux.cuit),ALLTRIM(CsrAux.iva) ,ALLTRIM(CsrAux.cdireccion),ALLTRIM(CsrAux.ctelefono),ALLTRIM(CsrAux.localidad) ,ALLTRIM(CsrAux.provincia),ALLTRIM(CsrAux.nomvendedor),CsrAux.Codvendedor,csraux.canal ,CsrAux.CodSector,CsrAux.NomSector,CsrAux.rutasector
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1857,4 +2531,82 @@ Error nº:       1429
 Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
  Alias  registro          0
 Control activo  MAIN
-03-11-2016 16:44:14 , Linea nº Orslista.ActiveConnection = loConnDataSourceError nº:       1429Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Alias  registro          0Control activo  MAIN
+03-11-2016 16:44:14 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+04-11-2016 11:38:36 , Linea nº SELECT csrcuerpo
+Error nº:         13
+Error No se encuentra el alias 'CSRCUERPO'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+04-11-2016 11:46:06 , Linea nº <<cGroupVdor>>
+Error nº:         12
+Error No se encuentra la variable 'CGROUPVDOR'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+04-11-2016 12:09:03 , Linea nº INSERT INTO CsrImprimir(grupo,tasa,gravado,iva,interno,total,detalle,percep,idvendedor,detavendedor ,idctacte,detactacte) VALUES (6,0,Oscatter.gravado,Oscatter.iva,csrSinPer.interno,lntotal,lcnombre,lnperce ,Oscatter.idvend
+
+
+
+
+
+
+
+
+edor,cDetaVendedor,Oscatter.idctacte,cDetaCtacte) && detalle debo poner el nombre de la provincia
+Error nº:         12
+Error No se encuentra la variable 'DETACTACTE'.
+ Alias CSRSINPER registro          1
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+04-11-2016 12:27:59 , Linea nº SELECT csrcuerpo
+Error nº:         13
+Error No se encuentra el alias 'CSRCUERPO'.
+ Alias CSRIMPRIMIR registro         23
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.PDF.CLICK
+04-11-2016 13:01:08 , Linea nº SELECT csrcuerpo
+Error nº:         13
+Error No se encuentra el alias 'CSRCUERPO'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+04-11-2016 13:14:08 , Linea nº INSERT INTO CsrImprimir(grupo,tasa,gravado,iva,interno,total,detalle,percep,idclave,idvendedor,detavendedor ,idctacte,detactacte,idsector,detasector,sectorruta) VALUES (6,0,Oscatter.gravado,Oscatter.iva,Oscatter.interno,lnt
+
+
+
+
+
+otal,lcnombre,lnperce ,Oscatter.idcomproba,Oscatter.idvendedor,cDetaVendedor,Oscatter.idctacte,cDetaCtacte ,Oscatter.idsector,cDetaSector,Osatter.sectorruta) && detalle debo poner el nombre de la provincia
+Error nº:         13
+Error No se encuentra el alias 'OSATTER'.
+ Alias CSRCOMPROBANTE registro          1
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+04-11-2016 13:28:50 , Linea nº thisform.objetoparametros=loobjvalor
+Error nº:       1734
+Error No se encuentra la propiedad OBJETOPARAMETROS.
+ Alias CSRCATEGOIVA registro          1
+Control activo  RESCOMPROBAVTA.COMMAND1.CLICK
+04-11-2016 13:29:23 , Linea nº <<lcLeftSector>>
+Error nº:         12
+Error No se encuentra la variable 'LCLEFTSECTOR'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+04-11-2016 13:33:43 , Linea nº SELECT idtipoiva,idcomproba, SUM(totalNG) as gravado , SUM(TotalII) as interno , SUM(totalIG) as iva,SUM(totalPB) as perce ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte,idsector,codsector,nomsector,sector
+
+
+ruta FROM CsrCuerpo GROUP BY idtipoiva,idcomproba ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte ,idsector,codsector,nomsector,sectorruta INTO CURSOR 'CsrSinPer' READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'IDSECTOR'.
+ Alias CSRCUERPO registro          1
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+07-11-2016 10:26:55 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+07-11-2016 12:55:31 , Linea nº nTotal = nTotal + lnTotal
+Error nº:         12
+Error No se encuentra la variable 'NTOTAL'.
+ Alias CSRCOMPROBANTE registro          1
+Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+07-11-2016 12:56:08 , Linea nº replace ALL porce WITH total * 100 / nTotal IN CsrImprimirError nº:         12Error No se encuentra la variable 'PORCE'. Alias CSRSINPER registro         11Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
