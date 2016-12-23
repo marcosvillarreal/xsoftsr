@@ -1,2657 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        11 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000ABK900VG.TMP;Ultimo Control activo: 
-07-11-2016 12:56:08 , Pila de llamadas
-07-11-2016 12:56:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-07-11-2016 12:56:09 , Objeto      : rescomprobavta.imprimir_vistaprevia1.impresora.click
-07-11-2016 12:56:09 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-07-11-2016 12:56:09 , Nº de Linea :          6
-07-11-2016 12:56:09 , En el Fuente: 	llOK=thisform.CrearInforme()
-07-11-2016 12:56:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\rescomprobavta.sct
-07-11-2016 12:56:10 , Objeto      : rescomprobavta.crearinforme
-07-11-2016 12:56:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\rescomprobavta.sct
-07-11-2016 12:56:10 , Nº de Linea :        361
-07-11-2016 12:56:10 , En el Fuente: 	replace ALL porce WITH total * 100 / nTotal IN CsrImprimir
-09-11-2016 12:21:06 , RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: no se encuentra la columna 'TOTALII'.;Linea : SELECT idtipoiva,idcomproba, SUM(totalNG) as gravado , SUM(TotalII) as interno , SUM(totalIG) as iva,SUM(totalPB) as per
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ce ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte,idsector,codsector,nomsector,sectorruta FROM CsrCuerpo GROUP BY idtipoiva,idcomproba ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte ,idsector,codsector,nomsector,sector
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ruta INTO CURSOR 'CsrSinPer' READWRITE;Error :       1806;Ultimo Alias Activo: CSRCUERPO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008KCP007Z.TMP;Ultimo Control activo: 
-09-11-2016 12:21:06 , Pila de llamadas
-09-11-2016 12:21:06 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-11-2016 12:21:06 , Objeto      : rescomprobavta.imprimir_vistaprevia1.impresora.click
-09-11-2016 12:21:06 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-11-2016 12:21:07 , Nº de Linea :          6
-09-11-2016 12:21:07 , En el Fuente: 	llOK=thisform.CrearInforme()
-09-11-2016 12:21:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\rescomprobavta.sct
-09-11-2016 12:21:07 , Objeto      : rescomprobavta.crearinforme
-09-11-2016 12:21:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\rescomprobavta.sct
-09-11-2016 12:21:07 , Nº de Linea :        340
-09-11-2016 12:21:07 , En el Fuente: 	SELECT idtipoiva,idcomproba, SUM(totalNG) as gravado , SUM(TotalII) as interno , SUM(totalIG) as iva,SUM(totalPB) as perce 	,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte,idsector,codsector,nomsector
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,sectorruta	FROM CsrCuerpo 	GROUP BY idtipoiva,idcomproba ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte 	,idsector,codsector,nomsector,sectorruta	INTO CURSOR 'CsrSinPer' READWRITE
-15-11-2016 11:51:33 , ON..., Error: Error al cargar el archivo - número de registro 28. Grid2  <o uno de sus miembros>.  ControlSource : No se encuentra la variable 'FECHASIS';Linea : ...;Error :       2005;Ultimo Alias Activo: ;Ultimo registro:         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 0 ;DBF: ;Ultimo Control activo: 
-15-11-2016 11:51:33 , Pila de llamadas
-15-11-2016 11:52:10 , ON..., Error: Error al cargar el archivo - número de registro 28. Grid2  <o uno de sus miembros>.  ControlSource : No se encuentra la variable 'FECHASIS';Linea : ...;Error :       2005;Ultimo Alias Activo: ;Ultimo registro:         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 0 ;DBF: ;Ultimo Control activo: 
-15-11-2016 11:52:10 , Pila de llamadas
-15-11-2016 11:52:24 , ON..., Error: Error al cargar el archivo - número de registro 28. Grid2  <o uno de sus miembros>.  ControlSource : No se encuentra la variable 'FECHASIS';Linea : ...;Error :       2005;Ultimo Alias Activo: ;Ultimo registro:         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 0 ;DBF: ;Ultimo Control activo: 
-15-11-2016 11:52:24 , Pila de llamadas
-15-11-2016 11:55:10 , REGPRESU.INIT, Error: _SPINNERANIOFISCAL es un miembro desconocido.;Linea : lcperiodo= strzero(thisform.containerencabeza._spinneraniofiscal.Value,4);Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- Control activo: 
-15-11-2016 11:55:11 , Pila de llamadas
-15-11-2016 11:55:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:55:11 , Objeto      : regpresu.init
-15-11-2016 11:55:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:55:12 , Nº de Linea :          5
-15-11-2016 11:55:12 , En el Fuente:      .insertacursor()
-15-11-2016 11:55:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:55:12 , Objeto      : regpresu.insertacursor
-15-11-2016 11:55:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:55:12 , Nº de Linea :          4
-15-11-2016 11:55:13 , En el Fuente: lcperiodo= strzero(thisform.containerencabeza._spinneraniofiscal.Value,4)
-15-11-2016 11:57:46 , REGPRESU.INIT, Error: No se encuentra el alias 'CSRAUXMOVPUB'.;Linea : SELECT CsrAuxMovpub;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-15-11-2016 11:57:46 , Pila de llamadas
-15-11-2016 11:57:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:57:46 , Objeto      : regpresu.init
-15-11-2016 11:57:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:57:46 , Nº de Linea :          5
-15-11-2016 11:57:46 , En el Fuente:      .insertacursor()
-15-11-2016 11:57:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:57:46 , Objeto      : regpresu.insertacursor
-15-11-2016 11:57:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:57:47 , Nº de Linea :          6
-15-11-2016 11:57:47 , En el Fuente:     SELECT CsrAuxMovpub
-15-11-2016 11:58:13 , REGPRESU.INIT, Error: No se encuentra el alias 'CSRAUXMOVPRESU'.;Linea : SELECT CsrAuxMovpresu;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-15-11-2016 11:58:13 , Pila de llamadas
-15-11-2016 11:58:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:58:13 , Objeto      : regpresu.init
-15-11-2016 11:58:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:58:13 , Nº de Linea :          5
-15-11-2016 11:58:14 , En el Fuente:      .insertacursor()
-15-11-2016 11:58:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:58:14 , Objeto      : regpresu.insertacursor
-15-11-2016 11:58:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:58:14 , Nº de Linea :          6
-15-11-2016 11:58:14 , En el Fuente:     SELECT CsrAuxMovpresu
-15-11-2016 11:59:42 , REGPRESU.CMDINSERT.CLICK, Error: No se encuentra el alias 'CSRAUXMOVPRESU'.;Linea : replace programa WITH CsrAuxMovPresu.programa;Error :         13;Ultimo Alias Activo: CSRAUXPIE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DATA\LOCAL\TEMP\000069E100QT.TMP;Ultimo Control activo: 
-15-11-2016 11:59:42 , Pila de llamadas
-15-11-2016 11:59:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:59:43 , Objeto      : regpresu.cmdinsert.click
-15-11-2016 11:59:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:59:43 , Nº de Linea :          2
-15-11-2016 11:59:43 , En el Fuente: thisform.key_22grid2()
-15-11-2016 11:59:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:59:43 , Objeto      : regpresu.key_22grid2
-15-11-2016 11:59:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 11:59:44 , Nº de Linea :          8
-15-11-2016 11:59:44 , En el Fuente: replace programa WITH CsrAuxMovPresu.programa
-15-11-2016 12:01:05 , REGPRESU.CONTAINERPIE.OK.CLICK, Error: _SPINNERANIOFISCAL es un miembro desconocido.;Linea : IF YEAR(ldfecha)<>._spinneraniofiscal.Value OR MONTH(ldfecha)<>._cbomesfiscal.value;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ult
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-imo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000069E100SY.TMP;Ultimo Control activo: 
-15-11-2016 12:01:05 , Pila de llamadas
-15-11-2016 12:01:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:01:06 , Objeto      : regpresu.containerpie.ok.click
-15-11-2016 12:01:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:01:06 , Nº de Linea :          1
-15-11-2016 12:01:06 , En el Fuente: thisform.validarfecha()
-15-11-2016 12:01:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:01:07 , Objeto      : regpresu.validarfecha
-15-11-2016 12:01:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:01:07 , Nº de Linea :          3
-15-11-2016 12:01:07 , En el Fuente: 	IF YEAR(ldfecha)<>._spinneraniofiscal.Value OR MONTH(ldfecha)<>._cbomesfiscal.value
-15-11-2016 12:01:14 , REGPRESU.CONTAINERPIE.OK.CLICK, Error: _SPINNERANIOFISCAL es un miembro desconocido.;Linea : IF YEAR(ldfecha)<>._spinneraniofiscal.Value OR MONTH(ldfecha)<>._cbomesfiscal.value;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ult
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-imo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000069E100SY.TMP;Ultimo Control activo: 
-15-11-2016 12:01:14 , Pila de llamadas
-15-11-2016 12:01:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:01:14 , Objeto      : regpresu.containerpie.ok.click
-15-11-2016 12:01:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:01:15 , Nº de Linea :          1
-15-11-2016 12:01:15 , En el Fuente: thisform.validarfecha()
-15-11-2016 12:01:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:01:15 , Objeto      : regpresu.validarfecha
-15-11-2016 12:01:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:01:16 , Nº de Linea :          3
-15-11-2016 12:01:16 , En el Fuente: 	IF YEAR(ldfecha)<>._spinneraniofiscal.Value OR MONTH(ldfecha)<>._cbomesfiscal.value
-15-11-2016 12:12:33 , REGPRESU.GRID2.KEYPRESS, Error: No se encuentra el alias.;Linea : Oca = GETCURSORADAPTER(lcalias);Error :         13;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000069E101OA.T
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MP;Ultimo Control activo: 
-15-11-2016 12:12:33 , Pila de llamadas
-15-11-2016 12:12:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:12:34 , Objeto      : regpresu.grid2.keypress
-15-11-2016 12:12:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:12:34 , Nº de Linea :         15
-15-11-2016 12:12:34 , En el Fuente:         thisform.key_43grid2()     
-15-11-2016 12:12:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:12:34 , Objeto      : regpresu.key_43grid2
-15-11-2016 12:12:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:12:35 , Nº de Linea :          6
-15-11-2016 12:12:35 , En el Fuente: thisform.actualizar()
-15-11-2016 12:12:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:12:35 , Objeto      : regpresu.actualizar
-15-11-2016 12:12:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:12:36 , Nº de Linea :          8
-15-11-2016 12:12:36 , En el Fuente: 	        oCadapter = thisform.obtenercursor('Csrmovresu')
-15-11-2016 12:12:36 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-15-11-2016 12:12:36 , Objeto      : regpresu.obtenercursor
-15-11-2016 12:12:36 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-15-11-2016 12:12:36 , Nº de Linea :         19
-15-11-2016 12:12:36 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
-15-11-2016 12:14:07 , REGPRESU.GRID2.KEYPRESS, Error: LOOBJMOV no es un objeto.;Linea : loObjmov.agregar;Error :       1924;Ultimo Alias Activo: CSRMOVPRESU;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000069E101Q9.TMP;Ultimo Contr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ol activo: 
-15-11-2016 12:14:07 , Pila de llamadas
-15-11-2016 12:14:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:14:08 , Objeto      : regpresu.grid2.keypress
-15-11-2016 12:14:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:14:08 , Nº de Linea :         15
-15-11-2016 12:14:08 , En el Fuente:         thisform.key_43grid2()     
-15-11-2016 12:14:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:14:09 , Objeto      : regpresu.key_43grid2
-15-11-2016 12:14:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:14:09 , Nº de Linea :          6
-15-11-2016 12:14:09 , En el Fuente: thisform.actualizar()
-15-11-2016 12:14:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:14:09 , Objeto      : regpresu.actualizar
-15-11-2016 12:14:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:14:10 , Nº de Linea :         14
-15-11-2016 12:14:10 , En el Fuente: 	        llok = .grabardato()					    
-15-11-2016 12:14:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:14:10 , Objeto      : regpresu.grabardato
-15-11-2016 12:14:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:14:11 , Nº de Linea :         40
-15-11-2016 12:14:11 , En el Fuente: 		loObjmov.agregar
-15-11-2016 12:18:37 , REGPRESU.GRID2.KEYPRESS, Error: No se encuentra el alias 'CSRMOVPUB'.;Linea : REPLACE switch WITH Oscatter.switch ,detalle WITH Oscatter.detalle,fecha WITH Oscatter.fecha,debe WITH Oscatter.debe,haber WITH Oscatter.haber IN Csrmovpu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-b;Error :         13;Ultimo Alias Activo: CSRMOVPRESU;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000069E101SI.TMP;Ultimo Control activo: 
-15-11-2016 12:18:37 , Pila de llamadas
-15-11-2016 12:18:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:18:37 , Objeto      : regpresu.grid2.keypress
-15-11-2016 12:18:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:18:38 , Nº de Linea :         15
-15-11-2016 12:18:38 , En el Fuente:         thisform.key_43grid2()     
-15-11-2016 12:18:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:18:38 , Objeto      : regpresu.key_43grid2
-15-11-2016 12:18:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:18:38 , Nº de Linea :          6
-15-11-2016 12:18:39 , En el Fuente: thisform.actualizar()
-15-11-2016 12:18:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:18:39 , Objeto      : regpresu.actualizar
-15-11-2016 12:18:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:18:39 , Nº de Linea :         14
-15-11-2016 12:18:39 , En el Fuente: 	        llok = .grabardato()					    
-15-11-2016 12:18:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:18:39 , Objeto      : regpresu.grabardato
-15-11-2016 12:18:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:18:40 , Nº de Linea :         48
-15-11-2016 12:18:40 , En el Fuente: 	REPLACE switch WITH Oscatter.switch		,detalle WITH Oscatter.detalle,fecha WITH Oscatter.fecha,debe WITH Oscatter.debe,haber WITH Oscatter.haber IN Csrmovpub
-15-11-2016 12:19:22 , REGPRESU.GRID2.KEYPRESS, Error: No se encuentra el objeto LOOBJMOVPRESU.;Linea : llok = loObjMovpresu.Salvar('CsrMovpresu');Error :       1923;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\LOCAL\TEMP\000069E101U4.TMP;Ultimo Control activo: 
-15-11-2016 12:19:22 , Pila de llamadas
-15-11-2016 12:19:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:19:23 , Objeto      : regpresu.grid2.keypress
-15-11-2016 12:19:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:19:23 , Nº de Linea :         15
-15-11-2016 12:19:23 , En el Fuente:         thisform.key_43grid2()     
-15-11-2016 12:19:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:19:23 , Objeto      : regpresu.key_43grid2
-15-11-2016 12:19:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:19:24 , Nº de Linea :          6
-15-11-2016 12:19:24 , En el Fuente: thisform.actualizar()
-15-11-2016 12:19:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:19:24 , Objeto      : regpresu.actualizar
-15-11-2016 12:19:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:19:24 , Nº de Linea :         14
-15-11-2016 12:19:24 , En el Fuente: 	        llok = .grabardato()					    
-15-11-2016 12:19:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:19:25 , Objeto      : regpresu.grabardato
-15-11-2016 12:19:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
-15-11-2016 12:19:25 , Nº de Linea :         53
-15-11-2016 12:19:25 , En el Fuente: llok = loObjMovpresu.Salvar('CsrMovpresu')
-15-11-2016 12:20:56 , REGPRESU.KEYPRESS, Error: _CBOMESFISCAL es un miembro desconocido.;Linea : .containerencabeza._cbomesfiscal.SetFocus;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TEMP\000069E101VS.TMP;Ultimo Control activo: 
 15-11-2016 12:20:56 , Pila de llamadas
 15-11-2016 12:20:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
 15-11-2016 12:20:56 , Objeto      : regpresu.keypress
@@ -2669,6 +15,65 @@ TEMP\000069E101VS.TMP;Ultimo Control activo:
 15-11-2016 12:20:58 , Nº de Linea :         52
 15-11-2016 12:20:58 , En el Fuente: 			.containerencabeza._cbomesfiscal.SetFocus
 15-11-2016 12:30:28 , REGPRESU.GRID2.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : REPLACE switch WITH Oscatter.switch ,detalle WITH Oscatter.detalle,fecha WITH Oscatter.fecha,debe WITH Oscatter.debe,haber WITH Oscatter.haber ,switch WITH OSc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2919,6 +324,65 @@ atter.switch,estado WITH 1 IN Csrmovpresu;Error :          9;Ultimo Alias Activo
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\000069E1037O.TMP;Ultimo Control activo: 
 15-11-2016 12:47:03 , Pila de llamadas
 15-11-2016 12:47:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
@@ -3041,6 +505,65 @@ TEMP\000069E1037O.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 S\ADMIN\APPDATA\LOCAL\TEMP\000069E103UD.TMP;Ultimo Control activo: 
 15-11-2016 13:09:21 , Pila de llamadas
 15-11-2016 13:09:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3049,6 +572,65 @@ S\ADMIN\APPDATA\LOCAL\TEMP\000069E103UD.TMP;Ultimo Control activo:
 15-11-2016 13:09:22 , Nº de Linea :          3
 15-11-2016 13:09:22 , En el Fuente: lcfilename = this.Parent.Parent.filename
 16-11-2016 13:58:29 , EXPORTAR_CPRA_VTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias.;Linea : IF RECCOUNT("CsrAuxVentas")=0;Error :         13;Ultimo Alias Activo: CSRAUXVTAALICUOTA;Ultimo registro:          1 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3271,6 +853,65 @@ IN\APPDATA\LOCAL\TEMP\00009OND000S.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW900PV.TMP;Ultimo Control activo: 
 21-11-2016 13:07:16 , Pila de llamadas
 21-11-2016 13:07:16 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3369,6 +1010,65 @@ IN\APPDATA\LOCAL\TEMP\00009OND000S.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW900QS.TMP;Ultimo Control activo: 
 21-11-2016 13:07:48 , Pila de llamadas
 21-11-2016 13:07:49 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3377,6 +1077,65 @@ IN\APPDATA\LOCAL\TEMP\00009OND000S.TMP;Ultimo Control activo:
 21-11-2016 13:07:49 , Nº de Linea :          1
 21-11-2016 13:07:49 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 21-11-2016 13:08:49 , REGMOVENVASE.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3564,6 +1323,65 @@ IN\APPDATA\LOCAL\TEMP\00009OND000S.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 URSOR Csrauxiliar READWRITE;Error :          1;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW900V3.TMP;Ultimo Control activo: 
 21-11-2016 13:12:02 , Pila de llamadas
 21-11-2016 13:12:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
@@ -3577,6 +1395,65 @@ URSOR Csrauxiliar READWRITE;Error :          1;Ultimo Alias Activo: CSRCTACTE;Ul
 21-11-2016 13:12:03 , Nº de Linea :         36
 21-11-2016 13:12:04 , En el Fuente: SELECT Csrmovimien.*,CAST(0 as n(11,2)) as debe,CAST(0 as n(11,2)) as haber,CAST(0 as n(11,2)) as saldo FROM Csrmovimien INTO CURSOR Csrauxiliar READWRITE 
 21-11-2016 13:12:37 , REGMOVENVASE.CONTAINERENCABEZA.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'NDEBE'.;Linea : lnsaldo = lnsaldo + (ndebe - nhaber);Error :         12;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3740,6 +1617,65 @@ S\ADMIN\APPDATA\LOCAL\TEMP\00008OW900XK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW9010G.TMP;Ultimo Control activo: 
 21-11-2016 13:31:29 , Pila de llamadas
 21-11-2016 13:31:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
@@ -3753,6 +1689,65 @@ S\ADMIN\APPDATA\LOCAL\TEMP\00008OW900XK.TMP;Ultimo Control activo:
 21-11-2016 13:31:31 , Nº de Linea :          2
 21-11-2016 13:31:31 , En el Fuente: SELECT Csrmovenvase.* FROM Csrmovenvase WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
 21-11-2016 13:32:02 , REGMOVENVASE.CONTAINERENCABEZA.KITBUSCAOALTAENPRODUCTO.TXTID.INIT, Error: No se encuentra la variable 'IDENVASE'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         12;Ultimo Alias Activo: CSRPRODUCTO;Ultimo r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3897,6 +1892,65 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW9012E.TMP;Ult
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW9013B.TMP;Ultimo Control activo: 
 21-11-2016 13:32:29 , Pila de llamadas
 21-11-2016 13:32:29 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3905,6 +1959,65 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW9013B.TMP;Ult
 21-11-2016 13:32:29 , Nº de Linea :          1
 21-11-2016 13:32:29 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 21-11-2016 14:21:42 , REGMOVENVASE.ACEPTAR1.CLICK, Error: No se encuentra el alias.;Linea : Oca = GETCURSORADAPTER(lcalias);Error :         13;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:        463 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW904
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4049,6 +2162,65 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW9013B.TMP;Ult
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 4R.TMP;Ultimo Control activo: 
 21-11-2016 14:22:49 , Pila de llamadas
 21-11-2016 14:22:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
@@ -4082,6 +2254,65 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW9013B.TMP;Ult
 21-11-2016 14:22:53 , Nº de Linea :         19
 21-11-2016 14:22:53 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
 21-11-2016 14:25:51 , REGMOVENVASE.GRID2.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : IF CsrAuxiliar.esalta;Error :          9;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:        463 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW904BU.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4194,6 +2425,65 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ter.haber_e;Error :         12;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:        463 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW904EB.TMP;Ultimo Control activo: 
 21-11-2016 14:42:09 , Pila de llamadas
 21-11-2016 14:42:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
@@ -4217,6 +2507,65 @@ ter.haber_e;Error :         12;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:
 21-11-2016 14:42:12 , Nº de Linea :         49
 21-11-2016 14:42:12 , En el Fuente: 	IF CsrMovEnvase.debe <> Oscatter.debe OR CsrMovEnvase.haber <> Oscatter.haber OR CsrMovEnvase.debe_e <> Oscatter.debe_e OR CsrMovEnvase.haber_e <> Oscatter.haber_e
 21-11-2016 15:21:24 , REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra el alias 'CSRIMPRIMIR'.;Linea : SELECT CsrImprimir;Error :         13;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:        463 ;DBF: C:\USERS\ADMIN\APPDATA\L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4293,6 +2642,65 @@ OCAL\TEMP\00008OW9059N.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 AL\TEMP\00008OW905BL.TMP;Ultimo Control activo: 
 21-11-2016 15:26:37 , Pila de llamadas
 21-11-2016 15:26:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
@@ -4306,6 +2714,65 @@ AL\TEMP\00008OW905BL.TMP;Ultimo Control activo:
 21-11-2016 15:26:38 , Nº de Linea :         48
 21-11-2016 15:26:38 , En el Fuente: SELECT CsrImprimir
 21-11-2016 15:30:42 , REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la variable 'SIGNO'.;Linea : lndebe	= IIF(signo=-1,cantidad,0);Error :         12;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4368,6 +2835,65 @@ IN\APPDATA\LOCAL\TEMP\00008OW905IE.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW905KP.TMP;Ultimo Control activo: 
 21-11-2016 15:31:46 , Pila de llamadas
 21-11-2016 15:31:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
@@ -4381,6 +2907,65 @@ IN\APPDATA\LOCAL\TEMP\00008OW905IE.TMP;Ultimo Control activo:
 21-11-2016 15:31:47 , Nº de Linea :         56
 21-11-2016 15:31:48 , En el Fuente: 	lnsaldo_e	= lnsaldo_e + (debe_e - haber_e)
 21-11-2016 15:38:15 , REGPRESU.LOAD, Error: El archivo 'csrmovpresu.dbf' no existe.;Linea : SELECT Csrmovpresu.* FROM Csrmovpresu WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE;Error :          1;Ultimo Alias Activo: CSRPARACONFIG;Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4429,6 +3014,65 @@ IN\APPDATA\LOCAL\TEMP\00008OW905IE.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OW905RV.TMP;Ultimo Control activo: 
 21-11-2016 15:38:51 , Pila de llamadas
 21-11-2016 15:38:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
@@ -4442,6 +3086,65 @@ IN\APPDATA\LOCAL\TEMP\00008OW905IE.TMP;Ultimo Control activo:
 21-11-2016 15:38:51 , Nº de Linea :          2
 21-11-2016 15:38:52 , En el Fuente: SELECT Csrmovpresu.* FROM Csrmovpresu WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
 21-11-2016 16:07:23 , REGMOVENVASE.CONTAINERENCABEZA.FECHA_CALENDARIO2.TXTFECHA.VALID, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.Value < CTOD('01-01-1900');Error :        107;Ultimo Alias Activo: CSRCTACTE;U
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4473,6 +3176,65 @@ ltimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008YRT008T.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 timo Alias Activo: CSRMOVIMIEN;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008YRT01DI.TMP;Ultimo Control activo: 
 21-11-2016 16:14:12 , Pila de llamadas
 21-11-2016 16:14:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
@@ -4486,6 +3248,65 @@ timo Alias Activo: CSRMOVIMIEN;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
 21-11-2016 16:14:13 , Nº de Linea :         40
 21-11-2016 16:14:13 , En el Fuente: dfeccorte = TTOD(this.containerencabeza.fecha_calendario1.txtfecha.Value) - 1
 21-11-2016 16:30:03 , REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la variable 'SALDO_E'.;Linea : lndebe_e	= IIF(saldo_e>=0,saldo_e,0);Error :         12;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:        464 FECHA;DBF: C:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4507,6 +3328,65 @@ timo Alias Activo: CSRMOVIMIEN;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
 21-11-2016 16:30:53 , REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la variable 'SALDO_E'.;Linea : lndebe_e	= IIF(saldo_e>=0,saldo_envase,0);Error :         12;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:        464 FECHA;DB
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008YRT02JE.TMP;Ultimo Control activo: 
 21-11-2016 16:30:53 , Pila de llamadas
 21-11-2016 16:30:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
@@ -4519,3 +3399,705 @@ F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008YRT02JE.TMP;Ultimo Control activo:
 21-11-2016 16:30:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
 21-11-2016 16:30:54 , Nº de Linea :         80
 21-11-2016 16:30:54 , En el Fuente: 		lndebe_e	= IIF(saldo_e>=0,saldo_envase,0)
+23-12-2016 12:54:36 , ABMMARCAS.INIT, Error: No se encuentra el alias 'CSRMARCA'.;Linea : CASE VARTYPE(&lcclaB)='C';Error :         13;Ultimo Alias Activo: CSRRUBRO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A0P5000Q.TMP;Ulti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mo Control activo: 
+23-12-2016 12:54:37 , Pila de llamadas
+23-12-2016 12:54:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 12:54:37 , Objeto      : abmmarcas.init
+23-12-2016 12:54:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 12:54:37 , Nº de Linea :          2
+23-12-2016 12:54:38 , En el Fuente: DODEFAULT(tcId,_esmodal,lcfiltro)
+23-12-2016 12:54:38 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+23-12-2016 12:54:38 , Objeto      : baseabm.init
+23-12-2016 12:54:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+23-12-2016 12:54:38 , Nº de Linea :         47
+23-12-2016 12:54:38 , En el Fuente:     thisform.armarcombo()                && arma combo antes del setfocus (en el combo)    
+23-12-2016 12:54:38 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+23-12-2016 12:54:38 , Objeto      : abmmarcas.armarcombo
+23-12-2016 12:54:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+23-12-2016 12:54:39 , Nº de Linea :         45
+23-12-2016 12:54:39 , En el Fuente:                CASE VARTYPE(&lcclaB)='C'                
+23-12-2016 12:56:53 , ON..., Error: Error al cargar el archivo - número de registro 7. abmmarcas  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRCATERUBRO';Linea : CASE VARTYPE(&lcclaB)='C';Error :       2005;Ultimo Alias Activo: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+23-12-2016 12:56:53 , Pila de llamadas
+23-12-2016 13:01:55 , ON..., Error: Error al cargar el archivo - número de registro 7. abmmarcas  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRCATERUBRO';Linea : CASE VARTYPE(&lcclaB)='C';Error :       2005;Ultimo Alias Activo: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+23-12-2016 13:01:55 , Pila de llamadas
+23-12-2016 13:05:49 , ON..., Error: Error al cargar el archivo - número de registro 7. abmmarcas  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRCATERUBRO';Linea : CASE VARTYPE(&lcclaB)='C';Error :       2005;Ultimo Alias Activo: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+23-12-2016 13:05:49 , Pila de llamadas
+23-12-2016 13:10:11 , ABMMARCAS._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias 'CSRMARCA'.;Linea : where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0;Error :         13;Ultimo Alias Activo: CSRCATERUBRO;Ultimo registro:      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A0P5003Z.TMP;Ultimo Control activo: NOMBRE
+23-12-2016 13:10:11 , Pila de llamadas
+23-12-2016 13:10:11 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+23-12-2016 13:10:11 , Objeto      : abmmarcas._textbox1.keypress
+23-12-2016 13:10:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+23-12-2016 13:10:11 , Nº de Linea :        135
+23-12-2016 13:10:12 , En el Fuente: 	    ThisForm.Buscarcmd1.Buscar(.F.,ALLTRIM(this.Value))
+23-12-2016 13:10:12 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:10:12 , Objeto      : abmmarcas.buscarcmd1.buscar
+23-12-2016 13:10:12 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:10:12 , Nº de Linea :        119
+23-12-2016 13:10:12 , En el Fuente: 	loGrid.setfocus()
+23-12-2016 13:10:13 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:10:13 , Objeto      : abmmarcas.contenedor1.gridabm1.afterrowcolchange
+23-12-2016 13:10:13 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:10:13 , Nº de Linea :         21
+23-12-2016 13:10:13 , En el Fuente: 	     .ProcesarAfterRow()
+23-12-2016 13:10:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:10:13 , Objeto      : abmmarcas.procesarafterrow
+23-12-2016 13:10:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:10:14 , Nº de Linea :         15
+23-12-2016 13:10:14 , En el Fuente: where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
+23-12-2016 13:10:56 , ABMMARCAS._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias 'CSRMARCA'.;Linea : where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0;Error :         13;Ultimo Alias Activo: CSRCATERUBRO;Ultimo registro:      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A0P5004V.TMP;Ultimo Control activo: NOMBRE
+23-12-2016 13:10:56 , Pila de llamadas
+23-12-2016 13:10:57 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+23-12-2016 13:10:57 , Objeto      : abmmarcas._textbox1.keypress
+23-12-2016 13:10:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+23-12-2016 13:10:57 , Nº de Linea :        135
+23-12-2016 13:10:57 , En el Fuente: 	    ThisForm.Buscarcmd1.Buscar(.F.,ALLTRIM(this.Value))
+23-12-2016 13:10:57 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:10:58 , Objeto      : abmmarcas.buscarcmd1.buscar
+23-12-2016 13:10:58 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:10:58 , Nº de Linea :        119
+23-12-2016 13:10:58 , En el Fuente: 	loGrid.setfocus()
+23-12-2016 13:10:58 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:10:58 , Objeto      : abmmarcas.contenedor1.gridabm1.afterrowcolchange
+23-12-2016 13:10:58 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:10:58 , Nº de Linea :         21
+23-12-2016 13:10:59 , En el Fuente: 	     .ProcesarAfterRow()
+23-12-2016 13:10:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:10:59 , Objeto      : abmmarcas.procesarafterrow
+23-12-2016 13:10:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:10:59 , Nº de Linea :         15
+23-12-2016 13:10:59 , En el Fuente: where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
+23-12-2016 13:11:04 , ABMMARCAS.CONTENEDOR1.GRIDABM1.AFTERROWCOLCHANGE, Error: No se encuentra el alias 'CSRMARCA'.;Linea : where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0;Error :         13;Ultimo Alias Activo: CSRCATERUBRO;Ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A0P5004V.TMP;Ultimo Control activo: NOMBRE
+23-12-2016 13:11:05 , Pila de llamadas
+23-12-2016 13:11:05 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:11:05 , Objeto      : abmmarcas.contenedor1.gridabm1.afterrowcolchange
+23-12-2016 13:11:05 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:11:06 , Nº de Linea :         21
+23-12-2016 13:11:06 , En el Fuente: 	     .ProcesarAfterRow()
+23-12-2016 13:11:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:11:06 , Objeto      : abmmarcas.procesarafterrow
+23-12-2016 13:11:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:11:06 , Nº de Linea :         15
+23-12-2016 13:11:06 , En el Fuente: where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
+23-12-2016 13:11:07 , ABMMARCAS.CONTENEDOR1.GRIDABM1.AFTERROWCOLCHANGE, Error: No se encuentra el alias 'CSRMARCA'.;Linea : where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0;Error :         13;Ultimo Alias Activo: CSRCATERUBRO;Ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A0P5004V.TMP;Ultimo Control activo: NOMBRE
+23-12-2016 13:11:07 , Pila de llamadas
+23-12-2016 13:11:07 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:11:07 , Objeto      : abmmarcas.contenedor1.gridabm1.afterrowcolchange
+23-12-2016 13:11:07 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:11:08 , Nº de Linea :         21
+23-12-2016 13:11:08 , En el Fuente: 	     .ProcesarAfterRow()
+23-12-2016 13:11:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:11:08 , Objeto      : abmmarcas.procesarafterrow
+23-12-2016 13:11:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:11:08 , Nº de Linea :         15
+23-12-2016 13:11:08 , En el Fuente: where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
+23-12-2016 13:11:16 , ABMMARCAS.CONTENEDOR1.GRIDABM1.AFTERROWCOLCHANGE, Error: No se encuentra el alias 'CSRMARCA'.;Linea : where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0;Error :         13;Ultimo Alias Activo: CSRCATERUBRO;Ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A0P5004V.TMP;Ultimo Control activo: NOMBRE
+23-12-2016 13:11:16 , Pila de llamadas
+23-12-2016 13:11:17 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:11:17 , Objeto      : abmmarcas.contenedor1.gridabm1.afterrowcolchange
+23-12-2016 13:11:17 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:11:17 , Nº de Linea :         21
+23-12-2016 13:11:17 , En el Fuente: 	     .ProcesarAfterRow()
+23-12-2016 13:11:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:11:17 , Objeto      : abmmarcas.procesarafterrow
+23-12-2016 13:11:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:11:18 , Nº de Linea :         15
+23-12-2016 13:11:18 , En el Fuente: where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
+23-12-2016 13:11:20 , ABMMARCAS.CONTENEDOR1.GRIDABM1.AFTERROWCOLCHANGE, Error: No se encuentra el alias 'CSRMARCA'.;Linea : where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0;Error :         13;Ultimo Alias Activo: CSRCATERUBRO;Ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A0P5004V.TMP;Ultimo Control activo: NOMBRE
+23-12-2016 13:11:21 , Pila de llamadas
+23-12-2016 13:11:21 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:11:21 , Objeto      : abmmarcas.contenedor1.gridabm1.afterrowcolchange
+23-12-2016 13:11:21 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:11:22 , Nº de Linea :         21
+23-12-2016 13:11:22 , En el Fuente: 	     .ProcesarAfterRow()
+23-12-2016 13:11:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:11:22 , Objeto      : abmmarcas.procesarafterrow
+23-12-2016 13:11:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:11:22 , Nº de Linea :         15
+23-12-2016 13:11:22 , En el Fuente: where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
+23-12-2016 13:19:39 , ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENRUBRO.TXTNOMBRE.KEYPRESS, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : if ISALPHA(chr(nKeycode)) or ISDIGIT(chr(nKeycode)) OR nkeycode=32  OR n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+keycode=42;Error :         11;Ultimo Alias Activo: CSRCATERUBRO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009WQX0062.TMP;Ultimo Control activo: 
+23-12-2016 13:19:39 , Pila de llamadas
+23-12-2016 13:19:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:19:40 , Objeto      : abmmarcas.contenedor1.pframe1.page1.kitbuscaoaltaenrubro.txtnombre.keypress
+23-12-2016 13:19:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:19:40 , Nº de Linea :          5
+23-12-2016 13:19:40 , En el Fuente: DODEFAULT()
+23-12-2016 13:19:40 , Programa    : j:\xsoftsr\proyectos\starossa\clases\controleslocal.vct
+23-12-2016 13:19:40 , Objeto      : kitbuscaoaltaenabm.txtnombre.keypress
+23-12-2016 13:19:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\controleslocal.vct
+23-12-2016 13:19:41 , Nº de Linea :          3
+23-12-2016 13:19:41 , En el Fuente: if ISALPHA(chr(nKeycode)) or ISDIGIT(chr(nKeycode)) OR nkeycode=32  OR nkeycode=42
+23-12-2016 13:21:32 , ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENRUBRO.TXTID.INIT, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: CSRFUERZAVTA;Ultim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+o registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009WQX0088.TMP;Ultimo Control activo: 
+23-12-2016 13:21:32 , Pila de llamadas
+23-12-2016 13:21:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:21:32 , Objeto      : abmmarcas.contenedor1.pframe1.page1.kitbuscaoaltaenrubro.txtid.init
+23-12-2016 13:21:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:21:33 , Nº de Linea :          1
+23-12-2016 13:21:33 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
+23-12-2016 13:22:40 , ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENRUBRO.TXTID.INIT, Error: No coinciden los tipos de datos.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :          9;Ultimo Alias Activo: CSRFUERZAVTA;Ultimo regis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009WQX0094.TMP;Ultimo Control activo: 
+23-12-2016 13:22:40 , Pila de llamadas
+23-12-2016 13:22:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:22:41 , Objeto      : abmmarcas.contenedor1.pframe1.page1.kitbuscaoaltaenrubro.txtid.init
+23-12-2016 13:22:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:22:41 , Nº de Linea :          1
+23-12-2016 13:22:41 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
+23-12-2016 13:23:18 , ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENRUBRO.GOTFOCUS, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : Select(this.careaini);Error :         13;Ultimo Alias Activo: CSRCATERUBRO;Ultimo registro:          1 ;DBF: C
+
+
+
+
+
+
+
+
+
+
+
+
+:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009WQX00AM.TMP;Ultimo Control activo: 
+23-12-2016 13:23:18 , Pila de llamadas
+23-12-2016 13:23:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:23:19 , Objeto      : abmmarcas.contenedor1.pframe1.page1.kitbuscaoaltaenrubro.gotfocus
+23-12-2016 13:23:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:23:19 , Nº de Linea :         17
+23-12-2016 13:23:19 , En el Fuente: Select(this.careaini)
+23-12-2016 13:23:52 , ABMMARCAS.CMDSALVAR.CLICK, Error: No se encuentra el alias 'CSRMARCA'.;Linea : replace idpadre WITH CsrMarca.id,idhijo WITH _CsrRubro.cid ,clave WITH 'CR'	 IN CsrAfeCateProd;Error :         13;Ultimo Alias Activo: CSRAFECATEPROD;Ult
+
+
+
+
+
+
+
+
+
+
+imo registro:         -1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009WQX00CW.TMP;Ultimo Control activo: 
+23-12-2016 13:23:52 , Pila de llamadas
+23-12-2016 13:23:53 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:23:53 , Objeto      : abmmarcas.cmdsalvar.click
+23-12-2016 13:23:53 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:23:53 , Nº de Linea :          9
+23-12-2016 13:23:53 , En el Fuente: 		llok=.salvar()
+23-12-2016 13:23:53 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:23:53 , Objeto      : abmmarcas.salvar
+23-12-2016 13:23:54 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+23-12-2016 13:23:54 , Nº de Linea :         19
+23-12-2016 13:23:54 , En el Fuente:    llok=thisform.validar()
+23-12-2016 13:23:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:23:54 , Objeto      : abmmarcas.validar
+23-12-2016 13:23:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:23:54 , Nº de Linea :         67
+23-12-2016 13:23:54 , En el Fuente: 			replace idpadre WITH CsrMarca.id,idhijo WITH _CsrRubro.cid					,clave WITH 'CR'	 IN CsrAfeCateProd
+23-12-2016 13:37:18 , ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.BOTONAGREGARGRID1.CLICK, Error: No se encuentra la propiedad CALIAS.;Linea : micursor	= IIF(LEN(LTRIM(this.micursor))=0,'_'+alltrim(loKitBuscar.calias),RTRIM(this.micursor));Error :       1734;Ult
+
+
+
+
+
+imo Alias Activo: CSRCATERUBRO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009WQX00LX.TMP;Ultimo Control activo: 
+23-12-2016 13:37:18 , Pila de llamadas
+23-12-2016 13:37:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:37:19 , Objeto      : abmmarcas.contenedor1.pframe1.page1.botonagregargrid1.click
+23-12-2016 13:37:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-12-2016 13:37:19 , Nº de Linea :          3
+23-12-2016 13:37:19 , En el Fuente: micursor	= IIF(LEN(LTRIM(this.micursor))=0,'_'+alltrim(loKitBuscar.calias),RTRIM(this.micursor))
+23-12-2016 13:38:11 , ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.BOTONAGREGARGRID1.CLICK, Error: No se encuentra la propiedad CALIAS.;Linea : micursor	= IIF(LEN(LTRIM(this.micursor))=0,'_'+alltrim(loKitBuscar.calias),RTRIM(this.micursor));Error :       1734;Ult
+
+
+imo Alias Activo: CSRCATERUBRO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009WQX00NO.TMP;Ultimo Control activo: 
+23-12-2016 13:38:11 , Pila de llamadas
+23-12-2016 13:38:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:38:12 , Objeto      : abmmarcas.contenedor1.pframe1.page1.botonagregargrid1.click
+23-12-2016 13:38:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcaterubro.sct
+23-12-2016 13:38:12 , Nº de Linea :          3
+23-12-2016 13:38:12 , En el Fuente: micursor	= IIF(LEN(LTRIM(this.micursor))=0,'_'+alltrim(loKitBuscar.calias),RTRIM(this.micursor))
+23-12-2016 14:14:20 , ON..., Error: La sesión de datos nº 3 no se puede liberar si hay transacciones abiertas.;Linea : PACK;Error :       1549;Ultimo Alias Activo: CSRFUERZAVTA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009WQX0
+1AR.TMP;Ultimo Control activo: 
+23-12-2016 14:14:20 , Pila de llamadas
