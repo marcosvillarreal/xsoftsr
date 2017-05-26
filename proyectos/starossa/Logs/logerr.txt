@@ -163,363 +163,6 @@
 
 
 
-tro:          0 ;DBF: ;Ultimo Control activo: 
-09-01-2017 12:06:36 , Pila de llamadas
-09-01-2017 12:06:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
-09-01-2017 12:06:37 , Objeto      : regmovenvase.load
-09-01-2017 12:06:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
-09-01-2017 12:06:37 , Nº de Linea :          4
-09-01-2017 12:06:37 , En el Fuente: thisform.crearcursor()
-09-01-2017 12:06:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
-09-01-2017 12:06:38 , Objeto      : regmovenvase.crearcursor
-09-01-2017 12:06:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regmovenvase.sct
-09-01-2017 12:06:38 , Nº de Linea :          2
-09-01-2017 12:06:38 , En el Fuente: SELECT Csrmovenvase.* FROM Csrmovenvase WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
-12-01-2017 13:19:48 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrDecimal')#0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-12-01-2017 13:19:48 , Pila de llamadas
-12-01-2017 13:19:49 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-12-01-2017 13:19:49 , Objeto      : generarcelu.imprimir_vistaprevia1.init
-12-01-2017 13:19:49 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-12-01-2017 13:19:49 , Nº de Linea :         12
-12-01-2017 13:19:49 , En el Fuente: IF RECCOUNT('CsrDecimal')#0
-12-01-2017 13:21:17 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'OBJDATOS'.;Linea : Objtabla.numero = ObjDatos.numero;Error :         13;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:          1 ;DBF: C:\USERS\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CHIVI\APPDATA\LOCAL\TEMP\00007U2X02DT.TMP;Ultimo Control activo: 
-12-01-2017 13:21:17 , Pila de llamadas
-12-01-2017 13:21:17 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-12-01-2017 13:21:17 , Objeto      : generarcelu.imprimir_vistaprevia1.impresora.click
-12-01-2017 13:21:17 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-12-01-2017 13:21:17 , Nº de Linea :          6
-12-01-2017 13:21:17 , En el Fuente: 	llOK=thisform.CrearInforme()
-12-01-2017 13:21:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-12-01-2017 13:21:17 , Objeto      : generarcelu.crearinforme
-12-01-2017 13:21:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-12-01-2017 13:21:17 , Nº de Linea :         13
-12-01-2017 13:21:18 , En el Fuente: 	.generar('producto','Articulos','.t.','ART000IN.TXT')
-12-01-2017 13:21:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-12-01-2017 13:21:18 , Objeto      : generarcelu.generar
-12-01-2017 13:21:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-12-01-2017 13:21:18 , Nº de Linea :         32
-12-01-2017 13:21:18 , En el Fuente: 			_existe = .leerproducto()
-12-01-2017 13:21:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-12-01-2017 13:21:18 , Objeto      : generarcelu.leerproducto
-12-01-2017 13:21:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-12-01-2017 13:21:18 , Nº de Linea :         63
-12-01-2017 13:21:19 , En el Fuente: 	Objtabla.numero = ObjDatos.numero
-12-01-2017 13:22:14 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'OBJDATOS'.;Linea : Objtabla.numero = ObjDatos.numero;Error :         13;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:          1 ;DBF: C:\USERS\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CHIVI\APPDATA\LOCAL\TEMP\00007U2X02EX.TMP;Ultimo Control activo: 
 12-01-2017 13:22:14 , Pila de llamadas
 12-01-2017 13:22:14 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -543,6 +186,18 @@ CHIVI\APPDATA\LOCAL\TEMP\00007U2X02EX.TMP;Ultimo Control activo:
 12-01-2017 13:22:16 , Nº de Linea :         63
 12-01-2017 13:22:16 , En el Fuente: 	Objtabla.numero = ObjDatos.numero
 12-01-2017 13:23:15 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'OBJDATOS'.;Linea : Objtabla.numero = ObjDatos.numero;Error :         13;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:          1 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -855,6 +510,18 @@ CHIVI\APPDATA\LOCAL\TEMP\00007U2X02J1.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 CHIVI\APPDATA\LOCAL\TEMP\00007U2X02NL.TMP;Ultimo Control activo: 
 12-01-2017 13:25:52 , Pila de llamadas
 12-01-2017 13:25:52 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -878,6 +545,18 @@ CHIVI\APPDATA\LOCAL\TEMP\00007U2X02NL.TMP;Ultimo Control activo:
 12-01-2017 13:25:54 , Nº de Linea :         70
 12-01-2017 13:25:54 , En el Fuente: 	Objtabla.numero = ObjDatos.numero
 12-01-2017 13:27:15 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'OBJDATOS'.;Linea : Objtabla.numero = ObjDatos.numero;Error :         13;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:          1 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1165,6 +844,18 @@ CHIVI\APPDATA\LOCAL\TEMP\00007U2X02ZK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 TA\LOCAL\TEMP\00007U2X0350.TMP;Ultimo Control activo: 
 12-01-2017 13:31:12 , Pila de llamadas
 12-01-2017 13:31:12 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1188,6 +879,18 @@ TA\LOCAL\TEMP\00007U2X0350.TMP;Ultimo Control activo:
 12-01-2017 13:31:14 , Nº de Linea :         39
 12-01-2017 13:31:14 , En el Fuente: 	GATHER NAME Objtabla
 12-01-2017 13:32:00 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSOR'.;Linea : SELECT CsrCursor;Error :         13;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:          1 ;DBF: C:\USERS\CHIVI\APPDATA\LO
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1451,6 +1154,18 @@ CAL\TEMP\00007U2X036P.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 tivo: CSRSTOCK;Ultimo registro:          1 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\00007U2X03DG.TMP;Ultimo Control activo: 
 12-01-2017 13:35:29 , Pila de llamadas
 12-01-2017 13:35:30 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1474,6 +1189,18 @@ tivo: CSRSTOCK;Ultimo registro:          1 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TE
 12-01-2017 13:35:31 , Nº de Linea :         57
 12-01-2017 13:35:31 , En el Fuente: 		COUNT ALL FOR stock >0 AND idarticulo=ObjDatos.id AND idsubarti=ObjDatos.idsubarti TO nPost
 12-01-2017 14:12:07 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad VTAPROPIA.;Linea : ObjTabla.vtaespecial	= IIF(NVL(ObjDatos.vtapropia,0)=0,0,3);Error :       1734;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registr
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1710,6 +1437,18 @@ o:          1 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\00007U2X05VL.TMP;Ultimo Co
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 timo registro:          1 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\00007U2X05X8.TMP;Ultimo Control activo: 
 12-01-2017 14:13:46 , Pila de llamadas
 12-01-2017 14:13:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1733,6 +1472,18 @@ timo registro:          1 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\00007U2X05X8.T
 12-01-2017 14:13:48 , Nº de Linea :         31
 12-01-2017 14:13:48 , En el Fuente: 	ObjTabla.fuerzavta = "01" + IIF(NVL(ObjDatos.vtaespecial,0)=0,"","-03")
 16-01-2017 12:38:30 , LISPATRONCARGA_V1.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,000000
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1926,7 +1677,31 @@ timo registro:          1 ;DBF: C:\USERS\CHIVI\APPDATA\LOCAL\TEMP\00007U2X05X8.T
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 rete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2120,7 +1895,31 @@ retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2321,7 +2120,31 @@ EMP\0000AQDL002Q.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   ,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5	   ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(13) as nom
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2507,7 +2330,31 @@ rete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2	  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 e4,000.00 as tasarete4   	   ,SPACE(13) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5       ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfletep
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2602,6 +2449,18 @@ e4,000.00 as tasarete4   	   ,SPACE(13) as nomrete5,00000000.00 as retencion5,00
 
 lanilla       ,SPACE(2) as categoria       FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE  
 16-01-2017 12:38:36 , LISPATRONCARGA_V1.LOAD, Error: No se encuentra el alias 'CSRAUXCABEFAC'.;Linea : SELECT CsrAuxcabefac;Error :         13;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2793,7 +2652,31 @@ lanilla       ,SPACE(2) as categoria       FROM CsrCabefac WHERE RECNO()=1 AND i
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Base
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2969,6 +2852,18 @@ rete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as retencion2,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,
 
 
@@ -3057,7 +2952,31 @@ retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3240,7 +3159,31 @@ EMP\00009GJT00NA.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   ,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5	   ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(13) as nom
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3408,7 +3351,31 @@ rete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2	  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 e4,000.00 as tasarete4   	   ,SPACE(13) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5       ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfletep
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3576,7 +3543,31 @@ lanilla       ,SPACE(2) as categoria       FROM CsrCabefac WHERE RECNO()=1 AND i
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 TH NVL(CsrProducto.bonifinfo,0) ,bonifica WITH thisform.containerpie._txtbonifica.value ,costo WITH CsrProducto.costo*(1 + (tasa/100)),margen WITH CsrProducto.margen1,prevta WITH CsrProducto.prevtaf1 IN CsrAuxiliar;Error :         12;Ultimo Alias Activo:
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3749,8 +3740,32 @@ TH NVL(CsrProducto.bonifinfo,0) ,bonifica WITH thisform.containerpie._txtbonific
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 onifica.value 				,costo WITH CsrProducto.costo*(1 + (tasa/100)),margen WITH CsrProducto.margen1,prevta WITH CsrProducto.prevtaf1 IN CsrAuxiliar
 21-02-2017 21:05:14 , ANALIZAROFER.CONTAINERPIE._TXTBONIFICA.KEYPRESS, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace difeporce WITH (prevtabonif * 100) / costo IN CsrAuxiliar;Error :         39;Ultimo Alias Activo: CSRAUXILIAR;Ul
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3914,6 +3929,18 @@ timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B47D010L.T
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B47D010L.TMP;Ultimo Control activo: BONIFICA
 21-02-2017 21:05:43 , Pila de llamadas
 21-02-2017 21:05:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\analizarofer.sct
@@ -3927,6 +3954,18 @@ timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B47D010L.T
 21-02-2017 21:05:54 , Nº de Linea :         26
 21-02-2017 21:05:54 , En el Fuente: 		replace difeporce WITH (prevtabonif * 100) / costo IN CsrAuxiliar
 01-03-2017 13:52:00 , ANALIZAROFER.CONTAINERPIE.KITBUSCAOALTAENPRODUCTO.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRAUXPIE;Ultimo registro:          1 ;DBF: C:\USERS\ADMI
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4077,6 +4116,18 @@ N\APPDATA\LOCAL\TEMP\0000826H03FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 N\APPDATA\LOCAL\TEMP\00002RRD000Y.TMP;Ultimo Control activo: 
 01-03-2017 13:53:49 , Pila de llamadas
 01-03-2017 13:53:55 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4095,6 +4146,18 @@ N\APPDATA\LOCAL\TEMP\00002RRD000Y.TMP;Ultimo Control activo:
 01-03-2017 13:54:14 , Nº de Linea :         32
 01-03-2017 13:54:19 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
 01-03-2017 13:55:39 , ANALIZAROFER.CONTAINERPIE.KITBUSCAOALTAENPRODUCTO.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRAUXPIE;Ultimo registro:          1 ;DBF: C:\USERS\ADMI
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4223,6 +4286,18 @@ N\APPDATA\LOCAL\TEMP\00002RRD002J.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 N\APPDATA\LOCAL\TEMP\00002RRD0041.TMP;Ultimo Control activo: 
 01-03-2017 13:57:04 , Pila de llamadas
 01-03-2017 13:57:10 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4241,6 +4316,18 @@ N\APPDATA\LOCAL\TEMP\00002RRD0041.TMP;Ultimo Control activo:
 01-03-2017 13:57:33 , Nº de Linea :         32
 01-03-2017 13:57:33 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
 01-03-2017 14:01:28 , ANALIZAROFER.LOAD, Error: El archivo 'csrbonictacte.dbf' no existe.;Linea : SELECT Csrbonictacte.* FROM CsrBonictacte WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCabeza READWRITE;Error :          1;Ultimo Alias Activo: CSRCUERPO;Ulti
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4342,6 +4429,18 @@ mo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002RRD009J.TMP
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 XILIAR;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002RRD00KE.TMP;Ultimo Control activo: BONIFICA
 01-03-2017 14:06:26 , Pila de llamadas
 01-03-2017 14:06:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\analizarofer.sct
@@ -4355,6 +4454,18 @@ XILIAR;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002
 01-03-2017 14:06:44 , Nº de Linea :         26
 01-03-2017 14:06:49 , En el Fuente: 		replace difeporce WITH ((prevtabonif * 100) / costo) - 100  IN CsrAuxiliar
 17-03-2017 12:06:34 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: PAGEFRAME1 es un miembro desconocido.;Linea : cListRuta		= ALLTRIM(.Pageframe1.Page2.Kitgrillatildarrutas.cadenaelegidos());Error :       1925;Ultimo Alias Activo: CSRCTAC
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4441,6 +4552,18 @@ TE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AXOP0
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 TE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AXOP007Y.TMP;Ultimo Control activo: 
 17-03-2017 12:07:52 , Pila de llamadas
 17-03-2017 12:07:55 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4454,6 +4577,18 @@ TE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AXOP0
 17-03-2017 12:08:02 , Nº de Linea :          6
 17-03-2017 12:08:02 , En el Fuente: 	cListRuta		= ALLTRIM(.Pageframe1.Page2.Kitgrillatildarrutas.cadenaelegidos())
 17-03-2017 13:12:50 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: FECHA_CALENDARIO1 es un miembro desconocido.;Linea : lcfecha1 = "'"+DTOS(.fecha_calendario1.txtfecha.Value)+"'";Error :       1925;Ultimo Alias Activo: CSRCTACTE;Ultimo re
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4530,6 +4665,18 @@ gistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AXOP01AP.TMP;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 istro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AXOP01EU.TMP;Ultimo Control activo: 
 17-03-2017 13:15:49 , Pila de llamadas
 17-03-2017 13:15:52 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4543,6 +4690,18 @@ istro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AXOP01EU.TMP;Ultim
 17-03-2017 13:15:59 , Nº de Linea :          7
 17-03-2017 13:16:03 , En el Fuente: 	replace ALL neto WITH importefinal - bonificacion IN CsrImprimir
 17-03-2017 13:33:00 , IMP_VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: COLUMN015 es un miembro desconocido.;Linea : .Column015.Header = "Neto";Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       3503 ;DBF: C:\USERS\ADMI
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4603,6 +4762,18 @@ N\APPDATA\LOCAL\TEMP\0000AXOP028A.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 006QYX006Q.TMP;Ultimo Control activo: 
 21-03-2017 11:17:38 , Pila de llamadas
 21-03-2017 11:17:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -4621,6 +4792,18 @@ N\APPDATA\LOCAL\TEMP\0000AXOP028A.TMP;Ultimo Control activo:
 21-03-2017 11:17:50 , Nº de Linea :        496
 21-03-2017 11:17:50 , En el Fuente: 		IF csrdatosren.rendida=0
 21-03-2017 11:35:06 , REGFACVTA.CMDCONSULTA.CLICK, Error: No se encuentra el alias 'CSRDATOSREN'.;Linea : IF csrdatosren.rendida<>'2';Error :         13;Ultimo Alias Activo: CSRPROVINCIA;Ultimo registro:         16 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4654,6 +4837,18 @@ N\APPDATA\LOCAL\TEMP\0000AXOP028A.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 N\APPDATA\LOCAL\TEMP\00009YIX00Q7.TMP;Ultimo Control activo: 
 03-04-2017 13:05:33 , Pila de llamadas
 03-04-2017 13:05:36 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4669,6 +4864,18 @@ N\APPDATA\LOCAL\TEMP\00009YIX00Q7.TMP;Ultimo Control activo:
 03-04-2017 13:06:41 , EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRIMPRIMIR'.;Linea : SELECT csrimprimir;Error :         13;Ultimo Alias Activo: CSRTOTGUIA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 \APPDATA\LOCAL\TEMP\00009YIX00SM.TMP;Ultimo Control activo: 
 03-04-2017 13:06:41 , Pila de llamadas
 03-04-2017 13:06:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4681,3 +4888,51 @@ N\APPDATA\LOCAL\TEMP\00009YIX00Q7.TMP;Ultimo Control activo:
 03-04-2017 13:06:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
 03-04-2017 13:06:56 , Nº de Linea :         22
 03-04-2017 13:06:56 , En el Fuente: 	SELECT csrimprimir
+26-05-2017 12:26:18 , MAIN, Error: No se encuentra el objeto _CSRCTACTE.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :       1923;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+TEMP\0000BWND00FW.TMP;Ultimo Control activo: 
+26-05-2017 12:26:19 , Pila de llamadas
+26-05-2017 12:26:19 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
+26-05-2017 12:26:19 , Objeto      : main
+26-05-2017 12:26:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
+26-05-2017 12:26:20 , Nº de Linea :        238
+26-05-2017 12:26:20 , En el Fuente: 	Read events   
+26-05-2017 12:26:20 , Programa    : j:\xsoftsr\desarrollo\forms\frmmenu.sct
+26-05-2017 12:26:20 , Objeto      : frmmenu1.treeview.dblclick
+26-05-2017 12:26:20 , Base Objeto : j:\xsoftsr\desarrollo\forms\frmmenu.sct
+26-05-2017 12:26:20 , Nº de Linea :          7
+26-05-2017 12:26:20 , En el Fuente: 	   &lcCmd
+26-05-2017 12:26:20 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+26-05-2017 12:26:20 , Objeto      : ejecutamenu
+26-05-2017 12:26:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+26-05-2017 12:26:21 , Nº de Linea :       1858
+26-05-2017 12:26:21 , En el Fuente: 					 DO FORM &lcForm
+26-05-2017 12:26:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
+26-05-2017 12:26:22 , Objeto      : ventasporfecha.cmdcargagrilla.click
+26-05-2017 12:26:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
+26-05-2017 12:26:22 , Nº de Linea :         12
+26-05-2017 12:26:22 , En el Fuente: DO FORM listaproducto WITH "Z",oca,lcCmdCampos,lcTypeData,lcidestado TO lccmdSelect
+26-05-2017 12:26:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
+26-05-2017 12:26:23 , Objeto      : listaprodcto.pageframe1.page2.click
+26-05-2017 12:26:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
+26-05-2017 12:26:23 , Nº de Linea :          2
+26-05-2017 12:26:23 , En el Fuente: 	thisform.leerproveedor()
+26-05-2017 12:26:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
+26-05-2017 12:26:23 , Objeto      : listaprodcto.leerproveedor
+26-05-2017 12:26:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
+26-05-2017 12:26:24 , Nº de Linea :         40
+26-05-2017 12:26:24 , En el Fuente: thisform.bindergridon('thisform.Pageframe1.Page2.kitgrillatildarCtacte.buscargrd1',lcalias,lcCtrlSource,AcolOdataNavega)
+26-05-2017 12:26:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
+26-05-2017 12:26:25 , Objeto      : listaprodcto.bindergridon
+26-05-2017 12:26:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
+26-05-2017 12:26:25 , Nº de Linea :         14
+26-05-2017 12:26:25 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
