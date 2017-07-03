@@ -91,6 +91,30 @@ Endif
 
 Return plRet
 
+*----------------------------------------------------
+*-Retardo
+*----------------------------------------------------
+FUNCTION Retardo
+LPARAMETERS nSec
+*nSec = Numero de segundos de retardo
+LOCAL nSecond1,nSecond2
+nSecond1 = SECONDS()
+nSecond2 = SECONDS()
+DO WHILE nSecond1 + nSec > nSecond2
+	nSecond2 = SECONDS()
+ENDDO 
+ENDFUNC 
+
+*----------------------------------------------------
+*-Quitar Acentos
+*----------------------------------------------------
+FUNCTION QuitarAcentos
+LPARAMETERS ccadena
+ccadena = CHRTRAN(ccadena, "·ÈÌÛ˙¡…Õ”⁄","aeiouAEIOU") 
+RETURN ccadena
+ENDFUNC 
+
+
 *----------------------------------------------------------------------------
 * FUNCION StoC(lcFecha)
 *----------------------------------------------------------------------------

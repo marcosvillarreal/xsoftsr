@@ -10,6 +10,7 @@ CURSORTOXML(cAlias,"cXMLLocal",nOutputFormat,nFlags)
 cXMLLocal=STRTRAN(cXMLLocal, 'encoding="Windows-1252"', 'encoding="'+cEncoding+'"')
 = STRTOFILE(cXMLLocal,cFileName)
 SET SAFETY ON 
+RETURN 
 
 *********************************************************
 * Funcion: GRABAR_LOG
