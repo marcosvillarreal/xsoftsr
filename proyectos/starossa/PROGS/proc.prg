@@ -2385,7 +2385,7 @@ DO CASE
 	              ,ctactebco c(6),titular c(30),banco c(30),localidad c(30),nrocheque n(12),idtipobco n(10);
 	              ,fechavto d,entregado c(30),idvalor n(10),idprovincia n(10),tipocaja c(2),esclase c(1),recibido c(30);
 	              ,nrotarjeta c(15),cupon c(15),cuota n(2),cuit c(13),idctabco n(10),idmaopera n(10),idcheque M ;
-	              ,detalle c(50),esvale n(1),idcomproba n(12),idbanco i)
+	              ,detalle c(50),esvale n(1),idcomproba n(12),idbanco i,idctaentregado i)
 	Sele Csrpago
 ENDCASE 
 
