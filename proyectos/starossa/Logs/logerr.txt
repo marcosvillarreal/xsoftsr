@@ -1,25 +1,3 @@
-26-05-2017 12:26:20 , Nº de Linea :        238
-26-05-2017 12:26:20 , En el Fuente: 	Read events   
-26-05-2017 12:26:20 , Programa    : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-26-05-2017 12:26:20 , Objeto      : frmmenu1.treeview.dblclick
-26-05-2017 12:26:20 , Base Objeto : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-26-05-2017 12:26:20 , Nº de Linea :          7
-26-05-2017 12:26:20 , En el Fuente: 	   &lcCmd
-26-05-2017 12:26:20 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-26-05-2017 12:26:20 , Objeto      : ejecutamenu
-26-05-2017 12:26:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-26-05-2017 12:26:21 , Nº de Linea :       1858
-26-05-2017 12:26:21 , En el Fuente: 					 DO FORM &lcForm
-26-05-2017 12:26:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
-26-05-2017 12:26:22 , Objeto      : ventasporfecha.cmdcargagrilla.click
-26-05-2017 12:26:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
-26-05-2017 12:26:22 , Nº de Linea :         12
-26-05-2017 12:26:22 , En el Fuente: DO FORM listaproducto WITH "Z",oca,lcCmdCampos,lcTypeData,lcidestado TO lccmdSelect
-26-05-2017 12:26:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-26-05-2017 12:26:23 , Objeto      : listaprodcto.pageframe1.page2.click
-26-05-2017 12:26:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-26-05-2017 12:26:23 , Nº de Linea :          2
-26-05-2017 12:26:23 , En el Fuente: 	thisform.leerproveedor()
 26-05-2017 12:26:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
 26-05-2017 12:26:23 , Objeto      : listaprodcto.leerproveedor
 26-05-2017 12:26:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
@@ -31,6 +9,10 @@
 26-05-2017 12:26:25 , Nº de Linea :         14
 26-05-2017 12:26:25 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
 02-06-2017 09:33:39 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El campo STOCK no acepta valores NULL.;Linea : GATHER NAME Objtabla;Error :       1581;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:       1126 ;DBF: C:\USERS\ADMIN\APPDA
+
+
+
+
 
 
 
@@ -389,6 +371,10 @@ TA\LOCAL\TEMP\00009BM1001I.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 o: 
 02-06-2017 15:53:46 , Pila de llamadas
 02-06-2017 15:53:47 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -422,6 +408,10 @@ o:
 02-06-2017 15:53:51 , Nº de Linea :         64
 02-06-2017 15:53:52 , En el Fuente:    			loObjTopes.agregar
 02-06-2017 15:54:09 , REGSTOCK.IMAGE1.MOUSEMOVE, Error: No se puede borrar el objeto IMAGE1  porque está en uso.;Linea : clear all;Error :       1951;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         35 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0
+
+
+
+
 
 
 
@@ -741,7 +731,15 @@ o:
 
 
 
+
+
+
+
 000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,
+
+
+
+
 
 
 
@@ -1045,7 +1043,15 @@ o:
 
 
 
+
+
+
+
 0.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,000
+
+
+
+
 
 
 
@@ -1349,6 +1355,10 @@ o:
 
 
 
+
+
+
+
 00000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,0
 
 
@@ -1501,7 +1511,15 @@ o:
 
 
 
+
+
+
+
 0000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :    
+
+
+
+
 
 
 
@@ -1812,7 +1830,15 @@ o:
 
 
 
+
+
+
+
 s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
+
+
+
+
 
 
 
@@ -2108,7 +2134,15 @@ a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomre
 
 
 
+
+
+
+
 e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
+
+
+
+
 
 
 
@@ -2404,7 +2438,15 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
  as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
+
+
+
+
 
 
 
@@ -2700,8 +2742,16 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
  READWRITE  
 03-07-2017 17:11:15 , ABMCTACTE.CMDCANCELAR.CLICK, Error: No se encuentra el alias 'CSRCTACTE_2'.;Linea : select (this.cAlias);Error :         13;Ultimo Alias Activo: CSRCATEIBBA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000DTL
+
+
+
+
 
 
 
@@ -3011,6 +3061,10 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
 5006W.TMP;Ultimo Control activo: 
 03-07-2017 17:11:24 , Pila de llamadas
 03-07-2017 17:11:25 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3046,6 +3100,10 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 03-07-2017 17:12:15 , Nº de Linea :         28
 03-07-2017 17:12:15 , En el Fuente: 	ObtenerXY(cDire ,@cx,@cy)
 10-07-2017 11:32:39 , MAIN, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRCTACTEVDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003GUH00H8.TMP;Ultimo Control acti
+
+
+
+
 
 
 
@@ -3330,6 +3388,10 @@ vo: TOTAL
 
 
 
+
+
+
+
 MP;Ultimo Control activo: 
 10-07-2017 11:34:49 , Pila de llamadas
 10-07-2017 11:34:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
@@ -3358,6 +3420,10 @@ MP;Ultimo Control activo:
 10-07-2017 11:34:54 , Nº de Linea :         19
 10-07-2017 11:34:54 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
 10-07-2017 11:38:23 , MAIN, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRCTACTEVDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003GUH00Z4.TMP;Ultimo Control acti
+
+
+
+
 
 
 
@@ -3599,6 +3665,10 @@ vo: TOTAL
 
 
 
+
+
+
+
 MP;Ultimo Control activo: 
 10-07-2017 11:39:01 , Pila de llamadas
 10-07-2017 11:39:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
@@ -3627,6 +3697,10 @@ MP;Ultimo Control activo:
 10-07-2017 11:39:05 , Nº de Linea :         19
 10-07-2017 11:39:05 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
 10-07-2017 11:43:15 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRCTACTEVDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEM
+
+
+
+
 
 
 
@@ -3822,6 +3896,10 @@ P\00003GUH01SR.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 P\00003GUH02VS.TMP;Ultimo Control activo: CUENTA
 10-07-2017 11:54:24 , Pila de llamadas
 10-07-2017 11:54:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
@@ -3855,6 +3933,10 @@ P\00003GUH02VS.TMP;Ultimo Control activo: CUENTA
 10-07-2017 11:54:29 , Nº de Linea :         21
 10-07-2017 11:54:29 , En el Fuente:    This.txtnombre.value = &lccamponombre
 10-07-2017 11:55:17 , PIDOPAGOS.CMDSALIR.CLICK, Error: No se encuentra el alias.;Linea : Oca = GETCURSORADAPTER(lcalias);Error :         13;Ultimo Alias Activo: CSRAUXPLANCUE;Ultimo registro:          7 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003GUH02R
+
+
+
+
 
 
 
@@ -4007,6 +4089,10 @@ Y.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 Y.TMP;Ultimo Control activo: 
 10-07-2017 11:55:30 , Pila de llamadas
 10-07-2017 11:55:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
@@ -4035,6 +4121,10 @@ Y.TMP;Ultimo Control activo:
 10-07-2017 11:55:34 , Nº de Linea :         19
 10-07-2017 11:55:34 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
 10-07-2017 12:23:10 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra la variable 'NOMBRE'.;Linea : This.txtnombre.value = &lccamponombre;Error :         12;Ultimo Alias Activo: CSRCTAENTREGADO;Ultimo registro:          1 ;DBF: C:\USER
+
+
+
+
 
 
 
@@ -4156,6 +4246,10 @@ S\ADMIN\APPDATA\LOCAL\TEMP\0000AFWP005O.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 9U.TMP;Ultimo Control activo: 
 10-07-2017 12:29:58 , Pila de llamadas
 10-07-2017 12:29:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
@@ -4179,6 +4273,10 @@ S\ADMIN\APPDATA\LOCAL\TEMP\0000AFWP005O.TMP;Ultimo Control activo:
 10-07-2017 12:30:02 , Nº de Linea :         32
 10-07-2017 12:30:02 , En el Fuente:            lobjeto.value=0
 10-07-2017 12:35:15 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: _TXTENTREGO es un miembro desconocido.;Linea : IF EMPTY(This.parent._txtentrego.Value);Error :       1925;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          2 ;DBF: C:\USERS\ADM
+
+
+
+
 
 
 
@@ -4270,6 +4368,10 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 0000AFWP00VP.TMP;Ultimo Control activo: 
 10-07-2017 12:38:42 , Pila de llamadas
 10-07-2017 12:38:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
@@ -4293,6 +4395,10 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 10-07-2017 12:38:46 , Nº de Linea :         39
 10-07-2017 12:38:46 , En el Fuente: IF RECCOUNT('CsrValidar3ro')#0
 11-07-2017 10:34:14 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrValidar3ro')#0;Error :         13;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\
+
+
+
+
 
 
 
@@ -4358,6 +4464,10 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
  registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A6MH01AP.TMP;Ultimo Control activo: 
 11-07-2017 10:57:52 , Pila de llamadas
 11-07-2017 10:57:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
@@ -4371,6 +4481,10 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 11-07-2017 10:57:53 , Nº de Linea :          2
 11-07-2017 10:57:53 , En el Fuente: SELECT Csrmovpresu.* FROM Csrmovpresu WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
 12-07-2017 11:14:49 , MAIN, Error: El archivo 'csrfle.dbf' no existe.;Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux on csrfle.id=csraux
+
+
+
+
 
 
 
@@ -4413,6 +4527,10 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Activo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A68900D7.TMP;Ultimo Control activo: 
 12-07-2017 11:14:58 , Pila de llamadas
 12-07-2017 11:14:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
@@ -4426,6 +4544,10 @@ csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Acti
 12-07-2017 11:15:00 , Nº de Linea :         45
 12-07-2017 11:15:00 , En el Fuente: SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueoFROM csrfleleft join csraux on csrfle.id=csraux.idinto cursor csrrendifle
 12-07-2017 11:15:02 , RINDEARQUEO.GOTFOCUS, Error: No se encuentra el alias 'CSRRENDIFLE'.;Linea : SELECT CsrRendiFle;Error :         13;Ultimo Alias Activo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A68900D7.TMP;Ulti
+
+
+
+
 
 
 
@@ -4446,6 +4568,10 @@ mo Control activo:
 12-07-2017 11:15:13 , RINDEARQUEO.GOTFOCUS, Error: El archivo 'csrfle.dbf' no existe.;Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux on 
 
 
+
+
+
+
 csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Activo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A68900DA.TMP;Ultimo Control activo: 
 12-07-2017 11:15:13 , Pila de llamadas
 12-07-2017 11:15:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
@@ -4458,3 +4584,18 @@ csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Acti
 12-07-2017 11:15:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
 12-07-2017 11:15:14 , Nº de Linea :         45
 12-07-2017 11:15:14 , En el Fuente: SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueoFROM csrfleleft join csraux on csrfle.id=csraux.idinto cursor csrrendifle
+12-07-2017 12:13:35 , REGRETEIB.CONTAINERENCABEZA.CMDPROCESAR.CLICK, Error: El archivo 'csrmovpub.dbf' no existe.;Linea : SELECT Csrmovpub.*,debe as debe_a,haber as haber_a,detalle as detalle_a,fecha as fecha_a,concepto as concepto_a FROM Csrmovpub INTO 
+
+
+CURSOR Csrauxiliar READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXMOVPUB;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008OI10146.TMP;Ultimo Control activo: 
+12-07-2017 12:13:35 , Pila de llamadas
+12-07-2017 12:13:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regreteib.sct
+12-07-2017 12:13:36 , Objeto      : regreteib.containerencabeza.cmdprocesar.click
+12-07-2017 12:13:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regreteib.sct
+12-07-2017 12:13:36 , Nº de Linea :          1
+12-07-2017 12:13:36 , En el Fuente: thisform.cargarmovpub()
+12-07-2017 12:13:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regreteib.sct
+12-07-2017 12:13:37 , Objeto      : regreteib.cargarmovpub
+12-07-2017 12:13:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regreteib.sct
+12-07-2017 12:13:37 , Nº de Linea :         22
+12-07-2017 12:13:37 , En el Fuente: SELECT Csrmovpub.*,debe as debe_a,haber as haber_a,detalle as detalle_a,fecha as fecha_a,concepto as concepto_a FROM Csrmovpub INTO CURSOR Csrauxiliar READWRITE 
