@@ -1,472 +1,25 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MP;Ultimo Control activo: 
-10-07-2017 11:39:01 , Pila de llamadas
-10-07-2017 11:39:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-10-07-2017 11:39:01 , Objeto      : pidopagos.cmdsalir.click
-10-07-2017 11:39:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-10-07-2017 11:39:01 , Nº de Linea :         10
-10-07-2017 11:39:02 , En el Fuente: 	thisform.Release
-10-07-2017 11:39:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-10-07-2017 11:39:02 , Objeto      : pidopagos.release
-10-07-2017 11:39:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-10-07-2017 11:39:02 , Nº de Linea :          4
-10-07-2017 11:39:02 , En el Fuente: thisform.antescerrarform()
-10-07-2017 11:39:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-10-07-2017 11:39:03 , Objeto      : pidopagos.antescerrarform
-10-07-2017 11:39:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-10-07-2017 11:39:04 , Nº de Linea :         11
-10-07-2017 11:39:04 , En el Fuente: thisform.obtenerdatos("CsrValor",lccmd)
-10-07-2017 11:39:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-10-07-2017 11:39:04 , Objeto      : pidopagos.obtenerdatos
-10-07-2017 11:39:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-10-07-2017 11:39:04 , Nº de Linea :          4
-10-07-2017 11:39:05 , En el Fuente: oCa = thisform.obtenercursor(lcalias)
-10-07-2017 11:39:05 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-07-2017 11:39:05 , Objeto      : pidopagos.obtenercursor
-10-07-2017 11:39:05 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-07-2017 11:39:05 , Nº de Linea :         19
-10-07-2017 11:39:05 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
-10-07-2017 11:43:15 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRCTACTEVDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-P\00003GUH01SR.TMP;Ultimo Control activo: 
-10-07-2017 11:43:15 , Pila de llamadas
-10-07-2017 11:43:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-10-07-2017 11:43:16 , Objeto      : regarqueovdor.grid2.column2.text1.keypress
-10-07-2017 11:43:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-10-07-2017 11:43:16 , Nº de Linea :          8
-10-07-2017 11:43:16 , En el Fuente: 		thisform.llamardetalle
-10-07-2017 11:43:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-10-07-2017 11:43:17 , Objeto      : regarqueovdor.llamardetalle
-10-07-2017 11:43:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-10-07-2017 11:43:17 , Nº de Linea :          5
-10-07-2017 11:43:18 , En el Fuente: 	thisform.pidovalores()
-10-07-2017 11:43:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-10-07-2017 11:43:18 , Objeto      : regarqueovdor.pidovalores
-10-07-2017 11:43:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-10-07-2017 11:43:18 , Nº de Linea :         52
-10-07-2017 11:43:18 , En el Fuente:    DO FORM pidopagos_v2 WITH lcid,loObjValor TO thisform.quetecla 
-10-07-2017 11:43:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:43:19 , Objeto      : pidopagos.container1.containerchetercero.kitbuscaoaltaenbanco.txtexiste1.init
-10-07-2017 11:43:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:43:19 , Nº de Linea :          1
-10-07-2017 11:43:19 , En el Fuente: this.Parent.refrescardato("")
-10-07-2017 11:43:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:43:19 , Objeto      : pidopagos.container1.containerchetercero.kitbuscaoaltaenbanco.refrescardato
-10-07-2017 11:43:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:43:20 , Nº de Linea :         18
-10-07-2017 11:43:20 , En el Fuente: This.traerdatos(.t.,lccmd) 
-10-07-2017 11:43:20 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:43:20 , Objeto      : pidopagos.container1.containerchetercero.kitbuscaoaltaenbanco.traerdatos
-10-07-2017 11:43:20 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:43:20 , Nº de Linea :         32
-10-07-2017 11:43:21 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
-10-07-2017 11:54:23 , REGFACCPRA.KEYPRESS, Error: No se encuentra la variable 'NOMBRE'.;Linea : This.txtnombre.value = &lccamponombre;Error :         12;Ultimo Alias Activo: CSRCTACTEVDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-P\00003GUH02VS.TMP;Ultimo Control activo: CUENTA
-10-07-2017 11:54:24 , Pila de llamadas
-10-07-2017 11:54:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
-10-07-2017 11:54:25 , Objeto      : regfaccpra.keypress
-10-07-2017 11:54:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
-10-07-2017 11:54:25 , Nº de Linea :         45
-10-07-2017 11:54:25 , En el Fuente: 			        .key_43(2)       									&& + Graba
-10-07-2017 11:54:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
-10-07-2017 11:54:25 , Objeto      : regfaccpra.key_43
-10-07-2017 11:54:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
-10-07-2017 11:54:26 , Nº de Linea :         18
-10-07-2017 11:54:26 , En el Fuente: 				.actualizar()
-10-07-2017 11:54:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
-10-07-2017 11:54:26 , Objeto      : regfaccpra.actualizar
-10-07-2017 11:54:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
-10-07-2017 11:54:27 , Nº de Linea :          8
-10-07-2017 11:54:27 , En el Fuente: 		 IF .pidovalores('A')   
-10-07-2017 11:54:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
-10-07-2017 11:54:27 , Objeto      : regfaccpra.pidovalores
-10-07-2017 11:54:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regfaccpra.sct
-10-07-2017 11:54:27 , Nº de Linea :        100
-10-07-2017 11:54:28 , En el Fuente:    DO FORM pidopagos_v2 WITH lcid,loObjValor TO thisform.quetecla   
-10-07-2017 11:54:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:54:28 , Objeto      : pidopagos.container1.containervale.kitbuscaoaltaenvdor.txtexiste1.init
-10-07-2017 11:54:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:54:28 , Nº de Linea :          1
-10-07-2017 11:54:29 , En el Fuente: this.Parent.refrescardato("")
-10-07-2017 11:54:29 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-07-2017 11:54:29 , Objeto      : pidopagos.container1.containervale.kitbuscaoaltaenvdor.refrescardato
-10-07-2017 11:54:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 10-07-2017 11:54:29 , Nº de Linea :         21
 10-07-2017 11:54:29 , En el Fuente:    This.txtnombre.value = &lccamponombre
 10-07-2017 11:55:17 , PIDOPAGOS.CMDSALIR.CLICK, Error: No se encuentra el alias.;Linea : Oca = GETCURSORADAPTER(lcalias);Error :         13;Ultimo Alias Activo: CSRAUXPLANCUE;Ultimo registro:          7 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003GUH02R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -797,6 +350,25 @@ Y.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Y.TMP;Ultimo Control activo: 
 10-07-2017 11:55:30 , Pila de llamadas
 10-07-2017 11:55:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
@@ -825,6 +397,25 @@ Y.TMP;Ultimo Control activo:
 10-07-2017 11:55:34 , Nº de Linea :         19
 10-07-2017 11:55:34 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
 10-07-2017 12:23:10 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra la variable 'NOMBRE'.;Linea : This.txtnombre.value = &lccamponombre;Error :         12;Ultimo Alias Activo: CSRCTAENTREGADO;Ultimo registro:          1 ;DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1124,6 +715,25 @@ S\ADMIN\APPDATA\LOCAL\TEMP\0000AFWP005O.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 9U.TMP;Ultimo Control activo: 
 10-07-2017 12:29:58 , Pila de llamadas
 10-07-2017 12:29:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
@@ -1147,6 +757,25 @@ S\ADMIN\APPDATA\LOCAL\TEMP\0000AFWP005O.TMP;Ultimo Control activo:
 10-07-2017 12:30:02 , Nº de Linea :         32
 10-07-2017 12:30:02 , En el Fuente:            lobjeto.value=0
 10-07-2017 12:35:15 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: _TXTENTREGO es un miembro desconocido.;Linea : IF EMPTY(This.parent._txtentrego.Value);Error :       1925;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          2 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1416,6 +1045,25 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0000AFWP00VP.TMP;Ultimo Control activo: 
 10-07-2017 12:38:42 , Pila de llamadas
 10-07-2017 12:38:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
@@ -1439,6 +1087,25 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 10-07-2017 12:38:46 , Nº de Linea :         39
 10-07-2017 12:38:46 , En el Fuente: IF RECCOUNT('CsrValidar3ro')#0
 11-07-2017 10:34:14 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrValidar3ro')#0;Error :         13;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1682,6 +1349,25 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A6MH01AP.TMP;Ultimo Control activo: 
 11-07-2017 10:57:52 , Pila de llamadas
 11-07-2017 10:57:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpresu.sct
@@ -1695,6 +1381,25 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 11-07-2017 10:57:53 , Nº de Linea :          2
 11-07-2017 10:57:53 , En el Fuente: SELECT Csrmovpresu.* FROM Csrmovpresu WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
 12-07-2017 11:14:49 , MAIN, Error: El archivo 'csrfle.dbf' no existe.;Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux on csrfle.id=csraux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1915,6 +1620,25 @@ IN\APPDATA\LOCAL\TEMP\0000AFWP00MS.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Activo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A68900D7.TMP;Ultimo Control activo: 
 12-07-2017 11:14:58 , Pila de llamadas
 12-07-2017 11:14:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
@@ -1928,6 +1652,25 @@ csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Acti
 12-07-2017 11:15:00 , Nº de Linea :         45
 12-07-2017 11:15:00 , En el Fuente: SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueoFROM csrfleleft join csraux on csrfle.id=csraux.idinto cursor csrrendifle
 12-07-2017 11:15:02 , RINDEARQUEO.GOTFOCUS, Error: No se encuentra el alias 'CSRRENDIFLE'.;Linea : SELECT CsrRendiFle;Error :         13;Ultimo Alias Activo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A68900D7.TMP;Ulti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2126,6 +1869,25 @@ mo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Activo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A68900DA.TMP;Ultimo Control activo: 
 12-07-2017 11:15:13 , Pila de llamadas
 12-07-2017 11:15:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
@@ -2139,6 +1901,25 @@ csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Acti
 12-07-2017 11:15:14 , Nº de Linea :         45
 12-07-2017 11:15:14 , En el Fuente: SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueoFROM csrfleleft join csraux on csrfle.id=csraux.idinto cursor csrrendifle
 12-07-2017 12:13:35 , REGRETEIB.CONTAINERENCABEZA.CMDPROCESAR.CLICK, Error: El archivo 'csrmovpub.dbf' no existe.;Linea : SELECT Csrmovpub.*,debe as debe_a,haber as haber_a,detalle as detalle_a,fecha as fecha_a,concepto as concepto_a FROM Csrmovpub INTO 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2322,6 +2103,25 @@ CURSOR Csrauxiliar READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXMOVPU
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Activo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000CF0P007Y.TMP;Ultimo Control activo: 
 08-08-2017 10:52:53 , Pila de llamadas
 08-08-2017 10:52:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
@@ -2335,6 +2135,25 @@ csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Acti
 08-08-2017 10:52:54 , Nº de Linea :         45
 08-08-2017 10:52:54 , En el Fuente: SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueoFROM csrfleleft join csraux on csrfle.id=csraux.idinto cursor csrrendifle
 08-08-2017 10:52:59 , RINDEARQUEO.GOTFOCUS, Error: El archivo 'csrfle.dbf' no existe.;Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux on 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2502,6 +2321,25 @@ csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Acti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 PDATA\LOCAL\TEMP\00009TZD008L.TMP;Ultimo Control activo: 
 09-08-2017 11:14:33 , Pila de llamadas
 09-08-2017 11:14:33 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2586,7 +2424,45 @@ PDATA\LOCAL\TEMP\00009TZD008L.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .id,CsrImp2.nombre,CsrImp2.numero,CsrImp2.pesos,CsrImp2.cheques,0,CsrImp2.cartera ,CsrImp2.transf,CsrImp2.aportes,0,CsrImp2.otros);Error :         12;Ultimo Alias Activo: CSRIMPRIMIRARQUEO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2734,8 +2610,46 @@ MP\0000BDAH008L.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				,CsrImp2.transf,CsrImp2.aportes,0,CsrImp2.otros)
 18-08-2017 11:48:50 , RINDEARQUEO.CONTENEDORREPORTE.CMDIMPRIMIR.CLICK, Error: No se encuentra la variable 'RETE'.;Linea : REPORT FORM ('regarqueo.frx') TO PRINTER PROMPT PREVIEW;Error :         12;Ultimo Alias Activo: CSRIMPRIMIRARQUEO;Ultimo registro:  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2878,6 +2792,25 @@ MP\0000BDAH008L.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003T3D00B1.TMP;Ultimo Control activo: 
 11-09-2017 12:19:45 , Pila de llamadas
 11-09-2017 12:19:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
@@ -2891,6 +2824,25 @@ MP\0000BDAH008L.TMP;Ultimo Control activo:
 11-09-2017 12:19:47 , Nº de Linea :        456
 11-09-2017 12:19:47 , En el Fuente: IF LEN(LTRIM(lcArchivo))=0
 12-09-2017 16:03:08 , MAIN, Error: El nombre del objeto no es válido.;Linea : .Name = lcaliasCursor;Error :       1575;Ultimo Alias Activo: CSRVARIEDAD;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000DHJD01VV.TMP;Ultimo Control ac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3041,6 +2993,25 @@ tivo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 L\TEMP\0000DHJD01VV.TMP;Ultimo Control activo: 
 12-09-2017 16:03:21 , Pila de llamadas
 12-09-2017 16:03:21 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3069,6 +3040,25 @@ L\TEMP\0000DHJD01VV.TMP;Ultimo Control activo:
 12-09-2017 16:03:25 , Nº de Linea :         12
 12-09-2017 16:03:25 , En el Fuente: IF RECCOUNT('CsrBloqueoUser')=0 &&Esta habilitado para todo si es vacio
 12-09-2017 16:05:04 , MAIN, Error: No se encuentra el alias 'CSRBLOQUEUSER'.;Linea : IF CsrBloqueUser.alta = 1;Error :         13;Ultimo Alias Activo: CSRBLOQUEOUSER;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000DHJD02T0.TMP;Ult
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3189,6 +3179,25 @@ imo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 05-10-2017 11:51:16 , Pila de llamadas
 05-10-2017 11:51:16 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3207,6 +3216,25 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 05-10-2017 11:51:18 , Nº de Linea :       1832
 05-10-2017 11:51:18 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 05-10-2017 11:53:35 , MAIN, Error: El archivo 'csrauxiliar.dbf' no existe.;Linea : SELECT * FROM csrauxiliar ORDER BY id INTO CURSOR csraux READWRITE;Error :          1;Ultimo Alias Activo: _CSRCOMPROBANTE;Ultimo registro:         10 CNUMERO;DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3293,6 +3321,25 @@ S\ADMIN\APPDATA\LOCAL\TEMP\000062O900DV.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 S\ADMIN\APPDATA\LOCAL\TEMP\000062O902HO.TMP;Ultimo Control activo: 
 05-10-2017 12:14:39 , Pila de llamadas
 05-10-2017 12:14:39 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3340,6 +3387,25 @@ S\ADMIN\APPDATA\LOCAL\TEMP\000062O902HO.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 or<=<<STRTRAN(thisform.txtporhasta.Value,',','.')>>;Error :         11;Ultimo Alias Activo: _CSRCOMPROBANTE;Ultimo registro:         10 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000062O902MI.TMP;Ultimo Control activo: 
 05-10-2017 12:20:42 , Pila de llamadas
 05-10-2017 12:20:43 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3358,6 +3424,25 @@ or<=<<STRTRAN(thisform.txtporhasta.Value,',','.')>>;Error :         11;Ultimo Al
 05-10-2017 12:20:44 , Nº de Linea :        155
 05-10-2017 12:20:44 , En el Fuente: and csrcuerfac.despor>=<<STRTRAN(thisform.txtpordesde.Value,',','.')>> and csrcuerfac.despor<=<<STRTRAN(thisform.txtporhasta.Value,',','.')>> 
 05-10-2017 12:22:25 , EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lcPorDesde = STRTRAN(STRTRAN(thisform.txtpordesde.Value,11,2),',','.');Error :         11;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3389,6 +3474,25 @@ Ultimo Alias Activo: _CSRCOMPROBANTE;Ultimo registro:         10 CNUMERO;DBF: C:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo Alias Activo: _CSRCOMPROBANTE;Ultimo registro:         10 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000062O902R1.TMP;Ultimo Control activo: 
 05-10-2017 12:22:37 , Pila de llamadas
 05-10-2017 12:22:38 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3406,3 +3510,122 @@ Ultimo Alias Activo: _CSRCOMPROBANTE;Ultimo registro:         10 CNUMERO;DBF: C:
 05-10-2017 12:22:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventabonificada.sct
 05-10-2017 12:22:40 , Nº de Linea :        134
 05-10-2017 12:22:40 , En el Fuente: lcPorHasta = STRTRAN(STRTRAN(thisform.txtporhasta.Value,11,2),',','.')
+09-10-2017 10:31:37 , RINDEARQUEO.GRID2.KEYPRESS, Error: No se encuentra la variable 'EXCEL'.;Linea : REPLACE excel with !excel;Error :         12;Ultimo Alias Activo: CSRCHEQUE;Ultimo registro:       7248 IMPORTE;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000DKW90091.TMP;Ultimo Control activo: IMPORTE
+09-10-2017 10:31:37 , Pila de llamadas
+09-10-2017 10:31:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:31:38 , Objeto      : rindearqueo.grid2.keypress
+09-10-2017 10:31:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:31:38 , Nº de Linea :          6
+09-10-2017 10:31:38 , En el Fuente:         thisform.llamardetalle
+09-10-2017 10:31:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:31:38 , Objeto      : rindearqueo.llamardetalle
+09-10-2017 10:31:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:31:39 , Nº de Linea :          9
+09-10-2017 10:31:39 , En el Fuente: 		DO FORM regarqueocartera WITH thisform.fecha_calendario1.txtfecha.Value,Csrrendifle.id,CsrAuxPago.id,Csrrendifle.nombre,CsrAuxPago.nombre,CsrAuxPago.total,csrrendifle.idarqueo
+09-10-2017 10:31:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:31:40 , Objeto      : rindearqueocartera.containerretiro3ro.grid1.column6.text1.keypress
+09-10-2017 10:31:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:31:40 , Nº de Linea :         19
+09-10-2017 10:31:40 , En el Fuente: 		   REPLACE excel with !excel
+09-10-2017 10:31:46 , RINDEARQUEOCARTERA.CONTAINERRETIRO3RO.GRID1.COLUMN6.TEXT1.KEYPRESS, Error: No se encuentra la variable 'EXCEL'.;Linea : REPLACE excel with !excel;Error :         12;Ultimo Alias Activo: CSRCHEQUE;Ultimo registro:       7248 IMPORTE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000DKW90091.TMP;Ultimo Control activo: IMPORTE
+09-10-2017 10:31:46 , Pila de llamadas
+09-10-2017 10:31:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:31:46 , Objeto      : rindearqueocartera.containerretiro3ro.grid1.column6.text1.keypress
+09-10-2017 10:31:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:31:47 , Nº de Linea :         19
+09-10-2017 10:31:47 , En el Fuente: 		   REPLACE excel with !excel
+09-10-2017 10:35:32 , RINDEARQUEO.GRID2.KEYPRESS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : COUNT ALL FOR excel = 1 TO nCantCheque;Error :         52;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control 
+
+
+
+
+
+
+
+
+
+
+
+activo: 
+09-10-2017 10:35:32 , Pila de llamadas
+09-10-2017 10:35:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:35:33 , Objeto      : rindearqueo.grid2.keypress
+09-10-2017 10:35:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:35:33 , Nº de Linea :          6
+09-10-2017 10:35:34 , En el Fuente:         thisform.llamardetalle
+09-10-2017 10:35:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:35:34 , Objeto      : rindearqueo.llamardetalle
+09-10-2017 10:35:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:35:34 , Nº de Linea :          9
+09-10-2017 10:35:34 , En el Fuente: 		DO FORM regarqueocartera WITH thisform.fecha_calendario1.txtfecha.Value,Csrrendifle.id,CsrAuxPago.id,Csrrendifle.nombre,CsrAuxPago.nombre,CsrAuxPago.total,csrrendifle.idarqueo
+09-10-2017 10:35:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:35:35 , Objeto      : rindearqueocartera.imprimir_vistaprevia1.excel.click
+09-10-2017 10:35:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:35:35 , Nº de Linea :          5
+09-10-2017 10:35:35 , En el Fuente: llOK=thisform.CrearInforme()
+09-10-2017 10:35:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:35:35 , Objeto      : rindearqueocartera.crearinforme
+09-10-2017 10:35:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:35:36 , Nº de Linea :          5
+09-10-2017 10:35:36 , En el Fuente: COUNT ALL FOR excel = 1 TO nCantCheque
+09-10-2017 10:41:51 , RINDEARQUEO.GRID2.KEYPRESS, Error: TXTREPORTE es un miembro desconocido.;Linea : .containerpie.txtreporte.Value = .containerpie.txtreporte.Value + Csrcheque.importe * iif(csrCheque.excel=1,1,-1);Error :       1925;Ultimo Alias Activ
+
+
+
+
+
+o: CSRCHEQUE;Ultimo registro:       7428 IMPORTE;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000DKW900TQ.TMP;Ultimo Control activo: IMPORTE
+09-10-2017 10:41:51 , Pila de llamadas
+09-10-2017 10:41:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:41:51 , Objeto      : rindearqueo.grid2.keypress
+09-10-2017 10:41:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:41:52 , Nº de Linea :          6
+09-10-2017 10:41:52 , En el Fuente:         thisform.llamardetalle
+09-10-2017 10:41:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:41:52 , Objeto      : rindearqueo.llamardetalle
+09-10-2017 10:41:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueo.sct
+09-10-2017 10:41:53 , Nº de Linea :          9
+09-10-2017 10:41:53 , En el Fuente: 		DO FORM regarqueocartera WITH thisform.fecha_calendario1.txtfecha.Value,Csrrendifle.id,CsrAuxPago.id,Csrrendifle.nombre,CsrAuxPago.nombre,CsrAuxPago.total,csrrendifle.idarqueo
+09-10-2017 10:41:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:41:53 , Objeto      : rindearqueocartera.containerretiro3ro.grid1.column6.text1.keypress
+09-10-2017 10:41:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:41:53 , Nº de Linea :         21
+09-10-2017 10:41:54 , En el Fuente: 		thisform.procesartilderep()
+09-10-2017 10:41:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:41:54 , Objeto      : rindearqueocartera.procesartilderep
+09-10-2017 10:41:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueocartera.sct
+09-10-2017 10:41:54 , Nº de Linea :          8
+09-10-2017 10:41:54 , En el Fuente:     .containerpie.txtreporte.Value = .containerpie.txtreporte.Value + Csrcheque.importe * iif(csrCheque.excel=1,1,-1)
