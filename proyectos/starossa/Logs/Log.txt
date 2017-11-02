@@ -1,351 +1,4 @@
 Error nº:         12
-Error No se encuentra la variable 'DETACTACTE'.
- Alias CSRSINPER registro          1
-Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-04-11-2016 12:27:59 , Linea nº SELECT csrcuerpo
-Error nº:         13
-Error No se encuentra el alias 'CSRCUERPO'.
- Alias CSRIMPRIMIR registro         23
-Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.PDF.CLICK
-04-11-2016 13:01:08 , Linea nº SELECT csrcuerpo
-Error nº:         13
-Error No se encuentra el alias 'CSRCUERPO'.
- Alias CSRIMPRIMIR registro          1
-Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-04-11-2016 13:14:08 , Linea nº INSERT INTO CsrImprimir(grupo,tasa,gravado,iva,interno,total,detalle,percep,idclave,idvendedor,detavendedor ,idctacte,detactacte,idsector,detasector,sectorruta) VALUES (6,0,Oscatter.gravado,Oscatter.iva,Oscatter.interno,lnt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-otal,lcnombre,lnperce ,Oscatter.idcomproba,Oscatter.idvendedor,cDetaVendedor,Oscatter.idctacte,cDetaCtacte ,Oscatter.idsector,cDetaSector,Osatter.sectorruta) && detalle debo poner el nombre de la provincia
-Error nº:         13
-Error No se encuentra el alias 'OSATTER'.
- Alias CSRCOMPROBANTE registro          1
-Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-04-11-2016 13:28:50 , Linea nº thisform.objetoparametros=loobjvalor
-Error nº:       1734
-Error No se encuentra la propiedad OBJETOPARAMETROS.
- Alias CSRCATEGOIVA registro          1
-Control activo  RESCOMPROBAVTA.COMMAND1.CLICK
-04-11-2016 13:29:23 , Linea nº <<lcLeftSector>>
-Error nº:         12
-Error No se encuentra la variable 'LCLEFTSECTOR'.
- Alias CSRIMPRIMIR registro          1
-Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-04-11-2016 13:33:43 , Linea nº SELECT idtipoiva,idcomproba, SUM(totalNG) as gravado , SUM(TotalII) as interno , SUM(totalIG) as iva,SUM(totalPB) as perce ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte,idsector,codsector,nomsector,sector
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ruta FROM CsrCuerpo GROUP BY idtipoiva,idcomproba ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte ,idsector,codsector,nomsector,sectorruta INTO CURSOR 'CsrSinPer' READWRITE
-Error nº:       1806
-Error SQL: no se encuentra la columna 'IDSECTOR'.
- Alias CSRCUERPO registro          1
-Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-07-11-2016 10:26:55 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-07-11-2016 12:55:31 , Linea nº nTotal = nTotal + lnTotal
-Error nº:         12
 Error No se encuentra la variable 'NTOTAL'.
  Alias CSRCOMPROBANTE registro          1
 Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
@@ -355,6 +8,13 @@ Error No se encuentra la variable 'PORCE'.
  Alias CSRSINPER registro         11
 Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 09-11-2016 12:21:05 , Linea nº SELECT idtipoiva,idcomproba, SUM(totalNG) as gravado , SUM(TotalII) as interno , SUM(totalIG) as iva,SUM(totalPB) as perce ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte,idsector,codsector,nomsector,sector
+
+
+
+
+
+
+
 
 
 
@@ -954,7 +614,21 @@ Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
 
 
 
@@ -1128,7 +802,21 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
 
 
 
@@ -1310,7 +998,21 @@ Control activo  LISPATRONCARGA_V1.LOAD
 
 
 
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
 
 
 
@@ -1480,7 +1182,21 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
 
 
 
@@ -1571,6 +1287,13 @@ Error El archivo 'csrcabefac.dbf' no existe.
  Alias CSRAUXCARGA registro          1
 Control activo  LISPATRONCARGA_V1.LOAD
 21-02-2017 20:58:39 , Linea nº REPLACE idproducto WITH Csrproducto.id,numero WITH Csrproducto.numero,nombre WITH Csrproducto.nombre ,fecha WITH DATE() ,bonifant WITH NVL(CsrProducto.bonifinfo,0) ,bonifica WITH thisform.containerpie._txtbonifica.value ,co
+
+
+
+
+
+
+
 
 
 
@@ -1828,7 +1551,21 @@ Control activo IDCOMPROBA REGSTOCK.IMAGE1.MOUSEMOVE
 
 
 
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
 
 
 
@@ -1956,7 +1693,21 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
 
 
 
@@ -2084,7 +1835,21 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
 
 
 
@@ -2325,6 +2090,13 @@ Control activo  EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
 ransf,CsrImp2.aportes,0,CsrImp2.otros)
 Error nº:         12
 Error No se encuentra la variable 'OTROS'.
@@ -2483,7 +2255,21 @@ Control activo  ABMPRODUCTO.CMDINFORME.CLICK
 
 
 
+
+
+
+
+
+
+
 marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
+
+
+
+
+
+
 
 
 
@@ -2711,5 +2497,54 @@ Error nº:         12
 Error No se encuentra la variable 'IDSEGMENTO'.
  Alias CSRSEGMENTO registro          1
 Control activo  REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK
-02-11-2017 15:14:59 , Linea nº llok = loObjNeg.Salvar('CsrCtacte')Error nº:       1924Error LOOBJNEG no es un objeto. Alias CSRAUXILIAR registro       4356Control activo  REGSEGVENTA.GRID2.KEYPRESS
-02-11-2017 15:17:03 , Linea nº llok = loObjNeg.Salvar('CsrCtacte')Error nº:       1924Error LOOBJNEG no es un objeto. Alias CSRAUXILIAR registro       4356Control activo  REGSEGVENTA.ACEPTAR1.CLICK
+02-11-2017 15:14:59 , Linea nº llok = loObjNeg.Salvar('CsrCtacte')
+Error nº:       1924
+Error LOOBJNEG no es un objeto.
+ Alias CSRAUXILIAR registro       4356
+Control activo  REGSEGVENTA.GRID2.KEYPRESS
+02-11-2017 15:17:03 , Linea nº llok = loObjNeg.Salvar('CsrCtacte')
+Error nº:       1924
+Error LOOBJNEG no es un objeto.
+ Alias CSRAUXILIAR registro       4356
+Control activo  REGSEGVENTA.ACEPTAR1.CLICK
+02-11-2017 15:39:39 , Linea nº SELECT CsrCursor.*,existe-sumacantidad as unidades,CAST(0 as int) as bultos,CAST(0 as int) as unisuel,CAST(0 as numeric(12,3)) as precio FROM CsrCursor WHERE existe-sumacantidad>0 INTO CURSOR CsrImprimir READWRITE
+Error nº:          1
+Error El archivo 'csrcursor.dbf' no existe.
+ Alias _CSRPRODUCTO registro          1
+Control activo  LISINVENTARIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+02-11-2017 15:57:48 , Linea nº SELECT codvendedor,nomvendedor,codigo,articulo ,unibulto,margen1,importefinal,porce_venta ,codctaego,nomcatego FROM CsrImprimir ORDER BY idvendedor,porce_venta DESC INTO CURSOR CsrImprimir
+Error nº:       1806
+Error SQL: no se encuentra la columna 'CODCTAEGO'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+02-11-2017 15:59:03 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
+
+
+rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
+Error nº:       1806
+Error SQL: no se encuentra la columna 'CODCATEGO'.
+ Alias CSRAUX registro        873
+Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+02-11-2017 16:01:31 , Linea nº IF this.detallacateprod = 1
+Error nº:       1734
+Error No se encuentra la propiedad DETALLACATEPROD.
+ Alias _CSRPRODUCTO registro          1
+Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+02-11-2017 16:02:01 , Linea nº IF this.detallacateprod = 1
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias _CSRPRODUCTO registro          1
+Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+02-11-2017 16:02:27 , Linea nº lcLeft = ALLTRIM(TRIM(lcLeftCuervari) + " " + TRIM(LcLeftRubro) + " " + TRIM(LcLeftFletero)+ " "+TRIM(lcLeftSector) + " " + TRIM(cLeftCateProd))
+Error nº:         12
+Error No se encuentra la variable 'CLEFTCATEPROD'.
+ Alias _CSRPRODUCTO registro          1
+Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+02-11-2017 16:03:06 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
+Error nº:       1807
+Error SQL: la cláusula GROUP BY falta o no es válida.
+ Alias CSRAUX registro        873
+Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+02-11-2017 16:04:33 , Linea nº SELECT codvendedor,nomvendedor,codigo,articulo ,unibulto,margen1,importefinal,porce_venta ,codctaego,nomcatego FROM CsrImprimir ORDER BY idvendedor,porce_venta DESC INTO CURSOR CsrImprimirError nº:       1806Error SQL: no se encuentra la columna 'CODCTAEGO'. Alias CSRIMPRIMIR registro          1Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK

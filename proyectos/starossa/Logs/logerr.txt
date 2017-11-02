@@ -1,11 +1,3 @@
-10-10-2017 08:54:39 , Nº de Linea :         22
-10-10-2017 08:54:39 , En el Fuente: thisform.bindergridoff('thisform.Pageframe1.Page3.kitgrillatildar.buscargrd1',lcalias,@lcCtrlSource,@AcolOdataNavega)
-10-10-2017 08:54:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 08:54:40 , Objeto      : listaabm.bindergridoff
-10-10-2017 08:54:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 08:54:40 , Nº de Linea :         26
-10-10-2017 08:54:40 , En el Fuente:     loObjnavega.RecordSource=''
-10-10-2017 09:56:26 , LISTAABM.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'DIRECCION'.;Linea : SELECT numero,nombre,direccion,telefono,flete,ctacte FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultim
 
 
 
@@ -59,1895 +51,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-o Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AOSP02QB.TMP;Ultimo Control activo: 
-10-10-2017 09:56:27 , Pila de llamadas
-10-10-2017 09:56:27 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 09:56:27 , Objeto      : listaabm.imprimir_vistaprevia1.excel.click
-10-10-2017 09:56:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 09:56:28 , Nº de Linea :          8
-10-10-2017 09:56:28 , En el Fuente: llOK=thisform.CrearInforme()
-10-10-2017 09:56:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 09:56:28 , Objeto      : listaabm.crearinforme
-10-10-2017 09:56:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 09:56:28 , Nº de Linea :         26
-10-10-2017 09:56:28 , En el Fuente: DODEFAULT()
-10-10-2017 09:56:28 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 09:56:29 , Objeto      : informe.crearinforme
-10-10-2017 09:56:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 09:56:29 , Nº de Linea :          1
-10-10-2017 09:56:29 , En el Fuente: thisform.crearheader()
-10-10-2017 09:56:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 09:56:29 , Objeto      : listaabm.crearheader
-10-10-2017 09:56:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 09:56:29 , Nº de Linea :         57
-10-10-2017 09:56:30 , En el Fuente: 		SELECT numero,nombre,direccion,telefono,flete,ctacte FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE 
-10-10-2017 09:59:10 , LISTAABM.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: Hay demasiados argumentos.;Linea : SELECT CsrListado.* FROM CsrListado WHERE id &lcCadena INTO CURSOR CsrCursor READWRITE;Error :       1230;Ultimo Alias Activo: _CSRLISTADO;Ultimo 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-registro:         61 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AOSP02XK.TMP;Ultimo Control activo: 
-10-10-2017 09:59:10 , Pila de llamadas
-10-10-2017 09:59:10 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 09:59:10 , Objeto      : listaabm.imprimir_vistaprevia1.excel.click
-10-10-2017 09:59:10 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 09:59:11 , Nº de Linea :          8
-10-10-2017 09:59:11 , En el Fuente: llOK=thisform.CrearInforme()
-10-10-2017 09:59:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 09:59:11 , Objeto      : listaabm.crearinforme
-10-10-2017 09:59:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 09:59:11 , Nº de Linea :          9
-10-10-2017 09:59:11 , En el Fuente: thisform.armaselect()
-10-10-2017 09:59:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 09:59:12 , Objeto      : listaabm.armaselect
-10-10-2017 09:59:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 09:59:12 , Nº de Linea :         12
-10-10-2017 09:59:12 , En el Fuente: 	SELECT CsrListado.* FROM CsrListado WHERE id &lcCadena INTO CURSOR CsrCursor READWRITE 
-10-10-2017 10:06:25 , LISTAABM.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'DIRECCION'.;Linea : SELECT numero,nombre,direccion,telefono,flete,ctacte FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultim
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-o Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AOSP03EA.TMP;Ultimo Control activo: 
-10-10-2017 10:06:25 , Pila de llamadas
-10-10-2017 10:06:26 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:06:26 , Objeto      : listaabm.imprimir_vistaprevia1.excel.click
-10-10-2017 10:06:26 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:06:26 , Nº de Linea :          8
-10-10-2017 10:06:26 , En el Fuente: llOK=thisform.CrearInforme()
-10-10-2017 10:06:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 10:06:26 , Objeto      : listaabm.crearinforme
-10-10-2017 10:06:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 10:06:27 , Nº de Linea :         26
-10-10-2017 10:06:27 , En el Fuente: DODEFAULT()
-10-10-2017 10:06:27 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:06:27 , Objeto      : informe.crearinforme
-10-10-2017 10:06:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:06:27 , Nº de Linea :          1
-10-10-2017 10:06:28 , En el Fuente: thisform.crearheader()
-10-10-2017 10:06:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 10:06:28 , Objeto      : listaabm.crearheader
-10-10-2017 10:06:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 10:06:28 , Nº de Linea :         57
-10-10-2017 10:06:28 , En el Fuente: 		SELECT numero,nombre,direccion,telefono,flete,ctacte FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE 
-10-10-2017 10:14:30 , ABMVENDEDOR.CMDINFORME.CLICK, Error: SQL: no se encuentra la columna 'ESTADO'.;Linea : DELETE FROM CsrCursor WHERE estado <> 1;Error :       1806;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDAT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-A\LOCAL\TEMP\0000AOSP03N7.TMP;Ultimo Control activo: 
-10-10-2017 10:14:30 , Pila de llamadas
-10-10-2017 10:14:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmvendedor.sct
-10-10-2017 10:14:31 , Objeto      : abmvendedor.cmdinforme.click
-10-10-2017 10:14:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmvendedor.sct
-10-10-2017 10:14:31 , Nº de Linea :          8
-10-10-2017 10:14:31 , En el Fuente:    DO FORM &lcinforme WITH "V"
-10-10-2017 10:14:31 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:14:31 , Objeto      : listaabm.imprimir_vistaprevia1.excel.click
-10-10-2017 10:14:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:14:32 , Nº de Linea :          8
-10-10-2017 10:14:32 , En el Fuente: llOK=thisform.CrearInforme()
-10-10-2017 10:14:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 10:14:32 , Objeto      : listaabm.crearinforme
-10-10-2017 10:14:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 10:14:32 , Nº de Linea :          9
-10-10-2017 10:14:33 , En el Fuente: thisform.armaselect()
-10-10-2017 10:14:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 10:14:33 , Objeto      : listaabm.armaselect
-10-10-2017 10:14:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaabm.sct
-10-10-2017 10:14:33 , Nº de Linea :         24
-10-10-2017 10:14:33 , En el Fuente: 			DELETE FROM CsrCursor WHERE estado <> 1 
-10-10-2017 10:46:21 , ABMPRODUCTO.CMDINFORME.CLICK, Error: SQL: no se encuentra la columna 'FLETE1'.;Linea : SELECT nomrubro,numero,codalfa,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1,margen2,pvta2,pvtaciva2 &lcmarca FROM CsrImprimir ORDER BY 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-idrubro,idmarca INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          2 STR(IDRUBRO,10)+STR(IDMARCA,10)+LCORDEN;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000E0W900AW.TMP;Ultimo Control activo: 
-10-10-2017 10:46:22 , Pila de llamadas
-10-10-2017 10:46:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-10-10-2017 10:46:22 , Objeto      : abmproducto.cmdinforme.click
-10-10-2017 10:46:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-10-10-2017 10:46:22 , Nº de Linea :         20
-10-10-2017 10:46:22 , En el Fuente: DO FORM listaproducto WITH "R",oca,lcCmdCampos,lcTypeData,lcidestado TO lccmdSelect
-10-10-2017 10:46:23 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:46:23 , Objeto      : listaprodcto.imprimir_vistaprevia1.excel.click
-10-10-2017 10:46:23 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:46:23 , Nº de Linea :          8
-10-10-2017 10:46:23 , En el Fuente: llOK=thisform.CrearInforme()
-10-10-2017 10:46:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-10-10-2017 10:46:24 , Objeto      : listaprodcto.crearinforme
-10-10-2017 10:46:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-10-10-2017 10:46:24 , Nº de Linea :         97
-10-10-2017 10:46:24 , En el Fuente: DODEFAULT()
-10-10-2017 10:46:24 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:46:24 , Objeto      : informe.crearinforme
-10-10-2017 10:46:24 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:46:25 , Nº de Linea :          1
-10-10-2017 10:46:25 , En el Fuente: thisform.crearheader()
-10-10-2017 10:46:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-10-10-2017 10:46:25 , Objeto      : listaprodcto.crearheader
-10-10-2017 10:46:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-10-10-2017 10:46:25 , Nº de Linea :         51
-10-10-2017 10:46:25 , En el Fuente: 		SELECT nomrubro,numero,codalfa,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1,margen2,pvta2,pvtaciva2 &lcmarca		FROM CsrImprimir ORDER BY idrubro,idmarca INTO CURSOR CsrImprimir READWRITE 
-10-10-2017 10:48:08 , ABMPRODUCTO.CMDINFORME.CLICK, Error: No se encuentra la variable 'FLETE1'.;Linea : INSERT INTO CsrImprimir (idrubro,idmarca,numero,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1 ,margen2,pvta2,pvtaciva2,nomrubro,codmarca,nom
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-marca,codalfa,flete1,flete2,flete3) VALUES (CsrCursor.idrubro,CsrCursor.idmarca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.pre
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-vta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCursor.nommarca,NVL(CsrCursor.codalfa,'') ,CsrCursor.flete1,CsrCursor.flete2,CsrCursor.flete3);Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\US
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ERS\ADMIN\APPDATA\LOCAL\TEMP\0000E0W900IN.TMP;Ultimo Control activo: 
-10-10-2017 10:48:09 , Pila de llamadas
-10-10-2017 10:48:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-10-10-2017 10:48:09 , Objeto      : abmproducto.cmdinforme.click
-10-10-2017 10:48:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-10-10-2017 10:48:09 , Nº de Linea :         20
-10-10-2017 10:48:09 , En el Fuente: DO FORM listaproducto WITH "R",oca,lcCmdCampos,lcTypeData,lcidestado TO lccmdSelect
-10-10-2017 10:48:09 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:48:10 , Objeto      : listaprodcto.imprimir_vistaprevia1.excel.click
-10-10-2017 10:48:10 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-10-10-2017 10:48:10 , Nº de Linea :          8
-10-10-2017 10:48:10 , En el Fuente: llOK=thisform.CrearInforme()
-10-10-2017 10:48:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-10-10-2017 10:48:11 , Objeto      : listaprodcto.crearinforme
-10-10-2017 10:48:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-10-10-2017 10:48:11 , Nº de Linea :         62
-10-10-2017 10:48:11 , En el Fuente: 	     INSERT INTO CsrImprimir (idrubro,idmarca,numero,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1	     			,margen2,pvta2,pvtaciva2,nomrubro,codmarca,nommarca,codalfa,flete1,flete2,flete3)	     			VALUES (Csr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Cursor.idrubro,CsrCursor.idmarca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva	     			,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1	     			,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,Csr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Cursor.nomrubro	     			,CsrCursor.nummarca,CsrCursor.nommarca,NVL(CsrCursor.codalfa,'')	     			,CsrCursor.flete1,CsrCursor.flete2,CsrCursor.flete3)
-02-11-2017 12:35:43 , ABMCATECTACTE._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias 'CSRSEGCTACTEVTA'.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :         13;Ultimo Alias Activo: CSRBLOQUEOUSER;Ultimo registro:          1 ;DBF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJUX00FO.TMP;Ultimo Control activo: 
-02-11-2017 12:35:44 , Pila de llamadas
-02-11-2017 12:35:44 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-02-11-2017 12:35:44 , Objeto      : abmcatectacte._textbox1.keypress
-02-11-2017 12:35:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-02-11-2017 12:35:45 , Nº de Linea :        129
-02-11-2017 12:35:45 , En el Fuente: 	    thisform.bindergridon('thisform.contenedor1.'+thisform.objetonavega,lcalias,lcCtrlSource,AcolOdataNavega)
-02-11-2017 12:35:45 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:45 , Objeto      : abmcatectacte.bindergridon
-02-11-2017 12:35:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:45 , Nº de Linea :         16
-02-11-2017 12:35:45 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
-02-11-2017 12:35:48 , ABMCATECTACTE.CMDSELECCIONAR.CLICK, Error: No se encuentra el alias 'CSRSEGCTACTEVTA'.;Linea : return (&lcAlias);Error :         13;Ultimo Alias Activo: CSRBLOQUEOUSER;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-EMP\0000AJUX00FO.TMP;Ultimo Control activo: 
-02-11-2017 12:35:48 , Pila de llamadas
-02-11-2017 12:35:49 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:49 , Objeto      : abmcatectacte.cmdseleccionar.click
-02-11-2017 12:35:49 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:49 , Nº de Linea :          1
-02-11-2017 12:35:49 , En el Fuente: thisform.idretorno=thisform.PKey()
-02-11-2017 12:35:49 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:49 , Objeto      : abmcatectacte.pkey
-02-11-2017 12:35:50 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:50 , Nº de Linea :          8
-02-11-2017 12:35:50 , En el Fuente: 	lcId=loObjNeg.PKey()
-02-11-2017 12:35:50 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
-02-11-2017 12:35:50 , Objeto      : abmcatectacte.odata1.pkey
-02-11-2017 12:35:50 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
-02-11-2017 12:35:50 , Nº de Linea :         12
-02-11-2017 12:35:51 , En el Fuente: return (&lcAlias)
-02-11-2017 12:35:55 , ABMCATECTACTE.CMDSELECCIONAR.CLICK, Error: No se encuentra el alias 'CSRSEGCTACTEVTA'.;Linea : return (&lcAlias);Error :         13;Ultimo Alias Activo: CSRBLOQUEOUSER;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-EMP\0000AJUX00FO.TMP;Ultimo Control activo: 
-02-11-2017 12:35:55 , Pila de llamadas
-02-11-2017 12:35:55 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:55 , Objeto      : abmcatectacte.cmdseleccionar.click
-02-11-2017 12:35:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:56 , Nº de Linea :          1
-02-11-2017 12:35:56 , En el Fuente: thisform.idretorno=thisform.PKey()
-02-11-2017 12:35:56 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:56 , Objeto      : abmcatectacte.pkey
-02-11-2017 12:35:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-02-11-2017 12:35:56 , Nº de Linea :          8
-02-11-2017 12:35:56 , En el Fuente: 	lcId=loObjNeg.PKey()
-02-11-2017 12:35:56 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
-02-11-2017 12:35:56 , Objeto      : abmcatectacte.odata1.pkey
-02-11-2017 12:35:57 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
-02-11-2017 12:35:57 , Nº de Linea :         12
-02-11-2017 12:35:57 , En el Fuente: return (&lcAlias)
-02-11-2017 12:38:52 , ABMCATECTACTE._TEXTBOX1.KEYPRESS, Error: CHKPROMOCION es un miembro desconocido.;Linea : .chkpromocion.Value = VAL(LEFT(Csrcatectacte.switch,1));Error :       1925;Ultimo Alias Activo: CSRSEGCTACTEVTA;Ultimo registro:          1 ;DB
 
 
 
@@ -2186,6 +289,60 @@ F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJUX00GG.TMP;Ultimo Control activo: NOM
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 : C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJUX00JJ.TMP;Ultimo Control activo: 
 02-11-2017 12:39:57 , Pila de llamadas
 02-11-2017 12:39:57 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
@@ -2199,6 +356,60 @@ F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJUX00GG.TMP;Ultimo Control activo: NOM
 02-11-2017 12:39:59 , Nº de Linea :         16
 02-11-2017 12:39:59 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
 02-11-2017 12:46:13 , ABMCATECTACTE.CONTENEDOR1.GRIDABM1.VALID, Error: No se puede llamar a SetFocus desde un evento When, Valid, RangeHigh o RangeLow.;Linea : loGrid.setfocus();Error :       2012;Ultimo Alias Activo: CSRSEGCTACTEVTA;Ultimo registro:    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2424,6 +635,60 @@ F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJUX00GG.TMP;Ultimo Control activo: NOM
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 : C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJUX00ND.TMP;Ultimo Control activo: 
 02-11-2017 12:47:33 , Pila de llamadas
 02-11-2017 12:47:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\abmsegctactevta.sct
@@ -2442,6 +707,60 @@ F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJUX00GG.TMP;Ultimo Control activo: NOM
 02-11-2017 12:47:36 , Nº de Linea :         16
 02-11-2017 12:47:36 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
 02-11-2017 13:39:18 , REGSEGVENTA.INIT, Error: _SPINNERANIOFISCAL es un miembro desconocido.;Linea : lcperiodo= strzero(thisform.containerencabeza._spinneraniofiscal.Value,4);Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2635,6 +954,60 @@ F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJUX00GG.TMP;Ultimo Control activo: NOM
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:40:24 , Pila de llamadas
 02-11-2017 13:40:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -2643,6 +1016,60 @@ TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 02-11-2017 13:40:25 , Nº de Linea :          7
 02-11-2017 13:40:25 , En el Fuente: 	.cmdInsert.Visible = .f.
 02-11-2017 13:40:28 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: CMDINSERT es un miembro desconocido.;Linea : .cmdInsert.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2821,6 +1248,60 @@ TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:40:34 , Pila de llamadas
 02-11-2017 13:40:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -2829,6 +1310,60 @@ CAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 02-11-2017 13:40:34 , Nº de Linea :          8
 02-11-2017 13:40:35 , En el Fuente: 	.cmdsuprimir.Visible = .f.
 02-11-2017 13:40:39 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: CMDINSERT es un miembro desconocido.;Linea : .cmdInsert.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2999,6 +1534,60 @@ TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:40:41 , Pila de llamadas
 02-11-2017 13:40:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -3007,6 +1596,60 @@ CAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 02-11-2017 13:40:42 , Nº de Linea :          8
 02-11-2017 13:40:42 , En el Fuente: 	.cmdsuprimir.Visible = .f.
 02-11-2017 13:40:47 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: CMDINSERT es un miembro desconocido.;Linea : .cmdInsert.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3169,6 +1812,60 @@ TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:40:51 , Pila de llamadas
 02-11-2017 13:40:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -3177,6 +1874,60 @@ TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 02-11-2017 13:40:52 , Nº de Linea :          7
 02-11-2017 13:40:52 , En el Fuente: 	.cmdInsert.Visible = .f.
 02-11-2017 13:40:55 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: CMDSUPRIMIR es un miembro desconocido.;Linea : .cmdsuprimir.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3329,6 +2080,60 @@ CAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:41:01 , Pila de llamadas
 02-11-2017 13:41:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -3337,6 +2142,60 @@ TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 02-11-2017 13:41:02 , Nº de Linea :          9
 02-11-2017 13:41:02 , En el Fuente: 	.cmdBuscar.Visible = .f.
 02-11-2017 13:41:04 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: IMPRIMIR_VISTAPREVIA1 es un miembro desconocido.;Linea : .imprimir_vistaprevia1.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\US
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3481,6 +2340,60 @@ ERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:41:12 , Pila de llamadas
 02-11-2017 13:41:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3489,6 +2402,60 @@ Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK
 02-11-2017 13:41:13 , Nº de Linea :          1
 02-11-2017 13:41:13 , En el Fuente: IF this.Value < CTOD('01-01-1900')
 02-11-2017 13:41:17 , MAIN, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.Value < CTOD('01-01-1900');Error :        107;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3628,6 +2595,60 @@ OCAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:41:25 , Pila de llamadas
 02-11-2017 13:41:25 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3636,6 +2657,60 @@ Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK
 02-11-2017 13:41:25 , Nº de Linea :          1
 02-11-2017 13:41:26 , En el Fuente: IF this.Value < CTOD('01-01-1900')
 02-11-2017 13:41:31 , REGSEGVENTA.CONTAINERENCABEZA.FECHA_CALENDARIO3.TXTFECHA.VALID, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.Value < CTOD('01-01-1900');Error :        107;Ultimo Alias Activo: CSRAUXILIAR;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3760,6 +2835,60 @@ Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:41:40 , Pila de llamadas
 02-11-2017 13:41:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3768,6 +2897,60 @@ Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK
 02-11-2017 13:41:41 , Nº de Linea :          1
 02-11-2017 13:41:41 , En el Fuente: IF this.Value < CTOD('01-01-1900')
 02-11-2017 13:41:48 , REGSEGVENTA.CONTAINERENCABEZA.FECHA_CALENDARIO4.TXTFECHA.VALID, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.Value < CTOD('01-01-1900');Error :        107;Ultimo Alias Activo: CSRAUXILIAR;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3884,6 +3067,60 @@ Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:41:53 , Pila de llamadas
 02-11-2017 13:41:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -3892,6 +3129,60 @@ TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 02-11-2017 13:41:54 , Nº de Linea :          7
 02-11-2017 13:41:54 , En el Fuente: 	.cmdInsert.Visible = .f.
 02-11-2017 13:41:56 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: CMDSUPRIMIR es un miembro desconocido.;Linea : .cmdsuprimir.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3999,6 +3290,60 @@ CAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\0000AE4P00FK.TMP;Ultimo Control activo: 
 02-11-2017 13:41:59 , Pila de llamadas
 02-11-2017 13:42:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -4007,6 +3352,60 @@ TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 02-11-2017 13:42:00 , Nº de Linea :          9
 02-11-2017 13:42:00 , En el Fuente: 	.cmdBuscar.Visible = .f.
 02-11-2017 13:42:01 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: IMPRIMIR_VISTAPREVIA1 es un miembro desconocido.;Linea : .imprimir_vistaprevia1.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\US
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4105,6 +3504,60 @@ ERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00FK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\0000AE4P00HG.TMP;Ultimo Control activo: 
 02-11-2017 13:43:55 , Pila de llamadas
 02-11-2017 13:43:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -4113,6 +3566,60 @@ TEMP\0000AE4P00HG.TMP;Ultimo Control activo:
 02-11-2017 13:43:55 , Nº de Linea :          7
 02-11-2017 13:43:56 , En el Fuente: 	.cmdInsert.Visible = .f.
 02-11-2017 13:43:58 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: CMDSUPRIMIR es un miembro desconocido.;Linea : .cmdsuprimir.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4203,6 +3710,60 @@ CAL\TEMP\0000AE4P00HG.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\0000AE4P00HG.TMP;Ultimo Control activo: 
 02-11-2017 13:44:00 , Pila de llamadas
 02-11-2017 13:44:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -4211,6 +3772,60 @@ TEMP\0000AE4P00HG.TMP;Ultimo Control activo:
 02-11-2017 13:44:01 , Nº de Linea :          9
 02-11-2017 13:44:01 , En el Fuente: 	.cmdBuscar.Visible = .f.
 02-11-2017 13:44:02 , REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS, Error: IMPRIMIR_VISTAPREVIA1 es un miembro desconocido.;Linea : .imprimir_vistaprevia1.Visible = .f.;Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\US
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4293,6 +3908,60 @@ ERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00HG.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 :\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00ID.TMP;Ultimo Control activo: 
 02-11-2017 13:45:50 , Pila de llamadas
 02-11-2017 13:45:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -4301,6 +3970,60 @@ ERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P00HG.TMP;Ultimo Control activo:
 02-11-2017 13:45:50 , Nº de Linea :          3
 02-11-2017 13:45:50 , En el Fuente: thisform.objetoparametros=loobjvalor
 02-11-2017 14:06:33 , REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK, Error: No se encuentra la propiedad VALUE.;Linea : cFecDesde = "'"+DTOS(.fecha_calendario1.Value)+"'";Error :       1734;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4378,9 +4101,117 @@ DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P029J.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ltimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 02-11-2017 14:20:49 , Pila de llamadas
 02-11-2017 14:21:54 , REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'NUEVOSEG'.;Linea : thisform.grid2.column5.ControlSource = "CsrAuxiliar.nuevoseg";Error :         12;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4448,6 +4279,60 @@ o:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P031N.TMP;Ultimo Co
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P04JE.TMP;Ultimo Control activo: 
 02-11-2017 14:52:33 , Pila de llamadas
 02-11-2017 14:52:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -4461,6 +4346,60 @@ o:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P031N.TMP;Ultimo Co
 02-11-2017 14:52:34 , Nº de Linea :         84
 02-11-2017 14:52:34 , En el Fuente: 	LOCATE FOR rangomin <= ventas AND ventas <= rangomax
 02-11-2017 15:02:26 , REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'VENTAS'.;Linea : LOCATE FOR rangomin <= ventas AND ventas <= rangomax;Error :         12;Ultimo Alias Activo: CSRSEGMENTO;Ultimo registro:         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4512,6 +4451,60 @@ o:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P031N.TMP;Ultimo Co
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 vo: CSRSEGMENTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4P04KM.TMP;Ultimo Control activo: 
 02-11-2017 15:03:21 , Pila de llamadas
 02-11-2017 15:03:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -4525,6 +4518,60 @@ vo: CSRSEGMENTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
 02-11-2017 15:03:22 , Nº de Linea :         85
 02-11-2017 15:03:23 , En el Fuente: 	IF rangomin <= CsrAuxiliar.ventas AND Csrauxiliar.ventas <= rangomax AND id <> idsegmento
 02-11-2017 15:14:59 , REGSEGVENTA.GRID2.KEYPRESS, Error: LOOBJNEG no es un objeto.;Linea : llok = loObjNeg.Salvar('CsrCtacte');Error :       1924;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:       4356 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AE4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4567,6 +4614,60 @@ P067N.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 P06F1.TMP;Ultimo Control activo: 
 02-11-2017 15:17:04 , Pila de llamadas
 02-11-2017 15:17:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
@@ -4589,3 +4690,516 @@ P06F1.TMP;Ultimo Control activo:
 02-11-2017 15:17:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regsegventa.sct
 02-11-2017 15:17:06 , Nº de Linea :         16
 02-11-2017 15:17:06 , En el Fuente: llok = loObjNeg.Salvar('CsrCtacte')
+02-11-2017 15:39:40 , LISINVENTARIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT CsrCursor.*,existe-sumacantidad as unidades,CAST(0 as int) as bultos,CAST(0 as int) as unisuel,CAST(0 as numeric(12,3)) as 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+precio FROM CsrCursor WHERE existe-sumacantidad>0 INTO CURSOR CsrImprimir READWRITE;Error :          1;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AYVD00SC.TMP;Ultimo Control activo: 
+02-11-2017 15:39:40 , Pila de llamadas
+02-11-2017 15:39:41 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 15:39:41 , Objeto      : lisinventario.imprimir_vistaprevia1.excel.click
+02-11-2017 15:39:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 15:39:41 , Nº de Linea :          8
+02-11-2017 15:39:41 , En el Fuente: llOK=thisform.CrearInforme()
+02-11-2017 15:39:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
+02-11-2017 15:39:41 , Objeto      : lisinventario.crearinforme
+02-11-2017 15:39:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
+02-11-2017 15:39:42 , Nº de Linea :        139
+02-11-2017 15:39:42 , En el Fuente: SELECT CsrCursor.*,existe-sumacantidad as unidades,CAST(0 as int) as bultos,CAST(0 as int) as unisuel,CAST(0 as numeric(12,3)) as precio FROM CsrCursor WHERE existe-sumacantidad>0 INTO CURSOR CsrImprimir READWRITE 
+02-11-2017 15:57:48 , EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'CODCTAEGO'.;Linea : SELECT codvendedor,nomvendedor,codigo,articulo ,unibulto,margen1,importefinal,porce_venta ,codctaego,nomcatego FROM Csr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Imprimir ORDER BY idvendedor,porce_venta DESC INTO CURSOR CsrImprimir;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AYVD01FT.TMP;Ultimo Control activo: 
+02-11-2017 15:57:49 , Pila de llamadas
+02-11-2017 15:57:49 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 15:57:49 , Objeto      : est_rankproductos.imprimir_vistaprevia1.excel.click
+02-11-2017 15:57:49 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 15:57:49 , Nº de Linea :          8
+02-11-2017 15:57:50 , En el Fuente: llOK=thisform.CrearInforme()
+02-11-2017 15:57:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 15:57:50 , Objeto      : est_rankproductos.crearinforme
+02-11-2017 15:57:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 15:57:50 , Nº de Linea :         32
+02-11-2017 15:57:50 , En el Fuente: DODEFAULT()
+02-11-2017 15:57:50 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 15:57:51 , Objeto      : informe.crearinforme
+02-11-2017 15:57:51 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 15:57:51 , Nº de Linea :          1
+02-11-2017 15:57:51 , En el Fuente: thisform.crearheader()
+02-11-2017 15:57:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 15:57:51 , Objeto      : est_rankproductos.crearheader
+02-11-2017 15:57:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 15:57:52 , Nº de Linea :         47
+02-11-2017 15:57:52 , En el Fuente: 			SELECT codvendedor,nomvendedor,codigo,articulo			,unibulto,margen1,importefinal,porce_venta			,codctaego,nomcatego			FROM CsrImprimir ORDER BY idvendedor,porce_venta DESC 			INTO CURSOR CsrImprimir
+02-11-2017 15:59:04 , EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: no se encuentra la columna 'CODCATEGO'.;Linea : SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,importefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3;Error :       1806;Ultimo Alias Activo: CSRAUX;Ultimo registro:   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     873 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AYVD01GG.TMP;Ultimo Control activo: 
+02-11-2017 15:59:04 , Pila de llamadas
+02-11-2017 15:59:05 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 15:59:05 , Objeto      : est_rankproductos.imprimir_vistaprevia1.impresora.click
+02-11-2017 15:59:05 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 15:59:05 , Nº de Linea :          8
+02-11-2017 15:59:05 , En el Fuente: 	llOK=thisform.CrearInforme()
+02-11-2017 15:59:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 15:59:06 , Objeto      : est_rankproductos.crearinforme
+02-11-2017 15:59:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 15:59:06 , Nº de Linea :         27
+02-11-2017 15:59:06 , En el Fuente: 	thisform.crearlistado()
+02-11-2017 15:59:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 15:59:06 , Objeto      : est_rankproductos.crearlistado
+02-11-2017 15:59:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 15:59:07 , Nº de Linea :          9
+02-11-2017 15:59:07 , En el Fuente: SELECT idvendedor,codvendedor,Nomvendedor,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal,codcatego,nomcategofrom csrauxgroup by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,imp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ortefinal,bonificacionorder BY idvendedor,importefinal descinto cursor csraux3
+02-11-2017 16:01:32 , EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad DETALLACATEPROD.;Linea : IF this.detallacateprod = 1;Error :       1734;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUME
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AYVD01HH.TMP;Ultimo Control activo: 
+02-11-2017 16:01:32 , Pila de llamadas
+02-11-2017 16:01:33 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 16:01:33 , Objeto      : est_rankproductos.imprimir_vistaprevia1.impresora.click
+02-11-2017 16:01:33 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 16:01:33 , Nº de Linea :          8
+02-11-2017 16:01:33 , En el Fuente: 	llOK=thisform.CrearInforme()
+02-11-2017 16:01:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:01:34 , Objeto      : est_rankproductos.crearinforme
+02-11-2017 16:01:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:01:34 , Nº de Linea :         26
+02-11-2017 16:01:34 , En el Fuente: 	.estadistica.generarcursor()
+02-11-2017 16:01:34 , Programa    : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:01:35 , Objeto      : est_rankproductos.estadistica.generarcursor
+02-11-2017 16:01:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:01:35 , Nº de Linea :          8
+02-11-2017 16:01:35 , En el Fuente: 	this.establecerselect_sector()
+02-11-2017 16:01:35 , Programa    : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:01:35 , Objeto      : est_rankproductos.estadistica.establecerselect_sector
+02-11-2017 16:01:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:01:35 , Nº de Linea :         59
+02-11-2017 16:01:36 , En el Fuente:   	IF this.detallacateprod = 1
+02-11-2017 16:02:01 , EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.detallacateprod = 1;Error :        107;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo regist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AYVD01HV.TMP;Ultimo Control activo: 
+02-11-2017 16:02:01 , Pila de llamadas
+02-11-2017 16:02:02 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 16:02:02 , Objeto      : est_rankproductos.imprimir_vistaprevia1.impresora.click
+02-11-2017 16:02:02 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 16:02:02 , Nº de Linea :          8
+02-11-2017 16:02:02 , En el Fuente: 	llOK=thisform.CrearInforme()
+02-11-2017 16:02:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:02:03 , Objeto      : est_rankproductos.crearinforme
+02-11-2017 16:02:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:02:03 , Nº de Linea :         26
+02-11-2017 16:02:03 , En el Fuente: 	.estadistica.generarcursor()
+02-11-2017 16:02:03 , Programa    : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:02:03 , Objeto      : est_rankproductos.estadistica.generarcursor
+02-11-2017 16:02:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:02:03 , Nº de Linea :          8
+02-11-2017 16:02:03 , En el Fuente: 	this.establecerselect_sector()
+02-11-2017 16:02:03 , Programa    : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:02:04 , Objeto      : est_rankproductos.estadistica.establecerselect_sector
+02-11-2017 16:02:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:02:04 , Nº de Linea :         59
+02-11-2017 16:02:04 , En el Fuente:   	IF this.detallacateprod = 1
+02-11-2017 16:02:28 , EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CLEFTCATEPROD'.;Linea : lcLeft = ALLTRIM(TRIM(lcLeftCuervari) + " " + TRIM(LcLeftRubro) + " " + TRIM(LcLeftFletero)+ " "+TRIM(lcLeftSector)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ + " " + TRIM(cLeftCateProd));Error :         12;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AYVD01I9.TMP;Ultimo Control activo: 
+02-11-2017 16:02:28 , Pila de llamadas
+02-11-2017 16:02:29 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 16:02:29 , Objeto      : est_rankproductos.imprimir_vistaprevia1.impresora.click
+02-11-2017 16:02:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 16:02:29 , Nº de Linea :          8
+02-11-2017 16:02:29 , En el Fuente: 	llOK=thisform.CrearInforme()
+02-11-2017 16:02:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:02:30 , Objeto      : est_rankproductos.crearinforme
+02-11-2017 16:02:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:02:30 , Nº de Linea :         26
+02-11-2017 16:02:30 , En el Fuente: 	.estadistica.generarcursor()
+02-11-2017 16:02:30 , Programa    : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:02:30 , Objeto      : est_rankproductos.estadistica.generarcursor
+02-11-2017 16:02:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:02:31 , Nº de Linea :          8
+02-11-2017 16:02:31 , En el Fuente: 	this.establecerselect_sector()
+02-11-2017 16:02:31 , Programa    : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:02:31 , Objeto      : est_rankproductos.estadistica.establecerselect_sector
+02-11-2017 16:02:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
+02-11-2017 16:02:31 , Nº de Linea :        201
+02-11-2017 16:02:32 , En el Fuente: lcLeft = ALLTRIM(TRIM(lcLeftCuervari) + " " + TRIM(LcLeftRubro) + " " + TRIM(LcLeftFletero)+ " "+TRIM(lcLeftSector) + " " + TRIM(cLeftCateProd))
+02-11-2017 16:03:07 , EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: la cláusula GROUP BY falta o no es válida.;Linea : SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefin
+
+
+
+
+
+
+
+
+
+
+
+
+
+al ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,importefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3;Error :       1807;Ultimo Alias Activo: CSRAUX;Ultimo registro:
+
+
+
+
+
+
+
+
+
+
+
+
+
+        873 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AYVD01JI.TMP;Ultimo Control activo: 
+02-11-2017 16:03:07 , Pila de llamadas
+02-11-2017 16:03:07 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 16:03:07 , Objeto      : est_rankproductos.imprimir_vistaprevia1.impresora.click
+02-11-2017 16:03:08 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+02-11-2017 16:03:08 , Nº de Linea :          8
+02-11-2017 16:03:08 , En el Fuente: 	llOK=thisform.CrearInforme()
+02-11-2017 16:03:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:03:08 , Objeto      : est_rankproductos.crearinforme
+02-11-2017 16:03:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:03:08 , Nº de Linea :         27
+02-11-2017 16:03:09 , En el Fuente: 	thisform.crearlistado()
+02-11-2017 16:03:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:03:09 , Objeto      : est_rankproductos.crearlistado
+02-11-2017 16:03:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:03:09 , Nº de Linea :          9
+02-11-2017 16:03:10 , En el Fuente: SELECT idvendedor,codvendedor,Nomvendedor,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal,codcatego,nomcategofrom csrauxgroup by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,imp
+
+
+
+
+
+
+
+ortefinal,bonificacionorder BY idvendedor,importefinal descinto cursor csraux3
+02-11-2017 16:04:33 , EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'CODCTAEGO'.;Linea : SELECT codvendedor,nomvendedor,codigo,articulo ,unibulto,margen1,importefinal,porce_venta ,codctaego,nomcatego FROM Csr
+
+
+
+
+
+
+Imprimir ORDER BY idvendedor,porce_venta DESC INTO CURSOR CsrImprimir;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AYVD01LM.TMP;Ultimo Control activo: 
+02-11-2017 16:04:34 , Pila de llamadas
+02-11-2017 16:04:34 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 16:04:34 , Objeto      : est_rankproductos.imprimir_vistaprevia1.excel.click
+02-11-2017 16:04:34 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 16:04:35 , Nº de Linea :          8
+02-11-2017 16:04:35 , En el Fuente: llOK=thisform.CrearInforme()
+02-11-2017 16:04:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:04:35 , Objeto      : est_rankproductos.crearinforme
+02-11-2017 16:04:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:04:35 , Nº de Linea :         32
+02-11-2017 16:04:35 , En el Fuente: DODEFAULT()
+02-11-2017 16:04:35 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 16:04:35 , Objeto      : informe.crearinforme
+02-11-2017 16:04:36 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+02-11-2017 16:04:36 , Nº de Linea :          1
+02-11-2017 16:04:36 , En el Fuente: thisform.crearheader()
+02-11-2017 16:04:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:04:36 , Objeto      : est_rankproductos.crearheader
+02-11-2017 16:04:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankproductos.sct
+02-11-2017 16:04:37 , Nº de Linea :         47
+02-11-2017 16:04:37 , En el Fuente: 			SELECT codvendedor,nomvendedor,codigo,articulo			,unibulto,margen1,importefinal,porce_venta			,codctaego,nomcatego			FROM CsrImprimir ORDER BY idvendedor,porce_venta DESC 			INTO CURSOR CsrImprimir
