@@ -1,1910 +1,3 @@
-Error nº:       1734
-Error No se encuentra la propiedad LISTASECTOR.
- Alias _CSRFLETERO registro         61
-Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-12-09-2016 13:34:23 , Linea nº FOR EACH oSector IN this.listasector
-Error nº:       1734
-Error No se encuentra la propiedad LISTASECTOR.
- Alias _CSRFLETERO registro         61
-Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-25-09-2016 18:12:46 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-05-10-2016 13:05:05 , Linea nº IF LEN(RTRIM(Objtabla.inscri01))#0 AND FechaHoraCero(DATETIME()) > Objtabla.fecins01
-Error nº:       1734
-Error No se encuentra la propiedad INSCRI01.
- Alias CSRIMPORTAR registro          1
-Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-05-10-2016 13:06:44 , Linea nº replace observaciones WITH "REBA Vencido" IN CsrImportar
-Error nº:         12
-Error No se encuentra la variable 'OBSERVACIONES'.
- Alias CSRIMPORTAR registro          1
-Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-12-10-2016 11:06:15 , Linea nº .oFacCAE.EstadoConexion()
-Error nº:       1734
-Error No se encuentra la propiedad ESTADOCONEXION.
- Alias  registro          0
-Control activo  REGPIDOCAEA.ACEPTAR2.CLICK
-21-10-2016 13:15:11 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,00000 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
-Error nº:          1
-Error El archivo 'csrcabefac.dbf' no existe.
- Alias  registro          0
-Control activo  REGFACVTA.LOAD
-21-10-2016 13:15:24 , Linea nº SELECT Csrmaopera.*,CAST(0 as int) as idvdorplan,CAST(0 as int) as iddeposito,00000000 AS nrocaja,SPACE(6) as pefiscal,CAST(0 as int) as idmotanula FROM Csrmaopera WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMaopera READWRIT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-E
-Error nº:          1
-Error El archivo 'csrmaopera.dbf' no existe.
- Alias  registro          0
-Control activo  REGFACVTA.LOAD
-03-11-2016 11:09:03 , Linea nº INSERT INTO  CsrImprimir (codigo, nomcliente, cuit, iva, direccion, telefono ,localidad, provincia, nomvendedor, codvendedor, canal, codsector,nomsector,rutasector) VALUES (CsrAux.cnumero,ALLTRIM(CsrAux.cnombre)	,ALLTRIM(Cs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-rAux.cuit),ALLTRIM(CsrAux.iva) ,ALLTRIM(CsrAux.cdireccion),ALLTRIM(CsrAux.ctelefono),ALLTRIM(CsrAux.localidad) ,ALLTRIM(CsrAux.provincia),ALLTRIM(CsrAux.nomvendedor),CsrAux.Codvendedor,csraux.canal ,CsrAux.CodSector,CsrAux.NomSector,CsrAux.rutasector)
-Error nº:          1
-Error El archivo 'csrimprimir.dbf' no existe.
- Alias CSRAUX registro          1
-Control activo  LISTAPADRON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-03-11-2016 11:17:46 , Linea nº INSERT INTO  CsrImprimir (codigo, nomcliente, cuit, iva, direccion, telefono ,localidad, provincia, nomvendedor, codvendedor, canal, codsector,nomsector,rutasector,dni) VALUES (CsrAux.cnumero,ALLTRIM(CsrAux.cnombre)	,ALLTRI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-M(CsrAux.cuit),ALLTRIM(CsrAux.iva) ,ALLTRIM(CsrAux.cdireccion),ALLTRIM(CsrAux.ctelefono),ALLTRIM(CsrAux.localidad) ,ALLTRIM(CsrAux.provincia),ALLTRIM(CsrAux.nomvendedor),CsrAux.Codvendedor,csraux.canal ,CsrAux.CodSector,CsrAux.NomSector,CsrAux.rutasector
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,CsrAux.dni)
-Error nº:          1
-Error El archivo 'csrimprimir.dbf' no existe.
- Alias CSRAUX registro          1
-Control activo  LISTAPADRON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-03-11-2016 11:17:56 , Linea nº INSERT INTO  CsrImprimir (codigo, nomcliente, cuit, iva, direccion, telefono ,localidad, provincia, nomvendedor, codvendedor, canal, codsector,nomsector,rutasector,dni) VALUES (CsrAux.cnumero,ALLTRIM(CsrAux.cnombre)	,ALLTRI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-M(CsrAux.cuit),ALLTRIM(CsrAux.iva) ,ALLTRIM(CsrAux.cdireccion),ALLTRIM(CsrAux.ctelefono),ALLTRIM(CsrAux.localidad) ,ALLTRIM(CsrAux.provincia),ALLTRIM(CsrAux.nomvendedor),CsrAux.Codvendedor,csraux.canal ,CsrAux.CodSector,CsrAux.NomSector,CsrAux.rutasector
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,CsrAux.dni)
-Error nº:          1
-Error El archivo 'csrimprimir.dbf' no existe.
- Alias CSRAUX registro          2
-Control activo  LISTAPADRON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-03-11-2016 16:16:44 , Linea nº IF RECCOUNT('CsrDecimal')#0
-Error nº:         13
-Error No se encuentra el alias.
- Alias  registro          0
-Control activo  RESUMENVENTAS.IMPRIMIR_VISTAPREVIA1.INIT
-03-11-2016 16:18:45 , Linea nº SELECT Csrcategoiva
-Error nº:         13
-Error No se encuentra el alias 'CSRCATEGOIVA'.
- Alias CSRSINPER registro          1
-Control activo  RESUMENVENTAS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-03-11-2016 16:41:24 , Linea nº IF RECCOUNT('CsrDecimal')#0
-Error nº:         13
-Error No se encuentra el alias.
- Alias  registro          0
-Control activo  RESUMENVENTAS.IMPRIMIR_VISTAPREVIA1.INIT
-03-11-2016 16:42:39 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-03-11-2016 16:44:14 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-04-11-2016 11:38:36 , Linea nº SELECT csrcuerpo
-Error nº:         13
-Error No se encuentra el alias 'CSRCUERPO'.
- Alias CSRIMPRIMIR registro          1
-Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-04-11-2016 11:46:06 , Linea nº <<cGroupVdor>>
-Error nº:         12
-Error No se encuentra la variable 'CGROUPVDOR'.
- Alias CSRIMPRIMIR registro          1
-Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-04-11-2016 12:09:03 , Linea nº INSERT INTO CsrImprimir(grupo,tasa,gravado,iva,interno,total,detalle,percep,idvendedor,detavendedor ,idctacte,detactacte) VALUES (6,0,Oscatter.gravado,Oscatter.iva,csrSinPer.interno,lntotal,lcnombre,lnperce ,Oscatter.idvend
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-edor,cDetaVendedor,Oscatter.idctacte,cDetaCtacte) && detalle debo poner el nombre de la provincia
 Error nº:         12
 Error No se encuentra la variable 'DETACTACTE'.
  Alias CSRSINPER registro          1
@@ -1920,6 +13,34 @@ Error No se encuentra el alias 'CSRCUERPO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 04-11-2016 13:14:08 , Linea nº INSERT INTO CsrImprimir(grupo,tasa,gravado,iva,interno,total,detalle,percep,idclave,idvendedor,detavendedor ,idctacte,detactacte,idsector,detasector,sectorruta) VALUES (6,0,Oscatter.gravado,Oscatter.iva,Oscatter.interno,lnt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2185,6 +306,34 @@ Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ruta FROM CsrCuerpo GROUP BY idtipoiva,idcomproba ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte ,idsector,codsector,nomsector,sectorruta INTO CURSOR 'CsrSinPer' READWRITE
 Error nº:       1806
 Error SQL: no se encuentra la columna 'IDSECTOR'.
@@ -2206,6 +355,34 @@ Error No se encuentra la variable 'PORCE'.
  Alias CSRSINPER registro         11
 Control activo  RESCOMPROBAVTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 09-11-2016 12:21:05 , Linea nº SELECT idtipoiva,idcomproba, SUM(totalNG) as gravado , SUM(TotalII) as interno , SUM(totalIG) as iva,SUM(totalPB) as perce ,idvendedor,nomvendedor,codvendedor,idctacte,nomctacte,codctacte,idsector,codsector,nomsector,sector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2749,7 +926,63 @@ Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2867,7 +1100,63 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2993,7 +1282,63 @@ Control activo  LISPATRONCARGA_V1.LOAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3107,7 +1452,63 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3170,6 +1571,34 @@ Error El archivo 'csrcabefac.dbf' no existe.
  Alias CSRAUXCARGA registro          1
 Control activo  LISPATRONCARGA_V1.LOAD
 21-02-2017 20:58:39 , Linea nº REPLACE idproducto WITH Csrproducto.id,numero WITH Csrproducto.numero,nombre WITH Csrproducto.nombre ,fecha WITH DATE() ,bonifant WITH NVL(CsrProducto.bonifinfo,0) ,bonifica WITH thisform.containerpie._txtbonifica.value ,co
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3371,7 +1800,63 @@ Control activo IDCOMPROBA REGSTOCK.IMAGE1.MOUSEMOVE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3443,7 +1928,63 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3515,7 +2056,63 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3700,6 +2297,34 @@ Control activo  EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ransf,CsrImp2.aportes,0,CsrImp2.otros)
 Error nº:         12
 Error No se encuentra la variable 'OTROS'.
@@ -3830,4 +2455,261 @@ Error nº:       1806
 Error SQL: no se encuentra la columna 'FLETE1'.
  Alias CSRIMPRIMIR registro          2
 Control activo  ABMPRODUCTO.CMDINFORME.CLICK
-10-10-2017 10:48:08 , Linea nº INSERT INTO CsrImprimir (idrubro,idmarca,numero,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1 ,margen2,pvta2,pvtaciva2,nomrubro,codmarca,nommarca,codalfa,flete1,flete2,flete3) VALUES (CsrCursor.idrubro,CsrCursor.idmarca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCursor.nommarca,NVL(CsrCursor.codalfa,'') ,CsrCursor.flete1,CsrCursor.flete2,CsrCursor.flete3)Error nº:         12Error No se encuentra la variable 'FLETE1'. Alias CSRCURSOR registro          1Control activo  ABMPRODUCTO.CMDINFORME.CLICK
+10-10-2017 10:48:08 , Linea nº INSERT INTO CsrImprimir (idrubro,idmarca,numero,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1 ,margen2,pvta2,pvtaciva2,nomrubro,codmarca,nommarca,codalfa,flete1,flete2,flete3) VALUES (CsrCursor.idrubro,CsrCursor.id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+or.nommarca,NVL(CsrCursor.codalfa,'') ,CsrCursor.flete1,CsrCursor.flete2,CsrCursor.flete3)
+Error nº:         12
+Error No se encuentra la variable 'FLETE1'.
+ Alias CSRCURSOR registro          1
+Control activo  ABMPRODUCTO.CMDINFORME.CLICK
+02-11-2017 12:35:43 , Linea nº loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+Error nº:         13
+Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
+ Alias CSRBLOQUEOUSER registro          1
+Control activo  ABMCATECTACTE._TEXTBOX1.KEYPRESS
+02-11-2017 12:35:48 , Linea nº return (&lcAlias)
+Error nº:         13
+Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
+ Alias CSRBLOQUEOUSER registro          1
+Control activo  ABMCATECTACTE.CMDSELECCIONAR.CLICK
+02-11-2017 12:35:55 , Linea nº return (&lcAlias)
+Error nº:         13
+Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
+ Alias CSRBLOQUEOUSER registro          1
+Control activo  ABMCATECTACTE.CMDSELECCIONAR.CLICK
+02-11-2017 12:38:52 , Linea nº .chkpromocion.Value = VAL(LEFT(Csrcatectacte.switch,1))
+Error nº:       1925
+Error CHKPROMOCION es un miembro desconocido.
+ Alias CSRSEGCTACTEVTA registro          1
+Control activo NOMBRE ABMCATECTACTE._TEXTBOX1.KEYPRESS
+02-11-2017 12:39:57 , Linea nº loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+Error nº:         13
+Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
+ Alias CSRBLOQUEOUSER registro          1
+Control activo  ABMCATECTACTE._TEXTBOX1.KEYPRESS
+02-11-2017 12:46:13 , Linea nº loGrid.setfocus()
+Error nº:       2012
+Error No se puede llamar a SetFocus desde un evento When, Valid, RangeHigh o RangeLow.
+ Alias CSRSEGCTACTEVTA registro          1
+Control activo  ABMCATECTACTE.CONTENEDOR1.GRIDABM1.VALID
+02-11-2017 12:47:33 , Linea nº loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+Error nº:         13
+Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
+ Alias CSRBLOQUEOUSER registro          1
+Control activo  ABMCATECTACTE._TEXTBOX1.KEYPRESS
+02-11-2017 13:39:18 , Linea nº lcperiodo= strzero(thisform.containerencabeza._spinneraniofiscal.Value,4)
+Error nº:       1925
+Error _SPINNERANIOFISCAL es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.INIT
+02-11-2017 13:40:24 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:40:28 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:40:34 , Linea nº .cmdsuprimir.Visible = .f.
+Error nº:       1925
+Error CMDSUPRIMIR es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:40:39 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:40:41 , Linea nº .cmdsuprimir.Visible = .f.
+Error nº:       1925
+Error CMDSUPRIMIR es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:40:46 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:40:51 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:40:55 , Linea nº .cmdsuprimir.Visible = .f.
+Error nº:       1925
+Error CMDSUPRIMIR es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:41:00 , Linea nº .cmdBuscar.Visible = .f.
+Error nº:       1925
+Error CMDBUSCAR es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:41:04 , Linea nº .imprimir_vistaprevia1.Visible = .f.
+Error nº:       1925
+Error IMPRIMIR_VISTAPREVIA1 es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:41:12 , Linea nº IF this.Value < CTOD('01-01-1900')
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.FECHA_CALENDARIO3.TXTFECHA.VALID
+02-11-2017 13:41:16 , Linea nº IF this.Value < CTOD('01-01-1900')
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXILIAR registro          1
+Control activo  MAIN
+02-11-2017 13:41:25 , Linea nº IF this.Value < CTOD('01-01-1900')
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.FECHA_CALENDARIO3.TXTFECHA.VALID
+02-11-2017 13:41:30 , Linea nº IF this.Value < CTOD('01-01-1900')
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.FECHA_CALENDARIO3.TXTFECHA.VALID
+02-11-2017 13:41:40 , Linea nº IF this.Value < CTOD('01-01-1900')
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.FECHA_CALENDARIO4.TXTFECHA.VALID
+02-11-2017 13:41:48 , Linea nº IF this.Value < CTOD('01-01-1900')
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.FECHA_CALENDARIO4.TXTFECHA.VALID
+02-11-2017 13:41:52 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:41:56 , Linea nº .cmdsuprimir.Visible = .f.
+Error nº:       1925
+Error CMDSUPRIMIR es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:41:58 , Linea nº .cmdBuscar.Visible = .f.
+Error nº:       1925
+Error CMDBUSCAR es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:42:01 , Linea nº .imprimir_vistaprevia1.Visible = .f.
+Error nº:       1925
+Error IMPRIMIR_VISTAPREVIA1 es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:43:54 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:43:58 , Linea nº .cmdsuprimir.Visible = .f.
+Error nº:       1925
+Error CMDSUPRIMIR es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:44:00 , Linea nº .cmdBuscar.Visible = .f.
+Error nº:       1925
+Error CMDBUSCAR es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:44:01 , Linea nº .imprimir_vistaprevia1.Visible = .f.
+Error nº:       1925
+Error IMPRIMIR_VISTAPREVIA1 es un miembro desconocido.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
+02-11-2017 13:45:49 , Linea nº thisform.objetoparametros=loobjvalor
+Error nº:       1734
+Error No se encuentra la propiedad OBJETOPARAMETROS.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.COMMAND1.CLICK
+02-11-2017 14:06:32 , Linea nº cFecDesde = "'"+DTOS(.fecha_calendario1.Value)+"'"
+Error nº:       1734
+Error No se encuentra la propiedad VALUE.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK
+02-11-2017 14:20:48 , Linea nº cFecDesde = "'"+DTOS(.fecha_calendario1.Value)+"'"
+Error nº:       2005
+Error Error al cargar el archivo - número de registro 18. Grid2  <o uno de sus miembros>.  ControlSource : No se encuentra la variable 'IMPORTE'
+ Alias  registro          0
+Control activo  ON... 
+02-11-2017 14:21:54 , Linea nº thisform.grid2.column5.ControlSource = "CsrAuxiliar.nuevoseg"
+Error nº:         12
+Error No se encuentra la variable 'NUEVOSEG'.
+ Alias CSRAUXILIAR registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK
+02-11-2017 14:52:32 , Linea nº LOCATE FOR rangomin <= ventas AND ventas <= rangomax
+Error nº:         12
+Error No se encuentra la variable 'VENTAS'.
+ Alias CSRSEGMENTO registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK
+02-11-2017 15:02:26 , Linea nº LOCATE FOR rangomin <= ventas AND ventas <= rangomax
+Error nº:         12
+Error No se encuentra la variable 'VENTAS'.
+ Alias CSRSEGMENTO registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK
+02-11-2017 15:03:20 , Linea nº IF rangomin <= CsrAuxiliar.ventas AND Csrauxiliar.ventas <= rangomax AND id <> idsegmento
+Error nº:         12
+Error No se encuentra la variable 'IDSEGMENTO'.
+ Alias CSRSEGMENTO registro          1
+Control activo  REGSEGVENTA.CONTAINERENCABEZA.CMDPROCESAR.CLICK
+02-11-2017 15:14:59 , Linea nº llok = loObjNeg.Salvar('CsrCtacte')Error nº:       1924Error LOOBJNEG no es un objeto. Alias CSRAUXILIAR registro       4356Control activo  REGSEGVENTA.GRID2.KEYPRESS
+02-11-2017 15:17:03 , Linea nº llok = loObjNeg.Salvar('CsrCtacte')Error nº:       1924Error LOOBJNEG no es un objeto. Alias CSRAUXILIAR registro       4356Control activo  REGSEGVENTA.ACEPTAR1.CLICK
