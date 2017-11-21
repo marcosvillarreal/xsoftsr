@@ -1,275 +1,3 @@
- Alias  registro          0
-Control activo  ON... 
-15-11-2016 11:55:10 , Linea nº lcperiodo= strzero(thisform.containerencabeza._spinneraniofiscal.Value,4)
-Error nº:       1925
-Error _SPINNERANIOFISCAL es un miembro desconocido.
- Alias  registro          0
-Control activo  REGPRESU.INIT
-15-11-2016 11:57:45 , Linea nº SELECT CsrAuxMovpub
-Error nº:         13
-Error No se encuentra el alias 'CSRAUXMOVPUB'.
- Alias  registro          0
-Control activo  REGPRESU.INIT
-15-11-2016 11:58:12 , Linea nº SELECT CsrAuxMovpresu
-Error nº:         13
-Error No se encuentra el alias 'CSRAUXMOVPRESU'.
- Alias  registro          0
-Control activo  REGPRESU.INIT
-15-11-2016 11:59:42 , Linea nº replace programa WITH CsrAuxMovPresu.programa
-Error nº:         13
-Error No se encuentra el alias 'CSRAUXMOVPRESU'.
- Alias CSRAUXPIE registro          1
-Control activo  REGPRESU.CMDINSERT.CLICK
-15-11-2016 12:01:05 , Linea nº IF YEAR(ldfecha)<>._spinneraniofiscal.Value OR MONTH(ldfecha)<>._cbomesfiscal.value
-Error nº:       1925
-Error _SPINNERANIOFISCAL es un miembro desconocido.
- Alias CSRAUXILIAR registro          1
-Control activo  REGPRESU.CONTAINERPIE.OK.CLICK
-15-11-2016 12:01:13 , Linea nº IF YEAR(ldfecha)<>._spinneraniofiscal.Value OR MONTH(ldfecha)<>._cbomesfiscal.value
-Error nº:       1925
-Error _SPINNERANIOFISCAL es un miembro desconocido.
- Alias CSRAUXILIAR registro          1
-Control activo  REGPRESU.CONTAINERPIE.OK.CLICK
-15-11-2016 12:12:32 , Linea nº Oca = GETCURSORADAPTER(lcalias)
-Error nº:         13
-Error No se encuentra el alias.
- Alias CSRAUXILIAR registro          2
-Control activo  REGPRESU.GRID2.KEYPRESS
-15-11-2016 12:14:07 , Linea nº loObjmov.agregar
-Error nº:       1924
-Error LOOBJMOV no es un objeto.
- Alias CSRMOVPRESU registro          1
-Control activo  REGPRESU.GRID2.KEYPRESS
-15-11-2016 12:18:37 , Linea nº REPLACE switch WITH Oscatter.switch ,detalle WITH Oscatter.detalle,fecha WITH Oscatter.fecha,debe WITH Oscatter.debe,haber WITH Oscatter.haber IN Csrmovpub
-Error nº:         13
-Error No se encuentra el alias 'CSRMOVPUB'.
- Alias CSRMOVPRESU registro          1
-Control activo  REGPRESU.GRID2.KEYPRESS
-15-11-2016 12:19:21 , Linea nº llok = loObjMovpresu.Salvar('CsrMovpresu')
-Error nº:       1923
-Error No se encuentra el objeto LOOBJMOVPRESU.
- Alias CSRAUXILIAR registro          2
-Control activo  REGPRESU.GRID2.KEYPRESS
-15-11-2016 12:20:56 , Linea nº .containerencabeza._cbomesfiscal.SetFocus
-Error nº:       1925
-Error _CBOMESFISCAL es un miembro desconocido.
- Alias CSRAUXILIAR registro          1
-Control activo  REGPRESU.KEYPRESS
-15-11-2016 12:30:28 , Linea nº REPLACE switch WITH Oscatter.switch ,detalle WITH Oscatter.detalle,fecha WITH Oscatter.fecha,debe WITH Oscatter.debe,haber WITH Oscatter.haber ,switch WITH OScatter.switch,estado WITH 1 IN Csrmovpresu
-Error nº:          9
-Error No coinciden los tipos de datos.
- Alias CSRMOVPRESU registro         -1
-Control activo  REGPRESU.GRID2.KEYPRESS
-15-11-2016 12:47:02 , Linea nº .containerencabeza._cbomesfiscal.SetFocus
-Error nº:       1925
-Error _CBOMESFISCAL es un miembro desconocido.
- Alias CSRAUXILIAR registro          1
-Control activo  REGPRESU.KEYPRESS
-15-11-2016 13:09:21 , Linea nº lcfilename = this.Parent.Parent.filename
-Error nº:       1734
-Error No se encuentra la propiedad FILENAME.
- Alias CSRPRODUCTO registro          1
-Control activo  REGPRESU.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-16-11-2016 13:58:28 , Linea nº IF RECCOUNT("CsrAuxVentas")=0
-Error nº:         13
-Error No se encuentra el alias.
- Alias CSRAUXVTAALICUOTA registro          1
-Control activo  EXPORTAR_CPRA_VTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-21-11-2016 13:07:15 , Linea nº this.controlsource=this.parent.controlsourcetxtid
-Error nº:         12
-Error No se encuentra la variable 'IDARTICULO'.
- Alias CSRPRODUCTO registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.KITBUSCAOALTAENPRODUCTO.TXTID.INIT
-21-11-2016 13:07:48 , Linea nº this.controlsource=this.parent.controlsourcetxtid
-Error nº:         12
-Error No se encuentra la variable 'IDARTICULO'.
- Alias CSRPRODUCTO registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.KITBUSCAOALTAENPRODUCTO.TXTID.INIT
-21-11-2016 13:08:48 , Linea nº IF RECCOUNT(lcaliasseek)#0
-Error nº:         13
-Error No se encuentra el alias.
- Alias CSRPRODUCTO registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
-21-11-2016 13:12:02 , Linea nº SELECT Csrmovimien.*,CAST(0 as n(11,2)) as debe,CAST(0 as n(11,2)) as haber,CAST(0 as n(11,2)) as saldo FROM Csrmovimien INTO CURSOR Csrauxiliar READWRITE
-Error nº:          1
-Error El archivo 'csrmovimien.dbf' no existe.
- Alias CSRCTACTE registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.CMDPROCESAR.CLICK
-21-11-2016 13:12:36 , Linea nº lnsaldo = lnsaldo + (ndebe - nhaber)
-Error nº:         12
-Error No se encuentra la variable 'NDEBE'.
- Alias CSRAUXILIAR registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.CMDPROCESAR.CLICK
-21-11-2016 13:31:29 , Linea nº SELECT Csrmovenvase.* FROM Csrmovenvase WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE
-Error nº:          1
-Error El archivo 'csrmovenvase.dbf' no existe.
- Alias CSRPARACONFIG registro          1
-Control activo  REGMOVENVASE.LOAD
-21-11-2016 13:32:01 , Linea nº this.controlsource=this.parent.controlsourcetxtid
-Error nº:         12
-Error No se encuentra la variable 'IDENVASE'.
- Alias CSRPRODUCTO registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.KITBUSCAOALTAENPRODUCTO.TXTID.INIT
-21-11-2016 13:32:29 , Linea nº this.controlsource=this.parent.controlsourcetxtid
-Error nº:         12
-Error No se encuentra la variable 'IDENVASE'.
- Alias CSRPRODUCTO registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.KITBUSCAOALTAENPRODUCTO.TXTID.INIT
-21-11-2016 14:21:42 , Linea nº Oca = GETCURSORADAPTER(lcalias)
-Error nº:         13
-Error No se encuentra el alias.
- Alias CSRAUXILIAR registro        463
-Control activo  REGMOVENVASE.ACEPTAR1.CLICK
-21-11-2016 14:22:48 , Linea nº Oca = GETCURSORADAPTER(lcalias)
-Error nº:         13
-Error No se encuentra el alias.
- Alias CSRAUXILIAR registro        463
-Control activo  REGMOVENVASE.GRID2.KEYPRESS
-21-11-2016 14:25:51 , Linea nº IF CsrAuxiliar.esalta
-Error nº:          9
-Error No coinciden los tipos de datos.
- Alias CSRAUXILIAR registro        463
-Control activo  REGMOVENVASE.GRID2.KEYPRESS
-21-11-2016 14:42:09 , Linea nº IF CsrMovEnvase.debe <> Oscatter.debe OR CsrMovEnvase.haber <> Oscatter.haber OR CsrMovEnvase.debe_e <> Oscatter.debe_e OR CsrMovEnvase.haber_e <> Oscatter.haber_e
-Error nº:         12
-Error No se encuentra la variable 'DEBE'.
- Alias CSRAUXILIAR registro        463
-Control activo  REGMOVENVASE.GRID2.KEYPRESS
-21-11-2016 15:21:24 , Linea nº SELECT CsrImprimir
-Error nº:         13
-Error No se encuentra el alias 'CSRIMPRIMIR'.
- Alias CSRAUXILIAR registro        463
-Control activo  REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-21-11-2016 15:26:37 , Linea nº SELECT CsrImprimir
-Error nº:         13
-Error No se encuentra el alias 'CSRIMPRIMIR'.
- Alias CSRCTACTE registro          1
-Control activo  REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-21-11-2016 15:30:42 , Linea nº lndebe	= IIF(signo=-1,cantidad,0)
-Error nº:         12
-Error No se encuentra la variable 'SIGNO'.
- Alias CSRIMPRIMIR registro          1
-Control activo  REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-21-11-2016 15:31:45 , Linea nº lnsaldo_e	= lnsaldo_e + (debe_e - haber_e)
-Error nº:         12
-Error No se encuentra la variable 'DEBE_E'.
- Alias CSRIMPRIMIR registro          1
-Control activo  REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-21-11-2016 15:38:14 , Linea nº SELECT Csrmovpresu.* FROM Csrmovpresu WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE
-Error nº:          1
-Error El archivo 'csrmovpresu.dbf' no existe.
- Alias CSRPARACONFIG registro          1
-Control activo  REGPRESU.LOAD
-21-11-2016 15:38:50 , Linea nº SELECT Csrmovpresu.* FROM Csrmovpresu WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE
-Error nº:          1
-Error El archivo 'csrmovpresu.dbf' no existe.
- Alias CSRPARACONFIG registro          1
-Control activo  REGPRESU.LOAD
-21-11-2016 16:07:22 , Linea nº IF this.Value < CTOD('01-01-1900')
-Error nº:        107
-Error Incompatibilidad entre el tipo de operador y el tipo de operando.
- Alias CSRCTACTE registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.FECHA_CALENDARIO2.TXTFECHA.VALID
-21-11-2016 16:14:11 , Linea nº dfeccorte = TTOD(this.containerencabeza.fecha_calendario1.txtfecha.Value) - 1
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias CSRMOVIMIEN registro          1
-Control activo  REGMOVENVASE.CONTAINERENCABEZA.CMDPROCESAR.CLICK
-21-11-2016 16:30:03 , Linea nº lndebe_e	= IIF(saldo_e>=0,saldo_e,0)
-Error nº:         12
-Error No se encuentra la variable 'SALDO_E'.
- Alias CSRIMPRIMIR registro        464
-Control activo  REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-21-11-2016 16:30:52 , Linea nº lndebe_e	= IIF(saldo_e>=0,saldo_envase,0)
-Error nº:         12
-Error No se encuentra la variable 'SALDO_E'.
- Alias CSRIMPRIMIR registro        464
-Control activo  REGMOVENVASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-23-12-2016 12:54:36 , Linea nº CASE VARTYPE(&lcclaB)='C'
-Error nº:         13
-Error No se encuentra el alias 'CSRMARCA'.
- Alias CSRRUBRO registro          1
-Control activo  ABMMARCAS.INIT
-23-12-2016 12:56:53 , Linea nº CASE VARTYPE(&lcclaB)='C'
-Error nº:       2005
-Error Error al cargar el archivo - número de registro 7. abmmarcas  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRCATERUBRO'
- Alias  registro          0
-Control activo  ON... 
-23-12-2016 13:01:54 , Linea nº CASE VARTYPE(&lcclaB)='C'
-Error nº:       2005
-Error Error al cargar el archivo - número de registro 7. abmmarcas  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRCATERUBRO'
- Alias  registro          0
-Control activo  ON... 
-23-12-2016 13:05:49 , Linea nº CASE VARTYPE(&lcclaB)='C'
-Error nº:       2005
-Error Error al cargar el archivo - número de registro 7. abmmarcas  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRCATERUBRO'
- Alias  registro          0
-Control activo  ON... 
-23-12-2016 13:10:10 , Linea nº where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
-Error nº:         13
-Error No se encuentra el alias 'CSRMARCA'.
- Alias CSRCATERUBRO registro          1
-Control activo NOMBRE ABMMARCAS._TEXTBOX1.KEYPRESS
-23-12-2016 13:10:55 , Linea nº where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
-Error nº:         13
-Error No se encuentra el alias 'CSRMARCA'.
- Alias CSRCATERUBRO registro          1
-Control activo NOMBRE ABMMARCAS._TEXTBOX1.KEYPRESS
-23-12-2016 13:11:04 , Linea nº where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
-Error nº:         13
-Error No se encuentra el alias 'CSRMARCA'.
- Alias CSRCATERUBRO registro          1
-Control activo NOMBRE ABMMARCAS.CONTENEDOR1.GRIDABM1.AFTERROWCOLCHANGE
-23-12-2016 13:11:06 , Linea nº where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
-Error nº:         13
-Error No se encuentra el alias 'CSRMARCA'.
- Alias CSRCATERUBRO registro          1
-Control activo NOMBRE ABMMARCAS.CONTENEDOR1.GRIDABM1.AFTERROWCOLCHANGE
-23-12-2016 13:11:16 , Linea nº where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
-Error nº:         13
-Error No se encuentra el alias 'CSRMARCA'.
- Alias CSRCATERUBRO registro          1
-Control activo NOMBRE ABMMARCAS.CONTENEDOR1.GRIDABM1.AFTERROWCOLCHANGE
-23-12-2016 13:11:20 , Linea nº where CsrAfeCateProd.idpadre = <<CsrMarca.id>> and CsrAfeCateProd.estado=0
-Error nº:         13
-Error No se encuentra el alias 'CSRMARCA'.
- Alias CSRCATERUBRO registro          1
-Control activo NOMBRE ABMMARCAS.CONTENEDOR1.GRIDABM1.AFTERROWCOLCHANGE
-23-12-2016 13:19:39 , Linea nº if ISALPHA(chr(nKeycode)) or ISDIGIT(chr(nKeycode)) OR nkeycode=32  OR nkeycode=42
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias CSRCATERUBRO registro          1
-Control activo  ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENRUBRO.TXTNOMBRE.KEYPRESS
-23-12-2016 13:21:31 , Linea nº this.controlsource=this.parent.controlsourcetxtid
-Error nº:         13
-Error No se encuentra el alias 'CSRPRODUCTO'.
- Alias CSRFUERZAVTA registro          1
-Control activo  ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENRUBRO.TXTID.INIT
-23-12-2016 13:22:39 , Linea nº this.controlsource=this.parent.controlsourcetxtid
-Error nº:          9
-Error No coinciden los tipos de datos.
- Alias CSRFUERZAVTA registro          1
-Control activo  ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENRUBRO.TXTID.INIT
-23-12-2016 13:23:18 , Linea nº Select(this.careaini)
-Error nº:         13
-Error No se encuentra el alias 'CSRPRODUCTO'.
- Alias CSRCATERUBRO registro          1
-Control activo  ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENRUBRO.GOTFOCUS
-23-12-2016 13:23:52 , Linea nº replace idpadre WITH CsrMarca.id,idhijo WITH _CsrRubro.cid ,clave WITH 'CR'	 IN CsrAfeCateProd
-Error nº:         13
-Error No se encuentra el alias 'CSRMARCA'.
- Alias CSRAFECATEPROD registro         -1
-Control activo  ABMMARCAS.CMDSALVAR.CLICK
-23-12-2016 13:37:18 , Linea nº micursor	= IIF(LEN(LTRIM(this.micursor))=0,'_'+alltrim(loKitBuscar.calias),RTRIM(this.micursor))
-Error nº:       1734
-Error No se encuentra la propiedad CALIAS.
- Alias CSRCATERUBRO registro          1
-Control activo  ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.BOTONAGREGARGRID1.CLICK
-23-12-2016 13:38:10 , Linea nº micursor	= IIF(LEN(LTRIM(this.micursor))=0,'_'+alltrim(loKitBuscar.calias),RTRIM(this.micursor))
-Error nº:       1734
-Error No se encuentra la propiedad CALIAS.
- Alias CSRCATERUBRO registro          1
-Control activo  ABMMARCAS.CONTENEDOR1.PFRAME1.PAGE1.BOTONAGREGARGRID1.CLICK
 23-12-2016 14:14:19 , Linea nº PACK
 Error nº:       1549
 Error La sesión de datos nº 3 no se puede liberar si hay transacciones abiertas.
@@ -346,6 +74,40 @@ Error No se encuentra la propiedad FUERZAVTA.
  Alias CSRIMPORTAR registro          1
 Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 16-01-2017 12:38:27 , Linea nº SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -541,6 +303,40 @@ Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) a
 
 
@@ -639,7 +435,75 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -843,7 +707,75 @@ Control activo  LISPATRONCARGA_V1.LOAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1035,7 +967,75 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1137,6 +1137,40 @@ Error El archivo 'csrcabefac.dbf' no existe.
  Alias CSRAUXCARGA registro          1
 Control activo  LISPATRONCARGA_V1.LOAD
 21-02-2017 20:58:39 , Linea nº REPLACE idproducto WITH Csrproducto.id,numero WITH Csrproducto.numero,nombre WITH Csrproducto.nombre ,fecha WITH DATE() ,bonifant WITH NVL(CsrProducto.bonifinfo,0) ,bonifica WITH thisform.containerpie._txtbonifica.value ,co
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1416,7 +1450,75 @@ Control activo IDCOMPROBA REGSTOCK.IMAGE1.MOUSEMOVE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1566,7 +1668,75 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1716,7 +1886,75 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1979,6 +2217,40 @@ Control activo  EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ransf,CsrImp2.aportes,0,CsrImp2.otros)
 Error nº:         12
 Error No se encuentra la variable 'OTROS'.
@@ -2148,7 +2420,75 @@ Control activo  ABMPRODUCTO.CMDINFORME.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2415,6 +2755,40 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCATEGO'.
@@ -2440,6 +2814,40 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1807
 Error SQL: la cláusula GROUP BY falta o no es válida.
@@ -2451,6 +2859,40 @@ Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 02-11-2017 16:23:00 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 rtefinal,bonificacion ,codcatego,nomcatego order BY idvendedor,importefinal desc into cursor csraux3
@@ -2473,5 +2915,259 @@ Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-02-11-2017 16:50:48 , Linea nº seek csrcursor.cnumeroError nº:         26Error La tabla no tiene ningún orden de índice establecido. Alias CSRIMPORTAR registro          1Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-02-11-2017 16:51:41 , Linea nº ObjTabla.coeficienterentabilidad = ObjDatos.coefirentaError nº:       1734Error No se encuentra la propiedad COEFICIENTERENTABILIDAD. Alias CSRIMPORTAR registro          1Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+02-11-2017 16:50:48 , Linea nº seek csrcursor.cnumero
+Error nº:         26
+Error La tabla no tiene ningún orden de índice establecido.
+ Alias CSRIMPORTAR registro          1
+Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+02-11-2017 16:51:41 , Linea nº ObjTabla.coeficienterentabilidad = ObjDatos.coefirenta
+Error nº:       1734
+Error No se encuentra la propiedad COEFICIENTERENTABILIDAD.
+ Alias CSRIMPORTAR registro          1
+Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+14-11-2017 15:20:46 , Linea nº this.controlsource=this.parent.controlsourcetxtid
+Error nº:         12
+Error No se encuentra la variable 'IDPRODUCTO'.
+ Alias CSRCTACTE registro          1
+Control activo  CATEPROVEEDOR.CONTAINERPIE.KITBUSCAOALTAENCATEGORIA.TXTID.INIT
+14-11-2017 15:21:34 , Linea nº this.controlsource=this.parent.controlsourcetxtid
+Error nº:         12
+Error No se encuentra la variable 'IDPRODUCTO'.
+ Alias CSRCTACTE registro          1
+Control activo  CATEPROVEEDOR.CONTAINERPIE.KITBUSCAOALTAENCATEGORIA.TXTID.INIT
+14-11-2017 15:22:30 , Linea nº INSERT INTO CsrAuxCabeza (idctacte,idproducto,fecha,bonifica) VALUES (0,0,DTOT(DATE()),0)
+Error nº:         12
+Error No se encuentra la variable 'IDPRODUCTO'.
+ Alias CSRAUXCABEZA registro          1
+Control activo  CATEPROVEEDOR.INIT
+14-11-2017 15:23:20 , Linea nº INSERT INTO CsrAuxCabeza (idctacte,idcateprod,margen,comision) VALUES (0,0,DTOT(DATE()),0)
+Error nº:          9
+Error No coinciden los tipos de datos.
+ Alias CSRAUXCABEZA registro          1
+Control activo  CATEPROVEEDOR.INIT
+14-11-2017 15:23:41 , Linea nº thisform.refresh()
+Error nº:         13
+Error No se encuentra el alias 'CSRPRODUCTO'.
+ Alias CSRCTACTE registro          1
+Control activo  CATEPROVEEDOR.INIT
+14-11-2017 15:24:47 , Linea nº thisform.refresh()
+Error nº:         13
+Error No se encuentra el alias 'CSRPRODUCTO'.
+ Alias CSRCTACTE registro          1
+Control activo  CATEPROVEEDOR.INIT
+14-11-2017 15:26:57 , Linea nº .cargarcategorias()
+Error nº:       1734
+Error No se encuentra la propiedad CARGARCATEGORIAS.
+ Alias CSRAUXCABEZA registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.LOSTFOCUS
+14-11-2017 15:27:25 , Linea nº replace idctacte WITH Oscatter.idctacte,idcateprod WITH CsrCategoria.id ,numero WITH CsrCategoria.numero, nombre WITH CsrCategoria.nombre
+Error nº:         13
+Error No se encuentra el alias 'OSCATTER'.
+ Alias CSRAUXILIAR registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.LOSTFOCUS
+14-11-2017 15:31:31 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRCATEPROD registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.GOTFOCUS
+14-11-2017 15:31:36 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRCATEPROD registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.GOTFOCUS
+14-11-2017 15:31:40 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRCATEPROD registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.GOTFOCUS
+14-11-2017 15:31:46 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRCATEPROD registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.GOTFOCUS
+14-11-2017 15:31:51 , Linea nº .cmdsuprimir.Visible = .f.
+Error nº:       1925
+Error CMDSUPRIMIR es un miembro desconocido.
+ Alias CSRCATEPROD registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.GOTFOCUS
+14-11-2017 15:31:55 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRCATEPROD registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.GOTFOCUS
+14-11-2017 15:31:58 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRCATEPROD registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.GOTFOCUS
+14-11-2017 15:32:03 , Linea nº .cmdInsert.Visible = .f.
+Error nº:       1925
+Error CMDINSERT es un miembro desconocido.
+ Alias CSRCATEPROD registro          1
+Control activo  CATEPROVEEDOR.CONTAINERENCABEZA.GOTFOCUS
+14-11-2017 18:08:25 , Linea nº IF margen<>margen_v OR comision <> comision_V
+Error nº:         12
+Error No se encuentra la variable 'MARGEN_V'.
+ Alias CSRAUXILIAR registro          1
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 09:50:07 , Linea nº Select Csrcuerpo.*,margen_v n(7,2),comision_v n(7,2) from Csrcuerpo where Csrcuerpo.id < -1 INTO CURSOR CsrAuxiliar READWRITE
+Error nº:         36
+Error El comando contiene una frase o palabra clave no reconocida.
+ Alias CSRAUXCABEZA registro          1
+Control activo  CATEPROVEEDOR.LOAD
+21-11-2017 09:54:35 , Linea nº lcidcategoria = lcidcategoria + cSep + strtrim(CsrAuxiliar.idcateprod,10)
+Error nº:         12
+Error No se encuentra la variable 'CSEP'.
+ Alias CSRAUXILIAR registro          2
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 09:56:56 , Linea nº where idctacte = <<lnidctacte>> and idcateprod in (<<cidcategoria>>)
+Error nº:         12
+Error No se encuentra la variable 'LNIDCTACTE'.
+ Alias CSRAUXILIAR registro          4
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 09:58:38 , Linea nº where idctacte = <<lnidctacte>> and idcateprod in (<<cidcategoria>>)
+Error nº:         12
+Error No se encuentra la variable 'LNIDCTACTE'.
+ Alias CSRAUXILIAR registro          4
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 09:59:17 , Linea nº Oca = GETCURSORADAPTER(lcalias)
+Error nº:         13
+Error No se encuentra el alias.
+ Alias CSRAUXILIAR registro          4
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 10:04:02 , Linea nº SELECT CsrProducto
+Error nº:         13
+Error No se encuentra el alias 'CSRPRODUCTO'.
+ Alias CSRAUXILIAR registro          4
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 10:09:16 , Linea nº =SaveSLQ(lcCmd,this.Name+"_leerprod")
+Error nº:          1
+Error El archivo 'saveslq.prg' no existe.
+ Alias CSRPRODUCTO registro          1
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 10:11:15 , Linea nº APPEND BLANK IN CsrAuxCbioprecio
+Error nº:         13
+Error No se encuentra el alias 'CSRAUXCBIOPRECIO'.
+ Alias CSRPRODUCTO registro          1
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 10:13:11 , Linea nº LOCATE FOR idctaeprod = OscProducto.idcatego
+Error nº:         12
+Error No se encuentra la variable 'IDCTAEPROD'.
+ Alias CSRAUXILIAR registro          1
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 10:13:54 , Linea nº thisform.precioprod1.cflimpiarprecio()
+Error nº:       1925
+Error PRECIOPROD1 es un miembro desconocido.
+ Alias CSRAUXILIAR registro          2
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 10:15:20 , Linea nº lobjprecio.ivari   = CsrProducto.tasa
+Error nº:         12
+Error No se encuentra la variable 'TASA'.
+ Alias CSRAUXILIAR registro          2
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 12:41:05 , Linea nº loObjNegCbioPrecio.agregar
+Error nº:       1923
+Error No se encuentra el objeto LOOBJNEGCBIOPRECIO.
+ Alias CSRAUXCBIOPRECIO registro          1
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 12:48:00 , Linea nº loObjNegCbioPrecio.agregar
+Error nº:       1923
+Error No se encuentra el objeto LOOBJNEGCBIOPRECIO.
+ Alias CSRAUXCBIOPRECIO registro          1
+Control activo  CATEPROVEEDOR.ACEPTAR1.CLICK
+21-11-2017 13:07:41 , Linea nº .CalcularMargen()
+Error nº:       1734
+Error No se encuentra la propiedad CALCULARMARGEN.
+ Alias CSRENVASE registro          1
+Control activo NOMBRE ABMPRODUCTO.FITRARCMD.CLICK
+21-11-2017 13:35:36 , Linea nº IF this.Value = 0
+Error nº:       1734
+Error No se encuentra la propiedad VALUE.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:35:43 , Linea nº IF this.Value = 0
+Error nº:       1734
+Error No se encuentra la propiedad VALUE.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:35:47 , Linea nº IF this.Value = 0
+Error nº:       1734
+Error No se encuentra la propiedad VALUE.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:35:53 , Linea nº IF this.Value = 0
+Error nº:       1734
+Error No se encuentra la propiedad VALUE.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:35:55 , Linea nº .Page2.Container1._txtmargen1.Enabled = .f.
+Error nº:       1940
+Error La expresión no es válida fuera de WITH/ENDWITH.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:35:58 , Linea nº .Page2.Container1._txtmargen1.TAG	 = "DISABLED"
+Error nº:       1940
+Error La expresión no es válida fuera de WITH/ENDWITH.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:36:00 , Linea nº .Page2.Container1._txtvtaciva1.Enabled = .f.
+Error nº:       1940
+Error La expresión no es válida fuera de WITH/ENDWITH.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:36:02 , Linea nº .Page2.Container1._txtvtaciva1.Tag = "DISABLED"
+Error nº:       1940
+Error La expresión no es válida fuera de WITH/ENDWITH.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:37:08 , Linea nº IF CsrProducto.omiticatemargen = 0
+Error nº:         12
+Error No se encuentra la variable 'OMITICATEMARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:37:16 , Linea nº IF CsrProducto.omiticatemargen = 0
+Error nº:         12
+Error No se encuentra la variable 'OMITICATEMARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:37:18 , Linea nº IF CsrProducto.omiticatemargen = 0
+Error nº:         12
+Error No se encuentra la variable 'OMITICATEMARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:37:22 , Linea nº IF CsrProducto.omiticatemargen = 0
+Error nº:         12
+Error No se encuentra la variable 'OMITICATEMARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:37:27 , Linea nº IF CsrProducto.omiticatemargen = 0
+Error nº:         12
+Error No se encuentra la variable 'OMITICATEMARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:37:32 , Linea nº IF CsrProducto.omiticatemargen = 0
+Error nº:         12
+Error No se encuentra la variable 'OMITICATEMARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:41:14 , Linea nº .Page2.Container1._txtmargen1.Enabled = .t.
+Error nº:       1940
+Error La expresión no es válida fuera de WITH/ENDWITH.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:46:25 , Linea nº .Page2.Container1._txtmargen1.Value = CsrCateProd.margen
+Error nº:         12
+Error No se encuentra la variable 'MARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo OMITIRCATEPROD ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:46:42 , Linea nº .Page2.Container1._txtmargen1.Value = CsrCateProd.margen
+Error nº:         12
+Error No se encuentra la variable 'MARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 13:46:47 , Linea nº .Page2.Container1._txtmargen1.Value = CsrCateProd.margen
+Error nº:         12
+Error No se encuentra la variable 'MARGEN'.
+ Alias CSRPARAVARIO registro          8
+Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS
+21-11-2017 14:18:01 , Linea nº IF RECCOUNT('CsrCateProv')=0Error nº:         13Error No se encuentra el alias. Alias CSRENVASE registro          1Control activo  ABMPRODUCTO._TEXTBOX1.KEYPRESS
