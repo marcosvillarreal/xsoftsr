@@ -45,253 +45,6 @@
 
 
 
-L\TEMP\0000B6DL01VV.TMP;Ultimo Control activo: 
-14-11-2017 15:32:04 , Pila de llamadas
-14-11-2017 15:32:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
-14-11-2017 15:32:05 , Objeto      : cateproveedor.containerencabeza.gotfocus
-14-11-2017 15:32:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
-14-11-2017 15:32:05 , Nº de Linea :          6
-14-11-2017 15:32:05 , En el Fuente: 	.cmdInsert.Visible = .f.
-14-11-2017 18:08:25 , CATEPROVEEDOR.ACEPTAR1.CLICK, Error: No se encuentra la variable 'MARGEN_V'.;Linea : IF margen<>margen_v OR comision <> comision_V;Error :         12;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-APPDATA\LOCAL\TEMP\00009RT50127.TMP;Ultimo Control activo: 
-14-11-2017 18:08:25 , Pila de llamadas
-14-11-2017 18:08:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
-14-11-2017 18:08:26 , Objeto      : cateproveedor.aceptar1.click
-14-11-2017 18:08:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
-14-11-2017 18:08:26 , Nº de Linea :          2
-14-11-2017 18:08:26 , En el Fuente: thisform.key_43grid2()
-14-11-2017 18:08:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
-14-11-2017 18:08:26 , Objeto      : cateproveedor.key_43grid2
-14-11-2017 18:08:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
-14-11-2017 18:08:27 , Nº de Linea :          8
-14-11-2017 18:08:27 , En el Fuente: thisform.controlcbio()
-14-11-2017 18:08:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
-14-11-2017 18:08:27 , Objeto      : cateproveedor.controlcbio
-14-11-2017 18:08:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
-14-11-2017 18:08:27 , Nº de Linea :         10
-14-11-2017 18:08:27 , En el Fuente: 	IF margen<>margen_v OR comision <> comision_V
-21-11-2017 09:50:07 , CATEPROVEEDOR.LOAD, Error: El comando contiene una frase o palabra clave no reconocida.;Linea : Select Csrcuerpo.*,margen_v n(7,2),comision_v n(7,2) from Csrcuerpo where Csrcuerpo.id < -1 INTO CURSOR CsrAuxiliar READWRITE;Error :   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -439,6 +192,13 @@ APPDATA\LOCAL\TEMP\00009RT50127.TMP;Ultimo Control activo:
 21-11-2017 09:50:09 , Nº de Linea :          6
 21-11-2017 09:50:09 , En el Fuente: Select Csrcuerpo.*,margen_v n(7,2),comision_v n(7,2) from Csrcuerpo where Csrcuerpo.id < -1 INTO CURSOR CsrAuxiliar READWRITE 
 21-11-2017 09:54:36 , CATEPROVEEDOR.ACEPTAR1.CLICK, Error: No se encuentra la variable 'CSEP'.;Linea : lcidcategoria = lcidcategoria + cSep + strtrim(CsrAuxiliar.idcateprod,10);Error :         12;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:         
+
+
+
+
+
+
+
 
 
 
@@ -794,6 +554,13 @@ APPDATA\LOCAL\TEMP\00009RT50127.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
   4 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004W7D00AM.TMP;Ultimo Control activo: 
 21-11-2017 09:56:57 , Pila de llamadas
 21-11-2017 09:56:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
@@ -812,6 +579,13 @@ APPDATA\LOCAL\TEMP\00009RT50127.TMP;Ultimo Control activo:
 21-11-2017 09:56:59 , Nº de Linea :         21
 21-11-2017 09:56:59 , En el Fuente: 	where idctacte = <<lnidctacte>> and idcateprod in (<<cidcategoria>>)
 21-11-2017 09:58:38 , CATEPROVEEDOR.ACEPTAR1.CLICK, Error: No se encuentra la variable 'LNIDCTACTE'.;Linea : where idctacte = <<lnidctacte>> and idcateprod in (<<cidcategoria>>);Error :         12;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:        
+
+
+
+
+
+
+
 
 
 
@@ -1147,6 +921,13 @@ APPDATA\LOCAL\TEMP\00009RT50127.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 0HR.TMP;Ultimo Control activo: 
 21-11-2017 09:59:18 , Pila de llamadas
 21-11-2017 09:59:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
@@ -1175,6 +956,13 @@ APPDATA\LOCAL\TEMP\00009RT50127.TMP;Ultimo Control activo:
 21-11-2017 09:59:22 , Nº de Linea :         19
 21-11-2017 09:59:22 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
 21-11-2017 10:04:02 , CATEPROVEEDOR.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : SELECT CsrProducto;Error :         13;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          4 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004W7D
+
+
+
+
+
+
+
 
 
 
@@ -1486,6 +1274,13 @@ APPDATA\LOCAL\TEMP\00009RT50127.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 L\TEMP\00004W7D0108.TMP;Ultimo Control activo: 
 21-11-2017 10:09:17 , Pila de llamadas
 21-11-2017 10:09:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
@@ -1504,6 +1299,13 @@ L\TEMP\00004W7D0108.TMP;Ultimo Control activo:
 21-11-2017 10:09:19 , Nº de Linea :         28
 21-11-2017 10:09:20 , En el Fuente: 	=SaveSLQ(lcCmd,this.Name+"_leerprod")
 21-11-2017 10:11:15 , CATEPROVEEDOR.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRAUXCBIOPRECIO'.;Linea : APPEND BLANK IN CsrAuxCbioprecio;Error :         13;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\
+
+
+
+
+
+
+
 
 
 
@@ -1793,6 +1595,13 @@ LOCAL\TEMP\00004W7D016U.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 \APPDATA\LOCAL\TEMP\00004W7D01A3.TMP;Ultimo Control activo: 
 21-11-2017 10:13:11 , Pila de llamadas
 21-11-2017 10:13:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
@@ -1816,6 +1625,13 @@ LOCAL\TEMP\00004W7D016U.TMP;Ultimo Control activo:
 21-11-2017 10:13:15 , Nº de Linea :         11
 21-11-2017 10:13:15 , En el Fuente: 	LOCATE FOR idctaeprod = OscProducto.idcatego
 21-11-2017 10:13:54 , CATEPROVEEDOR.ACEPTAR1.CLICK, Error: PRECIOPROD1 es un miembro desconocido.;Linea : thisform.precioprod1.cflimpiarprecio();Error :       1925;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\
+
+
+
+
+
+
+
 
 
 
@@ -2085,6 +1901,13 @@ LOCAL\TEMP\00004W7D01CX.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 L\TEMP\00004W7D01G2.TMP;Ultimo Control activo: 
 21-11-2017 10:15:21 , Pila de llamadas
 21-11-2017 10:15:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
@@ -2118,6 +1941,13 @@ L\TEMP\00004W7D01G2.TMP;Ultimo Control activo:
 21-11-2017 10:15:25 , Nº de Linea :          2
 21-11-2017 10:15:25 , En el Fuente: lobjprecio.ivari   = CsrProducto.tasa
 21-11-2017 12:41:06 , CATEPROVEEDOR.ACEPTAR1.CLICK, Error: No se encuentra el objeto LOOBJNEGCBIOPRECIO.;Linea : loObjNegCbioPrecio.agregar;Error :       1923;Ultimo Alias Activo: CSRAUXCBIOPRECIO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\
+
+
+
+
+
+
+
 
 
 
@@ -2343,6 +2173,13 @@ LOCAL\TEMP\000067T500S6.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 LOCAL\TEMP\00008SG9002T.TMP;Ultimo Control activo: 
 21-11-2017 12:48:02 , Pila de llamadas
 21-11-2017 12:48:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\cateproveedor.sct
@@ -2366,6 +2203,13 @@ LOCAL\TEMP\00008SG9002T.TMP;Ultimo Control activo:
 21-11-2017 12:48:05 , Nº de Linea :         60
 21-11-2017 12:48:05 , En el Fuente: 		loObjNegCbioPrecio.agregar
 21-11-2017 13:07:42 , ABMPRODUCTO.FITRARCMD.CLICK, Error: No se encuentra la propiedad CALCULARMARGEN.;Linea : .CalcularMargen();Error :       1734;Ultimo Alias Activo: CSRENVASE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008SG
+
+
+
+
+
+
+
 
 
 
@@ -2557,6 +2401,13 @@ LOCAL\TEMP\00008SG9002T.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 RS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.TMP;Ultimo Control activo: OMITIRCATEPROD
 21-11-2017 13:35:36 , Pila de llamadas
 21-11-2017 13:35:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -2570,6 +2421,13 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.TMP;Ultimo Control activo: OMITIRCATEPR
 21-11-2017 13:35:38 , Nº de Linea :          1
 21-11-2017 13:35:38 , En el Fuente: IF this.Value = 0
 21-11-2017 13:35:43 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: No se encuentra la propiedad VALUE.;Linea : IF this.Value = 0;Error :       1734;Ultimo Alias Activo: CSRPARAVARIO;Ultimo registro:          8 ;DBF: C:\USE
+
+
+
+
+
+
+
 
 
 
@@ -2746,6 +2604,13 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 RS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.TMP;Ultimo Control activo: 
 21-11-2017 13:35:48 , Pila de llamadas
 21-11-2017 13:35:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -2759,6 +2624,13 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.TMP;Ultimo Control activo:
 21-11-2017 13:35:49 , Nº de Linea :          1
 21-11-2017 13:35:49 , En el Fuente: IF this.Value = 0
 21-11-2017 13:35:53 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: No se encuentra la propiedad VALUE.;Linea : IF this.Value = 0;Error :       1734;Ultimo Alias Activo: CSRPARAVARIO;Ultimo registro:          8 ;DBF: C:\USE
+
+
+
+
+
+
+
 
 
 
@@ -2922,6 +2794,13 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.TMP;Ultimo Control activo: OMITIRCATEPR
 
 
 
+
+
+
+
+
+
+
 ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.TMP;Ultimo Control activo: 
 21-11-2017 13:35:56 , Pila de llamadas
 21-11-2017 13:35:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -2935,6 +2814,13 @@ ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.
 21-11-2017 13:35:57 , Nº de Linea :          2
 21-11-2017 13:35:57 , En el Fuente: 	.Page2.Container1._txtmargen1.Enabled = .f.
 21-11-2017 13:35:58 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : .Page2.Container1._txtmargen1.TAG	 = "DISABLED";Error :       1940;Ultimo Alias Activo: CSRPARAVAR
+
+
+
+
+
+
+
 
 
 
@@ -3082,6 +2968,13 @@ IO;Ultimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU10
 
 
 
+
+
+
+
+
+
+
 Ultimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3.TMP;Ultimo Control activo: 
 21-11-2017 13:36:01 , Pila de llamadas
 21-11-2017 13:36:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -3095,6 +2988,13 @@ Ultimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102J3
 21-11-2017 13:36:02 , Nº de Linea :          4
 21-11-2017 13:36:02 , En el Fuente: 	.Page2.Container1._txtvtaciva1.Enabled = .f.
 21-11-2017 13:36:03 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : .Page2.Container1._txtvtaciva1.Tag = "DISABLED";Error :       1940;Ultimo Alias Activo: CSRPARAVAR
+
+
+
+
+
+
+
 
 
 
@@ -3226,6 +3126,13 @@ IO;Ultimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU10
 
 
 
+
+
+
+
+
+
+
 tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo Control activo: OMITIRCATEPROD
 21-11-2017 13:37:09 , Pila de llamadas
 21-11-2017 13:37:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -3239,6 +3146,13 @@ tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo 
 21-11-2017 13:37:10 , Nº de Linea :          1
 21-11-2017 13:37:11 , En el Fuente: IF CsrProducto.omiticatemargen = 0
 21-11-2017 13:37:16 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: No se encuentra la variable 'OMITICATEMARGEN'.;Linea : IF CsrProducto.omiticatemargen = 0;Error :         12;Ultimo Alias Activo: CSRPARAVARIO;Ultimo regis
+
+
+
+
+
+
+
 
 
 
@@ -3357,6 +3271,13 @@ tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo 
 
 
 
+
+
+
+
+
+
+
 tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo Control activo: OMITIRCATEPROD
 21-11-2017 13:37:19 , Pila de llamadas
 21-11-2017 13:37:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -3370,6 +3291,13 @@ tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo 
 21-11-2017 13:37:21 , Nº de Linea :          1
 21-11-2017 13:37:21 , En el Fuente: IF CsrProducto.omiticatemargen = 0
 21-11-2017 13:37:22 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: No se encuentra la variable 'OMITICATEMARGEN'.;Linea : IF CsrProducto.omiticatemargen = 0;Error :         12;Ultimo Alias Activo: CSRPARAVARIO;Ultimo regis
+
+
+
+
+
+
+
 
 
 
@@ -3473,6 +3401,13 @@ tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo 
 
 
 
+
+
+
+
+
+
+
 tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo Control activo: OMITIRCATEPROD
 21-11-2017 13:37:28 , Pila de llamadas
 21-11-2017 13:37:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -3486,6 +3421,13 @@ tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo 
 21-11-2017 13:37:30 , Nº de Linea :          1
 21-11-2017 13:37:30 , En el Fuente: IF CsrProducto.omiticatemargen = 0
 21-11-2017 13:37:33 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: No se encuentra la variable 'OMITICATEMARGEN'.;Linea : IF CsrProducto.omiticatemargen = 0;Error :         12;Ultimo Alias Activo: CSRPARAVARIO;Ultimo regis
+
+
+
+
+
+
+
 
 
 
@@ -3575,6 +3517,13 @@ tro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007HU102YF.TMP;Ultimo 
 
 
 
+
+
+
+
+
+
+
 ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083K90059.TMP;Ultimo Control activo: OMITIRCATEPROD
 21-11-2017 13:41:16 , Pila de llamadas
 21-11-2017 13:41:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -3588,6 +3537,13 @@ ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083K90059.
 21-11-2017 13:41:17 , Nº de Linea :          8
 21-11-2017 13:41:17 , En el Fuente: 	.Page2.Container1._txtmargen1.Enabled = .t.
 21-11-2017 13:46:26 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: No se encuentra la variable 'MARGEN'.;Linea : .Page2.Container1._txtmargen1.Value = CsrCateProd.margen;Error :         12;Ultimo Alias Activo: CSRPARAVARIO
+
+
+
+
+
+
+
 
 
 
@@ -3663,6 +3619,13 @@ ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083K90059.
 
 
 
+
+
+
+
+
+
+
 ;Ultimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083K900VB.TMP;Ultimo Control activo: 
 21-11-2017 13:46:43 , Pila de llamadas
 21-11-2017 13:46:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -3676,6 +3639,13 @@ ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083K90059.
 21-11-2017 13:46:44 , Nº de Linea :          6
 21-11-2017 13:46:44 , En el Fuente: 		.Page2.Container1._txtmargen1.Value = CsrCateProd.margen
 21-11-2017 13:46:47 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE2.CONTAINER1.CHKACTIVO.LOSTFOCUS, Error: No se encuentra la variable 'MARGEN'.;Linea : .Page2.Container1._txtmargen1.Value = CsrCateProd.margen;Error :         12;Ultimo Alias Activo: CSRPARAVARIO
+
+
+
+
+
+
+
 
 
 
@@ -3735,6 +3705,13 @@ ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083K90059.
 
 
 
+
+
+
+
+
+
+
 .TMP;Ultimo Control activo: 
 21-11-2017 14:18:02 , Pila de llamadas
 21-11-2017 14:18:02 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
@@ -3758,6 +3735,13 @@ ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083K90059.
 21-11-2017 14:18:05 , Nº de Linea :         15
 21-11-2017 14:18:05 , En el Fuente: 	IF RECCOUNT('CsrCateProv')=0
 01-12-2017 11:42:16 , LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la variable 'NETOGRAVADO'.;Linea : REPLACE ALL netogravado WITH netosinbonificar - bonisiva;Error :         12;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:  
+
+
+
+
+
+
+
 
 
 
@@ -3799,6 +3783,13 @@ ltimo registro:          8 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083K90059.
 
 
 
+
+
+
+
+
+
+
 idarticulo = CsrCateProv.idarticulo IN CsrSeguimiento;Error :         12;Ultimo Alias Activo: CSRCATEPROV;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000075E103I3.TMP;Ultimo Control activo: 
 01-12-2017 12:04:01 , Pila de llamadas
 01-12-2017 12:04:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3812,6 +3803,13 @@ idarticulo = CsrCateProv.idarticulo IN CsrSeguimiento;Error :         12;Ultimo 
 01-12-2017 12:04:02 , Nº de Linea :         88
 01-12-2017 12:04:02 , En el Fuente: 			replace ALL nomcatego WITH CsrCateProv.categoria,margencate WITH CsrCateProv.margen,comicate WITH CsrCateProv.comision FOR idarticulo = CsrCateProv.idarticulo IN CsrSeguimiento
 04-12-2017 12:38:09 , CATEPROVEEDOR.GRID2.KEYPRESS, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lok = MESSAGEBOX(lcmensaje,lnopcion,'INFORMACION AL USUARIO',ntimeout);Error :         11;Ultimo Alias Activo: ;Ultimo 
+
+
+
+
+
+
+
 
 
 
@@ -3839,3 +3837,31 @@ registro:          0 ;DBF: ;Ultimo Control activo:
 04-12-2017 12:38:12 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 04-12-2017 12:38:12 , Nº de Linea :         11
 04-12-2017 12:38:12 , En el Fuente: lok = MESSAGEBOX(lcmensaje,lnopcion,'INFORMACION AL USUARIO',ntimeout)
+04-12-2017 13:02:47 , ABMPRODUCTO._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrCateProv')=0;Error :         13;Ultimo Alias Activo: CSRENVASE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006X3D01IC
+
+
+
+
+
+.TMP;Ultimo Control activo: 
+04-12-2017 13:02:47 , Pila de llamadas
+04-12-2017 13:02:47 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+04-12-2017 13:02:47 , Objeto      : abmproducto._textbox1.keypress
+04-12-2017 13:02:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+04-12-2017 13:02:47 , Nº de Linea :        131
+04-12-2017 13:02:48 , En el Fuente: 	    thisform.DespuesObtenerDatos()
+04-12-2017 13:02:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+04-12-2017 13:02:48 , Objeto      : abmproducto.despuesobtenerdatos
+04-12-2017 13:02:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+04-12-2017 13:02:48 , Nº de Linea :          2
+04-12-2017 13:02:48 , En el Fuente: thisform.contenedor1.gridabm1.AfterRowColChange(ThisForm.Contenedor1.Gridabm1.ActiveColumn)
+04-12-2017 13:02:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+04-12-2017 13:02:49 , Objeto      : abmproducto.contenedor1.gridabm1.afterrowcolchange
+04-12-2017 13:02:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+04-12-2017 13:02:49 , Nº de Linea :         31
+04-12-2017 13:02:49 , En el Fuente: 	ThisForm.CalcularMargen()
+04-12-2017 13:02:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+04-12-2017 13:02:49 , Objeto      : abmproducto.calcularmargen
+04-12-2017 13:02:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+04-12-2017 13:02:50 , Nº de Linea :         20
+04-12-2017 13:02:50 , En el Fuente: 	IF RECCOUNT('CsrCateProv')=0
