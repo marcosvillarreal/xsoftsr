@@ -1,199 +1,3 @@
-17-01-2017 13:30:23 , Linea nº SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -291,6 +95,8 @@
 
 
 cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) a
+
+
 
 
 
@@ -582,12 +388,16 @@ s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasaret
 
 
 
+
+
 WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
 Error nº:          1
 Error El archivo 'csrcabefac.dbf' no existe.
  Alias CSRAUXCARGA registro          1
 Control activo  LISPATRONCARGA_V1.LOAD
 21-02-2017 20:58:39 , Linea nº REPLACE idproducto WITH Csrproducto.id,numero WITH Csrproducto.numero,nombre WITH Csrproducto.nombre ,fecha WITH DATE() ,bonifant WITH NVL(CsrProducto.bonifinfo,0) ,bonifica WITH thisform.containerpie._txtbonifica.value ,co
+
+
 
 
 
@@ -967,7 +777,11 @@ Control activo IDCOMPROBA REGSTOCK.IMAGE1.MOUSEMOVE
 
 
 
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
 
 
 
@@ -1217,7 +1031,11 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
 
 
 
@@ -1467,7 +1285,11 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
 
 
 
@@ -1830,6 +1652,8 @@ Control activo  EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 ransf,CsrImp2.aportes,0,CsrImp2.otros)
 Error nº:         12
 Error No se encuentra la variable 'OTROS'.
@@ -2049,7 +1873,11 @@ Control activo  ABMPRODUCTO.CMDINFORME.CLICK
 
 
 
+
+
 marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
+
 
 
 
@@ -2416,6 +2244,8 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCATEGO'.
@@ -2491,6 +2321,8 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1807
 Error SQL: la cláusula GROUP BY falta o no es válida.
@@ -2502,6 +2334,8 @@ Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 02-11-2017 16:23:00 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
+
 
 
 
@@ -2899,6 +2733,8 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 E
 Error nº:       1806
 Error SQL: no se encuentra la columna 'NOMCATEGO'.
@@ -2929,5 +2765,19 @@ Error nº:         12
 Error No se encuentra la variable 'NETOGRAVADO'.
  Alias _CSRCTACTE registro        111
 Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-11-12-2017 20:08:46 , Linea nº SELECT csrobjetivosError nº:         13Error No se encuentra el alias 'CSROBJETIVOS'. Alias _CSRCTACTE registro        111Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-11-12-2017 20:09:10 , Linea nº SELECT csrobjetivosError nº:         13Error No se encuentra el alias 'CSROBJETIVOS'. Alias _CSRCTACTE registro        111Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+11-12-2017 20:08:46 , Linea nº SELECT csrobjetivos
+Error nº:         13
+Error No se encuentra el alias 'CSROBJETIVOS'.
+ Alias _CSRCTACTE registro        111
+Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+11-12-2017 20:09:10 , Linea nº SELECT csrobjetivos
+Error nº:         13
+Error No se encuentra el alias 'CSROBJETIVOS'.
+ Alias _CSRCTACTE registro        111
+Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+20-12-2017 10:18:07 , Linea nº SELECT codrubro,nombrubro,codigo,codalfa,ean,articulo,unibulto,ventas,stock,pedirbultos FROM CsrImprimir ORDER BY codrubro,codigo INTO CURSOR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'NOMBRUBRO'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+20-12-2017 10:50:08 , Linea nº SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio ,precio*unidades,deposito,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImprimir.numero = CsrMargen.numero ORDER BY CsrImprimir.numero,subnumero,deposito INTO CURSOR Csrimprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'BONIFINFO'. Alias CSRIMPRIMIR registro       1613Control activo  LISINVENTARIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
