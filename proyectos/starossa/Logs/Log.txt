@@ -1,57 +1,3 @@
-Error No se encuentra el alias.
- Alias CSRAUXPIE registro          1
-Control activo  ANALIZAROFER.CONTAINERPIE.KITBUSCAOALTAENPRODUCTO.TXTEXISTE1.INIT
-01-03-2017 13:56:52 , Linea nº IF RECCOUNT(lcaliasseek)#0
-Error nº:         13
-Error No se encuentra el alias.
- Alias CSRAUXPIE registro          1
-Control activo  ANALIZAROFER.CONTAINERPIE.KITBUSCAOALTAENPRODUCTO.TXTEXISTE1.INIT
-01-03-2017 14:01:22 , Linea nº SELECT Csrbonictacte.* FROM CsrBonictacte WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCabeza READWRITE
-Error nº:          1
-Error El archivo 'csrbonictacte.dbf' no existe.
- Alias CSRCUERPO registro          1
-Control activo  ANALIZAROFER.LOAD
-01-03-2017 14:06:20 , Linea nº replace difeporce WITH ((prevtabonif * 100) / costo) - 100  IN CsrAuxiliar
-Error nº:         39
-Error Desbordamiento numérico (se han perdido datos).
- Alias CSRAUXILIAR registro          2
-Control activo BONIFICA ANALIZAROFER.CONTAINERPIE._TXTBONIFICA.KEYPRESS
-17-03-2017 12:06:31 , Linea nº cListRuta		= ALLTRIM(.Pageframe1.Page2.Kitgrillatildarrutas.cadenaelegidos())
-Error nº:       1925
-Error PAGEFRAME1 es un miembro desconocido.
- Alias CSRCTACTE registro          1
-Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-17-03-2017 12:07:48 , Linea nº cListRuta		= ALLTRIM(.Pageframe1.Page2.Kitgrillatildarrutas.cadenaelegidos())
-Error nº:       1925
-Error PAGEFRAME1 es un miembro desconocido.
- Alias CSRCTACTE registro          1
-Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-17-03-2017 13:12:46 , Linea nº lcfecha1 = "'"+DTOS(.fecha_calendario1.txtfecha.Value)+"'"
-Error nº:       1925
-Error FECHA_CALENDARIO1 es un miembro desconocido.
- Alias CSRCTACTE registro          1
-Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-17-03-2017 13:15:42 , Linea nº replace ALL neto WITH importefinal - bonificacion IN CsrImprimir
-Error nº:         12
-Error No se encuentra la variable 'NETO'.
- Alias CSRIMPRIMIR registro          1
-Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-17-03-2017 13:32:57 , Linea nº .Column015.Header = "Neto"
-Error nº:       1925
-Error COLUMN015 es un miembro desconocido.
- Alias CSRIMPRIMIR registro       3503
-Control activo  IMP_VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-21-03-2017 11:17:34 , Linea nº IF csrdatosren.rendida=0
-Error nº:         13
-Error No se encuentra el alias 'CSRDATOSREN'.
- Alias CSRPROVINCIA registro          1
-Control activo  REGFACVTA.CMDCONSULTA.CLICK
-21-03-2017 11:35:02 , Linea nº IF csrdatosren.rendida<>'2'
-Error nº:         13
-Error No se encuentra el alias 'CSRDATOSREN'.
- Alias CSRPROVINCIA registro         16
-Control activo  REGFACVTA.CMDCONSULTA.CLICK
-03-04-2017 13:05:29 , Linea nº SELECT csrimprimir
 Error nº:         13
 Error No se encuentra el alias 'CSRIMPRIMIR'.
  Alias CSRAUXILIAR registro          1
@@ -82,6 +28,12 @@ Error No se puede borrar el objeto IMAGE1  porque está en uso.
  Alias CSRPREFITERMI registro         35
 Control activo IDCOMPROBA REGSTOCK.IMAGE1.MOUSEMOVE
 03-07-2017 10:26:59 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
+
+
+
+
 
 
 
@@ -349,7 +301,19 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
+
+
+
+
 
 
 
@@ -617,6 +581,12 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
 
 
@@ -751,7 +721,19 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
 
 
 
@@ -1132,6 +1114,12 @@ Control activo  EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 ransf,CsrImp2.aportes,0,CsrImp2.otros)
 Error nº:         12
 Error No se encuentra la variable 'OTROS'.
@@ -1360,7 +1348,19 @@ Control activo  ABMPRODUCTO.CMDINFORME.CLICK
 
 
 
+
+
+
+
+
+
 marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
+
+
+
+
+
 
 
 
@@ -1745,6 +1745,12 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCATEGO'.
@@ -1829,6 +1835,12 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1807
 Error SQL: la cláusula GROUP BY falta o no es válida.
@@ -1840,6 +1852,12 @@ Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 02-11-2017 16:23:00 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
+
+
+
+
+
 
 
 
@@ -2255,6 +2273,12 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 E
 Error nº:       1806
 Error SQL: no se encuentra la columna 'NOMCATEGO'.
@@ -2301,6 +2325,12 @@ Error SQL: no se encuentra la columna 'NOMBRUBRO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 20-12-2017 10:50:08 , Linea nº SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio ,precio*unidades,deposito,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImpri
+
+
+
+
+
+
 
 
 
@@ -2362,4 +2392,50 @@ Error nº:         13
 Error No se encuentra el alias 'CSRMOVPUB_TEMP'.
  Alias CSRMOVPUB registro          1
 Control activo  REGPUBVARIO.ACEPTAR1.CLICK
-15-02-2018 11:26:49 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITEError nº:          1Error El archivo 'csrproducto.dbf' no existe. Alias  registro          0Control activo  EST_VENTABONIFICADA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
+15-02-2018 11:26:49 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
+Error nº:          1
+Error El archivo 'csrproducto.dbf' no existe.
+ Alias  registro          0
+Control activo  EST_VENTABONIFICADA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
+15-02-2018 13:47:15 , Linea nº lnchkproducto  = thisform.chkporproducto.Value
+Error nº:       1925
+Error CHKPORPRODUCTO es un miembro desconocido.
+ Alias  registro          0
+Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+15-02-2018 13:47:53 , Linea nº IF lnchkporproducto=1
+Error nº:         12
+Error No se encuentra la variable 'LNCHKPORPRODUCTO'.
+ Alias  registro          0
+Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+15-02-2018 13:54:17 , Linea nº SELECT CsrCursor
+Error nº:         13
+Error No se encuentra el alias 'CSRCURSOR'.
+ Alias _CSRCTACTE registro        113
+Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+15-02-2018 13:57:13 , Linea nº SELECT CsrCursor
+Error nº:         13
+Error No se encuentra el alias 'CSRCURSOR'.
+ Alias _CSRCTACTE registro        113
+Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+15-02-2018 14:05:05 , Linea nº SELECT CsrCursor
+Error nº:         13
+Error No se encuentra el alias 'CSRCURSOR'.
+ Alias _CSRCTACTE registro        113
+Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+15-02-2018 14:06:11 , Linea nº INDEX on id1 TAG id1
+Error nº:         12
+Error No se encuentra la variable 'ID1'.
+ Alias CSRCURSOR registro          1
+Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+15-02-2018 14:21:27 , Linea nº lcclave  = CsrCursor.nomrubro+&lcOrden
+Error nº:         12
+Error No se encuentra la variable 'NOMBRE1'.
+ Alias CSRCURSOR registro          1
+Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+15-02-2018 14:22:27 , Linea nº INSERT INTO CsrImprimir (Grupodato,idrubro,numero,nombre,unibulto,pvta,pretotal,nomrubro,clave,bonifica,nroctacte,nomctacte,prvtaori) VALUES (CsrCursor.grupodato,CsrCursor.idrubro,Csrcursor.numero,CsrCursor.nombre1,lnunibul
+to ,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori)
+Error nº:         12
+Error No se encuentra la variable 'NROCTACTE'.
+ Alias CSRCURSOR registro          1
+Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+15-02-2018 14:24:37 , Linea nº lcnombre1 = STR(VAL(Csrcursor.numero),6)+" "+Csrcursor.nombre1Error nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias CSRCURSOR registro          1Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
