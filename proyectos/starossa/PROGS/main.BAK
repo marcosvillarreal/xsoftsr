@@ -8,7 +8,7 @@
 
 clear all
 set classlib to
-l='C:\xsoftsr'
+l='j:\xsoftsr'
 *l='X:'
 set talk off
 lldesarrollo=(_vfp.startmode()#4)
@@ -81,6 +81,7 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 *-- APERTURA DE CLASES Y ARCHIVOS DE PROCEDIMIENTOS
 
    SET PROCEDURE  TO  proc.prg ADDITIVE  && Procedimientos generales
+   SET PROCEDURE TO googlemaps.prg ADDITIVE 
    SET PROCEDURE  TO  syserror.prg ADDITIVE  
    SET PROCEDURE TO procfiscal.prg ADDITIVE 
    SET PROCEDURE  TO registry.prg ADDITIVE 
