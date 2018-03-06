@@ -1,26 +1,5 @@
- Alias CSRTOTGUIA registro          1
-Control activo  EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-26-05-2017 12:26:18 , Linea nº loObjcol.controlsource = lCaliasNavega+'.'+lccadena
-Error nº:       1923
-Error No se encuentra el objeto _CSRCTACTE.
- Alias _CSRCTACTE registro          1
-Control activo  MAIN
-02-06-2017 09:33:39 , Linea nº GATHER NAME Objtabla
-Error nº:       1581
-Error El campo STOCK no acepta valores NULL.
- Alias CSRIMPORTAR registro       1126
-Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-02-06-2017 15:53:45 , Linea nº loObjTopes.agregar
-Error nº:       1923
-Error No se encuentra el objeto LOOBJTOPES.
- Alias CSRTOPES registro          2
-Control activo  MAIN
-02-06-2017 15:54:09 , Linea nº clear all
-Error nº:       1951
-Error No se puede borrar el objeto IMAGE1  porque está en uso.
- Alias CSRPREFITERMI registro         35
-Control activo IDCOMPROBA REGSTOCK.IMAGE1.MOUSEMOVE
-03-07-2017 10:26:59 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
 
 
 
@@ -302,7 +281,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
+
 
 
 
@@ -584,6 +569,9 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
 
 
@@ -725,7 +713,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -1120,6 +1114,9 @@ Control activo  EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
 ransf,CsrImp2.aportes,0,CsrImp2.otros)
 Error nº:         12
 Error No se encuentra la variable 'OTROS'.
@@ -1355,7 +1352,13 @@ Control activo  ABMPRODUCTO.CMDINFORME.CLICK
 
 
 
+
+
+
 marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
+
+
 
 
 
@@ -1754,6 +1757,9 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCATEGO'.
@@ -1845,6 +1851,9 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1807
 Error SQL: la cláusula GROUP BY falta o no es válida.
@@ -1856,6 +1865,9 @@ Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 02-11-2017 16:23:00 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
+
+
 
 
 
@@ -2285,6 +2297,9 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
 E
 Error nº:       1806
 Error SQL: no se encuentra la columna 'NOMCATEGO'.
@@ -2331,6 +2346,9 @@ Error SQL: no se encuentra la columna 'NOMBRUBRO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 20-12-2017 10:50:08 , Linea nº SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio ,precio*unidades,deposito,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImpri
+
+
+
 
 
 
@@ -2441,6 +2459,9 @@ Error No se encuentra la variable 'NOMBRE1'.
 Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 15-02-2018 14:22:27 , Linea nº INSERT INTO CsrImprimir (Grupodato,idrubro,numero,nombre,unibulto,pvta,pretotal,nomrubro,clave,bonifica,nroctacte,nomctacte,prvtaori) VALUES (CsrCursor.grupodato,CsrCursor.idrubro,Csrcursor.numero,CsrCursor.nombre1,lnunibul
 
+
+
+
 to ,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori)
 Error nº:         12
 Error No se encuentra la variable 'NROCTACTE'.
@@ -2451,5 +2472,24 @@ Error nº:         11
 Error El valor, tipo o número de argumentos no es válido para la función.
  Alias CSRCURSOR registro          1
 Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-26-02-2018 13:02:55 , Linea nº oca.SelectCmd=lccmdSelectError nº:       1924Error OCA no es un objeto. Alias CSRVENDEDOR registro          1Control activo  LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT
-26-02-2018 13:03:39 , Linea nº oca.SelectCmd=lccmdSelectError nº:       1924Error OCA no es un objeto. Alias CSRVENDEDOR registro          1Control activo  LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT
+26-02-2018 13:02:55 , Linea nº oca.SelectCmd=lccmdSelect
+Error nº:       1924
+Error OCA no es un objeto.
+ Alias CSRVENDEDOR registro          1
+Control activo  LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT
+26-02-2018 13:03:39 , Linea nº oca.SelectCmd=lccmdSelect
+Error nº:       1924
+Error OCA no es un objeto.
+ Alias CSRVENDEDOR registro          1
+Control activo  LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT
+06-03-2018 08:36:32 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+06-03-2018 08:38:04 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+06-03-2018 11:25:37 , Linea nº SELECT CsrMovBvcocarError nº:         13Error No se encuentra el alias 'CSRMOVBVCOCAR'. Alias CSRCTACTE registro          2Control activo  RINDEFLETE.ACEPTAR1.CLICK
