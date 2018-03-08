@@ -140,151 +140,9 @@
 
 
 
-dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
 
 
 
@@ -572,6 +430,7 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
 
 
@@ -716,7 +575,9 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
 
 
 
@@ -1117,6 +978,7 @@ Control activo  EST_VENTAVISITAS_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 ransf,CsrImp2.aportes,0,CsrImp2.otros)
 Error nº:         12
 Error No se encuentra la variable 'OTROS'.
@@ -1355,7 +1217,9 @@ Control activo  ABMPRODUCTO.CMDINFORME.CLICK
 
 
 
+
 marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
 
 
 
@@ -1760,6 +1624,7 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCATEGO'.
@@ -1854,6 +1719,7 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1807
 Error SQL: la cláusula GROUP BY falta o no es válida.
@@ -1865,6 +1731,7 @@ Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 02-11-2017 16:23:00 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
 
 
 
@@ -2300,6 +2167,7 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 E
 Error nº:       1806
 Error SQL: no se encuentra la columna 'NOMCATEGO'.
@@ -2346,6 +2214,7 @@ Error SQL: no se encuentra la columna 'NOMBRUBRO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 20-12-2017 10:50:08 , Linea nº SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio ,precio*unidades,deposito,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImpri
+
 
 
 
@@ -2462,6 +2331,7 @@ Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 to ,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori)
 Error nº:         12
 Error No se encuentra la variable 'NROCTACTE'.
@@ -2492,4 +2362,14 @@ Error nº:       1429
 Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
  Alias  registro          0
 Control activo  MAIN
-06-03-2018 11:25:37 , Linea nº SELECT CsrMovBvcocarError nº:         13Error No se encuentra el alias 'CSRMOVBVCOCAR'. Alias CSRCTACTE registro          2Control activo  RINDEFLETE.ACEPTAR1.CLICK
+06-03-2018 11:25:37 , Linea nº SELECT CsrMovBvcocar
+Error nº:         13
+Error No se encuentra el alias 'CSRMOVBVCOCAR'.
+ Alias CSRCTACTE registro          2
+Control activo  RINDEFLETE.ACEPTAR1.CLICK
+08-03-2018 12:33:24 , Linea nº lcidusuarios = IIF(.pageframe1.pagecount#1,.pageframe1.page4.kitgrillatildarusuarios.cadenaelegidos(),'')
+Error nº:       1925
+Error PAGE4 es un miembro desconocido.
+ Alias  registro          0
+Control activo  SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+08-03-2018 12:41:32 , Linea nº lcidvendedor	= .pageframe1.page5.kitgrillatildarvendedor.cadenaelegidos()Error nº:       1925Error KITGRILLATILDARVENDEDOR es un miembro desconocido. Alias _CSRCOMPROBANTE registro         12Control activo  SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
