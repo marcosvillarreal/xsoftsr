@@ -160,1029 +160,6 @@
 
 
 
-
-
-
-
-
-S\ADMIN\APPDATA\LOCAL\TEMP\00008QH502XV.TMP;Ultimo Control activo: 
-11-12-2017 20:09:10 , Pila de llamadas
-11-12-2017 20:09:10 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-11-12-2017 20:09:10 , Objeto      : listaliqcomi.imprimir_vistaprevia1.impresora.click
-11-12-2017 20:09:10 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-11-12-2017 20:09:11 , Nº de Linea :          8
-11-12-2017 20:09:11 , En el Fuente: 	llOK=thisform.CrearInforme()
-11-12-2017 20:09:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaliqcomi_3.sct
-11-12-2017 20:09:11 , Objeto      : listaliqcomi.crearinforme
-11-12-2017 20:09:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaliqcomi_3.sct
-11-12-2017 20:09:11 , Nº de Linea :         38
-11-12-2017 20:09:11 , En el Fuente: SELECT csrobjetivos
-20-12-2017 10:18:08 , PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'NOMBRUBRO'.;Linea : SELECT codrubro,nombrubro,codigo,codalfa,ean,articulo,unibulto,ventas,stock,pedirbultos FROM CsrImprimir ORDER BY cod
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-rubro,codigo INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000082RT00RV.TMP;Ultimo Control activo: 
-20-12-2017 10:18:08 , Pila de llamadas
-20-12-2017 10:18:08 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-20-12-2017 10:18:08 , Objeto      : planillaparapedidos.imprimir_vistaprevia1.excel.click
-20-12-2017 10:18:08 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-20-12-2017 10:18:08 , Nº de Linea :          8
-20-12-2017 10:18:08 , En el Fuente: llOK=thisform.CrearInforme()
-20-12-2017 10:18:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
-20-12-2017 10:18:08 , Objeto      : planillaparapedidos.crearinforme
-20-12-2017 10:18:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
-20-12-2017 10:18:09 , Nº de Linea :         90
-20-12-2017 10:18:09 , En el Fuente: DODEFAULT()
-20-12-2017 10:18:09 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-20-12-2017 10:18:09 , Objeto      : informe.crearinforme
-20-12-2017 10:18:09 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-20-12-2017 10:18:09 , Nº de Linea :          1
-20-12-2017 10:18:10 , En el Fuente: thisform.crearheader()
-20-12-2017 10:18:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
-20-12-2017 10:18:10 , Objeto      : planillaparapedidos.crearheader
-20-12-2017 10:18:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
-20-12-2017 10:18:10 , Nº de Linea :         59
-20-12-2017 10:18:10 , En el Fuente: 		SELECT codrubro,nombrubro,codigo,codalfa,ean,articulo,unibulto,ventas,stock,pedirbultos		FROM CsrImprimir ORDER BY codrubro,codigo INTO CURSOR CsrImprimir READWRITE 
-20-12-2017 10:50:09 , LISINVENTARIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'BONIFINFO'.;Linea : SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio ,precio*unidades,deposi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-to,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImprimir.numero = CsrMargen.numero ORDER BY CsrImprimir.numero,subnumero,deposito INTO CURSOR Csrimprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSR
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-IMPRIMIR;Ultimo registro:       1613 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000082RT0103.TMP;Ultimo Control activo: 
-20-12-2017 10:50:09 , Pila de llamadas
-20-12-2017 10:50:10 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-20-12-2017 10:50:10 , Objeto      : lisinventario.imprimir_vistaprevia1.excel.click
-20-12-2017 10:50:10 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-20-12-2017 10:50:10 , Nº de Linea :          8
-20-12-2017 10:50:10 , En el Fuente: llOK=thisform.CrearInforme()
-20-12-2017 10:50:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
-20-12-2017 10:50:10 , Objeto      : lisinventario.crearinforme
-20-12-2017 10:50:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
-20-12-2017 10:50:10 , Nº de Linea :        229
-20-12-2017 10:50:11 , En el Fuente: DODEFAULT()
-20-12-2017 10:50:11 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-20-12-2017 10:50:11 , Objeto      : informe.crearinforme
-20-12-2017 10:50:11 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-20-12-2017 10:50:11 , Nº de Linea :          1
-20-12-2017 10:50:11 , En el Fuente: thisform.crearheader()
-20-12-2017 10:50:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
-20-12-2017 10:50:11 , Objeto      : lisinventario.crearheader
-20-12-2017 10:50:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
-20-12-2017 10:50:12 , Nº de Linea :         58
-20-12-2017 10:50:12 , En el Fuente: 		SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio		,precio*unidades,deposito,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir		LEFT JOIN CsrMargen ON
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- CsrImprimir.numero = CsrMargen.numero		ORDER BY CsrImprimir.numero,subnumero,deposito INTO CURSOR Csrimprimir READWRITE
-02-01-2018 13:58:19 , MAIN, Error: SQL: no se encuentra la columna 'COMISION'.;Linea : SELECT nomrubro,numero,codalfa,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1,margen2,pvta2,pvtaciva2 &lcmarca FROM CsrImprimir ORDER BY idrubro,idmarca INTO C
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-URSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:         20 STR(IDRUBRO,10)+STR(IDMARCA,10)+LCORDEN;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A39L00RK.TMP;Ultimo Control activo: 
-02-01-2018 13:58:20 , Pila de llamadas
-02-01-2018 13:58:20 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-02-01-2018 13:58:20 , Objeto      : main
-02-01-2018 13:58:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-02-01-2018 13:58:20 , Nº de Linea :        239
-02-01-2018 13:58:21 , En el Fuente: 	Read events   
-02-01-2018 13:58:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-02-01-2018 13:58:21 , Objeto      : abmproducto.cmdinforme.click
-02-01-2018 13:58:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-02-01-2018 13:58:21 , Nº de Linea :         20
-02-01-2018 13:58:21 , En el Fuente: DO FORM listaproducto WITH "R",oca,lcCmdCampos,lcTypeData,lcidestado TO lccmdSelect
-02-01-2018 13:58:21 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-02-01-2018 13:58:22 , Objeto      : listaprodcto.imprimir_vistaprevia1.excel.click
-02-01-2018 13:58:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-02-01-2018 13:58:22 , Nº de Linea :          8
-02-01-2018 13:58:22 , En el Fuente: llOK=thisform.CrearInforme()
-02-01-2018 13:58:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-02-01-2018 13:58:22 , Objeto      : listaprodcto.crearinforme
-02-01-2018 13:58:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-02-01-2018 13:58:22 , Nº de Linea :         98
-02-01-2018 13:58:23 , En el Fuente: DODEFAULT()
-02-01-2018 13:58:23 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-02-01-2018 13:58:23 , Objeto      : informe.crearinforme
-02-01-2018 13:58:23 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-02-01-2018 13:58:23 , Nº de Linea :          1
-02-01-2018 13:58:23 , En el Fuente: thisform.crearheader()
-02-01-2018 13:58:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-02-01-2018 13:58:23 , Objeto      : listaprodcto.crearheader
-02-01-2018 13:58:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaproducto.sct
-02-01-2018 13:58:24 , Nº de Linea :         53
-02-01-2018 13:58:24 , En el Fuente: 		SELECT nomrubro,numero,codalfa,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1,margen2,pvta2,pvtaciva2 &lcmarca		FROM CsrImprimir ORDER BY idrubro,idmarca INTO CURSOR CsrImprimir READWRITE 
-03-01-2018 20:51:13 , MAIN, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : RETURN ALLTRIM(STR(lnValor,lnTam,lnDec));Error :         11;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\A
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 PPDATA\LOCAL\TEMP\0000836100BG.TMP;Ultimo Control activo: 
 03-01-2018 20:51:13 , Pila de llamadas
 03-01-2018 20:51:14 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -1226,6 +203,34 @@ PPDATA\LOCAL\TEMP\0000836100BG.TMP;Ultimo Control activo:
 03-01-2018 20:51:18 , Nº de Linea :        492
 03-01-2018 20:51:18 , En el Fuente: RETURN ALLTRIM(STR(lnValor,lnTam,lnDec))
 14-02-2018 10:31:26 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1499,6 +504,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 14-02-2018 10:32:01 , Pila de llamadas
 14-02-2018 10:32:02 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -1517,6 +550,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 14-02-2018 10:32:04 , Nº de Linea :       1832
 14-02-2018 10:32:04 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 14-02-2018 10:41:23 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1771,6 +832,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 14-02-2018 10:43:36 , Pila de llamadas
 14-02-2018 10:43:37 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -1789,6 +878,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 14-02-2018 10:43:39 , Nº de Linea :       1832
 14-02-2018 10:43:40 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 14-02-2018 10:47:28 , REGPUBVARIO.ACEPTAR1.CLICK, Error: El campo IDCUENTA no acepta valores NULL.;Linea : GATHER NAME ObjCopia;Error :       1581;Ultimo Alias Activo: CSRMOVPUB_TEMP;Ultimo registro:         -1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2028,6 +1145,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 08XZD004O.TMP;Ultimo Control activo: 
 14-02-2018 10:48:44 , Pila de llamadas
 14-02-2018 10:48:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpubvario.sct
@@ -2051,6 +1196,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 14-02-2018 10:48:49 , Nº de Linea :         40
 14-02-2018 10:48:49 , En el Fuente: 	GATHER NAME ObjCopia
 14-02-2018 10:49:55 , REGPUBVARIO.ACEPTAR1.CLICK, Error: El campo IDCUENTA no acepta valores NULL.;Linea : GATHER NAME ObjCopia;Error :       1581;Ultimo Alias Activo: CSRMOVPUB_TEMP;Ultimo registro:         -1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2266,6 +1439,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ZD00Z5.TMP;Ultimo Control activo: 
 14-02-2018 11:10:00 , Pila de llamadas
 14-02-2018 11:10:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpubvario.sct
@@ -2289,6 +1490,34 @@ ZD00Z5.TMP;Ultimo Control activo:
 14-02-2018 11:10:04 , Nº de Linea :         34
 14-02-2018 11:10:04 , En el Fuente: SELECT CsrMovPub_Temp
 15-02-2018 11:26:50 , EST_VENTABONIFICADA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT, Error: El archivo 'csrproducto.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2468,8 +1697,64 @@ lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &mi
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 15-02-2018 13:47:16 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: CHKPORPRODUCTO es un miembro desconocido.;Linea : lnchkproducto  = thisform.chkporproducto.Value;Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2647,6 +1932,34 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 tivo: 
 15-02-2018 13:47:53 , Pila de llamadas
 15-02-2018 13:47:54 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2660,6 +1973,34 @@ tivo:
 15-02-2018 13:47:55 , Nº de Linea :        267
 15-02-2018 13:47:55 , En el Fuente: IF lnchkporproducto=1
 15-02-2018 13:54:18 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSOR'.;Linea : SELECT CsrCursor;Error :         13;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:        113 VAL(CNUMERO);DBF: C:\USERS\AD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2823,6 +2164,34 @@ MIN\APPDATA\LOCAL\TEMP\00008UFD00E1.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 MIN\APPDATA\LOCAL\TEMP\00008UFD00FR.TMP;Ultimo Control activo: 
 15-02-2018 13:57:14 , Pila de llamadas
 15-02-2018 13:57:15 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2836,6 +2205,34 @@ MIN\APPDATA\LOCAL\TEMP\00008UFD00FR.TMP;Ultimo Control activo:
 15-02-2018 13:57:16 , Nº de Linea :        276
 15-02-2018 13:57:16 , En el Fuente: 	SELECT CsrCursor 
 15-02-2018 14:05:06 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSOR'.;Linea : SELECT CsrCursor;Error :         13;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:        113 VAL(CNUMERO);DBF: C:\USERS\AD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2986,6 +2383,34 @@ MIN\APPDATA\LOCAL\TEMP\00008UFD00HQ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LOCAL\TEMP\00008UFD00JZ.TMP;Ultimo Control activo: 
 15-02-2018 14:06:11 , Pila de llamadas
 15-02-2018 14:06:12 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2999,6 +2424,34 @@ LOCAL\TEMP\00008UFD00JZ.TMP;Ultimo Control activo:
 15-02-2018 14:06:13 , Nº de Linea :        278
 15-02-2018 14:06:13 , En el Fuente: 	INDEX on id1 TAG id1
 15-02-2018 14:21:28 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'NOMBRE1'.;Linea : lcclave  = CsrCursor.nomrubro+&lcOrden;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ID1;DBF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3136,7 +2589,63 @@ LOCAL\TEMP\00008UFD00JZ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 e,prvtaori) VALUES (CsrCursor.grupodato,CsrCursor.idrubro,Csrcursor.numero,CsrCursor.nombre1,lnunibulto ,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori);Error :         12;Ultimo Alia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3266,8 +2775,64 @@ s Activo: CSRCURSOR;Ultimo registro:          1 ID1;DBF: C:\USERS\ADMIN\APPDATA\
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 or.nombre1,lnunibulto		     			,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori)
 15-02-2018 14:24:38 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lcnombre1 = STR(VAL(Csrcursor.numero),6)+" "+Csrcursor.nombre1;Error :         11;Ultimo Alias 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3389,6 +2954,34 @@ Activo: CSRCURSOR;Ultimo registro:          1 ID1;DBF: C:\USERS\ADMIN\APPDATA\LO
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 I2X00BT.TMP;Ultimo Control activo: 
 26-02-2018 13:02:55 , Pila de llamadas
 26-02-2018 13:02:56 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3412,6 +3005,34 @@ I2X00BT.TMP;Ultimo Control activo:
 26-02-2018 13:02:59 , Nº de Linea :          8
 26-02-2018 13:02:59 , En el Fuente: oca.SelectCmd=lccmdSelect       
 26-02-2018 13:03:39 , LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT, Error: OCA no es un objeto.;Linea : oca.SelectCmd=lccmdSelect;Error :       1924;Ultimo Alias Activo: CSRVENDEDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3521,6 +3142,34 @@ I2X00BZ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 06-03-2018 08:36:33 , Pila de llamadas
 06-03-2018 08:36:33 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3539,6 +3188,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 06-03-2018 08:36:35 , Nº de Linea :       1832
 06-03-2018 08:36:35 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 06-03-2018 08:38:04 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3623,6 +3300,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 182.TMP;Ultimo Control activo: 
 06-03-2018 11:25:37 , Pila de llamadas
 06-03-2018 11:25:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\rendicion\rindeflete.sct
@@ -3641,6 +3346,34 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 06-03-2018 11:25:40 , Nº de Linea :        596
 06-03-2018 11:25:40 , En el Fuente: SELECT CsrMovBvcocar
 08-03-2018 12:33:24 , SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: PAGE4 es un miembro desconocido.;Linea : lcidusuarios = IIF(.pageframe1.pagecount#1,.pageframe1.page4.kitgrillatildarusuarios.cadenaelegidos(),'');Error :       1925;Ultimo Ali
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3702,6 +3435,34 @@ as Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 RCOMPROBANTE;Ultimo registro:         12 VAL(CNUMERO);DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008MIX0131.TMP;Ultimo Control activo: 
 08-03-2018 12:41:33 , Pila de llamadas
 08-03-2018 12:41:34 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3715,6 +3476,34 @@ RCOMPROBANTE;Ultimo registro:         12 VAL(CNUMERO);DBF: C:\USERS\ADMIN\APPDAT
 08-03-2018 12:41:35 , Nº de Linea :         33
 08-03-2018 12:41:35 , En el Fuente: 	lcidvendedor	= .pageframe1.page5.kitgrillatildarvendedor.cadenaelegidos()
 08-03-2018 12:56:51 , LISPATRONCARGA_V1.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3754,7 +3543,63 @@ RCOMPROBANTE;Ultimo registro:         12 VAL(CNUMERO);DBF: C:\USERS\ADMIN\APPDAT
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3794,7 +3639,63 @@ retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3842,7 +3743,63 @@ EMP\000082KP00CR.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5	   ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(13) as nom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3876,7 +3833,63 @@ rete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2	  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 e4,000.00 as tasarete4   	   ,SPACE(13) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5       ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfletep
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3895,6 +3908,34 @@ e4,000.00 as tasarete4   	   ,SPACE(13) as nomrete5,00000000.00 as retencion5,00
 
 lanilla       ,SPACE(2) as categoria       FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE  
 03/12/18 11:27:11 , SUBCTACTE.PAGEFRAME1.PAGE1.KITGRILLATILDARCTACTE.INIT, Error: El archivo 'csrctacte.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3930,8 +3971,64 @@ lanilla       ,SPACE(2) as categoria       FROM CsrCabefac WHERE RECNO()=1 AND i
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sor &micursor READWRITE
 12-03-2018 11:28:14 , SUBCTACTE.PAGEFRAME1.PAGE5.KITGRILLATILDARVDOR.INIT, Error: OCA no es un objeto.;Linea : oca.SelectCmd=lccmdSelect;Error :       1924;Ultimo Alias Activo: _CSRUSUARIOS;Ultimo registro:          1 VAL(CNUMERO);DBF: C:\USERS\ADMIN\APP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3972,6 +4069,34 @@ DATA\LOCAL\TEMP\00007RIH00HP.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DATA\LOCAL\TEMP\00007RIH00JF.TMP;Ultimo Control activo: 
 12-03-2018 11:29:43 , Pila de llamadas
 12-03-2018 11:29:44 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3994,3 +4119,211 @@ DATA\LOCAL\TEMP\00007RIH00JF.TMP;Ultimo Control activo:
 12-03-2018 11:29:48 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
 12-03-2018 11:29:48 , Nº de Linea :          8
 12-03-2018 11:29:48 , En el Fuente: oca.SelectCmd=lccmdSelect       
+12-03-2018 12:15:42 , LISPATRONCARGA_V1.INIT, Error: _OESTADORENDIDA es un miembro desconocido.;Linea : thisform.containerencabeza._oestadorendida.Value=1;Error :       1925;Ultimo Alias Activo: CSRFLETERO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\APPDATA\LOCAL\TEMP\00009QTL009X.TMP;Ultimo Control activo: ESTADO
+12-03-2018 12:15:42 , Pila de llamadas
+12-03-2018 12:15:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:15:43 , Objeto      : lispatroncarga_v1.init
+12-03-2018 12:15:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:15:43 , Nº de Linea :          1
+12-03-2018 12:15:44 , En el Fuente: thisform.containerencabeza._oestadorendida.Value=1
+12-03-2018 12:16:16 , LISPATRONCARGA_V1.INIT, Error: _OESTADORENDIDA es un miembro desconocido.;Linea : thisform.containerencabeza._oestadorendida.Value=1;Error :       1925;Ultimo Alias Activo: CSRFLETERO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\APPDATA\LOCAL\TEMP\00009QTL00BS.TMP;Ultimo Control activo: 
+12-03-2018 12:16:16 , Pila de llamadas
+12-03-2018 12:16:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:16:16 , Objeto      : lispatroncarga_v1.init
+12-03-2018 12:16:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:16:17 , Nº de Linea :          1
+12-03-2018 12:16:17 , En el Fuente: thisform.containerencabeza._oestadorendida.Value=1
+12-03-2018 12:25:03 , LISPATRONCARGA_V1.INIT, Error: _TXTDESTINOEXPORTAR es un miembro desconocido.;Linea : ThisForm._txtDestinoExportar.Value = RutaCpraVta;Error :       1925;Ultimo Alias Activo: CSRFLETERO;Ultimo registro:          1 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IN\APPDATA\LOCAL\TEMP\00009QTL00SC.TMP;Ultimo Control activo: 
+12-03-2018 12:25:04 , Pila de llamadas
+12-03-2018 12:25:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:25:04 , Objeto      : lispatroncarga_v1.init
+12-03-2018 12:25:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:25:05 , Nº de Linea :          6
+12-03-2018 12:25:05 , En el Fuente: 	.cargardestinos()	
+12-03-2018 12:25:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:25:06 , Objeto      : lispatroncarga_v1.cargardestinos
+12-03-2018 12:25:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:25:06 , Nº de Linea :         26
+12-03-2018 12:25:06 , En el Fuente: ThisForm._txtDestinoExportar.Value = RutaCpraVta
+12-03-2018 12:40:56 , PATRONCARGA_COT.CMDPROCESAR.CLICK, Error: No se encuentra el alias 'CSRAUXCUERFAC'.;Linea : SELECT CsrAuxCuerfac;Error :         13;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 IDVENDEDOR;DBF: C:\USERS\ADMIN\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\00009QTL023W.TMP;Ultimo Control activo: 
+12-03-2018 12:40:56 , Pila de llamadas
+12-03-2018 12:40:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:40:57 , Objeto      : patroncarga_cot.cmdprocesar.click
+12-03-2018 12:40:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:40:58 , Nº de Linea :          2
+12-03-2018 12:40:58 , En el Fuente: thisform.leerpatroncarga()
+12-03-2018 12:40:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:40:58 , Objeto      : patroncarga_cot.leerpatroncarga
+12-03-2018 12:40:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:40:59 , Nº de Linea :        123
+12-03-2018 12:40:59 , En el Fuente: SELECT CsrAuxCuerfac
+12-03-2018 12:42:07 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: _TXTDESTINOEXPORTAR es un miembro desconocido.;Linea : ;Error :       1925;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009QTL0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26L.TMP;Ultimo Control activo: 
+12-03-2018 12:42:07 , Pila de llamadas
+12-03-2018 12:42:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:08 , Objeto      : patroncarga_cot.aceptar1.click
+12-03-2018 12:42:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:08 , Nº de Linea :          2
+12-03-2018 12:42:09 , En el Fuente: lok = thisform.generarcot()
+12-03-2018 12:42:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:09 , Objeto      : patroncarga_cot.generarcot
+12-03-2018 12:42:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:10 , Nº de Linea :          2
+12-03-2018 12:42:10 , En el Fuente: this.guardardestinos()
+12-03-2018 12:42:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:10 , Objeto      : patroncarga_cot.guardardestinos
+12-03-2018 12:42:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:11 , Nº de Linea :         27
+12-03-2018 12:42:12 , En el Fuente: 
+12-03-2018 12:42:49 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: _TXTDESTINOEXPORTAR es un miembro desconocido.;Linea : ;Error :       1925;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009QTL0
+
+
+
+
+
+
+
+
+28K.TMP;Ultimo Control activo: 
+12-03-2018 12:42:49 , Pila de llamadas
+12-03-2018 12:42:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:50 , Objeto      : patroncarga_cot.aceptar1.click
+12-03-2018 12:42:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:50 , Nº de Linea :          2
+12-03-2018 12:42:50 , En el Fuente: lok = thisform.generarcot()
+12-03-2018 12:42:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:51 , Objeto      : patroncarga_cot.generarcot
+12-03-2018 12:42:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:51 , Nº de Linea :          2
+12-03-2018 12:42:52 , En el Fuente: this.guardardestinos()
+12-03-2018 12:42:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:52 , Objeto      : patroncarga_cot.guardardestinos
+12-03-2018 12:42:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 12:42:53 , Nº de Linea :         27
+12-03-2018 12:42:53 , En el Fuente: 
+12-03-2018 13:02:18 , PATRONCARGA_COT.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF !SEEK(Csrcuerpo.idvendedor,"Csrauxiliar","idvendedor");Error :       1683;Ultimo Alias Activo: CSRCUERPO;Ultimo registro:          1 GRUPODA
+
+
+
+TO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009QTL02SK.TMP;Ultimo Control activo: 
+12-03-2018 13:02:18 , Pila de llamadas
+12-03-2018 13:02:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 13:02:19 , Objeto      : patroncarga_cot.cmdprocesar.click
+12-03-2018 13:02:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 13:02:19 , Nº de Linea :          2
+12-03-2018 13:02:19 , En el Fuente: thisform.leerpatroncarga()
+12-03-2018 13:02:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 13:02:20 , Objeto      : patroncarga_cot.leerpatroncarga
+12-03-2018 13:02:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
+12-03-2018 13:02:21 , Nº de Linea :        146
+12-03-2018 13:02:21 , En el Fuente: 	   IF !SEEK(Csrcuerpo.idvendedor,"Csrauxiliar","idvendedor")
