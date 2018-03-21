@@ -1,20 +1,3 @@
- Alias CSRIMPRIMIRARQUEO registro          1
-Control activo  RINDEARQUEO.CONTENEDORREPORTE.CMDIMPRIMIR.CLICK
-11-09-2017 12:19:44 , Linea nº IF LEN(LTRIM(lcArchivo))=0
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias CSRRENDIFLE registro          1
-Control activo  RINDEARQUEO.CONTENEDORREPORTE.CMDIMPRIMIR.CLICK
-12-09-2017 16:03:07 , Linea nº .Name = lcaliasCursor
-Error nº:       1575
-Error El nombre del objeto no es válido.
- Alias CSRVARIEDAD registro          1
-Control activo  MAIN
-12-09-2017 16:03:21 , Linea nº IF RECCOUNT('CsrBloqueoUser')=0 &&Esta habilitado para todo si es vacio
-Error nº:         13
-Error No se encuentra el alias.
- Alias CSRVARIEDAD registro          1
-Control activo  MAIN
 12-09-2017 16:05:04 , Linea nº IF CsrBloqueUser.alta = 1
 Error nº:         13
 Error No se encuentra el alias 'CSRBLOQUEUSER'.
@@ -245,7 +228,11 @@ Control activo  ABMPRODUCTO.CMDINFORME.CLICK
 
 
 
+
+
 marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
+
 
 
 
@@ -684,6 +671,8 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCATEGO'.
@@ -795,6 +784,8 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1807
 Error SQL: la cláusula GROUP BY falta o no es válida.
@@ -806,6 +797,8 @@ Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 02-11-2017 16:23:00 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
+
 
 
 
@@ -1275,6 +1268,8 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 E
 Error nº:       1806
 Error SQL: no se encuentra la columna 'NOMCATEGO'.
@@ -1321,6 +1316,8 @@ Error SQL: no se encuentra la columna 'NOMBRUBRO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 20-12-2017 10:50:08 , Linea nº SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio ,precio*unidades,deposito,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImpri
+
+
 
 
 
@@ -1471,6 +1468,8 @@ Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 to ,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori)
 Error nº:         12
 Error No se encuentra la variable 'NROCTACTE'.
@@ -1532,7 +1531,11 @@ Control activo  SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
 
 
 
@@ -1564,7 +1567,11 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
 
 
 
@@ -1675,7 +1682,11 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
 
 
 
@@ -1689,7 +1700,11 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
 
 
 
@@ -1701,7 +1716,11 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 20-03-2018 15:48:23 , Linea nº SELECT csrimprimir.*, Nvl(csrcomi.idgrupo,0) as idgrupo ,nvl(csrcomi.porcentaje,0) as porcentaje ,Nvl(csrcomi.objetivo1,0) as objetivo1 ,Nvl(csrcomi.comision1,0) as comision1,Nvl(csrcomi.objetivo2,0) as objetivo2 ,Nvl(csrco
 
 
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
 
 
 ND CsrComi.origen='A' into CURSOR 'csrimprimir2' readwrite
@@ -1710,6 +1729,8 @@ Error SQL: no se encuentra la columna 'IDPRODUCTO'.
  Alias CSRCOMI registro          1
 Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 20-03-2018 15:53:03 , Linea nº SELECT csrimprimir.*, Nvl(csrcomi.idgrupo,0) as idgrupo ,nvl(csrcomi.porcentaje,0) as porcentaje FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo O
+
+
 
 R csrcomi.idgrupo=0) AND CsrComi.origen='A' into CURSOR 'csrimprimir2' readwrite
 Error nº:       1806
@@ -1721,4 +1742,14 @@ Error nº:         12
 Error No se encuentra la variable 'OBJETIVO1'.
  Alias CSRIMPRIMIR2 registro          1
 Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-20-03-2018 15:57:01 , Linea nº replace ALL comision WITH IIF(idgrupo<>idgrupocomi .or. idgrupo=0,comision,IIF(unidades<objetivo1,porcentaje,IIF(unidades<objetivo2,comision1,IIF(unidades<objetivo3,comision2,IIF(objetivo3=0,porcentaje,comision3)))))Error nº:         12Error No se encuentra la variable 'OBJETIVO1'. Alias CSRIMPRIMIR2 registro          1Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+20-03-2018 15:57:01 , Linea nº replace ALL comision WITH IIF(idgrupo<>idgrupocomi .or. idgrupo=0,comision,IIF(unidades<objetivo1,porcentaje,IIF(unidades<objetivo2,comision1,IIF(unidades<objetivo3,comision2,IIF(objetivo3=0,porcentaje,comision3)))))
+Error nº:         12
+Error No se encuentra la variable 'OBJETIVO1'.
+ Alias CSRIMPRIMIR2 registro          1
+Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+21-03-2018 11:36:02 , Linea nº replace comision WITH CsrComi.comision IN CsrImprimir
+Error nº:         12
+Error No se encuentra la variable 'COMISION'.
+ Alias CSRCOMI registro        266
+Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+21-03-2018 11:39:36 , Linea nº replace comision WITH IIF(CsrComi.unidades<CsrComi.objetivo1,CsrComi.porcentaje,IIF(CsrComi.unidades<CsrComi.objetivo2,CsrComi.comision1,IIF(CsrComi.unidades<CsrComi.objetivo3,CsrComi.comision2,IIF(CsrComi.objetivo3=0,CsrComi.porcentaje,CsrComi.comision3)))) IN CsrImprimirError nº:         12Error No se encuentra la variable 'UNIDADES'. Alias CSRCOMI registro        266Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
