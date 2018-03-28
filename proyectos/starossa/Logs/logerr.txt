@@ -11,464 +11,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-I2X00BZ.TMP;Ultimo Control activo: 
-26-02-2018 13:03:39 , Pila de llamadas
-26-02-2018 13:03:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-26-02-2018 13:03:40 , Objeto      : listadovisitas.kitgrillatildarvendedor.init
-26-02-2018 13:03:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-26-02-2018 13:03:40 , Nº de Linea :          7
-26-02-2018 13:03:41 , En el Fuente: this.antesinit()
-26-02-2018 13:03:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-26-02-2018 13:03:41 , Objeto      : listadovisitas.kitgrillatildarvendedor.antesinit
-26-02-2018 13:03:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-26-02-2018 13:03:41 , Nº de Linea :          1
-26-02-2018 13:03:41 , En el Fuente: this.seteoclases()
-26-02-2018 13:03:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-26-02-2018 13:03:41 , Objeto      : listadovisitas.kitgrillatildarvendedor.seteoclases
-26-02-2018 13:03:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-26-02-2018 13:03:42 , Nº de Linea :         44
-26-02-2018 13:03:42 , En el Fuente: 	IF !thisform.obtenerDatos('CsrVendedor',lcCmdClase)
-26-02-2018 13:03:43 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-26-02-2018 13:03:43 , Objeto      : listadovisitas.obtenerdatos
-26-02-2018 13:03:43 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-26-02-2018 13:03:43 , Nº de Linea :          8
-26-02-2018 13:03:44 , En el Fuente: oca.SelectCmd=lccmdSelect       
-06-03-2018 08:36:32 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-06-03-2018 08:36:33 , Pila de llamadas
-06-03-2018 08:36:33 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-06-03-2018 08:36:33 , Objeto      : main
-06-03-2018 08:36:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-06-03-2018 08:36:33 , Nº de Linea :        216
-06-03-2018 08:36:34 , En el Fuente: 
-06-03-2018 08:36:34 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-06-03-2018 08:36:34 , Objeto      : leerempresa
-06-03-2018 08:36:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-06-03-2018 08:36:34 , Nº de Linea :       1952
-06-03-2018 08:36:34 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
-06-03-2018 08:36:34 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-06-03-2018 08:36:34 , Objeto      : crearcursoradapter
-06-03-2018 08:36:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-06-03-2018 08:36:35 , Nº de Linea :       1832
-06-03-2018 08:36:35 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
-06-03-2018 08:38:04 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 06-03-2018 08:38:04 , Pila de llamadas
 06-03-2018 08:38:05 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -487,6 +29,19 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 06-03-2018 08:38:06 , Nº de Linea :       1832
 06-03-2018 08:38:07 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 06-03-2018 11:25:37 , RINDEFLETE.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRMOVBVCOCAR'.;Linea : SELECT CsrMovBvcocar;Error :         13;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000097UX0
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -790,6 +345,19 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 as Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 08-03-2018 12:33:24 , Pila de llamadas
 08-03-2018 12:33:25 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -803,6 +371,19 @@ as Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo:
 08-03-2018 12:33:27 , Nº de Linea :         15
 08-03-2018 12:33:27 , En el Fuente:    	lcidusuarios = IIF(.pageframe1.pagecount#1,.pageframe1.page4.kitgrillatildarusuarios.cadenaelegidos(),'')
 08-03-2018 12:41:33 , SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: KITGRILLATILDARVENDEDOR es un miembro desconocido.;Linea : lcidvendedor	= .pageframe1.page5.kitgrillatildarvendedor.cadenaelegidos();Error :       1925;Ultimo Alias Activo: _CS
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1085,7 +666,33 @@ RCOMPROBANTE;Ultimo registro:         12 VAL(CNUMERO);DBF: C:\USERS\ADMIN\APPDAT
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 00.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Base
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1353,6 +960,19 @@ rete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as retencion2,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,
 
 
@@ -1487,7 +1107,33 @@ retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1763,7 +1409,33 @@ EMP\000082KP00CR.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   ,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5	   ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(13) as nom
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2025,7 +1697,33 @@ rete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2	  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 e4,000.00 as tasarete4   	   ,SPACE(13) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5       ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfletep
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2158,6 +1856,19 @@ e4,000.00 as tasarete4   	   ,SPACE(13) as nomrete5,00000000.00 as retencion5,00
 
 lanilla       ,SPACE(2) as categoria       FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE  
 03/12/18 11:27:11 , SUBCTACTE.PAGEFRAME1.PAGE1.KITGRILLATILDARCTACTE.INIT, Error: El archivo 'csrctacte.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2421,8 +2132,34 @@ lanilla       ,SPACE(2) as categoria       FROM CsrCabefac WHERE RECNO()=1 AND i
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 sor &micursor READWRITE
 12-03-2018 11:28:14 , SUBCTACTE.PAGEFRAME1.PAGE5.KITGRILLATILDARVDOR.INIT, Error: OCA no es un objeto.;Linea : oca.SelectCmd=lccmdSelect;Error :       1924;Ultimo Alias Activo: _CSRUSUARIOS;Ultimo registro:          1 VAL(CNUMERO);DBF: C:\USERS\ADMIN\APP
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2691,6 +2428,19 @@ DATA\LOCAL\TEMP\00007RIH00HP.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 DATA\LOCAL\TEMP\00007RIH00JF.TMP;Ultimo Control activo: 
 12-03-2018 11:29:43 , Pila de llamadas
 12-03-2018 11:29:44 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2714,6 +2464,19 @@ DATA\LOCAL\TEMP\00007RIH00JF.TMP;Ultimo Control activo:
 12-03-2018 11:29:48 , Nº de Linea :          8
 12-03-2018 11:29:48 , En el Fuente: oca.SelectCmd=lccmdSelect       
 12-03-2018 12:15:42 , LISPATRONCARGA_V1.INIT, Error: _OESTADORENDIDA es un miembro desconocido.;Linea : thisform.containerencabeza._oestadorendida.Value=1;Error :       1925;Ultimo Alias Activo: CSRFLETERO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2946,6 +2709,19 @@ DATA\LOCAL\TEMP\00007RIH00JF.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 \APPDATA\LOCAL\TEMP\00009QTL00BS.TMP;Ultimo Control activo: 
 12-03-2018 12:16:16 , Pila de llamadas
 12-03-2018 12:16:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
@@ -2954,6 +2730,19 @@ DATA\LOCAL\TEMP\00007RIH00JF.TMP;Ultimo Control activo:
 12-03-2018 12:16:17 , Nº de Linea :          1
 12-03-2018 12:16:17 , En el Fuente: thisform.containerencabeza._oestadorendida.Value=1
 12-03-2018 12:25:03 , LISPATRONCARGA_V1.INIT, Error: _TXTDESTINOEXPORTAR es un miembro desconocido.;Linea : ThisForm._txtDestinoExportar.Value = RutaCpraVta;Error :       1925;Ultimo Alias Activo: CSRFLETERO;Ultimo registro:          1 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3179,6 +2968,19 @@ IN\APPDATA\LOCAL\TEMP\00009QTL00SC.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 LOCAL\TEMP\00009QTL023W.TMP;Ultimo Control activo: 
 12-03-2018 12:40:56 , Pila de llamadas
 12-03-2018 12:40:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
@@ -3192,6 +2994,19 @@ LOCAL\TEMP\00009QTL023W.TMP;Ultimo Control activo:
 12-03-2018 12:40:59 , Nº de Linea :        123
 12-03-2018 12:40:59 , En el Fuente: SELECT CsrAuxCuerfac
 12-03-2018 12:42:07 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: _TXTDESTINOEXPORTAR es un miembro desconocido.;Linea : ;Error :       1925;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009QTL0
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3404,6 +3219,19 @@ LOCAL\TEMP\00009QTL023W.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 28K.TMP;Ultimo Control activo: 
 12-03-2018 12:42:49 , Pila de llamadas
 12-03-2018 12:42:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot.sct
@@ -3422,6 +3250,19 @@ LOCAL\TEMP\00009QTL023W.TMP;Ultimo Control activo:
 12-03-2018 12:42:53 , Nº de Linea :         27
 12-03-2018 12:42:53 , En el Fuente: 
 12-03-2018 13:02:18 , PATRONCARGA_COT.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF !SEEK(Csrcuerpo.idvendedor,"Csrauxiliar","idvendedor");Error :       1683;Ultimo Alias Activo: CSRCUERPO;Ultimo registro:          1 GRUPODA
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3608,6 +3449,19 @@ TO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009QTL02SK.TMP;Ultimo Control activo
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 16-03-2018 12:28:51 , Pila de llamadas
 16-03-2018 12:28:51 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3697,8 +3551,34 @@ wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 16-03-18 12:29:51 , LISRENFLETE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : lcCampo002 = IIF(CsrCurStock.estado=1,'ANU ','') + RTRIM(CsrCurStock.cabrevia)+' '+RTRIM(CsrCurStock.n
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3870,6 +3750,19 @@ umcomp)+' '+CsrCurStock.articulo;Error :        107;Ultimo Alias Activo: CSRCURS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 H oca,lcCmdCampos,lcTypeData,lcidestado,lclistar NAME lObjetoForm LINKED;Error :       2005;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003G2100D0.TMP;Ultimo Control activo: 
 19-03-2018 20:41:40 , Pila de llamadas
 19-03-2018 20:41:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
@@ -3878,6 +3771,19 @@ H oca,lcCmdCampos,lcTypeData,lcidestado,lclistar NAME lObjetoForm LINKED;Error :
 19-03-2018 20:41:41 , Nº de Linea :         13
 19-03-2018 20:41:41 , En el Fuente: DO FORM listaestadistica WITH oca,lcCmdCampos,lcTypeData,lcidestado,lclistar NAME lObjetoForm LINKED 
 19-03-2018 20:49:52 , PLANILLAPARAPEDIDOS.KITGRILLATILDARSTOCK.INIT, Error: El archivo 'csrproducto.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4031,8 +3937,34 @@ lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 19-03-2018 20:53:23 , PLANILLAPARAPEDIDOS.KITBUSCAOALTAENDEPENTRA.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4187,6 +4119,19 @@ ADMIN\APPDATA\LOCAL\TEMP\00003G2100IL.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXDEP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003G2100IM.TMP;Ultimo Control activo: 
 19-03-2018 20:54:41 , Pila de llamadas
 19-03-2018 20:54:42 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4257,8 +4202,34 @@ lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 20-03-2018 15:04:28 , LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCOMI'.;Linea : SELECT csrcomi;Error :         13;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4392,6 +4363,19 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ,0) as objetivo1 ,Nvl(csrcomi.comision1,0) as comision1,Nvl(csrcomi.objetivo2,0) as objetivo2 ,Nvl(csrcomi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimp
 
 
@@ -4451,7 +4435,33 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 rimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) AND CsrComi.origen='A' into CURSOR 'csrimprimir2' readwrite;Error :       1806;Ultimo Alias Activo: CSRCOMI;Ultimo registro:          1 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4576,7 +4586,33 @@ ADMIN\APPDATA\LOCAL\TEMP\00007XFT03QX.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 comi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3,Nvl(csrcomi.comision3,0) as comision3FROM csrimprimirleft join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) AN
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4686,6 +4722,19 @@ D CsrComi.origen='A'into CURSOR 'csrimprimir2' readwrite
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ,0) as objetivo1 ,Nvl(csrcomi.comision1,0) as comision1,Nvl(csrcomi.objetivo2,0) as objetivo2 ,Nvl(csrcomi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimp
 
 
@@ -4740,7 +4789,33 @@ D CsrComi.origen='A'into CURSOR 'csrimprimir2' readwrite
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 rimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) AND CsrComi.origen='A' into CURSOR 'csrimprimir2' readwrite;Error :       1806;Ultimo Alias Activo: CSRCOMI;Ultimo registro:          1 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4855,7 +4930,33 @@ ADMIN\APPDATA\LOCAL\TEMP\00007XFT03SM.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 comi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3,Nvl(csrcomi.comision3,0) as comision3FROM csrimprimirleft join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) AN
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4955,6 +5056,19 @@ D CsrComi.origen='A'into CURSOR 'csrimprimir2' readwrite
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ,0) as objetivo1 ,Nvl(csrcomi.comision1,0) as comision1,Nvl(csrcomi.objetivo2,0) as objetivo2 ,Nvl(csrcomi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimp
 
 
@@ -5004,7 +5118,33 @@ D CsrComi.origen='A'into CURSOR 'csrimprimir2' readwrite
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 rimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) AND CsrComi.origen='A' into CURSOR 'csrimprimir2' readwrite;Error :       1806;Ultimo Alias Activo: CSRCOMI;Ultimo registro:          1 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5108,7 +5248,33 @@ ADMIN\APPDATA\LOCAL\TEMP\00007XFT03T8.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 comi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3,Nvl(csrcomi.comision3,0) as comision3FROM csrimprimirleft join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) AN
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5196,7 +5362,33 @@ D CsrComi.origen='A'into CURSOR 'csrimprimir2' readwrite
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) AND CsrComi.origen='A' into CURSOR 'csrimprimir2' readwrite;Error :       1806;Ultimo Alias Activo: CSRCOMI;Ultimo registro:     
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5289,6 +5481,19 @@ join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgru
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
  OR csrcomi.idgrupo=0) AND CsrComi.origen='A'into CURSOR 'csrimprimir2' readwrite
 20-03-2018 15:54:48 , LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'OBJETIVO1'.;Linea : replace ALL comision WITH IIF(idgrupo<>idgrupocomi .or. idgrupo=0,comision,IIF(unidades<objetivo1,porcentaje,IIF(unidades<ob
 
@@ -5328,7 +5533,33 @@ join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgru
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 jetivo2,comision1,IIF(unidades<objetivo3,comision2,IIF(objetivo3=0,porcentaje,comision3)))));Error :         12;Ultimo Alias Activo: CSRIMPRIMIR2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007XFT040D.TMP;Ultimo Control activo: 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5413,6 +5644,19 @@ jetivo2,comision1,IIF(unidades<objetivo3,comision2,IIF(objetivo3=0,porcentaje,co
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 20-03-2018 15:57:01 , LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'OBJETIVO1'.;Linea : replace ALL comision WITH IIF(idgrupo<>idgrupocomi .or. idgrupo=0,comision,IIF(unidades<objetivo1,porcentaje,IIF(unidades<ob
 
 
@@ -5447,7 +5691,33 @@ jetivo2,comision1,IIF(unidades<objetivo3,comision2,IIF(objetivo3=0,porcentaje,co
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 jetivo2,comision1,IIF(unidades<objetivo3,comision2,IIF(objetivo3=0,porcentaje,comision3)))));Error :         12;Ultimo Alias Activo: CSRIMPRIMIR2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007XFT0429.TMP;Ultimo Control activo: 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5522,7 +5792,33 @@ jetivo2,comision1,IIF(unidades<objetivo3,comision2,IIF(objetivo3=0,porcentaje,co
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 21-03-2018 11:36:03 , LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'COMISION'.;Linea : replace comision WITH CsrComi.comision IN CsrImprimir;Error :         12;Ultimo Alias Activo: CSRCOMI;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5585,7 +5881,33 @@ jetivo2,comision1,IIF(unidades<objetivo3,comision2,IIF(objetivo3=0,porcentaje,co
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 i.comision1,IIF(CsrComi.unidades<CsrComi.objetivo3,CsrComi.comision2,IIF(CsrComi.objetivo3=0,CsrComi.porcentaje,CsrComi.comision3)))) IN CsrImprimir;Error :         12;Ultimo Alias Activo: CSRCOMI;Ultimo registro:        266 ;DBF: C:\USERS\ADMIN\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5638,8 +5960,34 @@ LOCAL\TEMP\000089VT0075.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 o3=0,CsrComi.porcentaje,CsrComi.comision3)))) IN CsrImprimir
 26-03-2018 14:08:06 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5687,6 +6035,19 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 26-03-2018 14:11:35 , Pila de llamadas
 26-03-2018 14:11:38 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5710,6 +6071,19 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 26-03-2018 14:16:29 , Pila de llamadas
 26-03-2018 14:16:32 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5727,3 +6101,42 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 26-03-2018 14:16:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
 26-03-2018 14:16:47 , Nº de Linea :       1832
 26-03-2018 14:16:51 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
+28-03-2018 13:05:32 , REGFACVTA.KEYPRESS, Error: No se encuentra la propiedad GENERAFACTURACOT.;Linea : lbimpriok = .Objimpresor.generafacturacot("F",30);Error :       1734;Ultimo Alias Activo: CSRCABEIMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
+
+
+
+
+
+
+
+
+
+
+
+APPDATA\LOCAL\TEMP\0000C009027M.TMP;Ultimo Control activo: 
+28-03-2018 13:05:33 , Pila de llamadas
+28-03-2018 13:05:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:34 , Objeto      : regfacvta.keypress
+28-03-2018 13:05:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:35 , Nº de Linea :         69
+28-03-2018 13:05:35 , En el Fuente: 			        .cargardatosctacte()      
+28-03-2018 13:05:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:36 , Objeto      : regfacvta.cargardatosctacte
+28-03-2018 13:05:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:37 , Nº de Linea :          6
+28-03-2018 13:05:37 , En el Fuente: 	this.key_43()
+28-03-2018 13:05:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:37 , Objeto      : regfacvta.key_43
+28-03-2018 13:05:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:38 , Nº de Linea :         11
+28-03-2018 13:05:38 , En el Fuente: 	thisform.actualizar()
+28-03-2018 13:05:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:39 , Objeto      : regfacvta.actualizar
+28-03-2018 13:05:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:40 , Nº de Linea :         53
+28-03-2018 13:05:41 , En el Fuente: 					llok = .imprimir(thisform.lcimpresora,Csrprefitermi.tipoimpresora,1)
+28-03-2018 13:05:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:42 , Objeto      : regfacvta.imprimir
+28-03-2018 13:05:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
+28-03-2018 13:05:43 , Nº de Linea :         62
+28-03-2018 13:05:43 , En el Fuente: 				lbimpriok = .Objimpresor.generafacturacot("F",30)
