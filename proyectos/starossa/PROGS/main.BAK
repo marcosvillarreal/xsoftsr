@@ -66,13 +66,14 @@ If lldesarrollo
    _rutaformsa  =lcdd+'forms\arqueo'
    _rutaformse  =lcdd+'forms\exportar'
    _rutaformvta  =lcdd+'forms\venta'
+   _rutaformped  =lcdd+'forms\pedidos'
    
    Set default to (lcdd) &&;(lcddc)
 
    Set path to &_rutaclases,&_rutaprogs,&_rutamenu,&_rutadatos,&_rutabmps,&_rutaforms;
                ,&_rutareports,&_rutaclased,&_rutabmpd,&_rutaformsDesarrollo,&_rutaffc;
                ,&_rutalib, &_rutaformsb, &_rutaformscc, &_rutaformsc, &_rutaformsre;
-               ,&_rutaformsa,&_rutaformse,&_rutaformvta
+               ,&_rutaformsa,&_rutaformse,&_rutaformvta,&_rutaformped
 Endif
 
 
