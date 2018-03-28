@@ -99,6 +99,7 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 *   SET  CLASSLIB  TO  xfrxlib ADDITIVE 
 *   SET LIBRARY TO xfrxlib.fll ADDITIVE 
 	 SET CLASSLIB  TO  ZIP ADDITIVE 
+	SET LIBRARY TO vfpconnection.fll ADDITIVE 
 
 *clear all
 
