@@ -1,12 +1,3 @@
-Error nº:       1806
-Error SQL: no se encuentra la columna 'DIRECCION'.
- Alias CSRIMPRIMIR registro          1
-Control activo  LISTAABM.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-10-10-2017 09:59:09 , Linea nº SELECT CsrListado.* FROM CsrListado WHERE id &lcCadena INTO CURSOR CsrCursor READWRITE
-Error nº:       1230
-Error Hay demasiados argumentos.
- Alias _CSRLISTADO registro         61
-Control activo  LISTAABM.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 10-10-2017 10:06:25 , Linea nº SELECT numero,nombre,direccion,telefono,flete,ctacte FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE
 Error nº:       1806
 Error SQL: no se encuentra la columna 'DIRECCION'.
@@ -158,7 +149,9 @@ Control activo  ABMPRODUCTO.CMDINFORME.CLICK
 
 
 
+
 marca,Csrcursor.numero,CsrCursor.nombre,lObjprecio.costosiniva ,lobjprecio.costoconiva,CsrCursor.margen1,lObjprecio.prevta1,lobjprecio.prevtaciva1 ,CsrCursor.margen2,lObjprecio.prevta2,lobjprecio.prevtaciva2,CsrCursor.nomrubro ,CsrCursor.nummarca,CsrCurs
+
 
 
 
@@ -619,6 +612,7 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCATEGO'.
@@ -741,6 +735,7 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1807
 Error SQL: la cláusula GROUP BY falta o no es válida.
@@ -752,6 +747,7 @@ Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 02-11-2017 16:23:00 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
 
 
 
@@ -1243,6 +1239,7 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 E
 Error nº:       1806
 Error SQL: no se encuentra la columna 'NOMCATEGO'.
@@ -1289,6 +1286,7 @@ Error SQL: no se encuentra la columna 'NOMBRUBRO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 20-12-2017 10:50:08 , Linea nº SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio ,precio*unidades,deposito,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImpri
+
 
 
 
@@ -1461,6 +1459,7 @@ Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 to ,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori)
 Error nº:         12
 Error No se encuentra la variable 'NROCTACTE'.
@@ -1533,7 +1532,9 @@ Control activo  SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
 
 
 
@@ -1587,7 +1588,9 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
 
 
 
@@ -1720,7 +1723,9 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
 
 
 
@@ -1756,7 +1761,9 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
 
 
 
@@ -1790,7 +1797,9 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
 
 
 
@@ -1810,6 +1819,7 @@ Error SQL: no se encuentra la columna 'IDPRODUCTO'.
  Alias CSRCOMI registro          1
 Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 20-03-2018 15:53:03 , Linea nº SELECT csrimprimir.*, Nvl(csrcomi.idgrupo,0) as idgrupo ,nvl(csrcomi.porcentaje,0) as porcentaje FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo O
+
 
 
 
@@ -1843,6 +1853,7 @@ Error No se encuentra la variable 'COMISION'.
  Alias CSRCOMI registro        266
 Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 21-03-2018 11:39:36 , Linea nº replace comision WITH IIF(CsrComi.unidades<CsrComi.objetivo1,CsrComi.porcentaje,IIF(CsrComi.unidades<CsrComi.objetivo2,CsrComi.comision1,IIF(CsrComi.unidades<CsrComi.objetivo3,CsrComi.comision2,IIF(CsrComi.objetivo3=0,CsrCo
+
 
 
 
@@ -1885,12 +1896,14 @@ Control activo BONIF REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE
 
 
 
+
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
 Error nº:       1581
 Error El campo ID no acepta valores NULL.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 04-04-2018 11:40:29 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
+
 
 
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
@@ -1900,16 +1913,27 @@ Error El campo ID no acepta valores NULL.
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 04-04-2018 11:46:36 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
 
+
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
 Error nº:       1581
 Error El campo ID no acepta valores NULL.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 04-04-2018 12:12:54 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
+
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
 Error nº:       1581
 Error El campo ID no acepta valores NULL.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
-04-04-2018 14:15:07 , Linea nº IF RECCOUNT(lcaliasseek)#0Error nº:         13Error No se encuentra el alias. Alias  registro          0Control activo  RESCTACTE.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
-06-04-2018 11:06:33 , Linea nº .oFacCAE.EstadoConexion()Error nº:       1734Error No se encuentra la propiedad ESTADOCONEXION. Alias  registro          0Control activo  REGPIDOCAEA.ACEPTAR2.CLICK
+04-04-2018 14:15:07 , Linea nº IF RECCOUNT(lcaliasseek)#0
+Error nº:         13
+Error No se encuentra el alias.
+ Alias  registro          0
+Control activo  RESCTACTE.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
+06-04-2018 11:06:33 , Linea nº .oFacCAE.EstadoConexion()
+Error nº:       1734
+Error No se encuentra la propiedad ESTADOCONEXION.
+ Alias  registro          0
+Control activo  REGPIDOCAEA.ACEPTAR2.CLICK
+17-04-2018 12:44:57 , Linea nº SELECT nomrubro,numero,codalfa,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1,margen2,pvta2,pvtaciva2 &lcmarca FROM CsrImprimir ORDER BY idrubro,idmarca INTO CURSOR CsrImprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'CODBARRA13'. Alias CSRIMPRIMIR registro       2123Control activo  MAIN
