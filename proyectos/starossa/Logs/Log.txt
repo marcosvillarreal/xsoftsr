@@ -1,46 +1,3 @@
-Error nº:         13
-Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
- Alias CSRBLOQUEOUSER registro          1
-Control activo  ABMCATECTACTE.CMDSELECCIONAR.CLICK
-02-11-2017 12:35:55 , Linea nº return (&lcAlias)
-Error nº:         13
-Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
- Alias CSRBLOQUEOUSER registro          1
-Control activo  ABMCATECTACTE.CMDSELECCIONAR.CLICK
-02-11-2017 12:38:52 , Linea nº .chkpromocion.Value = VAL(LEFT(Csrcatectacte.switch,1))
-Error nº:       1925
-Error CHKPROMOCION es un miembro desconocido.
- Alias CSRSEGCTACTEVTA registro          1
-Control activo NOMBRE ABMCATECTACTE._TEXTBOX1.KEYPRESS
-02-11-2017 12:39:57 , Linea nº loObjcol.controlsource = lCaliasNavega+'.'+lccadena
-Error nº:         13
-Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
- Alias CSRBLOQUEOUSER registro          1
-Control activo  ABMCATECTACTE._TEXTBOX1.KEYPRESS
-02-11-2017 12:46:13 , Linea nº loGrid.setfocus()
-Error nº:       2012
-Error No se puede llamar a SetFocus desde un evento When, Valid, RangeHigh o RangeLow.
- Alias CSRSEGCTACTEVTA registro          1
-Control activo  ABMCATECTACTE.CONTENEDOR1.GRIDABM1.VALID
-02-11-2017 12:47:33 , Linea nº loObjcol.controlsource = lCaliasNavega+'.'+lccadena
-Error nº:         13
-Error No se encuentra el alias 'CSRSEGCTACTEVTA'.
- Alias CSRBLOQUEOUSER registro          1
-Control activo  ABMCATECTACTE._TEXTBOX1.KEYPRESS
-02-11-2017 13:39:18 , Linea nº lcperiodo= strzero(thisform.containerencabeza._spinneraniofiscal.Value,4)
-Error nº:       1925
-Error _SPINNERANIOFISCAL es un miembro desconocido.
- Alias CSRAUXILIAR registro          1
-Control activo  REGSEGVENTA.INIT
-02-11-2017 13:40:24 , Linea nº .cmdInsert.Visible = .f.
-Error nº:       1925
-Error CMDINSERT es un miembro desconocido.
- Alias CSRAUXILIAR registro          1
-Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
-02-11-2017 13:40:28 , Linea nº .cmdInsert.Visible = .f.
-Error nº:       1925
-Error CMDINSERT es un miembro desconocido.
- Alias CSRAUXILIAR registro          1
 Control activo  REGSEGVENTA.CONTAINERENCABEZA.GOTFOCUS
 02-11-2017 13:40:34 , Linea nº .cmdsuprimir.Visible = .f.
 Error nº:       1925
@@ -317,6 +274,11 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1806
 Error SQL: no se encuentra la columna 'CODCATEGO'.
@@ -444,6 +406,11 @@ Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 rtefinal,bonificacion order BY idvendedor,importefinal desc into cursor csraux3
 Error nº:       1807
 Error SQL: la cláusula GROUP BY falta o no es válida.
@@ -455,6 +422,11 @@ Error SQL: no se encuentra la columna 'CODCTAEGO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 02-11-2017 16:23:00 , Linea nº SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, (importefinal-bonificacion) as importefinal ,codcatego,nomcatego from csraux group by idvendedor,idarticulo,codvendedor,codigo,articulo,nomvendedor,impo
+
+
+
+
+
 
 
 
@@ -956,6 +928,11 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 E
 Error nº:       1806
 Error SQL: no se encuentra la columna 'NOMCATEGO'.
@@ -1002,6 +979,11 @@ Error SQL: no se encuentra la columna 'NOMBRUBRO'.
  Alias CSRIMPRIMIR registro          1
 Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 20-12-2017 10:50:08 , Linea nº SELECT ctacte,nomctacte,CsrImprimir.numero,codalfa,nombre,nomsubprod,bultos,unisuel,unidades,precio ,precio*unidades,deposito,CsrMargen.margen1,codcatego,nomcatego ,bonifinfo FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImpri
+
+
+
+
+
 
 
 
@@ -1184,6 +1166,11 @@ Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 to ,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori)
 Error nº:         12
 Error No se encuentra la variable 'NROCTACTE'.
@@ -1261,7 +1248,17 @@ Control activo  SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
 
 
 
@@ -1325,7 +1322,17 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
 
 
 
@@ -1468,7 +1475,17 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
+
+
+
 
 
 
@@ -1514,7 +1531,17 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
+
+
+
 
 
 
@@ -1558,7 +1585,17 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
+
+
+
 
 
 
@@ -1600,6 +1637,11 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 R csrcomi.idgrupo=0) AND CsrComi.origen='A' into CURSOR 'csrimprimir2' readwrite
 Error nº:       1806
 Error SQL: no se encuentra la columna 'IDPRODUCTO'.
@@ -1621,6 +1663,11 @@ Error No se encuentra la variable 'COMISION'.
  Alias CSRCOMI registro        266
 Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 21-03-2018 11:39:36 , Linea nº replace comision WITH IIF(CsrComi.unidades<CsrComi.objetivo1,CsrComi.porcentaje,IIF(CsrComi.unidades<CsrComi.objetivo2,CsrComi.comision1,IIF(CsrComi.unidades<CsrComi.objetivo3,CsrComi.comision2,IIF(CsrComi.objetivo3=0,CsrCo
+
+
+
+
+
 
 
 
@@ -1673,12 +1720,22 @@ Control activo BONIF REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE
 
 
 
+
+
+
+
+
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
 Error nº:       1581
 Error El campo ID no acepta valores NULL.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 04-04-2018 11:40:29 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
+
+
+
+
+
 
 
 
@@ -1698,12 +1755,22 @@ Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
 Error nº:       1581
 Error El campo ID no acepta valores NULL.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 04-04-2018 12:12:54 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
+
+
+
+
+
 
 
 
@@ -1736,11 +1803,31 @@ Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utiliz
 Control activo  MAIN
 20-04-2018 11:09:28 , Linea nº SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00
 
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
 
 cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) a
 
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
 
 WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
 Error nº:          1
@@ -1752,5 +1839,39 @@ Error nº:         12
 Error No se encuentra la variable 'SWITCH'.
  Alias CSRAUXCARGA registro          1
 Control activo  LISPATRONCARGA_V1.CMDPROCESAR.CLICK
-20-04-2018 11:27:26 , Linea nº go this.recnoareaini in (lcalias)Error nº:       1771Error Ya existe un objeto miembro con este nombre. Alias  registro          0Control activo  ON... 
-20-04-2018 11:32:50 , Linea nº this.cadenaerror = ""Error nº:       1734Error No se encuentra la propiedad CADENAERROR. Alias CSRFLETERO registro          1Control activo  LISPATRONCARGA_V1.ACEPTAR1.CLICK
+20-04-2018 11:27:26 , Linea nº go this.recnoareaini in (lcalias)
+Error nº:       1771
+Error Ya existe un objeto miembro con este nombre.
+ Alias  registro          0
+Control activo  ON... 
+20-04-2018 11:32:50 , Linea nº this.cadenaerror = ""
+Error nº:       1734
+Error No se encuentra la propiedad CADENAERROR.
+ Alias CSRFLETERO registro          1
+Control activo  LISPATRONCARGA_V1.ACEPTAR1.CLICK
+25-04-2018 13:35:25 , Linea nº thisform.traerproductofuerzavta(lnidfuerzavta)
+Error nº:         12
+Error No se encuentra la variable 'LNIDFUERZAVTA'.
+ Alias CSRAUXMAOPERA registro          1
+Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
+25-04-2018 13:35:51 , Linea nº thisform.traerproductofuerzavta(lnidfuerzavta)
+Error nº:         12
+Error No se encuentra la variable 'LNIDFUERZAVTA'.
+ Alias CSRFLETERO registro          1
+Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
+25-04-2018 13:41:47 , Linea nº thisform.traerproductofuerzavta(lnidfuerzavta)
+Error nº:         12
+Error No se encuentra la variable 'LNIDFUERZAVTA'.
+ Alias CSRAUXMAOPERA registro          1
+Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
+25-04-2018 13:42:15 , Linea nº thisform.traerproductofuerzavta(lnidfuerzavta)
+Error nº:         12
+Error No se encuentra la variable 'LNIDFUERZAVTA'.
+ Alias  registro          0
+Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
+25-04-2018 13:43:11 , Linea nº thisform.traerproductofuerzavta(lnidfuerzavta)
+Error nº:         12
+Error No se encuentra la variable 'LNIDFUERZAVTA'.
+ Alias  registro          0
+Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
+25-04-2018 13:47:11 , Linea nº this.containeringreso.lblcontador.Caption = strtrim(nContador)Error nº:       1925Error CONTAINERINGRESO es un miembro desconocido. Alias CSRAUXCUERFAC registro          1Control activo PARADA REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
