@@ -1,3 +1,20 @@
+*------------------------------------------------------------
+*-Mensaje de Error para operadores del sistema
+*------------------------------------------------------------
+FUNCTION VerErrorSQL
+PARAMETERS nError
+
+LOCAL cMensaje
+DO CASE 
+CASE nError=0
+	cMensaje = ""
+OTHERWISE 
+	cMensaje = ""
+ENDCASE
+RETURN cMensaje
+ENDFUNC 
+*----------------------------------------------------------
+
 FUNCTION CursorAdapterToXML
 PARAMETERS cAlias,cFileName,cEncoding,nOutputFormat,nFlags
 cEncoding		= IIF(PCOUNT()<3,"iso-8859-1",cEncoding)
