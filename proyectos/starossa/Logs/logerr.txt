@@ -1,575 +1,3 @@
-19-06-2018 12:39:05 , Nº de Linea :          3
-19-06-2018 12:39:05 , En el Fuente: lcidfletero = CsrFletero.id
-19-06-2018 12:42:17 , ABMCHOFER.CMDAGREGAR.CLICK, Error: No se encuentra el alias 'CSRFLETERO'.;Linea : lcidfletero = CsrFletero.id;Error :         13;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4GLL04T4.TMP;Ultimo Control activo: 
-19-06-2018 12:42:18 , Pila de llamadas
-19-06-2018 12:42:19 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-19-06-2018 12:42:19 , Objeto      : abmchofer.cmdagregar.click
-19-06-2018 12:42:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-19-06-2018 12:42:20 , Nº de Linea :         40
-19-06-2018 12:42:20 , En el Fuente: 	.despuesagregar
-19-06-2018 12:42:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmchofer.sct
-19-06-2018 12:42:20 , Objeto      : abmchofer.despuesagregar
-19-06-2018 12:42:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmchofer.sct
-19-06-2018 12:42:21 , Nº de Linea :          3
-19-06-2018 12:42:21 , En el Fuente: lcidfletero = CsrFletero.id
-19-06-2018 12:43:45 , ABMCHOFER.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM2.GOTFOCUS, Error: No se encuentra el alias 'CSRFLETERO'.;Linea : Select(this.careaini);Error :         13;Ultimo Alias Activo: CSRCHOFER;Ultimo registro:         -1 ;DBF: C:\USE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL04TO.TMP;Ultimo Control activo: 
-19-06-2018 12:43:45 , Pila de llamadas
-19-06-2018 12:43:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-06-2018 12:43:46 , Objeto      : abmchofer.contenedor1.pframe1.page1.kitbuscaoaltaenabm2.gotfocus
-19-06-2018 12:43:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-06-2018 12:43:47 , Nº de Linea :         17
-19-06-2018 12:43:47 , En el Fuente: Select(this.careaini)
-19-06-2018 12:45:21 , ABMCHOFER.CMDSALVAR.CLICK, Error: No se encuentra el alias 'CSRFLETERO'.;Linea : lcswitch      = IIF(EMPTY(Csrfletero.switch),"00000",Csrfletero.switch);Error :         13;Ultimo Alias Activo: CSRCHOFER;Ultimo registro:         -1 ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL04UM.TMP;Ultimo Control activo: 
-19-06-2018 12:45:21 , Pila de llamadas
-19-06-2018 12:45:22 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-19-06-2018 12:45:22 , Objeto      : abmchofer.cmdsalvar.click
-19-06-2018 12:45:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-19-06-2018 12:45:22 , Nº de Linea :          9
-19-06-2018 12:45:22 , En el Fuente: 		llok=.salvar()
-19-06-2018 12:45:22 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-19-06-2018 12:45:23 , Objeto      : abmchofer.salvar
 19-06-2018 12:45:23 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
 19-06-2018 12:45:23 , Nº de Linea :         19
 19-06-2018 12:45:24 , En el Fuente:    llok=thisform.validar()
@@ -579,6 +7,17 @@ DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL04UM.TMP;Ultimo Control activo:
 19-06-2018 12:45:24 , Nº de Linea :         20
 19-06-2018 12:45:25 , En el Fuente: lcswitch      = IIF(EMPTY(Csrfletero.switch),"00000",Csrfletero.switch)
 19-06-2018 12:49:13 , REGORDENCARGA.CONTAINERDATOS.KITBUSCAOALTAENCHOFER.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -933,6 +372,17 @@ IN\APPDATA\LOCAL\TEMP\00004GLL04ZU.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 \ADMIN\APPDATA\LOCAL\TEMP\00004GLL052K.TMP;Ultimo Control activo: 
 19-06-2018 12:50:26 , Pila de llamadas
 19-06-2018 12:50:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -946,6 +396,17 @@ IN\APPDATA\LOCAL\TEMP\00004GLL04ZU.TMP;Ultimo Control activo:
 19-06-2018 12:50:28 , Nº de Linea :         25
 19-06-2018 12:50:28 , En el Fuente:    this.txtexiste1.value = &lccampovalue 
 19-06-2018 13:03:12 , REGORDENCARGA.ACEPTAR1.CLICK, Error: _TXTDESTINOEXPORTAR es un miembro desconocido.;Linea : cRuta	= ADDBS(this.containerencabeza._txtDestinoExportar.Value);Error :       1925;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1277,6 +738,17 @@ IN\APPDATA\LOCAL\TEMP\00004GLL04ZU.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 P\00004GLL075E.TMP;Ultimo Control activo: 
 19-06-2018 13:48:39 , Pila de llamadas
 19-06-2018 13:48:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -1290,6 +762,17 @@ P\00004GLL075E.TMP;Ultimo Control activo:
 19-06-2018 13:48:42 , Nº de Linea :         31
 19-06-2018 13:48:43 , En el Fuente: INDEX on idmaopera TAG kidmaopera
 19-06-2018 13:50:22 , REGORDENCARGA.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'IDCABEMAOPE'.;Linea : INSERT INTO CsrAuxCuerCarga (idcabemaope, idcabefac, idvalor, plazo,observacion,valor) VALUES (CsrCuerpo.idmaopera,CsrCuerpo.idcabeza,CsrValo
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1604,6 +1087,17 @@ r.id,CsrValor.plazo,'',CsrValor.nombre);Error :         12;Ultimo Alias Activo: 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL07AH.TMP;Ultimo Control activo: 
 19-06-2018 13:51:40 , Pila de llamadas
 19-06-2018 13:51:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -1617,6 +1111,17 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL07AH.TMP;Ultimo Control activo:
 19-06-2018 13:51:43 , Nº de Linea :         10
 19-06-2018 13:51:44 , En el Fuente: SET FILTER TO idcabemaope = CsrAuxCabefac.idmaopera
 19-06-2018 13:53:50 , REGORDENCARGA.ACEPTAR1.CLICK, Error: No se encuentra la propiedad ACCION.;Linea : CASE .accion$"A";Error :       1734;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:         12 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1912,6 +1417,17 @@ GLL07D6.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
  Control activo: 
 19-06-2018 14:10:47 , Pila de llamadas
 19-06-2018 14:10:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -1937,6 +1453,17 @@ GLL07D6.TMP;Ultimo Control activo:
 19-06-2018 14:16:11 , Nº de Linea :         42
 19-06-2018 14:16:12 , En el Fuente: 				IF lentrim(this.cadenaerrores)
 19-06-2018 14:25:08 , REGORDENCARGA.CHKBOX_CARGASGRAL.CLICK, Error: CHKGRID1GRAL es un miembro desconocido.;Linea : thisform.chkgrid1gral.Value = lvalue;Error :       1925;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:         15 NROCARGA;DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2203,6 +1730,17 @@ S\ADMIN\APPDATA\LOCAL\TEMP\00004GLL08QK.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 :\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL09BH.TMP;Ultimo Control activo: VALOR
 19-06-2018 14:31:07 , Pila de llamadas
 19-06-2018 14:31:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -2211,6 +1749,17 @@ S\ADMIN\APPDATA\LOCAL\TEMP\00004GLL08QK.TMP;Ultimo Control activo:
 19-06-2018 14:31:09 , Nº de Linea :          2
 19-06-2018 14:31:09 , En el Fuente: thisform.cmdCambiaFlete.Visible=.f.
 19-06-2018 15:00:16 , REGORDENCARGA.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'VALOR'.;Linea : INSERT INTO CsrAuxCuerCarga (idmaopera, idcabefac, idvalor, plazo,observacion,valor) VALUES (CsrCuerpo.idmaopera,CsrCuerpo.idcabeza,CsrValor.id,Csr
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2469,6 +2018,17 @@ Valor.plazo,'',CsrValor.nombre);Error :         12;Ultimo Alias Activo: CSRAUXCA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 IDMAOPERA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL0BCA.TMP;Ultimo Control activo: 
 19-06-2018 15:00:54 , Pila de llamadas
 19-06-2018 15:00:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -2482,6 +2042,17 @@ IDMAOPERA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL0BCA.TMP;Ultimo Control
 19-06-2018 15:00:57 , Nº de Linea :        162
 19-06-2018 15:00:57 , En el Fuente: thisform.grid1.column1.ControlSource = "Csrauxcuercarga.valor"
 19-06-2018 15:01:45 , REGORDENCARGA.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'VALOR'.;Linea : thisform.grid1.column1.ControlSource = "Csrauxcuercarga.valor";Error :         12;Ultimo Alias Activo: CSRAUXCUERCARGA;Ultimo registro:         15 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2724,6 +2295,17 @@ IDMAOPERA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL0BF4.TMP;Ultimo Control
 
 
 
+
+
+
+
+
+
+
+
+
+
+
    1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX006J.TMP;Ultimo Control activo: 
 22-06-2018 09:51:31 , Pila de llamadas
 22-06-2018 09:51:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -2737,6 +2319,17 @@ IDMAOPERA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL0BF4.TMP;Ultimo Control
 22-06-2018 09:51:33 , Nº de Linea :         20
 22-06-2018 09:51:34 , En el Fuente: lcCmdDatoInicial = DTOC(thisform.containerencabeza._txtfecha.Value)+"\ "
 22-06-2018 09:52:56 , REGORDENCARGA.CONSULTAR.CLICK, Error: No se encuentra la propiedad TIPOFORM.;Linea : lcOrigen = IIF(thisform.tipoform$'FPD',"FAC","NPE");Error :       1734;Ultimo Alias Activo: CSRCABECARGA;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2962,6 +2555,17 @@ IDMAOPERA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004GLL0BF4.TMP;Ultimo Control
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX00E2.TMP;Ultimo Control activo: 
 22-06-2018 09:53:30 , Pila de llamadas
 22-06-2018 09:53:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -2980,6 +2584,17 @@ ro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX00E2.TMP;U
 22-06-2018 09:53:35 , Nº de Linea :         15
 22-06-2018 09:53:36 , En el Fuente: 			.idcompanulacion = VAL(loObjeto.idcompanulacion)
 22-06-2018 10:15:01 , REGORDENCARGA.CONSULTAR.CLICK, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : REPLACE FOR estado='1' Csrnombre WITH LOWER(Csrnombre) IN CsrCursor;Error :        107;Ultimo Alias Activo: CSRCURSOR;Ul
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3191,6 +2806,17 @@ timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX01D0.T
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 PPDATA\LOCAL\TEMP\00005UYX01GD.TMP;Ultimo Control activo: 
 22-06-2018 10:16:06 , Pila de llamadas
 22-06-2018 10:16:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -3209,6 +2835,17 @@ PPDATA\LOCAL\TEMP\00005UYX01GD.TMP;Ultimo Control activo:
 22-06-2018 10:16:10 , Nº de Linea :          3
 22-06-2018 10:16:10 , En el Fuente:    thisform.idfactura = thisform.devolvercid()  
 22-06-2018 10:18:25 , REGORDENCARGA.CONSULTAR.CLICK, Error: No se encuentra la propiedad DEVOLVERCID.;Linea : thisform.idfactura = thisform.devolvercid();Error :       1734;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 IDVENDEDOR;DBF: C:\U
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3391,6 +3028,17 @@ SERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX01IM.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 imo Control activo: 
 22-06-2018 10:29:56 , Pila de llamadas
 22-06-2018 10:29:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -3419,6 +3067,17 @@ imo Control activo:
 22-06-2018 10:30:02 , Nº de Linea :         72
 22-06-2018 10:30:02 , En el Fuente: 	      &lcLocate
 22-06-2018 10:52:31 , REGORDENCARGA.CMDIMPRIMIR.CLICK, Error: No coinciden los tipos de datos.;Linea : replace grupo WITH 'A',nroorden WITH CsrCabeCarga.numero, codtrans WITH CsrCtacte.cnumero, nomtrans WITH CsrCtacte.cnombre ,codchofer WITH CsrChofer.nu
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3569,6 +3228,17 @@ mero, nomchofer WITH CsrChofer.nombre IN CsrImpCabe;Error :          9;Ultimo Al
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ATA\LOCAL\TEMP\00005UYX05S9.TMP;Ultimo Control activo: 
 22-06-2018 10:53:20 , Pila de llamadas
 22-06-2018 10:53:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -3582,6 +3252,17 @@ ATA\LOCAL\TEMP\00005UYX05S9.TMP;Ultimo Control activo:
 22-06-2018 10:53:22 , Nº de Linea :         34
 22-06-2018 10:53:22 , En el Fuente: where CsrCuerpo.idcabeza = <<cidcarga>>
 22-06-2018 10:56:25 , REGORDENCARGA.CMDIMPRIMIR.CLICK, Error: No se encuentra el alias 'CSRIMPCUE'.;Linea : APPEND BLANK IN CsrImpCue;Error :         13;Ultimo Alias Activo: CSRCUERPOIMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3717,6 +3398,17 @@ ATA\LOCAL\TEMP\00005UYX05S9.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 dvalor ,plazo WITH plazo,observacion WITH observacion IN CsrImpCue;Error :         12;Ultimo Alias Activo: CSRCUERPOIMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX05ZL.TMP;Ultimo Control activo: 
 22-06-2018 10:57:01 , Pila de llamadas
 22-06-2018 10:57:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -3784,7 +3476,29 @@ dvalor ,plazo WITH plazo,observacion WITH observacion IN CsrImpCue;Error :      
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 rpoImp.cdireccion ,total WITH CsrCuerpoImp.total,idvalor WITH CsrCuerpoImp.idvalor ,plazo WITH CsrCuerpoImp.plazo ,observacion WITH CsrCuerpoImp.observacion IN CsrImpCue;Error :         12;Ultimo Alias Activo: CSRCUERPOIMP;Ultimo registro:          1 ;DB
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3901,8 +3615,30 @@ F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX063A.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 uerpoImp.idvalor ,plazo WITH CsrCuerpoImp.plazo			,observacion WITH CsrCuerpoImp.observacion IN CsrImpCue
 22-06-2018 11:13:22 , REGORDENCARGA.CMDIMPRIMIR.CLICK, Error: No se encuentra la variable 'CLIENTE'.;Linea : replace cliente WITH ALLTRIM(CsrCuerpoImp.ctacte)+' '+ALLTRIM(CsrCuerpoImp.cnombre);Error :         12;Ultimo Alias Activo: CSRCUERPOIMP;Ultimo r
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4010,6 +3746,17 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX06Z1.TMP;Ult
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 CAL\TEMP\00005UYX072P.TMP;Ultimo Control activo: 
 22-06-2018 11:14:09 , Pila de llamadas
 22-06-2018 11:14:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -4023,6 +3770,17 @@ CAL\TEMP\00005UYX072P.TMP;Ultimo Control activo:
 22-06-2018 11:14:12 , Nº de Linea :         61
 22-06-2018 11:14:12 , En el Fuente: SET RELATION TO grupo INTO Csrimpcab
 22-06-2018 11:14:54 , REGORDENCARGA.CMDIMPRIMIR.CLICK, Error: La tabla no tiene ningún orden de índice establecido.;Linea : SET RELATION TO grupo INTO Csrimpcabe;Error :         26;Ultimo Alias Activo: CSRIMPCUE;Ultimo registro:          2 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4114,6 +3872,17 @@ CAL\TEMP\00005UYX072P.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 0005UYX07JJ.TMP;Ultimo Control activo: 
 22-06-2018 11:16:02 , Pila de llamadas
 22-06-2018 11:16:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -4127,6 +3896,17 @@ CAL\TEMP\00005UYX072P.TMP;Ultimo Control activo:
 22-06-2018 11:16:04 , Nº de Linea :         75
 22-06-2018 11:16:04 , En el Fuente:    IF _hayrendidas
 22-06-2018 11:16:56 , REGORDENCARGA.CMDIMPRIMIR.CLICK, Error: No se encuentra la variable 'ORIGEN'.;Linea : REPORT FORM ordencarga TO PRINTER prompt PREVIEW OBJECT loReportListener;Error :         12;Ultimo Alias Activo: CSRIMPCUE;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4204,6 +3984,17 @@ CAL\TEMP\00005UYX072P.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
    1 GRUPO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX07Y5.TMP;Ultimo Control activo: 
 22-06-2018 11:19:01 , Pila de llamadas
 22-06-2018 11:19:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -4217,6 +4008,17 @@ CAL\TEMP\00005UYX072P.TMP;Ultimo Control activo:
 22-06-2018 11:19:03 , Nº de Linea :         78
 22-06-2018 11:19:04 , En el Fuente: REPORT FORM ordencarga TO PRINTER prompt PREVIEW OBJECT loReportListener
 22-06-2018 11:19:52 , REGORDENCARGA.CMDIMPRIMIR.CLICK, Error: No se encuentra la variable 'NUMERO'.;Linea : REPORT FORM ordencarga TO PRINTER prompt PREVIEW OBJECT loReportListener;Error :         12;Ultimo Alias Activo: CSRIMPCUE;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4278,6 +4080,17 @@ CAL\TEMP\00005UYX072P.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 PCUE;Ultimo registro:          1 GRUPO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX085J.TMP;Ultimo Control activo: 
 22-06-2018 11:20:39 , Pila de llamadas
 22-06-2018 11:20:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -4309,7 +4122,29 @@ PCUE;Ultimo registro:          1 GRUPO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 hofer.numero), nomchofer WITH CsrChofer.nombre, fecha WITH DTOC(TTOD(CsrCabeCarga.fecha)) IN CsrImpCabe;Error :          9;Ultimo Alias Activo: CSRIMPCUE;Ultimo registro:          1 GRUPO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX089B.TMP;Ultimo Con
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4355,8 +4190,30 @@ trol activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 OD(CsrCabeCarga.fecha)) IN CsrImpCabe
 22-06-2018 11:22:15 , REGORDENCARGA.CMDIMPRIMIR.CLICK, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : REPORT FORM ordencarga TO PRINTER prompt PREVIEW OBJECT loReportListener;Error :        107;Ultimo Alias Activo: CSRIM
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4395,6 +4252,17 @@ PCUE;Ultimo registro:          1 GRUPO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
 
 
 
+
+
+
+
+
+
+
+
+
+
+
  IDVENDEDOR;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX098R.TMP;Ultimo Control activo: 
 22-06-2018 11:44:32 , Pila de llamadas
 22-06-2018 11:44:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -4408,6 +4276,17 @@ PCUE;Ultimo registro:          1 GRUPO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
 22-06-2018 11:44:35 , Nº de Linea :        165
 22-06-2018 11:44:35 , En el Fuente: INDEX on numcomp TO knumcomp
 22-06-2018 11:48:02 , REGORDENCARGA.LOAD, Error: Denegado j:\xsoftsr\proyectos\starossa\knumcomp.idx al acceso al archivo.;Linea : INDEX on numcomp TO knumcomp;Error :       1705;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 IDVENDEDOR;D
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4431,6 +4310,17 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005UYX09E9.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0UH004I.TMP;Ultimo Control activo: 
 22-06-2018 11:51:04 , Pila de llamadas
 22-06-2018 11:51:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
@@ -4443,3 +4333,50 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0UH004I.TMP;Ultimo Control activo:
 22-06-2018 11:51:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regordencarga.sct
 22-06-2018 11:51:07 , Nº de Linea :         29
 22-06-2018 11:51:07 , En el Fuente: INDEX on numcomp TO knumcomp
+11-07-2018 13:51:57 , ABMPRODUCTO.FITRARCMD.CLICK, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activ
+
+
+
+
+
+
+
+
+
+
+o: 
+11-07-2018 13:51:57 , Pila de llamadas
+11-07-2018 13:51:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+11-07-2018 13:51:58 , Objeto      : abmproducto.fitrarcmd.click
+11-07-2018 13:51:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+11-07-2018 13:51:58 , Nº de Linea :         29
+11-07-2018 13:51:58 , En el Fuente: 	thisform.bindergridon('thisform.contenedor1.'+thisform.objetonavega,lcalias,lcCtrlSource,AcolOdataNavega)
+11-07-2018 13:51:58 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+11-07-2018 13:51:59 , Objeto      : abmproducto.bindergridon
+11-07-2018 13:51:59 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+11-07-2018 13:51:59 , Nº de Linea :         16
+11-07-2018 13:52:00 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+11-07-2018 13:52:04 , ABMPRODUCTO.FITRARCMD.CLICK, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : SELECT (lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+11-07-2018 13:52:04 , Pila de llamadas
+11-07-2018 13:52:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+11-07-2018 13:52:05 , Objeto      : abmproducto.fitrarcmd.click
+11-07-2018 13:52:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
+11-07-2018 13:52:06 , Nº de Linea :          9
+11-07-2018 13:52:06 , En el Fuente: SELECT (lcalias)
+11-07-2018 13:52:10 , ABMPRODUCTO.CMDSELECCIONAR.CLICK, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : return (&lcAlias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+11-07-2018 13:52:11 , Pila de llamadas
+11-07-2018 13:52:12 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+11-07-2018 13:52:12 , Objeto      : abmproducto.cmdseleccionar.click
+11-07-2018 13:52:12 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+11-07-2018 13:52:12 , Nº de Linea :          1
+11-07-2018 13:52:12 , En el Fuente: thisform.idretorno=thisform.PKey()
+11-07-2018 13:52:12 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+11-07-2018 13:52:12 , Objeto      : abmproducto.pkey
+11-07-2018 13:52:12 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+11-07-2018 13:52:12 , Nº de Linea :          8
+11-07-2018 13:52:13 , En el Fuente: 	lcId=loObjNeg.PKey()
+11-07-2018 13:52:13 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
+11-07-2018 13:52:13 , Objeto      : abmproducto.odata1.pkey
+11-07-2018 13:52:13 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
+11-07-2018 13:52:14 , Nº de Linea :         12
+11-07-2018 13:52:14 , En el Fuente: return (&lcAlias)
