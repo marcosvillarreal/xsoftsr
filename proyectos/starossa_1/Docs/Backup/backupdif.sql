@@ -1,1 +1,0 @@
-sp_Backupdatabase 'Leon','D'
