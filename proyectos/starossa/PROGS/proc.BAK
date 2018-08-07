@@ -1596,66 +1596,84 @@ ENDFUNC
 
 * Desencripta(lc, "MiLlave")
 
-FUNCTION Encripta(tcCadena, tcLlave, tlSinDesencripta)
+*!*	FUNCTION Encripta(tcCadena, tcLlave, tlSinDesencripta)
 
-	LOCAL lc, ln, lcRet
-	LOCAL lnClaveMul, lnClaveXor
+*!*		LOCAL lc, ln, lcRet
+*!*		LOCAL lnClaveMul, lnClaveXor
 
-	IF EMPTY(tcLlave)
-		tcLlave = ""
-	ENDIF
+*!*		IF EMPTY(tcLlave)
+*!*			tcLlave = ""
+*!*		ENDIF
 
-	=GetClaves(tcLlave,@lnClaveMul,@lnClaveXor)
+*!*		=GetClaves(tcLlave,@lnClaveMul,@lnClaveXor)
 
+*!*		lcRet = ""
+*!*		lc = tcCadena
+
+*!*		DO WHILE LEN(lc) > 0
+*!*			ln = BITXOR(ASC(lc)*(lnClaveMul+1),lnClaveXor)
+*!*			
+*!*			IF tlSinDesencripta			&&-- Encripta de modo que no se puede desencriptar
+*!*				ln = BITAND(ln+(ln%256)*17+INT(ln/256)*135+ iNT(ln/256)*(ln%256),65535)
+*!*			ENDIF
+
+*!*			lcRet = lcRet+BINTOC(ln-32768,2)
+*!*			lnClaveMul = BITAND(lnClaveMul+59,0xFF)
+*!*			lnClaveXor = BITAND(BITNOT(lnClaveXor),0xFFFF)
+*!*			lc = IIF(LEN(lc) > 1,SUBS(lc,2),"")
+
+*!*		ENDDO
+
+*!*		RETURN lcRet
+
+*!*	ENDFUNC
+
+
+*!*	FUNCTION Desencripta(tcCadena, tcLlave)
+
+*!*		LOCAL lc, ln, lcRet, lnByte
+*!*		LOCAL lnClaveMul, lnClaveXor
+
+*!*		IF EMPTY(tcLlave)
+*!*			tcLlave = ""
+*!*		ENDIF
+
+*!*		=GetClaves(tcLlave, @lnClaveMul, @lnClaveXor)
+
+*!*		lcRet = ""
+
+*!*		FOR ln = 1 TO LEN(tcCadena)-1 STEP 2
+
+*!*			lnByte = BITXOR(CTOBIN(SUBS(tcCadena, ln,2))+ 32768,lnClaveXor)/(lnClaveMul+1)
+
+*!*			lnClaveMul = BITAND(lnClaveMul+59, 0xFF)
+*!*			lnClaveXor = BITAND(BITNOT(lnClaveXor), 0xFFFF)
+*!*			lcRet = lcRet+CHR(IIF(BETWEEN(lnByte,0,255),lnByte,0))
+
+*!*		ENDFOR
+
+*!*		RETURN lcRet
+
+*!*	ENDFUNC
+
+FUNCTION Encripta(tcCadena, tcLlave)
 	lcRet = ""
-	lc = tcCadena
-
-	DO WHILE LEN(lc) > 0
-		ln = BITXOR(ASC(lc)*(lnClaveMul+1),lnClaveXor)
-		
-		IF tlSinDesencripta			&&-- Encripta de modo que no se puede desencriptar
-			ln = BITAND(ln+(ln%256)*17+INT(ln/256)*135+ iNT(ln/256)*(ln%256),65535)
-		ENDIF
-
-		lcRet = lcRet+BINTOC(ln-32768,2)
-		lnClaveMul = BITAND(lnClaveMul+59,0xFF)
-		lnClaveXor = BITAND(BITNOT(lnClaveXor),0xFFFF)
-		lc = IIF(LEN(lc) > 1,SUBS(lc,2),"")
-
-	ENDDO
-
+	lc = ALLTRIM(tcCadena)
+	
+	for i=1 to LEN(lc)
+    		lcRet=lcRet+chr(asc(substr(lc,i,1))+25+i)
+	NEXT
 	RETURN lcRet
-
 ENDFUNC
-
 
 FUNCTION Desencripta(tcCadena, tcLlave)
-
-	LOCAL lc, ln, lcRet, lnByte
-	LOCAL lnClaveMul, lnClaveXor
-
-	IF EMPTY(tcLlave)
-		tcLlave = ""
-	ENDIF
-
-	=GetClaves(tcLlave, @lnClaveMul, @lnClaveXor)
-
 	lcRet = ""
-
-	FOR ln = 1 TO LEN(tcCadena)-1 STEP 2
-
-		lnByte = BITXOR(CTOBIN(SUBS(tcCadena, ln,2))+ 32768,lnClaveXor)/(lnClaveMul+1)
-
-		lnClaveMul = BITAND(lnClaveMul+59, 0xFF)
-		lnClaveXor = BITAND(BITNOT(lnClaveXor), 0xFFFF)
-		lcRet = lcRet+CHR(IIF(BETWEEN(lnByte,0,255),lnByte,0))
-
-	ENDFOR
-
-	RETURN lcRet
-
+	lc = tcCadena
+	for i=1 to LEN(lc)
+    		lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i)
+	NEXT
+	RETURN RTRIM(lcRet)
 ENDFUNC
-
 
 *---------------------------------------------
 * Función usada por Encripta y Desencripta
@@ -2401,9 +2419,13 @@ DO CASE
 	Create Cursor Csrpago (id i AUTOINC,numero n(3),cnombre c(25),fecha d,importe n(10,2),idcuenta n(10);
 	              ,ctactebco c(6),titular c(30),banco c(30),localidad c(30),nrocheque n(12),idtipobco n(10);
 	              ,fechavto d,entregado c(30),idvalor n(10),idprovincia n(10),tipocaja c(2),esclase c(1),recibido c(30);
-	              ,nrotarjeta c(15),cupon c(15),cuota n(2),cuit c(13),idctabco n(10),idmaopera n(10),idcheque M ;
+	              ,nrotarjeta c(16),cupon c(15),cuota n(2),cuit c(13),idctabco n(10),idmaopera n(10),idcheque M ;
 	              ,detalle c(50),esvale n(1),idcomproba n(12),idbanco i,idctaentregado i)
 	Sele Csrpago
+	CASE UPPER(lcCursor)="CSRFINANCIA"
+	Create Cursor CsrFinancia (registro i AUTOINC,numero n(3),nombre c(25),fecha d,afecta n(10,2),idvalor i;
+	              ,esclase c(3),detalle c(50),tasa n(6,3),importe n(10,2))
+	Sele Csrfinancia
 ENDCASE 
 
 SET  SAFETY  ON 

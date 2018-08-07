@@ -174,9 +174,11 @@ IF TYPE('goApp')='O'
 	DO directivasHasar
 	  
 	= Fwin32()    && funciones api win32
-
+	
+	
 	 =ObtenerServidor()
-	  
+	
+	
 	IF LEN(TRIM(LcConectionString))=0
 		DO FORM configbd
 		=ObtenerServidor()

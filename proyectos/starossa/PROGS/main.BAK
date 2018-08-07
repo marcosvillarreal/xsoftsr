@@ -99,7 +99,7 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 *   SET  CLASSLIB  TO  xfrxlib ADDITIVE 
 *   SET LIBRARY TO xfrxlib.fll ADDITIVE 
 	 SET CLASSLIB  TO  ZIP ADDITIVE 
-	SET LIBRARY TO vfpconnection.fll ADDITIVE 
+*	SET LIBRARY TO vfpconnection.fll ADDITIVE 
 
 *clear all
 
@@ -174,9 +174,12 @@ IF TYPE('goApp')='O'
 	DO directivasHasar
 	  
 	= Fwin32()    && funciones api win32
-
+	
+	stop() 
+	
 	 =ObtenerServidor()
-	  
+	
+	
 	IF LEN(TRIM(LcConectionString))=0
 		DO FORM configbd
 		=ObtenerServidor()

@@ -1,779 +1,3 @@
-Error nº:       1806
-Error SQL: no se encuentra la columna 'BONIFINFO'.
- Alias CSRIMPRIMIR registro       1613
-Control activo  LISINVENTARIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-02-01-2018 13:58:19 , Linea nº SELECT nomrubro,numero,codalfa,nombre,costosiniva,costoconiva,margen1,pvta1,pvtaciva1,margen2,pvta2,pvtaciva2 &lcmarca FROM CsrImprimir ORDER BY idrubro,idmarca INTO CURSOR CsrImprimir READWRITE
-Error nº:       1806
-Error SQL: no se encuentra la columna 'COMISION'.
- Alias CSRIMPRIMIR registro         20
-Control activo  MAIN
-03-01-2018 20:51:12 , Linea nº RETURN ALLTRIM(STR(lnValor,lnTam,lnDec))
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias CSRIMPORTAR registro          1
-Control activo  MAIN
-14-02-2018 10:31:26 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-14-02-2018 10:32:00 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-14-02-2018 10:41:23 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-14-02-2018 10:43:35 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-14-02-2018 10:47:27 , Linea nº GATHER NAME ObjCopia
-Error nº:       1581
-Error El campo IDCUENTA no acepta valores NULL.
- Alias CSRMOVPUB_TEMP registro         -1
-Control activo  REGPUBVARIO.ACEPTAR1.CLICK
-14-02-2018 10:48:44 , Linea nº GATHER NAME ObjCopia
-Error nº:       1581
-Error El campo IDCUENTA no acepta valores NULL.
- Alias CSRMOVPUB_TEMP registro         -1
-Control activo  REGPUBVARIO.ACEPTAR1.CLICK
-14-02-2018 10:49:55 , Linea nº GATHER NAME ObjCopia
-Error nº:       1581
-Error El campo IDCUENTA no acepta valores NULL.
- Alias CSRMOVPUB_TEMP registro         -1
-Control activo  REGPUBVARIO.ACEPTAR1.CLICK
-14-02-2018 11:10:00 , Linea nº SELECT CsrMovPub_Temp
-Error nº:         13
-Error No se encuentra el alias 'CSRMOVPUB_TEMP'.
- Alias CSRMOVPUB registro          1
-Control activo  REGPUBVARIO.ACEPTAR1.CLICK
-15-02-2018 11:26:49 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
-Error nº:          1
-Error El archivo 'csrproducto.dbf' no existe.
- Alias  registro          0
-Control activo  EST_VENTABONIFICADA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
-15-02-2018 13:47:15 , Linea nº lnchkproducto  = thisform.chkporproducto.Value
-Error nº:       1925
-Error CHKPORPRODUCTO es un miembro desconocido.
- Alias  registro          0
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-02-2018 13:47:53 , Linea nº IF lnchkporproducto=1
-Error nº:         12
-Error No se encuentra la variable 'LNCHKPORPRODUCTO'.
- Alias  registro          0
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-02-2018 13:54:17 , Linea nº SELECT CsrCursor
-Error nº:         13
-Error No se encuentra el alias 'CSRCURSOR'.
- Alias _CSRCTACTE registro        113
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-02-2018 13:57:13 , Linea nº SELECT CsrCursor
-Error nº:         13
-Error No se encuentra el alias 'CSRCURSOR'.
- Alias _CSRCTACTE registro        113
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-02-2018 14:05:05 , Linea nº SELECT CsrCursor
-Error nº:         13
-Error No se encuentra el alias 'CSRCURSOR'.
- Alias _CSRCTACTE registro        113
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-02-2018 14:06:11 , Linea nº INDEX on id1 TAG id1
-Error nº:         12
-Error No se encuentra la variable 'ID1'.
- Alias CSRCURSOR registro          1
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-02-2018 14:21:27 , Linea nº lcclave  = CsrCursor.nomrubro+&lcOrden
-Error nº:         12
-Error No se encuentra la variable 'NOMBRE1'.
- Alias CSRCURSOR registro          1
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-02-2018 14:22:27 , Linea nº INSERT INTO CsrImprimir (Grupodato,idrubro,numero,nombre,unibulto,pvta,pretotal,nomrubro,clave,bonifica,nroctacte,nomctacte,prvtaori) VALUES (CsrCursor.grupodato,CsrCursor.idrubro,Csrcursor.numero,CsrCursor.nombre1,lnunibul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-to ,lnprevta,lnpretotal,CsrCursor.nomrubro,lcclave,Csrcursor.bonifica,Csrcursor.nroctacte,Csrcursor.nomctacte,lnprevtaori)
-Error nº:         12
-Error No se encuentra la variable 'NROCTACTE'.
- Alias CSRCURSOR registro          1
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-02-2018 14:24:37 , Linea nº lcnombre1 = STR(VAL(Csrcursor.numero),6)+" "+Csrcursor.nombre1
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias CSRCURSOR registro          1
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-26-02-2018 13:02:55 , Linea nº oca.SelectCmd=lccmdSelect
-Error nº:       1924
-Error OCA no es un objeto.
- Alias CSRVENDEDOR registro          1
-Control activo  LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT
-26-02-2018 13:03:39 , Linea nº oca.SelectCmd=lccmdSelect
-Error nº:       1924
-Error OCA no es un objeto.
- Alias CSRVENDEDOR registro          1
-Control activo  LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT
-06-03-2018 08:36:32 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-06-03-2018 08:38:04 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-06-03-2018 11:25:37 , Linea nº SELECT CsrMovBvcocar
-Error nº:         13
-Error No se encuentra el alias 'CSRMOVBVCOCAR'.
- Alias CSRCTACTE registro          2
-Control activo  RINDEFLETE.ACEPTAR1.CLICK
-08-03-2018 12:33:24 , Linea nº lcidusuarios = IIF(.pageframe1.pagecount#1,.pageframe1.page4.kitgrillatildarusuarios.cadenaelegidos(),'')
-Error nº:       1925
-Error PAGE4 es un miembro desconocido.
- Alias  registro          0
-Control activo  SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-08-03-2018 12:41:32 , Linea nº lcidvendedor	= .pageframe1.page5.kitgrillatildarvendedor.cadenaelegidos()
-Error nº:       1925
-Error KITGRILLATILDARVENDEDOR es un miembro desconocido.
- Alias _CSRCOMPROBANTE registro         12
-Control activo  SUBCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-08-03-2018 12:56:51 , Linea nº SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
-Error nº:          1
-Error El archivo 'csrcabefac.dbf' no existe.
- Alias CSRAUXCARGA registro          1
-Control activo  LISPATRONCARGA_V1.LOAD
-03/12/18 11:27:09 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
-Error nº:          1
-Error El archivo 'csrctacte.dbf' no existe.
- Alias CSRVENDEDOR registro          1
-Control activo  SUBCTACTE.PAGEFRAME1.PAGE1.KITGRILLATILDARCTACTE.INIT
-12-03-2018 11:28:13 , Linea nº oca.SelectCmd=lccmdSelect
-Error nº:       1924
-Error OCA no es un objeto.
- Alias _CSRUSUARIOS registro          1
-Control activo  SUBCTACTE.PAGEFRAME1.PAGE5.KITGRILLATILDARVDOR.INIT
-12-03-2018 11:29:43 , Linea nº oca.SelectCmd=lccmdSelect
-Error nº:       1924
-Error OCA no es un objeto.
- Alias _CSRUSUARIOS registro          1
-Control activo  SUBCTACTE.PAGEFRAME1.PAGE5.KITGRILLATILDARVDOR.INIT
-12-03-2018 12:15:42 , Linea nº thisform.containerencabeza._oestadorendida.Value=1
-Error nº:       1925
-Error _OESTADORENDIDA es un miembro desconocido.
- Alias CSRFLETERO registro          1
-Control activo ESTADO LISPATRONCARGA_V1.INIT
-12-03-2018 12:16:15 , Linea nº thisform.containerencabeza._oestadorendida.Value=1
-Error nº:       1925
-Error _OESTADORENDIDA es un miembro desconocido.
- Alias CSRFLETERO registro          1
-Control activo  LISPATRONCARGA_V1.INIT
-12-03-2018 12:25:03 , Linea nº ThisForm._txtDestinoExportar.Value = RutaCpraVta
-Error nº:       1925
-Error _TXTDESTINOEXPORTAR es un miembro desconocido.
- Alias CSRFLETERO registro          1
-Control activo  LISPATRONCARGA_V1.INIT
-12-03-2018 12:40:56 , Linea nº SELECT CsrAuxCuerfac
-Error nº:         13
-Error No se encuentra el alias 'CSRAUXCUERFAC'.
- Alias CSRAUXILIAR registro          1
-Control activo  PATRONCARGA_COT.CMDPROCESAR.CLICK
-12-03-2018 12:42:07 , Linea nº 
-Error nº:       1925
-Error _TXTDESTINOEXPORTAR es un miembro desconocido.
- Alias CSRAUXCARGA registro          1
-Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
-12-03-2018 12:42:48 , Linea nº 
-Error nº:       1925
-Error _TXTDESTINOEXPORTAR es un miembro desconocido.
- Alias CSRAUXCARGA registro          1
-Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
-12-03-2018 13:02:18 , Linea nº IF !SEEK(Csrcuerpo.idvendedor,"Csrauxiliar","idvendedor")
-Error nº:       1683
-Error No se encuentra la etiqueta de índice.
- Alias CSRCUERPO registro          1
-Control activo  PATRONCARGA_COT.CMDPROCESAR.CLICK
-16-03-2018 12:28:50 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
-Error nº:          1
-Error El archivo 'csrfletero.dbf' no existe.
- Alias  registro          0
-Control activo  LISRENFLETE.KITGRILLATILDARFLETERO.INIT
-16-03-18 12:29:50 , Linea nº lcCampo002 = IIF(CsrCurStock.estado=1,'ANU ','') + RTRIM(CsrCurStock.cabrevia)+' '+RTRIM(CsrCurStock.numcomp)+' '+CsrCurStock.articulo
-Error nº:        107
-Error Incompatibilidad entre el tipo de operador y el tipo de operando.
- Alias CSRCURSTOCK registro          1
-Control activo  LISRENFLETE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-19-03-2018 20:41:39 , Linea nº DO FORM listaestadistica WITH oca,lcCmdCampos,lcTypeData,lcidestado,lclistar NAME lObjetoForm LINKED
-Error nº:       2005
-Error Error al cargar el archivo - número de registro 15. Kitgrillatildarrubros  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRRUBRO'
- Alias CSRPRODUCTO registro          1
-Control activo  LISINVENTARIO.CMDCARGAGRILLA.CLICK
-19-03-2018 20:49:52 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
 Error nº:          1
 Error El archivo 'csrproducto.dbf' no existe.
  Alias CSRAUXDEP registro          1
@@ -894,7 +118,73 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1100,7 +390,73 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1304,7 +660,73 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 mi.comision2,0) as comision2,Nvl(csrcomi.objetivo3,0) as objetivo3 ,Nvl(csrcomi.comision3,0) as comision3 FROM csrimprimir left join csrcomi on csrimprimir.idarticulo=csrcomi.idproducto AND (csrimprimir.idgrupocomi=csrcomi.idgrupo OR csrcomi.idgrupo=0) A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1506,6 +928,39 @@ Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 R csrcomi.idgrupo=0) AND CsrComi.origen='A' into CURSOR 'csrimprimir2' readwrite
 Error nº:       1806
 Error SQL: no se encuentra la columna 'IDPRODUCTO'.
@@ -1527,6 +982,39 @@ Error No se encuentra la variable 'COMISION'.
  Alias CSRCOMI registro        266
 Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 21-03-2018 11:39:36 , Linea nº replace comision WITH IIF(CsrComi.unidades<CsrComi.objetivo1,CsrComi.porcentaje,IIF(CsrComi.unidades<CsrComi.objetivo2,CsrComi.comision1,IIF(CsrComi.unidades<CsrComi.objetivo3,CsrComi.comision2,IIF(CsrComi.objetivo3=0,CsrCo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1739,12 +1227,78 @@ Control activo BONIF REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
 Error nº:       1581
 Error El campo ID no acepta valores NULL.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 04-04-2018 11:40:29 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1924,12 +1478,78 @@ Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
 Error nº:       1581
 Error El campo ID no acepta valores NULL.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 04-04-2018 12:12:54 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2122,7 +1742,73 @@ Control activo  MAIN
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2286,7 +1972,73 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2510,12 +2262,78 @@ Control activo  ABMVALORES.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCTACTE.TXTEX
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 clase WITH OscPago.clasevalor IN CsrPAgo
 Error nº:         39
 Error Desbordamiento numérico (se han perdido datos).
  Alias CSRPAGO registro          1
 Control activo  RINDEARQUEO.GRID2.KEYPRESS
 16-05-2018 20:40:38 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(clasevalor$'A',0,VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,idvalor W
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2597,6 +2415,39 @@ Error No se encuentra la variable 'NORTARJETA'.
  Alias CSRPAGO registro          1
 Control activo  RINDEARQUEO.GRID2.KEYPRESS
 16-05-2018 20:59:10 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A',VAL(NVL(OscPago.cupon,0)),VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2798,7 +2649,73 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2914,7 +2831,73 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3030,7 +3013,73 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3168,7 +3217,73 @@ Control activo  REGORDENCARGA.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3278,7 +3393,73 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3392,7 +3573,73 @@ Control activo  REGORDENCARGA.LOAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3500,7 +3747,73 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3780,6 +4093,39 @@ Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dvalor ,plazo WITH CsrCuerpoImp.plazo ,observacion WITH CsrCuerpoImp.observacion IN CsrImpCue
 Error nº:         12
 Error No se encuentra la variable 'TOTAL'.
@@ -3826,6 +4172,39 @@ Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRIMPCUE registro          1
 Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 22-06-2018 11:21:36 , Linea nº replace grupo WITH 'A',nroorden WITH CsrCabeCarga.numero, codtrans WITH CsrCtacte.cnumero, nomtrans WITH CsrCtacte.cnombre ,codchofer WITH strtrim(CsrChofer.numero), nomchofer WITH CsrChofer.nombre, fecha WITH DTOC(TTOD(Csr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3883,4 +4262,219 @@ Error nº:         12
 Error No se encuentra la variable 'I'.
  Alias CSRENVASE registro          1
 Control activo  ABMPRODUCTO._TEXTBOX1.KEYPRESS
-19-07-2018 13:08:00 , Linea nº lcCmdSelect = STRTRAN(thisform.Aselect[i],'~',ALLTRIM(lcvalordigitado))Error nº:        230Error Las dimensiones de la matriz no son válidas. Alias CSRENVASE registro          1Control activo  ABMPRODUCTO._TEXTBOX1.KEYPRESS
+19-07-2018 13:08:00 , Linea nº lcCmdSelect = STRTRAN(thisform.Aselect[i],'~',ALLTRIM(lcvalordigitado))
+Error nº:        230
+Error Las dimensiones de la matriz no son válidas.
+ Alias CSRENVASE registro          1
+Control activo  ABMPRODUCTO._TEXTBOX1.KEYPRESS
+08/07/18 15:17:34 , Linea nº IF pndatasessionid#0
+Error nº:         12
+Error No se encuentra la variable 'PNDATASESSIONID'.
+ Alias  registro          0
+Control activo  PIDOPAGOS.LOAD
+07-08-2018 15:18:20 , Linea nº .lcoricomp 		 =  loObjValor.origencomp
+Error nº:       1924
+Error LOOBJVALOR no es un objeto.
+ Alias CSRPAGO registro          1
+Control activo  PIDOPAGOS.INIT
+07-08-2018 15:20:30 , Linea nº .lcoricomp 		 =  loObjValor.origencomp
+Error nº:       1924
+Error LOOBJVALOR no es un objeto.
+ Alias CSRPAGO registro          1
+Control activo  PIDOPAGOS.INIT
+07-08-2018 15:21:32 , Linea nº .totalbase       = loObjValor.totalcomp
+Error nº:       1734
+Error No se encuentra la propiedad TOTALCOMP.
+ Alias CSRPAGO registro          1
+Control activo  PIDOPAGOS.INIT
+07-08-2018 15:21:53 , Linea nº SELECT (lcAlias)
+Error nº:         13
+Error No se encuentra el alias 'CSRFINANCIA'.
+ Alias CSRPAGO registro          1
+Control activo  PIDOPAGOS.INIT
+07-08-2018 15:22:09 , Linea nº SELECT (lcAlias)
+Error nº:         13
+Error No se encuentra el alias 'CSRFINANCIA'.
+ Alias CSRPAGO registro          1
+Control activo  PIDOPAGOS.INIT
+07-08-2018 15:22:47 , Linea nº Sele Csrpago
+Error nº:         13
+Error No se encuentra el alias 'CSRPAGO'.
+ Alias CSRFINANCIA registro          1
+Control activo  PIDOPAGOS.LOAD
+07-08-2018 15:23:26 , Linea nº .nCodanterior = CsrPago.numero
+Error nº:         13
+Error No se encuentra el alias 'CSRPAGO'.
+ Alias CSRFINANCIA registro          2
+Control activo REGISTRO PIDOPAGOS.INIT
+07-08-2018 15:24:17 , Linea nº SELECT CsrFinanciar
+Error nº:         13
+Error No se encuentra el alias 'CSRFINANCIAR'.
+ Alias CSRFINANCIA registro          2
+Control activo REGISTRO PIDOPAGOS.INIT
+07-08-2018 15:24:47 , Linea nº .kitbuscarValor.ltextodigitado = .t.
+Error nº:       1925
+Error KITBUSCARVALOR es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo REGISTRO PIDOPAGOS.GRID1.AFTERROWCOLCHANGE
+07-08-2018 15:24:54 , Linea nº .kitbuscarValor.ltextodigitado = .t.
+Error nº:       1925
+Error KITBUSCARVALOR es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo REGISTRO PIDOPAGOS.GRID1.AFTERROWCOLCHANGE
+07-08-2018 15:24:58 , Linea nº .kitbuscarValor.ltextodigitado = .t.
+Error nº:       1925
+Error KITBUSCARVALOR es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo REGISTRO PIDOPAGOS.GRID1.AFTERROWCOLCHANGE
+07-08-2018 15:25:05 , Linea nº .kitbuscarValor.ltextodigitado = .t.
+Error nº:       1925
+Error KITBUSCARVALOR es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo REGISTRO PIDOPAGOS.GRID1.AFTERROWCOLCHANGE
+07-08-2018 15:25:11 , Linea nº .kitbuscarValor.ltextodigitado = .t.
+Error nº:       1925
+Error KITBUSCARVALOR es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo REGISTRO PIDOPAGOS.GRID1.AFTERROWCOLCHANGE
+07-08-2018 15:27:50 , Linea nº .kitbuscarValor.ltextodigitado = .t.
+Error nº:       1925
+Error KITBUSCARVALOR es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo REGISTRO PIDOPAGOS.GRID1.AFTERROWCOLCHANGE
+07-08-2018 15:28:04 , Linea nº .kitbuscarValor.ltextodigitado = .t.
+Error nº:       1925
+Error KITBUSCARVALOR es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo REGISTRO PIDOPAGOS.GRID1.AFTERROWCOLCHANGE
+07-08-2018 15:29:16 , Linea nº Oca = GETCURSORADAPTER(lcalias)
+Error nº:         13
+Error No se encuentra el alias.
+ Alias CSRFINANCIA registro          1
+Control activo REGISTRO PIDOPAGOS.KEYPRESS
+07-08-2018 15:33:41 , Linea nº this.Parent.Parent.column1.text1.value=0
+Error nº:       2088
+Error El campo REGISTRO es de sólo lectura
+ Alias CSRFINANCIA registro          1
+Control activo NUMERO PIDOPAGOS.GRID1.COLUMN2.TEXT1.KEYPRESS
+07-08-2018 15:38:03 , Linea nº this.grid1.RecordSource = "CsrFinancia"
+Error nº:       1925
+Error GRID1 es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo  PIDOPAGOS.LOAD
+07-08-2018 15:39:00 , Linea nº lcnombre = cnombre
+Error nº:         12
+Error No se encuentra la variable 'CNOMBRE'.
+ Alias CSRFINANCIA registro          1
+Control activo  PIDOPAGOS.INIT
+07-08-2018 15:41:00 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+07-08-2018 15:42:05 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+07-08-2018 15:42:40 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+07-08-2018 15:46:52 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+07-08-2018 15:58:31 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+07-08-2018 16:03:05 , Linea nº lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i)
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias  registro          0
+Control activo  MAIN
+07-08-2018 16:03:46 , Linea nº lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i)
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias  registro          0
+Control activo  MAIN
+07-08-2018 16:18:13 , Linea nº replace afecta WITH nTotal, numero WITH CsrCursor.numero, nombre WITH Csrcursor.nombre, tasa WITH CsrCursor.tasa ,idvalor WITH CsrCursor.idvalor IN CsrFinancia
+Error nº:          9
+Error No coinciden los tipos de datos.
+ Alias CSRCURSOR registro          1
+Control activo  PIDOPAGOS.INIT
+07-08-2018 16:24:12 , Linea nº thisform.kitbuscarValor.buscapornombre = .f.
+Error nº:       1925
+Error KITBUSCARVALOR es un miembro desconocido.
+ Alias CSRFINANCIA registro          1
+Control activo NOMBRE PIDOPAGOS.GRID1.COLUMN2.TEXT1.KEYPRESS
+07-08-2018 16:34:46 , Linea nº replace Importe WITH nImporte
+Error nº:         39
+Error Desbordamiento numérico (se han perdido datos).
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS
+07-08-2018 16:34:56 , Linea nº replace Importe WITH nImporte
+Error nº:         39
+Error Desbordamiento numérico (se han perdido datos).
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS
+07-08-2018 16:35:09 , Linea nº replace Importe WITH nImporte
+Error nº:         39
+Error Desbordamiento numérico (se han perdido datos).
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS
+07-08-2018 16:35:19 , Linea nº replace Importe WITH nImporte
+Error nº:         39
+Error Desbordamiento numérico (se han perdido datos).
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS
+07-08-2018 16:44:07 , Linea nº nPendiente = thisform._txttotalbase.Value - nDisponible
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS
+07-08-2018 16:44:24 , Linea nº nPendiente = thisform._txttotalbase.Value - nDisponible
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS
+07-08-2018 16:44:33 , Linea nº nPendiente = thisform._txttotalbase.Value - nDisponible
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS
+07-08-2018 16:44:44 , Linea nº nPendiente = thisform._txttotalbase.Value - nDisponible
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS
+07-08-2018 16:46:41 , Linea nº COUNT ALL FOR CsrPAgo.esclase$"M" AND CsrPAgo.idctabco=0 TO lnVale
+Error nº:         13
+Error No se encuentra el alias 'CSRPAGO'.
+ Alias CSRFINANCIA registro          1
+Control activo  PIDOPAGOS.CMDSALIR.CLICK
+07-08-2018 17:05:32 , Linea nº loObjValor.AddProperty('lcFiltro',lcfiltro)
+Error nº:         12
+Error No se encuentra la variable 'LCFILTRO'.
+ Alias CSRVALOR registro          5
+Control activo  REGFACVTAPUB.KEYPRESS
+07-08-2018 17:06:23 , Linea nº DO FORM pidoplanpago WITH lcid,loObjValor,.f. TO thisform.quetecla
+Error nº:       1982
+Error La cláusula TO sólo se puede usar con formularios y conjuntos de formularios modales.
+ Alias CSRVALOR registro          5
+Control activo  REGFACVTAPUB.KEYPRESS
+07-08-2018 17:41:12 , Linea nº REPLACE ivari1 WITH ivari1 * nRecargo,BaseGra1 WITH BaseGra1 * nRecargo ,ivari2 WITH ivari2 * nRecargo,BaseGra2 WITH BaseGra2 * nRecargo ,ivari3 WITH ivari3 * nRecargo,BaseGra3 WITH BaseGra3 * nRecargo ,ivari4 WITH ivari4 *
+ nRecargo,BaseGra4 WITH BaseGra4 * nRecargo ,ivari5 WITH ivari5 * nRecargo,BaseGra5 WITH BaseGra5 * nRecargo ,retencion1 WITH retencion1 * nRecargo,baserete1 WITH baserete1 * nRecargo ,retencion2 WITH retencion2 * nRecargo,baserete2 WITH baserete2 * nRec
+argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo ,retencion4 WITH retencion4 * nRecargo,baserete4 WITH baserete4 * nRecargo ,retencion5 WITH retencion5 * nRecargo,baserete5 WITH baserete5 * nRecargo ,BaseExe WITH BaseExe * 
+nRecargo,BaseInterno WITH BaseInterno * nRecargo ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo ,BaseDescto WITH BaseDescto * nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WIT
+H Perceibto1 * nRecargo,Perceibto2 WITH Perceibto2 * nRecargo ,SubtotSiva WITH SubtotSiva * nRecargo,SubtotCiva WITH SubtotCiva * nRecargo,total WITH Total * nRecargo IN CsrAuxCabefac
+Error nº:         12
+Error No se encuentra la variable 'BASECATEGO'.
+ Alias CSRAUXCABEFAC registro          1
+Control activo  REGFACVTAPUB.KEYPRESS
+07-08-2018 17:42:20 , Linea nº ._txtbonificacion.Value  = lnBaseDesctoSiva &&lnBaseDescuentoError nº:         12Error No se encuentra la variable 'LNBASEDESCTOSIVA'. Alias CSRAUXCABEFAC registro          1Control activo  REGFACVTAPUB.KEYPRESS
+07-08-2018 17:43:30 , Linea nº ._txtnocatego.value      = CsrAuxCabefac.BaseNoCateError nº:         12Error No se encuentra la variable 'BASENOCATE'. Alias CSRAUXCABEFAC registro          1Control activo  REGFACVTAPUB.KEYPRESS

@@ -1656,6 +1656,24 @@ FUNCTION Desencripta(tcCadena, tcLlave)
 
 ENDFUNC
 
+FUNCTION Encripta2(tcCadena, tcLlave)
+	lcRet = ""
+	lc = ALLTRIM(tcCadena)
+	
+	for i=1 to LEN(lc)
+    		lcRet=lcRet+chr(asc(substr(lc,i,1))+25+i)
+	NEXT
+	RETURN lcRet
+ENDFUNC
+
+FUNCTION Desencripta2(tcCadena, tcLlave)
+	lcRet = ""
+	lc = tcCadena
+	for i=1 to LEN(lc)
+    		lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i)
+	NEXT
+	RETURN RTRIM(lcRet)
+ENDFUNC
 
 *---------------------------------------------
 * Función usada por Encripta y Desencripta
@@ -2404,6 +2422,10 @@ DO CASE
 	              ,nrotarjeta c(16),cupon c(15),cuota n(2),cuit c(13),idctabco n(10),idmaopera n(10),idcheque M ;
 	              ,detalle c(50),esvale n(1),idcomproba n(12),idbanco i,idctaentregado i)
 	Sele Csrpago
+	CASE UPPER(lcCursor)="CSRFINANCIA"
+	Create Cursor CsrFinancia (registro i AUTOINC,numero n(3),nombre c(25),fecha d,afecta n(10,2),idvalor i;
+	              ,esclase c(3),detalle c(50),tasa n(6,3),importe n(10,2))
+	Sele Csrfinancia
 ENDCASE 
 
 SET  SAFETY  ON 
