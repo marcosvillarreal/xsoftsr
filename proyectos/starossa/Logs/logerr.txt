@@ -1,925 +1,3 @@
-07-08-2018 16:34:49 , Nº de Linea :         11
-07-08-2018 16:34:49 , En el Fuente:     thisform.totalpagos() &&Validar pendiente.
-07-08-2018 16:34:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:34:50 , Objeto      : pidopagos.totalpagos
-07-08-2018 16:34:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:34:50 , Nº de Linea :         10
-07-08-2018 16:34:50 , En el Fuente: replace Importe WITH nImporte
-07-08-2018 16:34:57 , PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace Importe WITH nImporte;Error :         39;Ultimo Alias Activo: CSRFINANCIA;Ultimo registro:          1 ;DBF: C:\USERS\ADM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-IN\APPDATA\LOCAL\TEMP\00006BD501WU.TMP;Ultimo Control activo: AFECTA
-07-08-2018 16:34:57 , Pila de llamadas
-07-08-2018 16:34:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:34:58 , Objeto      : pidopagos.grid1.column3.text1.lostfocus
-07-08-2018 16:34:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:34:58 , Nº de Linea :          1
-07-08-2018 16:34:58 , En el Fuente: thisform.grid1_lostfocus()
-07-08-2018 16:34:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:34:59 , Objeto      : pidopagos.grid1_lostfocus
-07-08-2018 16:34:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:34:59 , Nº de Linea :          3
-07-08-2018 16:34:59 , En el Fuente: 	.grid1_procesolinea(22)		
-07-08-2018 16:35:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:00 , Objeto      : pidopagos.grid1_procesolinea
-07-08-2018 16:35:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:01 , Nº de Linea :         11
-07-08-2018 16:35:01 , En el Fuente:     thisform.totalpagos() &&Validar pendiente.
-07-08-2018 16:35:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:01 , Objeto      : pidopagos.totalpagos
-07-08-2018 16:35:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:01 , Nº de Linea :         10
-07-08-2018 16:35:02 , En el Fuente: replace Importe WITH nImporte
-07-08-2018 16:35:10 , PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace Importe WITH nImporte;Error :         39;Ultimo Alias Activo: CSRFINANCIA;Ultimo registro:          1 ;DBF: C:\USERS\ADM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-IN\APPDATA\LOCAL\TEMP\00006BD501WU.TMP;Ultimo Control activo: AFECTA
-07-08-2018 16:35:10 , Pila de llamadas
-07-08-2018 16:35:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:11 , Objeto      : pidopagos.grid1.column3.text1.lostfocus
-07-08-2018 16:35:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:12 , Nº de Linea :          1
-07-08-2018 16:35:12 , En el Fuente: thisform.grid1_lostfocus()
-07-08-2018 16:35:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:12 , Objeto      : pidopagos.grid1_lostfocus
-07-08-2018 16:35:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:12 , Nº de Linea :          3
-07-08-2018 16:35:13 , En el Fuente: 	.grid1_procesolinea(22)		
-07-08-2018 16:35:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:13 , Objeto      : pidopagos.grid1_procesolinea
-07-08-2018 16:35:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:13 , Nº de Linea :         11
-07-08-2018 16:35:13 , En el Fuente:     thisform.totalpagos() &&Validar pendiente.
-07-08-2018 16:35:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:14 , Objeto      : pidopagos.totalpagos
-07-08-2018 16:35:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:15 , Nº de Linea :         10
-07-08-2018 16:35:15 , En el Fuente: replace Importe WITH nImporte
-07-08-2018 16:35:19 , PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace Importe WITH nImporte;Error :         39;Ultimo Alias Activo: CSRFINANCIA;Ultimo registro:          1 ;DBF: C:\USERS\ADM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-IN\APPDATA\LOCAL\TEMP\00006BD501WU.TMP;Ultimo Control activo: AFECTA
-07-08-2018 16:35:19 , Pila de llamadas
-07-08-2018 16:35:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:20 , Objeto      : pidopagos.grid1.column3.text1.lostfocus
-07-08-2018 16:35:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:20 , Nº de Linea :          1
-07-08-2018 16:35:20 , En el Fuente: thisform.grid1_lostfocus()
-07-08-2018 16:35:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:21 , Objeto      : pidopagos.grid1_lostfocus
-07-08-2018 16:35:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:21 , Nº de Linea :          3
-07-08-2018 16:35:22 , En el Fuente: 	.grid1_procesolinea(22)		
-07-08-2018 16:35:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:22 , Objeto      : pidopagos.grid1_procesolinea
-07-08-2018 16:35:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:22 , Nº de Linea :         11
-07-08-2018 16:35:22 , En el Fuente:     thisform.totalpagos() &&Validar pendiente.
-07-08-2018 16:35:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:23 , Objeto      : pidopagos.totalpagos
-07-08-2018 16:35:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:35:23 , Nº de Linea :         10
-07-08-2018 16:35:23 , En el Fuente: replace Importe WITH nImporte
-07-08-2018 16:44:08 , PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : nPendiente = thisform._txttotalbase.Value - nDisponible;Error :        107;Ultimo Alias Activo: CSRFINANCIA;Ul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006BD5028R.TMP;Ultimo Control activo: AFECTA
-07-08-2018 16:44:08 , Pila de llamadas
-07-08-2018 16:44:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:09 , Objeto      : pidopagos.grid1.column3.text1.lostfocus
-07-08-2018 16:44:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:09 , Nº de Linea :          1
-07-08-2018 16:44:09 , En el Fuente: thisform.grid1_lostfocus()
-07-08-2018 16:44:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:10 , Objeto      : pidopagos.grid1_lostfocus
-07-08-2018 16:44:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:10 , Nº de Linea :          3
-07-08-2018 16:44:10 , En el Fuente: 	.grid1_procesolinea(22)		
-07-08-2018 16:44:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:10 , Objeto      : pidopagos.grid1_procesolinea
-07-08-2018 16:44:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:11 , Nº de Linea :         11
-07-08-2018 16:44:11 , En el Fuente:     thisform.totalpagos() &&Validar pendiente.
-07-08-2018 16:44:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:12 , Objeto      : pidopagos.totalpagos
-07-08-2018 16:44:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:12 , Nº de Linea :         20
-07-08-2018 16:44:12 , En el Fuente: nPendiente = thisform._txttotalbase.Value - nDisponible
-07-08-2018 16:44:25 , PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : nPendiente = thisform._txttotalbase.Value - nDisponible;Error :        107;Ultimo Alias Activo: CSRFINANCIA;Ul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006BD5028R.TMP;Ultimo Control activo: AFECTA
-07-08-2018 16:44:25 , Pila de llamadas
-07-08-2018 16:44:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:25 , Objeto      : pidopagos.grid1.column3.text1.lostfocus
-07-08-2018 16:44:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-07-08-2018 16:44:26 , Nº de Linea :          1
-07-08-2018 16:44:26 , En el Fuente: thisform.grid1_lostfocus()
-07-08-2018 16:44:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
 07-08-2018 16:44:26 , Objeto      : pidopagos.grid1_lostfocus
 07-08-2018 16:44:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
 07-08-2018 16:44:27 , Nº de Linea :          3
@@ -935,6 +13,34 @@ timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006BD5028R.T
 07-08-2018 16:44:29 , Nº de Linea :         20
 07-08-2018 16:44:29 , En el Fuente: nPendiente = thisform._txttotalbase.Value - nDisponible
 07-08-2018 16:44:34 , PIDOPAGOS.GRID1.COLUMN3.TEXT1.LOSTFOCUS, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : nPendiente = thisform._txttotalbase.Value - nDisponible;Error :        107;Ultimo Alias Activo: CSRFINANCIA;Ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1238,6 +344,34 @@ timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006BD5028R.T
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006BD5028R.TMP;Ultimo Control activo: AFECTA
 07-08-2018 16:44:45 , Pila de llamadas
 07-08-2018 16:44:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
@@ -1391,6 +525,34 @@ timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006BD5028R.T
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \USERS\ADMIN\APPDATA\LOCAL\TEMP\00005U6H000Q.TMP;Ultimo Control activo: 
 07-08-2018 16:46:42 , Pila de llamadas
 07-08-2018 16:46:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
@@ -1399,6 +561,34 @@ timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006BD5028R.T
 07-08-2018 16:46:44 , Nº de Linea :          4
 07-08-2018 16:46:44 , En el Fuente: 	COUNT ALL FOR CsrPAgo.esclase$"M" AND CsrPAgo.idctabco=0 TO lnVale
 07-08-2018 17:05:33 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la variable 'LCFILTRO'.;Linea : loObjValor.AddProperty('lcFiltro',lcfiltro);Error :         12;Ultimo Alias Activo: CSRVALOR;Ultimo registro:          5 ;DBF: C:\USERS\ADMIN\APPDATA\LOCA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1673,6 +863,34 @@ L\TEMP\00005U6H01EM.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 SRVALOR;Ultimo registro:          5 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005U6H01TP.TMP;Ultimo Control activo: 
 07-08-2018 17:06:24 , Pila de llamadas
 07-08-2018 17:06:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -1701,6 +919,34 @@ SRVALOR;Ultimo registro:          5 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000
 07-08-2018 17:06:29 , Nº de Linea :         53
 07-08-2018 17:06:29 , En el Fuente: 	   DO FORM pidoplanpago WITH lcid,loObjValor,.f. TO thisform.quetecla   
 07-08-2018 17:41:13 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la variable 'BASECATEGO'.;Linea : REPLACE ivari1 WITH ivari1 * nRecargo,BaseGra1 WITH BaseGra1 * nRecargo ,ivari2 WITH ivari2 * nRecargo,BaseGra2 WITH BaseGra2 * nRecargo ,ivari3 WITH iv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1924,7 +1170,63 @@ ari3 * nRecargo,BaseGra3 WITH BaseGra3 * nRecargo ,ivari4 WITH ivari4 * nRecargo
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  ,retencion2 WITH retencion2 * nRecargo,baserete2 WITH baserete2 * nRecargo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo ,retencion4 WITH retencion4 * nRecargo,baserete4 WITH baserete4 * nRecargo ,retencion5 WITH retencion5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2148,7 +1450,63 @@ ari3 * nRecargo,BaseGra3 WITH BaseGra3 * nRecargo ,ivari4 WITH ivari4 * nRecargo
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WITH Perceibto1 * nRecargo,Perceibto2 WITH Perceibto2 * nRecargo ,SubtotSiva WITH SubtotSiva * nRecargo,SubtotCiva WITH SubtotCiva * nRecargo,total WITH Total * nRecargo IN CsrAuxCabefac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2393,7 +1751,63 @@ ari3 * nRecargo,BaseGra3 WITH BaseGra3 * nRecargo ,ivari4 WITH ivari4 * nRecargo
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ari4 WITH ivari4 * nRecargo,BaseGra4 WITH BaseGra4 * nRecargo		   ,ivari5 WITH ivari5 * nRecargo,BaseGra5 WITH BaseGra5 * nRecargo		   ,retencion1 WITH retencion1 * nRecargo,baserete1 WITH baserete1 * nRecargo		   ,retencion2 WITH retencion2 * nRecargo,b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2597,7 +2011,63 @@ aserete2 WITH baserete2 * nRecargo		   ,retencion3 WITH retencion3 * nRecargo,ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 erete5 * nRecargo		   ,BaseExe WITH BaseExe * nRecargo,BaseInterno WITH BaseInterno * nRecargo		   ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo		   ,BaseDescto WITH BaseDescto * nRecargo,BaseDes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2701,6 +2171,34 @@ erete5 * nRecargo		   ,BaseExe WITH BaseExe * nRecargo,BaseInterno WITH BaseInte
 
 ctoSiva WITH BaseDesctoSiva * nRecargo		   ,Perceibto1 WITH Perceibto1 * nRecargo,Perceibto2 WITH Perceibto2 * nRecargo		   ,SubtotSiva WITH SubtotSiva * nRecargo,SubtotCiva WITH SubtotCiva * nRecargo,total WITH Total * nRecargo IN CsrAuxCabefac
 07-08-2018 17:42:21 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la variable 'LNBASEDESCTOSIVA'.;Linea : ._txtbonificacion.Value  = lnBaseDesctoSiva &&lnBaseDescuento;Error :         12;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 ;D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2925,6 +2423,34 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005U6H03S4.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IN\APPDATA\LOCAL\TEMP\00005U6H045C.TMP;Ultimo Control activo: 
 07-08-2018 17:43:30 , Pila de llamadas
 07-08-2018 17:43:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -2958,6 +2484,34 @@ IN\APPDATA\LOCAL\TEMP\00005U6H045C.TMP;Ultimo Control activo:
 07-08-2018 17:43:35 , Nº de Linea :         39
 07-08-2018 17:43:36 , En el Fuente: 		._txtnocatego.value      = CsrAuxCabefac.BaseNoCate
 10-08-2018 12:04:46 , REGFACVTAPUB.KEYPRESS, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : if lcaccion='A' or haycambios;Error :        107;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3147,6 +2701,34 @@ PPDATA\LOCAL\TEMP\00009SZT00EG.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 EMP\00009SZT01PW.TMP;Ultimo Control activo: 
 10-08-2018 12:11:32 , Pila de llamadas
 10-08-2018 12:11:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -3253,6 +2835,34 @@ EMP\00009SZT01PW.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   0 ;DBF: ;Ultimo Control activo: 
 10-08-2018 12:12:39 , Pila de llamadas
 10-08-2018 12:12:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
@@ -3261,6 +2871,34 @@ EMP\00009SZT01PW.TMP;Ultimo Control activo:
 10-08-2018 12:12:40 , Nº de Linea :          4
 10-08-2018 12:12:40 , En el Fuente: 	COUNT ALL FOR CsrPAgo.esclase$"M" AND CsrPAgo.idctabco=0 TO lnVale
 10-08-2018 12:13:50 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la variable 'NOMBRE'.;Linea : This.txtnombre.value = &lccamponombre;Error :         12;Ultimo Alias Activo: CSRCTACTEVDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3415,6 +3053,34 @@ EMP\00009SZT01ZQ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 EMP\00009SZT02AH.TMP;Ultimo Control activo: 
 10-08-2018 12:15:54 , Pila de llamadas
 10-08-2018 12:15:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -3458,6 +3124,34 @@ EMP\00009SZT02AH.TMP;Ultimo Control activo:
 10-08-2018 12:16:03 , Nº de Linea :         21
 10-08-2018 12:16:03 , En el Fuente:    This.txtnombre.value = &lccamponombre
 10-08-2018 12:20:02 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRCTACTEVDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009SZT02VJ.TMP;Ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3568,6 +3262,34 @@ timo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 timo Control activo: 
 10-08-2018 12:21:32 , Pila de llamadas
 10-08-2018 12:21:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -3627,6 +3349,34 @@ timo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 timo Control activo: 
 10-08-2018 12:22:49 , Pila de llamadas
 10-08-2018 12:22:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -3674,3 +3424,196 @@ timo Control activo:
 10-08-2018 12:22:57 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 10-08-2018 12:22:57 , Nº de Linea :         32
 10-08-2018 12:22:58 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
+10-08-2018 16:15:35 , _UTIL_MH.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'HEADER'.;Linea : Replace ALL codDistribuidor WITH strtrim(thisform.CodDistribuidor) ,Periodo WITH LEFT(DTOS(.fecha_calendario1.txtfecha.Value),6) FO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R header= 0 IN CsrImportar;Error :         12;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KW900UT.TMP;Ultimo Control activo: 
+10-08-2018 16:15:36 , Pila de llamadas
+10-08-2018 16:15:36 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:15:36 , Objeto      : _util_mh.imprimir_vistaprevia1.impresora.click
+10-08-2018 16:15:36 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:15:36 , Nº de Linea :          8
+10-08-2018 16:15:36 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-08-2018 16:15:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:15:36 , Objeto      : _util_mh.crearinforme
+10-08-2018 16:15:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:15:37 , Nº de Linea :         13
+10-08-2018 16:15:37 , En el Fuente: 	.generar('movStock','Stock','.t.','ST_'+lcCodEmpresa+'_'+lcfecha+'.CSV')
+10-08-2018 16:15:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:15:38 , Objeto      : _util_mh.generar
+10-08-2018 16:15:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:15:38 , Nº de Linea :         18
+10-08-2018 16:15:38 , En el Fuente: 			_existe = .leerMovStock()
+10-08-2018 16:15:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:15:39 , Objeto      : _util_mh.leermovstock
+10-08-2018 16:15:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:15:39 , Nº de Linea :         29
+10-08-2018 16:15:39 , En el Fuente: Replace ALL codDistribuidor WITH strtrim(thisform.CodDistribuidor)			,Periodo WITH LEFT(DTOS(.fecha_calendario1.txtfecha.Value),6) FOR header= 0 IN CsrImportar
+10-08-2018 16:20:08 , _UTIL_MH.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT * FROM CsrCursor INTO CURSOR CsrImportar READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+: ;Ultimo Control activo: 
+10-08-2018 16:20:08 , Pila de llamadas
+10-08-2018 16:20:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:20:09 , Objeto      : _util_mh.imprimir_vistaprevia1.impresora.click
+10-08-2018 16:20:09 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:20:09 , Nº de Linea :          8
+10-08-2018 16:20:09 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-08-2018 16:20:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:09 , Objeto      : _util_mh.crearinforme
+10-08-2018 16:20:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:10 , Nº de Linea :         13
+10-08-2018 16:20:10 , En el Fuente: 	.generar('movStock','Stock','.t.','ST_'+lcCodEmpresa+'_'+lcfecha+'.CSV')
+10-08-2018 16:20:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:11 , Objeto      : _util_mh.generar
+10-08-2018 16:20:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:11 , Nº de Linea :         18
+10-08-2018 16:20:11 , En el Fuente: 			_existe = .leerMovStock()
+10-08-2018 16:20:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:11 , Objeto      : _util_mh.leermovstock
+10-08-2018 16:20:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:12 , Nº de Linea :         29
+10-08-2018 16:20:12 , En el Fuente: SELECT * FROM CsrCursor INTO CURSOR CsrImportar READWRITE 
+10-08-2018 16:20:45 , _UTIL_MH.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT * FROM CsrCursor INTO CURSOR CsrImportar READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+: ;Ultimo Control activo: 
+10-08-2018 16:20:45 , Pila de llamadas
+10-08-2018 16:20:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:20:46 , Objeto      : _util_mh.imprimir_vistaprevia1.impresora.click
+10-08-2018 16:20:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:20:46 , Nº de Linea :          8
+10-08-2018 16:20:47 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-08-2018 16:20:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:47 , Objeto      : _util_mh.crearinforme
+10-08-2018 16:20:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:48 , Nº de Linea :         13
+10-08-2018 16:20:48 , En el Fuente: 	.generar('movStock','Stock','.t.','ST_'+lcCodEmpresa+'_'+lcfecha+'.CSV')
+10-08-2018 16:20:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:48 , Objeto      : _util_mh.generar
+10-08-2018 16:20:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:48 , Nº de Linea :         18
+10-08-2018 16:20:49 , En el Fuente: 			_existe = .leerMovStock()
+10-08-2018 16:20:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:49 , Objeto      : _util_mh.leermovstock
+10-08-2018 16:20:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:20:50 , Nº de Linea :         29
+10-08-2018 16:20:50 , En el Fuente: SELECT * FROM CsrCursor INTO CURSOR CsrImportar READWRITE 
+10-08-2018 16:30:06 , _UTIL_MH.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRIMPORTAR'.;Linea : lcCadena = lcCadena + IIF(LEN(LTRIM(lcCadena))#0,'-','') + CsrImportar.Codigo;Error :         13;Ultimo Alias Activo: CSRCURSOR;U
+
+
+
+
+
+
+
+
+
+
+ltimo registro:         50 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KW901VL.TMP;Ultimo Control activo: 
+10-08-2018 16:30:06 , Pila de llamadas
+10-08-2018 16:30:06 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:30:06 , Objeto      : _util_mh.imprimir_vistaprevia1.impresora.click
+10-08-2018 16:30:06 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:30:06 , Nº de Linea :          8
+10-08-2018 16:30:07 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-08-2018 16:30:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:30:07 , Objeto      : _util_mh.crearinforme
+10-08-2018 16:30:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:30:08 , Nº de Linea :         13
+10-08-2018 16:30:08 , En el Fuente: 	.generar('movStock','Stock','.t.','ST_'+lcCodEmpresa+'_'+lcfecha+'.CSV')
+10-08-2018 16:30:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:30:09 , Objeto      : _util_mh.generar
+10-08-2018 16:30:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:30:09 , Nº de Linea :         18
+10-08-2018 16:30:09 , En el Fuente: 			_existe = .leerMovStock()
+10-08-2018 16:30:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:30:10 , Objeto      : _util_mh.leermovstock
+10-08-2018 16:30:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:30:10 , Nº de Linea :         38
+10-08-2018 16:30:10 , En el Fuente: 		lcCadena = lcCadena + IIF(LEN(LTRIM(lcCadena))#0,'-','') + CsrImportar.Codigo
+10-08-2018 16:45:44 , _UTIL_MH.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT * FROM CsrCursor INTO CURSOR CsrImport2 READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF:
+
+
+
+
+ ;Ultimo Control activo: 
+10-08-2018 16:45:44 , Pila de llamadas
+10-08-2018 16:45:44 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:45:44 , Objeto      : _util_mh.imprimir_vistaprevia1.impresora.click
+10-08-2018 16:45:44 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-08-2018 16:45:44 , Nº de Linea :          8
+10-08-2018 16:45:44 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-08-2018 16:45:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:45:45 , Objeto      : _util_mh.crearinforme
+10-08-2018 16:45:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:45:45 , Nº de Linea :         14
+10-08-2018 16:45:45 , En el Fuente: 	.generar('Cabefac','Ventas','.t.','SO_'+lcCodEmpresa+'_'+lcfecha+'.CSV')
+10-08-2018 16:45:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:45:46 , Objeto      : _util_mh.generar
+10-08-2018 16:45:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:45:47 , Nº de Linea :         16
+10-08-2018 16:45:47 , En el Fuente: 			_existe = .leerCabefac()
+10-08-2018 16:45:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:45:47 , Objeto      : _util_mh.leercabefac
+10-08-2018 16:45:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_mh.sct
+10-08-2018 16:45:48 , Nº de Linea :         63
+10-08-2018 16:45:48 , En el Fuente: SELECT * FROM CsrCursor INTO CURSOR CsrImport2 READWRITE 
