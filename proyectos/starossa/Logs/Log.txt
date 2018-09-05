@@ -1,173 +1,7 @@
- Alias  registro          0
-Control activo  MAIN
-26-03-2018 14:11:31 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-26-03-2018 14:16:20 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-28-03-2018 13:05:31 , Linea nº lbimpriok = .Objimpresor.generafacturacot("F",30)
-Error nº:       1734
-Error No se encuentra la propiedad GENERAFACTURACOT.
- Alias CSRCABEIMP registro          1
-Control activo  REGFACVTA.KEYPRESS
-28-03-2018 14:30:49 , Linea nº INSERT INTO CsrBonif (codigo,codvari,boni,bonidig,cantidad,cantdig ,idcuerpo,idcuervari) VALUES (nArticulo,nVariedad,nBonif,nBonifdig,nCantidad,nCantdig ,CuePedido.idcuepedido,CuePedido.idcuepedidovari)
-Error nº:          9
-Error No coinciden los tipos de datos.
- Alias CUEPEDIDO registro          1
-Control activo BONIF REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS
-04-04-2018 11:36:12 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
-Error nº:       1581
-Error El campo ID no acepta valores NULL.
- Alias CSRLEERPAGO registro          1
-Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
-04-04-2018 11:40:29 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
 
 
 
@@ -453,12 +287,22 @@ Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
 porte,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.afecta)
 Error nº:       1581
 Error El campo ID no acepta valores NULL.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CONTAINERCONSULTA.CMDPROCESAR.CLICK
 04-04-2018 12:12:54 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,afecta) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,CsrLeerPago.im
+
+
+
+
+
 
 
 
@@ -757,7 +601,17 @@ Control activo  MAIN
 
 
 
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
 
 
 
@@ -1027,7 +881,17 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
 
 
 
@@ -1357,12 +1221,22 @@ Control activo  ABMVALORES.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCTACTE.TXTEX
 
 
 
+
+
+
+
+
 clase WITH OscPago.clasevalor IN CsrPAgo
 Error nº:         39
 Error Desbordamiento numérico (se han perdido datos).
  Alias CSRPAGO registro          1
 Control activo  RINDEARQUEO.GRID2.KEYPRESS
 16-05-2018 20:40:38 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(clasevalor$'A',0,VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,idvalor W
+
+
+
+
+
 
 
 
@@ -1497,6 +1371,11 @@ Error No se encuentra la variable 'NORTARJETA'.
  Alias CSRPAGO registro          1
 Control activo  RINDEARQUEO.GRID2.KEYPRESS
 16-05-2018 20:59:10 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A',VAL(NVL(OscPago.cupon,0)),VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre
+
+
+
+
+
 
 
 
@@ -1804,7 +1683,17 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
 
 
 
@@ -2026,7 +1915,17 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
 
 
 
@@ -2248,7 +2147,17 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
 
 
 
@@ -2492,7 +2401,17 @@ Control activo  REGORDENCARGA.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
 
 
 
@@ -2708,7 +2627,17 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
 
 
 
@@ -2928,7 +2857,17 @@ Control activo  REGORDENCARGA.LOAD
 
 
 
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
 
 
 
@@ -3142,7 +3081,17 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
 
 
 
@@ -3528,6 +3477,11 @@ Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 
 
 
+
+
+
+
+
 dvalor ,plazo WITH CsrCuerpoImp.plazo ,observacion WITH CsrCuerpoImp.observacion IN CsrImpCue
 Error nº:         12
 Error No se encuentra la variable 'TOTAL'.
@@ -3574,6 +3528,11 @@ Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRIMPCUE registro          1
 Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 22-06-2018 11:21:36 , Linea nº replace grupo WITH 'A',nroorden WITH CsrCabeCarga.numero, codtrans WITH CsrCtacte.cnumero, nomtrans WITH CsrCtacte.cnombre ,codchofer WITH strtrim(CsrChofer.numero), nomchofer WITH CsrChofer.nombre, fecha WITH DTOC(TTOD(Csr
+
+
+
+
+
 
 
 
@@ -3910,7 +3869,17 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
  nRecargo,BaseGra4 WITH BaseGra4 * nRecargo ,ivari5 WITH ivari5 * nRecargo,BaseGra5 WITH BaseGra5 * nRecargo ,retencion1 WITH retencion1 * nRecargo,baserete1 WITH baserete1 * nRecargo ,retencion2 WITH retencion2 * nRecargo,baserete2 WITH baserete2 * nRec
+
+
+
+
+
 
 
 
@@ -3952,7 +3921,17 @@ argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo 
 
 
 
+
+
+
+
+
 nRecargo,BaseInterno WITH BaseInterno * nRecargo ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo ,BaseDescto WITH BaseDescto * nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WIT
+
+
+
+
+
 
 
 
@@ -4113,4 +4092,49 @@ Error nº:         13
 Error No se encuentra el alias 'CSRVENDEDOR'.
  Alias  registro          0
 Control activo  PIDORUTAVENDEDOR.CONTAINERENCABEZA.CMDOK.CLICK
-04-09-2018 13:37:31 , Linea nº SELECT Csrcaberuta.*,0000000000 as idruta,0000000000 as idfuerzavta,CAST(0 as int) as idsector FROM Csrcaberuta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCabeza READWRITEError nº:          1Error El archivo 'csrcaberuta.dbf' no existe. Alias  registro          0Control activo  GUIAVISITA.LOAD
+04-09-2018 13:37:31 , Linea nº SELECT Csrcaberuta.*,0000000000 as idruta,0000000000 as idfuerzavta,CAST(0 as int) as idsector FROM Csrcaberuta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCabeza READWRITE
+Error nº:          1
+Error El archivo 'csrcaberuta.dbf' no existe.
+ Alias  registro          0
+Control activo  GUIAVISITA.LOAD
+05-09-2018 20:35:28 , Linea nº this.Columns(lcactiva).Header1.Fontitalic=.t.
+Error nº:         16
+Error No se reconoce el verbo de comando.
+ Alias  registro          0
+Control activo  ON... 
+05-09-2018 20:37:58 , Linea nº nLetra = nLetra + 1
+Error nº:         12
+Error No se encuentra la variable 'NLETRA'.
+ Alias CSRLETRA2 registro          1
+Control activo  REGPRECIOS.INIT
+05-09-2018 20:49:19 , Linea nº APPEND FROM (xarchivo) TYPE XLS
+Error nº:       1661
+Error El formato del archivo Microsoft Excel no es válido.
+ Alias CSRCURSOR registro          1
+Control activo  PRUEBA_EXCEL
+05-09-2018 20:49:42 , Linea nº APPEND FROM (xarchivo) TYPE XLS
+Error nº:       1774
+Error No se encuentra ninguna hoja.
+ Alias CSRCURSOR registro          1
+Control activo  PRUEBA_EXCEL
+05-09-2018 20:50:52 , Linea nº APPEND FROM (xarchivo) TYPE XLS SHEET 'Unilever'
+Error nº:         10
+Error Error de sintaxis.
+ Alias CSRCURSOR registro          1
+Control activo  PRUEBA_EXCEL
+05-09-2018 20:52:05 , Linea nº APPEND FROM (xarchivo) TYPE XL5 SHEET 'Unilever'
+Error nº:       1775
+Error No se encuentra la hoja de cálculo Unilever.
+ Alias CSRCURSOR registro          1
+Control activo  PRUEBA_EXCEL
+05-09-2018 20:54:14 , Linea nº APPEND FROM (xarchivo) TYPE CSV
+Error nº:         47
+Error No hay campos para procesar.
+ Alias CSRCURSOR registro          1
+Control activo  PRUEBA_EXCEL
+05-09-2018 20:56:03 , Linea nº APPEND FROM (xarchivo) TYPE XLS
+Error nº:       1661
+Error El formato del archivo Microsoft Excel no es válido.
+ Alias CSRCURSOR registro          1
+Control activo  PRUEBA_EXCEL
+05-09-2018 20:57:13 , Linea nº This.Parent._txtRuta.value = Upper(lcruta)Error nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias CSRLETRA2 registro          1Control activo  CBIOPRECIO2.ACEPTAR1.CLICK

@@ -1,0 +1,20 @@
+
+IF USED('CsrCursor')
+	USE IN CsrCursor
+ENDIF 
+CREATE CURSOR CsrCursor (detalle m)
+
+xarchivo=GETFILE('CSV','Archivo de Excel','Abrir',1,'Abrir Archivo de Planilla de Excel') 
+
+&& Luego puedes usar una base de datos vacia para agregar los registros. 
+SELECT 50 
+SELECT CsrCursor
+APPEND FROM (xarchivo) TYPE CSV 
+BROWSE 
+
+
+&&IMPORT FROM J:\Lista\Lista_Unilever.XLS TYPE XLS 
+
+&&Podria ser que el nombre de la Hoja1 sea diferente entonces 
+
+&&IMPORT FROM Archivo.XLS TYPE XLS SHEET  
