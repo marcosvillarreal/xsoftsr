@@ -2,14 +2,13 @@
 IF USED('CsrCursor')
 	USE IN CsrCursor
 ENDIF 
-CREATE CURSOR CsrCursor (detalle m)
+CREATE CURSOR CsrCursor (detalle c(250),detalle1 c(250))
 
-xarchivo=GETFILE('XLS','Archivo de Excel','Abrir',1,'Abrir Archivo de Planilla de Excel') 
+xarchivo=GETFILE('CSV','Archivo de Excel','Abrir',1,'Abrir Archivo de Planilla de Excel') 
 
 && Luego puedes usar una base de datos vacia para agregar los registros. 
-SELECT 50 
 SELECT CsrCursor
-APPEND FROM (xarchivo) TYPE XLS
+APPEND FROM (xarchivo) SDF 
 BROWSE 
 
 

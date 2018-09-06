@@ -1,3 +1,26 @@
+FUNCTION A_RED
+parameters _aredondeo,_aimporte
+
+if _Aredondeo<>0
+   _Aimporte=red(_Aimporte,4)
+   _Decimales=red((_Aimporte - int(_Aimporte) ),3)
+   _resul=int(_decimales/_aredondeo)
+   _resto=mod(_decimales,_Aredondeo)
+   if _Resto>0
+      _Aimporte=int(_Aimporte)+(_aredondeo*(_resul+1))
+   endif
+endif
+return _Aimporte
+
+*-------------------------------------------------------------
+
+FUNCTION LimpiarCadena
+PARAMETERS lcCadena
+
+lcCadena = STRTRAN(lcCadena,'"','')
+lcCadena = STRTRAN(lcCadena,"'",'')
+lcCadena = STRTRAN(lcCadena,'.','')
+RETURN lcCadena
 *------------------------------------------------------------
 *-Mensaje de Error para operadores del sistema
 *------------------------------------------------------------
