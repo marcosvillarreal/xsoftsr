@@ -8,165 +8,6 @@
 
 
 
-
-
-
-bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
 Error nº:          1
 Error El archivo 'csrcabefac.dbf' no existe.
@@ -193,6 +34,8 @@ Error GRID3 es un miembro desconocido.
  Alias CSRAUXCARGA registro          9
 Control activo  REGORDENCARGA.CMDPROCESAR.CLICK
 19-06-2018 11:32:38 , Linea nº SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00
+
+
 
 
 
@@ -498,6 +341,8 @@ Control activo  REGORDENCARGA.CMDPROCESAR.CLICK
 
 
 
+
+
 cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) a
 
 
@@ -651,7 +496,11 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
 
 
 
@@ -961,7 +810,11 @@ Control activo  REGORDENCARGA.LOAD
 
 
 
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
 
 
 
@@ -1265,7 +1118,11 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
 
 
 
@@ -1741,6 +1598,8 @@ Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 
 
 
+
+
 dvalor ,plazo WITH CsrCuerpoImp.plazo ,observacion WITH CsrCuerpoImp.observacion IN CsrImpCue
 Error nº:         12
 Error No se encuentra la variable 'TOTAL'.
@@ -1787,6 +1646,8 @@ Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRIMPCUE registro          1
 Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 22-06-2018 11:21:36 , Linea nº replace grupo WITH 'A',nroorden WITH CsrCabeCarga.numero, codtrans WITH CsrCtacte.cnumero, nomtrans WITH CsrCtacte.cnombre ,codchofer WITH strtrim(CsrChofer.numero), nomchofer WITH CsrChofer.nombre, fecha WITH DTOC(TTOD(Csr
+
+
 
 
 
@@ -2213,7 +2074,11 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
  nRecargo,BaseGra4 WITH BaseGra4 * nRecargo ,ivari5 WITH ivari5 * nRecargo,BaseGra5 WITH BaseGra5 * nRecargo ,retencion1 WITH retencion1 * nRecargo,baserete1 WITH baserete1 * nRecargo ,retencion2 WITH retencion2 * nRecargo,baserete2 WITH baserete2 * nRec
+
+
 
 
 
@@ -2345,7 +2210,11 @@ argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo 
 
 
 
+
+
 nRecargo,BaseInterno WITH BaseInterno * nRecargo ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo ,BaseDescto WITH BaseDescto * nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WIT
+
+
 
 
 
@@ -2713,6 +2582,8 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
 evta3n WITH Oscproducto.prevta3,prevta4n WITH Oscproducto.prevta4 IN CsrAuxCbioprecio
 Error nº:         13
 Error No se encuentra el alias 'OBJPRECIO'.
@@ -2744,7 +2615,11 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
 TH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,ma
+
+
 
 
 
@@ -2800,7 +2675,11 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH 
+
+
 
 
 
@@ -2854,7 +2733,11 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
 
 
 
@@ -2906,7 +2789,11 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
 orepo,internov WITH Csrproducto.interno ,costobonv WITH CsrPRoducto.costobon,costoconivav WITH lobjPrecio.costoconiva ,prevta1v WITH Csrproducto.prevta1,prevta2v WITH Csrproducto.prevta2 ,prevta3v WITH Csrproducto.prevta3,prevta4v WITH Csrproducto.prevta
+
+
 
 
 
@@ -2956,7 +2843,11 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
 
 
 
@@ -3004,7 +2895,11 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
 
 
 
@@ -3165,4 +3060,14 @@ Error nº:       1734
 Error No se encuentra la propiedad CONSULTANDOCOMPROBANTE.
  Alias CSRPLANPAGO registro          2
 Control activo  REGCAJA.INIT
-08-10-2018 12:29:07 , Linea nº XMLTOCURSOR(cRuta,"CsrAuxPlanCue",512+8192)Error nº:       2088Error El campo REGISTRO es de sólo lectura Alias CSRAUXPLANCUE registro          1Control activo  REGCAJA.CMDRECUPERAR.CLICK
+08-10-2018 12:29:07 , Linea nº XMLTOCURSOR(cRuta,"CsrAuxPlanCue",512+8192)
+Error nº:       2088
+Error El campo REGISTRO es de sólo lectura
+ Alias CSRAUXPLANCUE registro          1
+Control activo  REGCAJA.CMDRECUPERAR.CLICK
+08-10-2018 12:55:26 , Linea nº lbhayBuscarCoinci = .f
+Error nº:       1940
+Error La expresión no es válida fuera de WITH/ENDWITH.
+ Alias CSRPRODUCTO registro          1
+Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
+08-10-2018 12:55:35 , Linea nº IF lbhayBuscarCoinciError nº:         12Error No se encuentra la variable 'LBHAYBUSCARCOINCI'. Alias CSRPRODUCTO registro          1Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
