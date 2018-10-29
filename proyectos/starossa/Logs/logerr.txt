@@ -1,2455 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-oducto.costorepo,internov WITH Csrproducto.interno	 		,costobonv WITH CsrPRoducto.costobon,costoconivav WITH lobjPrecio.costoconiva	 	    ,prevta1v WITH Csrproducto.prevta1,prevta2v WITH Csrproducto.prevta2			,prevta3v WITH Csrproducto.prevta3,prevta4v W
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ITH Csrproducto.prevta4 IN CsrAuxCbioprecio
-06-09-2018 13:26:50 , CBIOPRECIO3.CMDACEPTAR.CLICK, Error: No se encuentra la propiedad FLETEN.;Linea : REPLACE costo WITH OscPrecio.coston,costorepo with OscPrecio.costorepon ,interno WITH OscPrecio.internon ,prevta1 WITH OscPrecio.prevta1n,prevta2 WITH
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- OscPrecio.prevta2n ,prevta3 WITH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH OscPrecio.margen4 ,costobon WITH OscPrecio.costobonn ,flete WITH OscPrecio.fleten,segflete WITH OscPrecio.segfleten IN CsrProducto;Error :       1734;Ultimo Alias Activo: CSRPRO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP00Q6.TMP;Ultimo Control activo: 
-06-09-2018 13:26:51 , Pila de llamadas
-06-09-2018 13:26:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:26:52 , Objeto      : cbioprecio3.cmdaceptar.click
-06-09-2018 13:26:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:26:53 , Nº de Linea :          6
-06-09-2018 13:26:53 , En el Fuente:    thisform.actualizar()
-06-09-2018 13:26:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:26:53 , Objeto      : cbioprecio3.actualizar
-06-09-2018 13:26:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:26:54 , Nº de Linea :         17
-06-09-2018 13:26:54 , En el Fuente: 	        llok = .grabardato()					    
-06-09-2018 13:26:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:26:54 , Objeto      : cbioprecio3.grabardato
-06-09-2018 13:26:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:26:55 , Nº de Linea :         59
-06-09-2018 13:26:55 , En el Fuente: 				REPLACE costo WITH OscPrecio.coston,costorepo with OscPrecio.costorepon				,interno WITH OscPrecio.internon				,prevta1 WITH OscPrecio.prevta1n,prevta2 WITH OscPrecio.prevta2n				,prevta3 WITH OscPrecio.prevta3n,pr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-evta4 WITH OscPrecio.prevta4n				,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n				,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n				,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2				,margen3 WI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TH OscPrecio.margen3,margen4 WITH OscPrecio.margen4				,costobon WITH OscPrecio.costobonn				,flete WITH OscPrecio.fleten,segflete WITH OscPrecio.segfleten IN CsrProducto
-06-09-2018 13:29:13 , CBIOPRECIO3.CMDACEPTAR.CLICK, Error: No se encuentra la propiedad SEGFLETEN.;Linea : REPLACE costo WITH OscPrecio.coston,costorepo with OscPrecio.costorepon ,interno WITH OscPrecio.internon ,prevta1 WITH OscPrecio.prevta1n,prevta2 W
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ITH OscPrecio.prevta2n ,prevta3 WITH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.marg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-en1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH OscPrecio.margen4 ,costobon WITH OscPrecio.costobonn ,flete WITH OscPrecio.fleten,segflete WITH OscPrecio.segfleten IN CsrProducto;Error :       1734;Ultimo Alias Activo: CSR
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP00YQ.TMP;Ultimo Control activo: 
-06-09-2018 13:29:14 , Pila de llamadas
-06-09-2018 13:29:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:29:14 , Objeto      : cbioprecio3.cmdaceptar.click
-06-09-2018 13:29:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:29:14 , Nº de Linea :          6
-06-09-2018 13:29:15 , En el Fuente:    thisform.actualizar()
-06-09-2018 13:29:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:29:15 , Objeto      : cbioprecio3.actualizar
-06-09-2018 13:29:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:29:16 , Nº de Linea :         17
-06-09-2018 13:29:16 , En el Fuente: 	        llok = .grabardato()					    
-06-09-2018 13:29:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:29:16 , Objeto      : cbioprecio3.grabardato
-06-09-2018 13:29:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 13:29:17 , Nº de Linea :         59
-06-09-2018 13:29:17 , En el Fuente: 				REPLACE costo WITH OscPrecio.coston,costorepo with OscPrecio.costorepon				,interno WITH OscPrecio.internon				,prevta1 WITH OscPrecio.prevta1n,prevta2 WITH OscPrecio.prevta2n				,prevta3 WITH OscPrecio.prevta3n,pr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-evta4 WITH OscPrecio.prevta4n				,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n				,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n				,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2				,margen3 WI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TH OscPrecio.margen3,margen4 WITH OscPrecio.margen4				,costobon WITH OscPrecio.costobonn				,flete WITH OscPrecio.fleten,segflete WITH OscPrecio.segfleten IN CsrProducto
-06-09-2018 17:47:55 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'LCCODBARRA13'.;Linea : cCodBarra13	= IIF(lentrim(lcCodBarra)=13,lcCodBarra13,'');Error :         12;Ultimo Alias Activo: CSRLISTA;Ultimo registro:         71 ;DBF: C
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP02SM.TMP;Ultimo Control activo: 
-06-09-2018 17:47:56 , Pila de llamadas
-06-09-2018 17:47:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:47:57 , Objeto      : cbioprecio3.cmdprocesar.click
-06-09-2018 17:47:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:47:57 , Nº de Linea :          1
-06-09-2018 17:47:57 , En el Fuente: thisform.estadook = thisform.CrearInforme()
-06-09-2018 17:47:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:47:58 , Objeto      : cbioprecio3.crearinforme
-06-09-2018 17:47:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:47:59 , Nº de Linea :         10
-06-09-2018 17:47:59 , En el Fuente: thisform.leerarchivo()
-06-09-2018 17:47:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:48:00 , Objeto      : cbioprecio3.leerarchivo
-06-09-2018 17:48:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:48:00 , Nº de Linea :         33
-06-09-2018 17:48:00 , En el Fuente: 	thisform.procesararchivo()
-06-09-2018 17:48:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:48:01 , Objeto      : cbioprecio3.procesararchivo
-06-09-2018 17:48:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:48:01 , Nº de Linea :         78
-06-09-2018 17:48:02 , En el Fuente: 		cCodBarra13	= IIF(lentrim(lcCodBarra)=13,lcCodBarra13,'')
-06-09-2018 17:50:54 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra el alias ''.;Linea : SELECT (lcAlias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-06-09-2018 17:50:54 , Pila de llamadas
-06-09-2018 17:50:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:50:54 , Objeto      : cbioprecio3.cmdprocesar.click
-06-09-2018 17:50:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:50:55 , Nº de Linea :          1
-06-09-2018 17:50:55 , En el Fuente: thisform.estadook = thisform.CrearInforme()
-06-09-2018 17:50:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:50:56 , Objeto      : cbioprecio3.crearinforme
-06-09-2018 17:50:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:50:56 , Nº de Linea :        106
-06-09-2018 17:50:57 , En el Fuente: thisform.imprimir_vistaprevia1.impresora.Click()
-06-09-2018 17:50:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:50:57 , Objeto      : cbioprecio3.imprimir_vistaprevia1.impresora.click
-06-09-2018 17:50:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-06-09-2018 17:50:57 , Nº de Linea :          9
-06-09-2018 17:50:58 , En el Fuente: 	   llok=thisform.antesinforme()
-06-09-2018 17:50:58 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-06-09-2018 17:50:58 , Objeto      : cbioprecio3.antesinforme
-06-09-2018 17:50:59 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-06-09-2018 17:50:59 , Nº de Linea :          6
 06-09-2018 17:50:59 , En el Fuente: 	SELECT (lcAlias)
 06-09-2018 17:52:21 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra el alias ''.;Linea : SELECT (lcAlias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 06-09-2018 17:52:21 , Pila de llamadas
@@ -2474,6 +22,41 @@ TH OscPrecio.margen3,margen4 WITH OscPrecio.margen4				,costobon WITH OscPrecio.
 06-09-2018 17:52:27 , Nº de Linea :          6
 06-09-2018 17:52:27 , En el Fuente: 	SELECT (lcAlias)
 06-09-2018 18:00:44 , CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS, Error: No se encuentra la propiedad CTACTESET.;Linea : this.CtacteSet();Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2783,6 +366,41 @@ MP\0000AJGP03TL.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 MP\0000AJGP03TL.TMP;Ultimo Control activo: 
 06-09-2018 18:00:51 , Pila de llamadas
 06-09-2018 18:00:52 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2796,6 +414,41 @@ MP\0000AJGP03TL.TMP;Ultimo Control activo:
 06-09-2018 18:00:54 , Nº de Linea :          4
 06-09-2018 18:00:54 , En el Fuente: 	this.CtacteSet()
 06-09-2018 18:01:01 , CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS, Error: No se encuentra la propiedad CTACTESET.;Linea : this.CtacteSet();Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3089,6 +742,41 @@ MP\0000AJGP03TL.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 MP\0000AJGP03TL.TMP;Ultimo Control activo: 
 06-09-2018 18:01:11 , Pila de llamadas
 06-09-2018 18:01:12 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3102,6 +790,41 @@ MP\0000AJGP03TL.TMP;Ultimo Control activo:
 06-09-2018 18:01:14 , Nº de Linea :          4
 06-09-2018 18:01:14 , En el Fuente: 	this.CtacteSet()
 06-09-2018 18:04:03 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra el alias '_TXTRUTA'.;Linea : UPDATE CsrSubtitulo SET subtitulo=this._txtRuta.Value;Error :         13;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3388,6 +1111,41 @@ ADMIN\APPDATA\LOCAL\TEMP\0000AJGP046L.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP04B2.TMP;Ultimo Control activo: 
 06-09-2018 18:05:37 , Pila de llamadas
 06-09-2018 18:05:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
@@ -3416,6 +1174,41 @@ USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP04B2.TMP;Ultimo Control activo:
 06-09-2018 18:05:43 , Nº de Linea :         36
 06-09-2018 18:05:43 , En el Fuente: UPDATE CsrSubtitulo SET subtitulo = ThisForm._txtRuta.Value
 06-09-2018 18:09:38 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'SUBTITULO'.;Linea : replace subtitulo WITH  lcSub;Error :         12;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3665,6 +1458,41 @@ TEMP\0000AJGP050C.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 APPDATA\LOCAL\TEMP\0000AJGP06PX.TMP;Ultimo Control activo: 
 06-09-2018 18:38:01 , Pila de llamadas
 06-09-2018 18:38:02 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3683,6 +1511,41 @@ APPDATA\LOCAL\TEMP\0000AJGP06PX.TMP;Ultimo Control activo:
 06-09-2018 18:38:05 , Nº de Linea :         27
 06-09-2018 18:38:05 , En el Fuente: 	LOCATE FOR id = Precio_Codigo
 06-09-2018 18:38:13 , CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS, Error: No se encuentra la variable 'PRECIO_CODIGO'.;Linea : LOCATE FOR id = Precio_Codigo;Error :         12;Ultimo Alias Activo: CSRCODE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3895,6 +1758,41 @@ APPDATA\LOCAL\TEMP\0000AJGP06PX.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 APPDATA\LOCAL\TEMP\0000AJGP06PX.TMP;Ultimo Control activo: 
 06-09-2018 18:38:23 , Pila de llamadas
 06-09-2018 18:38:24 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3913,6 +1811,41 @@ APPDATA\LOCAL\TEMP\0000AJGP06PX.TMP;Ultimo Control activo:
 06-09-2018 18:38:26 , Nº de Linea :         27
 06-09-2018 18:38:26 , En el Fuente: 	LOCATE FOR id = Precio_Codigo
 06-09-2018 18:38:53 , CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS, Error: No se encuentra la variable 'PRECIO_CODIGO'.;Linea : LOCATE FOR id = Precio_Codigo;Error :         12;Ultimo Alias Activo: CSRCODE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4103,6 +2036,41 @@ APPDATA\LOCAL\TEMP\0000AJGP06S8.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP06UB.TMP;Ultimo Control activo: 
 06-09-2018 18:39:50 , Pila de llamadas
 06-09-2018 18:39:50 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4121,6 +2089,41 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP06UB.TMP;Ultimo Control activo:
 06-09-2018 18:39:53 , Nº de Linea :         35
 06-09-2018 18:39:53 , En el Fuente: 	LOCATE FOR id = Precio_L1
 06-09-2018 18:40:00 , CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : LOCATE FOR id = Precio_L1;Error :        107;Ultimo Alias Activo: CSRLETRA1;Ultimo registro:          1 ;D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4290,6 +2293,41 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP06UB.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP06UB.TMP;Ultimo Control activo: 
 06-09-2018 18:40:09 , Pila de llamadas
 06-09-2018 18:40:10 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4308,6 +2346,41 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AJGP06UB.TMP;Ultimo Control activo:
 06-09-2018 18:40:13 , Nº de Linea :         35
 06-09-2018 18:40:14 , En el Fuente: 	LOCATE FOR id = Precio_L1
 06-09-2018 18:41:46 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra el alias 'CSRLISTA1'.;Linea : Precio_L1		= CsrLista1.id;Error :         13;Ultimo Alias Activo: CSRAUXCBIOPRECIO;Ultimo registro:         19 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4463,6 +2536,41 @@ MP\0000AJGP06XC.TMP;Ultimo Control activo: ESTADOTILDE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 tivo: 
 11-09-2018 15:43:24 , Pila de llamadas
 11-09-2018 15:43:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmctacte.sct
@@ -4476,6 +2584,41 @@ tivo:
 11-09-2018 15:43:26 , Nº de Linea :          3
 11-09-2018 15:43:26 , En el Fuente: cDire = this.Parametro.cdireccion
 14-09-2018 15:00:31 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El campo PASSWORD no acepta valores NULL.;Linea : GATHER NAME Objtabla;Error :       1581;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:        100 ;DBF: C:\USERS\ADMIN\AP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4600,6 +2743,41 @@ PDATA\LOCAL\TEMP\000093WP001S.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ta ('+ALLTRIM(thisform.cdiarutavisita)+')¿Desea Continuar?',36);Error :         11;Ultimo Alias Activo: CSRRUTAVENDEDOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000C3K9004R.TMP;Ultimo Control activo: 
 17-09-2018 09:04:58 , Pila de llamadas
 17-09-2018 09:04:58 , Programa    : j:\xsoftsr\desarrollo\forms\mostrar_maps.sct
@@ -4656,6 +2834,41 @@ ta ('+ALLTRIM(thisform.cdiarutavisita)+')¿Desea Continuar?',36);Error :         
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 OP0019.TMP;Ultimo Control activo: 
 01-10-2018 08:53:32 , Pila de llamadas
 01-10-2018 08:53:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
@@ -4669,6 +2882,41 @@ OP0019.TMP;Ultimo Control activo:
 01-10-2018 08:53:33 , Nº de Linea :         16
 01-10-2018 08:53:33 , En el Fuente: SELECT FsrArticulo
 02-10-2018 11:26:26 , MAIN, Error: No se encuentra la variable 'PORCE'.;Linea : IF lnlista2<>porce;Error :         12;Ultimo Alias Activo: CSRPROVINCIABA;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007ZT500CK.TMP;Ultimo Control 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4767,6 +3015,41 @@ activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ;Ultimo Control activo: 
 08-10-2018 12:17:56 , Pila de llamadas
 08-10-2018 12:17:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\regcaja.sct
@@ -4780,6 +3063,41 @@ activo:
 08-10-2018 12:17:58 , Nº de Linea :          6
 08-10-2018 12:17:58 , En el Fuente: SELECT CsrPago
 08-10-2018 12:18:39 , REGCAJA.CMDRECUPERAR.CLICK, Error: No se encuentra la propiedad CONSULTANDOCOMPROBANTE.;Linea : IF NOT thisform.consultandocomprobante;Error :       1734;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         39 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4840,6 +3158,41 @@ ADMIN\APPDATA\LOCAL\TEMP\00005VD500EI.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 00005VD500LJ.TMP;Ultimo Control activo: 
 08-10-2018 12:19:40 , Pila de llamadas
 08-10-2018 12:19:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\regcaja.sct
@@ -4875,6 +3228,41 @@ ADMIN\APPDATA\LOCAL\TEMP\00005VD500EI.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IN\APPDATA\LOCAL\TEMP\00005VD5016O.TMP;Ultimo Control activo: 
 08-10-2018 12:29:08 , Pila de llamadas
 08-10-2018 12:29:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\regcaja.sct
@@ -4888,6 +3276,41 @@ IN\APPDATA\LOCAL\TEMP\00005VD5016O.TMP;Ultimo Control activo:
 08-10-2018 12:29:10 , Nº de Linea :         39
 08-10-2018 12:29:10 , En el Fuente: 		XMLTOCURSOR(cRuta,"CsrAuxPlanCue",512+8192)
 08-10-2018 12:55:27 , REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : lbhayBuscarCoinci = .f;Error :       1940;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4949,6 +3372,41 @@ ATA\LOCAL\TEMP\00002W3T009X.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A\LOCAL\TEMP\00002W3T009X.TMP;Ultimo Control activo: 
 08-10-2018 12:55:37 , Pila de llamadas
 08-10-2018 12:55:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
@@ -4981,3 +3439,331 @@ A\LOCAL\TEMP\00002W3T009X.TMP;Ultimo Control activo:
 08-10-2018 12:55:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
 08-10-2018 12:55:45 , Nº de Linea :         53
 08-10-2018 12:55:45 , En el Fuente: IF lbhayBuscarCoinci
+26-10-2018 09:50:45 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El campo PASSWORD no acepta valores NULL.;Linea : GATHER NAME Objtabla;Error :       1581;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:        100 ;DBF: C:\USERS\ADMIN\AP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PDATA\LOCAL\TEMP\00008OW9001V.TMP;Ultimo Control activo: 
+26-10-2018 09:50:45 , Pila de llamadas
+26-10-2018 09:50:45 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+26-10-2018 09:50:45 , Objeto      : generarcelu.imprimir_vistaprevia1.impresora.click
+26-10-2018 09:50:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+26-10-2018 09:50:45 , Nº de Linea :          8
+26-10-2018 09:50:45 , En el Fuente: 	llOK=thisform.CrearInforme()
+26-10-2018 09:50:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+26-10-2018 09:50:46 , Objeto      : generarcelu.crearinforme
+26-10-2018 09:50:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+26-10-2018 09:50:46 , Nº de Linea :         18
+26-10-2018 09:50:46 , En el Fuente: 	.generar('vendedor','Vendedores','.t.','VDO000IN.TXT')
+26-10-2018 09:50:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+26-10-2018 09:50:46 , Objeto      : generarcelu.generar
+26-10-2018 09:50:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+26-10-2018 09:50:47 , Nº de Linea :         44
+26-10-2018 09:50:47 , En el Fuente: 			_existe = .leervendedor()
+26-10-2018 09:50:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+26-10-2018 09:50:47 , Objeto      : generarcelu.leervendedor
+26-10-2018 09:50:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
+26-10-2018 09:50:47 , Nº de Linea :         34
+26-10-2018 09:50:48 , En el Fuente: 	GATHER NAME Objtabla
+29-10-2018 10:49:44 , GUIAVISITA.COMMAND1.CLICK, Error: El archivo 'j:\xsoftsr\proyectos\starossa\mostrar_tracking.scx' no existe.;Linea : DO FORM mostrar_tracking WITH oParam;Error :          1;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ORDEN;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BAIX0070.TMP;Ultimo Control activo: 
+29-10-2018 10:49:44 , Pila de llamadas
+29-10-2018 10:49:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
+29-10-2018 10:49:44 , Objeto      : guiavisita.command1.click
+29-10-2018 10:49:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
+29-10-2018 10:49:45 , Nº de Linea :         27
+29-10-2018 10:49:45 , En el Fuente: DO FORM mostrar_tracking WITH oParam
+29-10-2018 10:50:35 , GUIAVISITA.COMMAND1.CLICK, Error: CMD_RUTA es un miembro desconocido.;Linea : this.cmd_ruta.Visible = .t.;Error :       1925;Ultimo Alias Activo: CSRCTACTE_2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IX00BD.TMP;Ultimo Control activo: 
+29-10-2018 10:50:35 , Pila de llamadas
+29-10-2018 10:50:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
+29-10-2018 10:50:36 , Objeto      : guiavisita.command1.click
+29-10-2018 10:50:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
+29-10-2018 10:50:36 , Nº de Linea :         27
+29-10-2018 10:50:37 , En el Fuente: DO FORM mostrar_tracking WITH oParam
+29-10-2018 10:50:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 10:50:37 , Objeto      : mostrar_tracking.init
+29-10-2018 10:50:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 10:50:38 , Nº de Linea :         21
+29-10-2018 10:50:38 , En el Fuente: 			this.cmd_ruta.Visible = .t.
+29-10-2018 10:51:28 , GUIAVISITA.COMMAND1.CLICK, Error: CMD_RUTA es un miembro desconocido.;Linea : this.pageframe1.page1.cmd_ruta.Visible = .t.;Error :       1925;Ultimo Alias Activo: CSRCTACTE_2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\0000BAIX00EA.TMP;Ultimo Control activo: 
+29-10-2018 10:51:28 , Pila de llamadas
+29-10-2018 10:51:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
+29-10-2018 10:51:29 , Objeto      : guiavisita.command1.click
+29-10-2018 10:51:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
+29-10-2018 10:51:29 , Nº de Linea :         27
+29-10-2018 10:51:29 , En el Fuente: DO FORM mostrar_tracking WITH oParam
+29-10-2018 10:51:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 10:51:30 , Objeto      : mostrar_tracking.init
+29-10-2018 10:51:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 10:51:30 , Nº de Linea :         21
+29-10-2018 10:51:31 , En el Fuente: 			this.pageframe1.page1.cmd_ruta.Visible = .t.
+29-10-2018 10:52:41 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK, Error: CHECKINFO es un miembro desconocido.;Linea : IF (thisform.checkinfo.Value=1);Error :       1925;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:          9 ;DBF: C:\USERS\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DMIN\APPDATA\LOCAL\TEMP\0000BAIX00HJ.TMP;Ultimo Control activo: 
+29-10-2018 10:52:41 , Pila de llamadas
+29-10-2018 10:52:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 10:52:42 , Objeto      : mostrar_tracking.pageframe1.page1.cmd_cargar.click
+29-10-2018 10:52:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 10:52:43 , Nº de Linea :         68
+29-10-2018 10:52:43 , En el Fuente: 			IF (thisform.checkinfo.Value=1)
+29-10-2018 10:55:34 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK, Error: CMD_RUTA es un miembro desconocido.;Linea : thisform.cmd_Ruta.Enabled = .T.;Error :       1925;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:         29 ;DBF: C:\USERS\AD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MIN\APPDATA\LOCAL\TEMP\0000BAIX00KR.TMP;Ultimo Control activo: 
+29-10-2018 10:55:34 , Pila de llamadas
+29-10-2018 10:55:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 10:55:35 , Objeto      : mostrar_tracking.pageframe1.page1.cmd_cargar.click
+29-10-2018 10:55:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 10:55:35 , Nº de Linea :        146
+29-10-2018 10:55:35 , En el Fuente: thisform.cmd_Ruta.Enabled = .T.
+29-10-2018 12:05:28 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE2.CMD_RUTA.CLICK, Error: Falta una coma (,).;Linea : <<IIF(LEN(TRIM(Coords))<>0,  calcRoute(); ,''>>;Error :       1306;Ultimo Alias Activo: CSRRUTAVENDEDOR;Ultimo registro:         26 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADMIN\APPDATA\LOCAL\TEMP\0000BAIX01II.TMP;Ultimo Control activo: 
+29-10-2018 12:05:29 , Pila de llamadas
+29-10-2018 12:05:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 12:05:29 , Objeto      : mostrar_tracking.pageframe1.page2.cmd_ruta.click
+29-10-2018 12:05:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 12:05:30 , Nº de Linea :         52
+29-10-2018 12:05:30 , En el Fuente: 	cFile = GoogleCoords3(" ",IIF(thisform.verrecorrido,thisform.llamada,''),'',cRuta,cParadas,cVendedor,cFile)
+29-10-2018 12:05:30 , Programa    : j:\xsoftsr\desarrollo\lib\googlemaps.fxp
+29-10-2018 12:05:31 , Objeto      : googlecoords3
+29-10-2018 12:05:31 , Base Objeto : j:\xsoftsr\desarrollo\lib\googlemaps.prg
+29-10-2018 12:05:31 , Nº de Linea :        964
+29-10-2018 12:05:31 , En el Fuente: 	<<IIF(LEN(TRIM(Coords))<>0,  calcRoute(); ,''>>	
+29-10-2018 12:08:08 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE2.CMD_RUTA.CLICK, Error: Falta ) en el nombre de la función.;Linea : <<IIF(LEN(TRIM(Coords))<>0,  'calcRoute();' ,''>>;Error :       1300;Ultimo Alias Activo: CSRRUTAVENDEDOR;Ultimo registro:         
+
+
+
+
+
+
+
+
+
+
+
+
+28 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BAIX01M7.TMP;Ultimo Control activo: 
+29-10-2018 12:08:08 , Pila de llamadas
+29-10-2018 12:08:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 12:08:09 , Objeto      : mostrar_tracking.pageframe1.page2.cmd_ruta.click
+29-10-2018 12:08:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 12:08:09 , Nº de Linea :         52
+29-10-2018 12:08:09 , En el Fuente: 	cFile = GoogleCoords3(" ",IIF(thisform.verrecorrido,thisform.llamada,''),'',cRuta,cParadas,cVendedor,cFile)
+29-10-2018 12:08:09 , Programa    : j:\xsoftsr\desarrollo\lib\googlemaps.fxp
+29-10-2018 12:08:10 , Objeto      : googlecoords3
+29-10-2018 12:08:10 , Base Objeto : j:\xsoftsr\desarrollo\lib\googlemaps.prg
+29-10-2018 12:08:10 , Nº de Linea :        964
+29-10-2018 12:08:10 , En el Fuente: 	<<IIF(LEN(TRIM(Coords))<>0,  'calcRoute();' ,''>>	
+29-10-2018 12:21:30 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK, Error: El archivo 'obtenerxy.prg' no existe.;Linea : ObtenerXY(cDire,@cLat,@cLng);Error :          1;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:          2 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+IN\APPDATA\LOCAL\TEMP\0000BAIX01Y8.TMP;Ultimo Control activo: 
+29-10-2018 12:21:30 , Pila de llamadas
+29-10-2018 12:21:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 12:21:30 , Objeto      : mostrar_tracking.pageframe1.page1.cmd_cargar.click
+29-10-2018 12:21:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 12:21:31 , Nº de Linea :         45
+29-10-2018 12:21:31 , En el Fuente: 			ObtenerXY(cDire,@cLat,@cLng)
+29-10-2018 15:42:45 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK, Error: El archivo 'obtenerxy.prg' no existe.;Linea : ObtenerXY(cDire,@cLat,@cLng);Error :          1;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:          2 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+IN\APPDATA\LOCAL\TEMP\0000B5L5003N.TMP;Ultimo Control activo: 
+29-10-2018 15:42:46 , Pila de llamadas
+29-10-2018 15:42:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 15:42:47 , Objeto      : mostrar_tracking.pageframe1.page1.cmd_cargar.click
+29-10-2018 15:42:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 15:42:48 , Nº de Linea :         45
+29-10-2018 15:42:48 , En el Fuente: 			ObtenerXY(cDire,@cLat,@cLng)
+29-10-2018 16:05:17 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK, Error: No se encuentra la propiedad CFILE.;Linea : IF LEN(ALLTRIM(thisform.cFile)) <> 0;Error :       1734;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:         67 ;DBF: C:\USE
+
+
+
+
+RS\ADMIN\APPDATA\LOCAL\TEMP\0000B5L500U0.TMP;Ultimo Control activo: 
+29-10-2018 16:05:17 , Pila de llamadas
+29-10-2018 16:05:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 16:05:18 , Objeto      : mostrar_tracking.pageframe1.page1.cmd_cargar.click
+29-10-2018 16:05:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 16:05:19 , Nº de Linea :        146
+29-10-2018 16:05:19 , En el Fuente: IF LEN(ALLTRIM(thisform.cFile)) <> 0
+29-10-2018 16:06:39 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMDNAVEGADOR.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : IF LEN(ALLTRIM(thisform.cFileGuia)) <> 0;Error :         11;Ultimo Alias Activo: CSRCONEXIONCEN
+
+TRAL;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B5L500XJ.TMP;Ultimo Control activo: 
+29-10-2018 16:06:40 , Pila de llamadas
+29-10-2018 16:06:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 16:06:41 , Objeto      : mostrar_tracking.pageframe1.page1.cmdnavegador.click
+29-10-2018 16:06:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
+29-10-2018 16:06:41 , Nº de Linea :          3
+29-10-2018 16:06:42 , En el Fuente: IF LEN(ALLTRIM(thisform.cFileGuia)) <> 0

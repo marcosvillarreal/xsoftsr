@@ -8,505 +8,6 @@
 
 
 
-taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
-Error nº:          1
-Error El archivo 'csrcabefac.dbf' no existe.
- Alias  registro          0
-Control activo  REGFACVTAPUB.LOAD
-08-06-2018 10:46:59 , Linea nº IF RECCOUNT(lcaliasseek)#0
-Error nº:         13
-Error No se encuentra el alias.
- Alias  registro          0
-Control activo  MAIN
-14-06-2018 12:59:39 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-19-06-2018 10:20:09 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-19-06-2018 10:56:48 , Linea nº thisform.grid3.SetFocus()
-Error nº:       1925
-Error GRID3 es un miembro desconocido.
- Alias CSRAUXCARGA registro          9
-Control activo  REGORDENCARGA.CMDPROCESAR.CLICK
-19-06-2018 11:32:38 , Linea nº SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
-
-
-
-
-
-
-
-
 
 
 
@@ -812,7 +313,27 @@ Control activo  REGORDENCARGA.LOAD
 
 
 
+
+
+
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1120,7 +641,27 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1600,6 +1141,16 @@ Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
 dvalor ,plazo WITH CsrCuerpoImp.plazo ,observacion WITH CsrCuerpoImp.observacion IN CsrImpCue
 Error nº:         12
 Error No se encuentra la variable 'TOTAL'.
@@ -1646,6 +1197,16 @@ Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRIMPCUE registro          1
 Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 22-06-2018 11:21:36 , Linea nº replace grupo WITH 'A',nroorden WITH CsrCabeCarga.numero, codtrans WITH CsrCtacte.cnumero, nomtrans WITH CsrCtacte.cnombre ,codchofer WITH strtrim(CsrChofer.numero), nomchofer WITH CsrChofer.nombre, fecha WITH DTOC(TTOD(Csr
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2076,7 +1637,27 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
  nRecargo,BaseGra4 WITH BaseGra4 * nRecargo ,ivari5 WITH ivari5 * nRecargo,BaseGra5 WITH BaseGra5 * nRecargo ,retencion1 WITH retencion1 * nRecargo,baserete1 WITH baserete1 * nRecargo ,retencion2 WITH retencion2 * nRecargo,baserete2 WITH baserete2 * nRec
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2212,7 +1793,27 @@ argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo 
 
 
 
+
+
+
+
+
+
+
+
+
+
 nRecargo,BaseInterno WITH BaseInterno * nRecargo ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo ,BaseDescto WITH BaseDescto * nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WIT
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2584,6 +2185,16 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
 evta3n WITH Oscproducto.prevta3,prevta4n WITH Oscproducto.prevta4 IN CsrAuxCbioprecio
 Error nº:         13
 Error No se encuentra el alias 'OBJPRECIO'.
@@ -2617,7 +2228,27 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
 TH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,ma
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2677,7 +2308,27 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2735,7 +2386,27 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2791,7 +2462,27 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
 orepo,internov WITH Csrproducto.interno ,costobonv WITH CsrPRoducto.costobon,costoconivav WITH lobjPrecio.costoconiva ,prevta1v WITH Csrproducto.prevta1,prevta2v WITH Csrproducto.prevta2 ,prevta3v WITH Csrproducto.prevta3,prevta4v WITH Csrproducto.prevta
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2845,7 +2536,27 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2897,7 +2608,27 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3070,4 +2801,64 @@ Error nº:       1940
 Error La expresión no es válida fuera de WITH/ENDWITH.
  Alias CSRPRODUCTO registro          1
 Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
-08-10-2018 12:55:35 , Linea nº IF lbhayBuscarCoinciError nº:         12Error No se encuentra la variable 'LBHAYBUSCARCOINCI'. Alias CSRPRODUCTO registro          1Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
+08-10-2018 12:55:35 , Linea nº IF lbhayBuscarCoinci
+Error nº:         12
+Error No se encuentra la variable 'LBHAYBUSCARCOINCI'.
+ Alias CSRPRODUCTO registro          1
+Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
+26-10-2018 09:50:44 , Linea nº GATHER NAME Objtabla
+Error nº:       1581
+Error El campo PASSWORD no acepta valores NULL.
+ Alias CSRIMPORTAR registro        100
+Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+29-10-2018 10:49:43 , Linea nº DO FORM mostrar_tracking WITH oParam
+Error nº:          1
+Error El archivo 'j:\xsoftsr\proyectos\starossa\mostrar_tracking.scx' no existe.
+ Alias CSRAUXRUTA registro          1
+Control activo  GUIAVISITA.COMMAND1.CLICK
+29-10-2018 10:50:34 , Linea nº this.cmd_ruta.Visible = .t.
+Error nº:       1925
+Error CMD_RUTA es un miembro desconocido.
+ Alias CSRCTACTE_2 registro          1
+Control activo  GUIAVISITA.COMMAND1.CLICK
+29-10-2018 10:51:28 , Linea nº this.pageframe1.page1.cmd_ruta.Visible = .t.
+Error nº:       1925
+Error CMD_RUTA es un miembro desconocido.
+ Alias CSRCTACTE_2 registro          1
+Control activo  GUIAVISITA.COMMAND1.CLICK
+29-10-2018 10:52:40 , Linea nº IF (thisform.checkinfo.Value=1)
+Error nº:       1925
+Error CHECKINFO es un miembro desconocido.
+ Alias CSRCLIENTES registro          9
+Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK
+29-10-2018 10:55:34 , Linea nº thisform.cmd_Ruta.Enabled = .T.
+Error nº:       1925
+Error CMD_RUTA es un miembro desconocido.
+ Alias CSRCLIENTES registro         29
+Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK
+29-10-2018 12:05:28 , Linea nº <<IIF(LEN(TRIM(Coords))<>0,  calcRoute(); ,''>>
+Error nº:       1306
+Error Falta una coma (,).
+ Alias CSRRUTAVENDEDOR registro         26
+Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE2.CMD_RUTA.CLICK
+29-10-2018 12:08:07 , Linea nº <<IIF(LEN(TRIM(Coords))<>0,  'calcRoute();' ,''>>
+Error nº:       1300
+Error Falta ) en el nombre de la función.
+ Alias CSRRUTAVENDEDOR registro         28
+Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE2.CMD_RUTA.CLICK
+29-10-2018 12:21:29 , Linea nº ObtenerXY(cDire,@cLat,@cLng)
+Error nº:          1
+Error El archivo 'obtenerxy.prg' no existe.
+ Alias CSRCLIENTES registro          2
+Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK
+29-10-2018 15:42:45 , Linea nº ObtenerXY(cDire,@cLat,@cLng)
+Error nº:          1
+Error El archivo 'obtenerxy.prg' no existe.
+ Alias CSRCLIENTES registro          2
+Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK
+29-10-2018 16:05:16 , Linea nº IF LEN(ALLTRIM(thisform.cFile)) <> 0
+Error nº:       1734
+Error No se encuentra la propiedad CFILE.
+ Alias CSRCLIENTES registro         67
+Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK
+29-10-2018 16:06:38 , Linea nº IF LEN(ALLTRIM(thisform.cFileGuia)) <> 0Error nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias CSRCONEXIONCENTRAL registro          1Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMDNAVEGADOR.CLICK

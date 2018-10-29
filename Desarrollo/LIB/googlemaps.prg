@@ -533,11 +533,12 @@ ENDFUNC
 ***********************************
 
 FUNCTION SoloMarks
-LPARAMETERS tcDestination,cmarks,cenLat,cenLng
+LPARAMETERS tcDestination,cmarks,cenLat,cenLng,cFileName
 
 LOCAL loXML AS "MSXML2.ServerXMLHTTP.4.0"
 LOCAL lcFullURL, lcResponse, lcRouteParameters
 tcDestination          = EVL(tcDestination, "")
+cFileName	= IIF(PCOUNT()<5,"mihtmlrutamarks",cFileName)
 
 lcRouteParameters = "origin=" + STRTRAN(UPPER(ALLTRIM(tcDestination)), " ", "%20") + ;
     "&destination=" + STRTRAN(UPPER(ALLTRIM(tcDestination)), " ", "%20")
@@ -624,7 +625,7 @@ ENDIF
 IF !DIRECTORY(lcRuta)
 	MKDIR &lcRuta
 ENDIF 
-lcFile = ADDBS(lcRuta)+"mihtmlrutamarks.html"
+lcFile = ADDBS(lcRuta)+cFileName+".html"
 
 STRTOFILE(lcHTML, lcFile)
 
@@ -655,11 +656,13 @@ ENDFUNC
 
 
 FUNCTION GoogleCoords2
-LPARAMETERS tcDestination,coords,cmarks
+LPARAMETERS tcDestination,coords,cmarks,cFileName
 
 LOCAL loXML AS "MSXML2.ServerXMLHTTP.4.0"
 LOCAL lcFullURL, lcResponse, lcRouteParameters
-tcDestination          = EVL(tcDestination, "")
+tcDestination   = EVL(tcDestination, "")
+Coords			= EVL(Coords,'')
+cFileName	= IIF(PCOUNT()<4,"mihtmlruta",cFileName)
 
 lcRouteParameters = "origin=" + STRTRAN(UPPER(ALLTRIM(tcDestination)), " ", "%20") + ;
     "&destination=" + STRTRAN(UPPER(ALLTRIM(tcDestination)), " ", "%20")
@@ -716,7 +719,7 @@ var hostnameRegexp = new RegExp("^https?://.+?/");
 var directionsOverlays = [];
 var rendererOptions = {draggable: false};
 var directionsService = new google.maps.DirectionsService();
-var stops = <<Coords>>
+var stops = [<<Coords>>];
 function initialize() {
 	var centerPoint = new google.maps.LatLng(-38.7137069,-62.2627304);
 	var mapOptions = {zoom: 15, center: centerPoint, mapTypeId: google.maps.MapTypeId.ROADMAP, streetViewControl: true}
@@ -819,7 +822,7 @@ ENDIF
 IF !DIRECTORY(lcRuta)
 	MKDIR &lcRuta
 ENDIF 
-lcFile = ADDBS(lcRuta)+"mihtmlruta.html"
+lcFile = ADDBS(lcRuta)+cFileName+".html"
 
 STRTOFILE(lcHTML, lcFile)
 
@@ -853,17 +856,14 @@ ENDFUNC
 *-----------------------------------
 *-----------------------------------
 
-
-
-
-
-
 FUNCTION GoogleCoords3
-LPARAMETERS tcDestination,coords,cmarks,cRuta,cParadas,cVendedor
+LPARAMETERS tcDestination,coords,cmarks,cRuta,cParadas,cVendedor,cFileName
 
 LOCAL loXML AS "MSXML2.ServerXMLHTTP.4.0"
 LOCAL lcFullURL, lcResponse, lcRouteParameters
-tcDestination          = EVL(tcDestination, "")
+tcDestination   = EVL(tcDestination, "")
+coords			= EVL(coords,"")
+cFileName	= IIF(PCOUNT()<7,"mihtmlruta",cFileName)
 
 lcRouteParameters = "origin=" + STRTRAN(UPPER(ALLTRIM(tcDestination)), " ", "%20") + ;
     "&destination=" + STRTRAN(UPPER(ALLTRIM(tcDestination)), " ", "%20")
@@ -920,7 +920,7 @@ var hostnameRegexp = new RegExp("^https?://.+?/");
 var directionsOverlays = [];
 var rendererOptions = {draggable: false};
 var directionsService = new google.maps.DirectionsService();
-var stops = <<Coords>>
+var stops = [<<Coords>>];
 
 
 function initialize() {
@@ -952,7 +952,7 @@ function initialize() {
 
  	<<cParadas>>
  	
- 	var flightPlanCoordinates = <<cRuta>>;
+ 	var flightPlanCoordinates = [<<cRuta>>];
 	var flightPath = new google.maps.Polyline({
     path: flightPlanCoordinates,
     geodesic: true,
@@ -961,8 +961,9 @@ function initialize() {
     strokeWeight: 2
 	});
 	flightPath.setMap(map)
-		
-  calcRoute();
+	
+	<<IIF(LEN(TRIM(Coords))<>0,  'calcRoute();' ,'')>>	
+ 
 }
 	
 function calcRoute() {
@@ -1059,7 +1060,7 @@ ENDIF
 IF !DIRECTORY(lcRuta)
 	MKDIR &lcRuta
 ENDIF 
-lcFile = ADDBS(lcRuta)+"mihtmlruta.html"
+lcFile = ADDBS(lcRuta)+cFileName+".html"
 
 STRTOFILE(lcHTML, lcFile)
 
