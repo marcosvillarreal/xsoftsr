@@ -1,32 +1,3 @@
- Alias CSRCTACTE registro          1
-Control activo  REGORDENCARGA.CONTAINER1.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
-19-06-2018 12:23:50 , Linea nº This.txtnombre.value = &lccamponombre
-Error nº:         12
-Error No se encuentra la variable 'NOMBRE'.
- Alias CSRCTACTE registro          1
-Control activo  REGORDENCARGA.CONTAINER1.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
-19-06-2018 12:35:27 , Linea nº this.controlsource=this.parent.controlsourcetxtid
-Error nº:         13
-Error No se encuentra el alias 'CSRFLETERO'.
- Alias CSRCHOFER registro          1
-Control activo  ABMFLETERO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM2.TXTID.INIT
-19-06-2018 12:39:02 , Linea nº lcidfletero = CsrFletero.id
-Error nº:         13
-Error No se encuentra el alias 'CSRFLETERO'.
- Alias CSRCTACTE registro          1
-Control activo  ABMFLETERO.CMDAGREGAR.CLICK
-19-06-2018 12:42:16 , Linea nº lcidfletero = CsrFletero.id
-Error nº:         13
-Error No se encuentra el alias 'CSRFLETERO'.
- Alias CSRCTACTE registro          1
-Control activo  ABMCHOFER.CMDAGREGAR.CLICK
-19-06-2018 12:43:44 , Linea nº Select(this.careaini)
-Error nº:         13
-Error No se encuentra el alias 'CSRFLETERO'.
- Alias CSRCHOFER registro         -1
-Control activo  ABMCHOFER.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM2.GOTFOCUS
-19-06-2018 12:45:20 , Linea nº lcswitch      = IIF(EMPTY(Csrfletero.switch),"00000",Csrfletero.switch)
-Error nº:         13
 Error No se encuentra el alias 'CSRFLETERO'.
  Alias CSRCHOFER registro         -1
 Control activo  ABMCHOFER.CMDSALVAR.CLICK
@@ -293,6 +264,7 @@ Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 
 
 
+
 dvalor ,plazo WITH CsrCuerpoImp.plazo ,observacion WITH CsrCuerpoImp.observacion IN CsrImpCue
 Error nº:         12
 Error No se encuentra la variable 'TOTAL'.
@@ -339,6 +311,7 @@ Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRIMPCUE registro          1
 Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 22-06-2018 11:21:36 , Linea nº replace grupo WITH 'A',nroorden WITH CsrCabeCarga.numero, codtrans WITH CsrCtacte.cnumero, nomtrans WITH CsrCtacte.cnombre ,codchofer WITH strtrim(CsrChofer.numero), nomchofer WITH CsrChofer.nombre, fecha WITH DTOC(TTOD(Csr
+
 
 
 
@@ -813,7 +786,9 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
  nRecargo,BaseGra4 WITH BaseGra4 * nRecargo ,ivari5 WITH ivari5 * nRecargo,BaseGra5 WITH BaseGra5 * nRecargo ,retencion1 WITH retencion1 * nRecargo,baserete1 WITH baserete1 * nRecargo ,retencion2 WITH retencion2 * nRecargo,baserete2 WITH baserete2 * nRec
+
 
 
 
@@ -993,7 +968,9 @@ argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo 
 
 
 
+
 nRecargo,BaseInterno WITH BaseInterno * nRecargo ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo ,BaseDescto WITH BaseDescto * nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WIT
+
 
 
 
@@ -1409,6 +1386,7 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
 evta3n WITH Oscproducto.prevta3,prevta4n WITH Oscproducto.prevta4 IN CsrAuxCbioprecio
 Error nº:         13
 Error No se encuentra el alias 'OBJPRECIO'.
@@ -1464,7 +1442,9 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
 TH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,ma
+
 
 
 
@@ -1568,7 +1548,9 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH 
+
 
 
 
@@ -1670,7 +1652,9 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
 
 
 
@@ -1770,7 +1754,9 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
 orepo,internov WITH Csrproducto.interno ,costobonv WITH CsrPRoducto.costobon,costoconivav WITH lobjPrecio.costoconiva ,prevta1v WITH Csrproducto.prevta1,prevta2v WITH Csrproducto.prevta2 ,prevta3v WITH Csrproducto.prevta3,prevta4v WITH Csrproducto.prevta
+
 
 
 
@@ -1868,7 +1854,9 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
 
 
 
@@ -1964,7 +1952,9 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
 
 
 
@@ -2270,12 +2260,14 @@ Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 edad) ,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir
 Error nº:         12
 Error No se encuentra la variable 'CANTIDAD'.
  Alias CSRVENTAS registro          1
 Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-11-2018 11:29:11 , Linea nº replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvari
+
 
 
 
@@ -2310,5 +2302,18 @@ Error nº:         13
 Error No se encuentra el alias.
  Alias  registro          0
 Control activo  MAIN
-12-11-2018 12:49:33 , Linea nº IF id=1004288Error nº:         12Error No se encuentra la variable 'ID'. Alias _CSRCTACTE registro          1Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-03-12-2018 11:21:50 , Linea nº SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias CSRAUXCARGA registro          1Control activo  LISPATRONCARGA_V1.LOAD
+12-11-2018 12:49:33 , Linea nº IF id=1004288
+Error nº:         12
+Error No se encuentra la variable 'ID'.
+ Alias _CSRCTACTE registro          1
+Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
+03-12-2018 11:21:50 , Linea nº SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,00000000.00
+ as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) a
+s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias CSRAUXCARGA registro          1
+Control activo  LISPATRONCARGA_V1.LOAD
+04-12-2018 11:30:24 , Linea nº INSERT INTO CsrimpCue (grupo,Campo001,Campo002,Campo003,Campo004,Campo005,Campo006,Campo007,Campo008 ,origen,Campo010,suborigen,cororder) VALUES ('AAAAA'+STR(0,10),"","#########"," "," ",""," "," "," " ,"1","","0000","A")Error nº:         12Error No se encuentra la variable 'CORORDER'. Alias CSRIMPCUE registro        133Control activo  LISPATRONCARGA_V1.ACEPTAR1.CLICK
