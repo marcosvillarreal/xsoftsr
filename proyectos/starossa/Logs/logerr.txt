@@ -23,657 +23,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ATA\LOCAL\TEMP\00002W3T009X.TMP;Ultimo Control activo: 
-08-10-2018 12:55:27 , Pila de llamadas
-08-10-2018 12:55:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-08-10-2018 12:55:28 , Objeto      : regfacvta.grid2.column2.text1.keypress
-08-10-2018 12:55:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-08-10-2018 12:55:28 , Nº de Linea :         14
-08-10-2018 12:55:28 , En el Fuente:       this.LostFocus()
-08-10-2018 12:55:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-08-10-2018 12:55:29 , Objeto      : regfacvta.grid2.column2.text1.lostfocus
-08-10-2018 12:55:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-08-10-2018 12:55:30 , Nº de Linea :          3
-08-10-2018 12:55:30 , En el Fuente: 	IF thisform.kitbuscarProd.fn_lostfocus(this.Value)
-08-10-2018 12:55:30 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-10-2018 12:55:30 , Objeto      : regfacvta.kitbuscarprod.fn_lostfocus
-08-10-2018 12:55:31 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-10-2018 12:55:31 , Nº de Linea :         87
-08-10-2018 12:55:31 , En el Fuente: 	    DO form buscar name oform linked with '','',lacampo ,latitulo,laorden,laType,lcbase,lcampodev		            ,lccaptionbus,.f.,lcfiltrar,oca1,this.tecla,'',this.mostrarini to luvalorbuscado
-08-10-2018 12:55:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:32 , Objeto      : rf_frm_buscargrd.keypress
-08-10-2018 12:55:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:32 , Nº de Linea :         14
-08-10-2018 12:55:33 , En el Fuente: 		this.buscar1.cntBarra.cmdAceptar.click
-08-10-2018 12:55:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:33 , Objeto      : rf_frm_buscargrd.buscar1.cntbarra.cmdaceptar.click
-08-10-2018 12:55:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:34 , Nº de Linea :          2
-08-10-2018 12:55:34 , En el Fuente:    thisform.armaselect()
-08-10-2018 12:55:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:34 , Objeto      : rf_frm_buscargrd.armaselect
-08-10-2018 12:55:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:35 , Nº de Linea :         23
-08-10-2018 12:55:35 , En el Fuente: lbhayBuscarCoinci = .f	   
-08-10-2018 12:55:36 , REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra la variable 'LBHAYBUSCARCOINCI'.;Linea : IF lbhayBuscarCoinci;Error :         12;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDAT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-A\LOCAL\TEMP\00002W3T009X.TMP;Ultimo Control activo: 
-08-10-2018 12:55:37 , Pila de llamadas
-08-10-2018 12:55:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-08-10-2018 12:55:38 , Objeto      : regfacvta.grid2.column2.text1.keypress
-08-10-2018 12:55:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-08-10-2018 12:55:38 , Nº de Linea :         14
-08-10-2018 12:55:38 , En el Fuente:       this.LostFocus()
-08-10-2018 12:55:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-08-10-2018 12:55:38 , Objeto      : regfacvta.grid2.column2.text1.lostfocus
-08-10-2018 12:55:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-08-10-2018 12:55:39 , Nº de Linea :          3
-08-10-2018 12:55:39 , En el Fuente: 	IF thisform.kitbuscarProd.fn_lostfocus(this.Value)
-08-10-2018 12:55:39 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-10-2018 12:55:40 , Objeto      : regfacvta.kitbuscarprod.fn_lostfocus
-08-10-2018 12:55:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-10-2018 12:55:40 , Nº de Linea :         87
-08-10-2018 12:55:41 , En el Fuente: 	    DO form buscar name oform linked with '','',lacampo ,latitulo,laorden,laType,lcbase,lcampodev		            ,lccaptionbus,.f.,lcfiltrar,oca1,this.tecla,'',this.mostrarini to luvalorbuscado
-08-10-2018 12:55:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:42 , Objeto      : rf_frm_buscargrd.keypress
-08-10-2018 12:55:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:42 , Nº de Linea :         14
-08-10-2018 12:55:43 , En el Fuente: 		this.buscar1.cntBarra.cmdAceptar.click
-08-10-2018 12:55:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:43 , Objeto      : rf_frm_buscargrd.buscar1.cntbarra.cmdaceptar.click
-08-10-2018 12:55:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:44 , Nº de Linea :          2
-08-10-2018 12:55:44 , En el Fuente:    thisform.armaselect()
-08-10-2018 12:55:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:44 , Objeto      : rf_frm_buscargrd.armaselect
-08-10-2018 12:55:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\buscar.sct
-08-10-2018 12:55:45 , Nº de Linea :         53
-08-10-2018 12:55:45 , En el Fuente: IF lbhayBuscarCoinci
-26-10-2018 09:50:45 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El campo PASSWORD no acepta valores NULL.;Linea : GATHER NAME Objtabla;Error :       1581;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:        100 ;DBF: C:\USERS\ADMIN\AP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PDATA\LOCAL\TEMP\00008OW9001V.TMP;Ultimo Control activo: 
-26-10-2018 09:50:45 , Pila de llamadas
-26-10-2018 09:50:45 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-26-10-2018 09:50:45 , Objeto      : generarcelu.imprimir_vistaprevia1.impresora.click
-26-10-2018 09:50:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-26-10-2018 09:50:45 , Nº de Linea :          8
-26-10-2018 09:50:45 , En el Fuente: 	llOK=thisform.CrearInforme()
-26-10-2018 09:50:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-26-10-2018 09:50:46 , Objeto      : generarcelu.crearinforme
-26-10-2018 09:50:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-26-10-2018 09:50:46 , Nº de Linea :         18
-26-10-2018 09:50:46 , En el Fuente: 	.generar('vendedor','Vendedores','.t.','VDO000IN.TXT')
-26-10-2018 09:50:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-26-10-2018 09:50:46 , Objeto      : generarcelu.generar
-26-10-2018 09:50:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-26-10-2018 09:50:47 , Nº de Linea :         44
-26-10-2018 09:50:47 , En el Fuente: 			_existe = .leervendedor()
-26-10-2018 09:50:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-26-10-2018 09:50:47 , Objeto      : generarcelu.leervendedor
-26-10-2018 09:50:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\generarandroid.sct
-26-10-2018 09:50:47 , Nº de Linea :         34
-26-10-2018 09:50:48 , En el Fuente: 	GATHER NAME Objtabla
-29-10-2018 10:49:44 , GUIAVISITA.COMMAND1.CLICK, Error: El archivo 'j:\xsoftsr\proyectos\starossa\mostrar_tracking.scx' no existe.;Linea : DO FORM mostrar_tracking WITH oParam;Error :          1;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ORDEN;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BAIX0070.TMP;Ultimo Control activo: 
 29-10-2018 10:49:44 , Pila de llamadas
 29-10-2018 10:49:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
@@ -682,6 +31,28 @@ PDATA\LOCAL\TEMP\00008OW9001V.TMP;Ultimo Control activo:
 29-10-2018 10:49:45 , Nº de Linea :         27
 29-10-2018 10:49:45 , En el Fuente: DO FORM mostrar_tracking WITH oParam
 29-10-2018 10:50:35 , GUIAVISITA.COMMAND1.CLICK, Error: CMD_RUTA es un miembro desconocido.;Linea : this.cmd_ruta.Visible = .t.;Error :       1925;Ultimo Alias Activo: CSRCTACTE_2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -958,6 +329,28 @@ IX00BD.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LOCAL\TEMP\0000BAIX00EA.TMP;Ultimo Control activo: 
 29-10-2018 10:51:28 , Pila de llamadas
 29-10-2018 10:51:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
@@ -971,6 +364,28 @@ LOCAL\TEMP\0000BAIX00EA.TMP;Ultimo Control activo:
 29-10-2018 10:51:30 , Nº de Linea :         21
 29-10-2018 10:51:31 , En el Fuente: 			this.pageframe1.page1.cmd_ruta.Visible = .t.
 29-10-2018 10:52:41 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK, Error: CHECKINFO es un miembro desconocido.;Linea : IF (thisform.checkinfo.Value=1);Error :       1925;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:          9 ;DBF: C:\USERS\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1231,6 +646,28 @@ DMIN\APPDATA\LOCAL\TEMP\0000BAIX00HJ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 MIN\APPDATA\LOCAL\TEMP\0000BAIX00KR.TMP;Ultimo Control activo: 
 29-10-2018 10:55:34 , Pila de llamadas
 29-10-2018 10:55:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
@@ -1239,6 +676,28 @@ MIN\APPDATA\LOCAL\TEMP\0000BAIX00KR.TMP;Ultimo Control activo:
 29-10-2018 10:55:35 , Nº de Linea :        146
 29-10-2018 10:55:35 , En el Fuente: thisform.cmd_Ruta.Enabled = .T.
 29-10-2018 12:05:28 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE2.CMD_RUTA.CLICK, Error: Falta una coma (,).;Linea : <<IIF(LEN(TRIM(Coords))<>0,  calcRoute(); ,''>>;Error :       1306;Ultimo Alias Activo: CSRRUTAVENDEDOR;Ultimo registro:         26 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1494,6 +953,28 @@ ADMIN\APPDATA\LOCAL\TEMP\0000BAIX01II.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 28 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BAIX01M7.TMP;Ultimo Control activo: 
 29-10-2018 12:08:08 , Pila de llamadas
 29-10-2018 12:08:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
@@ -1507,6 +988,28 @@ ADMIN\APPDATA\LOCAL\TEMP\0000BAIX01II.TMP;Ultimo Control activo:
 29-10-2018 12:08:10 , Nº de Linea :        964
 29-10-2018 12:08:10 , En el Fuente: 	<<IIF(LEN(TRIM(Coords))<>0,  'calcRoute();' ,''>>	
 29-10-2018 12:21:30 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK, Error: El archivo 'obtenerxy.prg' no existe.;Linea : ObtenerXY(cDire,@cLat,@cLng);Error :          1;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:          2 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1744,6 +1247,28 @@ IN\APPDATA\LOCAL\TEMP\0000BAIX01Y8.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IN\APPDATA\LOCAL\TEMP\0000B5L5003N.TMP;Ultimo Control activo: 
 29-10-2018 15:42:46 , Pila de llamadas
 29-10-2018 15:42:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
@@ -1752,6 +1277,28 @@ IN\APPDATA\LOCAL\TEMP\0000B5L5003N.TMP;Ultimo Control activo:
 29-10-2018 15:42:48 , Nº de Linea :         45
 29-10-2018 15:42:48 , En el Fuente: 			ObtenerXY(cDire,@cLat,@cLng)
 29-10-2018 16:05:17 , MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK, Error: No se encuentra la propiedad CFILE.;Linea : IF LEN(ALLTRIM(thisform.cFile)) <> 0;Error :       1734;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:         67 ;DBF: C:\USE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1979,6 +1526,28 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\0000B5L500U0.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TRAL;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B5L500XJ.TMP;Ultimo Control activo: 
 29-10-2018 16:06:40 , Pila de llamadas
 29-10-2018 16:06:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pm\mostrar_tracking.sct
@@ -1987,6 +1556,28 @@ TRAL;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B5L
 29-10-2018 16:06:41 , Nº de Linea :          3
 29-10-2018 16:06:42 , En el Fuente: IF LEN(ALLTRIM(thisform.cFileGuia)) <> 0
 02-11-2018 11:02:02 , SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad DETALLARCARIEDAD.;Linea : IF this.detallarcariedad = 1;Error :       1734;Ultimo Alias Activo: CSRCUERPO;Ultimo registro:          7 ;DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2212,6 +1803,28 @@ S\ADMIN\APPDATA\LOCAL\TEMP\00005FRD0247.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD02AL.TMP;Ultimo Control activo: 
 02-11-2018 11:03:05 , Pila de llamadas
 02-11-2018 11:03:06 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2230,6 +1843,28 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD02AL.TMP;Ultimo Control activo:
 02-11-2018 11:03:09 , Nº de Linea :         64
 02-11-2018 11:03:09 , En el Fuente: 	Where CsrCuerfac.idmaopera in (<<cCadMaope>>)
 02-11-2018 11:03:50 , SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CSRVENTAS'.;Linea : IF RECCOUNT(CsrVentas)#0;Error :         12;Ultimo Alias Activo: CSRCUERPO;Ultimo registro:         11 ;DBF: C:\USERS\ADMIN\AP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2433,6 +2068,28 @@ PDATA\LOCAL\TEMP\00005FRD02CC.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 PDATA\LOCAL\TEMP\00005FRD02IU.TMP;Ultimo Control activo: 
 02-11-2018 11:07:10 , Pila de llamadas
 02-11-2018 11:07:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2451,6 +2108,28 @@ PDATA\LOCAL\TEMP\00005FRD02IU.TMP;Ultimo Control activo:
 02-11-2018 11:07:13 , Nº de Linea :         75
 02-11-2018 11:07:14 , En el Fuente: 	IF RECCOUNT(CsrVentas)#0
 02-11-2018 11:15:18 , SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CSRVENTAS'.;Linea : IF RECCOUNT(CsrVentas)#0;Error :         12;Ultimo Alias Activo: CSRVENTAS;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\AP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2634,6 +2313,28 @@ PDATA\LOCAL\TEMP\00005FRD02KO.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD02MY.TMP;Ultimo Control activo: 
 02-11-2018 11:20:18 , Pila de llamadas
 02-11-2018 11:20:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2647,6 +2348,28 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD02MY.TMP;Ult
 02-11-2018 11:20:20 , Nº de Linea :        361
 02-11-2018 11:20:20 , En el Fuente: REPLACE ALL total WITH 0,totalpb1 WITH 0,totalpb2 WITH 0 FOR estado='1'
 02-11-2018 11:20:59 , SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'TOTAL'.;Linea : REPLACE ALL total WITH 0,totalpb1 WITH 0,totalpb2 WITH 0 FOR estado='1';Error :         12;Ultimo Alias Activo: CSRVENTAS;Ultimo r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2811,6 +2534,28 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD02RQ.TMP;Ult
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  registro:         11 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD03RP.TMP;Ultimo Control activo: 
 02-11-2018 11:27:10 , Pila de llamadas
 02-11-2018 11:27:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2823,6 +2568,28 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD02RQ.TMP;Ult
 02-11-2018 11:27:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\subfactura.sct
 02-11-2018 11:27:12 , Nº de Linea :        373
 02-11-2018 11:27:13 , En el Fuente: 			replace grupo WITH 1, chrfecha WITH strtrim(CsrVentas.codigo),nomcompro WITH CsrVentas.articulo					,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad))					,cnombre WITH IIF(CsrVentas.idvaried
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2970,7 +2737,51 @@ ad=0,'',CsrVentas.nomvariedad)					,total WITH CsrVentas.cantidad,totalpn WITH C
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 '',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvariedad) ,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir;Error :         12;Ultimo Alias Activo: CSRVENTAS;Ultim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3117,6 +2928,28 @@ o registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD03TI.TMP;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 srVentas.nomvariedad)					,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir
 02-11-2018 11:29:12 , SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'BONIFICACION'.;Linea : replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvarieda
 
@@ -3183,7 +3016,51 @@ srVentas.nomvariedad)					,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 d=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvariedad) ,total WITH CsrVentas.unidades,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir;Error :         12;Ultimo Alias Activo: CSRVENTAS;U
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3321,8 +3198,52 @@ ltimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD03VA.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 srVentas.nomvariedad)					,total WITH CsrVentas.unidades,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir
 02-11-2018 11:48:42 , SUBFACTURA.PAGEFRAME1.PAGE1.KITGRILLATILDARFLETERO.INIT, Error: El archivo 'csrfletero.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as w
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3448,6 +3369,28 @@ campo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor R
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 02-11-2018 11:54:11 , SUBFACTURA.PAGEFRAME1.PAGE2.KITGRILLATILDARVENDEDOR.INIT, Error: El archivo 'csrvendedor.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as
 
@@ -3507,7 +3450,51 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: _CSRFLETERO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005FRD04JM.TMP;Ultimo Control acti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3627,8 +3614,52 @@ vo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 02-11-2018 12:00:03 , SUBFACTURA.PAGEFRAME1.PAGE1.KITGRILLATILDARFLETERO.INIT, Error: El archivo 'csrfletero.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as w
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3742,8 +3773,52 @@ campo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor R
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 02-11-2018 12:06:39 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3867,6 +3942,28 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 L0084.TMP;Ultimo Control activo: 
 12-11-2018 12:49:35 , Pila de llamadas
 12-11-2018 12:49:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
@@ -3895,6 +3992,28 @@ L0084.TMP;Ultimo Control activo:
 12-11-2018 12:49:40 , Nº de Linea :         42
 12-11-2018 12:49:40 , En el Fuente: 	IF id=1004288
 03-12-2018 11:21:50 , LISPATRONCARGA_V1.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3966,7 +4085,51 @@ L0084.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4038,7 +4201,51 @@ retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4118,7 +4325,51 @@ EMP\00009P8P019Z.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5	   ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(13) as nom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4184,7 +4435,51 @@ rete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2	  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 e4,000.00 as tasarete4   	   ,SPACE(13) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5       ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfletep
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4250,7 +4545,51 @@ lanilla       ,SPACE(2) as categoria       FROM CsrCabefac WHERE RECNO()=1 AND i
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 S ('AAAAA'+STR(0,10),"","#########"," "," ",""," "," "," " ,"1","","0000","A");Error :         12;Ultimo Alias Activo: CSRIMPCUE;Ultimo registro:        133 ORIGEN+SUBORIGEN+GRUPO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008O3T01RN.TMP;Ultimo Control act
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4321,8 +4660,52 @@ ivo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ,"A")
 05-12-2018 14:25:16 , ABMFLETERO._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias 'CSRFLETERO'.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :         13;Ultimo Alias Activo: CSRFUERZAVTA;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4384,6 +4767,28 @@ ivo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \ADMIN\APPDATA\LOCAL\TEMP\0000CMIX00MP.TMP;Ultimo Control activo: 
 05-12-2018 14:25:54 , Pila de llamadas
 05-12-2018 14:25:55 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
@@ -4397,6 +4802,28 @@ ivo:
 05-12-2018 14:25:55 , Nº de Linea :         16
 05-12-2018 14:25:56 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
 05-12-2018 14:26:19 , ABMFLETERO._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias 'CSRFLETERO'.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :         13;Ultimo Alias Activo: CSRFUERZAVTA;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4444,6 +4871,28 @@ ivo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IX00NV.TMP;Ultimo Control activo: 
 05-12-2018 14:26:25 , Pila de llamadas
 05-12-2018 14:26:26 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -4462,6 +4911,28 @@ IX00NV.TMP;Ultimo Control activo:
 05-12-2018 14:26:28 , Nº de Linea :         12
 05-12-2018 14:26:28 , En el Fuente: return (&lcAlias)
 05-12-2018 14:37:24 , ABMFLETERO.CMDBORRAR.CLICK, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : REPLACE estado WITH 0 IN Csrproducto;Error :         13;Ultimo Alias Activo: _OCSRFLETERO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4491,6 +4962,28 @@ CAL\TEMP\000098ND018Z.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 MP;Ultimo Control activo: 
 05-12-2018 14:38:04 , Pila de llamadas
 05-12-2018 14:38:05 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -4506,6 +4999,28 @@ MP;Ultimo Control activo:
 05-12-2018 15:19:19 , LISPATRONCARGA_V1.ACEPTAR1.CLICK, Error: No se encuentra la variable 'NOMFLETERO'.;Linea : INSERT INTO CsrimpCab (origen,campo001,campo002,campo003,campo007,suborigen,nomFletero) VALUES ('2',"","","","","0000",CsrFletero.nombre);Err
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 or :         12;Ultimo Alias Activo: CSRIMPCAB;Ultimo registro:          1 ORIGEN;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000098ND06PG.TMP;Ultimo Control activo: 
 05-12-2018 15:19:19 , Pila de llamadas
 05-12-2018 15:19:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
@@ -4518,3 +5033,142 @@ or :         12;Ultimo Alias Activo: CSRIMPCAB;Ultimo registro:          1 ORIGE
 05-12-2018 15:19:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
 05-12-2018 15:19:21 , Nº de Linea :         26
 05-12-2018 15:19:21 , En el Fuente: 	INSERT INTO CsrimpCab (origen,campo001,campo002,campo003,campo007,suborigen,nomFletero) VALUES ('2',"","","","","0000",CsrFletero.nombre)
+06-12-2018 13:20:04 , LISPATRONCARGA_V1.CONTAINERCAMBIO._TXTPORCEFLETE.VALID, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.Value <> 0;Error :        107;Ultimo Alias Activo: CSRFLETERO2;Ultimo registro:        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008BUX00YN.TMP;Ultimo Control activo: 
+06-12-2018 13:20:04 , Pila de llamadas
+06-12-2018 13:20:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:20:05 , Objeto      : lispatroncarga_v1.containercambio._txtporceflete.valid
+06-12-2018 13:20:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:20:06 , Nº de Linea :          3
+06-12-2018 13:20:06 , En el Fuente: IF this.Value <> 0
+06-12-2018 13:20:12 , LISPATRONCARGA_V1.CONTAINERCAMBIO._TXTPORCEFLETE.VALID, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.Value <> 0;Error :        107;Ultimo Alias Activo: CSRFLETERO2;Ultimo registro:        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008BUX00YN.TMP;Ultimo Control activo: 
+06-12-2018 13:20:13 , Pila de llamadas
+06-12-2018 13:20:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:20:14 , Objeto      : lispatroncarga_v1.containercambio._txtporceflete.valid
+06-12-2018 13:20:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:20:14 , Nº de Linea :          3
+06-12-2018 13:20:14 , En el Fuente: IF this.Value <> 0
+06-12-2018 13:20:17 , LISPATRONCARGA_V1.CONTAINERCAMBIO._TXTPORCEFLETE.VALID, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.Value <> 0;Error :        107;Ultimo Alias Activo: CSRFLETERO2;Ultimo registro:        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008BUX00YN.TMP;Ultimo Control activo: 
+06-12-2018 13:20:18 , Pila de llamadas
+06-12-2018 13:20:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:20:19 , Objeto      : lispatroncarga_v1.containercambio._txtporceflete.valid
+06-12-2018 13:20:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:20:19 , Nº de Linea :          3
+06-12-2018 13:20:19 , En el Fuente: IF this.Value <> 0
+06-12-2018 13:20:24 , LISPATRONCARGA_V1.CONTAINERCAMBIO._TXTPORCEFLETE.VALID, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.Value <> 0;Error :        107;Ultimo Alias Activo: CSRFLETERO2;Ultimo registro:        
+
+
+
+
+
+
+
+
+
+
+
+  1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008BUX00YN.TMP;Ultimo Control activo: 
+06-12-2018 13:20:24 , Pila de llamadas
+06-12-2018 13:20:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:20:25 , Objeto      : lispatroncarga_v1.containercambio._txtporceflete.valid
+06-12-2018 13:20:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:20:26 , Nº de Linea :          3
+06-12-2018 13:20:26 , En el Fuente: IF this.Value <> 0
+06-12-2018 13:22:11 , LISPATRONCARGA_V1.CMDCAMBIAFLETE.CLICK, Error: _TXTFLETEPORCE es un miembro desconocido.;Linea : ._txtfleteporce.Value = 0;Error :       1925;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\
+
+
+
+
+
+
+
+
+APPDATA\LOCAL\TEMP\000034EH004B.TMP;Ultimo Control activo: 
+06-12-2018 13:22:12 , Pila de llamadas
+06-12-2018 13:22:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:22:13 , Objeto      : lispatroncarga_v1.cmdcambiaflete.click
+06-12-2018 13:22:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:22:13 , Nº de Linea :         15
+06-12-2018 13:22:13 , En el Fuente: 	._txtfleteporce.Value = 0
+06-12-2018 13:22:55 , LISPATRONCARGA_V1.CMDCAMBIAFLETE.CLICK, Error: _TXTFLETEPORCE es un miembro desconocido.;Linea : ._txtfleteporce.Value = 0;Error :       1925;Ultimo Alias Activo: CSRAUXCARGA;Ultimo registro:          1 NROCARGA;DBF: C:\USERS\ADMIN\
+
+
+
+
+
+APPDATA\LOCAL\TEMP\000034EH007L.TMP;Ultimo Control activo: 
+06-12-2018 13:22:56 , Pila de llamadas
+06-12-2018 13:22:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:22:56 , Objeto      : lispatroncarga_v1.cmdcambiaflete.click
+06-12-2018 13:22:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:22:57 , Nº de Linea :         15
+06-12-2018 13:22:57 , En el Fuente: 	._txtfleteporce.Value = 0
+06-12-2018 13:27:11 , LISPATRONCARGA_V1.CONTAINERCAMBIO.CMDACEPTAR.CLICK, Error: No se encuentra la variable 'LNFLETEPORCE'.;Linea : REPLACE idfletero WITH lnidfletero,numero WITH lnpatroncarga,fecha WITH ldfechafac,switch WITH '00000',estado WITH '0',po
+
+
+
+rceFlete WITH  lnfleteporce IN Csrfleteplanilla;Error :         12;Ultimo Alias Activo: CSRCABEFAC;Ultimo registro:         26 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000034EH00TU.TMP;Ultimo Control activo: 
+06-12-2018 13:27:11 , Pila de llamadas
+06-12-2018 13:27:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:27:12 , Objeto      : lispatroncarga_v1.containercambio.cmdaceptar.click
+06-12-2018 13:27:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:27:12 , Nº de Linea :         12
+06-12-2018 13:27:12 , En el Fuente: thisform.grabarfletero()
+06-12-2018 13:27:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:27:12 , Objeto      : lispatroncarga_v1.grabarfletero
+06-12-2018 13:27:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lispatroncarga_v1.sct
+06-12-2018 13:27:13 , Nº de Linea :         59
+06-12-2018 13:27:14 , En el Fuente: 	REPLACE idfletero WITH lnidfletero,numero WITH lnpatroncarga,fecha WITH ldfechafac,switch WITH '00000',estado WITH '0',porceFlete WITH  lnfleteporce IN Csrfleteplanilla
