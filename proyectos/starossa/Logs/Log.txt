@@ -1,34 +1,3 @@
-22-06-2018 09:52:55 , Linea nº lcOrigen = IIF(thisform.tipoform$'FPD',"FAC","NPE")
-Error nº:       1734
-Error No se encuentra la propiedad TIPOFORM.
- Alias CSRCABECARGA registro          1
-Control activo  REGORDENCARGA.CONSULTAR.CLICK
-22-06-2018 09:53:29 , Linea nº .idcompanulacion = VAL(loObjeto.idcompanulacion)
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias _CSRCOMPROBANTE registro          1
-Control activo  REGORDENCARGA.CONSULTAR.CLICK
-22-06-2018 10:15:00 , Linea nº REPLACE FOR estado='1' Csrnombre WITH LOWER(Csrnombre) IN CsrCursor
-Error nº:        107
-Error Incompatibilidad entre el tipo de operador y el tipo de operando.
- Alias CSRCURSOR registro          1
-Control activo  REGORDENCARGA.CONSULTAR.CLICK
-22-06-2018 10:16:05 , Linea nº thisform.idfactura = thisform.devolvercid()
-Error nº:       1734
-Error No se encuentra la propiedad DEVOLVERCID.
- Alias CSRCURSOR registro          1
-Control activo  REGORDENCARGA.CONSULTAR.CLICK
-22-06-2018 10:18:25 , Linea nº thisform.idfactura = thisform.devolvercid()
-Error nº:       1734
-Error No se encuentra la propiedad DEVOLVERCID.
- Alias CSRAUXILIAR registro          1
-Control activo  REGORDENCARGA.CONSULTAR.CLICK
-22-06-2018 10:29:55 , Linea nº &lcLocate
-Error nº:         12
-Error No se encuentra la variable 'NUMERO'.
- Alias CSRCTACTE registro          1
-Control activo  REGORDENCARGA.CONSULTAR.CLICK
-22-06-2018 10:52:30 , Linea nº replace grupo WITH 'A',nroorden WITH CsrCabeCarga.numero, codtrans WITH CsrCtacte.cnumero, nomtrans WITH CsrCtacte.cnombre ,codchofer WITH CsrChofer.numero, nomchofer WITH CsrChofer.nombre IN CsrImpCabe
 Error nº:          9
 Error No coinciden los tipos de datos.
  Alias CSRIMPCUER registro          1
@@ -49,6 +18,9 @@ Error No se encuentra la variable 'FECHAFAC'.
  Alias CSRCUERPOIMP registro          1
 Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 22-06-2018 10:58:06 , Linea nº replace grupo WITH 'A',fecha WITH DTOC(CsrCuerpoImp.fechafac),comprobante WITH CsrCuerpoImp.abrevia+' '+CsrCuerpoImp.numcomp ,direccion WITH CsrCuerpoImp.cdireccion ,total WITH CsrCuerpoImp.total,idvalor WITH CsrCuerpoImp.i
+
+
+
 
 
 
@@ -243,6 +215,9 @@ Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRIMPCUE registro          1
 Control activo  REGORDENCARGA.CMDIMPRIMIR.CLICK
 22-06-2018 11:21:36 , Linea nº replace grupo WITH 'A',nroorden WITH CsrCabeCarga.numero, codtrans WITH CsrCtacte.cnumero, nomtrans WITH CsrCtacte.cnombre ,codchofer WITH strtrim(CsrChofer.numero), nomchofer WITH CsrChofer.nombre, fecha WITH DTOC(TTOD(Csr
+
+
+
 
 
 
@@ -739,7 +714,13 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
  nRecargo,BaseGra4 WITH BaseGra4 * nRecargo ,ivari5 WITH ivari5 * nRecargo,BaseGra5 WITH BaseGra5 * nRecargo ,retencion1 WITH retencion1 * nRecargo,baserete1 WITH baserete1 * nRecargo ,retencion2 WITH retencion2 * nRecargo,baserete2 WITH baserete2 * nRec
+
+
+
 
 
 
@@ -941,7 +922,13 @@ argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo 
 
 
 
+
+
+
 nRecargo,BaseInterno WITH BaseInterno * nRecargo ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo ,BaseDescto WITH BaseDescto * nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WIT
+
+
+
 
 
 
@@ -1379,6 +1366,9 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
 evta3n WITH Oscproducto.prevta3,prevta4n WITH Oscproducto.prevta4 IN CsrAuxCbioprecio
 Error nº:         13
 Error No se encuentra el alias 'OBJPRECIO'.
@@ -1445,7 +1435,13 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
 TH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,ma
+
+
+
 
 
 
@@ -1571,7 +1567,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH 
+
+
+
 
 
 
@@ -1695,7 +1697,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -1817,7 +1825,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 orepo,internov WITH Csrproducto.interno ,costobonv WITH CsrPRoducto.costobon,costoconivav WITH lobjPrecio.costoconiva ,prevta1v WITH Csrproducto.prevta1,prevta2v WITH Csrproducto.prevta2 ,prevta3v WITH Csrproducto.prevta3,prevta4v WITH Csrproducto.prevta
+
+
+
 
 
 
@@ -1937,7 +1951,13 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -2055,7 +2075,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -2383,12 +2409,18 @@ Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
 edad) ,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir
 Error nº:         12
 Error No se encuentra la variable 'CANTIDAD'.
  Alias CSRVENTAS registro          1
 Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-11-2018 11:29:11 , Linea nº replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvari
+
+
+
 
 
 
@@ -2450,7 +2482,13 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
 
 
 
@@ -2472,7 +2510,13 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
 
 
 
@@ -2553,5 +2597,29 @@ Error nº:       1925
 Error _TXTFLETEPORCE es un miembro desconocido.
  Alias CSRAUXCARGA registro          1
 Control activo  LISPATRONCARGA_V1.CMDCAMBIAFLETE.CLICK
-06-12-2018 13:22:55 , Linea nº ._txtfleteporce.Value = 0Error nº:       1925Error _TXTFLETEPORCE es un miembro desconocido. Alias CSRAUXCARGA registro          1Control activo  LISPATRONCARGA_V1.CMDCAMBIAFLETE.CLICK
-06-12-2018 13:27:11 , Linea nº REPLACE idfletero WITH lnidfletero,numero WITH lnpatroncarga,fecha WITH ldfechafac,switch WITH '00000',estado WITH '0',porceFlete WITH  lnfleteporce IN CsrfleteplanillaError nº:         12Error No se encuentra la variable 'LNFLETEPORCE'. Alias CSRCABEFAC registro         26Control activo  LISPATRONCARGA_V1.CONTAINERCAMBIO.CMDACEPTAR.CLICK
+06-12-2018 13:22:55 , Linea nº ._txtfleteporce.Value = 0
+Error nº:       1925
+Error _TXTFLETEPORCE es un miembro desconocido.
+ Alias CSRAUXCARGA registro          1
+Control activo  LISPATRONCARGA_V1.CMDCAMBIAFLETE.CLICK
+06-12-2018 13:27:11 , Linea nº REPLACE idfletero WITH lnidfletero,numero WITH lnpatroncarga,fecha WITH ldfechafac,switch WITH '00000',estado WITH '0',porceFlete WITH  lnfleteporce IN Csrfleteplanilla
+Error nº:         12
+Error No se encuentra la variable 'LNFLETEPORCE'.
+ Alias CSRCABEFAC registro         26
+Control activo  LISPATRONCARGA_V1.CONTAINERCAMBIO.CMDACEPTAR.CLICK
+06-12-2018 14:24:45 , Linea nº BROWSE
+Error nº:       2088
+Error El campo ID es de sólo lectura
+ Alias CSRPAGO registro          2
+Control activo ID RINDEFLETE.CMDVALORES.CLICK
+06-12-2018 14:25:08 , Linea nº Local lrs,oform,luvalorbuscado,i,lbfound,lccmd,uvalorbuscado,lrsource,lcbase
+Error nº:       1960
+Error Redefinición no válida de la variable LUVALORBUSCADO.
+ Alias CSRFLETERO registro          1
+Control activo  RINDEFLETE.CONTAINERENCABEZA.KITBUSCAOALTAENFLETERO.TXTEXISTE1.LOSTFOCUS
+06-12-2018 14:25:26 , Linea nº Local lrs,oform,luvalorbuscado,i,lbfound,lccmd,uvalorbuscado,lrsource,lcbase
+Error nº:       1960
+Error Redefinición no válida de la variable LUVALORBUSCADO.
+ Alias CSRFLETERO registro          1
+Control activo  RINDEFLETE.CONTAINERENCABEZA.KITBUSCAOALTAENFLETERO.TXTEXISTE1.LOSTFOCUS
+06-12-2018 14:28:13 , Linea nº IF NVL(Ocatter.porcefletecarga,0) = 0Error nº:         13Error No se encuentra el alias 'OCATTER'. Alias CSRAUXCUERFAC registro          1Control activo  RINDEFLETE.ACEPTAR1.CLICK
