@@ -1,23 +1,3 @@
-Error nº:         13
-Error No se encuentra el alias 'CSRPAGO'.
- Alias CSRFINANCIA registro          1
-Control activo  PIDOPAGOS.LOAD
-07-08-2018 15:23:26 , Linea nº .nCodanterior = CsrPago.numero
-Error nº:         13
-Error No se encuentra el alias 'CSRPAGO'.
- Alias CSRFINANCIA registro          2
-Control activo REGISTRO PIDOPAGOS.INIT
-07-08-2018 15:24:17 , Linea nº SELECT CsrFinanciar
-Error nº:         13
-Error No se encuentra el alias 'CSRFINANCIAR'.
- Alias CSRFINANCIA registro          2
-Control activo REGISTRO PIDOPAGOS.INIT
-07-08-2018 15:24:47 , Linea nº .kitbuscarValor.ltextodigitado = .t.
-Error nº:       1925
-Error KITBUSCARVALOR es un miembro desconocido.
- Alias CSRFINANCIA registro          1
-Control activo REGISTRO PIDOPAGOS.GRID1.AFTERROWCOLCHANGE
-07-08-2018 15:24:54 , Linea nº .kitbuscarValor.ltextodigitado = .t.
 Error nº:       1925
 Error KITBUSCARVALOR es un miembro desconocido.
  Alias CSRFINANCIA registro          1
@@ -289,7 +269,11 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
  nRecargo,BaseGra4 WITH BaseGra4 * nRecargo ,ivari5 WITH ivari5 * nRecargo,BaseGra5 WITH BaseGra5 * nRecargo ,retencion1 WITH retencion1 * nRecargo,baserete1 WITH baserete1 * nRecargo ,retencion2 WITH retencion2 * nRecargo,baserete2 WITH baserete2 * nRec
+
+
 
 
 
@@ -533,7 +517,11 @@ argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo 
 
 
 
+
+
 nRecargo,BaseInterno WITH BaseInterno * nRecargo ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo ,BaseDescto WITH BaseDescto * nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WIT
+
+
 
 
 
@@ -1013,6 +1001,8 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
 evta3n WITH Oscproducto.prevta3,prevta4n WITH Oscproducto.prevta4 IN CsrAuxCbioprecio
 Error nº:         13
 Error No se encuentra el alias 'OBJPRECIO'.
@@ -1100,7 +1090,11 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
 TH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,ma
+
+
 
 
 
@@ -1268,7 +1262,11 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH 
+
+
 
 
 
@@ -1434,7 +1432,11 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
 
 
 
@@ -1598,7 +1600,11 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
 orepo,internov WITH Csrproducto.interno ,costobonv WITH CsrPRoducto.costobon,costoconivav WITH lobjPrecio.costoconiva ,prevta1v WITH Csrproducto.prevta1,prevta2v WITH Csrproducto.prevta2 ,prevta3v WITH Csrproducto.prevta3,prevta4v WITH Csrproducto.prevta
+
+
 
 
 
@@ -1760,7 +1766,11 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
 
 
 
@@ -1920,7 +1930,11 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
 
 
 
@@ -2290,12 +2304,16 @@ Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 edad) ,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir
 Error nº:         12
 Error No se encuentra la variable 'CANTIDAD'.
  Alias CSRVENTAS registro          1
 Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-11-2018 11:29:11 , Linea nº replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvari
+
+
 
 
 
@@ -2399,7 +2417,11 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
 
 
 
@@ -2463,7 +2485,11 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
 
 
 
@@ -2647,12 +2673,16 @@ Control activo TOTAL REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS
 
 
 
+
+
 havto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase ,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor)
 Error nº:         12
 Error No se encuentra la variable 'CUPON'.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CMDPROCESAR.CLICK
 18-12-2018 14:57:15 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,clase ,cupon,cuota,idvalor) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fec
+
+
 
 
 
@@ -2679,6 +2709,8 @@ Error El subíndice está fuera del intervalo definido.
  Alias _CSRMARCA registro          1
 Control activo  MAIN
 21-12-2018 09:38:22 , Linea nº INSERT INTO CsrImprimir (idrubro,idmarca,fecha,numero,nombre,costov,margen0,coston,PREVTA1V,margen1,PREVTA1N ,PREVTA2V,margen2,PREVTA2N,nomrubro,codalfa) VALUES (CsrCursor.idrubro,CsrCursor.idmarca,CsrCursor.fecha,Csrcursor
+
+
 
 
 
@@ -2752,5 +2784,20 @@ Error nº:         13
 Error No se encuentra el alias 'CSRTOPES'.
  Alias CSRPRODUCTO registro          1
 Control activo NOMBRE ABMPROMOCION._TEXTBOX1.KEYPRESS
-03-01-2019 11:30:51 , Linea nº .page1.txtlimio.Value = 0Error nº:       1925Error TXTLIMIO es un miembro desconocido. Alias CSRTOPESP registro          1Control activo NOMBRE ABMPROMOCION._TEXTBOX1.KEYPRESS
-03-01-2019 11:34:17 , Linea nº loObjTopes.agregarError nº:       1923Error No se encuentra el objeto LOOBJTOPES. Alias CSRTOPES registro          2Control activo  ABMPROMOCION.CMDSALVAR.CLICK
+03-01-2019 11:30:51 , Linea nº .page1.txtlimio.Value = 0
+Error nº:       1925
+Error TXTLIMIO es un miembro desconocido.
+ Alias CSRTOPESP registro          1
+Control activo NOMBRE ABMPROMOCION._TEXTBOX1.KEYPRESS
+03-01-2019 11:34:17 , Linea nº loObjTopes.agregar
+Error nº:       1923
+Error No se encuentra el objeto LOOBJTOPES.
+ Alias CSRTOPES registro          2
+Control activo  ABMPROMOCION.CMDSALVAR.CLICK
+08-01-2019 14:49:34 , Linea nº thisform.bindergridoff('thisform.kitgrillatildarStock.buscargrd1',lcalias,@lcCtrlSource,@AcolOdataNavega)
+Error nº:       1734
+Error No se encuentra la propiedad BINDERGRIDOFF.
+ Alias CSRPRODUCTO registro          1
+Control activo  LISTAETIQUETA.CMDCARGAGRILLA.CLICK
+08-01-2019 14:54:30 , Linea nº lnsugerido=CsrCursor.sugeridoError nº:         12Error No se encuentra la variable 'SUGERIDO'. Alias CSRCURSOR registro          1Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+08-01-2019 14:55:08 , Linea nº INSERT INTO CsrImprimir (idrubro,numero,nombre,unibulto,pvtaciva1,numrubro,nomrubro,clave ,detalle,sugerido,desc,saltopag,variedad,codbarra) VALUES (CsrCursor.idrubro,Csrcursor.numero,CsrCursor.nombre,lnunibulto,lnprevta ,CsrCursor.numrubro,CsrCursor.nomrubro,lcclave,"",lnsugerido,CsrCursor.desc1,CsrCursor.saltopag,"",IIF(ISNULL(CsrCursor.codbarra13),"",CsrCursor.codbarra13))Error nº:         12Error No se encuentra la variable 'DESC1'. Alias CSRCURSOR registro          1Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
