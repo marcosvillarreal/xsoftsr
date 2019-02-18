@@ -1,385 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N\APPDATA\LOCAL\TEMP\00009UKP00JA.TMP;Ultimo Control activo: NROTARJETA
-18-12-2018 14:28:54 , Pila de llamadas
-18-12-2018 14:28:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-18-12-2018 14:28:55 , Objeto      : regarqueovdor.grid2.column2.text1.keypress
-18-12-2018 14:28:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-18-12-2018 14:28:56 , Nº de Linea :          8
-18-12-2018 14:28:56 , En el Fuente: 		thisform.llamardetalle
-18-12-2018 14:28:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-18-12-2018 14:28:57 , Objeto      : regarqueovdor.llamardetalle
-18-12-2018 14:28:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-18-12-2018 14:28:57 , Nº de Linea :          5
-18-12-2018 14:28:57 , En el Fuente: 	thisform.pidovalores()
-18-12-2018 14:28:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-18-12-2018 14:28:57 , Objeto      : regarqueovdor.pidovalores
-18-12-2018 14:28:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-18-12-2018 14:28:58 , Nº de Linea :         49
-18-12-2018 14:28:58 , En el Fuente:    DO FORM pidopagos_v2 WITH lcid,loObjValor TO thisform.quetecla 
-18-12-2018 14:28:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-18-12-2018 14:28:59 , Objeto      : pidopagos.container1.containertarjeta._txttarjeta.lostfocus
-18-12-2018 14:29:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
-18-12-2018 14:29:00 , Nº de Linea :          1
-18-12-2018 14:29:00 , En el Fuente: replace nrocheque WITH this.Value IN CsrPago
-18-12-2018 14:34:12 , REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: El campo CUPON no acepta valores NULL.;Linea : GATHER NAME OscPago FIELDS EXCEPT id;Error :       1581;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-APPDATA\LOCAL\TEMP\0000A3NT006S.TMP;Ultimo Control activo: TOTAL
-18-12-2018 14:34:12 , Pila de llamadas
-18-12-2018 14:34:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
-18-12-2018 14:34:12 , Objeto      : regarqueovdor.grid2.column2.text1.keypress
 18-12-2018 14:34:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\arqueo\regarqueovdor.sct
 18-12-2018 14:34:13 , Nº de Linea :          8
 18-12-2018 14:34:13 , En el Fuente: 		thisform.llamardetalle
@@ -566,7 +184,15 @@ APPDATA\LOCAL\TEMP\0000A3NT006S.TMP;Ultimo Control activo: TOTAL
 
 
 
+
+
+
+
 rLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase ,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor);Error :         12;Ultimo Alias Activo: CSRLEER
+
+
+
+
 
 
 
@@ -909,6 +535,10 @@ PAGO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A3N
 
 
 
+
+
+
+
 srLeerPago.fechavto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase				,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor)
 18-12-2018 14:57:16 , REGCTACTEVDOR.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'IDVALOR'.;Linea : INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,clase ,cupon,cuota,idvalor) VALUES (CsrLeerPago.id,
 
@@ -1073,7 +703,15 @@ srLeerPago.fechavto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago
 
 
 
+
+
+
+
 CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fechavto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase ,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor);Error :         12;Ultimo Alias Activo: CSRLE
+
+
+
+
 
 
 
@@ -1407,8 +1045,16 @@ ERPAGO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A
 
 
 
+
+
+
+
 srLeerPago.fechavto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase				,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor)
 21-12-2018 09:34:09 , MAIN, Error: El subíndice está fuera del intervalo definido.;Linea : aWizTList[i]   = ArrayMuestra[i];Error :       1234;Ultimo Alias Activo: _CSRMARCA;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007
+
+
+
+
 
 
 
@@ -1742,6 +1388,10 @@ V2H00FX.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 V2H00RU.TMP;Ultimo Control activo: 
 21-12-2018 09:35:57 , Pila de llamadas
 21-12-2018 09:35:58 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -1919,7 +1569,15 @@ V2H00RU.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 idrubro,CsrCursor.idmarca,CsrCursor.fecha,Csrcursor.numero,CsrCursor.nombre ,Csrcursor.costov,lnmargen0,Csrcursor.coston,Csrcursor.PREVTA1V,lnmargen1,Csrcursor.PREVTA1N ,Csrcursor.PREVTA2V,lnmargen2,Csrcursor.PREVTA2N,CsrCursor.nomrubro,NVL(Csrcursor.cod
+
+
+
+
 
 
 
@@ -2233,6 +1891,10 @@ alfa,''));Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:    
 
 
 
+
+
+
+
 sor.fecha,Csrcursor.numero,CsrCursor.nombre	     			,Csrcursor.costov,lnmargen0,Csrcursor.coston,Csrcursor.PREVTA1V,lnmargen1,Csrcursor.PREVTA1N	     			,Csrcursor.PREVTA2V,lnmargen2,Csrcursor.PREVTA2N,CsrCursor.nomrubro,NVL(Csrcursor.codalfa,''))
 21-12-2018 10:08:56 , ABMCTACTE.FITRARCMD.CLICK, Error: No se encuentra el alias 'CSRCTACTE'.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 21-12-2018 10:08:57 , Pila de llamadas
@@ -2374,6 +2036,10 @@ sor.fecha,Csrcursor.numero,CsrCursor.nombre	     			,Csrcursor.costov,lnmargen0,
 
 
 
+
+
+
+
 DMIN\APPDATA\LOCAL\TEMP\000098UH01XT.TMP;Ultimo Control activo: 
 21-12-2018 10:13:18 , Pila de llamadas
 21-12-2018 10:13:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmctacte.sct
@@ -2382,6 +2048,10 @@ DMIN\APPDATA\LOCAL\TEMP\000098UH01XT.TMP;Ultimo Control activo:
 21-12-2018 10:13:19 , Nº de Linea :         26
 21-12-2018 10:13:19 , En el Fuente: 	lcCmdGral = UPPER(thisform.armarselect("CsrCtacte",lcCmd))
 21-12-2018 10:41:07 , REGFACVTA.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra la variable 'TOPEBONIDOFI'.;Linea : IF Oscatter.despor >  CsrProducto.bonifinfo + NVL(CsrProducto.topebonidofi,0);Error :         12;Ultimo Alias Activo: CSRAUXCUERVARI
+
+
+
+
 
 
 
@@ -2642,6 +2312,10 @@ DMIN\APPDATA\LOCAL\TEMP\000098UH01XT.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 ERS\ADMIN\APPDATA\LOCAL\TEMP\00008TMX011B.TMP;Ultimo Control activo: 
 21-12-2018 10:50:42 , Pila de llamadas
 21-12-2018 10:50:42 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
@@ -2655,6 +2329,10 @@ ERS\ADMIN\APPDATA\LOCAL\TEMP\00008TMX011B.TMP;Ultimo Control activo:
 21-12-2018 10:50:44 , Nº de Linea :         16
 21-12-2018 10:50:45 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
 21-12-2018 11:01:42 , REGFACVTAPUB.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra la variable 'CODIGO15'.;Linea : IF LEN(ALLTRIM(codigo15)) < 6;Error :         12;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APP
+
+
+
+
 
 
 
@@ -2895,6 +2573,10 @@ DATA\LOCAL\TEMP\00008TMX03Z1.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 DATA\LOCAL\TEMP\00008TMX04CO.TMP;Ultimo Control activo: 
 21-12-2018 11:02:15 , Pila de llamadas
 21-12-2018 11:02:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -2913,6 +2595,10 @@ DATA\LOCAL\TEMP\00008TMX04CO.TMP;Ultimo Control activo:
 21-12-2018 11:02:19 , Nº de Linea :         18
 21-12-2018 11:02:19 , En el Fuente: IF LEN(ALLTRIM(codigo15)) < 6
 26-12-2018 14:58:15 , REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: No se encuentra la variable 'TOPEBONIOFI'.;Linea : lnbonifica = lnbonifica + NVL(CsrProducto.topeboniofi,0);Error :         12;Ultimo Alias Activo: CSRPRO
+
+
+
+
 
 
 
@@ -3136,6 +2822,10 @@ DFZAVTA;Ultimo registro:       4884 ID;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
 
 
 
+
+
+
+
 DFZAVTA;Ultimo registro:       4884 ID;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000082DL00RD.TMP;Ultimo Control activo: 
 26-12-2018 15:01:19 , Pila de llamadas
 26-12-2018 15:01:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
@@ -3164,6 +2854,10 @@ DFZAVTA;Ultimo registro:       4884 ID;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
 26-12-2018 15:01:25 , Nº de Linea :        230
 26-12-2018 15:01:25 , En el Fuente: 			lnbonifica = lnbonifica + NVL(CsrProducto.topeboniofi,0)
 03-01-2019 11:11:06 , ABMPROMOCION._TEXTBOX1.KEYPRESS, Error: No se encuentra la propiedad CANTLIMITE.;Linea : ObjScatter.cantlimite=0;Error :       1734;Ultimo Alias Activo: CSRPREGALO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\
+
+
+
+
 
 
 
@@ -3350,6 +3044,10 @@ DFZAVTA;Ultimo registro:       4884 ID;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
 
 
 
+
+
+
+
 01TI.TMP;Ultimo Control activo: NOMBRE
 03-01-2019 11:27:46 , Pila de llamadas
 03-01-2019 11:27:47 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
@@ -3455,6 +3153,10 @@ DFZAVTA;Ultimo registro:       4884 ID;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
 
 
 
+
+
+
+
 MP;Ultimo Control activo: 
 03-01-2019 11:28:02 , Pila de llamadas
 03-01-2019 11:28:03 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3463,6 +3165,10 @@ MP;Ultimo Control activo:
 03-01-2019 11:28:03 , Nº de Linea :          3
 03-01-2019 11:28:03 , En el Fuente:     thisform.Refresh()
 03-01-2019 11:29:56 , ABMPROMOCION._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias 'CSRTOPES'.;Linea : thisform.Refresh();Error :         13;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DS9
+
+
+
+
 
 
 
@@ -3615,6 +3321,10 @@ MP;Ultimo Control activo:
 
 
 
+
+
+
+
 2AKP004N.TMP;Ultimo Control activo: NOMBRE
 03-01-2019 11:30:53 , Pila de llamadas
 03-01-2019 11:30:53 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
@@ -3638,6 +3348,10 @@ MP;Ultimo Control activo:
 03-01-2019 11:30:56 , Nº de Linea :          5
 03-01-2019 11:30:56 , En el Fuente: 	.page1.txtlimio.Value = 0
 03-01-2019 11:34:17 , ABMPROMOCION.CMDSALVAR.CLICK, Error: No se encuentra el objeto LOOBJTOPES.;Linea : loObjTopes.agregar;Error :       1923;Ultimo Alias Activo: CSRTOPES;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002AKP017C.
+
+
+
+
 
 
 
@@ -3752,6 +3466,10 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
  Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00005LAH0014.TMP;Ultimo Control activo: 
 08-01-2019 14:49:35 , Pila de llamadas
 08-01-2019 14:49:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
@@ -3765,6 +3483,10 @@ TMP;Ultimo Control activo:
 08-01-2019 14:49:37 , Nº de Linea :         10
 08-01-2019 14:49:37 , En el Fuente: thisform.bindergridoff('thisform.kitgrillatildarStock.buscargrd1',lcalias,@lcCtrlSource,@AcolOdataNavega)
 08-01-2019 14:54:30 , LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'SUGERIDO'.;Linea : lnsugerido=CsrCursor.sugerido;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\A
+
+
+
+
 
 
 
@@ -3862,7 +3584,15 @@ DMIN\APPDATA\LOCAL\TEMP\00005LAH006R.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 dad,codbarra) VALUES (CsrCursor.idrubro,Csrcursor.numero,CsrCursor.nombre,lnunibulto,lnprevta ,CsrCursor.numrubro,CsrCursor.nomrubro,lcclave,"",lnsugerido,CsrCursor.desc1,CsrCursor.saltopag,"",IIF(ISNULL(CsrCursor.codbarra13),"",CsrCursor.codbarra13));Er
+
+
+
+
 
 
 
@@ -3949,8 +3679,16 @@ ror :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF
 
 
 
+
+
+
+
 Cursor.nombre,lnunibulto,lnprevta				     			,CsrCursor.numrubro,CsrCursor.nomrubro,lcclave,"",lnsugerido,CsrCursor.desc1,CsrCursor.saltopag,"",IIF(ISNULL(CsrCursor.codbarra13),"",CsrCursor.codbarra13))
 01-02-2019 12:13:41 , LISTAETIQUETA.KITGRILLATILDARSTOCK.INIT, Error: El archivo 'csrproducto.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as
+
+
+
+
 
 
 
@@ -4018,8 +3756,16 @@ Cursor.nombre,lnunibulto,lnprevta				     			,CsrCursor.numrubro,CsrCursor.nomru
 
 
 
+
+
+
+
 ursor &micursor READWRITE
 01-02-2019 12:16:55 , LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LNPREVENTA'.;Linea : lnprevta = lnpreventa * ( 1 + desc1/100);Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DB
+
+
+
+
 
 
 
@@ -4089,6 +3835,10 @@ F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003I8901LM.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 ERS\ADMIN\APPDATA\LOCAL\TEMP\00003I8901MA.TMP;Ultimo Control activo: 
 01-02-2019 12:17:33 , Pila de llamadas
 01-02-2019 12:17:33 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4107,6 +3857,10 @@ ERS\ADMIN\APPDATA\LOCAL\TEMP\00003I8901MA.TMP;Ultimo Control activo:
 01-02-2019 12:17:36 , Nº de Linea :         22
 01-02-2019 12:17:36 , En el Fuente: 	 lnprevta = lnprevnta * ( 1 + desc1/100)
 18-02-2019 10:42:35 , REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS, Error: OREGFACVTA es un miembro desconocido.;Linea : llok = this.oRegFacVta.cajadiaria(ldfecha);Error :       1925;Ultimo Alias Activo: CSRFECCAJA;Ultimo regi
+
+
+
+
 
 
 
@@ -4150,6 +3904,10 @@ stro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009LHL01JE.TMP;Ultimo
 
 
 
+
+
+
+
 stro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009LHL01JN.TMP;Ultimo Control activo: 
 18-02-2019 10:42:47 , Pila de llamadas
 18-02-2019 10:42:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -4173,6 +3931,10 @@ stro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009LHL01JN.TMP;Ultimo
 
 
 
+
+
+
+
 stro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009LHL01JW.TMP;Ultimo Control activo: 
 18-02-2019 10:42:52 , Pila de llamadas
 18-02-2019 10:42:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
@@ -4186,6 +3948,10 @@ stro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009LHL01JW.TMP;Ultimo
 18-02-2019 10:42:55 , Nº de Linea :         20
 18-02-2019 10:42:55 , En el Fuente: 		llok = this.oRegFacVta.cajadiaria(ldfecha)
 18-02-2019 10:46:52 , REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS, Error: No se encuentra el alias.;Linea : Oca = GETCURSORADAPTER(lcalias);Error :         13;Ultimo Alias Activo: CSRFECCAJA;Ultimo registro:          1 ;DBF: 
+
+
+
+
 
 
 
@@ -4219,3 +3985,43 @@ C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002RYH00A3.TMP;Ultimo Control activo:
 18-02-2019 10:46:58 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
 18-02-2019 10:46:58 , Nº de Linea :         19
 18-02-2019 10:46:58 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
+18-02-2019 14:10:31 , REGFACVTAPUB.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivar
+
+
+
+i2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavt
+
+
+
+a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,00000
+
+
+
+0000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,
+
+
+
+00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,
+
+
+
+00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimie
+
+
+
+n,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error : 
+
+
+
+         1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+18-02-2019 14:10:31 , Pila de llamadas
+18-02-2019 14:10:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
+18-02-2019 14:10:32 , Objeto      : regfacvtapub.load
+18-02-2019 14:10:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
+18-02-2019 14:10:32 , Nº de Linea :          3
+18-02-2019 14:10:32 , En el Fuente: thisform.crearcursor()
+18-02-2019 14:10:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
+18-02-2019 14:10:32 , Objeto      : regfacvtapub.crearcursor
+18-02-2019 14:10:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
+18-02-2019 14:10:33 , Nº de Linea :         19
+18-02-2019 14:10:33 , En el Fuente: SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1	   ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2	   ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva   	   ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck       ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile       FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE  
