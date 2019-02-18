@@ -1,25 +1,3 @@
-Error nº:       2088
-Error El campo REGISTRO es de sólo lectura
- Alias CSRFINANCIA registro          1
-Control activo NUMERO PIDOPAGOS.GRID1.COLUMN2.TEXT1.KEYPRESS
-07-08-2018 15:38:03 , Linea nº this.grid1.RecordSource = "CsrFinancia"
-Error nº:       1925
-Error GRID1 es un miembro desconocido.
- Alias CSRFINANCIA registro          1
-Control activo  PIDOPAGOS.LOAD
-07-08-2018 15:39:00 , Linea nº lcnombre = cnombre
-Error nº:         12
-Error No se encuentra la variable 'CNOMBRE'.
- Alias CSRFINANCIA registro          1
-Control activo  PIDOPAGOS.INIT
-07-08-2018 15:41:00 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
- Alias  registro          0
-Control activo  MAIN
-07-08-2018 15:42:05 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
  Alias  registro          0
 Control activo  MAIN
 07-08-2018 15:42:40 , Linea nº Orslista.ActiveConnection = loConnDataSource
@@ -113,6 +91,9 @@ Error La cláusula TO sólo se puede usar con formularios y conjuntos de formulari
  Alias CSRVALOR registro          5
 Control activo  REGFACVTAPUB.KEYPRESS
 07-08-2018 17:41:12 , Linea nº REPLACE ivari1 WITH ivari1 * nRecargo,BaseGra1 WITH BaseGra1 * nRecargo ,ivari2 WITH ivari2 * nRecargo,BaseGra2 WITH BaseGra2 * nRecargo ,ivari3 WITH ivari3 * nRecargo,BaseGra3 WITH BaseGra3 * nRecargo ,ivari4 WITH ivari4 *
+
+
+
 
 
 
@@ -366,6 +347,9 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
 argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo ,retencion4 WITH retencion4 * nRecargo,baserete4 WITH baserete4 * nRecargo ,retencion5 WITH retencion5 * nRecargo,baserete5 WITH baserete5 * nRecargo ,BaseExe WITH BaseExe * 
 
 
@@ -493,7 +477,13 @@ argo ,retencion3 WITH retencion3 * nRecargo,baserete3 WITH baserete3 * nRecargo 
 
 
 
+
+
+
 nRecargo,BaseInterno WITH BaseInterno * nRecargo ,BaseGra WITH BaseGra * nRecargo,BaseIva WITH Baseiva * nRecargo,BaseNocatego WITH BaseCatego * nRecargo ,BaseDescto WITH BaseDescto * nRecargo,BaseDesctoSiva WITH BaseDesctoSiva * nRecargo ,Perceibto1 WIT
+
+
+
 
 
 
@@ -983,6 +973,9 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
 evta3n WITH Oscproducto.prevta3,prevta4n WITH Oscproducto.prevta4 IN CsrAuxCbioprecio
 Error nº:         13
 Error No se encuentra el alias 'OBJPRECIO'.
@@ -1075,7 +1068,13 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
 TH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,ma
+
+
+
 
 
 
@@ -1253,7 +1252,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH 
+
+
+
 
 
 
@@ -1429,7 +1434,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -1603,7 +1614,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 orepo,internov WITH Csrproducto.interno ,costobonv WITH CsrPRoducto.costobon,costoconivav WITH lobjPrecio.costoconiva ,prevta1v WITH Csrproducto.prevta1,prevta2v WITH Csrproducto.prevta2 ,prevta3v WITH Csrproducto.prevta3,prevta4v WITH Csrproducto.prevta
+
+
+
 
 
 
@@ -1775,7 +1792,13 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -1945,7 +1968,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -2325,12 +2354,18 @@ Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
 edad) ,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir
 Error nº:         12
 Error No se encuentra la variable 'CANTIDAD'.
  Alias CSRVENTAS registro          1
 Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-11-2018 11:29:11 , Linea nº replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvari
+
+
+
 
 
 
@@ -2444,7 +2479,13 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
 
 
 
@@ -2518,7 +2559,13 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
 
 
 
@@ -2712,12 +2759,18 @@ Control activo TOTAL REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS
 
 
 
+
+
+
 havto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase ,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor)
 Error nº:         12
 Error No se encuentra la variable 'CUPON'.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CMDPROCESAR.CLICK
 18-12-2018 14:57:15 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,clase ,cupon,cuota,idvalor) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fec
+
+
+
 
 
 
@@ -2749,6 +2802,9 @@ Error El subíndice está fuera del intervalo definido.
  Alias _CSRMARCA registro          1
 Control activo  MAIN
 21-12-2018 09:38:22 , Linea nº INSERT INTO CsrImprimir (idrubro,idmarca,fecha,numero,nombre,costov,margen0,coston,PREVTA1V,margen1,PREVTA1N ,PREVTA2V,margen2,PREVTA2N,nomrubro,codalfa) VALUES (CsrCursor.idrubro,CsrCursor.idmarca,CsrCursor.fecha,Csrcursor
+
+
+
 
 
 
@@ -2850,6 +2906,9 @@ Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 08-01-2019 14:55:08 , Linea nº INSERT INTO CsrImprimir (idrubro,numero,nombre,unibulto,pvtaciva1,numrubro,nomrubro,clave ,detalle,sugerido,desc,saltopag,variedad,codbarra) VALUES (CsrCursor.idrubro,Csrcursor.numero,CsrCursor.nombre,lnunibulto,lnprevta ,C
 
 
+
+
+
 srCursor.numrubro,CsrCursor.nomrubro,lcclave,"",lnsugerido,CsrCursor.desc1,CsrCursor.saltopag,"",IIF(ISNULL(CsrCursor.codbarra13),"",CsrCursor.codbarra13))
 Error nº:         12
 Error No se encuentra la variable 'DESC1'.
@@ -2865,4 +2924,24 @@ Error nº:         12
 Error No se encuentra la variable 'LNPREVENTA'.
  Alias CSRCURSOR registro          1
 Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-01-02-2019 12:17:32 , Linea nº lnprevta = lnprevnta * ( 1 + desc1/100)Error nº:         12Error No se encuentra la variable 'LNPREVNTA'. Alias CSRCURSOR registro          1Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.PDF.CLICK
+01-02-2019 12:17:32 , Linea nº lnprevta = lnprevnta * ( 1 + desc1/100)
+Error nº:         12
+Error No se encuentra la variable 'LNPREVNTA'.
+ Alias CSRCURSOR registro          1
+Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.PDF.CLICK
+18-02-2019 10:42:34 , Linea nº llok = this.oRegFacVta.cajadiaria(ldfecha)
+Error nº:       1925
+Error OREGFACVTA es un miembro desconocido.
+ Alias CSRFECCAJA registro          1
+Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
+18-02-2019 10:42:46 , Linea nº llok = this.oRegFacVta.cajadiaria(ldfecha)
+Error nº:       1925
+Error OREGFACVTA es un miembro desconocido.
+ Alias CSRFECCAJA registro          1
+Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
+18-02-2019 10:42:51 , Linea nº llok = this.oRegFacVta.cajadiaria(ldfecha)
+Error nº:       1925
+Error OREGFACVTA es un miembro desconocido.
+ Alias CSRFECCAJA registro          1
+Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
+18-02-2019 10:46:51 , Linea nº Oca = GETCURSORADAPTER(lcalias)Error nº:         13Error No se encuentra el alias. Alias CSRFECCAJA registro          1Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
