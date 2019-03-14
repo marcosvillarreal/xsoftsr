@@ -1,1588 +1,3 @@
-13-03-2019 14:41:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:41:01 , Nº de Linea :         75
-13-03-2019 14:41:01 , En el Fuente: 	        .cargardatosctacte()      
-13-03-2019 14:41:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:41:02 , Objeto      : regfacvtapub.cargardatosctacte
-13-03-2019 14:41:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:41:02 , Nº de Linea :         20
-13-03-2019 14:41:03 , En el Fuente: 	this.key_43()
-13-03-2019 14:41:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:41:03 , Objeto      : regfacvtapub.key_43
-13-03-2019 14:41:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:41:04 , Nº de Linea :         10
-13-03-2019 14:41:04 , En el Fuente: IF thisform.validarfactura()
-13-03-2019 14:41:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:41:04 , Objeto      : regfacvtapub.validarfactura
-13-03-2019 14:41:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:41:04 , Nº de Linea :         35
-13-03-2019 14:41:04 , En el Fuente: 	.ve_condicion(Empty(Thisform.Containerencabeza.KitbuscaoaltaenCtacte.Txtexiste1.Value),'El nº de cliente no puede ser nulo ...')
-13-03-2019 14:44:34 , REGFACVTAPUB.INIT, Error: _TXTTOTAL es un miembro desconocido.;Linea : .containertotales._txttotal.Value        = 0;Error :       1925;Ultimo Alias Activo: CSRAUXMOVAFECTADO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\L
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OCAL\TEMP\000085QH0523.TMP;Ultimo Control activo: 
-13-03-2019 14:44:35 , Pila de llamadas
-13-03-2019 14:44:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:44:35 , Objeto      : regfacvtapub.init
-13-03-2019 14:44:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:44:36 , Nº de Linea :         25
-13-03-2019 14:44:36 , En el Fuente:      .insertacursor()
-13-03-2019 14:44:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:44:37 , Objeto      : regfacvtapub.insertacursor
-13-03-2019 14:44:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:44:37 , Nº de Linea :         42
-13-03-2019 14:44:38 , En el Fuente: 	.containertotales._txttotal.Value        = 0
-13-03-2019 14:54:25 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: _CBOTIPOIVA es un miembro desconocido.;Linea : thisform.containerencabeza._cbotipoiva.Refresh;Error :       1925;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  5 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000085QH068S.TMP;Ultimo Control activo: PARADA
-13-03-2019 14:54:25 , Pila de llamadas
-13-03-2019 14:54:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:54:26 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-13-03-2019 14:54:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 14:54:27 , Nº de Linea :         85
-13-03-2019 14:54:27 , En el Fuente: 	   thisform.containerencabeza._cbotipoiva.Refresh
-13-03-2019 16:00:44 , RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS, Error: El subíndice está fuera del intervalo definido.;Linea : laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','');Error :       1234;Ultimo Alias 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000075ZD001F.TMP;Ultimo Control activo: 
-13-03-2019 16:00:45 , Pila de llamadas
-13-03-2019 16:00:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:00:46 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtnombre.keypress
-13-03-2019 16:00:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:00:47 , Nº de Linea :         11
-13-03-2019 16:00:47 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
-13-03-2019 16:00:47 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:00:47 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
-13-03-2019 16:00:48 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:00:48 , Nº de Linea :        140
-13-03-2019 16:00:49 , En el Fuente: 		laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','')
-13-03-2019 16:01:02 , RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS, Error: El subíndice está fuera del intervalo definido.;Linea : laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','');Error :       1234;Ultimo Alias 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000075ZD002A.TMP;Ultimo Control activo: 
-13-03-2019 16:01:03 , Pila de llamadas
-13-03-2019 16:01:04 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:01:04 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtnombre.keypress
-13-03-2019 16:01:04 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:01:05 , Nº de Linea :         11
-13-03-2019 16:01:05 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
-13-03-2019 16:01:05 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:01:05 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
-13-03-2019 16:01:06 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:01:06 , Nº de Linea :        140
-13-03-2019 16:01:06 , En el Fuente: 		laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','')
-13-03-2019 16:01:18 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: El subíndice está fuera del intervalo definido.;Linea : laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','');Error :       1234;Ultimo Alias Activo: CS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000075ZD002A.TMP;Ultimo Control activo: 
-13-03-2019 16:01:19 , Pila de llamadas
-13-03-2019 16:01:20 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:01:20 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
-13-03-2019 16:01:20 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:01:21 , Nº de Linea :         26
-13-03-2019 16:01:21 , En el Fuente:    this.txtexiste1.LostFocus()
-13-03-2019 16:01:21 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:01:22 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
-13-03-2019 16:01:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:01:22 , Nº de Linea :        140
-13-03-2019 16:01:23 , En el Fuente: 		laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','')
-13-03-2019 16:08:22 , RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS, Error: No se encuentra la propiedad PROGRAMA.;Linea : goapp.programa = '';Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          6 ;DBF: C:\USERS\ADMIN\APPDATA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\LOCAL\TEMP\000075ZD003R.TMP;Ultimo Control activo: 
-13-03-2019 16:08:22 , Pila de llamadas
-13-03-2019 16:08:23 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:08:23 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtnombre.keypress
-13-03-2019 16:08:23 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:08:24 , Nº de Linea :         11
-13-03-2019 16:08:24 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
-13-03-2019 16:08:24 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:08:24 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
-13-03-2019 16:08:24 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:08:25 , Nº de Linea :        184
-13-03-2019 16:08:25 , En el Fuente: 			DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado 
-13-03-2019 16:08:25 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:08:25 , Objeto      : busdescripcion1.keypress
-13-03-2019 16:08:26 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:08:26 , Nº de Linea :         14
-13-03-2019 16:08:26 , En el Fuente: 		this.key_13()
-13-03-2019 16:08:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:08:27 , Objeto      : busdescripcion1.key_13
-13-03-2019 16:08:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:08:28 , Nº de Linea :          3
-13-03-2019 16:08:28 , En el Fuente: thisform.release
-13-03-2019 16:08:28 , Programa    : j:\xsoftsql\desarrollo\clases\forms.vct
-13-03-2019 16:08:29 , Objeto      : busdescripcion1.release
-13-03-2019 16:08:29 , Base Objeto : j:\xsoftsql\desarrollo\clases\forms.vct
-13-03-2019 16:08:29 , Nº de Linea :          1
-13-03-2019 16:08:29 , En el Fuente: goapp.programa = ''
-13-03-2019 16:09:30 , RESCTACTE.LOAD, Error: GOAPP no es un objeto.;Linea : lcFormKey = [SOFTWARE] + [\] + AppName + [\] + .NAME;Error :       1924;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-13-03-2019 16:09:30 , Pila de llamadas
-13-03-2019 16:09:31 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-13-03-2019 16:09:31 , Objeto      : resctacte.load
-13-03-2019 16:09:31 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-13-03-2019 16:09:31 , Nº de Linea :          1
-13-03-2019 16:09:31 , En el Fuente: Dodefault()
-13-03-2019 16:09:31 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-13-03-2019 16:09:31 , Objeto      : base.load
-13-03-2019 16:09:31 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-13-03-2019 16:09:32 , Nº de Linea :         22
-13-03-2019 16:09:32 , En el Fuente: 		lcFormKey = [SOFTWARE] + [\] + AppName + [\] + .NAME
-13-03-2019 16:11:26 , REGFACVTAPUB.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :          9;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-APPDATA\LOCAL\TEMP\000075ZD009U.TMP;Ultimo Control activo: CODIGO15
-13-03-2019 16:11:26 , Pila de llamadas
-13-03-2019 16:11:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 16:11:27 , Objeto      : regfacvtapub.keypress
-13-03-2019 16:11:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 16:11:28 , Nº de Linea :         59
-13-03-2019 16:11:28 , En el Fuente: 				.grid2_cambiocliente() 
-13-03-2019 16:11:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 16:11:28 , Objeto      : regfacvtapub.grid2_cambiocliente
-13-03-2019 16:11:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 16:11:28 , Nº de Linea :         13
-13-03-2019 16:11:28 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
-13-03-2019 16:11:29 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:11:29 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtid.init
-13-03-2019 16:11:30 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:11:30 , Nº de Linea :          1
-13-03-2019 16:11:30 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
-13-03-2019 16:12:23 , PIDOENCABEZADO.CONTAINERENCABEZA.KITBUSCAOALTAENCLIENTE.GOTFOCUS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : SELECT(this.calias);Error :         13;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 ;DBF: C:\U
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SERS\ADMIN\APPDATA\LOCAL\TEMP\000075ZD009Q.TMP;Ultimo Control activo: 
-13-03-2019 16:12:23 , Pila de llamadas
-13-03-2019 16:12:23 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:12:23 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.gotfocus
-13-03-2019 16:12:23 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-13-03-2019 16:12:24 , Nº de Linea :         21
-13-03-2019 16:12:24 , En el Fuente: SELECT(this.calias)
-13-03-2019 16:15:59 , REGFACVTAPUB.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :          9;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-APPDATA\LOCAL\TEMP\000075ZD00LE.TMP;Ultimo Control activo: CODIGO15
-13-03-2019 16:15:59 , Pila de llamadas
-13-03-2019 16:15:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 16:16:00 , Objeto      : regfacvtapub.keypress
-13-03-2019 16:16:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-13-03-2019 16:16:00 , Nº de Linea :         59
-13-03-2019 16:16:01 , En el Fuente: 				.grid2_cambiocliente() 
-13-03-2019 16:16:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
 13-03-2019 16:16:01 , Objeto      : regfacvtapub.grid2_cambiocliente
 13-03-2019 16:16:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
 13-03-2019 16:16:02 , Nº de Linea :         13
@@ -1593,6 +8,53 @@ APPDATA\LOCAL\TEMP\000075ZD00LE.TMP;Ultimo Control activo: CODIGO15
 13-03-2019 16:16:03 , Nº de Linea :          1
 13-03-2019 16:16:03 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 13-03-2019 16:18:34 , REGFACVTAPUB.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :          9;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1869,6 +331,53 @@ APPDATA\LOCAL\TEMP\000075ZD00T4.TMP;Ultimo Control activo: CODIGO15
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 APPDATA\LOCAL\TEMP\000075ZD010S.TMP;Ultimo Control activo: CODIGO15
 13-03-2019 16:21:25 , Pila de llamadas
 13-03-2019 16:21:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -1887,6 +396,53 @@ APPDATA\LOCAL\TEMP\000075ZD010S.TMP;Ultimo Control activo: CODIGO15
 13-03-2019 16:21:30 , Nº de Linea :          1
 13-03-2019 16:21:30 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 13-03-2019 16:23:20 , REGFACVTAPUB.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :          9;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2140,6 +696,53 @@ APPDATA\LOCAL\TEMP\000075ZD018J.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A\LOCAL\TEMP\000075ZD01G2.TMP;Ultimo Control activo: 
 13-03-2019 16:24:54 , Pila de llamadas
 13-03-2019 16:24:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -2163,6 +766,53 @@ A\LOCAL\TEMP\000075ZD01G2.TMP;Ultimo Control activo:
 13-03-2019 16:24:59 , Nº de Linea :         21
 13-03-2019 16:24:59 , En el Fuente:    This.txtnombre.value = &lccamponombre
 13-03-2019 16:26:27 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : This.txtnombre.value = &lccamponombre;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDAT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2395,6 +1045,53 @@ A\LOCAL\TEMP\000075ZD01NO.TMP;Ultimo Control activo: CODIGO15
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A\LOCAL\TEMP\000075ZD01ZI.TMP;Ultimo Control activo: CODIGO15
 13-03-2019 16:32:52 , Pila de llamadas
 13-03-2019 16:32:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -2418,6 +1115,53 @@ A\LOCAL\TEMP\000075ZD01ZI.TMP;Ultimo Control activo: CODIGO15
 13-03-2019 16:32:58 , Nº de Linea :         21
 13-03-2019 16:32:59 , En el Fuente:    This.txtnombre.value = &lccamponombre
 13-03-2019 16:42:15 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : This.txtnombre.value = &lccamponombre;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDAT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2620,6 +1364,53 @@ A\LOCAL\TEMP\000075ZD0271.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A\LOCAL\TEMP\000075ZD02Q1.TMP;Ultimo Control activo: 
 13-03-2019 16:51:25 , Pila de llamadas
 13-03-2019 16:51:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -2643,6 +1434,53 @@ A\LOCAL\TEMP\000075ZD02Q1.TMP;Ultimo Control activo:
 13-03-2019 16:51:30 , Nº de Linea :         21
 13-03-2019 16:51:30 , En el Fuente:    This.txtnombre.value = &lccamponombre
 13-03-2019 16:53:56 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : This.txtnombre.value = &lccamponombre;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDAT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2831,6 +1669,53 @@ A\LOCAL\TEMP\000075ZD02XD.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 imo Control activo: 
 14-03-2019 11:40:59 , Pila de llamadas
 14-03-2019 11:41:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -2864,6 +1749,53 @@ imo Control activo:
 14-03-2019 11:41:06 , Nº de Linea :          9
 14-03-2019 11:41:07 , En el Fuente: oLista.Add(oColumna)
 14-03-2019 12:02:51 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRFLETERO'.;Linea : .refresh();Error :         13;Ultimo Alias Activo: CSRCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007RPL01ML.TMP;Ultimo C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2994,6 +1926,53 @@ ontrol activo: CODIGO15
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 21.TMP;Ultimo Control activo: 
 14-03-2019 12:04:47 , Pila de llamadas
 14-03-2019 12:04:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3017,6 +1996,53 @@ ontrol activo: CODIGO15
 14-03-2019 12:04:51 , Nº de Linea :          9
 14-03-2019 12:04:51 , En el Fuente: 		thisform.cargarDatos()
 14-03-2019 12:17:09 , REGFACVTAPUB.KEYPRESS, Error: _TXTTELEFONO es un miembro desconocido.;Linea : ._txtTelefono.Value = CsrCliente.ctelefono;Error :       1925;Ultimo Alias Activo: CSRCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3130,6 +2156,53 @@ AL\TEMP\00007RPL02VX.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CAL\TEMP\00007RPL034A.TMP;Ultimo Control activo: 
 14-03-2019 12:18:13 , Pila de llamadas
 14-03-2019 12:18:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3158,6 +2231,53 @@ CAL\TEMP\00007RPL034A.TMP;Ultimo Control activo:
 14-03-2019 12:18:18 , Nº de Linea :         12
 14-03-2019 12:18:18 , En el Fuente: 	LOCATE FOR id = CsrCliente.idprovincia
 14-03-2019 12:24:25 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la propiedad ENLABED.;Linea : ._txtcpostal.Enlabed = .f.;Error :       1734;Ultimo Alias Activo: CSRLOCALIDAD;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007RPL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3237,6 +2357,53 @@ CAL\TEMP\00007RPL034A.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TMP;Ultimo Control activo: 
 14-03-2019 12:51:00 , Pila de llamadas
 14-03-2019 12:51:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3265,6 +2432,53 @@ TMP;Ultimo Control activo:
 14-03-2019 12:51:05 , Nº de Linea :          1
 14-03-2019 12:51:06 , En el Fuente: IF thisform.accion='A'
 14-03-2019 13:25:20 , REGFACVTAPUB.KEYPRESS, Error: OCLIENTE es un método, evento u objeto.;Linea : thisform.oCliente = NULL;Error :       1737;Ultimo Alias Activo: CSRCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007RPL0A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3311,7 +2525,101 @@ JG.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 i2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3331,7 +2639,101 @@ a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3351,6 +2753,53 @@ a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimie
 
 
@@ -3361,7 +2810,101 @@ a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 n,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3388,7 +2931,101 @@ n,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3400,7 +3037,101 @@ a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomre
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3412,7 +3143,101 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3424,8 +3249,102 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  READWRITE  
 14-03-2019 14:36:30 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo regis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3447,3 +3366,191 @@ tro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008Q2X0323.TMP
 14-03-2019 14:36:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
 14-03-2019 14:36:33 , Nº de Linea :          4
 14-03-2019 14:36:34 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+14-03-2019 15:20:50 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : SELECT (lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+14-03-2019 15:20:50 , Pila de llamadas
+14-03-2019 15:20:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:20:50 , Objeto      : regfacvtapub.keypress
+14-03-2019 15:20:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:20:50 , Nº de Linea :         59
+14-03-2019 15:20:51 , En el Fuente: 				.grid2_cambiocliente() 
+14-03-2019 15:20:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:20:51 , Objeto      : regfacvtapub.grid2_cambiocliente
+14-03-2019 15:20:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:20:52 , Nº de Linea :         13
+14-03-2019 15:20:52 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
+14-03-2019 15:20:52 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:20:52 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtnombre.keypress
+14-03-2019 15:20:53 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:20:53 , Nº de Linea :         11
+14-03-2019 15:20:53 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
+14-03-2019 15:20:53 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:20:54 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtexiste1.lostfocus
+14-03-2019 15:20:54 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:20:54 , Nº de Linea :        185
+14-03-2019 15:20:54 , En el Fuente: 			DO FORM buscar3 NAME oform LINKED WITH oBuscar TO luvalorbuscado 
+14-03-2019 15:20:54 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:20:55 , Objeto      : buscadescripcion21.init
+14-03-2019 15:20:55 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:20:55 , Nº de Linea :         60
+14-03-2019 15:20:55 , En el Fuente: SELECT (lcalias) 
+14-03-2019 15:22:38 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : SELECT (lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+14-03-2019 15:22:38 , Pila de llamadas
+14-03-2019 15:22:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:22:39 , Objeto      : regfacvtapub.keypress
+14-03-2019 15:22:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:22:40 , Nº de Linea :         59
+14-03-2019 15:22:40 , En el Fuente: 				.grid2_cambiocliente() 
+14-03-2019 15:22:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:22:40 , Objeto      : regfacvtapub.grid2_cambiocliente
+14-03-2019 15:22:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:22:40 , Nº de Linea :         13
+14-03-2019 15:22:40 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
+14-03-2019 15:22:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:22:41 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtnombre.keypress
+14-03-2019 15:22:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:22:41 , Nº de Linea :         11
+14-03-2019 15:22:42 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
+14-03-2019 15:22:42 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:22:42 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtexiste1.lostfocus
+14-03-2019 15:22:43 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:22:43 , Nº de Linea :        185
+14-03-2019 15:22:43 , En el Fuente: 			DO FORM buscar3 NAME oform LINKED WITH oBuscar TO luvalorbuscado 
+14-03-2019 15:22:44 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:22:44 , Objeto      : buscar3.init
+14-03-2019 15:22:44 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:22:44 , Nº de Linea :         60
+14-03-2019 15:22:45 , En el Fuente: SELECT (lcalias) 
+14-03-2019 15:27:06 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la propiedad BUSCAR_V.;Linea : IF this.buscar_v = 3;Error :       1734;Ultimo Alias Activo: CSRCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000DSZT013M.TM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P;Ultimo Control activo: 
+14-03-2019 15:27:06 , Pila de llamadas
+14-03-2019 15:27:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:27:06 , Objeto      : regfacvtapub.keypress
+14-03-2019 15:27:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:27:07 , Nº de Linea :         59
+14-03-2019 15:27:07 , En el Fuente: 				.grid2_cambiocliente() 
+14-03-2019 15:27:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:27:07 , Objeto      : regfacvtapub.grid2_cambiocliente
+14-03-2019 15:27:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:27:08 , Nº de Linea :         13
+14-03-2019 15:27:08 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
+14-03-2019 15:27:08 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:09 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtnombre.keypress
+14-03-2019 15:27:09 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:09 , Nº de Linea :         11
+14-03-2019 15:27:09 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
+14-03-2019 15:27:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:09 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtexiste1.lostfocus
+14-03-2019 15:27:09 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:10 , Nº de Linea :        185
+14-03-2019 15:27:10 , En el Fuente: 			IF this.buscar_v = 3
+14-03-2019 15:27:49 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : SELECT (lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+14-03-2019 15:27:49 , Pila de llamadas
+14-03-2019 15:27:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:27:50 , Objeto      : regfacvtapub.keypress
+14-03-2019 15:27:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:27:51 , Nº de Linea :         59
+14-03-2019 15:27:51 , En el Fuente: 				.grid2_cambiocliente() 
+14-03-2019 15:27:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:27:51 , Objeto      : regfacvtapub.grid2_cambiocliente
+14-03-2019 15:27:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:27:52 , Nº de Linea :         13
+14-03-2019 15:27:52 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
+14-03-2019 15:27:52 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:52 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtnombre.keypress
+14-03-2019 15:27:52 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:53 , Nº de Linea :         11
+14-03-2019 15:27:53 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
+14-03-2019 15:27:53 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:54 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtexiste1.lostfocus
+14-03-2019 15:27:54 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:54 , Nº de Linea :        186
+14-03-2019 15:27:55 , En el Fuente: 				DO FORM buscar3 NAME oform LINKED WITH oBuscar TO luvalorbuscado 
+14-03-2019 15:27:55 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:55 , Objeto      : buscar3.init
+14-03-2019 15:27:55 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:27:55 , Nº de Linea :         60
+14-03-2019 15:27:55 , En el Fuente: SELECT (lcalias) 
+14-03-2019 15:31:36 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : SELECT (lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+14-03-2019 15:31:36 , Pila de llamadas
+14-03-2019 15:31:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:31:37 , Objeto      : regfacvtapub.keypress
+14-03-2019 15:31:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:31:37 , Nº de Linea :         59
+14-03-2019 15:31:37 , En el Fuente: 				.grid2_cambiocliente() 
+14-03-2019 15:31:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:31:37 , Objeto      : regfacvtapub.grid2_cambiocliente
+14-03-2019 15:31:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:31:38 , Nº de Linea :         13
+14-03-2019 15:31:38 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
+14-03-2019 15:31:38 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:31:39 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtnombre.keypress
+14-03-2019 15:31:39 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:31:40 , Nº de Linea :         11
+14-03-2019 15:31:40 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
+14-03-2019 15:31:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:31:41 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtexiste1.lostfocus
+14-03-2019 15:31:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:31:41 , Nº de Linea :        186
+14-03-2019 15:31:41 , En el Fuente: 				DO FORM buscar3 NAME oform LINKED WITH oBuscar TO luvalorbuscado 
+14-03-2019 15:31:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:31:42 , Objeto      : buscar3.init
+14-03-2019 15:31:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:31:42 , Nº de Linea :         60
+14-03-2019 15:31:42 , En el Fuente: SELECT (lcalias) 
+14-03-2019 15:33:27 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : SELECT (lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+14-03-2019 15:33:28 , Pila de llamadas
+14-03-2019 15:33:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:33:29 , Objeto      : regfacvtapub.keypress
+14-03-2019 15:33:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:33:29 , Nº de Linea :         59
+14-03-2019 15:33:30 , En el Fuente: 				.grid2_cambiocliente() 
+14-03-2019 15:33:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:33:30 , Objeto      : regfacvtapub.grid2_cambiocliente
+14-03-2019 15:33:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+14-03-2019 15:33:30 , Nº de Linea :         13
+14-03-2019 15:33:30 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
+14-03-2019 15:33:31 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:33:31 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtnombre.keypress
+14-03-2019 15:33:31 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:33:32 , Nº de Linea :         11
+14-03-2019 15:33:32 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
+14-03-2019 15:33:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:33:32 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtexiste1.lostfocus
+14-03-2019 15:33:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:33:33 , Nº de Linea :        186
+14-03-2019 15:33:33 , En el Fuente: 				DO FORM buscar3 NAME oform LINKED WITH oBuscar TO luvalorbuscado 
+14-03-2019 15:33:33 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:33:33 , Objeto      : buscar3.init
+14-03-2019 15:33:33 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+14-03-2019 15:33:33 , Nº de Linea :         60
+14-03-2019 15:33:34 , En el Fuente: SELECT (lcalias) 
