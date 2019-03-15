@@ -127,269 +127,6 @@
 
 
 
-evta3n WITH Oscproducto.prevta3,prevta4n WITH Oscproducto.prevta4 IN CsrAuxCbioprecio
-Error nº:         13
-Error No se encuentra el alias 'OBJPRECIO'.
- Alias CSRPRODUCTO registro        193
-Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-06-09-2018 13:19:45 , Linea nº REPLACE costo WITH OscPrecio.coston,costorepo with OscPrecio.costorepon ,interno WITH OscPrecio.internon,internoporce WITH OscPrecio.internoporcen ,prevta1 WITH OscPrecio.prevta1n,prevta2 WITH OscPrecio.prevta2n ,prevta3 WI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TH OscPrecio.prevta3n,prevta4 WITH OscPrecio.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,ma
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 rgen3 WITH OscPrecio.margen3,margen4 WITH OscPrecio.margen4 ,costobon WITH OscPrecio.costobonn ,flete WITH OscPrecio.fleten,segflete WITH OscPrecio.segfleten IN CsrProducto
@@ -526,7 +263,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1,prevtaf2 WITH OscPrecio.prevtaf2 ,prevtaf3 WITH OscPrecio.prevtaf3,prevtaf4 WITH OscPrecio.prevtaf4 ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 WITH 
+
+
+
 
 
 
@@ -788,7 +531,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -1048,7 +797,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 orepo,internov WITH Csrproducto.interno ,costobonv WITH CsrPRoducto.costobon,costoconivav WITH lobjPrecio.costoconiva ,prevta1v WITH Csrproducto.prevta1,prevta2v WITH Csrproducto.prevta2 ,prevta3v WITH Csrproducto.prevta3,prevta4v WITH Csrproducto.prevta
+
+
+
 
 
 
@@ -1306,7 +1061,13 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -1562,7 +1323,13 @@ Control activo  CBIOPRECIO3.CMDACEPTAR.CLICK
 
 
 
+
+
+
 io.prevta4n ,prevtaf1 WITH OscPrecio.prevtaf1n,prevtaf2 WITH OscPrecio.prevtaf2n ,prevtaf3 WITH OscPrecio.prevtaf3n,prevtaf4 WITH OscPrecio.prevtaf4n ,margen1 WITH OscPrecio.margen1,margen2 WITH OscPrecio.margen2 ,margen3 WITH OscPrecio.margen3,margen4 W
+
+
+
 
 
 
@@ -2028,12 +1795,18 @@ Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
 edad) ,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir
 Error nº:         12
 Error No se encuentra la variable 'CANTIDAD'.
  Alias CSRVENTAS registro          1
 Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-11-2018 11:29:11 , Linea nº replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvari
+
+
+
 
 
 
@@ -2233,7 +2006,13 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
 
 
 
@@ -2393,7 +2172,13 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
 
 
 
@@ -2673,12 +2458,18 @@ Control activo TOTAL REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS
 
 
 
+
+
+
 havto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase ,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor)
 Error nº:         12
 Error No se encuentra la variable 'CUPON'.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CMDPROCESAR.CLICK
 18-12-2018 14:57:15 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,clase ,cupon,cuota,idvalor) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fec
+
+
+
 
 
 
@@ -2753,6 +2544,9 @@ Error El subíndice está fuera del intervalo definido.
  Alias _CSRMARCA registro          1
 Control activo  MAIN
 21-12-2018 09:38:22 , Linea nº INSERT INTO CsrImprimir (idrubro,idmarca,fecha,numero,nombre,costov,margen0,coston,PREVTA1V,margen1,PREVTA1N ,PREVTA2V,margen2,PREVTA2N,nomrubro,codalfa) VALUES (CsrCursor.idrubro,CsrCursor.idmarca,CsrCursor.fecha,Csrcursor
+
+
+
 
 
 
@@ -2940,6 +2734,9 @@ Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
 srCursor.numrubro,CsrCursor.nomrubro,lcclave,"",lnsugerido,CsrCursor.desc1,CsrCursor.saltopag,"",IIF(ISNULL(CsrCursor.codbarra13),"",CsrCursor.codbarra13))
 Error nº:         12
 Error No se encuentra la variable 'DESC1'.
@@ -3019,7 +2816,13 @@ Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.
 
 
 
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
 
 
 
@@ -3097,7 +2900,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
 
 
 
@@ -3175,7 +2984,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -3412,7 +3227,13 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
 
 
 
@@ -3438,7 +3259,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
 
 
 
@@ -3464,7 +3291,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -3525,7 +3358,13 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
 
 
 
@@ -3541,7 +3380,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
 
 
 
@@ -3557,7 +3402,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -3610,5 +3461,25 @@ Error nº:       1925
 Error _TXTCUIT es un miembro desconocido.
  Alias CSRCTACTESALDO registro          1
 Control activo  REGFACVTAPUB.KEYPRESS
-14-03-2019 16:52:48 , Linea nº this.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()Error nº:       1925Error KITBUSCAOALTAENCTACTE es un miembro desconocido. Alias CSRPAGO registro          1Control activo  REGFACVTAPUB.KEYPRESS
-14-03-2019 16:59:52 , Linea nº this.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()Error nº:       1925Error KITBUSCAOALTAENCTACTE es un miembro desconocido. Alias CSRPAGO registro          1Control activo  REGFACVTAPUB.KEYPRESS
+14-03-2019 16:52:48 , Linea nº this.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
+Error nº:       1925
+Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
+ Alias CSRPAGO registro          1
+Control activo  REGFACVTAPUB.KEYPRESS
+14-03-2019 16:59:52 , Linea nº this.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
+Error nº:       1925
+Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
+ Alias CSRPAGO registro          1
+Control activo  REGFACVTAPUB.KEYPRESS
+15-03-2019 10:35:01 , Linea nº IF thisform._txtpendiente#0
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA REGFACVTAPUB.KEYPRESS
+15-03-2019 10:36:02 , Linea nº IF numero$'CDO'
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias CSRFINANCIA registro          1
+Control activo AFECTA REGFACVTAPUB.KEYPRESS
+15-03-2019 10:48:52 , Linea nº thisform.cmdsalir.SetFocus()Error nº:       2012Error No se puede llamar a SetFocus desde un evento When, Valid, RangeHigh o RangeLow. Alias CSRFINANCIA registro          1Control activo  REGFACVTAPUB.KEYPRESS
+15-03-2019 10:52:04 , Linea nº thisform.cmdsalir.SetFocus()Error nº:       2012Error No se puede llamar a SetFocus desde un evento When, Valid, RangeHigh o RangeLow. Alias CSRFINANCIA registro          1Control activo  REGFACVTAPUB.KEYPRESS
