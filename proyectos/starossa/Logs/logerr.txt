@@ -1,77 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-tro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008Q2X0323.TMP;Ultimo Control activo: PARADA
-14-03-2019 14:36:30 , Pila de llamadas
-14-03-2019 14:36:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 14:36:31 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-14-03-2019 14:36:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 14:36:32 , Nº de Linea :        139
-14-03-2019 14:36:32 , En el Fuente: 		thisform.generarlinea()   && 22=insert
-14-03-2019 14:36:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 14:36:33 , Objeto      : regfacvtapub.generarlinea
-14-03-2019 14:36:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 14:36:33 , Nº de Linea :         44
-14-03-2019 14:36:33 , En el Fuente:     .bindergridon('thisform.grid2',lcalias,lcCtrlSource,AcolOdataNavega)
-14-03-2019 14:36:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 14:36:33 , Objeto      : regfacvtapub.bindergridon
-14-03-2019 14:36:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 14:36:33 , Nº de Linea :          4
-14-03-2019 14:36:34 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
-14-03-2019 15:20:50 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRCLIENTE'.;Linea : SELECT (lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-14-03-2019 15:20:50 , Pila de llamadas
-14-03-2019 15:20:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 15:20:50 , Objeto      : regfacvtapub.keypress
-14-03-2019 15:20:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 15:20:50 , Nº de Linea :         59
-14-03-2019 15:20:51 , En el Fuente: 				.grid2_cambiocliente() 
-14-03-2019 15:20:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 15:20:51 , Objeto      : regfacvtapub.grid2_cambiocliente
-14-03-2019 15:20:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-14-03-2019 15:20:52 , Nº de Linea :         13
-14-03-2019 15:20:52 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
-14-03-2019 15:20:52 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-14-03-2019 15:20:52 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtnombre.keypress
-14-03-2019 15:20:53 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-14-03-2019 15:20:53 , Nº de Linea :         11
-14-03-2019 15:20:53 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
 14-03-2019 15:20:53 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
 14-03-2019 15:20:54 , Objeto      : pidoencabezado.containerencabeza.kitbuscaoaltaencliente.txtexiste1.lostfocus
 14-03-2019 15:20:54 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -110,6 +36,13 @@ tro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008Q2X0323.TMP
 14-03-2019 15:22:44 , Nº de Linea :         60
 14-03-2019 15:22:45 , En el Fuente: SELECT (lcalias) 
 14-03-2019 15:27:06 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la propiedad BUSCAR_V.;Linea : IF this.buscar_v = 3;Error :       1734;Ultimo Alias Activo: CSRCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000DSZT013M.TM
+
+
+
+
+
+
+
 
 
 
@@ -509,7 +442,21 @@ P;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 i2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavt
+
+
+
+
+
+
+
 
 
 
@@ -775,7 +722,21 @@ a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 a
 
 
 
+
+
+
+
+
+
+
 0000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,
+
+
+
+
+
+
+
 
 
 
@@ -1041,6 +1002,13 @@ a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 a
 
 
 
+
+
+
+
+
+
+
 00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimie
 
 
@@ -1174,7 +1142,21 @@ a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 a
 
 
 
+
+
+
+
+
+
+
 n,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error : 
+
+
+
+
+
+
+
 
 
 
@@ -1448,7 +1430,21 @@ n,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) a
 
 
 
+
+
+
+
+
+
+
 s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
+
+
+
+
+
+
+
 
 
 
@@ -1708,7 +1704,21 @@ a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomre
 
 
 
+
+
+
+
+
+
+
 e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
+
+
+
+
+
+
+
 
 
 
@@ -1968,7 +1978,21 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
+
+
+
  as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
+
+
+
+
+
+
+
 
 
 
@@ -2228,8 +2252,22 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
+
+
+
  READWRITE  
 14-03-2019 16:11:40 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la propiedad OBJETORECEPTOR.;Linea : lobjeto     = this.getrefobj(this.objetoreceptor);Error :       1734;Ultimo Alias Activo: CSRCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN
+
+
+
+
+
+
+
 
 
 
@@ -2381,6 +2419,13 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 14-03-2019 16:11:44 , Nº de Linea :          9
 14-03-2019 16:11:45 , En el Fuente: 	lobjeto     = this.getrefobj(this.objetoreceptor)
 14-03-2019 16:12:56 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la propiedad _CBOSECTORCATE.;Linea : WITH This.contenedor1.pframe1.page1._cbosectorcate;Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN
+
+
+
+
+
+
+
 
 
 
@@ -2658,6 +2703,13 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
+
+
+
 08O3T02PK.TMP;Ultimo Control activo: 
 14-03-2019 16:16:44 , Pila de llamadas
 14-03-2019 16:16:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -2696,6 +2748,13 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 14-03-2019 16:16:52 , Nº de Linea :          2
 14-03-2019 16:16:53 , En el Fuente: ThisForm.Aceptar2.Enabled = .f.
 14-03-2019 16:17:51 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la propiedad _CBOSECTORCATE.;Linea : WITH This.contenedor1.pframe1.page1._cbosectorcate;Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN
+
+
+
+
+
+
+
 
 
 
@@ -2921,6 +2980,13 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
+
+
+
 3T03B0.TMP;Ultimo Control activo: CNOMBRE
 14-03-2019 16:18:47 , Pila de llamadas
 14-03-2019 16:18:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -2959,6 +3025,13 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 14-03-2019 16:18:54 , Nº de Linea :         13
 14-03-2019 16:18:54 , En el Fuente:  	.page1._txtporperce.Refresh 
 14-03-2019 16:31:01 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo regis
+
+
+
+
+
+
+
 
 
 
@@ -3112,6 +3185,13 @@ tro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00008O3T04F9.TMP
 
 
 
+
+
+
+
+
+
+
 ESALDO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006FIH019C.TMP;Ultimo Control activo: 
 14-03-2019 16:47:11 , Pila de llamadas
 14-03-2019 16:47:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3140,6 +3220,13 @@ ESALDO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006
 14-03-2019 16:47:17 , Nº de Linea :         36
 14-03-2019 16:47:17 , En el Fuente: 	lnsuma=red(CsrCtacteSaldo.SdoAnterior+CsrCtacteSaldo.SdoPendiente+ThisForm.Containertotales._txttotal.Value)
 14-03-2019 16:49:19 , REGFACVTAPUB.KEYPRESS, Error: _TXTCUIT es un miembro desconocido.;Linea : lccuit=Thisform.Containerencabeza._txtcuit.Value;Error :       1925;Ultimo Alias Activo: CSRCTACTESALDO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDA
+
+
+
+
+
+
+
 
 
 
@@ -3270,6 +3357,13 @@ TA\LOCAL\TEMP\00006FIH01L5.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006FIH01XH.TMP;Ultimo Control activo: 
 14-03-2019 16:52:49 , Pila de llamadas
 14-03-2019 16:52:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3288,6 +3382,13 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006FIH01XH.TMP;Ultimo Control activo:
 14-03-2019 16:52:53 , Nº de Linea :         43
 14-03-2019 16:52:53 , En el Fuente: 	this.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
 14-03-2019 16:59:52 , REGFACVTAPUB.KEYPRESS, Error: KITBUSCAOALTAENCTACTE es un miembro desconocido.;Linea : this.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus();Error :       1925;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          1 ;D
+
+
+
+
+
+
+
 
 
 
@@ -3391,6 +3492,13 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006FIH0275.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 \APPDATA\LOCAL\TEMP\0000BFGP01JU.TMP;Ultimo Control activo: AFECTA
 15-03-2019 10:35:01 , Pila de llamadas
 15-03-2019 10:35:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3424,6 +3532,13 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006FIH0275.TMP;Ultimo Control activo:
 15-03-2019 10:35:09 , Nº de Linea :         10
 15-03-2019 10:35:09 , En el Fuente:         IF thisform._txtpendiente#0
 15-03-2019 10:36:03 , REGFACVTAPUB.KEYPRESS, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : IF numero$'CDO';Error :         11;Ultimo Alias Activo: CSRFINANCIA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\L
+
+
+
+
+
+
+
 
 
 
@@ -3511,6 +3626,13 @@ OCAL\TEMP\0000BFGP01RX.TMP;Ultimo Control activo: AFECTA
 
 
 
+
+
+
+
+
+
+
 : C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BFGP0206.TMP;Ultimo Control activo: 
 15-03-2019 10:48:53 , Pila de llamadas
 15-03-2019 10:48:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3544,6 +3666,13 @@ OCAL\TEMP\0000BFGP01RX.TMP;Ultimo Control activo: AFECTA
 15-03-2019 10:49:00 , Nº de Linea :         10
 15-03-2019 10:49:00 , En el Fuente: 	thisform.cmdsalir.SetFocus()
 15-03-2019 10:52:04 , REGFACVTAPUB.KEYPRESS, Error: No se puede llamar a SetFocus desde un evento When, Valid, RangeHigh o RangeLow.;Linea : thisform.cmdsalir.SetFocus();Error :       2012;Ultimo Alias Activo: CSRFINANCIA;Ultimo registro:          1 ;DBF
+
+
+
+
+
+
+
 
 
 
@@ -3591,3 +3720,36 @@ OCAL\TEMP\0000BFGP01RX.TMP;Ultimo Control activo: AFECTA
 15-03-2019 10:52:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
 15-03-2019 10:52:12 , Nº de Linea :          3
 15-03-2019 10:52:13 , En el Fuente: thisform.cmdsalir.SetFocus()
+15-03-2019 12:57:33 , REGFACVTAPUB.INIT, Error: LBLVALE es un miembro desconocido.;Linea : thisform.containerencabeza.lblvale.Caption='';Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: CODIGO15
+15-03-2019 12:57:33 , Pila de llamadas
+15-03-2019 12:57:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+15-03-2019 12:57:34 , Objeto      : regfacvtapub.init
+15-03-2019 12:57:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+15-03-2019 12:57:34 , Nº de Linea :         24
+15-03-2019 12:57:35 , En el Fuente:      .iniciavariables()   
+15-03-2019 12:57:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+15-03-2019 12:57:35 , Objeto      : regfacvtapub.iniciavariables
+15-03-2019 12:57:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+15-03-2019 12:57:35 , Nº de Linea :          1
+15-03-2019 12:57:35 , En el Fuente: thisform.containerencabeza.lblvale.Caption=''
+15-03-2019 14:22:45 , ABMCTACTE.CMDSALVAR.CLICK, Error: _TXTHABILITACION es un miembro desconocido.;Linea : IF EMPTY(.contenedor1.pframe1.page1._txthabilitacion.Value);Error :       1925;Ultimo Alias Activo: CSRCATEIBBA;Ultimo registro:          1 ;DBF: 
+
+
+
+C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009I4P04WV.TMP;Ultimo Control activo: 
+15-03-2019 14:22:45 , Pila de llamadas
+15-03-2019 14:22:46 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+15-03-2019 14:22:46 , Objeto      : abmctacte.cmdsalvar.click
+15-03-2019 14:22:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+15-03-2019 14:22:46 , Nº de Linea :          9
+15-03-2019 14:22:46 , En el Fuente: 		llok=.salvar()
+15-03-2019 14:22:46 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+15-03-2019 14:22:46 , Objeto      : abmctacte.salvar
+15-03-2019 14:22:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+15-03-2019 14:22:46 , Nº de Linea :         19
+15-03-2019 14:22:46 , En el Fuente:    llok=thisform.validar()
+15-03-2019 14:22:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
+15-03-2019 14:22:47 , Objeto      : abmctacte.validar
+15-03-2019 14:22:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
+15-03-2019 14:22:47 , Nº de Linea :         43
+15-03-2019 14:22:48 , En el Fuente: 	IF EMPTY(.contenedor1.pframe1.page1._txthabilitacion.Value)
