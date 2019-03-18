@@ -3435,3 +3435,4 @@ Error LBLVALE es un miembro desconocido.
  Alias  registro          0
 Control activo CODIGO15 REGFACVTAPUB.INIT
 15-03-2019 14:22:44 , Linea nº IF EMPTY(.contenedor1.pframe1.page1._txthabilitacion.Value)Error nº:       1925Error _TXTHABILITACION es un miembro desconocido. Alias CSRCATEIBBA registro          1Control activo  ABMCTACTE.CMDSALVAR.CLICK
+18-03-2019 11:43:05 , Linea nº Insert into CsrAuxcabefac (fecha,idtipoiva,idplanpago,switch,copiatkt,vencimien,parada,idlocalidad,idprovincia,idfletero ,idfuerzavta,listaprecio,idrutavdor,idvendedor) value (Csrparadiario.fechafac,3,thisform.lnidplanpago,thisform.tipoform+"0000",1,Csrparadiario.fechafac,'',thisform.lnidlocalidad ,thisform.lnidprovincia,Csrfletero.id ,CsrFuerzavta.id,thisform.listadefecto,0,CsrVendedor.id)Error nº:         12Error No se encuentra la variable 'IDVENDEDOR'. Alias CSRAUXCABEFAC registro          1Control activo  REGFACVTAPUB.INIT
