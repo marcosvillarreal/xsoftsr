@@ -1,3024 +1,178 @@
-15-03-2019 10:48:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:54 , Nº de Linea :         87
-15-03-2019 10:48:54 , En el Fuente: 	        .cargardatosctacte()      
-15-03-2019 10:48:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:55 , Objeto      : regfacvtapub.cargardatosctacte
-15-03-2019 10:48:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:55 , Nº de Linea :         27
-15-03-2019 10:48:56 , En el Fuente: 	this.key_43()
-15-03-2019 10:48:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:56 , Objeto      : regfacvtapub.key_43
-15-03-2019 10:48:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:56 , Nº de Linea :         11
-15-03-2019 10:48:56 , En el Fuente: 	thisform.actualizar()
-15-03-2019 10:48:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:57 , Objeto      : regfacvtapub.actualizar
-15-03-2019 10:48:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:57 , Nº de Linea :          8
-15-03-2019 10:48:58 , En el Fuente: 		IF .pidofinanciacion('A')
-15-03-2019 10:48:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:58 , Objeto      : regfacvtapub.pidofinanciacion
-15-03-2019 10:48:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:48:58 , Nº de Linea :         53
-15-03-2019 10:48:59 , En el Fuente: 	   DO FORM pidoplanpago WITH lcid,loObjValor,.t. TO thisform.quetecla   
-15-03-2019 10:48:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-15-03-2019 10:48:59 , Objeto      : pidopagos._txtefectivo.valid
-15-03-2019 10:49:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-15-03-2019 10:49:00 , Nº de Linea :         10
-15-03-2019 10:49:00 , En el Fuente: 	thisform.cmdsalir.SetFocus()
-15-03-2019 10:52:04 , REGFACVTAPUB.KEYPRESS, Error: No se puede llamar a SetFocus desde un evento When, Valid, RangeHigh o RangeLow.;Linea : thisform.cmdsalir.SetFocus();Error :       2012;Ultimo Alias Activo: CSRFINANCIA;Ultimo registro:          1 ;DBF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BFGP02FM.TMP;Ultimo Control activo: 
-15-03-2019 10:52:04 , Pila de llamadas
-15-03-2019 10:52:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:05 , Objeto      : regfacvtapub.keypress
-15-03-2019 10:52:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:06 , Nº de Linea :         87
-15-03-2019 10:52:06 , En el Fuente: 	        .cargardatosctacte()      
-15-03-2019 10:52:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:06 , Objeto      : regfacvtapub.cargardatosctacte
-15-03-2019 10:52:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:06 , Nº de Linea :         27
-15-03-2019 10:52:06 , En el Fuente: 	this.key_43()
-15-03-2019 10:52:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:07 , Objeto      : regfacvtapub.key_43
-15-03-2019 10:52:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:07 , Nº de Linea :         11
-15-03-2019 10:52:07 , En el Fuente: 	thisform.actualizar()
-15-03-2019 10:52:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:08 , Objeto      : regfacvtapub.actualizar
-15-03-2019 10:52:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:09 , Nº de Linea :          8
-15-03-2019 10:52:09 , En el Fuente: 		IF .pidofinanciacion('A')
-15-03-2019 10:52:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:09 , Objeto      : regfacvtapub.pidofinanciacion
-15-03-2019 10:52:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 10:52:10 , Nº de Linea :         53
-15-03-2019 10:52:10 , En el Fuente: 	   DO FORM pidoplanpago WITH lcid,loObjValor,.t. TO thisform.quetecla   
-15-03-2019 10:52:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-15-03-2019 10:52:10 , Objeto      : pidopagos._txtefectivo.valid
-15-03-2019 10:52:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-15-03-2019 10:52:11 , Nº de Linea :         10
-15-03-2019 10:52:11 , En el Fuente: 	thisform.calculovuelto()
-15-03-2019 10:52:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-15-03-2019 10:52:12 , Objeto      : pidopagos.calculovuelto
-15-03-2019 10:52:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
-15-03-2019 10:52:12 , Nº de Linea :          3
-15-03-2019 10:52:13 , En el Fuente: thisform.cmdsalir.SetFocus()
-15-03-2019 12:57:33 , REGFACVTAPUB.INIT, Error: LBLVALE es un miembro desconocido.;Linea : thisform.containerencabeza.lblvale.Caption='';Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: CODIGO15
-15-03-2019 12:57:33 , Pila de llamadas
-15-03-2019 12:57:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 12:57:34 , Objeto      : regfacvtapub.init
-15-03-2019 12:57:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 12:57:34 , Nº de Linea :         24
-15-03-2019 12:57:35 , En el Fuente:      .iniciavariables()   
-15-03-2019 12:57:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 12:57:35 , Objeto      : regfacvtapub.iniciavariables
-15-03-2019 12:57:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-15-03-2019 12:57:35 , Nº de Linea :          1
-15-03-2019 12:57:35 , En el Fuente: thisform.containerencabeza.lblvale.Caption=''
-15-03-2019 14:22:45 , ABMCTACTE.CMDSALVAR.CLICK, Error: _TXTHABILITACION es un miembro desconocido.;Linea : IF EMPTY(.contenedor1.pframe1.page1._txthabilitacion.Value);Error :       1925;Ultimo Alias Activo: CSRCATEIBBA;Ultimo registro:          1 ;DBF: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009I4P04WV.TMP;Ultimo Control activo: 
-15-03-2019 14:22:45 , Pila de llamadas
-15-03-2019 14:22:46 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-15-03-2019 14:22:46 , Objeto      : abmctacte.cmdsalvar.click
-15-03-2019 14:22:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-15-03-2019 14:22:46 , Nº de Linea :          9
-15-03-2019 14:22:46 , En el Fuente: 		llok=.salvar()
-15-03-2019 14:22:46 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-15-03-2019 14:22:46 , Objeto      : abmctacte.salvar
-15-03-2019 14:22:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-15-03-2019 14:22:46 , Nº de Linea :         19
-15-03-2019 14:22:46 , En el Fuente:    llok=thisform.validar()
-15-03-2019 14:22:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
-15-03-2019 14:22:47 , Objeto      : abmctacte.validar
-15-03-2019 14:22:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
-15-03-2019 14:22:47 , Nº de Linea :         43
-15-03-2019 14:22:48 , En el Fuente: 	IF EMPTY(.contenedor1.pframe1.page1._txthabilitacion.Value)
-18-03-2019 11:43:05 , REGFACVTAPUB.INIT, Error: No se encuentra la variable 'IDVENDEDOR'.;Linea : Insert into CsrAuxcabefac (fecha,idtipoiva,idplanpago,switch,copiatkt,vencimien,parada,idlocalidad,idprovincia,idfletero ,idfuerzavta,listaprecio,idrutavdor
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,idvendedor) value (Csrparadiario.fechafac,3,thisform.lnidplanpago,thisform.tipoform+"0000",1,Csrparadiario.fechafac,'',thisform.lnidlocalidad ,thisform.lnidprovincia,Csrfletero.id ,CsrFuerzavta.id,thisform.listadefecto,0,CsrVendedor.id);Error :         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AK95008J.TMP;Ultimo Control activo: 
-18-03-2019 11:43:05 , Pila de llamadas
-18-03-2019 11:43:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 11:43:05 , Objeto      : regfacvtapub.init
-18-03-2019 11:43:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 11:43:05 , Nº de Linea :         25
-18-03-2019 11:43:05 , En el Fuente:      .insertacursor()
-18-03-2019 11:43:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 11:43:06 , Objeto      : regfacvtapub.insertacursor
-18-03-2019 11:43:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 11:43:06 , Nº de Linea :         21
-18-03-2019 11:43:07 , En el Fuente: Insert into CsrAuxcabefac (fecha,idtipoiva,idplanpago,switch,copiatkt,vencimien,parada,idlocalidad,idprovincia,idfletero		,idfuerzavta,listaprecio,idrutavdor,idvendedor)value (Csrparadiario.fechafac,3,thisform.lnidplan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pago,thisform.tipoform+"0000",1,Csrparadiario.fechafac,'',thisform.lnidlocalidad			,thisform.lnidprovincia,Csrfletero.id       		,CsrFuerzavta.id,thisform.listadefecto,0,CsrVendedor.id)
-18-03-2019 16:21:33 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la etiqueta de índice.;Linea : SET ORDER TO registro IN CsrAuxCuerfac;Error :       1683;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\TEMP\0000BX8P01AA.TMP;Ultimo Control activo: 
-18-03-2019 16:21:33 , Pila de llamadas
-18-03-2019 16:21:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:34 , Objeto      : regfacvtapub.keypress
-18-03-2019 16:21:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:34 , Nº de Linea :         87
-18-03-2019 16:21:35 , En el Fuente: 	        .cargardatosctacte()      
-18-03-2019 16:21:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:35 , Objeto      : regfacvtapub.cargardatosctacte
-18-03-2019 16:21:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:36 , Nº de Linea :          8
-18-03-2019 16:21:36 , En el Fuente: 	this.key_43()
-18-03-2019 16:21:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:36 , Objeto      : regfacvtapub.key_43
-18-03-2019 16:21:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:36 , Nº de Linea :         11
-18-03-2019 16:21:37 , En el Fuente: 	thisform.actualizar()
-18-03-2019 16:21:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:37 , Objeto      : regfacvtapub.actualizar
-18-03-2019 16:21:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:38 , Nº de Linea :         59
-18-03-2019 16:21:38 , En el Fuente: 					llok = .imprimir(thisform.lcimpresora,Csrprefitermi.tipoimpresora,1)
-18-03-2019 16:21:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:38 , Objeto      : regfacvtapub.imprimir
-18-03-2019 16:21:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:39 , Nº de Linea :         69
-18-03-2019 16:21:39 , En el Fuente: 				.totalporhoja()
-18-03-2019 16:21:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:39 , Objeto      : regfacvtapub.totalporhoja
-18-03-2019 16:21:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-18-03-2019 16:21:40 , Nº de Linea :        175
-18-03-2019 16:21:40 , En el Fuente: 	SET ORDER TO registro IN CsrAuxCuerfac
-19-03-2019 15:20:37 , REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: No se encuentra la variable 'IDCABUNI'.;Linea : SET ORDER TO tag idcabuni;Error :         12;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009YQ1063D.TMP;Ultimo Control activo: 
-19-03-2019 15:20:37 , Pila de llamadas
-19-03-2019 15:20:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:38 , Objeto      : regfacvta.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.keypress
-19-03-2019 15:20:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:39 , Nº de Linea :         50
-19-03-2019 15:20:39 , En el Fuente: 				   	 	thisform.importarpedidos()
-19-03-2019 15:20:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:39 , Objeto      : regfacvta.importarpedidos
-19-03-2019 15:20:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:40 , Nº de Linea :          6
-19-03-2019 15:20:40 , En el Fuente: 	RETURN this.importarpedidos_Android()
-19-03-2019 15:20:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:41 , Objeto      : regfacvta.importarpedidos_android
-19-03-2019 15:20:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:41 , Nº de Linea :        462
-19-03-2019 15:20:41 , En el Fuente: 		IF .grid2_lostfocuscant()
-19-03-2019 15:20:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:41 , Objeto      : regfacvta.grid2_lostfocuscant
-19-03-2019 15:20:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:42 , Nº de Linea :          5
-19-03-2019 15:20:42 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-19-03-2019 15:20:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:42 , Objeto      : regfacvta.grid2_control
-19-03-2019 15:20:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:43 , Nº de Linea :        232
-19-03-2019 15:20:43 , En el Fuente:    	  .controlbonificacion()
-19-03-2019 15:20:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:44 , Objeto      : regfacvta.controlbonificacion
-19-03-2019 15:20:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:20:44 , Nº de Linea :         68
-19-03-2019 15:20:45 , En el Fuente: 	     SET ORDER TO tag idcabuni
-19-03-2019 15:21:33 , REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: No se encuentra la variable 'IDCABUNI'.;Linea : SET ORDER TO tag idcabuni;Error :         12;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009YQ106GV.TMP;Ultimo Control activo: 
-19-03-2019 15:21:33 , Pila de llamadas
-19-03-2019 15:21:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:33 , Objeto      : regfacvta.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.keypress
-19-03-2019 15:21:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:34 , Nº de Linea :         50
-19-03-2019 15:21:34 , En el Fuente: 				   	 	thisform.importarpedidos()
-19-03-2019 15:21:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:35 , Objeto      : regfacvta.importarpedidos
-19-03-2019 15:21:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:35 , Nº de Linea :          6
-19-03-2019 15:21:35 , En el Fuente: 	RETURN this.importarpedidos_Android()
-19-03-2019 15:21:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:36 , Objeto      : regfacvta.importarpedidos_android
-19-03-2019 15:21:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:36 , Nº de Linea :        462
-19-03-2019 15:21:37 , En el Fuente: 		IF .grid2_lostfocuscant()
-19-03-2019 15:21:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:37 , Objeto      : regfacvta.grid2_lostfocuscant
-19-03-2019 15:21:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:38 , Nº de Linea :          5
-19-03-2019 15:21:38 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-19-03-2019 15:21:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:39 , Objeto      : regfacvta.grid2_control
-19-03-2019 15:21:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:39 , Nº de Linea :        232
-19-03-2019 15:21:39 , En el Fuente:    	  .controlbonificacion()
-19-03-2019 15:21:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:39 , Objeto      : regfacvta.controlbonificacion
-19-03-2019 15:21:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:21:40 , Nº de Linea :         68
-19-03-2019 15:21:40 , En el Fuente: 	     SET ORDER TO tag idcabuni
-19-03-2019 15:22:14 , REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: No se encuentra la variable 'IDCABUNI'.;Linea : SET ORDER TO tag idcabuni;Error :         12;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009YQ106UB.TMP;Ultimo Control activo: 
-19-03-2019 15:22:15 , Pila de llamadas
-19-03-2019 15:22:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:16 , Objeto      : regfacvta.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.keypress
-19-03-2019 15:22:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:16 , Nº de Linea :         50
-19-03-2019 15:22:16 , En el Fuente: 				   	 	thisform.importarpedidos()
-19-03-2019 15:22:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:17 , Objeto      : regfacvta.importarpedidos
-19-03-2019 15:22:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:18 , Nº de Linea :          6
-19-03-2019 15:22:18 , En el Fuente: 	RETURN this.importarpedidos_Android()
-19-03-2019 15:22:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:18 , Objeto      : regfacvta.importarpedidos_android
-19-03-2019 15:22:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:19 , Nº de Linea :        462
-19-03-2019 15:22:19 , En el Fuente: 		IF .grid2_lostfocuscant()
-19-03-2019 15:22:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:19 , Objeto      : regfacvta.grid2_lostfocuscant
-19-03-2019 15:22:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:20 , Nº de Linea :          5
-19-03-2019 15:22:20 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-19-03-2019 15:22:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:21 , Objeto      : regfacvta.grid2_control
-19-03-2019 15:22:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:21 , Nº de Linea :        232
-19-03-2019 15:22:22 , En el Fuente:    	  .controlbonificacion()
-19-03-2019 15:22:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:22 , Objeto      : regfacvta.controlbonificacion
-19-03-2019 15:22:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:22:23 , Nº de Linea :         68
-19-03-2019 15:22:23 , En el Fuente: 	     SET ORDER TO tag idcabuni
-19-03-2019 15:23:10 , REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: No se encuentra la variable 'IDCABUNI'.;Linea : SET ORDER TO tag idcabuni;Error :         12;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009YQ10782.TMP;Ultimo Control activo: 
-19-03-2019 15:23:11 , Pila de llamadas
-19-03-2019 15:23:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:12 , Objeto      : regfacvta.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.keypress
-19-03-2019 15:23:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:12 , Nº de Linea :         50
-19-03-2019 15:23:12 , En el Fuente: 				   	 	thisform.importarpedidos()
-19-03-2019 15:23:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:12 , Objeto      : regfacvta.importarpedidos
-19-03-2019 15:23:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:13 , Nº de Linea :          6
-19-03-2019 15:23:13 , En el Fuente: 	RETURN this.importarpedidos_Android()
-19-03-2019 15:23:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:14 , Objeto      : regfacvta.importarpedidos_android
-19-03-2019 15:23:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:15 , Nº de Linea :        462
-19-03-2019 15:23:15 , En el Fuente: 		IF .grid2_lostfocuscant()
-19-03-2019 15:23:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:15 , Objeto      : regfacvta.grid2_lostfocuscant
-19-03-2019 15:23:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:16 , Nº de Linea :          5
-19-03-2019 15:23:16 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-19-03-2019 15:23:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:17 , Objeto      : regfacvta.grid2_control
-19-03-2019 15:23:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:17 , Nº de Linea :        232
-19-03-2019 15:23:17 , En el Fuente:    	  .controlbonificacion()
-19-03-2019 15:23:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:17 , Objeto      : regfacvta.controlbonificacion
-19-03-2019 15:23:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:23:18 , Nº de Linea :         68
-19-03-2019 15:23:18 , En el Fuente: 	     SET ORDER TO tag idcabuni
-19-03-2019 15:24:25 , REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: No se encuentra la variable 'IDCABUNI'.;Linea : SET ORDER TO tag idcabuni;Error :         12;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AFIH005B.TMP;Ultimo Control activo: 
-19-03-2019 15:24:26 , Pila de llamadas
-19-03-2019 15:24:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:26 , Objeto      : regfacvta.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.keypress
-19-03-2019 15:24:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:26 , Nº de Linea :         50
-19-03-2019 15:24:27 , En el Fuente: 				   	 	thisform.importarpedidos()
-19-03-2019 15:24:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:27 , Objeto      : regfacvta.importarpedidos
-19-03-2019 15:24:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:28 , Nº de Linea :          6
-19-03-2019 15:24:28 , En el Fuente: 	RETURN this.importarpedidos_Android()
-19-03-2019 15:24:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:29 , Objeto      : regfacvta.importarpedidos_android
-19-03-2019 15:24:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:29 , Nº de Linea :        462
-19-03-2019 15:24:30 , En el Fuente: 		IF .grid2_lostfocuscant()
-19-03-2019 15:24:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:30 , Objeto      : regfacvta.grid2_lostfocuscant
-19-03-2019 15:24:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:30 , Nº de Linea :          5
-19-03-2019 15:24:30 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-19-03-2019 15:24:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:31 , Objeto      : regfacvta.grid2_control
-19-03-2019 15:24:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:31 , Nº de Linea :        232
-19-03-2019 15:24:31 , En el Fuente:    	  .controlbonificacion()
-19-03-2019 15:24:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:32 , Objeto      : regfacvta.controlbonificacion
-19-03-2019 15:24:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
-19-03-2019 15:24:33 , Nº de Linea :         68
-19-03-2019 15:24:33 , En el Fuente: 	     SET ORDER TO tag idcabuni
-20-03-2019 16:09:04 , RESUMENVENTAS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: la cláusula GROUP BY falta o no es válida.;Linea : SELECT talonario, SUM(totalNG) as gravado , SUM(TotalII) as interno , SUM(totalIG) as iva,SUM(Totalpb) as nogravado 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-FROM CsrCuerpo;Error :       1807;Ultimo Alias Activo: CSRCUERPO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000075E100KU.TMP;Ultimo Control activo: 
-20-03-2019 16:09:04 , Pila de llamadas
-20-03-2019 16:09:05 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-20-03-2019 16:09:05 , Objeto      : resumenventas.imprimir_vistaprevia1.impresora.click
-20-03-2019 16:09:05 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-20-03-2019 16:09:05 , Nº de Linea :          8
-20-03-2019 16:09:06 , En el Fuente: 	llOK=thisform.CrearInforme()
-20-03-2019 16:09:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\resumenventas.sct
-20-03-2019 16:09:06 , Objeto      : resumenventas.crearinforme
-20-03-2019 16:09:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\resumenventas.sct
-20-03-2019 16:09:07 , Nº de Linea :        272
-20-03-2019 16:09:07 , En el Fuente:  	SELECT talonario, SUM(totalNG) as gravado , SUM(TotalII) as interno , SUM(totalIG) as iva,SUM(Totalpb) as nogravado FROM CsrCuerpo 
-21-03-2019 10:59:45 , REGFACVTAPUB.INIT, Error: No se encuentra la variable 'IDVENDEDOR'.;Linea : thisform.lnidvendedor 	= NVL(CsrSeteoTermi.idvendedor,1000533);Error :         12;Ultimo Alias Activo: CSRSETEOTERMI;Ultimo registro:          1 ;DBF: C:\US
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ERS\ADMIN\APPDATA\LOCAL\TEMP\000091QH00A1.TMP;Ultimo Control activo: 
-21-03-2019 10:59:46 , Pila de llamadas
-21-03-2019 10:59:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-21-03-2019 10:59:46 , Objeto      : regfacvtapub.init
-21-03-2019 10:59:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-21-03-2019 10:59:46 , Nº de Linea :         24
-21-03-2019 10:59:47 , En el Fuente:      .iniciavariables()   
-21-03-2019 10:59:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-21-03-2019 10:59:47 , Objeto      : regfacvtapub.iniciavariables
-21-03-2019 10:59:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-21-03-2019 10:59:48 , Nº de Linea :         21
-21-03-2019 10:59:48 , En el Fuente:      .leerseteoterminal()
-21-03-2019 10:59:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-21-03-2019 10:59:49 , Objeto      : regfacvtapub.leerseteoterminal
-21-03-2019 10:59:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-21-03-2019 10:59:49 , Nº de Linea :          8
-21-03-2019 10:59:49 , En el Fuente: thisform.lnidvendedor 	= NVL(CsrSeteoTermi.idvendedor,1000533)
-28-03-2019 12:57:10 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la variable 'TOTFINAN'.;Linea : replace TotFinan WITH nNuevoTotal - nTotal IN CsrAuxCuerfac;Error :         12;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 ;DBF: C:\USE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RS\ADMIN\APPDATA\LOCAL\TEMP\000095AH00EF.TMP;Ultimo Control activo: AFECTA
-28-03-2019 12:57:10 , Pila de llamadas
-28-03-2019 12:57:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:11 , Objeto      : regfacvtapub.keypress
-28-03-2019 12:57:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:11 , Nº de Linea :         87
-28-03-2019 12:57:12 , En el Fuente: 	        .cargardatosctacte()      
-28-03-2019 12:57:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:12 , Objeto      : regfacvtapub.cargardatosctacte
-28-03-2019 12:57:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:12 , Nº de Linea :         20
-28-03-2019 12:57:12 , En el Fuente: 	this.key_43()
-28-03-2019 12:57:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:12 , Objeto      : regfacvtapub.key_43
-28-03-2019 12:57:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:13 , Nº de Linea :         11
-28-03-2019 12:57:13 , En el Fuente: 	thisform.actualizar()
-28-03-2019 12:57:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:14 , Objeto      : regfacvtapub.actualizar
-28-03-2019 12:57:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:14 , Nº de Linea :          8
-28-03-2019 12:57:15 , En el Fuente: 		IF .pidofinanciacion('A')
-28-03-2019 12:57:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:15 , Objeto      : regfacvtapub.pidofinanciacion
-28-03-2019 12:57:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:15 , Nº de Linea :         57
-28-03-2019 12:57:15 , En el Fuente: 	   this.finan_totalcomproba()
-28-03-2019 12:57:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:15 , Objeto      : regfacvtapub.finan_totalcomproba
-28-03-2019 12:57:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:57:16 , Nº de Linea :         31
-28-03-2019 12:57:16 , En el Fuente: 	replace TotFinan WITH nNuevoTotal - nTotal IN CsrAuxCuerfac
-28-03-2019 12:59:01 , REGFACVTAPUB.KEYPRESS, Error: PYI25 no es un objeto.;Linea : cCodBarra = PeloCuit(goapp.empresacuit) + cCodBarra + PyI25.DigitoVerificadorModulo10(cCodBarra);Error :       1924;Ultimo Alias Activo: FSRCAEA;Ultimo registro:          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000095AH00VF.TMP;Ultimo Control activo: AFECTA
-28-03-2019 12:59:01 , Pila de llamadas
-28-03-2019 12:59:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:02 , Objeto      : regfacvtapub.keypress
-28-03-2019 12:59:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:02 , Nº de Linea :         87
-28-03-2019 12:59:02 , En el Fuente: 	        .cargardatosctacte()      
-28-03-2019 12:59:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:02 , Objeto      : regfacvtapub.cargardatosctacte
-28-03-2019 12:59:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:03 , Nº de Linea :         20
-28-03-2019 12:59:03 , En el Fuente: 	this.key_43()
-28-03-2019 12:59:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:03 , Objeto      : regfacvtapub.key_43
-28-03-2019 12:59:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:04 , Nº de Linea :         11
-28-03-2019 12:59:04 , En el Fuente: 	thisform.actualizar()
-28-03-2019 12:59:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:05 , Objeto      : regfacvtapub.actualizar
-28-03-2019 12:59:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:05 , Nº de Linea :         59
-28-03-2019 12:59:06 , En el Fuente: 					llok = .imprimir(thisform.lcimpresora,Csrprefitermi.tipoimpresora,1)
-28-03-2019 12:59:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:06 , Objeto      : regfacvtapub.imprimir
-28-03-2019 12:59:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-28-03-2019 12:59:06 , Nº de Linea :        103
-28-03-2019 12:59:06 , En el Fuente: 		.oFacCAE.fac_Generarcaebarra()
-28-03-2019 12:59:06 , Programa    : j:\xsoftsr\desarrollo\clases\onegocios.vct
-28-03-2019 12:59:07 , Objeto      : regfacvtapub.ofaccae.fac_generarcaebarra
-28-03-2019 12:59:07 , Base Objeto : j:\xsoftsr\desarrollo\clases\onegocios.vct
-28-03-2019 12:59:07 , Nº de Linea :         13
-28-03-2019 12:59:07 , En el Fuente: cCodBarra = PeloCuit(goapp.empresacuit) + cCodBarra + PyI25.DigitoVerificadorModulo10(cCodBarra)
-28-03-2019 15:21:06 , LISRENFLETE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No coinciden los tipos de datos.;Linea : replace financiado WITH lnTotFinanGen IN CsrPerceIBBA;Error :          9;Ultimo Alias Activo: CSRPERCEIBBA;Ultimo registro:          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000095AH09J3.TMP;Ultimo Control activo: 
-28-03-2019 15:21:07 , Pila de llamadas
-28-03-2019 15:21:07 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-28-03-2019 15:21:08 , Objeto      : lisrenflete.imprimir_vistaprevia1.impresora.click
-28-03-2019 15:21:08 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-28-03-2019 15:21:08 , Nº de Linea :          8
-28-03-2019 15:21:08 , En el Fuente: 	llOK=thisform.CrearInforme()
-28-03-2019 15:21:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
-28-03-2019 15:21:08 , Objeto      : lisrenflete.crearinforme
-28-03-2019 15:21:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
-28-03-2019 15:21:09 , Nº de Linea :        499
-28-03-2019 15:21:09 , En el Fuente: replace financiado WITH lnTotFinanGen IN CsrPerceIBBA
-28-03-2019 15:55:40 , LISRENFLETE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSERPERCEIBBA'.;Linea : USE IN CserPerceIbba;Error :         13;Ultimo Alias Activo: CSRPERCE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TA\LOCAL\TEMP\000095AH0BAK.TMP;Ultimo Control activo: 
-28-03-2019 15:55:40 , Pila de llamadas
-28-03-2019 15:55:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-28-03-2019 15:55:40 , Objeto      : lisrenflete.imprimir_vistaprevia1.impresora.click
-28-03-2019 15:55:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-28-03-2019 15:55:40 , Nº de Linea :          8
-28-03-2019 15:55:41 , En el Fuente: 	llOK=thisform.CrearInforme()
-28-03-2019 15:55:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
-28-03-2019 15:55:41 , Objeto      : lisrenflete.crearinforme
-28-03-2019 15:55:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
-28-03-2019 15:55:41 , Nº de Linea :        507
-28-03-2019 15:55:42 , En el Fuente: thisform.crearcursorpercepciones()
-28-03-2019 15:55:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
-28-03-2019 15:55:42 , Objeto      : lisrenflete.crearcursorpercepciones
-28-03-2019 15:55:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
-28-03-2019 15:55:43 , Nº de Linea :         41
-28-03-2019 15:55:43 , En el Fuente: 	USE IN CserPerceIbba
-08-04-2019 15:06:48 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la definición de clase PYI25.;Linea : PyI25 = CreateObject("PyI25");Error :       1733;Ultimo Alias Activo: FSRCAEA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00BKLL02EQ.TMP;Ultimo Control activo: 
-08-04-2019 15:06:48 , Pila de llamadas
-08-04-2019 15:06:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:49 , Objeto      : regfacvtapub.keypress
-08-04-2019 15:06:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:49 , Nº de Linea :         87
-08-04-2019 15:06:50 , En el Fuente: 	        .cargardatosctacte()      
-08-04-2019 15:06:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:50 , Objeto      : regfacvtapub.cargardatosctacte
-08-04-2019 15:06:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:50 , Nº de Linea :         27
-08-04-2019 15:06:50 , En el Fuente: 	this.key_43()
-08-04-2019 15:06:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:51 , Objeto      : regfacvtapub.key_43
-08-04-2019 15:06:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:51 , Nº de Linea :         11
-08-04-2019 15:06:51 , En el Fuente: 	thisform.actualizar()
-08-04-2019 15:06:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:52 , Objeto      : regfacvtapub.actualizar
-08-04-2019 15:06:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:53 , Nº de Linea :        130
-08-04-2019 15:06:53 , En el Fuente: 							llok = .imprimir(thisform.lcimpresora,Csrprefitermi.tipoimpresora,2)
-08-04-2019 15:06:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:54 , Objeto      : regfacvtapub.imprimir
-08-04-2019 15:06:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-08-04-2019 15:06:54 , Nº de Linea :        103
-08-04-2019 15:06:54 , En el Fuente: 		.oFacCAE.fac_Generarcaebarra()
-08-04-2019 15:06:54 , Programa    : j:\xsoftsr\desarrollo\clases\onegocios.vct
-08-04-2019 15:06:54 , Objeto      : regfacvtapub.ofaccae.fac_generarcaebarra
-08-04-2019 15:06:54 , Base Objeto : j:\xsoftsr\desarrollo\clases\onegocios.vct
-08-04-2019 15:06:55 , Nº de Linea :          2
-08-04-2019 15:06:55 , En el Fuente: PyI25 = CreateObject("PyI25")
-09-04-2019 12:17:34 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          0 ;DBF: ;Ultimo Control activo: 
-09-04-2019 12:17:34 , Pila de llamadas
-09-04-2019 12:17:35 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-04-2019 12:17:35 , Objeto      : abmproducto.contenedor1.pframe1.page1.kitbuscaoaltaenabm1.txtid.init
-09-04-2019 12:17:35 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-04-2019 12:17:35 , Nº de Linea :          2
-09-04-2019 12:17:35 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
-10-04-2019 11:07:46 , LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo no existe.;Linea : REPORT FORM &this.crutainforme TO PRINTER prompt PREVIEW OBJECT loReportListener;Error :          1;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo re
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-gistro:          9 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007KEH00K4.TMP;Ultimo Control activo: 
-10-04-2019 11:07:46 , Pila de llamadas
-10-04-2019 11:07:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 11:07:46 , Objeto      : listaetiqueta.imprimir_vistaprevia1.impresora.click
-10-04-2019 11:07:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 11:07:46 , Nº de Linea :          8
-10-04-2019 11:07:47 , En el Fuente: 	llOK=thisform.CrearInforme()
-10-04-2019 11:07:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
-10-04-2019 11:07:47 , Objeto      : listaetiqueta.crearinforme
-10-04-2019 11:07:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
-10-04-2019 11:07:47 , Nº de Linea :         65
-10-04-2019 11:07:47 , En el Fuente:     REPORT FORM &this.crutainforme TO PRINTER prompt PREVIEW OBJECT loReportListener
-10-04-2019 11:08:39 , LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LOREPORTLISTENER'.;Linea : REPORT FORM &lcRutaInforme TO PRINTER prompt PREVIEW OBJECT loReportListener;Error :         12;Ultimo Alias Activo:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- CSRIMPRIMIR;Ultimo registro:          9 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007KEH00N8.TMP;Ultimo Control activo: 
-10-04-2019 11:08:40 , Pila de llamadas
-10-04-2019 11:08:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 11:08:41 , Objeto      : listaetiqueta.imprimir_vistaprevia1.impresora.click
-10-04-2019 11:08:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 11:08:41 , Nº de Linea :          8
-10-04-2019 11:08:42 , En el Fuente: 	llOK=thisform.CrearInforme()
-10-04-2019 11:08:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
-10-04-2019 11:08:42 , Objeto      : listaetiqueta.crearinforme
-10-04-2019 11:08:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
-10-04-2019 11:08:43 , Nº de Linea :         66
-10-04-2019 11:08:43 , En el Fuente:     REPORT FORM &lcRutaInforme TO PRINTER prompt PREVIEW OBJECT loReportListener
-10-04-2019 11:10:25 , LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable '_HAYRENDIDAS'.;Linea : IF _hayrendidas;Error :         12;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:         14 CNUMERO;DBF: C:\USERS\A
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DMIN\APPDATA\LOCAL\TEMP\00007KEH00P6.TMP;Ultimo Control activo: 
-10-04-2019 11:10:26 , Pila de llamadas
-10-04-2019 11:10:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 11:10:27 , Objeto      : listaetiqueta.imprimir_vistaprevia1.impresora.click
-10-04-2019 11:10:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 11:10:27 , Nº de Linea :          8
-10-04-2019 11:10:28 , En el Fuente: 	llOK=thisform.CrearInforme()
-10-04-2019 11:10:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
-10-04-2019 11:10:28 , Objeto      : listaetiqueta.crearinforme
-10-04-2019 11:10:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
-10-04-2019 11:10:28 , Nº de Linea :         16
-10-04-2019 11:10:28 , En el Fuente:    IF _hayrendidas
-10-04-2019 11:41:07 , LISTAETIQUETA.KITGRILLATILDARSTOCK.INIT, Error: El archivo 'csrproducto.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-10-04-2019 11:41:07 , Pila de llamadas
-10-04-2019 11:41:08 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 11:41:08 , Objeto      : listaetiqueta.kitgrillatildarstock.init
-10-04-2019 11:41:08 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 11:41:08 , Nº de Linea :         35
-10-04-2019 11:41:08 , En el Fuente:       select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid         ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07         ,&lc8 as wcampo08,&lc9 as wcampo09       from &lcalias       order by &lcorden into c
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ursor &micursor READWRITE
-10-04-2019 12:58:57 , REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: TEXT10 es un miembro desconocido.;Linea : .grid2.column1.text10.SetFocus;Error :       1925;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 ;DBF: C:\USERS\ADMI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N\APPDATA\LOCAL\TEMP\00007KEH02QE.TMP;Ultimo Control activo: PARADA
-10-04-2019 12:58:57 , Pila de llamadas
-10-04-2019 12:58:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
-10-04-2019 12:58:58 , Objeto      : regfaccpra.containerencabeza._txtparada.lostfocus
-10-04-2019 12:58:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
-10-04-2019 12:58:58 , Nº de Linea :         15
-10-04-2019 12:58:58 , En el Fuente: 		.grid2_generarlinea()   && 22=insert
-10-04-2019 12:58:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
-10-04-2019 12:58:59 , Objeto      : regfaccpra.grid2_generarlinea
-10-04-2019 12:58:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
-10-04-2019 12:58:59 , Nº de Linea :         32
-10-04-2019 12:58:59 , En el Fuente: 	.grid2.column1.text10.SetFocus 
-10-04-2019 13:43:00 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra el alias 'CSRVENDEDOR'.;Linea : This.txtnombre.value = &lccamponombre;Error :         13;Ultimo Alias Activo: CSRCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MP\00007KEH04KX.TMP;Ultimo Control activo: CODIGO15
-10-04-2019 13:43:00 , Pila de llamadas
-10-04-2019 13:43:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 13:43:01 , Objeto      : regfacvtapub.keypress
-10-04-2019 13:43:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 13:43:01 , Nº de Linea :         59
-10-04-2019 13:43:02 , En el Fuente: 				.grid2_cambiocliente() 
-10-04-2019 13:43:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 13:43:02 , Objeto      : regfacvtapub.grid2_cambiocliente
-10-04-2019 13:43:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 13:43:03 , Nº de Linea :         13
-10-04-2019 13:43:03 , En el Fuente: DO FORM pidocliente WITH oParametro name LobjForm linked
-10-04-2019 13:43:03 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 13:43:03 , Objeto      : pidocliente.containerendatos.kitbuscaoaltaenvdor.txtexiste1.init
-10-04-2019 13:43:04 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 13:43:04 , Nº de Linea :          1
-10-04-2019 13:43:04 , En el Fuente: this.Parent.refrescardato("")
-10-04-2019 13:43:04 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 13:43:04 , Objeto      : pidocliente.containerendatos.kitbuscaoaltaenvdor.refrescardato
-10-04-2019 13:43:04 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-10-04-2019 13:43:05 , Nº de Linea :         21
-10-04-2019 13:43:05 , En el Fuente:    This.txtnombre.value = &lccamponombre
-10-04-2019 14:17:36 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la variable 'IDVENDEDOR'.;Linea : LOCATE FOR idvendedor = CsrAuxmaopera.idvendedor AND idfuerzavta = CsrAuxcabefac.idfuerzavta;Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultim
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-o registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000203T006D.TMP;Ultimo Control activo: 
-10-04-2019 14:17:36 , Pila de llamadas
-10-04-2019 14:17:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:36 , Objeto      : regfacvtapub.keypress
-10-04-2019 14:17:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:36 , Nº de Linea :         36
-10-04-2019 14:17:37 , En el Fuente:         .k_escape()
-10-04-2019 14:17:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:37 , Objeto      : regfacvtapub.k_escape
-10-04-2019 14:17:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:38 , Nº de Linea :         14
-10-04-2019 14:17:38 , En el Fuente: 		  	 .cargarencabezado(this.idctactegral)        
-10-04-2019 14:17:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:39 , Objeto      : regfacvtapub.cargarencabezado
-10-04-2019 14:17:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:39 , Nº de Linea :         40
-10-04-2019 14:17:39 , En el Fuente: IF this.cargarcabefac()
-10-04-2019 14:17:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:40 , Objeto      : regfacvtapub.cargarcabefac
-10-04-2019 14:17:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:40 , Nº de Linea :         13
-10-04-2019 14:17:40 , En el Fuente: 	    lok = .controlctacte(CsrAuxCabefac.idctacte,lcCuit,lnidcategoria,lnidprovincia,lnidlocalidad,lnidlista1,lnidcanalvta)
-10-04-2019 14:17:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:41 , Objeto      : regfacvtapub.controlctacte
-10-04-2019 14:17:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-10-04-2019 14:17:41 , Nº de Linea :         91
-10-04-2019 14:17:41 , En el Fuente: LOCATE FOR idvendedor = CsrAuxmaopera.idvendedor AND idfuerzavta = CsrAuxcabefac.idfuerzavta
-12-04-2019 10:01:26 , LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRIMPCUE'.;Linea : REPORT FORM &lcRutaInforme TO PRINTER prompt PREVIEW OBJECT loReportListener;Error :         13;Ultimo Alias Activo: CSRIMPRIM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-IR;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AGW900P5.TMP;Ultimo Control activo: 
-12-04-2019 10:01:27 , Pila de llamadas
-12-04-2019 10:01:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-12-04-2019 10:01:28 , Objeto      : listaetiqueta.imprimir_vistaprevia1.impresora.click
-12-04-2019 10:01:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-12-04-2019 10:01:28 , Nº de Linea :          8
-12-04-2019 10:01:28 , En el Fuente: 	llOK=thisform.CrearInforme()
-12-04-2019 10:01:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
-12-04-2019 10:01:28 , Objeto      : listaetiqueta.crearinforme
-12-04-2019 10:01:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
-12-04-2019 10:01:29 , Nº de Linea :         86
-12-04-2019 10:01:29 , En el Fuente:     REPORT FORM &lcRutaInforme TO PRINTER prompt PREVIEW OBJECT loReportListener
-24-04-2019 12:09:39 , REGFACCPRA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.LOSTFOCUS, Error: El archivo 'ststrim.prg' no existe.;Linea : thisform.kitbuscarProd.filtrar = "AND nofactura=0 and idestado=1 and ictacte =" + ststrim(CsrAuxCabefac.idctacte);Error
-
-
-
-
-
-
-
-
-
-
-
-
-
- :          1;Ultimo Alias Activo: CSRPLANPAGO;Ultimo registro:          4 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000CEFD00WA.TMP;Ultimo Control activo: CDIRECCION
-24-04-2019 12:09:39 , Pila de llamadas
-24-04-2019 12:09:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-24-04-2019 12:09:40 , Objeto      : regfaccpra.containerencabeza.kitbuscaoaltaenctacte.lostfocus
-24-04-2019 12:09:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-24-04-2019 12:09:40 , Nº de Linea :         25
-24-04-2019 12:09:40 , En el Fuente: this.lostfocosay()
-24-04-2019 12:09:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
-24-04-2019 12:09:40 , Objeto      : regfaccpra.containerencabeza.kitbuscaoaltaenctacte.lostfocosay
-24-04-2019 12:09:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
-24-04-2019 12:09:41 , Nº de Linea :          6
-24-04-2019 12:09:41 , En el Fuente: 		lok = .cargarcabefac()
 24-04-2019 12:09:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
 24-04-2019 12:09:41 , Objeto      : regfaccpra.cargarcabefac
 24-04-2019 12:09:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
 24-04-2019 12:09:42 , Nº de Linea :         44
 24-04-2019 12:09:42 , En el Fuente: 			   thisform.kitbuscarProd.filtrar = "AND nofactura=0 and idestado=1 and ictacte =" + ststrim(CsrAuxCabefac.idctacte)
 06-05-2019 11:01:24 , REGPUBGASTOS.LOAD, Error: El archivo 'csrmovpub.dbf' no existe.;Linea : SELECT Csrmovpub.*,00000000 AS nrocaja FROM Csrmovpub WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovpub READWRITE;Error :          1;Ultimo Alias Activo: ;Ultim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3040,6 +194,175 @@ o registro:          0 ;DBF: ;Ultimo Control activo:
 06-05-2019 11:01:25 , Nº de Linea :          2
 06-05-2019 11:01:26 , En el Fuente: SELECT Csrmovpub.*,00000000 AS nrocaja FROM Csrmovpub WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovpub READWRITE 
 06-05-2019 11:10:16 , REGPUBGASTOS.ACEPTAR1.CLICK, Error: El campo PENDIENTE no acepta valores NULL.;Linea : GATHER NAME ObjCopia;Error :       1581;Ultimo Alias Activo: CSRMOVPUB_TEMP;Ultimo registro:         -1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3067,3 +390,2432 @@ o registro:          0 ;DBF: ;Ultimo Control activo:
 06-05-2019 11:10:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regpubgastos.sct
 06-05-2019 11:10:20 , Nº de Linea :         55
 06-05-2019 11:10:20 , En el Fuente: 	GATHER NAME ObjCopia
+09-05-2019 09:42:59 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : fecDesde = ttod(.fecha_calendario1.txtfecha.Value);Error :         11;Ultimo Alias Activo: CS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RIMPORT2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP50153.TMP;Ultimo Control activo: 
+09-05-2019 09:42:59 , Pila de llamadas
+09-05-2019 09:43:00 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 09:43:00 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 09:43:00 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 09:43:01 , Nº de Linea :          8
+09-05-2019 09:43:01 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 09:43:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:43:01 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 09:43:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:43:02 , Nº de Linea :         15
+09-05-2019 09:43:02 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 09:43:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:43:02 , Objeto      : generarimp_sigma.generar
+09-05-2019 09:43:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:43:03 , Nº de Linea :         16
+09-05-2019 09:43:03 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 09:43:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:43:03 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 09:43:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:43:04 , Nº de Linea :         58
+09-05-2019 09:43:04 , En el Fuente: thisform.objetivos()
+09-05-2019 09:43:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:43:04 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 09:43:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:43:04 , Nº de Linea :          2
+09-05-2019 09:43:05 , En el Fuente: fecDesde = ttod(.fecha_calendario1.txtfecha.Value)
+09-05-2019 09:44:21 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : fecDesde = ttod(this.fecha_calendario1.txtfecha.Value);Error :         11;Ultimo Alias Activo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+: CSRIMPORT2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP5016Y.TMP;Ultimo Control activo: 
+09-05-2019 09:44:21 , Pila de llamadas
+09-05-2019 09:44:21 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 09:44:21 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 09:44:21 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 09:44:21 , Nº de Linea :          8
+09-05-2019 09:44:22 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 09:44:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:44:22 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 09:44:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:44:23 , Nº de Linea :         15
+09-05-2019 09:44:23 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 09:44:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:44:23 , Objeto      : generarimp_sigma.generar
+09-05-2019 09:44:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:44:24 , Nº de Linea :         16
+09-05-2019 09:44:24 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 09:44:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:44:25 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 09:44:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:44:25 , Nº de Linea :         58
+09-05-2019 09:44:25 , En el Fuente: thisform.objetivos()
+09-05-2019 09:44:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:44:25 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 09:44:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 09:44:26 , Nº de Linea :          2
+09-05-2019 09:44:26 , En el Fuente: fecDesde = ttod(this.fecha_calendario1.txtfecha.Value)
+09-05-2019 10:35:30 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: la cláusula ORDER BY no es válida.;Linea : SELECT distinct CodProducto, CodCtacte FROM CsrCursor WHERE VAL(codProducto) in (10784) ORDER BY VAL(CodCtacte) INTO CURS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OR CsrVenta READWRITE;Error :       1808;Ultimo Alias Activo: CSRIMPORT2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP504K8.TMP;Ultimo Control activo: 
+09-05-2019 10:35:31 , Pila de llamadas
+09-05-2019 10:35:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:35:32 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 10:35:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:35:33 , Nº de Linea :          8
+09-05-2019 10:35:33 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 10:35:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:35:33 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 10:35:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:35:34 , Nº de Linea :         16
+09-05-2019 10:35:34 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 10:35:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:35:35 , Objeto      : generarimp_sigma.generar
+09-05-2019 10:35:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:35:35 , Nº de Linea :         16
+09-05-2019 10:35:35 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 10:35:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:35:36 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 10:35:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:35:36 , Nº de Linea :         58
+09-05-2019 10:35:36 , En el Fuente: thisform.objetivos()
+09-05-2019 10:35:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:35:36 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 10:35:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:35:37 , Nº de Linea :          7
+09-05-2019 10:35:37 , En el Fuente: 	SELECT distinct CodProducto, CodCtacte	FROM CsrCursor WHERE VAL(codProducto) in (10784) ORDER BY VAL(CodCtacte) INTO CURSOR CsrVenta READWRITE
+09-05-2019 10:36:59 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCLIENTES'.;Linea : SELECT CsrClientes;Error :         13;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:         44 ;DBF: C:\USERS\ADMIN\APP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATA\LOCAL\TEMP\00009KP504MX.TMP;Ultimo Control activo: 
+09-05-2019 10:37:00 , Pila de llamadas
+09-05-2019 10:37:00 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:37:00 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 10:37:00 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:37:00 , Nº de Linea :          8
+09-05-2019 10:37:00 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 10:37:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:37:01 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 10:37:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:37:01 , Nº de Linea :         16
+09-05-2019 10:37:02 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 10:37:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:37:02 , Objeto      : generarimp_sigma.generar
+09-05-2019 10:37:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:37:03 , Nº de Linea :         16
+09-05-2019 10:37:03 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 10:37:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:37:03 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 10:37:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:37:04 , Nº de Linea :         58
+09-05-2019 10:37:04 , En el Fuente: thisform.objetivos()
+09-05-2019 10:37:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:37:04 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 10:37:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:37:05 , Nº de Linea :         22
+09-05-2019 10:37:05 , En el Fuente: 		SELECT CsrClientes
+09-05-2019 10:52:59 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'NUILCLI'.;Linea : IF nCtacte <> nUIlCli;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:      11702 ;DBF: C:\USERS\ADMIN\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PPDATA\LOCAL\TEMP\00009KP5056J.TMP;Ultimo Control activo: 
+09-05-2019 10:53:00 , Pila de llamadas
+09-05-2019 10:53:00 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:53:00 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 10:53:00 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:53:01 , Nº de Linea :          8
+09-05-2019 10:53:01 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 10:53:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:53:01 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 10:53:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:53:02 , Nº de Linea :         16
+09-05-2019 10:53:02 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 10:53:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:53:03 , Objeto      : generarimp_sigma.generar
+09-05-2019 10:53:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:53:03 , Nº de Linea :         16
+09-05-2019 10:53:04 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 10:53:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:53:04 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 10:53:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:53:05 , Nº de Linea :         58
+09-05-2019 10:53:05 , En el Fuente: thisform.objetivos()
+09-05-2019 10:53:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:53:05 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 10:53:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:53:05 , Nº de Linea :         52
+09-05-2019 10:53:05 , En el Fuente: 					IF nCtacte <> nUIlCli
+09-05-2019 10:54:14 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad IDPRODUCTO.;Linea : OscLinea.codproducto	= OscProducto.idProducto;Error :       1734;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:      11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+703 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP5058F.TMP;Ultimo Control activo: 
+09-05-2019 10:54:15 , Pila de llamadas
+09-05-2019 10:54:16 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:54:16 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 10:54:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:54:16 , Nº de Linea :          8
+09-05-2019 10:54:16 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 10:54:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:54:17 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 10:54:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:54:17 , Nº de Linea :         16
+09-05-2019 10:54:18 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 10:54:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:54:18 , Objeto      : generarimp_sigma.generar
+09-05-2019 10:54:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:54:18 , Nº de Linea :         16
+09-05-2019 10:54:19 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 10:54:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:54:19 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 10:54:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:54:19 , Nº de Linea :         58
+09-05-2019 10:54:19 , En el Fuente: thisform.objetivos()
+09-05-2019 10:54:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:54:20 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 10:54:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:54:20 , Nº de Linea :         63
+09-05-2019 10:54:21 , En el Fuente: 							OscLinea.codproducto	= OscProducto.idProducto
+09-05-2019 10:55:25 , GENERARIMP_SIGMA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+09-05-2019 10:55:25 , Pila de llamadas
+09-05-2019 10:55:26 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:55:26 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.txtexiste1.init
+09-05-2019 10:55:26 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:55:26 , Nº de Linea :          1
+09-05-2019 10:55:26 , En el Fuente: this.Parent.refrescardato("")
+09-05-2019 10:55:26 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:55:27 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.refrescardato
+09-05-2019 10:55:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:55:27 , Nº de Linea :         18
+09-05-2019 10:55:27 , En el Fuente: This.traerdatos(.t.,lccmd) 
+09-05-2019 10:55:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:55:28 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.traerdatos
+09-05-2019 10:55:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:55:28 , Nº de Linea :         32
+09-05-2019 10:55:29 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
+09-05-2019 10:56:03 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'OSCCURSOR'.;Linea : GATHER NAME OscCursor;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:      11703 ;DBF: C:\USERS\ADMIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\APPDATA\LOCAL\TEMP\00009KP505AM.TMP;Ultimo Control activo: 
+09-05-2019 10:56:03 , Pila de llamadas
+09-05-2019 10:56:03 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:56:03 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 10:56:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:56:03 , Nº de Linea :          8
+09-05-2019 10:56:04 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 10:56:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:56:04 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 10:56:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:56:05 , Nº de Linea :         16
+09-05-2019 10:56:05 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 10:56:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:56:06 , Objeto      : generarimp_sigma.generar
+09-05-2019 10:56:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:56:06 , Nº de Linea :         16
+09-05-2019 10:56:07 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 10:56:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:56:07 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 10:56:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:56:07 , Nº de Linea :         58
+09-05-2019 10:56:08 , En el Fuente: thisform.objetivos()
+09-05-2019 10:56:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:56:08 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 10:56:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:56:08 , Nº de Linea :         68
+09-05-2019 10:56:08 , En el Fuente: 							GATHER NAME OscCursor
+09-05-2019 10:56:38 , GENERARIMP_SIGMA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+09-05-2019 10:56:38 , Pila de llamadas
+09-05-2019 10:56:39 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:56:39 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.txtexiste1.init
+09-05-2019 10:56:39 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:56:39 , Nº de Linea :          1
+09-05-2019 10:56:40 , En el Fuente: this.Parent.refrescardato("")
+09-05-2019 10:56:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:56:40 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.refrescardato
+09-05-2019 10:56:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:56:41 , Nº de Linea :         18
+09-05-2019 10:56:41 , En el Fuente: This.traerdatos(.t.,lccmd) 
+09-05-2019 10:56:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:56:41 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.traerdatos
+09-05-2019 10:56:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:56:41 , Nº de Linea :         32
+09-05-2019 10:56:42 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
+09-05-2019 10:57:08 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se puede actualizar ADODB.Recordset hasta que el cursor, creado mediante el método CursorAdapter.CursorFill, no se asocie a un objeto CursorAdapter.;Linea : SKIP -1;E
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rror :       2082;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:      11703 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP505CR.TMP;Ultimo Control activo: 
+09-05-2019 10:57:09 , Pila de llamadas
+09-05-2019 10:57:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:57:09 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 10:57:09 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:57:09 , Nº de Linea :          8
+09-05-2019 10:57:10 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 10:57:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:57:10 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 10:57:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:57:10 , Nº de Linea :         16
+09-05-2019 10:57:10 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 10:57:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:57:11 , Objeto      : generarimp_sigma.generar
+09-05-2019 10:57:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:57:12 , Nº de Linea :         16
+09-05-2019 10:57:12 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 10:57:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:57:12 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 10:57:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:57:13 , Nº de Linea :         58
+09-05-2019 10:57:13 , En el Fuente: thisform.objetivos()
+09-05-2019 10:57:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:57:14 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 10:57:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 10:57:14 , Nº de Linea :         73
+09-05-2019 10:57:14 , En el Fuente: 					SKIP -1
+09-05-2019 10:58:11 , GENERARIMP_SIGMA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+09-05-2019 10:58:11 , Pila de llamadas
+09-05-2019 10:58:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:58:11 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.txtexiste1.init
+09-05-2019 10:58:11 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:58:11 , Nº de Linea :          1
+09-05-2019 10:58:12 , En el Fuente: this.Parent.refrescardato("")
+09-05-2019 10:58:12 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:58:12 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.refrescardato
+09-05-2019 10:58:12 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:58:13 , Nº de Linea :         18
+09-05-2019 10:58:13 , En el Fuente: This.traerdatos(.t.,lccmd) 
+09-05-2019 10:58:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:58:13 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.traerdatos
+09-05-2019 10:58:14 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 10:58:14 , Nº de Linea :         32
+09-05-2019 10:58:14 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
+09-05-2019 11:22:08 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Falta algún operando.;Linea : SELECT distinct CodProducto, CodCtacte,RECNO() FROM CsrImport2 WHERE VAL(codProducto) = &nCodigo INTO CURSOR CsrControl READWRITE;Error :  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     1231;Ultimo Alias Activo: CSRIMPORT2;Ultimo registro:       8724 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP5062J.TMP;Ultimo Control activo: 
+09-05-2019 11:22:08 , Pila de llamadas
+09-05-2019 11:22:08 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 11:22:08 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 11:22:08 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 11:22:08 , Nº de Linea :          8
+09-05-2019 11:22:09 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 11:22:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:22:09 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 11:22:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:22:10 , Nº de Linea :         16
+09-05-2019 11:22:10 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 11:22:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:22:11 , Objeto      : generarimp_sigma.generar
+09-05-2019 11:22:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:22:11 , Nº de Linea :         16
+09-05-2019 11:22:11 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 11:22:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:22:11 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 11:22:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:22:12 , Nº de Linea :         58
+09-05-2019 11:22:12 , En el Fuente: thisform.objetivos()
+09-05-2019 11:22:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:22:12 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 11:22:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:22:13 , Nº de Linea :         74
+09-05-2019 11:22:13 , En el Fuente: 				SELECT distinct CodProducto, CodCtacte,RECNO()				FROM CsrImport2 WHERE VAL(codProducto) = &nCodigo INTO CURSOR CsrControl READWRITE
+09-05-2019 11:54:45 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: la cláusula ORDER BY no es válida.;Linea : SELECT * FROM CsrCursor ORDER BY VAL(CodCtacte) INTO CURSOR CsrImport2 READWRITE;Error :       1808;Ultimo Alias Activo: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP507PM.TMP;Ultimo Control activo: 
+09-05-2019 11:54:45 , Pila de llamadas
+09-05-2019 11:54:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 11:54:46 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 11:54:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 11:54:46 , Nº de Linea :          8
+09-05-2019 11:54:46 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 11:54:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:54:46 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 11:54:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:54:46 , Nº de Linea :         16
+09-05-2019 11:54:47 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 11:54:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:54:47 , Objeto      : generarimp_sigma.generar
+09-05-2019 11:54:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:54:48 , Nº de Linea :         16
+09-05-2019 11:54:48 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 11:54:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:54:48 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 11:54:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 11:54:48 , Nº de Linea :         56
+09-05-2019 11:54:49 , En el Fuente: SELECT * FROM CsrCursor ORDER BY VAL(CodCtacte) INTO CURSOR CsrImport2 READWRITE 
+09-05-2019 12:09:31 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE;Error :          1;Ultimo Alias Activo: CSRCTACTE;Ultim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+o registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP507WU.TMP;Ultimo Control activo: 
+09-05-2019 12:09:31 , Pila de llamadas
+09-05-2019 12:09:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 12:09:32 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 12:09:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 12:09:32 , Nº de Linea :          8
+09-05-2019 12:09:32 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 12:09:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:09:32 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 12:09:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:09:33 , Nº de Linea :         13
+09-05-2019 12:09:33 , En el Fuente: 	.generar('ctacte',"PDV's",'.t.',lcCodEmpresa+'pop'+lcfecha+'.TXT')
+09-05-2019 12:09:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:09:34 , Objeto      : generarimp_sigma.generar
+09-05-2019 12:09:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:09:34 , Nº de Linea :         14
+09-05-2019 12:09:34 , En el Fuente: 			_existe = .leerctacte()
+09-05-2019 12:09:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:09:34 , Objeto      : generarimp_sigma.leerctacte
+09-05-2019 12:09:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:09:34 , Nº de Linea :         58
+09-05-2019 12:09:35 , En el Fuente: SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE 
+09-05-2019 12:43:21 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: la cláusula ORDER BY no es válida.;Linea : SELECT distinct CodProducto, CodCtacte FROM CsrImport2 WHERE VAL(codProducto) = nCodigo ORDER BY VAL(CodCtacte) INTO CURS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OR CsrControl READWRITE;Error :       1808;Ultimo Alias Activo: CSRVENTAS;Ultimo registro:       6805 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP5091Y.TMP;Ultimo Control activo: 
+09-05-2019 12:43:21 , Pila de llamadas
+09-05-2019 12:43:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 12:43:22 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 12:43:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 12:43:22 , Nº de Linea :          8
+09-05-2019 12:43:23 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 12:43:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:23 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 12:43:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:23 , Nº de Linea :         16
+09-05-2019 12:43:23 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 12:43:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:23 , Objeto      : generarimp_sigma.generar
+09-05-2019 12:43:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:24 , Nº de Linea :         16
+09-05-2019 12:43:24 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 12:43:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:24 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 12:43:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:24 , Nº de Linea :         58
+09-05-2019 12:43:25 , En el Fuente: thisform.objetivos()
+09-05-2019 12:43:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:25 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 12:43:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:26 , Nº de Linea :         11
+09-05-2019 12:43:26 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 12:43:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:26 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 12:43:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:43:26 , Nº de Linea :         65
+09-05-2019 12:43:26 , En el Fuente: 			SELECT distinct CodProducto, CodCtacte			FROM CsrImport2 WHERE VAL(codProducto) = nCodigo ORDER BY VAL(CodCtacte) INTO CURSOR CsrControl READWRITE
+09-05-2019 12:57:12 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCONTROL1'.;Linea : SELECT CsrControl1;Error :         13;Ultimo Alias Activo: CSRCONTROL;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\AP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PDATA\LOCAL\TEMP\00009KP50A0M.TMP;Ultimo Control activo: 
+09-05-2019 12:57:13 , Pila de llamadas
+09-05-2019 12:57:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 12:57:13 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 12:57:13 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 12:57:13 , Nº de Linea :          8
+09-05-2019 12:57:14 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 12:57:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:14 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 12:57:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:14 , Nº de Linea :         16
+09-05-2019 12:57:15 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 12:57:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:15 , Objeto      : generarimp_sigma.generar
+09-05-2019 12:57:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:15 , Nº de Linea :         16
+09-05-2019 12:57:15 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 12:57:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:15 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 12:57:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:16 , Nº de Linea :         58
+09-05-2019 12:57:16 , En el Fuente: thisform.objetivos()
+09-05-2019 12:57:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:16 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 12:57:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:17 , Nº de Linea :         11
+09-05-2019 12:57:17 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 12:57:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:18 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 12:57:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:57:18 , Nº de Linea :         73
+09-05-2019 12:57:18 , En el Fuente: 			SELECT CsrControl1
+09-05-2019 12:58:08 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'control1.dbf' no existe.;Linea : SELECT RECNO(),* FROM Control1 INTO CURSOR CsrControl readwrite;Error :          1;Ultimo Alias Activo: CSRCONTROL1;Ultimo r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP50A2Y.TMP;Ultimo Control activo: 
+09-05-2019 12:58:08 , Pila de llamadas
+09-05-2019 12:58:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 12:58:09 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 12:58:09 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 12:58:09 , Nº de Linea :          8
+09-05-2019 12:58:09 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 12:58:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:10 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 12:58:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:10 , Nº de Linea :         16
+09-05-2019 12:58:10 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 12:58:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:11 , Objeto      : generarimp_sigma.generar
+09-05-2019 12:58:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:11 , Nº de Linea :         16
+09-05-2019 12:58:12 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 12:58:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:12 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 12:58:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:12 , Nº de Linea :         58
+09-05-2019 12:58:12 , En el Fuente: thisform.objetivos()
+09-05-2019 12:58:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:12 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 12:58:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:13 , Nº de Linea :         11
+09-05-2019 12:58:13 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 12:58:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:13 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 12:58:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 12:58:14 , Nº de Linea :         74
+09-05-2019 12:58:14 , En el Fuente: 			SELECT RECNO(),* FROM Control1 INTO CURSOR CsrControl readwrite 
+09-05-2019 13:13:09 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CODCTACTE'.;Linea : nCtacte = VAL(CodCtacte);Error :         12;Ultimo Alias Activo: CSRVENTAS;Ultimo registro:        192 ;DBF: C:\USERS\AD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MIN\APPDATA\LOCAL\TEMP\00009KP50AY0.TMP;Ultimo Control activo: 
+09-05-2019 13:13:10 , Pila de llamadas
+09-05-2019 13:13:10 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:13:10 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 13:13:10 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:13:10 , Nº de Linea :          8
+09-05-2019 13:13:11 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 13:13:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:11 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 13:13:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:12 , Nº de Linea :         16
+09-05-2019 13:13:12 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 13:13:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:12 , Objeto      : generarimp_sigma.generar
+09-05-2019 13:13:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:13 , Nº de Linea :         16
+09-05-2019 13:13:13 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 13:13:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:13 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 13:13:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:14 , Nº de Linea :         58
+09-05-2019 13:13:14 , En el Fuente: thisform.objetivos()
+09-05-2019 13:13:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:14 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 13:13:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:15 , Nº de Linea :         11
+09-05-2019 13:13:15 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 13:13:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:15 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 13:13:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:13:15 , Nº de Linea :         44
+09-05-2019 13:13:15 , En el Fuente: 				nCtacte = VAL(CodCtacte)
+09-05-2019 13:16:31 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRAUXILIAR'.;Linea : SELECT CsrAuxiliar;Error :         13;Ultimo Alias Activo: CSRVENTAS;Ultimo registro:       2653 ;DBF: C:\USERS\ADMIN\APP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATA\LOCAL\TEMP\00009KP50B6B.TMP;Ultimo Control activo: 
+09-05-2019 13:16:32 , Pila de llamadas
+09-05-2019 13:16:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:16:32 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 13:16:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:16:32 , Nº de Linea :          8
+09-05-2019 13:16:33 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 13:16:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:33 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 13:16:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:34 , Nº de Linea :         16
+09-05-2019 13:16:34 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 13:16:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:34 , Objeto      : generarimp_sigma.generar
+09-05-2019 13:16:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:34 , Nº de Linea :         16
+09-05-2019 13:16:35 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 13:16:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:35 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 13:16:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:35 , Nº de Linea :         58
+09-05-2019 13:16:35 , En el Fuente: thisform.objetivos()
+09-05-2019 13:16:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:35 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 13:16:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:36 , Nº de Linea :         11
+09-05-2019 13:16:36 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 13:16:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:37 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 13:16:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:16:37 , Nº de Linea :         70
+09-05-2019 13:16:37 , En el Fuente: 			SELECT CsrAuxiliar
+09-05-2019 13:20:36 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrimport2.dbf' no existe.;Linea : SELECT CsrAuxiliar.* FROM Csrauxiliar UNION all SELECT CsrImport2.* FROM CsrImport2 INTO CURSOR CsrImport2 READWRITE;Error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ :          1;Ultimo Alias Activo: CSRTEMP;Ultimo registro:      12044 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP50BCT.TMP;Ultimo Control activo: 
+09-05-2019 13:20:36 , Pila de llamadas
+09-05-2019 13:20:37 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:20:37 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 13:20:37 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:20:37 , Nº de Linea :          8
+09-05-2019 13:20:38 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 13:20:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:38 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 13:20:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:39 , Nº de Linea :         16
+09-05-2019 13:20:39 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 13:20:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:39 , Objeto      : generarimp_sigma.generar
+09-05-2019 13:20:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:39 , Nº de Linea :         16
+09-05-2019 13:20:39 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 13:20:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:39 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 13:20:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:40 , Nº de Linea :         58
+09-05-2019 13:20:40 , En el Fuente: thisform.objetivos()
+09-05-2019 13:20:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:40 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 13:20:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:41 , Nº de Linea :         11
+09-05-2019 13:20:41 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 13:20:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:41 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 13:20:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:20:42 , Nº de Linea :        101
+09-05-2019 13:20:42 , En el Fuente: 			SELECT CsrAuxiliar.* FROM Csrauxiliar			UNION all			SELECT CsrImport2.* FROM CsrImport2			INTO CURSOR CsrImport2 READWRITE 
+09-05-2019 13:32:59 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcontrol1.dbf' no existe.;Linea : SELECT RECNO(),* FROM CsrControl1 INTO CURSOR CsrControl1 readwrite;Error :          1;Ultimo Alias Activo: CSRCONTROL;Ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP50BSS.TMP;Ultimo Control activo: 
+09-05-2019 13:33:00 , Pila de llamadas
+09-05-2019 13:33:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:33:01 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 13:33:01 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:33:01 , Nº de Linea :          8
+09-05-2019 13:33:02 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 13:33:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:02 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 13:33:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:02 , Nº de Linea :         16
+09-05-2019 13:33:02 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 13:33:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:03 , Objeto      : generarimp_sigma.generar
+09-05-2019 13:33:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:03 , Nº de Linea :         16
+09-05-2019 13:33:03 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 13:33:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:04 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 13:33:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:04 , Nº de Linea :         58
+09-05-2019 13:33:04 , En el Fuente: thisform.objetivos()
+09-05-2019 13:33:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:05 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 13:33:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:05 , Nº de Linea :         11
+09-05-2019 13:33:05 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 13:33:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:06 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 13:33:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:33:06 , Nº de Linea :         77
+09-05-2019 13:33:06 , En el Fuente: 			SELECT RECNO(),* FROM CsrControl1 INTO CURSOR CsrControl1 readwrite 
+09-05-2019 13:54:47 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'NCODIGO'.;Linea : BROWSE;Error :         12;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMP\00009KP50C0M.TMP;Ultimo Control activo: 
+09-05-2019 13:54:47 , Pila de llamadas
+09-05-2019 13:54:48 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:54:48 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 13:54:48 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:54:49 , Nº de Linea :          8
+09-05-2019 13:54:49 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 13:54:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:49 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 13:54:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:49 , Nº de Linea :         16
+09-05-2019 13:54:49 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 13:54:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:50 , Objeto      : generarimp_sigma.generar
+09-05-2019 13:54:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:50 , Nº de Linea :         16
+09-05-2019 13:54:50 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 13:54:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:51 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 13:54:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:52 , Nº de Linea :         58
+09-05-2019 13:54:52 , En el Fuente: thisform.objetivos()
+09-05-2019 13:54:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:52 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 13:54:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:52 , Nº de Linea :         11
+09-05-2019 13:54:52 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 13:54:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:53 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 13:54:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:54:53 , Nº de Linea :          6
+09-05-2019 13:54:54 , En el Fuente: vista()
+09-05-2019 13:54:54 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+09-05-2019 13:54:54 , Objeto      : vista
+09-05-2019 13:54:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+09-05-2019 13:54:54 , Nº de Linea :        540
+09-05-2019 13:54:55 , En el Fuente: 		BROWSE 
+09-05-2019 13:56:28 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'NCODIGO'.;Linea : BROWSE;Error :         12;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+TEMP\00009KP50C2B.TMP;Ultimo Control activo: 
+09-05-2019 13:56:28 , Pila de llamadas
+09-05-2019 13:56:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:56:28 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
+09-05-2019 13:56:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+09-05-2019 13:56:29 , Nº de Linea :          8
+09-05-2019 13:56:29 , En el Fuente: 	llOK=thisform.CrearInforme()
+09-05-2019 13:56:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:29 , Objeto      : generarimp_sigma.crearinforme
+09-05-2019 13:56:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:29 , Nº de Linea :         16
+09-05-2019 13:56:30 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
+09-05-2019 13:56:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:30 , Objeto      : generarimp_sigma.generar
+09-05-2019 13:56:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:31 , Nº de Linea :         16
+09-05-2019 13:56:31 , En el Fuente: 			_existe = .leerCabefac()
+09-05-2019 13:56:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:31 , Objeto      : generarimp_sigma.leercabefac
+09-05-2019 13:56:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:31 , Nº de Linea :         58
+09-05-2019 13:56:32 , En el Fuente: thisform.objetivos()
+09-05-2019 13:56:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:32 , Objeto      : generarimp_sigma.objetivos
+09-05-2019 13:56:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:33 , Nº de Linea :         11
+09-05-2019 13:56:33 , En el Fuente: 	this.generarventa(10784,465)
+09-05-2019 13:56:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:33 , Objeto      : generarimp_sigma.generarventa
+09-05-2019 13:56:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
+09-05-2019 13:56:33 , Nº de Linea :          6
+09-05-2019 13:56:33 , En el Fuente: vista()
+09-05-2019 13:56:33 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+09-05-2019 13:56:33 , Objeto      : vista
+09-05-2019 13:56:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+09-05-2019 13:56:34 , Nº de Linea :        540
+09-05-2019 13:56:34 , En el Fuente: 		BROWSE 

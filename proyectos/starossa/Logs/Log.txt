@@ -1,150 +1,3 @@
-Error nº:         12
-Error No se encuentra la variable 'SUBTITULO'.
- Alias CSRIMPRIMIR registro          1
-Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-06-09-2018 18:38:01 , Linea nº LOCATE FOR id = Precio_Codigo
-Error nº:         12
-Error No se encuentra la variable 'PRECIO_CODIGO'.
- Alias CSRCODE registro          1
-Control activo  CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS
-06-09-2018 18:38:12 , Linea nº LOCATE FOR id = Precio_Codigo
-Error nº:         12
-Error No se encuentra la variable 'PRECIO_CODIGO'.
- Alias CSRCODE registro          1
-Control activo  CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS
-06-09-2018 18:38:22 , Linea nº LOCATE FOR id = Precio_Codigo
-Error nº:         12
-Error No se encuentra la variable 'PRECIO_CODIGO'.
- Alias CSRCODE registro          1
-Control activo  CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS
-06-09-2018 18:38:52 , Linea nº LOCATE FOR id = Precio_Codigo
-Error nº:         12
-Error No se encuentra la variable 'PRECIO_CODIGO'.
- Alias CSRCODE registro          1
-Control activo  CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS
-06-09-2018 18:39:48 , Linea nº LOCATE FOR id = Precio_L1
-Error nº:        107
-Error Incompatibilidad entre el tipo de operador y el tipo de operando.
- Alias CSRLETRA1 registro          1
-Control activo  CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS
-06-09-2018 18:39:59 , Linea nº LOCATE FOR id = Precio_L1
-Error nº:        107
-Error Incompatibilidad entre el tipo de operador y el tipo de operando.
- Alias CSRLETRA1 registro          1
-Control activo  CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS
-06-09-2018 18:40:09 , Linea nº LOCATE FOR id = Precio_L1
-Error nº:        107
-Error Incompatibilidad entre el tipo de operador y el tipo de operando.
- Alias CSRLETRA1 registro          1
-Control activo  CBIOPRECIO3.KITBUSCAOALTAENCTACTE.LOSTFOCUS
-06-09-2018 18:41:45 , Linea nº Precio_L1		= CsrLista1.id
-Error nº:         13
-Error No se encuentra el alias 'CSRLISTA1'.
- Alias CSRAUXCBIOPRECIO registro         19
-Control activo ESTADOTILDE CBIOPRECIO3.CMDPROCESAR.CLICK
-11-09-2018 15:42:29 , Linea nº this.Parametro = oObjeto
-Error nº:         12
-Error No se encuentra la variable 'OOBJETO'.
- Alias  registro          0
-Control activo  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.CMDGOOGLE.CLICK
-11-09-2018 15:43:22 , Linea nº cDire = this.Parametro.cdireccion
-Error nº:       1925
-Error PARAMETRO es un miembro desconocido.
- Alias  registro          0
-Control activo  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.CMDGOOGLE.CLICK
-14-09-2018 15:00:31 , Linea nº GATHER NAME Objtabla
-Error nº:       1581
-Error El campo PASSWORD no acepta valores NULL.
- Alias CSRIMPORTAR registro        100
-Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-17-09-2018 09:04:57 , Linea nº lnok = oavisar.usuario('El día de la Ruta Vendedor ('+ALLTRIM(thisform.cdiarutavendedor)+') difiere con la del Guía Visita ('+ALLTRIM(thisform.cdiarutavisita)+')¿Desea Continuar?',36)
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias CSRRUTAVENDEDOR registro          1
-Control activo  MOSTRAR_MAPS.CMD_RUTA.CLICK
-01-10-2018 08:53:31 , Linea nº SELECT FsrArticulo
-Error nº:         13
-Error No se encuentra el alias 'FSRARTICULO'.
- Alias CSRSUBTITULO registro          1
-Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-02-10-2018 11:26:25 , Linea nº IF lnlista2<>porce
-Error nº:         12
-Error No se encuentra la variable 'PORCE'.
- Alias CSRPROVINCIABA registro          2
-Control activo  MAIN
-08-10-2018 12:17:56 , Linea nº SELECT CsrPago
-Error nº:         13
-Error No se encuentra el alias 'CSRPAGO'.
- Alias CSRPREFIJONRO registro          1
-Control activo  REGCAJA.CMDRECUPERAR.CLICK
-08-10-2018 12:18:38 , Linea nº IF NOT thisform.consultandocomprobante
-Error nº:       1734
-Error No se encuentra la propiedad CONSULTANDOCOMPROBANTE.
- Alias CSRPREFITERMI registro         39
-Control activo  REGCAJA.CMDRECUPERAR.CLICK
-08-10-2018 12:19:40 , Linea nº .consultandocomprobante = .f.
-Error nº:       1734
-Error No se encuentra la propiedad CONSULTANDOCOMPROBANTE.
- Alias CSRPLANPAGO registro          2
-Control activo  REGCAJA.INIT
-08-10-2018 12:29:07 , Linea nº XMLTOCURSOR(cRuta,"CsrAuxPlanCue",512+8192)
-Error nº:       2088
-Error El campo REGISTRO es de sólo lectura
- Alias CSRAUXPLANCUE registro          1
-Control activo  REGCAJA.CMDRECUPERAR.CLICK
-08-10-2018 12:55:26 , Linea nº lbhayBuscarCoinci = .f
-Error nº:       1940
-Error La expresión no es válida fuera de WITH/ENDWITH.
- Alias CSRPRODUCTO registro          1
-Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
-08-10-2018 12:55:35 , Linea nº IF lbhayBuscarCoinci
-Error nº:         12
-Error No se encuentra la variable 'LBHAYBUSCARCOINCI'.
- Alias CSRPRODUCTO registro          1
-Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
-26-10-2018 09:50:44 , Linea nº GATHER NAME Objtabla
-Error nº:       1581
-Error El campo PASSWORD no acepta valores NULL.
- Alias CSRIMPORTAR registro        100
-Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-29-10-2018 10:49:43 , Linea nº DO FORM mostrar_tracking WITH oParam
-Error nº:          1
-Error El archivo 'j:\xsoftsr\proyectos\starossa\mostrar_tracking.scx' no existe.
- Alias CSRAUXRUTA registro          1
-Control activo  GUIAVISITA.COMMAND1.CLICK
-29-10-2018 10:50:34 , Linea nº this.cmd_ruta.Visible = .t.
-Error nº:       1925
-Error CMD_RUTA es un miembro desconocido.
- Alias CSRCTACTE_2 registro          1
-Control activo  GUIAVISITA.COMMAND1.CLICK
-29-10-2018 10:51:28 , Linea nº this.pageframe1.page1.cmd_ruta.Visible = .t.
-Error nº:       1925
-Error CMD_RUTA es un miembro desconocido.
- Alias CSRCTACTE_2 registro          1
-Control activo  GUIAVISITA.COMMAND1.CLICK
-29-10-2018 10:52:40 , Linea nº IF (thisform.checkinfo.Value=1)
-Error nº:       1925
-Error CHECKINFO es un miembro desconocido.
- Alias CSRCLIENTES registro          9
-Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK
-29-10-2018 10:55:34 , Linea nº thisform.cmd_Ruta.Enabled = .T.
-Error nº:       1925
-Error CMD_RUTA es un miembro desconocido.
- Alias CSRCLIENTES registro         29
-Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK
-29-10-2018 12:05:28 , Linea nº <<IIF(LEN(TRIM(Coords))<>0,  calcRoute(); ,''>>
-Error nº:       1306
-Error Falta una coma (,).
- Alias CSRRUTAVENDEDOR registro         26
-Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE2.CMD_RUTA.CLICK
-29-10-2018 12:08:07 , Linea nº <<IIF(LEN(TRIM(Coords))<>0,  'calcRoute();' ,''>>
-Error nº:       1300
-Error Falta ) en el nombre de la función.
- Alias CSRRUTAVENDEDOR registro         28
-Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE2.CMD_RUTA.CLICK
-29-10-2018 12:21:29 , Linea nº ObtenerXY(cDire,@cLat,@cLng)
-Error nº:          1
-Error El archivo 'obtenerxy.prg' no existe.
  Alias CSRCLIENTES registro          2
 Control activo  MOSTRAR_TRACKING.PAGEFRAME1.PAGE1.CMD_CARGAR.CLICK
 29-10-2018 15:42:45 , Linea nº ObtenerXY(cDire,@cLat,@cLng)
@@ -313,12 +166,46 @@ Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 edad) ,total WITH CsrVentas.cantidad,totalpn WITH CsrVentas.importefinal - bonificacion IN CsrImprimir
 Error nº:         12
 Error No se encuentra la variable 'CANTIDAD'.
  Alias CSRVENTAS registro          1
 Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-11-2018 11:29:11 , Linea nº replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvari
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -568,7 +455,41 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -778,7 +699,41 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1108,12 +1063,46 @@ Control activo TOTAL REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 havto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase ,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor)
 Error nº:         12
 Error No se encuentra la variable 'CUPON'.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CMDPROCESAR.CLICK
 18-12-2018 14:57:15 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,clase ,cupon,cuota,idvalor) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fec
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1213,6 +1202,23 @@ Error El subíndice está fuera del intervalo definido.
  Alias _CSRMARCA registro          1
 Control activo  MAIN
 21-12-2018 09:38:22 , Linea nº INSERT INTO CsrImprimir (idrubro,idmarca,fecha,numero,nombre,costov,margen0,coston,PREVTA1V,margen1,PREVTA1N ,PREVTA2V,margen2,PREVTA2N,nomrubro,codalfa) VALUES (CsrCursor.idrubro,CsrCursor.idmarca,CsrCursor.fecha,Csrcursor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1450,6 +1456,23 @@ Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 srCursor.numrubro,CsrCursor.nomrubro,lcclave,"",lnsugerido,CsrCursor.desc1,CsrCursor.saltopag,"",IIF(ISNULL(CsrCursor.codbarra13),"",CsrCursor.codbarra13))
 Error nº:         12
 Error No se encuentra la variable 'DESC1'.
@@ -1491,6 +1514,23 @@ Error No se encuentra el alias.
  Alias CSRFECCAJA registro          1
 Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
 18-02-2019 14:10:30 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1618,7 +1658,41 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1746,6 +1820,23 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
 
 
@@ -1810,7 +1901,41 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2097,7 +2222,41 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2173,7 +2332,41 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2249,7 +2442,41 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2360,7 +2587,41 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2426,7 +2687,41 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2492,7 +2787,41 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2611,6 +2940,23 @@ Error _TXTHABILITACION es un miembro desconocido.
  Alias CSRCATEIBBA registro          1
 Control activo  ABMCTACTE.CMDSALVAR.CLICK
 18-03-2019 11:43:05 , Linea nº Insert into CsrAuxcabefac (fecha,idtipoiva,idplanpago,switch,copiatkt,vencimien,parada,idlocalidad,idprovincia,idfletero ,idfuerzavta,listaprecio,idrutavdor,idvendedor) value (Csrparadiario.fechafac,3,thisform.lnidplanpago,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2755,4 +3101,115 @@ Error nº:          1
 Error El archivo 'csrmovpub.dbf' no existe.
  Alias  registro          0
 Control activo  REGPUBGASTOS.LOAD
-06-05-2019 11:10:15 , Linea nº GATHER NAME ObjCopiaError nº:       1581Error El campo PENDIENTE no acepta valores NULL. Alias CSRMOVPUB_TEMP registro         -1Control activo  REGPUBGASTOS.ACEPTAR1.CLICK
+06-05-2019 11:10:15 , Linea nº GATHER NAME ObjCopia
+Error nº:       1581
+Error El campo PENDIENTE no acepta valores NULL.
+ Alias CSRMOVPUB_TEMP registro         -1
+Control activo  REGPUBGASTOS.ACEPTAR1.CLICK
+09-05-2019 09:42:59 , Linea nº fecDesde = ttod(.fecha_calendario1.txtfecha.Value)
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias CSRIMPORT2 registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 09:44:20 , Linea nº fecDesde = ttod(this.fecha_calendario1.txtfecha.Value)
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias CSRIMPORT2 registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 10:35:29 , Linea nº SELECT distinct CodProducto, CodCtacte FROM CsrCursor WHERE VAL(codProducto) in (10784) ORDER BY VAL(CodCtacte) INTO CURSOR CsrVenta READWRITE
+Error nº:       1808
+Error SQL: la cláusula ORDER BY no es válida.
+ Alias CSRIMPORT2 registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 10:36:58 , Linea nº SELECT CsrClientes
+Error nº:         13
+Error No se encuentra el alias 'CSRCLIENTES'.
+ Alias CSRCURSOR registro         44
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 10:52:59 , Linea nº IF nCtacte <> nUIlCli
+Error nº:         12
+Error No se encuentra la variable 'NUILCLI'.
+ Alias CSRCURSOR registro      11702
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 10:54:13 , Linea nº OscLinea.codproducto	= OscProducto.idProducto
+Error nº:       1734
+Error No se encuentra la propiedad IDPRODUCTO.
+ Alias CSRCURSOR registro      11703
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 10:55:24 , Linea nº IF RECCOUNT(lcaliasseek)#0
+Error nº:         13
+Error No se encuentra el alias.
+ Alias  registro          0
+Control activo  GENERARIMP_SIGMA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
+09-05-2019 10:56:02 , Linea nº GATHER NAME OscCursor
+Error nº:         12
+Error No se encuentra la variable 'OSCCURSOR'.
+ Alias CSRCURSOR registro      11703
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 10:56:37 , Linea nº IF RECCOUNT(lcaliasseek)#0
+Error nº:         13
+Error No se encuentra el alias.
+ Alias  registro          0
+Control activo  GENERARIMP_SIGMA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
+09-05-2019 10:57:08 , Linea nº SKIP -1
+Error nº:       2082
+Error No se puede actualizar ADODB.Recordset hasta que el cursor, creado mediante el método CursorAdapter.CursorFill, no se asocie a un objeto CursorAdapter.
+ Alias CSRCURSOR registro      11703
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 10:58:10 , Linea nº IF RECCOUNT(lcaliasseek)#0
+Error nº:         13
+Error No se encuentra el alias.
+ Alias  registro          0
+Control activo  GENERARIMP_SIGMA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
+09-05-2019 11:22:08 , Linea nº SELECT distinct CodProducto, CodCtacte,RECNO() FROM CsrImport2 WHERE VAL(codProducto) = &nCodigo INTO CURSOR CsrControl READWRITE
+Error nº:       1231
+Error Falta algún operando.
+ Alias CSRIMPORT2 registro       8724
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 11:54:44 , Linea nº SELECT * FROM CsrCursor ORDER BY VAL(CodCtacte) INTO CURSOR CsrImport2 READWRITE
+Error nº:       1808
+Error SQL: la cláusula ORDER BY no es válida.
+ Alias CSRCURSOR registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 12:09:30 , Linea nº SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE
+Error nº:          1
+Error El archivo 'csrcursor.dbf' no existe.
+ Alias CSRCTACTE registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 12:43:20 , Linea nº SELECT distinct CodProducto, CodCtacte FROM CsrImport2 WHERE VAL(codProducto) = nCodigo ORDER BY VAL(CodCtacte) INTO CURSOR CsrControl READWRITE
+Error nº:       1808
+Error SQL: la cláusula ORDER BY no es válida.
+ Alias CSRVENTAS registro       6805
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 12:57:11 , Linea nº SELECT CsrControl1
+Error nº:         13
+Error No se encuentra el alias 'CSRCONTROL1'.
+ Alias CSRCONTROL registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 12:58:07 , Linea nº SELECT RECNO(),* FROM Control1 INTO CURSOR CsrControl readwrite
+Error nº:          1
+Error El archivo 'control1.dbf' no existe.
+ Alias CSRCONTROL1 registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 13:13:08 , Linea nº nCtacte = VAL(CodCtacte)
+Error nº:         12
+Error No se encuentra la variable 'CODCTACTE'.
+ Alias CSRVENTAS registro        192
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 13:16:31 , Linea nº SELECT CsrAuxiliar
+Error nº:         13
+Error No se encuentra el alias 'CSRAUXILIAR'.
+ Alias CSRVENTAS registro       2653
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 13:20:36 , Linea nº SELECT CsrAuxiliar.* FROM Csrauxiliar UNION all SELECT CsrImport2.* FROM CsrImport2 INTO CURSOR CsrImport2 READWRITE
+Error nº:          1
+Error El archivo 'csrimport2.dbf' no existe.
+ Alias CSRTEMP registro      12044
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 13:32:59 , Linea nº SELECT RECNO(),* FROM CsrControl1 INTO CURSOR CsrControl1 readwrite
+Error nº:          1
+Error El archivo 'csrcontrol1.dbf' no existe.
+ Alias CSRCONTROL registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 13:54:46 , Linea nº BROWSEError nº:         12Error No se encuentra la variable 'NCODIGO'. Alias CSRCLIENTES registro          1Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+09-05-2019 13:56:28 , Linea nº BROWSEError nº:         12Error No se encuentra la variable 'NCODIGO'. Alias CSRCLIENTES registro          1Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
