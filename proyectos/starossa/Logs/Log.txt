@@ -1,23 +1,8 @@
-Error nº:         12
-Error No se encuentra la variable 'CSRVENTAS'.
- Alias CSRVENTAS registro          1
-Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-02-11-2018 11:20:17 , Linea nº REPLACE ALL total WITH 0,totalpb1 WITH 0,totalpb2 WITH 0 FOR estado='1'
-Error nº:         12
-Error No se encuentra la variable 'TOTAL'.
- Alias CSRVENTAS registro          1
-Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-02-11-2018 11:20:58 , Linea nº REPLACE ALL total WITH 0,totalpb1 WITH 0,totalpb2 WITH 0 FOR estado='1'
-Error nº:         12
-Error No se encuentra la variable 'TOTAL'.
- Alias CSRVENTAS registro          1
-Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-02-11-2018 11:27:09 , Linea nº RETURN ALLTRIM(STR(lnValor,lnTam,lnDec))
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
  Alias CSRIMPRIMIR registro         11
 Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-11-2018 11:28:21 , Linea nº replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvari
+
+
 
 
 
@@ -156,6 +141,8 @@ Error No se encuentra la variable 'CANTIDAD'.
  Alias CSRVENTAS registro          1
 Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-11-2018 11:29:11 , Linea nº replace grupo WITH 1, chrfecha WITH CsrVentas.codigo,nomcompro WITH CsrVentas.articulo ,ctacte WITH IIF(CsrVentas.idvariedad=0,'',strtrim(CsrVentas.codvariedad)) ,cnombre WITH IIF(CsrVentas.idvariedad=0,'',CsrVentas.nomvari
+
+
 
 
 
@@ -449,7 +436,11 @@ Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
 
 
 
+
+
  as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5 ,SPACE(13) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(13) as nomrete2,00000000.00 as reten
+
+
 
 
 
@@ -703,7 +694,11 @@ cion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000
 
 
 
+
+
 s nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,SPACE(3) as subnumero,SPACE(15) as numcomp,0000000000 as idvendedor,SPACE(30) as nomvdor,1 as estado,0000000000 as idfleteplanilla ,SPACE(2) as categoria FROM CsrCabefac 
+
+
 
 
 
@@ -1077,12 +1072,16 @@ Control activo TOTAL REGARQUEOVDOR.GRID2.COLUMN2.TEXT1.KEYPRESS
 
 
 
+
+
 havto,nsaldo,0,CsrLeerPago.cnombre,CsrLeerPago.esclase,CsrLeerPago.clase ,CsrLeerPago.cupon,CsrLeerPago.cuota,CsrLeerPago.idvalor)
 Error nº:         12
 Error No se encuentra la variable 'CUPON'.
  Alias CSRLEERPAGO registro          1
 Control activo  REGCTACTEVDOR.CMDPROCESAR.CLICK
 18-12-2018 14:57:15 , Linea nº INSERT INTO CsrAuxPagoAfectado (id,fecha,detalle,numero,vence,importe,afecta,nomvalor,esclase,clase ,cupon,cuota,idvalor) VALUES (CsrLeerPago.id,CsrLeerPago.fecha,CsrLeerPago.entregado,CsrLeerPago.nrocheque ,CsrLeerPago.fec
+
+
 
 
 
@@ -1204,6 +1203,8 @@ Error El subíndice está fuera del intervalo definido.
  Alias _CSRMARCA registro          1
 Control activo  MAIN
 21-12-2018 09:38:22 , Linea nº INSERT INTO CsrImprimir (idrubro,idmarca,fecha,numero,nombre,costov,margen0,coston,PREVTA1V,margen1,PREVTA1N ,PREVTA2V,margen2,PREVTA2N,nomrubro,codalfa) VALUES (CsrCursor.idrubro,CsrCursor.idmarca,CsrCursor.fecha,Csrcursor
+
+
 
 
 
@@ -1485,6 +1486,8 @@ Control activo  LISTAETIQUETA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 srCursor.numrubro,CsrCursor.nomrubro,lcclave,"",lnsugerido,CsrCursor.desc1,CsrCursor.saltopag,"",IIF(ISNULL(CsrCursor.codbarra13),"",CsrCursor.codbarra13))
 Error nº:         12
 Error No se encuentra la variable 'DESC1'.
@@ -1526,6 +1529,8 @@ Error No se encuentra el alias.
  Alias CSRFECCAJA registro          1
 Control activo  REGFACVTAPUB.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.GOTFOCUS
 18-02-2019 14:10:30 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
 
 
 
@@ -1697,7 +1702,11 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
 
 
 
@@ -1869,6 +1878,8 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
 
 
@@ -1955,7 +1966,11 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
 
 
 
@@ -2286,7 +2301,11 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
 
 
 
@@ -2406,7 +2425,11 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
 
 
 
@@ -2526,7 +2549,11 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
 
 
 
@@ -2681,7 +2708,11 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
 
 
 
@@ -2791,7 +2822,11 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
 
 
 
@@ -2901,7 +2936,11 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
 
 
 
@@ -3042,6 +3081,8 @@ Error _TXTHABILITACION es un miembro desconocido.
  Alias CSRCATEIBBA registro          1
 Control activo  ABMCTACTE.CMDSALVAR.CLICK
 18-03-2019 11:43:05 , Linea nº Insert into CsrAuxcabefac (fecha,idtipoiva,idplanpago,switch,copiatkt,vencimien,parada,idlocalidad,idprovincia,idfletero ,idfuerzavta,listaprecio,idrutavdor,idvendedor) value (Csrparadiario.fechafac,3,thisform.lnidplanpago,
+
+
 
 
 
@@ -3348,4 +3389,20 @@ Error nº:         12
 Error No se encuentra la variable 'LCTERMINAL'.
  Alias _CSRSETEOTERMI registro          5
 Control activo  SUBFACSALON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-15-05-2019 15:08:25 , Linea nº Orslista.ActiveConnection = loConnDataSourceError nº:       1429Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Alias  registro          0Control activo  MAIN
+15-05-2019 15:08:25 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+17-05-2019 11:25:14 , Linea nº CASE VARTYPE(&lcclaB)='C'
+Error nº:         13
+Error No se encuentra el alias 'CSRCTACTE'.
+ Alias CSRBLOQUEOUSER registro          1
+Control activo  ABMASOCIADO.INIT
+17-05-2019 11:42:16 , Linea nº Gather name oCsrCsrAsociado
+Error nº:         12
+Error No se encuentra la variable 'OCSRCSRASOCIADO'.
+ Alias CSRASOCIADO registro         -1
+Control activo  ABMASOCIADO.CMDAGREGAR.CLICK
+17-05-2019 11:44:12 , Linea nº lcCodigo = ALLTRIM(CsrCtacte.cnumero)Error nº:         13Error No se encuentra el alias 'CSRCTACTE'. Alias CSRASOCIADO registro          1Control activo  ABMASOCIADO.CMDSALVAR.CLICK
+17-05-2019 11:44:47 , Linea nº where cnumero = '<<lcCodigo>>' and id <> <<CsrCtacte.id>>Error nº:         13Error No se encuentra el alias 'CSRCTACTE'. Alias CSRASOCIADO registro          1Control activo  ABMASOCIADO.CMDSALVAR.CLICK
