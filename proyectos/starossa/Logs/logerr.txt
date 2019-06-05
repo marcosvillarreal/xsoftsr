@@ -1,574 +1,3 @@
-09-05-2019 10:56:40 , En el Fuente: this.Parent.refrescardato("")
-09-05-2019 10:56:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:56:40 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.refrescardato
-09-05-2019 10:56:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:56:41 , Nº de Linea :         18
-09-05-2019 10:56:41 , En el Fuente: This.traerdatos(.t.,lccmd) 
-09-05-2019 10:56:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:56:41 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.traerdatos
-09-05-2019 10:56:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:56:41 , Nº de Linea :         32
-09-05-2019 10:56:42 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
-09-05-2019 10:57:08 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se puede actualizar ADODB.Recordset hasta que el cursor, creado mediante el método CursorAdapter.CursorFill, no se asocie a un objeto CursorAdapter.;Linea : SKIP -1;E
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-rror :       2082;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:      11703 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP505CR.TMP;Ultimo Control activo: 
-09-05-2019 10:57:09 , Pila de llamadas
-09-05-2019 10:57:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:57:09 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
-09-05-2019 10:57:09 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:57:09 , Nº de Linea :          8
-09-05-2019 10:57:10 , En el Fuente: 	llOK=thisform.CrearInforme()
-09-05-2019 10:57:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 10:57:10 , Objeto      : generarimp_sigma.crearinforme
-09-05-2019 10:57:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 10:57:10 , Nº de Linea :         16
-09-05-2019 10:57:10 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
-09-05-2019 10:57:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 10:57:11 , Objeto      : generarimp_sigma.generar
-09-05-2019 10:57:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 10:57:12 , Nº de Linea :         16
-09-05-2019 10:57:12 , En el Fuente: 			_existe = .leerCabefac()
-09-05-2019 10:57:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 10:57:12 , Objeto      : generarimp_sigma.leercabefac
-09-05-2019 10:57:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 10:57:13 , Nº de Linea :         58
-09-05-2019 10:57:13 , En el Fuente: thisform.objetivos()
-09-05-2019 10:57:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 10:57:14 , Objeto      : generarimp_sigma.objetivos
-09-05-2019 10:57:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 10:57:14 , Nº de Linea :         73
-09-05-2019 10:57:14 , En el Fuente: 					SKIP -1
-09-05-2019 10:58:11 , GENERARIMP_SIGMA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-09-05-2019 10:58:11 , Pila de llamadas
-09-05-2019 10:58:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:58:11 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.txtexiste1.init
-09-05-2019 10:58:11 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:58:11 , Nº de Linea :          1
-09-05-2019 10:58:12 , En el Fuente: this.Parent.refrescardato("")
-09-05-2019 10:58:12 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:58:12 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.refrescardato
-09-05-2019 10:58:12 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:58:13 , Nº de Linea :         18
-09-05-2019 10:58:13 , En el Fuente: This.traerdatos(.t.,lccmd) 
-09-05-2019 10:58:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:58:13 , Objeto      : generarimp_sigma.kitbuscaoaltaenctacte.traerdatos
-09-05-2019 10:58:14 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 10:58:14 , Nº de Linea :         32
-09-05-2019 10:58:14 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
-09-05-2019 11:22:08 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Falta algún operando.;Linea : SELECT distinct CodProducto, CodCtacte,RECNO() FROM CsrImport2 WHERE VAL(codProducto) = &nCodigo INTO CURSOR CsrControl READWRITE;Error :  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     1231;Ultimo Alias Activo: CSRIMPORT2;Ultimo registro:       8724 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP5062J.TMP;Ultimo Control activo: 
-09-05-2019 11:22:08 , Pila de llamadas
-09-05-2019 11:22:08 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 11:22:08 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
-09-05-2019 11:22:08 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 11:22:08 , Nº de Linea :          8
-09-05-2019 11:22:09 , En el Fuente: 	llOK=thisform.CrearInforme()
-09-05-2019 11:22:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 11:22:09 , Objeto      : generarimp_sigma.crearinforme
-09-05-2019 11:22:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 11:22:10 , Nº de Linea :         16
-09-05-2019 11:22:10 , En el Fuente: 	.generar('Cabefac','Ventas','.t.',lcCodEmpresa+'sal'+lcfecha+'.TXT')
-09-05-2019 11:22:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 11:22:11 , Objeto      : generarimp_sigma.generar
-09-05-2019 11:22:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 11:22:11 , Nº de Linea :         16
-09-05-2019 11:22:11 , En el Fuente: 			_existe = .leerCabefac()
-09-05-2019 11:22:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 11:22:11 , Objeto      : generarimp_sigma.leercabefac
-09-05-2019 11:22:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 11:22:12 , Nº de Linea :         58
-09-05-2019 11:22:12 , En el Fuente: thisform.objetivos()
-09-05-2019 11:22:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 11:22:12 , Objeto      : generarimp_sigma.objetivos
-09-05-2019 11:22:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-09-05-2019 11:22:13 , Nº de Linea :         74
-09-05-2019 11:22:13 , En el Fuente: 				SELECT distinct CodProducto, CodCtacte,RECNO()				FROM CsrImport2 WHERE VAL(codProducto) = &nCodigo INTO CURSOR CsrControl READWRITE
-09-05-2019 11:54:45 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: la cláusula ORDER BY no es válida.;Linea : SELECT * FROM CsrCursor ORDER BY VAL(CodCtacte) INTO CURSOR CsrImport2 READWRITE;Error :       1808;Ultimo Alias Activo: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP507PM.TMP;Ultimo Control activo: 
-09-05-2019 11:54:45 , Pila de llamadas
-09-05-2019 11:54:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 11:54:46 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
-09-05-2019 11:54:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-09-05-2019 11:54:46 , Nº de Linea :          8
-09-05-2019 11:54:46 , En el Fuente: 	llOK=thisform.CrearInforme()
 09-05-2019 11:54:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
 09-05-2019 11:54:46 , Objeto      : generarimp_sigma.crearinforme
 09-05-2019 11:54:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
@@ -585,6 +14,28 @@ CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00
 09-05-2019 11:54:48 , Nº de Linea :         56
 09-05-2019 11:54:49 , En el Fuente: SELECT * FROM CsrCursor ORDER BY VAL(CodCtacte) INTO CURSOR CsrImport2 READWRITE 
 09-05-2019 12:09:31 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE;Error :          1;Ultimo Alias Activo: CSRCTACTE;Ultim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -892,6 +343,28 @@ o registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP507WU.TMP;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 OR CsrControl READWRITE;Error :       1808;Ultimo Alias Activo: CSRVENTAS;Ultimo registro:       6805 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP5091Y.TMP;Ultimo Control activo: 
 09-05-2019 12:43:21 , Pila de llamadas
 09-05-2019 12:43:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -925,6 +398,28 @@ OR CsrControl READWRITE;Error :       1808;Ultimo Alias Activo: CSRVENTAS;Ultimo
 09-05-2019 12:43:26 , Nº de Linea :         65
 09-05-2019 12:43:26 , En el Fuente: 			SELECT distinct CodProducto, CodCtacte			FROM CsrImport2 WHERE VAL(codProducto) = nCodigo ORDER BY VAL(CodCtacte) INTO CURSOR CsrControl READWRITE
 09-05-2019 12:57:12 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCONTROL1'.;Linea : SELECT CsrControl1;Error :         13;Ultimo Alias Activo: CSRCONTROL;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\AP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1212,6 +707,28 @@ PDATA\LOCAL\TEMP\00009KP50A0M.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP50A2Y.TMP;Ultimo Control activo: 
 09-05-2019 12:58:08 , Pila de llamadas
 09-05-2019 12:58:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1245,6 +762,28 @@ egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP50A2Y.TMP;Ult
 09-05-2019 12:58:14 , Nº de Linea :         74
 09-05-2019 12:58:14 , En el Fuente: 			SELECT RECNO(),* FROM Control1 INTO CURSOR CsrControl readwrite 
 09-05-2019 13:13:09 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CODCTACTE'.;Linea : nCtacte = VAL(CodCtacte);Error :         12;Ultimo Alias Activo: CSRVENTAS;Ultimo registro:        192 ;DBF: C:\USERS\AD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1497,6 +1036,28 @@ MIN\APPDATA\LOCAL\TEMP\00009KP50AY0.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DATA\LOCAL\TEMP\00009KP50B6B.TMP;Ultimo Control activo: 
 09-05-2019 13:16:32 , Pila de llamadas
 09-05-2019 13:16:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1530,6 +1091,28 @@ DATA\LOCAL\TEMP\00009KP50B6B.TMP;Ultimo Control activo:
 09-05-2019 13:16:37 , Nº de Linea :         70
 09-05-2019 13:16:37 , En el Fuente: 			SELECT CsrAuxiliar
 09-05-2019 13:20:36 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrimport2.dbf' no existe.;Linea : SELECT CsrAuxiliar.* FROM Csrauxiliar UNION all SELECT CsrImport2.* FROM CsrImport2 INTO CURSOR CsrImport2 READWRITE;Error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1751,6 +1334,28 @@ DATA\LOCAL\TEMP\00009KP50B6B.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP50BSS.TMP;Ultimo Control activo: 
 09-05-2019 13:33:00 , Pila de llamadas
 09-05-2019 13:33:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1784,6 +1389,28 @@ timo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009KP50BSS.T
 09-05-2019 13:33:06 , Nº de Linea :         77
 09-05-2019 13:33:06 , En el Fuente: 			SELECT RECNO(),* FROM CsrControl1 INTO CURSOR CsrControl1 readwrite 
 09-05-2019 13:54:47 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'NCODIGO'.;Linea : BROWSE;Error :         12;Ultimo Alias Activo: CSRCLIENTES;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1974,6 +1601,28 @@ TEMP\00009KP50C0M.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\00009KP50C2B.TMP;Ultimo Control activo: 
 09-05-2019 13:56:28 , Pila de llamadas
 09-05-2019 13:56:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2012,6 +1661,28 @@ TEMP\00009KP50C2B.TMP;Ultimo Control activo:
 09-05-2019 13:56:34 , Nº de Linea :        540
 09-05-2019 13:56:34 , En el Fuente: 		BROWSE 
 15-05-2019 14:37:56 , SUBFACSALON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: KITGRILLATILDARFLETERO es un miembro desconocido.;Linea : lcfletero = thisform.pageframe1.page1.kitgrillatildarfletero.cadenaelegidos();Error :       1925;Ultimo Alias Activo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2146,6 +1817,28 @@ TEMP\00009KP50C2B.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo: 
 15-05-2019 14:42:39 , Pila de llamadas
 15-05-2019 14:42:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2159,6 +1852,28 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 15-05-2019 14:42:42 , Nº de Linea :         62
 15-05-2019 14:42:42 , En el Fuente: if !EMPTY(thisform._txtletra.Value)
 15-05-2019 14:43:25 , SUBFACSALON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcuerpo.dbf' no existe.;Linea : SELECT Csrcuerpo.*,RIGHT(DTOS(TTOD(fecha)),2)+"-"+SUBSTR(DTOS(TTOD(fecha)),5,2)+"-"+LEFT(DTOS(TTOD(fecha)),4) as chrfecha ,CAST(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2278,6 +1993,28 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00KR.TMP;Ultimo Control activo: 
 15-05-2019 14:45:18 , Pila de llamadas
 15-05-2019 14:45:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2291,6 +2028,28 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 15-05-2019 14:45:20 , Nº de Linea :          7
 15-05-2019 14:45:20 , En el Fuente: lcidterminal = STRTRAN(lcterminal," ","")
 15-05-2019 15:08:25 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2401,6 +2160,28 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .TMP;Ultimo Control activo: 
 17-05-2019 11:25:16 , Pila de llamadas
 17-05-2019 11:25:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
@@ -2419,6 +2200,28 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 17-05-2019 11:25:19 , Nº de Linea :         45
 17-05-2019 11:25:19 , En el Fuente:                CASE VARTYPE(&lcclaB)='C'                
 17-05-2019 11:42:16 , ABMASOCIADO.CMDAGREGAR.CLICK, Error: No se encuentra la variable 'OCSRCSRASOCIADO'.;Linea : Gather name oCsrCsrAsociado;Error :         12;Ultimo Alias Activo: CSRASOCIADO;Ultimo registro:         -1 ;DBF: C:\USERS\ADMIN\APPDATA\LOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2507,6 +2310,28 @@ AL\TEMP\0000BUA1008E.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 AL\TEMP\0000BUA100B7.TMP;Ultimo Control activo: 
 17-05-2019 11:44:13 , Pila de llamadas
 17-05-2019 11:44:14 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -2525,6 +2350,28 @@ AL\TEMP\0000BUA100B7.TMP;Ultimo Control activo:
 17-05-2019 11:44:16 , Nº de Linea :          9
 17-05-2019 11:44:16 , En el Fuente: 	lcCodigo = ALLTRIM(CsrCtacte.cnumero)
 17-05-2019 11:44:47 , ABMASOCIADO.CMDSALVAR.CLICK, Error: No se encuentra el alias 'CSRCTACTE'.;Linea : where cnumero = '<<lcCodigo>>' and id <> <<CsrCtacte.id>>;Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ultimo registro:          1 ;DBF: C:\USE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2602,6 +2449,28 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\0000BUA100C5.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IN\APPDATA\LOCAL\TEMP\0000A51L015E.TMP;Ultimo Control activo: IDCONCEPTO
 20-05-2019 11:18:03 , Pila de llamadas
 20-05-2019 11:18:03 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2615,6 +2484,28 @@ IN\APPDATA\LOCAL\TEMP\0000A51L015E.TMP;Ultimo Control activo: IDCONCEPTO
 20-05-2019 11:18:05 , Nº de Linea :          7
 20-05-2019 11:18:05 , En el Fuente: 		IF CsrConcepto.tipoaju = 2
 20-05-2019 11:18:12 , REGSTOCK.CONTAINERENCABEZA._CBOCONCEPTO.LOSTFOCUS, Error: No se encuentra la variable 'TIPOAJU'.;Linea : IF CsrConcepto.tipoaju = 2;Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         29 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2672,6 +2563,28 @@ IN\APPDATA\LOCAL\TEMP\0000A51L018S.TMP;Ultimo Control activo: IDCONCEPTO
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 OCAL\TEMP\0000A51L02TE.TMP;Ultimo Control activo: 
 20-05-19 12:42:41 , Pila de llamadas
 20-05-19 12:42:42 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2689,6 +2602,28 @@ OCAL\TEMP\0000A51L02TE.TMP;Ultimo Control activo:
 23-05-2019 13:23:13 , ON..., Error: Error de sintaxis.;Linea : ;Error :         10;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 23-05-2019 13:23:13 , Pila de llamadas
 23-05-2019 14:43:31 , ABMPROMOCION.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT, Error: No se encuentra el alias 'CSRCABEPROMO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: CSRPRODUC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2743,6 +2678,28 @@ TO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A9S90
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ADMIN\APPDATA\LOCAL\TEMP\0000CAH500SJ.TMP;Ultimo Control activo: TOPEOFIPROD
 24-05-2019 13:47:43 , Pila de llamadas
 24-05-2019 13:47:44 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -2761,6 +2718,28 @@ ADMIN\APPDATA\LOCAL\TEMP\0000CAH500SJ.TMP;Ultimo Control activo: TOPEOFIPROD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 imo Alias Activo: CSRCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000CAH500RN.TMP;Ultimo Control activo: TOPEOFIPROD
 24-05-2019 13:47:51 , Pila de llamadas
 24-05-2019 13:47:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmpromocion.sct
@@ -2769,6 +2748,28 @@ imo Alias Activo: CSRCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
 24-05-2019 13:47:52 , Nº de Linea :          2
 24-05-2019 13:47:52 , En el Fuente: this.Parent.lbltope.Caption = '= '+strtrim(CsrCtacte.porceofi+this.Value,11,2)
 30-05-2019 10:02:15 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2789,3 +2790,150 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 30-05-2019 10:02:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
 30-05-2019 10:02:18 , Nº de Linea :       1873
 30-05-2019 10:02:18 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
+05-06-2019 14:55:07 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: ESTADOCTA
+05-06-2019 14:55:07 , Pila de llamadas
+05-06-2019 14:55:07 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:07 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
+05-06-2019 14:55:07 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:07 , Nº de Linea :         25
+05-06-2019 14:55:08 , En el Fuente: this.lostfocosay()
+05-06-2019 14:55:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:08 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
+05-06-2019 14:55:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:09 , Nº de Linea :          3
+05-06-2019 14:55:09 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
+05-06-2019 14:55:18 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: ESTADOCTA
+05-06-2019 14:55:18 , Pila de llamadas
+05-06-2019 14:55:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:19 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
+05-06-2019 14:55:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:19 , Nº de Linea :         25
+05-06-2019 14:55:20 , En el Fuente: this.lostfocosay()
+05-06-2019 14:55:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:20 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
+05-06-2019 14:55:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:21 , Nº de Linea :          3
+05-06-2019 14:55:21 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
+05-06-2019 14:55:26 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
+
+
+
+
+
+
+
+
+
+
+
+
+
+mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: 
+05-06-2019 14:55:26 , Pila de llamadas
+05-06-2019 14:55:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:27 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
+05-06-2019 14:55:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:27 , Nº de Linea :         25
+05-06-2019 14:55:27 , En el Fuente: this.lostfocosay()
+05-06-2019 14:55:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:28 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
+05-06-2019 14:55:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:29 , Nº de Linea :          3
+05-06-2019 14:55:29 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
+05-06-2019 14:55:37 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
+
+
+
+
+
+
+
+
+
+
+mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: 
+05-06-2019 14:55:37 , Pila de llamadas
+05-06-2019 14:55:38 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:38 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
+05-06-2019 14:55:38 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:38 , Nº de Linea :         25
+05-06-2019 14:55:38 , En el Fuente: this.lostfocosay()
+05-06-2019 14:55:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:38 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
+05-06-2019 14:55:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:39 , Nº de Linea :          3
+05-06-2019 14:55:39 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
+05-06-2019 14:55:54 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
+
+
+
+
+
+
+mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: 
+05-06-2019 14:55:55 , Pila de llamadas
+05-06-2019 14:55:56 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:56 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
+05-06-2019 14:55:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:55:56 , Nº de Linea :         25
+05-06-2019 14:55:57 , En el Fuente: this.lostfocosay()
+05-06-2019 14:55:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:57 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
+05-06-2019 14:55:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:55:57 , Nº de Linea :          3
+05-06-2019 14:55:57 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
+05-06-2019 14:56:01 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
+
+
+mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: 
+05-06-2019 14:56:02 , Pila de llamadas
+05-06-2019 14:56:03 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:56:03 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
+05-06-2019 14:56:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+05-06-2019 14:56:04 , Nº de Linea :         25
+05-06-2019 14:56:04 , En el Fuente: this.lostfocosay()
+05-06-2019 14:56:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:56:04 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
+05-06-2019 14:56:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
+05-06-2019 14:56:04 , Nº de Linea :          3
+05-06-2019 14:56:04 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
