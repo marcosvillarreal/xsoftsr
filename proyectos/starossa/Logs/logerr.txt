@@ -1,6 +1,4 @@
-09-05-2019 13:56:34 , Nº de Linea :        540
-09-05-2019 13:56:34 , En el Fuente: 		BROWSE 
-15-05-2019 14:37:56 , SUBFACSALON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: KITGRILLATILDARFLETERO es un miembro desconocido.;Linea : lcfletero = thisform.pageframe1.page1.kitgrillatildarfletero.cadenaelegidos();Error :       1925;Ultimo Alias Activo
+07-06-2019 12:02:55 , REGFACVTAPUB.KEYPRESS, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : IF VAL(this.Value)=0 AND LEN(ALLTRIM((this.value)))>0;Error :         11;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:  
 
 
 
@@ -164,19 +162,6 @@
 
 
 
-: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-15-05-2019 14:37:56 , Pila de llamadas
-15-05-2019 14:37:57 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-15-05-2019 14:37:57 , Objeto      : subfacsalon.imprimir_vistaprevia1.impresora.click
-15-05-2019 14:37:57 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-15-05-2019 14:37:57 , Nº de Linea :          8
-15-05-2019 14:37:57 , En el Fuente: 	llOK=thisform.CrearInforme()
-15-05-2019 14:37:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\subfacsalon.sct
-15-05-2019 14:37:57 , Objeto      : subfacsalon.crearinforme
-15-05-2019 14:37:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\subfacsalon.sct
-15-05-2019 14:37:57 , Nº de Linea :          6
-15-05-2019 14:37:58 , En el Fuente: lcfletero = thisform.pageframe1.page1.kitgrillatildarfletero.cadenaelegidos()
-15-05-2019 14:42:39 , SUBFACSALON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: _TXTLETRA es un miembro desconocido.;Linea : if !EMPTY(thisform._txtletra.Value);Error :       1925;Ultimo Alias Activo: _CSRCOMPROBANTE;Ultimo registro:         10 CNUMERO;D
 
 
 
@@ -190,6 +175,29 @@
 
 
 
+        1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000455500NE.TMP;Ultimo Control activo: PARADA
+07-06-2019 12:02:55 , Pila de llamadas
+07-06-2019 12:02:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:02:56 , Objeto      : regfacvtapub.keypress
+07-06-2019 12:02:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:02:56 , Nº de Linea :         36
+07-06-2019 12:02:56 , En el Fuente:         .k_escape()
+07-06-2019 12:02:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:02:57 , Objeto      : regfacvtapub.k_escape
+07-06-2019 12:02:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:02:57 , Nº de Linea :         22
+07-06-2019 12:02:57 , En el Fuente: 	   		.grid2_procesolinea(27)      
+07-06-2019 12:02:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:02:57 , Objeto      : regfacvtapub.grid2_procesolinea
+07-06-2019 12:02:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:02:58 , Nº de Linea :         65
+07-06-2019 12:02:58 , En el Fuente: 	thisform.containerencabeza._txtparada.SetFocus()  
+07-06-2019 12:02:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:02:59 , Objeto      : regfacvtapub.grid2.column10.text1.valid
+07-06-2019 12:02:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:02:59 , Nº de Linea :          4
+07-06-2019 12:02:59 , En el Fuente: IF VAL(this.Value)=0 AND LEN(ALLTRIM((this.value)))>0
+07-06-2019 12:03:59 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -337,19 +345,6 @@
 
 
 
-BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo: 
-15-05-2019 14:42:39 , Pila de llamadas
-15-05-2019 14:42:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-15-05-2019 14:42:40 , Objeto      : subfacsalon.imprimir_vistaprevia1.impresora.click
-15-05-2019 14:42:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-15-05-2019 14:42:40 , Nº de Linea :          8
-15-05-2019 14:42:40 , En el Fuente: 	llOK=thisform.CrearInforme()
-15-05-2019 14:42:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\subfacsalon.sct
-15-05-2019 14:42:41 , Objeto      : subfacsalon.crearinforme
-15-05-2019 14:42:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\subfacsalon.sct
-15-05-2019 14:42:42 , Nº de Linea :         62
-15-05-2019 14:42:42 , En el Fuente: if !EMPTY(thisform._txtletra.Value)
-15-05-2019 14:43:25 , SUBFACSALON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcuerpo.dbf' no existe.;Linea : SELECT Csrcuerpo.*,RIGHT(DTOS(TTOD(fecha)),2)+"-"+SUBSTR(DTOS(TTOD(fecha)),5,2)+"-"+LEFT(DTOS(TTOD(fecha)),4) as chrfecha ,CAST(
 
 
 
@@ -372,6 +367,24 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000455500Y9.TMP;Ultimo Control activo: 
+07-06-2019 12:03:59 , Pila de llamadas
+07-06-2019 12:04:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:00 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:04:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:00 , Nº de Linea :          2
+07-06-2019 12:04:01 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:04:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:01 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:04:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:01 , Nº de Linea :         55
+07-06-2019 12:04:02 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:04:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:02 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:04:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:02 , Nº de Linea :          4
+07-06-2019 12:04:03 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:04:20 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource='';Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:       
 
 
 
@@ -506,19 +519,6 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 
 
 
-1 as int) as cantcomp from CsrCuerpo INTO CURSOR csrimprimir READWRITE;Error :          1;Ultimo Alias Activo: _CSRCOMPROBANTE;Ultimo registro:         10 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00JF.TMP;Ultimo Control activo: 
-15-05-2019 14:43:26 , Pila de llamadas
-15-05-2019 14:43:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-15-05-2019 14:43:27 , Objeto      : subfacsalon.imprimir_vistaprevia1.impresora.click
-15-05-2019 14:43:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-15-05-2019 14:43:27 , Nº de Linea :          8
-15-05-2019 14:43:28 , En el Fuente: 	llOK=thisform.CrearInforme()
-15-05-2019 14:43:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\subfacsalon.sct
-15-05-2019 14:43:28 , Objeto      : subfacsalon.crearinforme
-15-05-2019 14:43:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\subfacsalon.sct
-15-05-2019 14:43:28 , Nº de Linea :        165
-15-05-2019 14:43:28 , En el Fuente: 			SELECT Csrcuerpo.*,RIGHT(DTOS(TTOD(fecha)),2)+"-"+SUBSTR(DTOS(TTOD(fecha)),5,2)+"-"+LEFT(DTOS(TTOD(fecha)),4) as chrfecha				,CAST(1 as int) as cantcomp from CsrCuerpo INTO CURSOR csrimprimir READWRITE
-15-05-2019 14:45:17 , SUBFACSALON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCTERMINAL'.;Linea : lcidterminal = STRTRAN(lcterminal," ","");Error :         12;Ultimo Alias Activo: _CSRSETEOTERMI;Ultimo registro:          5
 
 
 
@@ -550,6 +550,24 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 
 
 
+   6 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000455500Y9.TMP;Ultimo Control activo: PARADA
+07-06-2019 12:04:20 , Pila de llamadas
+07-06-2019 12:04:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:20 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
+07-06-2019 12:04:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:21 , Nº de Linea :        140
+07-06-2019 12:04:21 , En el Fuente: 		thisform.generarlinea()   && 22=insert
+07-06-2019 12:04:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:22 , Objeto      : regfacvtapub.generarlinea
+07-06-2019 12:04:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:22 , Nº de Linea :         12
+07-06-2019 12:04:23 , En el Fuente:     .bindergridoff('thisform.grid2',@lcalias,@lcCtrlSource,@AcolOdataNavega)
+07-06-2019 12:04:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:23 , Objeto      : regfacvtapub.bindergridoff
+07-06-2019 12:04:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:04:24 , Nº de Linea :         27
+07-06-2019 12:04:24 , En el Fuente:     loObjnavega.RecordSource=''
+07-06-2019 12:05:00 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -671,19 +689,6 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 
 
 
- CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00KR.TMP;Ultimo Control activo: 
-15-05-2019 14:45:18 , Pila de llamadas
-15-05-2019 14:45:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-15-05-2019 14:45:18 , Objeto      : subfacsalon.imprimir_vistaprevia1.impresora.click
-15-05-2019 14:45:18 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-15-05-2019 14:45:18 , Nº de Linea :          8
-15-05-2019 14:45:19 , En el Fuente: 	llOK=thisform.CrearInforme()
-15-05-2019 14:45:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\subfacsalon.sct
-15-05-2019 14:45:19 , Objeto      : subfacsalon.crearinforme
-15-05-2019 14:45:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\subfacsalon.sct
-15-05-2019 14:45:20 , Nº de Linea :          7
-15-05-2019 14:45:20 , En el Fuente: lcidterminal = STRTRAN(lcterminal," ","")
-15-05-2019 15:08:25 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
 
 
 
@@ -722,6 +727,24 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000455501B7.TMP;Ultimo Control activo: 
+07-06-2019 12:05:00 , Pila de llamadas
+07-06-2019 12:05:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:05:01 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:05:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:05:02 , Nº de Linea :          2
+07-06-2019 12:05:02 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:05:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:05:02 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:05:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:05:03 , Nº de Linea :         58
+07-06-2019 12:05:03 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:05:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:05:03 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:05:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:05:04 , Nº de Linea :          4
+07-06-2019 12:05:04 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:06:13 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -833,24 +856,6 @@ BF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009DZD00HZ.TMP;Ultimo Control activo:
 
 
 
-Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-15-05-2019 15:08:25 , Pila de llamadas
-15-05-2019 15:08:26 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-15-05-2019 15:08:26 , Objeto      : main
-15-05-2019 15:08:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-15-05-2019 15:08:26 , Nº de Linea :        224
-15-05-2019 15:08:27 , En el Fuente: 	LeerEmpresa()
-15-05-2019 15:08:27 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-15-05-2019 15:08:27 , Objeto      : leerempresa
-15-05-2019 15:08:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-15-05-2019 15:08:27 , Nº de Linea :       1993
-15-05-2019 15:08:28 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
-15-05-2019 15:08:28 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-15-05-2019 15:08:28 , Objeto      : crearcursoradapter
-15-05-2019 15:08:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-15-05-2019 15:08:28 , Nº de Linea :       1873
-15-05-2019 15:08:28 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
-17-05-2019 11:25:15 , ABMASOCIADO.INIT, Error: No se encuentra el alias 'CSRCTACTE'.;Linea : CASE VARTYPE(&lcclaB)='C';Error :         13;Ultimo Alias Activo: CSRBLOQUEOUSER;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BUA1003Q
 
 
 
@@ -894,6 +899,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000455501KZ.TMP;Ultimo Control activo: 
+07-06-2019 12:06:13 , Pila de llamadas
+07-06-2019 12:06:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:06:14 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:06:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:06:14 , Nº de Linea :          2
+07-06-2019 12:06:15 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:06:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:06:15 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:06:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:06:16 , Nº de Linea :         58
+07-06-2019 12:06:16 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:06:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:06:16 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:06:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:06:16 , Nº de Linea :          4
+07-06-2019 12:06:16 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:07:45 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -996,24 +1019,6 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
-.TMP;Ultimo Control activo: 
-17-05-2019 11:25:16 , Pila de llamadas
-17-05-2019 11:25:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-17-05-2019 11:25:16 , Objeto      : abmasociado.init
-17-05-2019 11:25:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-17-05-2019 11:25:16 , Nº de Linea :          3
-17-05-2019 11:25:17 , En el Fuente: DODEFAULT(tcId,_esmodal)
-17-05-2019 11:25:17 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-17-05-2019 11:25:17 , Objeto      : baseabm.init
-17-05-2019 11:25:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-17-05-2019 11:25:18 , Nº de Linea :         51
-17-05-2019 11:25:18 , En el Fuente:     thisform.armarcombo()                && arma combo antes del setfocus (en el combo)    
-17-05-2019 11:25:18 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-17-05-2019 11:25:19 , Objeto      : abmasociado.armarcombo
-17-05-2019 11:25:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-17-05-2019 11:25:19 , Nº de Linea :         45
-17-05-2019 11:25:19 , En el Fuente:                CASE VARTYPE(&lcclaB)='C'                
-17-05-2019 11:42:16 , ABMASOCIADO.CMDAGREGAR.CLICK, Error: No se encuentra la variable 'OCSRCSRASOCIADO'.;Linea : Gather name oCsrCsrAsociado;Error :         12;Ultimo Alias Activo: CSRASOCIADO;Ultimo registro:         -1 ;DBF: C:\USERS\ADMIN\APPDATA\LOC
 
 
 
@@ -1061,6 +1066,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000455501X1.TMP;Ultimo Control activo: 
+07-06-2019 12:07:45 , Pila de llamadas
+07-06-2019 12:07:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:07:45 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:07:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:07:45 , Nº de Linea :          2
+07-06-2019 12:07:46 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:07:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:07:46 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:07:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:07:46 , Nº de Linea :         58
+07-06-2019 12:07:47 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:07:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:07:47 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:07:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:07:48 , Nº de Linea :          4
+07-06-2019 12:07:48 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:09:12 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -1154,19 +1177,6 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
-AL\TEMP\0000BUA1008E.TMP;Ultimo Control activo: 
-17-05-2019 11:42:16 , Pila de llamadas
-17-05-2019 11:42:16 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:42:16 , Objeto      : abmasociado.cmdagregar.click
-17-05-2019 11:42:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:42:16 , Nº de Linea :         40
-17-05-2019 11:42:17 , En el Fuente: 	.despuesagregar
-17-05-2019 11:42:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-17-05-2019 11:42:17 , Objeto      : abmasociado.despuesagregar
-17-05-2019 11:42:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-17-05-2019 11:42:18 , Nº de Linea :          3
-17-05-2019 11:42:18 , En el Fuente: Gather name oCsrCsrAsociado
-17-05-2019 11:44:13 , ABMASOCIADO.CMDSALVAR.CLICK, Error: No se encuentra el alias 'CSRCTACTE'.;Linea : lcCodigo = ALLTRIM(CsrCtacte.cnumero);Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOC
 
 
 
@@ -1218,6 +1228,24 @@ AL\TEMP\0000BUA1008E.TMP;Ultimo Control activo:
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004555029Z.TMP;Ultimo Control activo: 
+07-06-2019 12:09:13 , Pila de llamadas
+07-06-2019 12:09:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:14 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:09:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:14 , Nº de Linea :          2
+07-06-2019 12:09:14 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:09:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:15 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:09:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:16 , Nº de Linea :         60
+07-06-2019 12:09:16 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:09:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:16 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:09:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:16 , Nº de Linea :          4
+07-06-2019 12:09:16 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:09:25 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource='';Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:       
 
 
 
@@ -1304,24 +1332,6 @@ AL\TEMP\0000BUA1008E.TMP;Ultimo Control activo:
 
 
 
-AL\TEMP\0000BUA100B7.TMP;Ultimo Control activo: 
-17-05-2019 11:44:13 , Pila de llamadas
-17-05-2019 11:44:14 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:44:14 , Objeto      : abmasociado.cmdsalvar.click
-17-05-2019 11:44:14 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:44:14 , Nº de Linea :          9
-17-05-2019 11:44:15 , En el Fuente: 		llok=.salvar()
-17-05-2019 11:44:15 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:44:15 , Objeto      : abmasociado.salvar
-17-05-2019 11:44:15 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:44:15 , Nº de Linea :         19
-17-05-2019 11:44:16 , En el Fuente:    llok=thisform.validar()
-17-05-2019 11:44:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-17-05-2019 11:44:16 , Objeto      : abmasociado.validar
-17-05-2019 11:44:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-17-05-2019 11:44:16 , Nº de Linea :          9
-17-05-2019 11:44:16 , En el Fuente: 	lcCodigo = ALLTRIM(CsrCtacte.cnumero)
-17-05-2019 11:44:47 , ABMASOCIADO.CMDSALVAR.CLICK, Error: No se encuentra el alias 'CSRCTACTE'.;Linea : where cnumero = '<<lcCodigo>>' and id <> <<CsrCtacte.id>>;Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ultimo registro:          1 ;DBF: C:\USE
 
 
 
@@ -1375,6 +1385,24 @@ AL\TEMP\0000BUA100B7.TMP;Ultimo Control activo:
 
 
 
+   6 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004555029Z.TMP;Ultimo Control activo: PARADA
+07-06-2019 12:09:25 , Pila de llamadas
+07-06-2019 12:09:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:25 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
+07-06-2019 12:09:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:26 , Nº de Linea :        140
+07-06-2019 12:09:26 , En el Fuente: 		thisform.generarlinea()   && 22=insert
+07-06-2019 12:09:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:26 , Objeto      : regfacvtapub.generarlinea
+07-06-2019 12:09:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:27 , Nº de Linea :         12
+07-06-2019 12:09:27 , En el Fuente:     .bindergridoff('thisform.grid2',@lcalias,@lcCtrlSource,@AcolOdataNavega)
+07-06-2019 12:09:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:28 , Objeto      : regfacvtapub.bindergridoff
+07-06-2019 12:09:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:28 , Nº de Linea :         27
+07-06-2019 12:09:29 , En el Fuente:     loObjnavega.RecordSource=''
+07-06-2019 12:09:33 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo regis
 
 
 
@@ -1455,24 +1483,6 @@ AL\TEMP\0000BUA100B7.TMP;Ultimo Control activo:
 
 
 
-RS\ADMIN\APPDATA\LOCAL\TEMP\0000BUA100C5.TMP;Ultimo Control activo: 
-17-05-2019 11:44:47 , Pila de llamadas
-17-05-2019 11:44:48 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:44:48 , Objeto      : abmasociado.cmdsalvar.click
-17-05-2019 11:44:48 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:44:48 , Nº de Linea :          9
-17-05-2019 11:44:49 , En el Fuente: 		llok=.salvar()
-17-05-2019 11:44:49 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:44:49 , Objeto      : abmasociado.salvar
-17-05-2019 11:44:49 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-17-05-2019 11:44:50 , Nº de Linea :         19
-17-05-2019 11:44:50 , En el Fuente:    llok=thisform.validar()
-17-05-2019 11:44:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-17-05-2019 11:44:50 , Objeto      : abmasociado.validar
-17-05-2019 11:44:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-17-05-2019 11:44:50 , Nº de Linea :         13
-17-05-2019 11:44:50 , En el Fuente: 		where cnumero = '<<lcCodigo>>' and id <> <<CsrCtacte.id>>
-20-05-2019 11:18:02 , REGSTOCK.CONTAINERENCABEZA._CBOCONCEPTO.LOSTFOCUS, Error: No se encuentra la variable 'TIPOAJU'.;Linea : IF CsrConcepto.tipoaju = 2;Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         29 ;DBF: C:\USERS\ADM
 
 
 
@@ -1527,6 +1537,24 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\0000BUA100C5.TMP;Ultimo Control activo:
 
 
 
+tro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004555029Z.TMP;Ultimo Control activo: 
+07-06-2019 12:09:33 , Pila de llamadas
+07-06-2019 12:09:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:34 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
+07-06-2019 12:09:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:34 , Nº de Linea :        140
+07-06-2019 12:09:35 , En el Fuente: 		thisform.generarlinea()   && 22=insert
+07-06-2019 12:09:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:35 , Objeto      : regfacvtapub.generarlinea
+07-06-2019 12:09:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:36 , Nº de Linea :         44
+07-06-2019 12:09:36 , En el Fuente:     .bindergridon('thisform.grid2',lcalias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:09:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:36 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:09:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:37 , Nº de Linea :          4
+07-06-2019 12:09:37 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:09:40 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: El origen de datos para este objeto debe ser una referencia de variable.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :       1742;Ultimo Alias Activo:
 
 
 
@@ -1601,19 +1629,6 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\0000BUA100C5.TMP;Ultimo Control activo:
 
 
 
-IN\APPDATA\LOCAL\TEMP\0000A51L015E.TMP;Ultimo Control activo: IDCONCEPTO
-20-05-2019 11:18:03 , Pila de llamadas
-20-05-2019 11:18:03 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-20-05-2019 11:18:03 , Objeto      : regstock.containerencabeza._cboconcepto.lostfocus
-20-05-2019 11:18:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-20-05-2019 11:18:03 , Nº de Linea :          4
-20-05-2019 11:18:04 , En el Fuente: this.lostfocosay()
-20-05-2019 11:18:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\regstock_v1.sct
-20-05-2019 11:18:04 , Objeto      : regstock.containerencabeza._cboconcepto.lostfocosay
-20-05-2019 11:18:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\stock\regstock_v1.sct
-20-05-2019 11:18:05 , Nº de Linea :          7
-20-05-2019 11:18:05 , En el Fuente: 		IF CsrConcepto.tipoaju = 2
-20-05-2019 11:18:12 , REGSTOCK.CONTAINERENCABEZA._CBOCONCEPTO.LOSTFOCUS, Error: No se encuentra la variable 'TIPOAJU'.;Linea : IF CsrConcepto.tipoaju = 2;Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         29 ;DBF: C:\USERS\ADM
 
 
 
@@ -1669,6 +1684,24 @@ IN\APPDATA\LOCAL\TEMP\0000A51L015E.TMP;Ultimo Control activo: IDCONCEPTO
 
 
 
+ CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004555029Z.TMP;Ultimo Control activo: 
+07-06-2019 12:09:41 , Pila de llamadas
+07-06-2019 12:09:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:42 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
+07-06-2019 12:09:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:43 , Nº de Linea :        140
+07-06-2019 12:09:43 , En el Fuente: 		thisform.generarlinea()   && 22=insert
+07-06-2019 12:09:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:43 , Objeto      : regfacvtapub.generarlinea
+07-06-2019 12:09:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:43 , Nº de Linea :         44
+07-06-2019 12:09:43 , En el Fuente:     .bindergridon('thisform.grid2',lcalias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:09:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:44 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:09:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:09:44 , Nº de Linea :         13
+07-06-2019 12:09:44 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+07-06-2019 12:11:23 , REGFACVTAPUB.GRID2.COLUMN10.TEXT1.VALID, Error: COLUMN1 es un miembro desconocido.;Linea : lObjetoNro   = &lcnameObjeto;Error :       1925;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\A
 
 
 
@@ -1739,19 +1772,6 @@ IN\APPDATA\LOCAL\TEMP\0000A51L015E.TMP;Ultimo Control activo: IDCONCEPTO
 
 
 
-IN\APPDATA\LOCAL\TEMP\0000A51L018S.TMP;Ultimo Control activo: IDCONCEPTO
-20-05-2019 11:18:12 , Pila de llamadas
-20-05-2019 11:18:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-20-05-2019 11:18:13 , Objeto      : regstock.containerencabeza._cboconcepto.lostfocus
-20-05-2019 11:18:13 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-20-05-2019 11:18:14 , Nº de Linea :          4
-20-05-2019 11:18:14 , En el Fuente: this.lostfocosay()
-20-05-2019 11:18:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\regstock_v1.sct
-20-05-2019 11:18:14 , Objeto      : regstock.containerencabeza._cboconcepto.lostfocosay
-20-05-2019 11:18:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\stock\regstock_v1.sct
-20-05-2019 11:18:14 , Nº de Linea :          7
-20-05-2019 11:18:14 , En el Fuente: 		IF CsrConcepto.tipoaju = 2
-20-05-19 12:42:41 , LISRENFLETE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSTOCK'.;Linea : SELECT CsrCurStock;Error :         13;Ultimo Alias Activo: CSRCURSOR3;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\L
 
 
 
@@ -1806,6 +1826,24 @@ IN\APPDATA\LOCAL\TEMP\0000A51L018S.TMP;Ultimo Control activo: IDCONCEPTO
 
 
 
+PPDATA\LOCAL\TEMP\00006VWP004U.TMP;Ultimo Control activo: CODIGO15
+07-06-2019 12:11:23 , Pila de llamadas
+07-06-2019 12:11:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:11:23 , Objeto      : regfacvtapub.grid2.column10.text1.valid
+07-06-2019 12:11:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:11:23 , Nº de Linea :         23
+07-06-2019 12:11:24 , En el Fuente: 		lok = thisform.kitbuscarProd.fccodbarra_lostfocus((this.Value))
+07-06-2019 12:11:24 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+07-06-2019 12:11:24 , Objeto      : regfacvtapub.kitbuscarprod.fccodbarra_lostfocus
+07-06-2019 12:11:25 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+07-06-2019 12:11:25 , Nº de Linea :          8
+07-06-2019 12:11:25 , En el Fuente: lbfound = this.fc_lostfocus(lnthisvalue) &&CsrProducto.numero (N)
+07-06-2019 12:11:25 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+07-06-2019 12:11:26 , Objeto      : regfacvtapub.kitbuscarprod.fc_lostfocus
+07-06-2019 12:11:26 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+07-06-2019 12:11:26 , Nº de Linea :         20
+07-06-2019 12:11:27 , En el Fuente: lObjetoNro   = &lcnameObjeto
+07-06-2019 12:33:26 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -1873,23 +1911,6 @@ IN\APPDATA\LOCAL\TEMP\0000A51L018S.TMP;Ultimo Control activo: IDCONCEPTO
 
 
 
-OCAL\TEMP\0000A51L02TE.TMP;Ultimo Control activo: 
-20-05-19 12:42:41 , Pila de llamadas
-20-05-19 12:42:42 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-20-05-19 12:42:42 , Objeto      : lisrenflete.imprimir_vistaprevia1.impresora.click
-20-05-19 12:42:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-20-05-19 12:42:42 , Nº de Linea :          8
-20-05-19 12:42:42 , En el Fuente: 	llOK=thisform.CrearInforme()
-20-05-19 12:42:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
-20-05-19 12:42:42 , Objeto      : lisrenflete.crearinforme
-20-05-19 12:42:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
-20-05-19 12:42:43 , Nº de Linea :        482
-20-05-19 12:42:43 , En el Fuente: 	SELECT CsrCurStock
-23-05-2019 13:22:56 , ON..., Error: Error de sintaxis.;Linea : ;Error :         10;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-23-05-2019 13:22:56 , Pila de llamadas
-23-05-2019 13:23:13 , ON..., Error: Error de sintaxis.;Linea : ;Error :         10;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-23-05-2019 13:23:13 , Pila de llamadas
-23-05-2019 14:43:31 , ABMPROMOCION.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT, Error: No se encuentra el alias 'CSRCABEPROMO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: CSRPRODUC
 
 
 
@@ -1942,6 +1963,24 @@ OCAL\TEMP\0000A51L02TE.TMP;Ultimo Control activo:
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006VWP00FO.TMP;Ultimo Control activo: 
+07-06-2019 12:33:26 , Pila de llamadas
+07-06-2019 12:33:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:33:27 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:33:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:33:27 , Nº de Linea :          2
+07-06-2019 12:33:28 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:33:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:33:28 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:33:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:33:28 , Nº de Linea :         60
+07-06-2019 12:33:28 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:33:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:33:29 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:33:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:33:29 , Nº de Linea :          4
+07-06-2019 12:33:30 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:35:38 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -2007,36 +2046,6 @@ OCAL\TEMP\0000A51L02TE.TMP;Ultimo Control activo:
 
 
 
-TO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A9S9012X.TMP;Ultimo Control activo: 
-23-05-2019 14:43:31 , Pila de llamadas
-23-05-2019 14:43:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-23-05-2019 14:43:32 , Objeto      : abmpromocion.contenedor1.pframe1.page1.kitbuscaoaltaenabonificar.txtid.init
-23-05-2019 14:43:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-23-05-2019 14:43:32 , Nº de Linea :          2
-23-05-2019 14:43:32 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
-24-05-2019 13:45:14 , MAIN, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i);Error :         11;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-24-05-2019 13:45:14 , Pila de llamadas
-24-05-2019 13:45:15 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-24-05-2019 13:45:15 , Objeto      : main
-24-05-2019 13:45:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-24-05-2019 13:45:15 , Nº de Linea :        183
-24-05-2019 13:45:16 , En el Fuente: 	 =ObtenerServidor()
-24-05-2019 13:45:16 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-24-05-2019 13:45:16 , Objeto      : obtenerservidor
-24-05-2019 13:45:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-24-05-2019 13:45:16 , Nº de Linea :       1567
-24-05-2019 13:45:16 , En el Fuente: Oagregaobjeto.objconfigbd(@lObjConfig,1)
-24-05-2019 13:45:16 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
-24-05-2019 13:45:16 , Objeto      : agregaobjeto.objconfigbd
-24-05-2019 13:45:17 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
-24-05-2019 13:45:17 , Nº de Linea :         89
-24-05-2019 13:45:17 , En el Fuente: 	    lObjeto.pwdname  = Desencripta2(lObjeto.pwdname, LcLlaveCf)
-24-05-2019 13:45:17 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-24-05-2019 13:45:18 , Objeto      : desencripta2
-24-05-2019 13:45:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-24-05-2019 13:45:18 , Nº de Linea :       1696
-24-05-2019 13:45:18 , En el Fuente:     		lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i)
-24-05-2019 13:47:43 , MAIN, Error: No se encuentra la variable 'PORCEOFI'.;Linea : this.Parent.lbltope.Caption = '= '+strtrim(CsrCtacte.porceofi+this.Value,11,2);Error :         12;Ultimo Alias Activo: CSRTOPES;Ultimo registro:          2 ;DBF: C:\USERS\
 
 
 
@@ -2086,6 +2095,24 @@ TO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A9S90
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006VWP00S2.TMP;Ultimo Control activo: 
+07-06-2019 12:35:38 , Pila de llamadas
+07-06-2019 12:35:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:35:39 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:35:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:35:39 , Nº de Linea :          2
+07-06-2019 12:35:40 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:35:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:35:40 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:35:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:35:41 , Nº de Linea :         60
+07-06-2019 12:35:41 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:35:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:35:42 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:35:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:35:42 , Nº de Linea :          4
+07-06-2019 12:35:42 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:36:31 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -2146,19 +2173,6 @@ TO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A9S90
 
 
 
-ADMIN\APPDATA\LOCAL\TEMP\0000CAH500SJ.TMP;Ultimo Control activo: TOPEOFIPROD
-24-05-2019 13:47:43 , Pila de llamadas
-24-05-2019 13:47:44 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-24-05-2019 13:47:44 , Objeto      : main
-24-05-2019 13:47:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-24-05-2019 13:47:44 , Nº de Linea :        247
-24-05-2019 13:47:44 , En el Fuente: 	Read events   
-24-05-2019 13:47:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmpromocion.sct
-24-05-2019 13:47:45 , Objeto      : abmpromocion.contenedor1.pframe1.page1._txtporceofirprod.interactivechange
-24-05-2019 13:47:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmpromocion.sct
-24-05-2019 13:47:45 , Nº de Linea :          2
-24-05-2019 13:47:45 , En el Fuente: this.Parent.lbltope.Caption = '= '+strtrim(CsrCtacte.porceofi+this.Value,11,2)
-24-05-2019 13:47:51 , ABMPROMOCION.CONTENEDOR1.PFRAME1.PAGE1._TXTPORCEOFIRPROD.INTERACTIVECHANGE, Error: No se encuentra la variable 'PORCEOFI'.;Linea : this.Parent.lbltope.Caption = '= '+strtrim(CsrCtacte.porceofi+this.Value,11,2);Error :         12;Ult
 
 
 
@@ -2208,6 +2222,24 @@ ADMIN\APPDATA\LOCAL\TEMP\0000CAH500SJ.TMP;Ultimo Control activo: TOPEOFIPROD
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006VWP0168.TMP;Ultimo Control activo: 
+07-06-2019 12:36:31 , Pila de llamadas
+07-06-2019 12:36:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:36:32 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:36:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:36:32 , Nº de Linea :          2
+07-06-2019 12:36:32 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:36:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:36:32 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:36:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:36:33 , Nº de Linea :         61
+07-06-2019 12:36:33 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:36:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:36:34 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:36:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:36:35 , Nº de Linea :          4
+07-06-2019 12:36:35 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:37:36 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -2265,14 +2297,6 @@ ADMIN\APPDATA\LOCAL\TEMP\0000CAH500SJ.TMP;Ultimo Control activo: TOPEOFIPROD
 
 
 
-imo Alias Activo: CSRCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000CAH500RN.TMP;Ultimo Control activo: TOPEOFIPROD
-24-05-2019 13:47:51 , Pila de llamadas
-24-05-2019 13:47:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmpromocion.sct
-24-05-2019 13:47:52 , Objeto      : abmpromocion.contenedor1.pframe1.page1._txtporceofirprod.interactivechange
-24-05-2019 13:47:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmpromocion.sct
-24-05-2019 13:47:52 , Nº de Linea :          2
-24-05-2019 13:47:52 , En el Fuente: this.Parent.lbltope.Caption = '= '+strtrim(CsrCtacte.porceofi+this.Value,11,2)
-30-05-2019 10:02:15 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
 
 
 
@@ -2319,6 +2343,24 @@ imo Alias Activo: CSRCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006VWP01L2.TMP;Ultimo Control activo: 
+07-06-2019 12:37:37 , Pila de llamadas
+07-06-2019 12:37:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:37:38 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:37:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:37:38 , Nº de Linea :          2
+07-06-2019 12:37:39 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:37:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:37:39 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:37:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:37:39 , Nº de Linea :         61
+07-06-2019 12:37:39 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:37:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:37:40 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:37:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:37:40 , Nº de Linea :          4
+07-06-2019 12:37:41 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 12:38:17 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -2377,24 +2419,6 @@ imo Alias Activo: CSRCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
 
 
 
-Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-30-05-2019 10:02:15 , Pila de llamadas
-30-05-2019 10:02:16 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-30-05-2019 10:02:16 , Objeto      : main
-30-05-2019 10:02:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-30-05-2019 10:02:16 , Nº de Linea :        224
-30-05-2019 10:02:16 , En el Fuente: 	LeerEmpresa()
-30-05-2019 10:02:16 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-30-05-2019 10:02:17 , Objeto      : leerempresa
-30-05-2019 10:02:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-30-05-2019 10:02:17 , Nº de Linea :       1993
-30-05-2019 10:02:17 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
-30-05-2019 10:02:17 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-30-05-2019 10:02:17 , Objeto      : crearcursoradapter
-30-05-2019 10:02:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-30-05-2019 10:02:18 , Nº de Linea :       1873
-30-05-2019 10:02:18 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
-05-06-2019 14:55:07 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
 
 
 
@@ -2435,6 +2459,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006VWP01V5.TMP;Ultimo Control activo: 
+07-06-2019 12:38:17 , Pila de llamadas
+07-06-2019 12:38:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:38:18 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 12:38:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:38:18 , Nº de Linea :          2
+07-06-2019 12:38:19 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 12:38:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:38:19 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 12:38:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:38:19 , Nº de Linea :         61
+07-06-2019 12:38:20 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 12:38:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:38:20 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 12:38:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
+07-06-2019 12:38:21 , Nº de Linea :          4
+07-06-2019 12:38:21 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+07-06-2019 17:37:38 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -2495,19 +2537,6 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
-mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: ESTADOCTA
-05-06-2019 14:55:07 , Pila de llamadas
-05-06-2019 14:55:07 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:07 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
-05-06-2019 14:55:07 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:07 , Nº de Linea :         25
-05-06-2019 14:55:08 , En el Fuente: this.lostfocosay()
-05-06-2019 14:55:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:08 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
-05-06-2019 14:55:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:09 , Nº de Linea :          3
-05-06-2019 14:55:09 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
-05-06-2019 14:55:18 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
 
 
 
@@ -2540,6 +2569,24 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
+STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006VWP02UC.TMP;Ultimo Control activo: 
+07-06-2019 17:37:38 , Pila de llamadas
+07-06-2019 17:37:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+07-06-2019 17:37:39 , Objeto      : regfacvtapub.cmdrecuperar.click
+07-06-2019 17:37:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+07-06-2019 17:37:40 , Nº de Linea :          2
+07-06-2019 17:37:40 , En el Fuente: 	thisform.loadtemp()
+07-06-2019 17:37:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+07-06-2019 17:37:40 , Objeto      : regfacvtapub.loadtemp
+07-06-2019 17:37:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+07-06-2019 17:37:41 , Nº de Linea :         55
+07-06-2019 17:37:41 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
+07-06-2019 17:37:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+07-06-2019 17:37:41 , Objeto      : regfacvtapub.bindergridon
+07-06-2019 17:37:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
+07-06-2019 17:37:42 , Nº de Linea :          4
+07-06-2019 17:37:42 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
+10-06-2019 12:39:15 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad DETALLACLIENTE.;Linea : .detallacliente	= .chkbox_cliente.Value;Error :       1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ul
 
 
 
@@ -2604,19 +2651,6 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
-mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: ESTADOCTA
-05-06-2019 14:55:18 , Pila de llamadas
-05-06-2019 14:55:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:19 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
-05-06-2019 14:55:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:19 , Nº de Linea :         25
-05-06-2019 14:55:20 , En el Fuente: this.lostfocosay()
-05-06-2019 14:55:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:20 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
-05-06-2019 14:55:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:21 , Nº de Linea :          3
-05-06-2019 14:55:21 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
-05-06-2019 14:55:26 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
 
 
 
@@ -2639,6 +2673,19 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
+timo Control activo: 
+10-06-2019 12:39:15 , Pila de llamadas
+10-06-2019 12:39:16 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:39:16 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:39:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:39:16 , Nº de Linea :          8
+10-06-2019 12:39:16 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:39:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:39:16 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:39:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:39:17 , Nº de Linea :          5
+10-06-2019 12:39:17 , En el Fuente: 	.detallacliente	= .chkbox_cliente.Value
+10-06-2019 12:40:10 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: CHKBOX_FLETEROS es un miembro desconocido.;Linea : .detallafletero	= .chkbox_fleteros.Value;Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ult
 
 
 
@@ -2709,19 +2756,6 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
-mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: 
-05-06-2019 14:55:26 , Pila de llamadas
-05-06-2019 14:55:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:27 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
-05-06-2019 14:55:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:27 , Nº de Linea :         25
-05-06-2019 14:55:27 , En el Fuente: this.lostfocosay()
-05-06-2019 14:55:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:28 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
-05-06-2019 14:55:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:29 , Nº de Linea :          3
-05-06-2019 14:55:29 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
-05-06-2019 14:55:37 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
 
 
 
@@ -2734,6 +2768,31 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
+imo Control activo: 
+10-06-2019 12:40:10 , Pila de llamadas
+10-06-2019 12:40:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:40:11 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:40:11 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:40:11 , Nº de Linea :          8
+10-06-2019 12:40:11 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:40:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:40:11 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:40:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:40:12 , Nº de Linea :          9
+10-06-2019 12:40:12 , En el Fuente: 	.detallafletero	= .chkbox_fleteros.Value
+10-06-2019 12:40:59 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad GENERARCURSOR.;Linea : .generarcursor();Error :       1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+10-06-2019 12:40:59 , Pila de llamadas
+10-06-2019 12:41:00 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:41:00 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:41:00 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:41:00 , Nº de Linea :          8
+10-06-2019 12:41:00 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:41:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:41:00 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:41:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:41:00 , Nº de Linea :         14
+10-06-2019 12:41:01 , En el Fuente: 	.generarcursor()
+10-06-2019 12:41:30 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: FECHA_CALENDARIO1 es un miembro desconocido.;Linea : lcfecha1 = "'"+dtos(this.fecha_calendario1.txtfecha.Value)+"'";Error :       1925;Ultimo Alias Activo: ;Ultimo registr
 
 
 
@@ -2810,20 +2869,25 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
+o:          0 ;DBF: ;Ultimo Control activo: 
+10-06-2019 12:41:30 , Pila de llamadas
+10-06-2019 12:41:31 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:41:31 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:41:31 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:41:32 , Nº de Linea :          8
+10-06-2019 12:41:32 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:41:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:41:32 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:41:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:41:32 , Nº de Linea :         14
+10-06-2019 12:41:32 , En el Fuente: 	.armarsql()
+10-06-2019 12:41:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:41:33 , Objeto      : ventasporfecha.armarsql
+10-06-2019 12:41:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:41:33 , Nº de Linea :          3
+10-06-2019 12:41:34 , En el Fuente: lcfecha1 = "'"+dtos(this.fecha_calendario1.txtfecha.Value)+"'"   
+10-06-2019 12:41:52 , VENTASPORFECHA.INIT, Error: FECHA_CALENDARIO3 es un miembro desconocido.;Linea : .fecha_calendario3.txtfecha.value  = DATE();Error :       1925;Ultimo Alias Activo: _CSRCATEASOCIADO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\
 
-mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: 
-05-06-2019 14:55:37 , Pila de llamadas
-05-06-2019 14:55:38 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:38 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
-05-06-2019 14:55:38 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:38 , Nº de Linea :         25
-05-06-2019 14:55:38 , En el Fuente: this.lostfocosay()
-05-06-2019 14:55:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:38 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
-05-06-2019 14:55:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:39 , Nº de Linea :          3
-05-06-2019 14:55:39 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
-05-06-2019 14:55:54 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
 
 
 
@@ -2894,6 +2958,14 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
+ADMIN\APPDATA\LOCAL\TEMP\0000B0ND00ZF.TMP;Ultimo Control activo: 
+10-06-2019 12:41:52 , Pila de llamadas
+10-06-2019 12:41:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:41:53 , Objeto      : ventasporfecha.init
+10-06-2019 12:41:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:41:53 , Nº de Linea :          8
+10-06-2019 12:41:54 , En el Fuente:      .fecha_calendario3.txtfecha.value  = DATE()
+10-06-2019 12:42:14 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: FECHA_CALENDARIO4 es un miembro desconocido.;Linea : lcfecha2 = "'"+DTOS(this.fecha_calendario4.txtfecha.Value+1)+"'";Error :       1925;Ultimo Alias Activo: ;Ultimo regis
 
 
 
@@ -2909,19 +2981,6 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
-mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: 
-05-06-2019 14:55:55 , Pila de llamadas
-05-06-2019 14:55:56 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:56 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
-05-06-2019 14:55:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:55:56 , Nº de Linea :         25
-05-06-2019 14:55:57 , En el Fuente: this.lostfocosay()
-05-06-2019 14:55:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:57 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
-05-06-2019 14:55:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:55:57 , Nº de Linea :          3
-05-06-2019 14:55:57 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
-05-06-2019 14:56:01 , ABMASOCIADO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENCATEGORIA.LOSTFOCUS, Error: No se encuentra el alias 'CSRSECTORVTA'.;Linea : =ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-");Error :         13;Ultimo Alias Activo: CSRASOCIADO;Ulti
 
 
 
@@ -2976,6 +3035,24 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
+tro:          0 ;DBF: ;Ultimo Control activo: 
+10-06-2019 12:42:14 , Pila de llamadas
+10-06-2019 12:42:15 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:42:15 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:42:15 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:42:15 , Nº de Linea :          8
+10-06-2019 12:42:16 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:42:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:42:16 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:42:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:42:16 , Nº de Linea :         14
+10-06-2019 12:42:16 , En el Fuente: 	.armarsql()
+10-06-2019 12:42:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:42:17 , Objeto      : ventasporfecha.armarsql
+10-06-2019 12:42:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:42:18 , Nº de Linea :          4
+10-06-2019 12:42:18 , En el Fuente: lcfecha2 = "'"+DTOS(this.fecha_calendario4.txtfecha.Value+1)+"'"
+10-06-2019 12:42:45 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF this.detallafletero=1;Error :        107;Ultimo Alias Activo: ;Ultimo registro:          0 ;DB
 
 
 
@@ -3003,19 +3080,6 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
-mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP;Ultimo Control activo: 
-05-06-2019 14:56:02 , Pila de llamadas
-05-06-2019 14:56:03 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:56:03 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocus
-05-06-2019 14:56:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 14:56:04 , Nº de Linea :         25
-05-06-2019 14:56:04 , En el Fuente: this.lostfocosay()
-05-06-2019 14:56:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:56:04 , Objeto      : abmasociado.contenedor1.pframe1.page1.kitbuscaoaltaencategoria.lostfocosay
-05-06-2019 14:56:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmasociado.sct
-05-06-2019 14:56:04 , Nº de Linea :          3
-05-06-2019 14:56:04 , En el Fuente: 	=ALINES(ArrayRuta,CsrSectorVta.rutas,.f.,"-")
-05-06-2019 20:03:22 , ABMCATEASOCIADO._TEXTBOX1.KEYPRESS, Error: CHKPROMOCION es un miembro desconocido.;Linea : .chkpromocion.Value = VAL(LEFT(Csrcatectacte.switch,1));Error :       1925;Ultimo Alias Activo: CSRCATEASOCIADO;Ultimo registro:          1 ;
 
 
 
@@ -3053,6 +3117,24 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
+F: ;Ultimo Control activo: 
+10-06-2019 12:42:46 , Pila de llamadas
+10-06-2019 12:42:47 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:42:47 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:42:47 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:42:47 , Nº de Linea :          8
+10-06-2019 12:42:47 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:42:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:42:48 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:42:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:42:48 , Nº de Linea :         14
+10-06-2019 12:42:48 , En el Fuente: 	.armarsql()
+10-06-2019 12:42:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:42:49 , Objeto      : ventasporfecha.armarsql
+10-06-2019 12:42:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:42:49 , Nº de Linea :        102
+10-06-2019 12:42:50 , En el Fuente: IF this.detallafletero=1	
+10-06-2019 12:43:17 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCLEFTSECTOR'.;Linea : lcLeft = ALLTRIM(TRIM(lcLeftCuervari) + " " + TRIM(LcLeftRubro) + " " + TRIM(LcLeftFletero)+ " "+TRIM(lcLeftSector));Er
 
 
 
@@ -3094,24 +3176,6 @@ mo registro:        559 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A2A10033.TMP
 
 
 
-DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BTOP004O.TMP;Ultimo Control activo: NOMBRE
-05-06-2019 20:03:22 , Pila de llamadas
-05-06-2019 20:03:23 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-05-06-2019 20:03:23 , Objeto      : abmcateasociado._textbox1.keypress
-05-06-2019 20:03:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-05-06-2019 20:03:23 , Nº de Linea :        135
-05-06-2019 20:03:23 , En el Fuente: 	    ThisForm.Buscarcmd1.Buscar(.F.,ALLTRIM(this.Value))
-05-06-2019 20:03:23 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 20:03:23 , Objeto      : abmcateasociado.buscarcmd1.buscar
-05-06-2019 20:03:23 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-05-06-2019 20:03:24 , Nº de Linea :        119
-05-06-2019 20:03:24 , En el Fuente: 	loGrid.setfocus()
-05-06-2019 20:03:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcateasociado.sct
-05-06-2019 20:03:24 , Objeto      : abmcateasociado.contenedor1.gridabm1.afterrowcolchange
-05-06-2019 20:03:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmcateasociado.sct
-05-06-2019 20:03:25 , Nº de Linea :          5
-05-06-2019 20:03:25 , En el Fuente: 	.chkpromocion.Value = VAL(LEFT(Csrcatectacte.switch,1))
-06-06-2019 11:31:31 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -3130,6 +3194,24 @@ DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BTOP004O.TMP;Ultimo Control activo: N
 
 
 
+ror :         12;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND011F.TMP;Ultimo Control activo: 
+10-06-2019 12:43:17 , Pila de llamadas
+10-06-2019 12:43:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:43:18 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:43:18 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:43:19 , Nº de Linea :          8
+10-06-2019 12:43:19 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:43:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:43:19 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:43:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:43:20 , Nº de Linea :         14
+10-06-2019 12:43:20 , En el Fuente: 	.armarsql()
+10-06-2019 12:43:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:43:20 , Objeto      : ventasporfecha.armarsql
+10-06-2019 12:43:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:43:21 , Nº de Linea :        156
+10-06-2019 12:43:21 , En el Fuente: lcLeft = ALLTRIM(TRIM(lcLeftCuervari) + " " + TRIM(LcLeftRubro) + " " + TRIM(LcLeftFletero)+ " "+TRIM(lcLeftSector))
+10-06-2019 12:44:05 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCSECTOR'.;Linea : ,<<lcSector>>,<<lcProveedor>>;Error :         12;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUMERO;DBF:
 
 
 
@@ -3183,26 +3265,26 @@ DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BTOP004O.TMP;Ultimo Control activo: N
 
 
 
+ C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND0125.TMP;Ultimo Control activo: 
+10-06-2019 12:44:06 , Pila de llamadas
+10-06-2019 12:44:06 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:44:07 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:44:07 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:44:07 , Nº de Linea :          8
+10-06-2019 12:44:07 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:44:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:44:07 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:44:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:44:08 , Nº de Linea :         14
+10-06-2019 12:44:08 , En el Fuente: 	.armarsql()
+10-06-2019 12:44:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:44:09 , Objeto      : ventasporfecha.armarsql
+10-06-2019 12:44:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:44:09 , Nº de Linea :        160
+10-06-2019 12:44:09 , En el Fuente: ,<<lcSector>>,<<lcProveedor>>
+10-06-2019 12:46:17 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCSECTOR'.;Linea : ,<<lcSector>>,<<lcProveedor>>;Error :         12;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUMERO;DBF:
 
 
-STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00FS.TMP;Ultimo Control activo: 
-06-06-2019 11:31:32 , Pila de llamadas
-06-06-2019 11:31:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:31:32 , Objeto      : regfacvtapub.cmdrecuperar.click
-06-06-2019 11:31:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:31:32 , Nº de Linea :          2
-06-06-2019 11:31:33 , En el Fuente: 	thisform.loadtemp()
-06-06-2019 11:31:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:31:33 , Objeto      : regfacvtapub.loadtemp
-06-06-2019 11:31:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:31:34 , Nº de Linea :         53
-06-06-2019 11:31:34 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
-06-06-2019 11:31:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:31:34 , Objeto      : regfacvtapub.bindergridon
-06-06-2019 11:31:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:31:34 , Nº de Linea :          4
-06-06-2019 11:31:34 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
-06-06-2019 11:40:24 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
 
 
 
@@ -3249,6 +3331,24 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00FS.TMP;Ultimo Control acti
 
 
 
+ C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND012N.TMP;Ultimo Control activo: 
+10-06-2019 12:46:17 , Pila de llamadas
+10-06-2019 12:46:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:46:18 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:46:18 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:46:18 , Nº de Linea :          8
+10-06-2019 12:46:19 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:46:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:46:19 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:46:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:46:20 , Nº de Linea :         14
+10-06-2019 12:46:20 , En el Fuente: 	.armarsql()
+10-06-2019 12:46:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:46:20 , Objeto      : ventasporfecha.armarsql
+10-06-2019 12:46:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:46:21 , Nº de Linea :        160
+10-06-2019 12:46:21 , En el Fuente: ,<<lcSector>>,<<lcProveedor>>
+10-06-2019 12:47:34 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCPROVEEDOR'.;Linea : ,<<lcCategoria>>,<<lcProveedor>>;Error :         12;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUMER
 
 
 
@@ -3272,24 +3372,6 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00FS.TMP;Ultimo Control acti
 
 
 
-STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control activo: 
-06-06-2019 11:40:24 , Pila de llamadas
-06-06-2019 11:40:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:40:25 , Objeto      : regfacvtapub.cmdrecuperar.click
-06-06-2019 11:40:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:40:25 , Nº de Linea :          2
-06-06-2019 11:40:26 , En el Fuente: 	thisform.loadtemp()
-06-06-2019 11:40:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:40:26 , Objeto      : regfacvtapub.loadtemp
-06-06-2019 11:40:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:40:26 , Nº de Linea :         56
-06-06-2019 11:40:26 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
-06-06-2019 11:40:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:40:27 , Objeto      : regfacvtapub.bindergridon
-06-06-2019 11:40:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:40:27 , Nº de Linea :          4
-06-06-2019 11:40:28 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
-06-06-2019 11:57:23 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource='';Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:       
 
 
 
@@ -3309,6 +3391,24 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
+O;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND013D.TMP;Ultimo Control activo: 
+10-06-2019 12:47:35 , Pila de llamadas
+10-06-2019 12:47:36 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:47:36 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:47:36 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:47:36 , Nº de Linea :          8
+10-06-2019 12:47:36 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:47:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:47:36 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:47:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:47:37 , Nº de Linea :         14
+10-06-2019 12:47:37 , En el Fuente: 	.armarsql()
+10-06-2019 12:47:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:47:38 , Objeto      : ventasporfecha.armarsql
+10-06-2019 12:47:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:47:38 , Nº de Linea :        160
+10-06-2019 12:47:39 , En el Fuente: ,<<lcCategoria>>,<<lcProveedor>>
+10-06-2019 12:48:06 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CWHEREFLETERO'.;Linea : and <<lcestadoarticulo>> and <<LcwhereCategoria>> and <<cWhereFletero>>;Error :         12;Ultimo Alias Activo: _CSRPR
 
 
 
@@ -3346,6 +3446,24 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
+ODUCTO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND0143.TMP;Ultimo Control activo: 
+10-06-2019 12:48:06 , Pila de llamadas
+10-06-2019 12:48:07 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:48:07 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:48:07 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:48:07 , Nº de Linea :          8
+10-06-2019 12:48:07 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:48:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:48:08 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:48:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:48:08 , Nº de Linea :         14
+10-06-2019 12:48:08 , En el Fuente: 	.armarsql()
+10-06-2019 12:48:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:48:08 , Objeto      : ventasporfecha.armarsql
+10-06-2019 12:48:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:48:09 , Nº de Linea :        192
+10-06-2019 12:48:09 , En el Fuente: and <<lcestadoarticulo>> and <<LcwhereCategoria>> and <<cWhereFletero>> 
+10-06-2019 12:48:37 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCLISTA'.;Linea : IF EMPTY(lclista);Error :         12;Ultimo Alias Activo: CSR2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCA
 
 
 
@@ -3354,24 +3472,6 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
-   6 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control activo: PARADA
-06-06-2019 11:57:23 , Pila de llamadas
-06-06-2019 11:57:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:23 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-06-06-2019 11:57:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:23 , Nº de Linea :        140
-06-06-2019 11:57:24 , En el Fuente: 		thisform.generarlinea()   && 22=insert
-06-06-2019 11:57:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:24 , Objeto      : regfacvtapub.generarlinea
-06-06-2019 11:57:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:24 , Nº de Linea :         12
-06-06-2019 11:57:24 , En el Fuente:     .bindergridoff('thisform.grid2',@lcalias,@lcCtrlSource,@AcolOdataNavega)
-06-06-2019 11:57:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:25 , Objeto      : regfacvtapub.bindergridoff
-06-06-2019 11:57:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:25 , Nº de Linea :         27
-06-06-2019 11:57:26 , En el Fuente:     loObjnavega.RecordSource=''
-06-06-2019 11:57:37 , MAIN, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource='';Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          6 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL
 
 
 
@@ -3396,6 +3496,19 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
+L\TEMP\0000B0ND014Z.TMP;Ultimo Control activo: 
+10-06-2019 12:48:37 , Pila de llamadas
+10-06-2019 12:48:38 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:48:38 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:48:38 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:48:38 , Nº de Linea :          8
+10-06-2019 12:48:38 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:48:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:48:39 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:48:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:48:39 , Nº de Linea :         18
+10-06-2019 12:48:39 , En el Fuente: IF EMPTY(lclista)
+10-06-2019 12:49:35 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCLISTA'.;Linea : IF EMPTY(lclista);Error :         12;Ultimo Alias Activo: CSR2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCA
 
 
 
@@ -3425,6 +3538,19 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
+L\TEMP\0000B0ND015S.TMP;Ultimo Control activo: 
+10-06-2019 12:49:35 , Pila de llamadas
+10-06-2019 12:49:35 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:49:35 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:49:35 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:49:36 , Nº de Linea :          8
+10-06-2019 12:49:36 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:49:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:49:37 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:49:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:49:37 , Nº de Linea :         18
+10-06-2019 12:49:37 , En el Fuente: IF EMPTY(lclista)
+10-06-2019 12:49:51 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCLISTA'.;Linea : IF EMPTY(lclista);Error :         12;Ultimo Alias Activo: CSR2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCA
 
 
 
@@ -3432,29 +3558,6 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
-\TEMP\00001TZD00RX.TMP;Ultimo Control activo: 
-06-06-2019 11:57:37 , Pila de llamadas
-06-06-2019 11:57:38 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-06-06-2019 11:57:38 , Objeto      : main
-06-06-2019 11:57:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-06-06-2019 11:57:38 , Nº de Linea :          9
-06-06-2019 11:57:39 , En el Fuente: clear all
-06-06-2019 11:57:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:39 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-06-06-2019 11:57:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:39 , Nº de Linea :        140
-06-06-2019 11:57:39 , En el Fuente: 		thisform.generarlinea()   && 22=insert
-06-06-2019 11:57:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:40 , Objeto      : regfacvtapub.generarlinea
-06-06-2019 11:57:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:40 , Nº de Linea :         12
-06-06-2019 11:57:41 , En el Fuente:     .bindergridoff('thisform.grid2',@lcalias,@lcCtrlSource,@AcolOdataNavega)
-06-06-2019 11:57:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:41 , Objeto      : regfacvtapub.bindergridoff
-06-06-2019 11:57:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:42 , Nº de Linea :         27
-06-06-2019 11:57:42 , En el Fuente:     loObjnavega.RecordSource=''
-06-06-2019 11:57:50 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource='';Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:       
 
 
 
@@ -3473,6 +3576,19 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
+L\TEMP\0000B0ND015W.TMP;Ultimo Control activo: 
+10-06-2019 12:49:51 , Pila de llamadas
+10-06-2019 12:49:51 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:49:51 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:49:51 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:49:52 , Nº de Linea :          8
+10-06-2019 12:49:52 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:49:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:49:52 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:49:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:49:53 , Nº de Linea :         18
+10-06-2019 12:49:53 , En el Fuente: IF EMPTY(lclista)
+10-06-2019 12:52:12 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csr2.dbf' no existe.;Linea : SELECT csr2.*, netosinbonificar as gravado from Csr2 into cursor Csr1 readwrite;Error :          1;Ultimo Alias Activo: _CSRPRODUC
 
 
 
@@ -3494,6 +3610,19 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
+TO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND016J.TMP;Ultimo Control activo: 
+10-06-2019 12:52:12 , Pila de llamadas
+10-06-2019 12:52:12 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:52:12 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:52:12 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:52:13 , Nº de Linea :          8
+10-06-2019 12:52:13 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:52:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:52:13 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:52:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:52:14 , Nº de Linea :         23
+10-06-2019 12:52:14 , En el Fuente: SELECT csr2.*, netosinbonificar as gravado from Csr2 into cursor Csr1 readwrite 
+10-06-2019 12:53:38 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csr2.dbf' no existe.;Linea : SELECT csr2.*, netosinbonificar as gravado from Csr2 into cursor Csr1 readwrite;Error :          1;Ultimo Alias Activo: _CSRPRODUC
 
 
 
@@ -3508,27 +3637,22 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
-   6 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control activo: 
-06-06-2019 11:57:51 , Pila de llamadas
-06-06-2019 11:57:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:52 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-06-06-2019 11:57:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:52 , Nº de Linea :        140
-06-06-2019 11:57:52 , En el Fuente: 		thisform.generarlinea()   && 22=insert
-06-06-2019 11:57:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:53 , Objeto      : regfacvtapub.generarlinea
-06-06-2019 11:57:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:53 , Nº de Linea :         12
-06-06-2019 11:57:53 , En el Fuente:     .bindergridoff('thisform.grid2',@lcalias,@lcCtrlSource,@AcolOdataNavega)
-06-06-2019 11:57:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:54 , Objeto      : regfacvtapub.bindergridoff
-06-06-2019 11:57:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:57:54 , Nº de Linea :         27
-06-06-2019 11:57:54 , En el Fuente:     loObjnavega.RecordSource=''
-06-06-2019 11:58:00 , MAIN, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource='';Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          6 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL
 
 
 
+TO;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND0179.TMP;Ultimo Control activo: 
+10-06-2019 12:53:39 , Pila de llamadas
+10-06-2019 12:53:39 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:53:39 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 12:53:39 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 12:53:40 , Nº de Linea :          8
+10-06-2019 12:53:40 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 12:53:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:53:40 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 12:53:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 12:53:41 , Nº de Linea :         23
+10-06-2019 12:53:41 , En el Fuente: SELECT csr2.*, netosinbonificar as gravado from Csr2 into cursor Csr1 readwrite 
+10-06-2019 13:02:38 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: no se encuentra la columna 'UNIBULTO'.;Linea : SELECT 0 as grupo2, 0 as grupo,csr1.*,csr1.vtalitros as litros,Csr1.importefinal as importes ,unibulto as unibulto ,int
 
 
 
@@ -3542,6 +3666,19 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
+ernos as interno FROM csr1 INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSR1;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND01EF.TMP;Ultimo Control activo: 
+10-06-2019 13:02:38 , Pila de llamadas
+10-06-2019 13:02:38 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 13:02:38 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 13:02:38 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 13:02:38 , Nº de Linea :          8
+10-06-2019 13:02:39 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 13:02:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:02:39 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 13:02:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:02:40 , Nº de Linea :         30
+10-06-2019 13:02:40 , En el Fuente: SELECT 0 as grupo2, 0 as grupo,csr1.*,csr1.vtalitros as litros,Csr1.importefinal as importes,unibulto as unibulto,internos as internoFROM csr1 INTO CURSOR CsrImprimir READWRITE 
+10-06-2019 13:09:49 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CLISPRODUCTO'.;Linea : this.listaproducto = cLisProducto;Error :         12;Ultimo Alias Activo: _CSRPRODUCTO;Ultimo registro:          1 CNUM
 
 
 
@@ -3551,375 +3688,52 @@ STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control acti
 
 
 
+ERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND01KC.TMP;Ultimo Control activo: 
+10-06-2019 13:09:49 , Pila de llamadas
+10-06-2019 13:09:49 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 13:09:50 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
+10-06-2019 13:09:50 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-06-2019 13:09:50 , Nº de Linea :          8
+10-06-2019 13:09:51 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-06-2019 13:09:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:09:51 , Objeto      : ventasporfecha.crearinforme
+10-06-2019 13:09:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:09:52 , Nº de Linea :         14
+10-06-2019 13:09:52 , En el Fuente: 	IF NOT .armarsql()
+10-06-2019 13:09:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:09:52 , Objeto      : ventasporfecha.armarsql
+10-06-2019 13:09:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:09:52 , Nº de Linea :        127
+10-06-2019 13:09:53 , En el Fuente: this.listaproducto = cLisProducto
+10-06-2019 13:22:33 , VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: El archivo 'csrmargen.dbf' no existe.;Linea : SELECT CsrImprimir.codigo,articulo,importes,canbultos,unidades,litros,gravado,interno, (importes-gravado-interno),margen1,aso
 
 
 
 
+ciado,nomasociado FROM CsrImprimir LEFT JOIN CsrMargen ON CsrImprimir.idarticulo = CsrMargen.idarticulo WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITE;Error :          1;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\TEMP\00001TZD00RX.TMP;Ultimo Control activo: 
-06-06-2019 11:58:00 , Pila de llamadas
-06-06-2019 11:58:01 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-06-06-2019 11:58:01 , Objeto      : main
-06-06-2019 11:58:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-06-06-2019 11:58:01 , Nº de Linea :          9
-06-06-2019 11:58:01 , En el Fuente: clear all
-06-06-2019 11:58:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:01 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-06-06-2019 11:58:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:02 , Nº de Linea :        140
-06-06-2019 11:58:02 , En el Fuente: 		thisform.generarlinea()   && 22=insert
-06-06-2019 11:58:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:03 , Objeto      : regfacvtapub.generarlinea
-06-06-2019 11:58:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:03 , Nº de Linea :         12
-06-06-2019 11:58:04 , En el Fuente:     .bindergridoff('thisform.grid2',@lcalias,@lcCtrlSource,@AcolOdataNavega)
-06-06-2019 11:58:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:04 , Objeto      : regfacvtapub.bindergridoff
-06-06-2019 11:58:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:05 , Nº de Linea :         27
-06-06-2019 11:58:05 , En el Fuente:     loObjnavega.RecordSource=''
-06-06-2019 11:58:11 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource='';Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   6 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001TZD00RX.TMP;Ultimo Control activo: 
-06-06-2019 11:58:12 , Pila de llamadas
-06-06-2019 11:58:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:13 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-06-06-2019 11:58:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:13 , Nº de Linea :        140
-06-06-2019 11:58:13 , En el Fuente: 		thisform.generarlinea()   && 22=insert
-06-06-2019 11:58:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:13 , Objeto      : regfacvtapub.generarlinea
-06-06-2019 11:58:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:14 , Nº de Linea :         12
-06-06-2019 11:58:14 , En el Fuente:     .bindergridoff('thisform.grid2',@lcalias,@lcCtrlSource,@AcolOdataNavega)
-06-06-2019 11:58:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:14 , Objeto      : regfacvtapub.bindergridoff
-06-06-2019 11:58:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 11:58:15 , Nº de Linea :         27
-06-06-2019 11:58:15 , En el Fuente:     loObjnavega.RecordSource=''
-06-06-2019 11:58:28 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: El archivo no está abierto.;Linea : ;Error :       1113;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-06-06-2019 12:20:06 , REGFACVTAPUB.CMDCONSULTA.CLICK, Error: KITBUSCAOALTAENCTACTE es un miembro desconocido.;Linea : .containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus();Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-: ;Ultimo Control activo: 
-06-06-2019 12:20:06 , Pila de llamadas
-06-06-2019 12:20:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:20:07 , Objeto      : regfacvtapub.cmdconsulta.click
-06-06-2019 12:20:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:20:07 , Nº de Linea :          2
-06-06-2019 12:20:08 , En el Fuente: thisform.key_f4()  
-06-06-2019 12:20:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:20:08 , Objeto      : regfacvtapub.key_f4
-06-06-2019 12:20:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:20:09 , Nº de Linea :         56
-06-06-2019 12:20:09 , En el Fuente: 		.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()			
-06-06-2019 12:21:14 , REGFACVTAPUB.CMDCONSULTA.CLICK, Error: TXTPARADA es un miembro desconocido.;Linea : .containerencabeza.txtparada.SetFocus();Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-06-06-2019 12:21:15 , Pila de llamadas
-06-06-2019 12:21:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:21:15 , Objeto      : regfacvtapub.cmdconsulta.click
-06-06-2019 12:21:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:21:15 , Nº de Linea :          2
-06-06-2019 12:21:15 , En el Fuente: thisform.key_f4()  
-06-06-2019 12:21:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:21:16 , Objeto      : regfacvtapub.key_f4
-06-06-2019 12:21:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:21:16 , Nº de Linea :         56
-06-06-2019 12:21:16 , En el Fuente: 		.containerencabeza.txtparada.SetFocus()			
-06-06-2019 12:22:10 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004T1L01KM.TMP;Ultimo Control activo: 
-06-06-2019 12:22:10 , Pila de llamadas
-06-06-2019 12:22:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:22:11 , Objeto      : regfacvtapub.cmdrecuperar.click
-06-06-2019 12:22:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:22:12 , Nº de Linea :          2
-06-06-2019 12:22:12 , En el Fuente: 	thisform.loadtemp()
-06-06-2019 12:22:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:22:12 , Objeto      : regfacvtapub.loadtemp
-06-06-2019 12:22:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:22:13 , Nº de Linea :         56
-06-06-2019 12:22:13 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
-06-06-2019 12:22:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:22:13 , Objeto      : regfacvtapub.bindergridon
-06-06-2019 12:22:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:22:13 , Nº de Linea :          4
-06-06-2019 12:22:14 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
-06-06-2019 12:23:46 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004T1L01X5.TMP;Ultimo Control activo: 
-06-06-2019 12:23:46 , Pila de llamadas
-06-06-2019 12:23:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:23:47 , Objeto      : regfacvtapub.cmdrecuperar.click
-06-06-2019 12:23:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:23:47 , Nº de Linea :          2
-06-06-2019 12:23:48 , En el Fuente: 	thisform.loadtemp()
-06-06-2019 12:23:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:23:48 , Objeto      : regfacvtapub.loadtemp
-06-06-2019 12:23:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:23:49 , Nº de Linea :         55
-06-06-2019 12:23:49 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
-06-06-2019 12:23:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:23:49 , Objeto      : regfacvtapub.bindergridon
-06-06-2019 12:23:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:23:49 , Nº de Linea :          4
-06-06-2019 12:23:50 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
-06-06-2019 12:28:19 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004T1L037Q.TMP;Ultimo Control activo: 
-06-06-2019 12:28:19 , Pila de llamadas
-06-06-2019 12:28:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:28:20 , Objeto      : regfacvtapub.cmdrecuperar.click
-06-06-2019 12:28:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:28:20 , Nº de Linea :          2
-06-06-2019 12:28:21 , En el Fuente: 	thisform.loadtemp()
-06-06-2019 12:28:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:28:21 , Objeto      : regfacvtapub.loadtemp
-06-06-2019 12:28:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:28:22 , Nº de Linea :         55
-06-06-2019 12:28:22 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
-06-06-2019 12:28:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:28:23 , Objeto      : regfacvtapub.bindergridon
-06-06-2019 12:28:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:28:23 , Nº de Linea :          4
-06-06-2019 12:28:23 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
-06-06-2019 12:34:36 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004T1L05GM.TMP;Ultimo Control activo: 
-06-06-2019 12:34:37 , Pila de llamadas
-06-06-2019 12:34:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:34:38 , Objeto      : regfacvtapub.cmdrecuperar.click
-06-06-2019 12:34:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:34:38 , Nº de Linea :          2
-06-06-2019 12:34:38 , En el Fuente: 	thisform.loadtemp()
-06-06-2019 12:34:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:34:38 , Objeto      : regfacvtapub.loadtemp
-06-06-2019 12:34:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:34:39 , Nº de Linea :         55
-06-06-2019 12:34:39 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
-06-06-2019 12:34:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:34:40 , Objeto      : regfacvtapub.bindergridon
-06-06-2019 12:34:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-06-06-2019 12:34:40 , Nº de Linea :          4
-06-06-2019 12:34:41 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
-06-06-2019 12:37:35 , REGFACVTAPUB.CMDRECUPERAR.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource=lCaliasNavega;Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
-
-
-
-
-
-
-
-
-
-STRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004T1L05Z3.TMP;Ultimo Control activo: 
-06-06-2019 12:37:35 , Pila de llamadas
-06-06-2019 12:37:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:36 , Objeto      : regfacvtapub.cmdrecuperar.click
-06-06-2019 12:37:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:37 , Nº de Linea :          2
-06-06-2019 12:37:37 , En el Fuente: 	thisform.loadtemp()
-06-06-2019 12:37:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:37 , Objeto      : regfacvtapub.loadtemp
-06-06-2019 12:37:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:37 , Nº de Linea :         55
-06-06-2019 12:37:38 , En el Fuente: 	    .bindergridon('thisform.grid2',lcAlias,lcCtrlSource,AcolOdataNavega)
-06-06-2019 12:37:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:38 , Objeto      : regfacvtapub.bindergridon
-06-06-2019 12:37:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:38 , Nº de Linea :          4
-06-06-2019 12:37:38 , En el Fuente:     loObjnavega.RecordSource=lCaliasNavega
-06-06-2019 12:37:48 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : loObjnavega.RecordSource='';Error :         52;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:       
-
-
-
-
-   6 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004T1L05Z3.TMP;Ultimo Control activo: 
-06-06-2019 12:37:48 , Pila de llamadas
-06-06-2019 12:37:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:49 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-06-06-2019 12:37:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:50 , Nº de Linea :        140
-06-06-2019 12:37:50 , En el Fuente: 		thisform.generarlinea()   && 22=insert
-06-06-2019 12:37:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:51 , Objeto      : regfacvtapub.generarlinea
-06-06-2019 12:37:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:51 , Nº de Linea :         12
-06-06-2019 12:37:51 , En el Fuente:     .bindergridoff('thisform.grid2',@lcalias,@lcCtrlSource,@AcolOdataNavega)
-06-06-2019 12:37:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:52 , Objeto      : regfacvtapub.bindergridoff
-06-06-2019 12:37:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-06-06-2019 12:37:52 , Nº de Linea :         27
-06-06-2019 12:37:52 , En el Fuente:     loObjnavega.RecordSource=''
+\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000B0ND02GX.TMP;Ultimo Control activo: 
+10-06-2019 13:22:33 , Pila de llamadas
+10-06-2019 13:22:34 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+10-06-2019 13:22:34 , Objeto      : ventasporfecha_aso.imprimir_vistaprevia1.excel.click
+10-06-2019 13:22:34 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+10-06-2019 13:22:34 , Nº de Linea :          8
+10-06-2019 13:22:34 , En el Fuente: llOK=thisform.CrearInforme()
+10-06-2019 13:22:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:22:35 , Objeto      : ventasporfecha_aso.crearinforme
+10-06-2019 13:22:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:22:35 , Nº de Linea :        142
+10-06-2019 13:22:35 , En el Fuente: DODEFAULT()
+10-06-2019 13:22:35 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+10-06-2019 13:22:35 , Objeto      : informe.crearinforme
+10-06-2019 13:22:35 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+10-06-2019 13:22:35 , Nº de Linea :          1
+10-06-2019 13:22:36 , En el Fuente: thisform.crearheader()
+10-06-2019 13:22:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:22:36 , Objeto      : ventasporfecha_aso.crearheader
+10-06-2019 13:22:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas_aso.sct
+10-06-2019 13:22:37 , Nº de Linea :         40
+10-06-2019 13:22:37 , En el Fuente: 			SELECT CsrImprimir.codigo,articulo,importes,canbultos,unidades,litros,gravado,interno,			(importes-gravado-interno),margen1,asociado,nomasociado FROM CsrImprimir			LEFT JOIN CsrMargen ON CsrImprimir.idarticulo = CsrMargen.idarticulo			WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITE
