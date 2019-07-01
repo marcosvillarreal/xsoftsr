@@ -1,86 +1,3 @@
-Error nº:          1
-Error El archivo 'csrrubro.dbf' no existe.
- Alias  registro          0
-Control activo  LISTAPROMOCION.PAGEFRAME1.PAGE1.KITGRILLATILDARRUBROS.INIT
-27-02-2019 19:08:39 , Linea nº SELECT CsrCursor
-Error nº:         13
-Error No se encuentra el alias 'CSRCURSOR'.
- Alias _CSRCTACTE registro        118
-Control activo  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-13-03-2019 14:06:04 , Linea nº thisform.containerencabeza.kitbuscaoaltaenCtacte.lrecargatxtnombre = .f.
-Error nº:       1925
-Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
- Alias CSRCANALVTA registro          1
-Control activo  REGFACVTAPUB._TXTINICIAR.GOTFOCUS
-13-03-2019 14:06:22 , Linea nº thisform.containerencabeza.kitbuscaoaltaenCtacte.lrecargatxtnombre = .f.
-Error nº:       1925
-Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
- Alias CSRCANALVTA registro          1
-Control activo  REGFACVTAPUB._TXTINICIAR.GOTFOCUS
-13-03-2019 14:23:12 , Linea nº thisform.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
-Error nº:       1925
-Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
- Alias CSRAUXCUERPROMO registro          1
-Control activo NOMBRE REGFACVTAPUB.KEYPRESS
-13-03-2019 14:23:22 , Linea nº thisform.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
-Error nº:       1925
-Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
- Alias CSRAUXCUERPROMO registro          1
-Control activo CODIGO15 REGFACVTAPUB.KEYPRESS
-13-03-2019 14:27:09 , Linea nº IF (.containerencabeza._txtbonif1.Value#0 OR .containerencabeza._txtbonif2.Value#0) AND lnbonifica#0 AND !this.leyendocuerpedido
-Error nº:       1925
-Error _TXTBONIF1 es un miembro desconocido.
- Alias CSRPRODFZAVTA registro        346
-Control activo CANTIDAD REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
-13-03-2019 14:41:00 , Linea nº .ve_condicion(Empty(Thisform.Containerencabeza.KitbuscaoaltaenCtacte.Txtexiste1.Value),'El nº de cliente no puede ser nulo ...')
-Error nº:       1925
-Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
- Alias CSRCTACTESALDO registro          1
-Control activo  REGFACVTAPUB.KEYPRESS
-13-03-2019 14:44:33 , Linea nº .containertotales._txttotal.Value        = 0
-Error nº:       1925
-Error _TXTTOTAL es un miembro desconocido.
- Alias CSRAUXMOVAFECTADO registro          1
-Control activo  REGFACVTAPUB.INIT
-13-03-2019 14:54:25 , Linea nº thisform.containerencabeza._cbotipoiva.Refresh
-Error nº:       1925
-Error _CBOTIPOIVA es un miembro desconocido.
- Alias CSRPREFITERMI registro          5
-Control activo PARADA REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-13-03-2019 16:00:44 , Linea nº laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','')
-Error nº:       1234
-Error El subíndice está fuera del intervalo definido.
- Alias CSRCTACTE registro          1
-Control activo  RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS
-13-03-2019 16:01:02 , Linea nº laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','')
-Error nº:       1234
-Error El subíndice está fuera del intervalo definido.
- Alias CSRCTACTE registro          1
-Control activo  RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS
-13-03-2019 16:01:17 , Linea nº laCampo(lnfil) = strtran(This.Parent.controlsourcetxtexiste,alltrim(lcalias)+'.','')
-Error nº:       1234
-Error El subíndice está fuera del intervalo definido.
- Alias CSRCTACTE registro          1
-Control activo  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
-13-03-2019 16:08:21 , Linea nº goapp.programa = ''
-Error nº:       1734
-Error No se encuentra la propiedad PROGRAMA.
- Alias CSRCTACTE registro          6
-Control activo  RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS
-13-03-2019 16:09:30 , Linea nº lcFormKey = [SOFTWARE] + [\] + AppName + [\] + .NAME
-Error nº:       1924
-Error GOAPP no es un objeto.
- Alias  registro          0
-Control activo  RESCTACTE.LOAD
-13-03-2019 16:11:25 , Linea nº this.controlsource=this.parent.controlsourcetxtid
-Error nº:          9
-Error No coinciden los tipos de datos.
- Alias CSRAUXCUERFAC registro          1
-Control activo CODIGO15 REGFACVTAPUB.KEYPRESS
-13-03-2019 16:12:23 , Linea nº SELECT(this.calias)
-Error nº:         13
-Error No se encuentra el alias 'CSRCLIENTE'.
- Alias CSRAUXCABEFAC registro          1
 Control activo  PIDOENCABEZADO.CONTAINERENCABEZA.KITBUSCAOALTAENCLIENTE.GOTFOCUS
 13-03-2019 16:15:58 , Linea nº this.controlsource=this.parent.controlsourcetxtid
 Error nº:          9
@@ -178,6 +95,12 @@ Error OCLIENTE es un método, evento u objeto.
  Alias CSRCLIENTE registro          1
 Control activo  REGFACVTAPUB.KEYPRESS
 14-03-2019 13:42:22 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
+
+
+
+
 
 
 
@@ -425,7 +348,19 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
+
+
+
+
 
 
 
@@ -673,6 +608,12 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
 
 
@@ -797,7 +738,19 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
 
 
 
@@ -1080,7 +1033,19 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
 
 
 
@@ -1318,7 +1283,19 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
 
 
 
@@ -1556,7 +1533,19 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
 
 
 
@@ -1761,6 +1750,12 @@ Error _TXTHABILITACION es un miembro desconocido.
  Alias CSRCATEIBBA registro          1
 Control activo  ABMCTACTE.CMDSALVAR.CLICK
 18-03-2019 11:43:05 , Linea nº Insert into CsrAuxcabefac (fecha,idtipoiva,idplanpago,switch,copiatkt,vencimien,parada,idlocalidad,idprovincia,idfletero ,idfuerzavta,listaprecio,idrutavdor,idvendedor) value (Csrparadiario.fechafac,3,thisform.lnidplanpago,
+
+
+
+
+
+
 
 
 
@@ -2552,6 +2547,12 @@ Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 iculo WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITE
 Error nº:          1
 Error El archivo 'csrmargen.dbf' no existe.
@@ -2594,15 +2595,81 @@ Error No se encuentra la instrucción PARAMETER.
 Control activo  VENTASPORFECHA.COMMAND1.CLICK
 19-06-2019 14:38:21 , Linea nº SELECT Csrimprimir.* FROM Csrimprimir UNION select CsrRestas.* FROM CsrRestas UNION select CsrTotales.* FROM CsrTotales ORDER BY  grupo, idfletero, idvendedor,idproveed,idsector,sectorruta, idctacte, idrubro  INTO CURSOR Cs
 
+
+
+
+
+
+
 rimprimir READWRITE
 Error nº:       1806
 Error SQL: no se encuentra la columna 'IDRUBRO'.
  Alias CSRSUMATOTAL registro          1
 Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 19-06-2019 14:40:50 , Linea nº SELECT Csrimprimir.* FROM Csrimprimir UNION select CsrRestas.* FROM CsrRestas UNION select CsrTotales.* FROM CsrTotales ORDER BY  grupo, idfletero, idvendedor,idproveed,idsector,sectorruta, idctacte, idrubro,idcovertura  IN
+
+
+
+
+
+
 TO CURSOR Csrimprimir READWRITE
 Error nº:       1806
 Error SQL: no se encuentra la columna 'IDCOVERTURA'.
  Alias  registro          0
 Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-19-06-2019 14:42:43 , Linea nº SELECT Csrimprimir.* FROM Csrimprimir UNION select CsrRestas.* FROM CsrRestas UNION select CsrTotales.* FROM CsrTotales ORDER BY  grupo, idfletero, idvendedor,idproveed,idsector,sectorruta, idctacte, idrubro,idcovertura  INTO CURSOR Csrimprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'IDCOVERTURA'. Alias  registro          0Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+19-06-2019 14:42:43 , Linea nº SELECT Csrimprimir.* FROM Csrimprimir UNION select CsrRestas.* FROM CsrRestas UNION select CsrTotales.* FROM CsrTotales ORDER BY  grupo, idfletero, idvendedor,idproveed,idsector,sectorruta, idctacte, idrubro,idcovertura  IN
+
+
+
+
+
+TO CURSOR Csrimprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'IDCOVERTURA'.
+ Alias  registro          0
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+01-07-2019 17:26:55 , Linea nº IF this.detallacovertura=1
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias _CSRCTACTE registro        122
+Control activo  LISTALIQCOMI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+01-07-2019 17:35:46 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
+Error nº:          1
+Error El archivo 'csrproducto.dbf' no existe.
+ Alias  registro          0
+Control activo  VENTASPORFECHA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
+01-07-2019 17:36:24 , Linea nº SELECT grupo2,grupo,fecha,idfletero,codfletero,0 as idarticulo, '' as codigo,'' as articulo ,'' as codalfa,nomfletero,idvendedor,codvendedor,nomvendedor ,idctacte,ctacte,nomcliente,idrubro,codrubro,nomrubro,idsector,codsect
+
+
+or,nomsector ,idproveed,nomproveed,numproveed,sectorruta,idcovertura,codcodvertura,nomcovertura ,SUM(canbultos) as canbultos,SUM(unidades) as unidades, SUM(litros) as litros ,SUM(importes) as importes, SUM(interno) as interno, SUM(gravado) as gravado ,SU
+
+
+M(bonisiva) as bonsiva,SUM(bonificacion) as bonciva FROM CsrImprimir GROUP BY grupo2,grupo,fecha,idfletero,codfletero ,nomfletero,idvendedor,codvendedor,nomvendedor ,idctacte,ctacte,nomcliente,idrubro,codrubro,nomrubro,idsector,codsector,nomsector ,idpro
+
+
+veed,nomproveed,numproveed,sectorruta,idcovertura,codcodvertura,nomcovertura INTO CURSOR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'CODCODVERTURA'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+01-07-2019 17:38:20 , Linea nº SELECT grupo2,grupo,fecha,idfletero,codfletero,0 as idarticulo, '' as codigo,'' as articulo ,'' as codalfa,nomfletero,idvendedor,codvendedor,nomvendedor ,idctacte,ctacte,nomcliente,idrubro,codrubro,nomrubro,idsector,codsect
+
+or,nomsector ,idproveed,nomproveed,numproveed,sectorruta,idcovertura,codcodvertura,nomcovertura ,SUM(canbultos) as canbultos,SUM(unidades) as unidades, SUM(litros) as litros ,SUM(importes) as importes, SUM(interno) as interno, SUM(gravado) as gravado ,SU
+
+M(bonisiva) as bonsiva,SUM(bonificacion) as bonciva FROM CsrImprimir GROUP BY grupo2,grupo,fecha,idfletero,codfletero ,nomfletero,idvendedor,codvendedor,nomvendedor ,idctacte,ctacte,nomcliente,idrubro,codrubro,nomrubro,idsector,codsector,nomsector ,idpro
+
+veed,nomproveed,numproveed,sectorruta,idcovertura,codcodvertura,nomcovertura INTO CURSOR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'CODCODVERTURA'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+01-07-2019 17:41:25 , Linea nº SELECT grupo2,grupo,fecha,idfletero,codfletero,0 as idarticulo, '' as codigo,'' as articulo ,'' as codalfa,nomfletero,idvendedor,codvendedor,nomvendedor ,idctacte,ctacte,nomcliente,idrubro,codrubro,nomrubro,idsector,codsect
+or,nomsector ,idproveed,nomproveed,numproveed,sectorruta,idcovertura,codcodvertura,nomcovertura ,SUM(canbultos) as canbultos,SUM(unidades) as unidades, SUM(litros) as litros ,SUM(importes) as importes, SUM(interno) as interno, SUM(gravado) as gravado ,SU
+M(bonisiva) as bonsiva,SUM(bonificacion) as bonciva FROM CsrImprimir GROUP BY grupo2,grupo,fecha,idfletero,codfletero ,nomfletero,idvendedor,codvendedor,nomvendedor ,idctacte,ctacte,nomcliente,idrubro,codrubro,nomrubro,idsector,codsector,nomsector ,idpro
+veed,nomproveed,numproveed,sectorruta,idcovertura,codcodvertura,nomcovertura INTO CURSOR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'CODCODVERTURA'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+01-07-2019 17:42:33 , Linea nº SELECT grupo2,grupo,fecha,idfletero,codfletero,0 as idarticulo, '' as codigo,'' as articulo ,'' as codalfa,nomfletero,idvendedor,codvendedor,nomvendedor ,idctacte,ctacte,nomcliente,idrubro,codrubro,nomrubro,idsector,codsector,nomsector ,idproveed,nomproveed,numproveed,sectorruta,idcovertura,cocodvertura,nomcovertura ,SUM(canbultos) as canbultos,SUM(unidades) as unidades, SUM(litros) as litros ,SUM(importes) as importes, SUM(interno) as interno, SUM(gravado) as gravado ,SUM(bonisiva) as bonsiva,SUM(bonificacion) as bonciva FROM CsrImprimir GROUP BY grupo2,grupo,fecha,idfletero,codfletero ,nomfletero,idvendedor,codvendedor,nomvendedor ,idctacte,ctacte,nomcliente,idrubro,codrubro,nomrubro,idsector,codsector,nomsector ,idproveed,nomproveed,numproveed,sectorruta,idcovertura,codcovertura,nomcovertura INTO CURSOR CsrImprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'COCODVERTURA'. Alias CSRIMPRIMIR registro          1Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
