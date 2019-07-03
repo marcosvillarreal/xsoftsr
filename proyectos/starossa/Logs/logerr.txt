@@ -29,3 +29,27 @@
 03-07-2019 20:24:21 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 03-07-2019 20:24:21 , Nº de Linea :          2
 03-07-2019 20:24:21 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
+03-07-2019 20:50:14 , ABMUNIFICADOR.CONTENEDOR1.PFRAME1.PAGE1.GRILLAVARIOS1.KITBUSCAOALTAENPRODUCTO.TXTID.INIT, Error: No se encuentra el alias 'CSRCUERPO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002M15002K.TMP;Ultimo Control activo: 
+03-07-2019 20:50:14 , Pila de llamadas
+03-07-2019 20:50:14 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+03-07-2019 20:50:14 , Objeto      : abmunificador.contenedor1.pframe1.page1.grillavarios1.kitbuscaoaltaenproducto.txtid.init
+03-07-2019 20:50:14 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+03-07-2019 20:50:14 , Nº de Linea :          2
+03-07-2019 20:50:14 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
+03-07-2019 20:52:28 , ABMUNIFICADOR.CMDSALVAR.CLICK, Error: No se encuentra el alias 'CSRCUERUNIFICA'.;Linea : REPLACE idproducto WITH CsrCuerpo.idproducto,idcabeunifica WITH lcidcabeunifica IN CsrCuerunifica;Error :         13;Ultimo Alias Activo: CSRCUERPO;Ultimo registro:         -1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002M150045.TMP;Ultimo Control activo: NUMERO
+03-07-2019 20:52:28 , Pila de llamadas
+03-07-2019 20:52:28 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+03-07-2019 20:52:28 , Objeto      : abmunificador.cmdsalvar.click
+03-07-2019 20:52:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+03-07-2019 20:52:28 , Nº de Linea :          9
+03-07-2019 20:52:28 , En el Fuente: 		llok=.salvar()
+03-07-2019 20:52:28 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+03-07-2019 20:52:28 , Objeto      : abmunificador.salvar
+03-07-2019 20:52:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+03-07-2019 20:52:28 , Nº de Linea :         19
+03-07-2019 20:52:28 , En el Fuente:    llok=thisform.validar()
+03-07-2019 20:52:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\abmunificadorpub.sct
+03-07-2019 20:52:28 , Objeto      : abmunificador.validar
+03-07-2019 20:52:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\stock\abmunificadorpub.sct
+03-07-2019 20:52:29 , Nº de Linea :         38
+03-07-2019 20:52:29 , En el Fuente:      REPLACE idproducto WITH CsrCuerpo.idproducto,idcabeunifica WITH lcidcabeunifica IN CsrCuerunifica
