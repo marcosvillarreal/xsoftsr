@@ -143,3 +143,50 @@
 04-07-2019 12:47:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
 04-07-2019 12:47:29 , Nº de Linea :        132
 04-07-2019 12:47:29 , En el Fuente: 	lnmulti = IIF(nTipo=3,-1,l) * lnmulti
+04-07-2019 13:07:41 , MAIN, Error: No se encuentra el alias 'CSRTOPES'.;Linea : select (this.cAlias);Error :         13;Ultimo Alias Activo: CSRVISITA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006OZT00FH.TMP;Ultimo Control activo: 
+04-07-2019 13:07:41 , Pila de llamadas
+04-07-2019 13:07:41 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
+04-07-2019 13:07:41 , Objeto      : main
+04-07-2019 13:07:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
+04-07-2019 13:07:41 , Nº de Linea :        247
+04-07-2019 13:07:41 , En el Fuente: 	Read events   
+04-07-2019 13:07:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:41 , Objeto      : regfacvta.keypress
+04-07-2019 13:07:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:41 , Nº de Linea :         69
+04-07-2019 13:07:41 , En el Fuente: 			        .cargardatosctacte()      
+04-07-2019 13:07:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:41 , Objeto      : regfacvta.cargardatosctacte
+04-07-2019 13:07:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:41 , Nº de Linea :          6
+04-07-2019 13:07:41 , En el Fuente: 	this.key_43()
+04-07-2019 13:07:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:42 , Objeto      : regfacvta.key_43
+04-07-2019 13:07:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:42 , Nº de Linea :         11
+04-07-2019 13:07:42 , En el Fuente: 	thisform.actualizar()
+04-07-2019 13:07:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:42 , Objeto      : regfacvta.actualizar
+04-07-2019 13:07:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:42 , Nº de Linea :         81
+04-07-2019 13:07:42 , En el Fuente: 						llok = .grabardato()	      	 
+04-07-2019 13:07:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:42 , Objeto      : regfacvta.grabardato
+04-07-2019 13:07:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 13:07:42 , Nº de Linea :        153
+04-07-2019 13:07:42 , En el Fuente: 	llok = loObjNeg.Salvar('CsrMaopera')
+04-07-2019 13:07:42 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
+04-07-2019 13:07:42 , Objeto      : regfacvta.odatamaopera.salvar
+04-07-2019 13:07:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
+04-07-2019 13:07:42 , Nº de Linea :         28
+04-07-2019 13:07:42 , En el Fuente: lbactok=this.salvarcambios()
+04-07-2019 13:07:42 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
+04-07-2019 13:07:42 , Objeto      : regfacvta.odatamaopera.salvarcambios
+04-07-2019 13:07:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
+04-07-2019 13:07:42 , Nº de Linea :         73
+04-07-2019 13:07:42 , En el Fuente: 		lbactok=lahijos(i).salvarcambios()
+04-07-2019 13:07:42 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
+04-07-2019 13:07:42 , Objeto      : regfacvta.odatatopes.salvarcambios
+04-07-2019 13:07:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
+04-07-2019 13:07:42 , Nº de Linea :          7
+04-07-2019 13:07:42 , En el Fuente: select (this.cAlias)
