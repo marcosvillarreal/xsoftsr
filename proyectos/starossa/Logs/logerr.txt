@@ -116,3 +116,30 @@
 04-07-2019 12:07:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
 04-07-2019 12:07:23 , Nº de Linea :        159
 04-07-2019 12:07:23 , En el Fuente: 		IF lnTipo#3
+04-07-2019 12:47:29 , REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra la variable 'L'.;Linea : lnmulti = IIF(nTipo=3,-1,l) * lnmulti;Error :         12;Ultimo Alias Activo: CSRAUXCUERVARI;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A39L00A6.TMP;Ultimo Control activo: 
+04-07-2019 12:47:29 , Pila de llamadas
+04-07-2019 12:47:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Objeto      : regfacvta.grid2.column2.text1.keypress
+04-07-2019 12:47:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Nº de Linea :         14
+04-07-2019 12:47:29 , En el Fuente:       this.LostFocus()
+04-07-2019 12:47:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Objeto      : regfacvta.grid2.column2.text1.lostfocus
+04-07-2019 12:47:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Nº de Linea :          4
+04-07-2019 12:47:29 , En el Fuente: 		thisform.kitbuscarProd.f_lostfocusSay()
+04-07-2019 12:47:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Objeto      : regfacvta.kitbuscarprod.f_lostfocussay
+04-07-2019 12:47:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Nº de Linea :         28
+04-07-2019 12:47:29 , En el Fuente: 	IF thisform.controlfactura(1) OR thisform.leyendocuerpedido
+04-07-2019 12:47:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Objeto      : regfacvta.controlfactura
+04-07-2019 12:47:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Nº de Linea :         76
+04-07-2019 12:47:29 , En el Fuente: 		IF NOT This.controlartopes(1)
+04-07-2019 12:47:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Objeto      : regfacvta.controlartopes
+04-07-2019 12:47:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
+04-07-2019 12:47:29 , Nº de Linea :        132
+04-07-2019 12:47:29 , En el Fuente: 	lnmulti = IIF(nTipo=3,-1,l) * lnmulti
