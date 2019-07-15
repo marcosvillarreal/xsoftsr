@@ -207,3 +207,25 @@
 04-07-2019 13:48:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta.sct
 04-07-2019 13:48:19 , Nº de Linea :        349
 04-07-2019 13:48:19 , En el Fuente: 		    GATHER NAME Oscatter 	      
+15-07-2019 11:41:48 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No coinciden los tipos de datos.;Linea : replace numProveed WITH 0,nomProveed WITH 'TOTALES',ventas WITH nVentas ,bonciva WITH nBonif,importes WITH nTotal;Error :          9;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:         45 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009ATL01FT.TMP;Ultimo Control activo: 
+15-07-2019 11:41:48 , Pila de llamadas
+15-07-2019 11:41:48 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+15-07-2019 11:41:48 , Objeto      : ventasporfecha.imprimir_vistaprevia1.excel.click
+15-07-2019 11:41:48 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+15-07-2019 11:41:48 , Nº de Linea :          8
+15-07-2019 11:41:48 , En el Fuente: llOK=thisform.CrearInforme()
+15-07-2019 11:41:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
+15-07-2019 11:41:48 , Objeto      : ventasporfecha.crearinforme
+15-07-2019 11:41:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
+15-07-2019 11:41:48 , Nº de Linea :        250
+15-07-2019 11:41:48 , En el Fuente: DODEFAULT()
+15-07-2019 11:41:48 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+15-07-2019 11:41:48 , Objeto      : informe.crearinforme
+15-07-2019 11:41:48 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+15-07-2019 11:41:48 , Nº de Linea :          1
+15-07-2019 11:41:48 , En el Fuente: thisform.crearheader()
+15-07-2019 11:41:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
+15-07-2019 11:41:48 , Objeto      : ventasporfecha.crearheader
+15-07-2019 11:41:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
+15-07-2019 11:41:48 , Nº de Linea :         73
+15-07-2019 11:41:48 , En el Fuente: 			replace numProveed WITH 0,nomProveed WITH 'TOTALES',ventas WITH nVentas				,bonciva WITH nBonif,importes WITH nTotal
