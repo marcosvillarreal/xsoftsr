@@ -229,3 +229,10 @@
 15-07-2019 11:41:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
 15-07-2019 11:41:48 , Nº de Linea :         73
 15-07-2019 11:41:48 , En el Fuente: 			replace numProveed WITH 0,nomProveed WITH 'TOTALES',ventas WITH nVentas				,bonciva WITH nBonif,importes WITH nTotal
+18-07-2019 11:20:21 , LISTAPADRON.PAGEFRAME1.PAGE1.KITGRILLATILDARVENDEDOR.INIT, Error: El archivo 'csrvendedor.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+18-07-2019 11:20:21 , Pila de llamadas
+18-07-2019 11:20:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+18-07-2019 11:20:22 , Objeto      : listapadron.pageframe1.page1.kitgrillatildarvendedor.init
+18-07-2019 11:20:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+18-07-2019 11:20:22 , Nº de Linea :         35
+18-07-2019 11:20:22 , En el Fuente:       select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid         ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07         ,&lc8 as wcampo08,&lc9 as wcampo09       from &lcalias       order by &lcorden into cursor &micursor READWRITE
