@@ -316,3 +316,15 @@
 01-08-2019 10:42:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
 01-08-2019 10:42:00 , Nº de Linea :         56
 01-08-2019 10:42:00 , En el Fuente: SELECT *,VAL(CodCtacte) Orden FROM CsrCursor ORDER BY Orden INTO CURSOR CsrImport2 READWRITE 
+01-08-2019 13:35:55 , DEBCREDFISCAL.CMDBUSCAR.CLICK, Error: No se encuentra el alias 'CSRIMPRIMIR'.;Linea : SELECT CsrImprimir;Error :         13;Ultimo Alias Activo: CSRCOMPVENTA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000603T023U.TMP;Ultimo Control activo: 
+01-08-2019 13:35:55 , Pila de llamadas
+01-08-2019 13:35:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\debcredfiscal.sct
+01-08-2019 13:35:55 , Objeto      : debcredfiscal.cmdbuscar.click
+01-08-2019 13:35:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\debcredfiscal.sct
+01-08-2019 13:35:55 , Nº de Linea :          1
+01-08-2019 13:35:55 , En el Fuente: IF NOT thisform.consultar()
+01-08-2019 13:35:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\debcredfiscal.sct
+01-08-2019 13:35:55 , Objeto      : debcredfiscal.consultar
+01-08-2019 13:35:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\debcredfiscal.sct
+01-08-2019 13:35:55 , Nº de Linea :         85
+01-08-2019 13:35:55 , En el Fuente: SELECT CsrImprimir
