@@ -1,3 +1,19 @@
+
+
+FUNCTION BuscarTag(tcTabla, tcTag)
+	llRet = .f.
+	*stop()
+	IF USED (tcTabla) 
+		SELECT (tcTabla)
+		IF ATAGINFO(laTag) > 0
+			llRet = ASCAN(laTag,UPPER(tcTag),-1,-1,1,1) > 0
+		ELSE
+			llRet = .F.
+		ENDIF
+	ENDIF 
+	RETURN llRet
+ENDFUNC
+
 FUNCTION A_RED
 parameters _aredondeo,_aimporte
 
