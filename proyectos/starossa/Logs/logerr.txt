@@ -1,448 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ctivo: CSRIMPRIMIR;Ultimo registro:       2079 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A6TL01HV.TMP;Ultimo Control activo: 
-05-08-2019 15:37:38 , Pila de llamadas
-05-08-2019 15:37:38 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-05-08-2019 15:37:38 , Objeto      : ventasporfecha.imprimir_vistaprevia1.excel.click
-05-08-2019 15:37:39 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-05-08-2019 15:37:39 , Nº de Linea :          8
-05-08-2019 15:37:40 , En el Fuente: llOK=thisform.CrearInforme()
-05-08-2019 15:37:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
-05-08-2019 15:37:41 , Objeto      : ventasporfecha.crearinforme
-05-08-2019 15:37:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
-05-08-2019 15:37:41 , Nº de Linea :        250
-05-08-2019 15:37:41 , En el Fuente: DODEFAULT()
-05-08-2019 15:37:42 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-05-08-2019 15:37:42 , Objeto      : informe.crearinforme
-05-08-2019 15:37:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-05-08-2019 15:37:43 , Nº de Linea :          1
-05-08-2019 15:37:43 , En el Fuente: thisform.crearheader()
-05-08-2019 15:37:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
-05-08-2019 15:37:44 , Objeto      : ventasporfecha.crearheader
-05-08-2019 15:37:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
-05-08-2019 15:37:44 , Nº de Linea :         72
-05-08-2019 15:37:45 , En el Fuente: 			SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva			,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes			,0 as bonifm,'=(G'+strtrim(RECNO()+2,3)+'*100)/(G'+strtrim(REC
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NO()+2,3)+'+F'+strtrim(RECNO()+2,3)+')' as calculo_bon			FROM CsrImprimir			WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITE
-09-08-2019 11:15:57 , MAIN, Error: No se encuentra el alias.;Linea : Oca = GETCURSORADAPTER(lcalias);Error :         13;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AKG901DF.TMP;Ultimo Control activ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-o: NUMERO
-09-08-2019 11:15:58 , Pila de llamadas
-09-08-2019 11:15:58 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-09-08-2019 11:15:58 , Objeto      : main
-09-08-2019 11:15:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-09-08-2019 11:15:59 , Nº de Linea :        248
 09-08-2019 11:15:59 , En el Fuente: 	Read events   
 09-08-2019 11:15:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\regctacte.sct
 09-08-2019 11:16:00 , Objeto      : regctacte.keypress
@@ -646,6 +201,11 @@ o: NUMERO
 
 
 
+
+
+
+
+
 timo Control activo: 
 09-08-2019 11:16:33 , Pila de llamadas
 09-08-2019 11:16:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
@@ -674,6 +234,11 @@ timo Control activo:
 09-08-2019 11:16:38 , Nº de Linea :         19
 09-08-2019 11:16:39 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
 09-08-2019 11:16:48 , PIDOPAGOS.KEYPRESS, Error: No se encuentra el alias.;Linea : Oca = GETCURSORADAPTER(lcalias);Error :         13;Ultimo Alias Activo: CSRPAGO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AKG901DF.TMP;Ultimo
+
+
+
+
+
 
 
 
@@ -1013,6 +578,11 @@ timo Control activo:
 
 
 
+
+
+
+
+
 timo Control activo: CNOMBRE
 09-08-2019 11:20:07 , Pila de llamadas
 09-08-2019 11:20:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\caja\pidopagos_v2.sct
@@ -1041,6 +611,11 @@ timo Control activo: CNOMBRE
 09-08-2019 11:20:14 , Nº de Linea :         19
 09-08-2019 11:20:14 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
 12-08-2019 14:43:40 , REGFACVTA.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,
+
+
+
+
+
 
 
 
@@ -1268,7 +843,17 @@ timo Control activo: CNOMBRE
 
 
 
+
+
+
+
+
 00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,00000000
+
+
+
+
+
 
 
 
@@ -1496,7 +1081,17 @@ timo Control activo: CNOMBRE
 
 
 
+
+
+
+
+
 00000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,000
+
+
+
+
+
 
 
 
@@ -1724,7 +1319,17 @@ timo Control activo: CNOMBRE
 
 
 
+
+
+
+
+
 0000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :    
+
+
+
+
+
 
 
 
@@ -1959,7 +1564,17 @@ timo Control activo: CNOMBRE
 
 
 
+
+
+
+
+
 s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
+
+
+
+
+
 
 
 
@@ -2179,7 +1794,17 @@ a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomre
 
 
 
+
+
+
+
+
 e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
+
+
+
+
+
 
 
 
@@ -2399,7 +2024,17 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
+
  as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
+
+
+
+
+
 
 
 
@@ -2619,8 +2254,18 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
+
  READWRITE  
 14-08-2019 10:19:45 , REGFACVTA.INIT, Error: No se encuentra la variable 'LCCMD'.;Linea : IF !thisform.obtenerdatos('Csrcomprobante',lccmd);Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         19 ;DBF: C:\USERS\ADMIN\APPDATA\LOC
+
+
+
+
+
 
 
 
@@ -2846,6 +2491,11 @@ AL\TEMP\00006V4900AR.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
 MP\0000CMX500DQ.TMP;Ultimo Control activo: 
 15-08-2019 11:37:16 , Pila de llamadas
 15-08-2019 11:37:17 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -2864,6 +2514,11 @@ MP\0000CMX500DQ.TMP;Ultimo Control activo:
 15-08-2019 11:37:19 , Nº de Linea :       1941
 15-08-2019 11:37:19 , En el Fuente: 				CASE  LEN(TRIM(lcparam2))=0
 15-08-2019 15:07:13 , LISTAETIQUETA.KITGRILLATILDARSTOCK.INIT, Error: El archivo 'csrproducto.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as
+
+
+
+
+
 
 
 
@@ -3067,8 +2722,18 @@ MP\0000CMX500DQ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
 ursor &micursor READWRITE
 21-08-2019 12:42:34 , MAIN, Error: No se encuentra la variable 'IDARTICULO'.;Linea : COUNT ALL FOR tasaiva=0 AND idarticulo#0 TO lHayTasaZero;Error :         12;Ultimo Alias Activo: CSRCABEIMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCA
+
+
+
+
+
 
 
 
@@ -3282,7 +2947,17 @@ L\TEMP\0000CU8904L2.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
 os as interno ,IIF(lnProveedor=1,idproveed,CAST(0 as int)) as idproveed ,IIF(lnProveedor=1,nomproveed,SPACE(30)) as nomproveed ,IIF(lnProveedor=1,numproveed,SPACE(10)) as numproveed FROM csr1 LEFT JOIN CsrDatos ON Csr1.idarticulo = CsrDatos.id INTO CURSO
+
+
+
+
+
 
 
 
@@ -3460,8 +3135,18 @@ R CsrImprimir READWRITE;Error :          1;Ultimo Alias Activo: CSR1;Ultimo regi
 
 
 
+
+
+
+
+
 d,SPACE(30)) as nomproveed,IIF(lnProveedor=1,numproveed,SPACE(10)) as numproveedFROM csr1 LEFT JOIN CsrDatos ON Csr1.idarticulo = CsrDatos.id INTO CURSOR CsrImprimir READWRITE 
 22-08-2019 11:04:24 , VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: no se encuentra la columna 'IDCATEGORIA'.;Linea : SELECT Csrimprimir.* FROM Csrimprimir UNION select CsrRestas.* FROM CsrRestas UNION select CsrTotales.* FROM Csr
+
+
+
+
+
 
 
 
@@ -3630,8 +3315,18 @@ Totales ORDER BY  grupo, idfletero, idvendedor,idproveed,idcategoria, idasociado
 
 
 
+
+
+
+
+
 mprimir READWRITE 
 23-08-2019 15:19:18 , REGFACVTAPUB.LOAD, Error: El archivo 'csrcuerfac.dbf' no existe.;Linea : SELECT CsrCuerfac.*,0000000.00 as stock,0000000.00 as total,CAST(0 as int) as idcuerfac,0000000.000 as desctoCiva,0000000.000 as DesctoSiva ,CAST(0 as numeric(
+
+
+
+
+
 
 
 
@@ -3783,6 +3478,11 @@ mprimir READWRITE
 
 
 
+
+
+
+
+
 T(0 as int) as idctavta,00000000.000 as UniCiva,00000000.000 as UniSiva,00000000.000 as IvaUni,00000000.000 as UniCiva2 ,00000000.000 as UniSiva2,00000000.000 as IvaUni2,CAST(0 as int) as idenvase,CAST(0 as int) as idprodgenera,0000 as hojaactual ,0 as b
 
 
@@ -3859,7 +3559,17 @@ T(0 as int) as idctavta,00000000.000 as UniCiva,00000000.000 as UniSiva,00000000
 
 
 
+
+
+
+
+
 ondigitada,CAST(0 as int) as minimofac,SPACE(10+6) as clavepedido,CAST(0 as int) as registropromgen ,0 as noctrolstock,space(15) as codigo15, 0 as vtakilos FROM CsrCuerfac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCuerfac READWRITE;Error :          1;Ul
+
+
+
+
+
 
 
 
@@ -4018,7 +3728,17 @@ timo Alias Activo: CSRAUXMAOPERA;Ultimo registro:          1 ;DBF: C:\USERS\ADMI
 
 
 
+
+
+
+
+
 alcohol,' ' as codvalido,CAST(0 as int) as idcabeunifica	   ,CAST(0 as int) as idprodpromo,CAST(0 as int) as idprodregalo,000000 as cada,000000 as entrega,0 as nofactura,00000000.000 as InternoFin	   ,CAST(0 as int) as idctavta,00000000.000 as UniCiva,00
+
+
+
+
+
 
 
 
@@ -4162,8 +3882,18 @@ alcohol,' ' as codvalido,CAST(0 as int) as idcabeunifica	   ,CAST(0 as int) as i
 
 
 
+
+
+
+
+
 ACE(10+6) as clavepedido,CAST(0 as int) as registropromgen;      	        	   
 23-08-2019 15:21:30 , REGFACVTAPUB.INIT, Error: No se encuentra la variable 'IDFLETERO'.;Linea : thisform.lnidfletero	= NVL(CsrSeteoTermi.idfletero,1038);Error :         12;Ultimo Alias Activo: CSRSETEOTERMI;Ultimo registro:          1 ;DBF: C:\USERS\ADM
+
+
+
+
+
 
 
 
@@ -4328,6 +4058,11 @@ IN\APPDATA\LOCAL\TEMP\00006HVT00M1.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
 06HVT00XZ.TMP;Ultimo Control activo: 
 23-08-2019 15:24:16 , Pila de llamadas
 23-08-2019 15:24:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -4346,6 +4081,11 @@ IN\APPDATA\LOCAL\TEMP\00006HVT00M1.TMP;Ultimo Control activo:
 23-08-2019 15:24:20 , Nº de Linea :         29
 23-08-2019 15:24:20 , En el Fuente: SELECT Csrprodfzavta
 23-08-2019 15:27:51 , REGFACVTAPUB.KEYPRESS, Error: El archivo 'j:\xsoftsr\proyectos\starossa\csrauxexistenc.dbf' no existe.;Linea : USE (tcTabla) IN SELECT(JUSTSTEM(tcTabla));Error :          1;Ultimo Alias Activo: FSREXISTENCIA;Ultimo registro:        
+
+
+
+
+
 
 
 
@@ -4483,6 +4223,11 @@ IN\APPDATA\LOCAL\TEMP\00006HVT00M1.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
 ERS\ADMIN\APPDATA\LOCAL\TEMP\0000AFIH00EU.TMP;Ultimo Control activo: 
 23-08-2019 15:32:50 , Pila de llamadas
 23-08-2019 15:32:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -4526,6 +4271,11 @@ ERS\ADMIN\APPDATA\LOCAL\TEMP\0000AFIH00EU.TMP;Ultimo Control activo:
 23-08-2019 15:32:59 , Nº de Linea :          7
 23-08-2019 15:33:00 , En el Fuente: 		IF ATAGINFO(laTag,,,tcTabla) > 0
 23-08-2019 15:33:09 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la variable 'LATAG'.;Linea : llRet = ASCAN(laTag,tcTag,-1,-1,1,1) > 0;Error :         12;Ultimo Alias Activo: FSREXISTENCIA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL
+
+
+
+
+
 
 
 
@@ -4613,6 +4363,11 @@ ERS\ADMIN\APPDATA\LOCAL\TEMP\0000AFIH00EU.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
 RS\ADMIN\APPDATA\LOCAL\TEMP\00001Q15014N.TMP;Ultimo Control activo: 
 04-09-2019 10:43:26 , Pila de llamadas
 04-09-2019 10:43:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -4653,6 +4408,11 @@ RS\ADMIN\APPDATA\LOCAL\TEMP\00001Q15014N.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
 tro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083RD00S7.TMP;Ultimo Control activo: PARADA
 04-09-2019 13:00:20 , Pila de llamadas
 04-09-2019 13:00:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -4673,6 +4433,11 @@ tro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083RD00S7.TMP
 04-09-2019 13:36:37 , REGFACVTAPUB.KEYPRESS, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF thisform.idctactegral = CsrAuxCabefac.idctacte;Error :        107;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:        
 
 
+
+
+
+
+
   1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009PFT04AO.TMP;Ultimo Control activo: 
 04-09-2019 13:36:37 , Pila de llamadas
 04-09-2019 13:36:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -4685,3 +4450,43 @@ tro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000083RD00S7.TMP
 04-09-2019 13:36:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
 04-09-2019 13:36:39 , Nº de Linea :         32
 04-09-2019 13:36:39 , En el Fuente: IF thisform.idctactegral = CsrAuxCabefac.idctacte 
+04-09-2019 14:24:59 , REGFACVTA.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,
+
+
+
+000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,
+
+
+
+00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,00000000
+
+
+
+0.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,000
+
+
+
+00000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,000
+
+
+
+00000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,0
+
+
+
+0000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :    
+
+
+
+      1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+04-09-2019 14:25:00 , Pila de llamadas
+04-09-2019 14:25:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
+04-09-2019 14:25:01 , Objeto      : regfacvta.load
+04-09-2019 14:25:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
+04-09-2019 14:25:01 , Nº de Linea :          3
+04-09-2019 14:25:01 , En el Fuente: thisform.crearcursor()
+04-09-2019 14:25:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
+04-09-2019 14:25:01 , Objeto      : regfacvta.crearcursor
+04-09-2019 14:25:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
+04-09-2019 14:25:02 , Nº de Linea :         19
+04-09-2019 14:25:02 , En el Fuente: SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1	   ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2	   ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva   	   ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck       ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile       FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE  
