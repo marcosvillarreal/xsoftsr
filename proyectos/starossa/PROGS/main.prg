@@ -72,7 +72,7 @@ If lldesarrollo
    _rutaformst  =lcdd+'forms\stock'
    _rutaformcp  =lcdd+'forms\compras'
    _rutaformut  =lcdd+'forms\util'
-   _rutaformtar  =lcdd+'forms\tarjeta'
+   _rutaformtar  =lcdd+'forms\tarjetas'
    Set default to (lcdd) &&;(lcddc)
 
    Set path to &_rutaclases,&_rutaprogs,&_rutamenu,&_rutadatos,&_rutabmps,&_rutaforms;
