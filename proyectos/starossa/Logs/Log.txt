@@ -93,3 +93,9 @@
 27-09-2019 14:11:58 , Linea nº SELECT CsrExistencError nº:         13Error No se encuentra el alias 'CSREXISTENC'. Alias CSRCOMPROBANTE registro          1Control activo  REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 03-10-2019 10:42:49 , Linea nº IF lObjeto.esEAN13Error nº:          9Error No coinciden los tipos de datos. Alias CSRPRODUCTO registro          1Control activo CODIGO15 REGFACVTAPUB.GRID2.COLUMN1.TEXT1.VALID
 04-10-2019 15:44:29 , Linea nº SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITEError nº:          1Error El archivo 'csrcursor.dbf' no existe. Alias CSRCTACTE registro          1Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+25-10-2019 13:58:15 , Linea nº IF CsrProdFzaVta.topeofiprod#0Error nº:         12Error No se encuentra la variable 'TOPEOFIPROD'. Alias CSRPRODFZAVTA registro          1Control activo CODIGO MAIN
+25-10-2019 14:06:57 , Linea nº IF CsrProdFzaVta.topeofiprod#0Error nº:         12Error No se encuentra la variable 'TOPEOFIPROD'. Alias CSRPRODFZAVTA registro          1Control activo CODIGO MAIN
+25-10-2019 14:13:35 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0Error nº:       1734Error No se encuentra la propiedad MINIMOTOFI. Alias CSRPRODFZAVTA registro          1Control activo CODIGO MAIN
+25-10-2019 14:13:40 , Linea nº lntopeOfi	= IIF(NVL(Oscatter.minimotofi,0) > lnCantFinal,0,lntopeOfi)Error nº:       1734Error No se encuentra la propiedad MINIMOTOFI. Alias CSRPRODFZAVTA registro          1Control activo  MAIN
+25-10-2019 14:15:50 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0Error nº:       1734Error No se encuentra la propiedad MINIMOTOFI. Alias CSRPRODFZAVTA registro          1Control activo CODIGO MAIN
+25-10-2019 14:20:04 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0Error nº:       1734Error No se encuentra la propiedad MINIMOTOFI. Alias CSRPRODFZAVTA registro       5031Control activo CODIGO MAIN
