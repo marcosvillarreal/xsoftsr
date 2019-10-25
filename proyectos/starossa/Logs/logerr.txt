@@ -1,8 +1,3 @@
-12-09-2019 09:27:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:27:11 , Objeto      : rindearqueo.recuperarpagos
-12-09-2019 09:27:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:27:11 , Nº de Linea :         36
-12-09-2019 09:27:11 , En el Fuente: 	replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle))			,fechavto WITH OscPago.fecha,importe WITH OscPago.importe			,numero with OscPago.vnumero,cnombre with OscPago
 
 
 
@@ -132,4790 +127,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.vnombre			,idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgo
-12-09-2019 09:28:58 , RINDEARQUEO.GRID2.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgo;Error :          9;Ultimo Alias Activo: CSRRENDIFLE;Ultimo registro:          3 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TEMP\0000CCND00PF.TMP;Ultimo Control activo: 
-12-09-2019 09:28:59 , Pila de llamadas
-12-09-2019 09:28:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:28:59 , Objeto      : rindearqueo.grid2.keypress
-12-09-2019 09:28:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:29:00 , Nº de Linea :          6
-12-09-2019 09:29:00 , En el Fuente:         thisform.llamardetalle
-12-09-2019 09:29:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:29:01 , Objeto      : rindearqueo.llamardetalle
-12-09-2019 09:29:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:29:01 , Nº de Linea :         12
-12-09-2019 09:29:02 , En el Fuente: 		thisform.pidovalores()
-12-09-2019 09:29:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:29:02 , Objeto      : rindearqueo.pidovalores
-12-09-2019 09:29:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:29:02 , Nº de Linea :         20
-12-09-2019 09:29:02 , En el Fuente: = thisform.RecuperarPagos()
-12-09-2019 09:29:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:29:03 , Objeto      : rindearqueo.recuperarpagos
-12-09-2019 09:29:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 09:29:04 , Nº de Linea :         36
-12-09-2019 09:29:04 , En el Fuente: 	replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle))			,fechavto WITH OscPago.fecha,importe WITH OscPago.importe			,numero with OscPago.vnumero,cnombre with OscPago
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.vnombre			,idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgo
-12-09-2019 10:35:26 , MAIN, Error: El archivo 'j:\xsoftsr\proyectos\starossa\submovtarjeta.scx' no existe.;Linea : DO FORM &lcForm WITH lcparam1;Error :          1;Ultimo Alias Activo: CURPERFIL;Ultimo registro:        203 ;DBF: C:\USERS\ADMIN\APPDATA\LO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CAL\TEMP\0000A3NT00BD.TMP;Ultimo Control activo: 
-12-09-2019 10:35:26 , Pila de llamadas
-12-09-2019 10:35:27 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-12-09-2019 10:35:27 , Objeto      : main
-12-09-2019 10:35:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-12-09-2019 10:35:27 , Nº de Linea :        249
-12-09-2019 10:35:28 , En el Fuente: 	Read events   
-12-09-2019 10:35:28 , Programa    : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-12-09-2019 10:35:28 , Objeto      : frmmenu1.treeview.dblclick
-12-09-2019 10:35:29 , Base Objeto : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-12-09-2019 10:35:29 , Nº de Linea :         10
-12-09-2019 10:35:29 , En el Fuente: 	   &lcCmd
-12-09-2019 10:35:29 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-12-09-2019 10:35:29 , Objeto      : ejecutamenu
-12-09-2019 10:35:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-12-09-2019 10:35:29 , Nº de Linea :       1958
-12-09-2019 10:35:30 , En el Fuente: 					 DO FORM &lcForm WITH lcparam1
-12-09-2019 10:38:17 , MAIN, Error: El archivo 'j:\xsoftsr\proyectos\starossa\submovbtarjeta.scx' no existe.;Linea : DO FORM &lcForm WITH lcparam1;Error :          1;Ultimo Alias Activo: CURPERFIL;Ultimo registro:        203 ;DBF: C:\USERS\ADMIN\APPDATA\L
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OCAL\TEMP\0000A3NT00NZ.TMP;Ultimo Control activo: 
-12-09-2019 10:38:17 , Pila de llamadas
-12-09-2019 10:38:17 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-12-09-2019 10:38:17 , Objeto      : main
-12-09-2019 10:38:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-12-09-2019 10:38:18 , Nº de Linea :        249
-12-09-2019 10:38:18 , En el Fuente: 	Read events   
-12-09-2019 10:38:18 , Programa    : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-12-09-2019 10:38:18 , Objeto      : frmmenu1.treeview.dblclick
-12-09-2019 10:38:19 , Base Objeto : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-12-09-2019 10:38:19 , Nº de Linea :         10
-12-09-2019 10:38:19 , En el Fuente: 	   &lcCmd
-12-09-2019 10:38:20 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-12-09-2019 10:38:20 , Objeto      : ejecutamenu
-12-09-2019 10:38:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-12-09-2019 10:38:20 , Nº de Linea :       1958
-12-09-2019 10:38:20 , En el Fuente: 					 DO FORM &lcForm WITH lcparam1
-12-09-2019 10:39:33 , MAIN, Error: El archivo 'j:\xsoftsr\proyectos\starossa\submovbtarjeta.scx' no existe.;Linea : DO FORM &lcForm WITH lcparam1;Error :          1;Ultimo Alias Activo: CURPERFIL;Ultimo registro:        203 ;DBF: C:\USERS\ADMIN\APPDATA\L
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OCAL\TEMP\0000A3NT010P.TMP;Ultimo Control activo: 
-12-09-2019 10:39:33 , Pila de llamadas
-12-09-2019 10:39:34 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-12-09-2019 10:39:34 , Objeto      : main
-12-09-2019 10:39:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-12-09-2019 10:39:35 , Nº de Linea :        249
-12-09-2019 10:39:35 , En el Fuente: 	Read events   
-12-09-2019 10:39:35 , Programa    : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-12-09-2019 10:39:36 , Objeto      : frmmenu1.treeview.dblclick
-12-09-2019 10:39:36 , Base Objeto : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-12-09-2019 10:39:36 , Nº de Linea :         10
-12-09-2019 10:39:36 , En el Fuente: 	   &lcCmd
-12-09-2019 10:39:36 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-12-09-2019 10:39:36 , Objeto      : ejecutamenu
-12-09-2019 10:39:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-12-09-2019 10:39:37 , Nº de Linea :       1958
-12-09-2019 10:39:37 , En el Fuente: 					 DO FORM &lcForm WITH lcparam1
-12-09-2019 10:44:02 , MAIN, Error: COLUMN011 es un miembro desconocido.;Linea : .Column011.Header = "Cuotas";Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000A3NT01GJ.TMP;Ultimo C
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ontrol activo: 
-12-09-2019 10:44:03 , Pila de llamadas
-12-09-2019 10:44:03 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-12-09-2019 10:44:03 , Objeto      : main
-12-09-2019 10:44:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-12-09-2019 10:44:04 , Nº de Linea :        249
-12-09-2019 10:44:04 , En el Fuente: 	Read events   
-12-09-2019 10:44:04 , Programa    : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-12-09-2019 10:44:05 , Objeto      : frmmenu1.treeview.dblclick
-12-09-2019 10:44:05 , Base Objeto : j:\xsoftsr\desarrollo\forms\frmmenu.sct
-12-09-2019 10:44:05 , Nº de Linea :         10
-12-09-2019 10:44:06 , En el Fuente: 	   &lcCmd
-12-09-2019 10:44:06 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-12-09-2019 10:44:06 , Objeto      : ejecutamenu
-12-09-2019 10:44:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-12-09-2019 10:44:06 , Nº de Linea :       1958
-12-09-2019 10:44:06 , En el Fuente: 					 DO FORM &lcForm WITH lcparam1
-12-09-2019 10:44:07 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-12-09-2019 10:44:07 , Objeto      : submovtarjeta.imprimir_vistaprevia1.excel.click
-12-09-2019 10:44:07 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-12-09-2019 10:44:08 , Nº de Linea :          8
-12-09-2019 10:44:08 , En el Fuente: llOK=thisform.CrearInforme()
-12-09-2019 10:44:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\submovtarjeta.sct
-12-09-2019 10:44:09 , Objeto      : submovtarjeta.crearinforme
-12-09-2019 10:44:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\submovtarjeta.sct
-12-09-2019 10:44:09 , Nº de Linea :         43
-12-09-2019 10:44:09 , En el Fuente: DODEFAULT()
-12-09-2019 10:44:09 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-12-09-2019 10:44:09 , Objeto      : informe.crearinforme
-12-09-2019 10:44:10 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-12-09-2019 10:44:10 , Nº de Linea :          1
-12-09-2019 10:44:10 , En el Fuente: thisform.crearheader()
-12-09-2019 10:44:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\submovtarjeta.sct
-12-09-2019 10:44:11 , Objeto      : submovtarjeta.crearheader
-12-09-2019 10:44:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\submovtarjeta.sct
-12-09-2019 10:44:11 , Nº de Linea :         55
-12-09-2019 10:44:12 , En el Fuente: 			.Column011.Header = "Cuotas"			
-12-09-2019 11:06:52 , RINDEARQUEO.CONTENEDORREPORTE.CMDIMPRIMIRTESO.CLICK, Error: El campo MOVIMIENTO no acepta valores NULL.;Linea : GATHER NAME OscImprimir;Error :       1581;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:         26 GRUPO+STR(ORDEN,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12)+SUBGRUPO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BOCP00ET.TMP;Ultimo Control activo: 
-12-09-2019 11:06:52 , Pila de llamadas
-12-09-2019 11:06:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 11:06:53 , Objeto      : rindearqueo.contenedorreporte.cmdimprimirteso.click
-12-09-2019 11:06:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 11:06:54 , Nº de Linea :          1
-12-09-2019 11:06:54 , En el Fuente: thisform.crearlistadoteso
-12-09-2019 11:06:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 11:06:55 , Objeto      : rindearqueo.crearlistadoteso
-12-09-2019 11:06:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-12-09-2019 11:06:55 , Nº de Linea :        227
-12-09-2019 11:06:56 , En el Fuente: 		GATHER NAME OscImprimir 
-12-09-2019 15:48:40 , REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No se encuentra la propiedad LNMODULO567EXENTOS.;Linea : IF This.lnModulo567Exentos;Error :       1734;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-APPDATA\LOCAL\TEMP\00003GG90720.TMP;Ultimo Control activo: 
-12-09-2019 15:48:40 , Pila de llamadas
-12-09-2019 15:48:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-12-09-2019 15:48:41 , Objeto      : regfacvta.grid2.column2.text1.keypress
-12-09-2019 15:48:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-12-09-2019 15:48:41 , Nº de Linea :         14
-12-09-2019 15:48:41 , En el Fuente:       this.LostFocus()
-12-09-2019 15:48:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-12-09-2019 15:48:42 , Objeto      : regfacvta.grid2.column2.text1.lostfocus
-12-09-2019 15:48:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-12-09-2019 15:48:43 , Nº de Linea :          4
-12-09-2019 15:48:43 , En el Fuente: 		thisform.kitbuscarProd.f_lostfocusSay()
-12-09-2019 15:48:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-12-09-2019 15:48:44 , Objeto      : regfacvta.kitbuscarprod.f_lostfocussay
-12-09-2019 15:48:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-12-09-2019 15:48:44 , Nº de Linea :         16
-12-09-2019 15:48:44 , En el Fuente: IF This.lnModulo567Exentos
-16-09-2019 11:35:24 , SUBIVAVTA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: El archivo 'csrauximprimir.dbf' no existe.;Linea : SELECT CsrAuxImprimir.* FROM CsrAuxImprimir WHERE RECNO()<1 INTO CURSOR CsrImprimir READWRITE;Error :          1;Ultimo Alias Act
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ivo: CSRCURSOR;Ultimo registro:         33 GRUPO+CHRFECHA+NUMCOMP;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000030UH003H.TMP;Ultimo Control activo: 
-16-09-2019 11:35:24 , Pila de llamadas
-16-09-2019 11:35:25 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-16-09-2019 11:35:25 , Objeto      : subivavta.imprimir_vistaprevia1.excel.click
-16-09-2019 11:35:25 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-16-09-2019 11:35:26 , Nº de Linea :          8
-16-09-2019 11:35:26 , En el Fuente: llOK=thisform.CrearInforme()
-16-09-2019 11:35:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\subivavta.sct
-16-09-2019 11:35:27 , Objeto      : subivavta.crearinforme
-16-09-2019 11:35:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\subivavta.sct
-16-09-2019 11:35:27 , Nº de Linea :         50
-16-09-2019 11:35:27 , En el Fuente: thisform.crearsubinforme(lcwhereRango,lcleftperiodo ,lcleftinterno ,lcwhereinterno)
-16-09-2019 11:35:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\subivavta.sct
-16-09-2019 11:35:27 , Objeto      : subivavta.crearsubinforme
-16-09-2019 11:35:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\subivavta.sct
-16-09-2019 11:35:28 , Nº de Linea :        457
-16-09-2019 11:35:28 , En el Fuente: 	SELECT CsrAuxImprimir.* FROM CsrAuxImprimir WHERE RECNO()<1 INTO CURSOR CsrImprimir READWRITE 
-16-09-2019 13:47:00 , REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la propiedad IMPORTANDOPEDIDOS.;Linea : IF this.importandopedidos;Error :       1734;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-F: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00001T6X016J.TMP;Ultimo Control activo: IDCOMPROBA
-16-09-2019 13:47:00 , Pila de llamadas
-16-09-2019 13:47:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-16-09-2019 13:47:01 , Objeto      : regfacvta.containerencabeza._txtparada.lostfocus
-16-09-2019 13:47:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-16-09-2019 13:47:01 , Nº de Linea :        139
-16-09-2019 13:47:02 , En el Fuente: 		IF this.importandopedidos
-17-09-2019 11:47:49 , REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: No se encuentra la propiedad UNIVTAORIG.;Linea : lnuniventa=This.loObjBonifica.univtaorig;Error :       1734;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo reg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-istro:          1 REGISTRO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004AVD01QY.TMP;Ultimo Control activo: 
-17-09-2019 11:47:49 , Pila de llamadas
-17-09-2019 11:47:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:50 , Objeto      : regfacvta.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.keypress
-17-09-2019 11:47:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:51 , Nº de Linea :         50
-17-09-2019 11:47:51 , En el Fuente: 				   	 	thisform.importarpedidos()
-17-09-2019 11:47:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:51 , Objeto      : regfacvta.importarpedidos
-17-09-2019 11:47:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:51 , Nº de Linea :          6
-17-09-2019 11:47:52 , En el Fuente: 	RETURN this.importarpedidos_Android()
-17-09-2019 11:47:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:52 , Objeto      : regfacvta.importarpedidos_android
-17-09-2019 11:47:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:53 , Nº de Linea :        463
-17-09-2019 11:47:53 , En el Fuente: 		IF .grid2_lostfocuscant()
-17-09-2019 11:47:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:53 , Objeto      : regfacvta.grid2_lostfocuscant
-17-09-2019 11:47:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:54 , Nº de Linea :          5
-17-09-2019 11:47:54 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-17-09-2019 11:47:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:54 , Objeto      : regfacvta.grid2_control
-17-09-2019 11:47:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:55 , Nº de Linea :        234
-17-09-2019 11:47:55 , En el Fuente:    	  .controlbonificacion()
-17-09-2019 11:47:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:56 , Objeto      : regfacvta.controlbonificacion
-17-09-2019 11:47:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 11:47:56 , Nº de Linea :         44
-17-09-2019 11:47:57 , En el Fuente: lnuniventa=This.loObjBonifica.univtaorig
-17-09-2019 12:08:58 , REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'TASAIVA'.;Linea : replace tasaiva WITH CsrProducto.tasaiva;Error :         12;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          9 ;DBF: C
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00004AVD06D4.TMP;Ultimo Control activo: IDCOMPROBA
-17-09-2019 12:08:59 , Pila de llamadas
-17-09-2019 12:09:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 12:09:00 , Objeto      : regfacvta.containerencabeza._txtparada.lostfocus
-17-09-2019 12:09:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 12:09:00 , Nº de Linea :        136
-17-09-2019 12:09:00 , En el Fuente: 	thisform.refresh_cuerpofac()
-17-09-2019 12:09:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 12:09:01 , Objeto      : regfacvta.refresh_cuerpofac
-17-09-2019 12:09:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 12:09:01 , Nº de Linea :         36
-17-09-2019 12:09:02 , En el Fuente: 	replace tasaiva WITH CsrProducto.tasaiva
-17-09-2019 12:10:17 , REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'TASAIVA'.;Linea : replace tasaiva WITH CsrProducto.tasa;Error :         12;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          9 ;DBF: C:\U
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SERS\ADMIN\APPDATA\LOCAL\TEMP\00004AVD074K.TMP;Ultimo Control activo: IDCOMPROBA
-17-09-2019 12:10:17 , Pila de llamadas
-17-09-2019 12:10:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 12:10:18 , Objeto      : regfacvta.containerencabeza._txtparada.lostfocus
-17-09-2019 12:10:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 12:10:19 , Nº de Linea :        136
-17-09-2019 12:10:19 , En el Fuente: 	thisform.refresh_cuerpofac()
-17-09-2019 12:10:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 12:10:19 , Objeto      : regfacvta.refresh_cuerpofac
-17-09-2019 12:10:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-17-09-2019 12:10:19 , Nº de Linea :         36
-17-09-2019 12:10:20 , En el Fuente: 	replace tasaiva WITH CsrProducto.tasa
-20-09-2019 14:06:13 , REGFACVTAPUB.GRID2.COLUMN2.TEXT1.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : replace prearti WITH lnpreunita,preartisiva WITH lnpreunitasiva IN CsrAuxCuerfac;Error :          9;Ultimo Alias Activo: CSRPRODUCTO;Ultimo r
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-egistro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00009MH5012T.TMP;Ultimo Control activo: 
-20-09-2019 14:06:13 , Pila de llamadas
-20-09-2019 14:06:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:06:13 , Objeto      : regfacvtapub.grid2.column2.text1.keypress
-20-09-2019 14:06:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:06:14 , Nº de Linea :         14
-20-09-2019 14:06:14 , En el Fuente:       this.LostFocus()
-20-09-2019 14:06:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:06:15 , Objeto      : regfacvtapub.grid2.column2.text1.lostfocus
-20-09-2019 14:06:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:06:15 , Nº de Linea :          4
-20-09-2019 14:06:16 , En el Fuente: 		thisform.kitbuscarProd.f_lostfocusSay()
-20-09-2019 14:06:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:06:16 , Objeto      : regfacvtapub.kitbuscarprod.f_lostfocussay
-20-09-2019 14:06:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:06:17 , Nº de Linea :         85
-20-09-2019 14:06:17 , En el Fuente: 		    replace prearti WITH lnpreunita,preartisiva WITH lnpreunitasiva IN CsrAuxCuerfac
-20-09-2019 14:52:25 , REGFACVTAPUB.KEYPRESS, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lcidmaopera = CHRTRAN(lcidmaopera,",","");Error :         11;Ultimo Alias Activo: CSRVENDEDOR;Ultimo registro:          1 ;DBF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000826H02NI.TMP;Ultimo Control activo: 
-20-09-2019 14:52:26 , Pila de llamadas
-20-09-2019 14:52:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:27 , Objeto      : regfacvtapub.keypress
-20-09-2019 14:52:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:27 , Nº de Linea :         93
-20-09-2019 14:52:27 , En el Fuente: 	        .cargardatosctacte()      
-20-09-2019 14:52:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:27 , Objeto      : regfacvtapub.cargardatosctacte
-20-09-2019 14:52:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:28 , Nº de Linea :         16
-20-09-2019 14:52:28 , En el Fuente: 	this.key_43()
-20-09-2019 14:52:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:29 , Objeto      : regfacvtapub.key_43
-20-09-2019 14:52:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:29 , Nº de Linea :         11
-20-09-2019 14:52:29 , En el Fuente: 	thisform.actualizar()
-20-09-2019 14:52:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:30 , Objeto      : regfacvtapub.actualizar
-20-09-2019 14:52:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:30 , Nº de Linea :        129
-20-09-2019 14:52:31 , En el Fuente: 								.Imprimir_Comproba()
-20-09-2019 14:52:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:31 , Objeto      : regfacvtapub.imprimir_comproba
-20-09-2019 14:52:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:31 , Nº de Linea :         12
-20-09-2019 14:52:32 , En el Fuente: 	IF this.recuperarventa(nidmaopera)
-20-09-2019 14:52:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:32 , Objeto      : regfacvtapub.recuperarventa
-20-09-2019 14:52:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-20-09-2019 14:52:32 , Nº de Linea :          5
-20-09-2019 14:52:32 , En el Fuente: lcidmaopera = CHRTRAN(lcidmaopera,",","")
-27-09-2019 12:33:51 , REGFACVTA.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,00000000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READW
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: CODIGO
-27-09-2019 12:33:51 , Pila de llamadas
-27-09-2019 12:33:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 12:33:51 , Objeto      : regfacvta.load
-27-09-2019 12:33:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 12:33:51 , Nº de Linea :          3
-27-09-2019 12:33:52 , En el Fuente: thisform.crearcursor()
-27-09-2019 12:33:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 12:33:52 , Objeto      : regfacvta.crearcursor
-27-09-2019 12:33:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 12:33:53 , Nº de Linea :         19
-27-09-2019 12:33:53 , En el Fuente: SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1	   ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2	   ,CAST(0 a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasaret
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva   	   ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck       ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567       FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OR CsrAuxcabefac READWRITE  
-27-09-2019 12:34:20 , REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'LNIDCTACTE'.;Linea : where Csrbonictacte.idctacte =<<lnidctacte>> and Csrbonictacte.idproducto in (<<CsrProducto.id>>);Error :         12;Ultimo A
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-lias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000059FT01QY.TMP;Ultimo Control activo: IDCOMPROBA
-27-09-2019 12:34:21 , Pila de llamadas
-27-09-2019 12:34:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 12:34:21 , Objeto      : regfacvta.containerencabeza._txtparada.lostfocus
-27-09-2019 12:34:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 12:34:22 , Nº de Linea :        136
-27-09-2019 12:34:22 , En el Fuente: 	thisform.refresh_cuerpofac()
-27-09-2019 12:34:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 12:34:23 , Objeto      : regfacvta.refresh_cuerpofac
-27-09-2019 12:34:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 12:34:23 , Nº de Linea :         44
-27-09-2019 12:34:24 , En el Fuente: 		where Csrbonictacte.idctacte =<<lnidctacte>> and Csrbonictacte.idproducto in (<<CsrProducto.id>>)
-27-09-2019 13:29:38 , REGFACVTA.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,00000000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READW
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-27-09-2019 13:29:38 , Pila de llamadas
-27-09-2019 13:29:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 13:29:38 , Objeto      : regfacvta.load
-27-09-2019 13:29:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 13:29:38 , Nº de Linea :          3
-27-09-2019 13:29:39 , En el Fuente: thisform.crearcursor()
-27-09-2019 13:29:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 13:29:39 , Objeto      : regfacvta.crearcursor
-27-09-2019 13:29:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-27-09-2019 13:29:40 , Nº de Linea :         19
-27-09-2019 13:29:40 , En el Fuente: SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1	   ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2	   ,CAST(0 a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasaret
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva   	   ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck       ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567       FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OR CsrAuxcabefac READWRITE  
-27-09-2019 13:36:14 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-27-09-2019 13:36:15 , Pila de llamadas
-27-09-2019 13:36:16 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-27-09-2019 13:36:16 , Objeto      : main
-27-09-2019 13:36:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-27-09-2019 13:36:16 , Nº de Linea :        226
-27-09-2019 13:36:16 , En el Fuente: 	LeerEmpresa()
-27-09-2019 13:36:16 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-27-09-2019 13:36:16 , Objeto      : leerempresa
-27-09-2019 13:36:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-27-09-2019 13:36:17 , Nº de Linea :       2009
-27-09-2019 13:36:17 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
-27-09-2019 13:36:18 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-27-09-2019 13:36:18 , Objeto      : crearcursoradapter
-27-09-2019 13:36:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-27-09-2019 13:36:18 , Nº de Linea :       1889
-27-09-2019 13:36:18 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
-27-09-2019 13:39:39 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-27-09-2019 13:39:40 , Pila de llamadas
-27-09-2019 13:39:41 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-27-09-2019 13:39:41 , Objeto      : main
-27-09-2019 13:39:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-27-09-2019 13:39:41 , Nº de Linea :        226
-27-09-2019 13:39:41 , En el Fuente: 	LeerEmpresa()
-27-09-2019 13:39:41 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-27-09-2019 13:39:41 , Objeto      : leerempresa
-27-09-2019 13:39:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-27-09-2019 13:39:42 , Nº de Linea :       2009
-27-09-2019 13:39:42 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
-27-09-2019 13:39:43 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-27-09-2019 13:39:43 , Objeto      : crearcursoradapter
-27-09-2019 13:39:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-27-09-2019 13:39:44 , Nº de Linea :       1889
-27-09-2019 13:39:44 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
-27-09-2019 14:11:58 , REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra el alias 'CSREXISTENC'.;Linea : SELECT CsrExistenc;Error :         13;Ultimo Alias Activo: CSRCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPD
 
 
 
@@ -5036,6 +247,136 @@ ATA\LOCAL\TEMP\00003K0903HU.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 MA100RK.TMP;Ultimo Control activo: CODIGO15
 03-10-2019 10:42:49 , Pila de llamadas
 03-10-2019 10:42:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
@@ -5049,6 +390,136 @@ MA100RK.TMP;Ultimo Control activo: CODIGO15
 03-10-2019 10:42:51 , Nº de Linea :         47
 03-10-2019 10:42:51 , En el Fuente: 		IF lObjeto.esEAN13
 04-10-2019 15:44:29 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE;Error :          1;Ultimo Alias Activo: CSRCTACTE;Ultim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5151,6 +622,136 @@ o registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000DI4P0015.TMP;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TMP;Ultimo Control activo: CODIGO
 25-10-2019 13:58:15 , Pila de llamadas
 25-10-2019 13:58:16 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5174,6 +775,136 @@ TMP;Ultimo Control activo: CODIGO
 25-10-2019 13:58:20 , Nº de Linea :         49
 25-10-2019 13:58:20 , En el Fuente: 	IF CsrProdFzaVta.topeofiprod#0
 25-10-2019 14:06:57 , MAIN, Error: No se encuentra la variable 'TOPEOFIPROD'.;Linea : IF CsrProdFzaVta.topeofiprod#0;Error :         12;Ultimo Alias Activo: CSRPRODFZAVTA;Ultimo registro:          1 ID;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006NEX029A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5248,6 +979,136 @@ TMP;Ultimo Control activo: CODIGO
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .TMP;Ultimo Control activo: CODIGO
 25-10-2019 14:13:35 , Pila de llamadas
 25-10-2019 14:13:36 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5266,6 +1127,136 @@ TMP;Ultimo Control activo: CODIGO
 25-10-2019 14:13:38 , Nº de Linea :         77
 25-10-2019 14:13:38 , En el Fuente: 	  		IF NVL(Oscatter.minimotofi,0) > 0
 25-10-2019 14:13:40 , MAIN, Error: No se encuentra la propiedad MINIMOTOFI.;Linea : lntopeOfi	= IIF(NVL(Oscatter.minimotofi,0) > lnCantFinal,0,lntopeOfi);Error :       1734;Ultimo Alias Activo: CSRPRODFZAVTA;Ultimo registro:          1 ID;DBF: C:\USERS\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5310,6 +1301,136 @@ DMIN\APPDATA\LOCAL\TEMP\00006NEX036F.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .TMP;Ultimo Control activo: CODIGO
 25-10-2019 14:15:51 , Pila de llamadas
 25-10-2019 14:15:51 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5332,6 +1453,136 @@ DMIN\APPDATA\LOCAL\TEMP\00006NEX036F.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .TMP;Ultimo Control activo: CODIGO
 25-10-2019 14:20:04 , Pila de llamadas
 25-10-2019 14:20:05 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -5349,3 +1600,2761 @@ DMIN\APPDATA\LOCAL\TEMP\00006NEX036F.TMP;Ultimo Control activo:
 25-10-2019 14:20:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
 25-10-2019 14:20:07 , Nº de Linea :         77
 25-10-2019 14:20:07 , En el Fuente: 	  		IF NVL(Oscatter.minimotofi,0) > 0
+25-10-2019 14:46:34 , CAMBIACLASES.ACEPTAR2.CLICK, Error: El origen de datos para este objeto debe ser una referencia de variable.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :       1742;Ultimo Alias Activo: _CSRFORMS;Ultimo regist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ro:          1 CNUMERO;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007F9L002I.TMP;Ultimo Control activo: 
+25-10-2019 14:46:35 , Pila de llamadas
+25-10-2019 14:46:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\__utilcambiaclase.sct
+25-10-2019 14:46:36 , Objeto      : cambiaclases.aceptar2.click
+25-10-2019 14:46:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\__utilcambiaclase.sct
+25-10-2019 14:46:36 , Nº de Linea :          1
+25-10-2019 14:46:37 , En el Fuente: thisform.buscarvcx()
+25-10-2019 14:46:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\__utilcambiaclase.sct
+25-10-2019 14:46:37 , Objeto      : cambiaclases.buscarvcx
+25-10-2019 14:46:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\__utilcambiaclase.sct
+25-10-2019 14:46:37 , Nº de Linea :         59
+25-10-2019 14:46:38 , En el Fuente: thisform.bindergridon('thisform.pageframe1.page1.kitgrillatildarforms.buscargrd1',lcalias,lcCtrlSource,AcolOdataNavega)
+25-10-2019 14:46:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\__utilcambiaclase.sct
+25-10-2019 14:46:39 , Objeto      : cambiaclases.bindergridon
+25-10-2019 14:46:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\__utilcambiaclase.sct
+25-10-2019 14:46:40 , Nº de Linea :         14
+25-10-2019 14:46:40 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+25-10-2019 14:47:26 , REGTARJETA.LOAD, Error: El archivo 'csrmovtarjeta.dbf' no existe.;Linea : SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE;Error :          1;Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Alias Activo: CSRCLASECOMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007F9L002Z.TMP;Ultimo Control activo: 
+25-10-2019 14:47:27 , Pila de llamadas
+25-10-2019 14:47:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 14:47:28 , Objeto      : regtarjeta.load
+25-10-2019 14:47:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 14:47:29 , Nº de Linea :          3
+25-10-2019 14:47:29 , En el Fuente: thisform.crearcursor()
+25-10-2019 14:47:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 14:47:29 , Objeto      : regtarjeta.crearcursor
+25-10-2019 14:47:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 14:47:29 , Nº de Linea :          3
+25-10-2019 14:47:30 , En el Fuente: SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
+25-10-2019 15:07:43 , REGTARJETA.LOAD, Error: El archivo 'csrmovtarjeta.dbf' no existe.;Linea : SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE;Error :          1;Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Alias Activo: CSRCLASECOMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00007UH5003Y.TMP;Ultimo Control activo: 
+25-10-2019 15:07:44 , Pila de llamadas
+25-10-2019 15:07:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:07:44 , Objeto      : regtarjeta.load
+25-10-2019 15:07:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:07:45 , Nº de Linea :          3
+25-10-2019 15:07:45 , En el Fuente: thisform.crearcursor()
+25-10-2019 15:07:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:07:46 , Objeto      : regtarjeta.crearcursor
+25-10-2019 15:07:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:07:46 , Nº de Linea :          3
+25-10-2019 15:07:46 , En el Fuente: SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
+25-10-2019 15:10:05 , REGTARJETA.LOAD, Error: El archivo 'csrmovtarjeta.dbf' no existe.;Linea : SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE;Error :          1;Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Alias Activo: CSRCLASECOMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003955001A.TMP;Ultimo Control activo: 
+25-10-2019 15:10:05 , Pila de llamadas
+25-10-2019 15:10:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:10:06 , Objeto      : regtarjeta.load
+25-10-2019 15:10:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:10:07 , Nº de Linea :          3
+25-10-2019 15:10:07 , En el Fuente: thisform.crearcursor()
+25-10-2019 15:10:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:10:07 , Objeto      : regtarjeta.crearcursor
+25-10-2019 15:10:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:10:07 , Nº de Linea :          3
+25-10-2019 15:10:08 , En el Fuente: SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
+25-10-2019 15:15:03 , REGTARJETA.LOAD, Error: El archivo 'csrmovtarjeta.dbf' no existe.;Linea : SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE;Error :          1;Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Alias Activo: CSRCLASECOMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00003955006N.TMP;Ultimo Control activo: 
+25-10-2019 15:15:04 , Pila de llamadas
+25-10-2019 15:15:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:15:04 , Objeto      : regtarjeta.load
+25-10-2019 15:15:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:15:04 , Nº de Linea :          3
+25-10-2019 15:15:05 , En el Fuente: thisform.crearcursor()
+25-10-2019 15:15:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:15:05 , Objeto      : regtarjeta.crearcursor
+25-10-2019 15:15:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:15:06 , Nº de Linea :          3
+25-10-2019 15:15:06 , En el Fuente: SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE 
+25-10-2019 15:16:02 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la propiedad OBTENERDATOS.;Linea : IF !thisform.obtenerdatos('CsrValor',lcCmdValor);Error :       1734;Ultimo Alias Activo: CSRVALOR;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000395500CP.TMP;Ultimo Control activo: 
+25-10-2019 15:16:02 , Pila de llamadas
+25-10-2019 15:16:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:03 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:16:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:03 , Nº de Linea :          1
+25-10-2019 15:16:03 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:16:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:04 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:16:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:04 , Nº de Linea :         15
+25-10-2019 15:16:05 , En el Fuente: 		IF !thisform.obtenerdatos('CsrValor',lcCmdValor)
+25-10-2019 15:16:11 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la propiedad OBTENERDATOS.;Linea : IF !thisform.obtenerdatos('CsrValor',lcCmdValor);Error :       1734;Ultimo Alias Activo: CSRVALOR;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000395500CP.TMP;Ultimo Control activo: 
+25-10-2019 15:16:11 , Pila de llamadas
+25-10-2019 15:16:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:11 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:16:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:12 , Nº de Linea :          1
+25-10-2019 15:16:12 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:16:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:13 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:16:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:13 , Nº de Linea :         15
+25-10-2019 15:16:13 , En el Fuente: 		IF !thisform.obtenerdatos('CsrValor',lcCmdValor)
+25-10-2019 15:16:25 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la propiedad OBTENERDATOS.;Linea : IF !thisform.obtenerdatos('CsrValor',lcCmdValor);Error :       1734;Ultimo Alias Activo: CSRVALOR;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000395500CP.TMP;Ultimo Control activo: 
+25-10-2019 15:16:26 , Pila de llamadas
+25-10-2019 15:16:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:26 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:16:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:27 , Nº de Linea :          1
+25-10-2019 15:16:27 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:16:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:28 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:16:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:28 , Nº de Linea :         15
+25-10-2019 15:16:28 , En el Fuente: 		IF !thisform.obtenerdatos('CsrValor',lcCmdValor)
+25-10-2019 15:16:30 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la propiedad OBTENERDATOS.;Linea : IF !thisform.obtenerdatos('CsrPrefitermi',lcCmd);Error :       1734;Ultimo Alias Activo: CSRVALOR;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000395500CP.TMP;Ultimo Control activo: 
+25-10-2019 15:16:30 , Pila de llamadas
+25-10-2019 15:16:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:31 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:16:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:31 , Nº de Linea :          1
+25-10-2019 15:16:31 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:16:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:32 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:16:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:16:32 , Nº de Linea :         26
+25-10-2019 15:16:32 , En el Fuente: 		IF !thisform.obtenerdatos('CsrPrefitermi',lcCmd)
+25-10-2019 15:18:52 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la propiedad IDEJERCICIO.;Linea : SELECT CsrParaConta.* FROM ParaConta as CsrParaConta WHERE idejercicio = <<Goapp.idejercicio>>;Error :       1734;Ultimo A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lias Activo: CSRPREFITERMI;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AGW9005K.TMP;Ultimo Control activo: 
+25-10-2019 15:18:53 , Pila de llamadas
+25-10-2019 15:18:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:18:53 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:18:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:18:54 , Nº de Linea :          1
+25-10-2019 15:18:54 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:18:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:18:55 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:18:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:18:55 , Nº de Linea :         31
+25-10-2019 15:18:56 , En el Fuente: 		SELECT CsrParaConta.* FROM ParaConta as CsrParaConta WHERE idejercicio = <<Goapp.idejercicio>>
+25-10-2019 15:19:03 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la propiedad IDEJERCICIO.;Linea : SELECT CsrParaConta.* FROM ParaConta as CsrParaConta WHERE idejercicio = <<Goapp.idejercicio>>;Error :       1734;Ultimo A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lias Activo: CSRPREFITERMI;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AGW9005Q.TMP;Ultimo Control activo: 
+25-10-2019 15:19:03 , Pila de llamadas
+25-10-2019 15:19:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:19:04 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:19:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:19:05 , Nº de Linea :          1
+25-10-2019 15:19:05 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:19:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:19:05 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:19:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:19:06 , Nº de Linea :         31
+25-10-2019 15:19:06 , En el Fuente: 		SELECT CsrParaConta.* FROM ParaConta as CsrParaConta WHERE idejercicio = <<Goapp.idejercicio>>
+25-10-2019 15:22:40 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra el alias 'CSRPARACONFIG'.;Linea : .lnidnrocaja	= Csrparaconfig.iddetanrocaja;Error :         13;Ultimo Alias Activo: CSRPARACONTA;Ultimo registro:          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006U4P006B.TMP;Ultimo Control activo: 
+25-10-2019 15:22:41 , Pila de llamadas
+25-10-2019 15:22:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:22:42 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:22:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:22:42 , Nº de Linea :          1
+25-10-2019 15:22:42 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:22:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:22:43 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:22:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:22:43 , Nº de Linea :         37
+25-10-2019 15:22:44 , En el Fuente: 		.iniciavariables()   
+25-10-2019 15:22:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:22:44 , Objeto      : regtarjeta.iniciavariables
+25-10-2019 15:22:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:22:45 , Nº de Linea :         19
+25-10-2019 15:22:45 , En el Fuente: 	 .lnidnrocaja	= Csrparaconfig.iddetanrocaja
+25-10-2019 15:28:56 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'IDDETANROCAJA'.;Linea : .lnidnrocaja	= Csrparaconfig.iddetanrocaja;Error :         12;Ultimo Alias Activo: CSRPARACONTA;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006U4P00DF.TMP;Ultimo Control activo: 
+25-10-2019 15:28:56 , Pila de llamadas
+25-10-2019 15:28:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:28:57 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:28:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:28:57 , Nº de Linea :          1
+25-10-2019 15:28:57 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:28:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:28:58 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:28:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:28:58 , Nº de Linea :         37
+25-10-2019 15:28:59 , En el Fuente: 		.iniciavariables()   
+25-10-2019 15:28:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:28:59 , Objeto      : regtarjeta.iniciavariables
+25-10-2019 15:28:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:28:59 , Nº de Linea :          4
+25-10-2019 15:28:59 , En el Fuente: 	 .lnidnrocaja	= Csrparaconfig.iddetanrocaja
+25-10-2019 15:29:07 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'IDDETANROCAJA'.;Linea : .lnidnrocaja	= Csrparaconfig.iddetanrocaja;Error :         12;Ultimo Alias Activo: CSRPARACONTA;Ultimo registro:       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006U4P00DO.TMP;Ultimo Control activo: 
+25-10-2019 15:29:07 , Pila de llamadas
+25-10-2019 15:29:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:29:08 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:29:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:29:09 , Nº de Linea :          1
+25-10-2019 15:29:09 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:29:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:29:09 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:29:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:29:10 , Nº de Linea :         37
+25-10-2019 15:29:10 , En el Fuente: 		.iniciavariables()   
+25-10-2019 15:29:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:29:10 , Objeto      : regtarjeta.iniciavariables
+25-10-2019 15:29:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:29:11 , Nº de Linea :          4
+25-10-2019 15:29:11 , En el Fuente: 	 .lnidnrocaja	= Csrparaconfig.iddetanrocaja
+25-10-2019 15:31:09 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'FECHASERVER'.;Linea : .containersistema._txtfecha.Value = Csrparaconfig.fechaserver;Error :         12;Ultimo Alias Activo: CSRPARACONTA;Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006U4P00IP.TMP;Ultimo Control activo: 
+25-10-2019 15:31:09 , Pila de llamadas
+25-10-2019 15:31:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:09 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:31:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:10 , Nº de Linea :          1
+25-10-2019 15:31:10 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:31:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:10 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:31:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:11 , Nº de Linea :         37
+25-10-2019 15:31:11 , En el Fuente: 		.iniciavariables()   
+25-10-2019 15:31:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:11 , Objeto      : regtarjeta.iniciavariables
+25-10-2019 15:31:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:12 , Nº de Linea :          3
+25-10-2019 15:31:12 , En el Fuente: 	.containersistema._txtfecha.Value = Csrparaconfig.fechaserver
+25-10-2019 15:31:18 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'FECHASERVER'.;Linea : .containersistema._txtfecha.Value = Csrparaconfig.fechaserver;Error :         12;Ultimo Alias Activo: CSRPARACONTA;Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006U4P00IY.TMP;Ultimo Control activo: 
+25-10-2019 15:31:19 , Pila de llamadas
+25-10-2019 15:31:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:20 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:31:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:20 , Nº de Linea :          1
+25-10-2019 15:31:20 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:31:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:21 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:31:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:21 , Nº de Linea :         37
+25-10-2019 15:31:22 , En el Fuente: 		.iniciavariables()   
+25-10-2019 15:31:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:22 , Objeto      : regtarjeta.iniciavariables
+25-10-2019 15:31:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:31:23 , Nº de Linea :          3
+25-10-2019 15:31:23 , En el Fuente: 	.containersistema._txtfecha.Value = Csrparaconfig.fechaserver
+25-10-2019 15:32:36 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'FECHASERVER'.;Linea : INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\LOCAL\TEMP\00006U4P00OU.TMP;Ultimo Control activo: 
+25-10-2019 15:32:36 , Pila de llamadas
+25-10-2019 15:32:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:32:36 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:32:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:32:36 , Nº de Linea :          1
+25-10-2019 15:32:37 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:32:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:32:37 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:32:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:32:37 , Nº de Linea :         38
+25-10-2019 15:32:38 , En el Fuente: 	    	.insertacursor()
+25-10-2019 15:32:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:32:38 , Objeto      : regtarjeta.insertacursor
+25-10-2019 15:32:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:32:39 , Nº de Linea :         14
+25-10-2019 15:32:39 , En el Fuente:     INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch    			,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba)           VA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor                ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja                ,Cs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id)
+25-10-2019 15:33:31 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'TURNO'.;Linea : INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MP\00006U4P00VN.TMP;Ultimo Control activo: 
+25-10-2019 15:33:32 , Pila de llamadas
+25-10-2019 15:33:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:33:33 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:33:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:33:33 , Nº de Linea :          1
+25-10-2019 15:33:33 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:33:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:33:34 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:33:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:33:35 , Nº de Linea :         38
+25-10-2019 15:33:35 , En el Fuente: 	    	.insertacursor()
+25-10-2019 15:33:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:33:35 , Objeto      : regtarjeta.insertacursor
+25-10-2019 15:33:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:33:35 , Nº de Linea :         14
+25-10-2019 15:33:35 , En el Fuente:     INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch    			,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba)           VA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor                ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja                ,Csrpa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+raconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id)
+25-10-2019 15:34:30 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'NROCAJA'.;Linea : INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,secto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisfor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+m.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMP\00006U4P012G.TMP;Ultimo Control activo: 
+25-10-2019 15:34:31 , Pila de llamadas
+25-10-2019 15:34:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:31 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:34:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:32 , Nº de Linea :          1
+25-10-2019 15:34:32 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:34:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:33 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:34:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:33 , Nº de Linea :         38
+25-10-2019 15:34:33 , En el Fuente: 	    	.insertacursor()
+25-10-2019 15:34:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:34 , Objeto      : regtarjeta.insertacursor
+25-10-2019 15:34:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:35 , Nº de Linea :         14
+25-10-2019 15:34:35 , En el Fuente:     INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch    			,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba)           VA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor                ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja                ,Csrpa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+radiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id)
+25-10-2019 15:34:41 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'NROCAJA'.;Linea : INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,secto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisfor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+m.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMP\00006U4P012G.TMP;Ultimo Control activo: 
+25-10-2019 15:34:41 , Pila de llamadas
+25-10-2019 15:34:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:42 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:34:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:43 , Nº de Linea :          1
+25-10-2019 15:34:43 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:34:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:43 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:34:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:43 , Nº de Linea :         38
+25-10-2019 15:34:44 , En el Fuente: 	    	.insertacursor()
+25-10-2019 15:34:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:44 , Objeto      : regtarjeta.insertacursor
+25-10-2019 15:34:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:34:45 , Nº de Linea :         14
+25-10-2019 15:34:46 , En el Fuente:     INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch    			,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba)           VA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor                ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja                ,Csrpa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+radiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id)
+25-10-2019 15:35:12 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'SWITCH'.;Linea : Insert into CsrAuxMovimiento (fecha,switch,idvalor,idctacte) value (DATE(),"00000",0,0);Error :         12;Ultimo Alias Activo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+: CSRAUXMOVIMIENTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006U4P017U.TMP;Ultimo Control activo: 
+25-10-2019 15:35:12 , Pila de llamadas
+25-10-2019 15:35:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:13 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:35:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:14 , Nº de Linea :          1
+25-10-2019 15:35:14 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:35:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:14 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:35:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:15 , Nº de Linea :         38
+25-10-2019 15:35:15 , En el Fuente: 	    	.insertacursor()
+25-10-2019 15:35:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:15 , Objeto      : regtarjeta.insertacursor
+25-10-2019 15:35:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:16 , Nº de Linea :         19
+25-10-2019 15:35:16 , En el Fuente: Insert into CsrAuxMovimiento (fecha,switch,idvalor,idctacte) value (DATE(),"00000",0,0)
+25-10-2019 15:35:25 , REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS, Error: No se encuentra la variable 'SWITCH'.;Linea : Insert into CsrAuxMovimiento (fecha,switch,idvalor,idctacte) value (DATE(),"00000",0,0);Error :         12;Ultimo Alias Activo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+: CSRAUXMOVIMIENTO;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006U4P017U.TMP;Ultimo Control activo: 
+25-10-2019 15:35:25 , Pila de llamadas
+25-10-2019 15:35:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:26 , Objeto      : regtarjeta.containerencabeza._txtlostfocus.gotfocus
+25-10-2019 15:35:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:27 , Nº de Linea :          1
+25-10-2019 15:35:27 , En el Fuente: thisform.iniciarentorno()
+25-10-2019 15:35:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:28 , Objeto      : regtarjeta.iniciarentorno
+25-10-2019 15:35:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:28 , Nº de Linea :         38
+25-10-2019 15:35:28 , En el Fuente: 	    	.insertacursor()
+25-10-2019 15:35:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:29 , Objeto      : regtarjeta.insertacursor
+25-10-2019 15:35:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:35:30 , Nº de Linea :         19
+25-10-2019 15:35:30 , En el Fuente: Insert into CsrAuxMovimiento (fecha,switch,idvalor,idctacte) value (DATE(),"00000",0,0)
+25-10-2019 15:36:25 , REGTARJETA.CONTAINERENCABEZA._CBOCOMPROBANTE.LOSTFOCUS, Error: No se encuentra el alias 'CSRNUMERACION'.;Linea : this.proximonro = STR(VAL(CsrNumeracion.numcomp)+1,8);Error :         13;Ultimo Alias Activo: CSRPARACONTA;Ultimo regis
+
+
+
+
+
+
+
+
+
+
+
+
+tro:         33 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00006U4P01F2.TMP;Ultimo Control activo: IDCOMPROBA
+25-10-2019 15:36:26 , Pila de llamadas
+25-10-2019 15:36:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+25-10-2019 15:36:27 , Objeto      : regtarjeta.containerencabeza._cbocomprobante.lostfocus
+25-10-2019 15:36:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+25-10-2019 15:36:27 , Nº de Linea :          4
+25-10-2019 15:36:27 , En el Fuente: this.lostfocosay()
+25-10-2019 15:36:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:36:27 , Objeto      : regtarjeta.containerencabeza._cbocomprobante.lostfocosay
+25-10-2019 15:36:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:36:28 , Nº de Linea :          1
+25-10-2019 15:36:28 , En el Fuente: thisform.cambiocomproba()
+25-10-2019 15:36:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:36:29 , Objeto      : regtarjeta.cambiocomproba
+25-10-2019 15:36:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:36:29 , Nº de Linea :         32
+25-10-2019 15:36:30 , En el Fuente: 		.leerproximonro(Csrcomprobante.id,.f.)
+25-10-2019 15:36:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:36:30 , Objeto      : regtarjeta.leerproximonro
+25-10-2019 15:36:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:36:30 , Nº de Linea :         15
+25-10-2019 15:36:30 , En el Fuente: this.proximonro = STR(VAL(CsrNumeracion.numcomp)+1,8)
+25-10-2019 15:43:28 , REGTARJETA.KEYPRESS, Error: El campo IDCUENTA no acepta valores NULL.;Linea : REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,de
+
+
+
+
+
+talle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH CsrCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov;Error :       1581;Ultimo Alias Activo: CSRCURSORASTO;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
+
+
+
+
+
+MP\00006U4P01TT.TMP;Ultimo Control activo: IMPORTE
+25-10-2019 15:43:28 , Pila de llamadas
+25-10-2019 15:43:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:43:29 , Objeto      : regtarjeta.keypress
+25-10-2019 15:43:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:43:29 , Nº de Linea :         24
+25-10-2019 15:43:29 , En el Fuente: 		thisform.key_43(1)    
+25-10-2019 15:43:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:43:29 , Objeto      : regtarjeta.key_43
+25-10-2019 15:43:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:43:30 , Nº de Linea :         11
+25-10-2019 15:43:30 , En el Fuente: 		IF .totalcomprobante(2)
+25-10-2019 15:43:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:43:31 , Objeto      : regtarjeta.totalcomprobante
+25-10-2019 15:43:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:43:31 , Nº de Linea :         46
+25-10-2019 15:43:31 , En el Fuente: 		.generaasto()
+25-10-2019 15:43:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:43:32 , Objeto      : regtarjeta.generaasto
+25-10-2019 15:43:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\tarjetas\regtarjeta.sct
+25-10-2019 15:43:32 , Nº de Linea :         61
+25-10-2019 15:43:32 , En el Fuente: 	REPLACE idcuenta WITH CsrCursorAsto.idcuenta			,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce			,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH CsrCursorAsto.tipoconce			,debehaber WITH cDebeHaber IN CsrAuxPlanMov
