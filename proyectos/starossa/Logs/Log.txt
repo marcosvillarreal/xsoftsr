@@ -1,143 +1,894 @@
-03-07-2019 19:56:35 , Linea nº LOCAL lcidcabepromocionError nº:       1960Error Redefinición no válida de la variable LCIDCABEPROMOCION. Alias CSRUNIFICA registro          1Control activo NOMBRE ABMPROMOCION._TEXTBOX1.KEYPRESS
-03-07-2019 20:23:32 , Linea nº this.controlsource=this.parent.controlsourcetxtidError nº:         13Error No se encuentra el alias 'CSRPRODUCTO'. Alias CSRORIGEN registro          1Control activo  ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT
-03-07-2019 20:24:21 , Linea nº this.controlsource=this.parent.controlsourcetxtidError nº:         13Error No se encuentra el alias 'CSRCABEPROMO'. Alias CSRPRODUCTO registro          1Control activo  ABMPROMOCION.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT
-03-07-2019 20:50:13 , Linea nº this.controlsource=this.parent.controlsourcetxtidError nº:         13Error No se encuentra el alias 'CSRCUERPO'. Alias CSRPRODUCTO registro          1Control activo  ABMUNIFICADOR.CONTENEDOR1.PFRAME1.PAGE1.GRILLAVARIOS1.KITBUSCAOALTAENPRODUCTO.TXTID.INIT
-03-07-2019 20:52:28 , Linea nº REPLACE idproducto WITH CsrCuerpo.idproducto,idcabeunifica WITH lcidcabeunifica IN CsrCuerunificaError nº:         13Error No se encuentra el alias 'CSRCUERUNIFICA'. Alias CSRCUERPO registro         -1Control activo NUMERO ABMUNIFICADOR.CMDSALVAR.CLICK
-04-07-2019 11:44:37 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo  REGFACVTA.LOAD
-04-07-2019 11:51:26 , Linea nº SELECT CsrUnificacionError nº:         13Error No se encuentra el alias 'CSRUNIFICACION'. Alias CSRENVASE registro          1Control activo  REGFACVTA.CMDCONSULTA.CLICK
-04-07-2019 12:05:16 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo  REGFACVTA.LOAD
-04-07-2019 12:07:23 , Linea nº IF lnTipo#3Error nº:         12Error No se encuentra la variable 'LNTIPO'. Alias CSRAUXTOPES registro          1Control activo  REGFACVTA.CMDCONSULTA.CLICK
-04-07-2019 12:47:29 , Linea nº lnmulti = IIF(nTipo=3,-1,l) * lnmultiError nº:         12Error No se encuentra la variable 'L'. Alias CSRAUXCUERVARI registro          1Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
-04-07-2019 13:07:41 , Linea nº select (this.cAlias)Error nº:         13Error No se encuentra el alias 'CSRTOPES'. Alias CSRVISITA registro          1Control activo  MAIN
-04-07-2019 13:48:19 , Linea nº GATHER NAME OscatterError nº:       1581Error El campo IDCABEUNIFICA no acepta valores NULL. Alias CSRAUXCUERFAC registro          1Control activo  REGFACVTA.CMDCONSULTA.CLICK
-15-07-2019 11:41:48 , Linea nº replace numProveed WITH 0,nomProveed WITH 'TOTALES',ventas WITH nVentas ,bonciva WITH nBonif,importes WITH nTotalError nº:          9Error No coinciden los tipos de datos. Alias CSRIMPRIMIR registro         45Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-18-07-2019 11:20:21 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITEError nº:          1Error El archivo 'csrvendedor.dbf' no existe. Alias  registro          0Control activo  LISTAPADRON.PAGEFRAME1.PAGE1.KITGRILLATILDARVENDEDOR.INIT
-22-07-2019 12:22:56 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo  REGFACVTA.LOAD
-22-07-2019 12:25:06 , Linea nº DO FORM pidodescripcion WITH loObjeto name LobjForm linkedError nº:          1Error El archivo 'j:\xsoftsr\proyectos\starossa\pidodescripcion.scx' no existe. Alias CSRPRODFZAVTA registro        640Control activo CODIGO REGFACVTA.GRID2.COLUMN1.TEXT1.VALID
-22-07-2019 12:37:23 , Linea nº lcSwitch = NVL(CsrRubro.Switch,'00000')Error nº:         12Error No se encuentra la variable 'SWITCH'. Alias CSRRUBRO registro          1Control activo NOMBRE ABMRUBROS._TEXTBOX1.KEYPRESS
-22-07-2019 16:05:53 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo PARADA REGFACVTA.LOAD
-01-08-2019 10:41:59 , Linea nº SELECT *,VAL(CodCtacte) Orden FROM CsrCursor ORDER BY Orden INTO CURSOR CsrImport2 READWRITEError nº:          1Error El archivo 'csrcursor.dbf' no existe. Alias  registro          0Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-01-08-2019 13:35:55 , Linea nº SELECT CsrImprimirError nº:         13Error No se encuentra el alias 'CSRIMPRIMIR'. Alias CSRCOMPVENTA registro          1Control activo  DEBCREDFISCAL.CMDBUSCAR.CLICK
-05-08-2019 13:11:36 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0,'=D'+RECNO()+1,0 FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'BONCIVA'. Alias CSRIMPRIMIR registro       2079Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-05-08-2019 13:11:42 , Linea nº SUM ALL ventas TO nVentasError nº:         12Error No se encuentra la variable 'VENTAS'. Alias CSRIMPRIMIR registro          1Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-05-08-2019 13:11:53 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0,'=D'+RECNO()+1,0 FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITEError nº:        107Error Incompatibilidad entre el tipo de operador y el tipo de operando. Alias  registro          0Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-05-08-2019 13:23:48 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0 as bonifm,'=(G'+strtrim(RECNO()+2)+'*100)/(G'+strtrim(RECNO()+2)+'+F'+strtrim(RECNO()+2)+')' FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'BONCIVA'. Alias CSRIMPRIMIR registro       2079Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-05-08-2019 13:30:39 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0 as bonifm,'=(G'+strtrim(RECNO()+2,3)+'*100)/(G'+strtrim(RECNO()+2,3)+'+F'+strtrim(RECNO()+2,3)+')' as calculo_bon FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'BONCIVA'. Alias CSRIMPRIMIR registro       2079Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-05-08-2019 13:30:43 , Linea nº SUM ALL ventas TO nVentasError nº:         12Error No se encuentra la variable 'VENTAS'. Alias CSRIMPRIMIR registro          1Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-05-08-2019 13:31:51 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITEError nº:          1Error El archivo 'csrproducto.dbf' no existe. Alias  registro          0Control activo  VENTASPORFECHA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
-05-08-2019 13:33:51 , Linea nº Orslista.ActiveConnection = loConnDataSourceError nº:       1429Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Alias  registro          0Control activo  MAIN
-05-08-2019 13:43:45 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITEError nº:          1Error El archivo 'csrproducto.dbf' no existe. Alias  registro          0Control activo  VENTASPORFECHA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
-05-08-2019 15:37:18 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITEError nº:          1Error El archivo 'csrproducto.dbf' no existe. Alias  registro          0Control activo  VENTASPORFECHA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
-05-08-2019 15:37:38 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0 as bonifm,'=(G'+strtrim(RECNO()+2,3)+'*100)/(G'+strtrim(RECNO()+2,3)+'+F'+strtrim(RECNO()+2,3)+')' as calculo_bon FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'BONCIVA'. Alias CSRIMPRIMIR registro       2079Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-09-08-2019 11:15:57 , Linea nº Oca = GETCURSORADAPTER(lcalias)Error nº:         13Error No se encuentra el alias. Alias CSRPAGO registro          1Control activo NUMERO MAIN
-09-08-2019 11:16:32 , Linea nº Oca = GETCURSORADAPTER(lcalias)Error nº:         13Error No se encuentra el alias. Alias CSRPAGO registro          1Control activo  PIDOPAGOS.IMAGE1.CLICK
-09-08-2019 11:16:48 , Linea nº Oca = GETCURSORADAPTER(lcalias)Error nº:         13Error No se encuentra el alias. Alias CSRPAGO registro          1Control activo  PIDOPAGOS.KEYPRESS
-09-08-2019 11:19:25 , Linea nº SELECT (lcalias)Error nº:         13Error No se encuentra el alias 'CSRVALOR'. Alias  registro          0Control activo CNOMBRE REGCTACTE.KEYPRESS
-09-08-2019 11:20:07 , Linea nº Oca = GETCURSORADAPTER(lcalias)Error nº:         13Error No se encuentra el alias. Alias CSRPAGO registro          1Control activo CNOMBRE PIDOPAGOS.IMAGE1.CLICK
-12-08-2019 14:43:40 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo  REGFACVTA.LOAD
-14-08-2019 10:19:44 , Linea nº IF !thisform.obtenerdatos('Csrcomprobante',lccmd)Error nº:         12Error No se encuentra la variable 'LCCMD'. Alias CSRPREFITERMI registro         19Control activo  REGFACVTA.INIT
-15-08-2019 11:37:15 , Linea nº CASE  LEN(TRIM(lcparam2))=0Error nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias CURPERFIL registro        144Control activo  MAIN
-15-08-2019 15:07:13 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITEError nº:          1Error El archivo 'csrproducto.dbf' no existe. Alias  registro          0Control activo  LISTAETIQUETA.KITGRILLATILDARSTOCK.INIT
-21-08-2019 12:42:34 , Linea nº COUNT ALL FOR tasaiva=0 AND idarticulo#0 TO lHayTasaZeroError nº:         12Error No se encuentra la variable 'IDARTICULO'. Alias CSRCABEIMP registro          1Control activo  MAIN
-22-08-2019 10:53:03 , Linea nº SELECT 0 as grupo2, 0 as grupo,csr1.*,csr1.vtalitros as litros,Csr1.importefinal as importes ,unibulto as unibulto ,internos as interno ,IIF(lnProveedor=1,idproveed,CAST(0 as int)) as idproveed ,IIF(lnProveedor=1,nomproveed,SPACE(30)) as nomproveed ,IIF(lnProveedor=1,numproveed,SPACE(10)) as numproveed FROM csr1 LEFT JOIN CsrDatos ON Csr1.idarticulo = CsrDatos.id INTO CURSOR CsrImprimir READWRITEError nº:          1Error El archivo 'csrdatos.dbf' no existe. Alias CSR1 registro          1Control activo  VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-22-08-2019 11:04:24 , Linea nº SELECT Csrimprimir.* FROM Csrimprimir UNION select CsrRestas.* FROM CsrRestas UNION select CsrTotales.* FROM CsrTotales ORDER BY  grupo, idfletero, idvendedor,idproveed,idcategoria, idasociado, idrubro  INTO CURSOR Csrimprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'IDCATEGORIA'. Alias  registro          0Control activo  VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-23-08-2019 15:19:17 , Linea nº SELECT CsrCuerfac.*,0000000.00 as stock,0000000.00 as total,CAST(0 as int) as idcuerfac,0000000.000 as desctoCiva,0000000.000 as DesctoSiva ,CAST(0 as numeric(12,0)) as registro,CAST(0 as int) as idfuerzavta,' ' as alcohol,' ' as codvalido,CAST(0 as int) as idcabeunifica ,CAST(0 as int) as idprodpromo,CAST(0 as int) as idprodregalo,000000 as cada,000000 as entrega,0 as nofactura,00000000.000 as InternoFin ,CAST(0 as int) as idctavta,00000000.000 as UniCiva,00000000.000 as UniSiva,00000000.000 as IvaUni,00000000.000 as UniCiva2 ,00000000.000 as UniSiva2,00000000.000 as IvaUni2,CAST(0 as int) as idenvase,CAST(0 as int) as idprodgenera,0000 as hojaactual ,0 as bondigitada,CAST(0 as int) as minimofac,SPACE(10+6) as clavepedido,CAST(0 as int) as registropromgen ,0 as noctrolstock,space(15) as codigo15, 0 as vtakilos FROM CsrCuerfac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCuerfac READWRITEError nº:          1Error El archivo 'csrcuerfac.dbf' no existe. Alias CSRAUXMAOPERA registro          1Control activo  REGFACVTAPUB.LOAD
-23-08-2019 15:21:30 , Linea nº thisform.lnidfletero	= NVL(CsrSeteoTermi.idfletero,1038)Error nº:         12Error No se encuentra la variable 'IDFLETERO'. Alias CSRSETEOTERMI registro          1Control activo  REGFACVTAPUB.INIT
-23-08-2019 15:23:11 , Linea nº SELECT CsrprodfzavtaError nº:         13Error No se encuentra el alias 'CSRPRODFZAVTA'. Alias  registro          0Control activo  REGFACVTAPUB._TXTINICIAR.GOTFOCUS
-23-08-2019 15:24:16 , Linea nº SELECT CsrprodfzavtaError nº:         13Error No se encuentra el alias 'CSRPRODFZAVTA'. Alias FSRCAEA registro          1Control activo  REGFACVTAPUB._TXTINICIAR.GOTFOCUS
-23-08-2019 15:27:51 , Linea nº USE (tcTabla) IN SELECT(JUSTSTEM(tcTabla))Error nº:          1Error El archivo 'j:\xsoftsr\proyectos\starossa\csrauxexistenc.dbf' no existe. Alias FSREXISTENCIA registro          1Control activo  REGFACVTAPUB.KEYPRESS
-23-08-2019 15:32:50 , Linea nº IF ATAGINFO(laTag,,,tcTabla) > 0Error nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias FSREXISTENCIA registro          1Control activo  REGFACVTAPUB.KEYPRESS
-23-08-2019 15:33:09 , Linea nº llRet = ASCAN(laTag,tcTag,-1,-1,1,1) > 0Error nº:         12Error No se encuentra la variable 'LATAG'. Alias FSREXISTENCIA registro          1Control activo  REGFACVTAPUB.KEYPRESS
-04-09-2019 10:43:26 , Linea nº SUM importe FOR clase='CDO' TO nTotEfectivoError nº:         12Error No se encuentra la variable 'CLASE'. Alias CSRFINANCIA registro          1Control activo  REGFACVTAPUB.CONTENEDORDNI.CMDSALVAR.CLICK
-04-09-2019 13:00:19 , Linea nº loObjnavega.RecordSource=lCaliasNavegaError nº:         52Error No hay ninguna tabla abierta en el área de trabajo actual. Alias CSRAUXCUERFAC registro          1Control activo PARADA REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-04-09-2019 13:36:36 , Linea nº IF thisform.idctactegral = CsrAuxCabefac.idctacteError nº:        107Error Incompatibilidad entre el tipo de operador y el tipo de operando. Alias CSRAUXCABEFAC registro          1Control activo  REGFACVTAPUB.KEYPRESS
-04-09-2019 14:24:59 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo  REGFACVTA.LOAD
-11-09-2019 17:39:23 , Linea nº SELECT csrparadiarioError nº:         13Error No se encuentra el alias 'CSRPARADIARIO'. Alias CSRIMPRIMIRARQUEO registro          1Control activo  RINDEARQUEO.INIT
-11-09-2019 17:43:27 , Linea nº Oca = GETCURSORADAPTER(lcalias)Error nº:         13Error No se encuentra el alias. Alias CSRAUXARQUEO registro          1Control activo  MAIN
-11-09-2019 22:05:14 , Linea nº Oca = GETCURSORADAPTER(lcalias)Error nº:         13Error No se encuentra el alias. Alias CSRAUXARQUEO registro          1Control activo  LISRESOPERA.ACEPTAR1.CLICK
-11-09-2019 22:05:56 , Linea nº SELECT CsrMaoperaError nº:         13Error No se encuentra el alias 'CSRMAOPERA'. Alias CSRDETANROCAJA registro          1Control activo  LISRESOPERA.ACEPTAR1.CLICK
-11-09-2019 22:06:45 , Linea nº SELECT CsrMaoperaError nº:         13Error No se encuentra el alias 'CSRMAOPERA'. Alias CSRDETANROCAJA registro          1Control activo  LISRESOPERA.ACEPTAR1.CLICK
-11-09-2019 22:11:51 , Linea nº SELECT CsrMaopera.* FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITEError nº:          1Error El archivo 'csrmaopera.dbf' no existe. Alias CSRDETANROCAJA registro          1Control activo  LISRESOPERA.LOAD
-11-09-2019 22:13:12 , Linea nº SELECT * FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITEError nº:          1Error El archivo 'csrmaopera.dbf' no existe. Alias CSRDETANROCAJA registro          1Control activo  LISRESOPERA.LOAD
-11-09-2019 22:13:27 , Linea nº SELECT * FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITEError nº:          1Error El archivo 'csrmaopera.dbf' no existe. Alias CSRDETANROCAJA registro          1Control activo  LISRESOPERA.LOAD
-11-09-2019 22:14:13 , Linea nº SELECT * FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITEError nº:          1Error El archivo 'csrmaopera.dbf' no existe. Alias CSRDETANROCAJA registro          1Control activo  LISRESOPERA.LOAD
-11-09-2019 22:15:50 , Linea nº SELECT * FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITEError nº:          1Error El archivo 'csrmaopera.dbf' no existe. Alias CSRDETANROCAJA registro          1Control activo  LISRESOPERA.LOAD
-12-09-2019 00:07:59 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITEError nº:          1Error El archivo 'csrcateasociado.dbf' no existe. Alias _CSRPRODUCTO registro          1Control activo  VENTASPORFECHA_ASO.PAGEFRAME1.PAGE2.KITGRILLATILDARCATEGORIA.INIT
-12-09-2019 00:14:05 , Linea nº loObjnavega.RecordSource=''Error nº:       1924Error LOOBJNAVEGA no es un objeto. Alias CSRCURSOR registro          1Control activo  SUBMOVBCOCAR.INIT
-12-09-2019 00:16:09 , Linea nº loObjnavega.RecordSource=''Error nº:       1924Error LOOBJNAVEGA no es un objeto. Alias CSRCURSOR registro          1Control activo  SUBMOVBCOCAR.INIT
-12-09-2019 00:23:10 , Linea nº lcValor = .pageframe1.page1.kitgrillatildarVALOR.cadenaelegidos()Error nº:       1925Error KITGRILLATILDARVALOR es un miembro desconocido. Alias  registro          0Control activo  SUBMOVBCOCAR.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-12-09-2019 00:23:50 , Linea nº SELECT CsrCuerpo.* FROM CsrCuerpo INTO CURSOR CsrImprimir READWRITEError nº:          1Error El archivo 'csrcuerpo.dbf' no existe. Alias _CSRVALOR registro          2Control activo  SUBMOVBCOCAR.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-12-09-2019 00:24:30 , Linea nº SELECT CsrCuerpo.* FROM CsrCuerpo INTO CURSOR CsrImprimir READWRITEError nº:          1Error El archivo 'csrcuerpo.dbf' no existe. Alias _CSRVALOR registro          2Control activo  SUBMOVBCOCAR.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-12-09-2019 00:33:43 , Linea nº SELECT fechacaja,nomvalor,numvalor,cupon,lote,fecha,fechavto,importe,saldo,cuota FROM CsrImprimir ORDER BY iddetanrocaja,id INTO CURSOR CsrImprimir READWRITEError nº:       1806Error SQL: no se encuentra la columna 'NOMVALOR'. Alias CSRIMPRIMIR registro          1Control activo  SUBMOVTARJETA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-12-09-2019 09:26:15 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgoError nº:          9Error No coinciden los tipos de datos. Alias CSRPAGO registro          1Control activo  RINDEARQUEO.GRID2.KEYPRESS
-12-09-2019 09:27:06 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgoError nº:          9Error No coinciden los tipos de datos. Alias CSRPAGO registro          1Control activo  RINDEARQUEO.GRID2.KEYPRESS
-12-09-2019 09:28:58 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgoError nº:          9Error No coinciden los tipos de datos. Alias CSRRENDIFLE registro          3Control activo  RINDEARQUEO.GRID2.KEYPRESS
-12-09-2019 10:35:25 , Linea nº DO FORM &lcForm WITH lcparam1Error nº:          1Error El archivo 'j:\xsoftsr\proyectos\starossa\submovtarjeta.scx' no existe. Alias CURPERFIL registro        203Control activo  MAIN
-12-09-2019 10:38:17 , Linea nº DO FORM &lcForm WITH lcparam1Error nº:          1Error El archivo 'j:\xsoftsr\proyectos\starossa\submovbtarjeta.scx' no existe. Alias CURPERFIL registro        203Control activo  MAIN
-12-09-2019 10:39:33 , Linea nº DO FORM &lcForm WITH lcparam1Error nº:          1Error El archivo 'j:\xsoftsr\proyectos\starossa\submovbtarjeta.scx' no existe. Alias CURPERFIL registro        203Control activo  MAIN
-12-09-2019 10:44:02 , Linea nº .Column011.Header = "Cuotas"Error nº:       1925Error COLUMN011 es un miembro desconocido. Alias CSRIMPRIMIR registro          1Control activo  MAIN
-12-09-2019 11:06:52 , Linea nº GATHER NAME OscImprimirError nº:       1581Error El campo MOVIMIENTO no acepta valores NULL. Alias CSRIMPRIMIR registro         26Control activo  RINDEARQUEO.CONTENEDORREPORTE.CMDIMPRIMIRTESO.CLICK
-12-09-2019 15:48:40 , Linea nº IF This.lnModulo567ExentosError nº:       1734Error No se encuentra la propiedad LNMODULO567EXENTOS. Alias CSRPRODUCTO registro          1Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
-16-09-2019 11:35:24 , Linea nº SELECT CsrAuxImprimir.* FROM CsrAuxImprimir WHERE RECNO()<1 INTO CURSOR CsrImprimir READWRITEError nº:          1Error El archivo 'csrauximprimir.dbf' no existe. Alias CSRCURSOR registro         33Control activo  SUBIVAVTA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-16-09-2019 13:47:00 , Linea nº IF this.importandopedidosError nº:       1734Error No se encuentra la propiedad IMPORTANDOPEDIDOS. Alias CSRAUXCUERFAC registro          1Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-17-09-2019 11:47:49 , Linea nº lnuniventa=This.loObjBonifica.univtaorigError nº:       1734Error No se encuentra la propiedad UNIVTAORIG. Alias CSRAUXCUERFAC registro          1Control activo  REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS
-17-09-2019 12:08:58 , Linea nº replace tasaiva WITH CsrProducto.tasaivaError nº:         12Error No se encuentra la variable 'TASAIVA'. Alias CSRPRODUCTO registro          9Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-17-09-2019 12:10:17 , Linea nº replace tasaiva WITH CsrProducto.tasaError nº:         12Error No se encuentra la variable 'TASAIVA'. Alias CSRPRODUCTO registro          9Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-20-09-2019 14:06:12 , Linea nº replace prearti WITH lnpreunita,preartisiva WITH lnpreunitasiva IN CsrAuxCuerfacError nº:          9Error No coinciden los tipos de datos. Alias CSRPRODUCTO registro          1Control activo  REGFACVTAPUB.GRID2.COLUMN2.TEXT1.KEYPRESS
-20-09-2019 14:52:25 , Linea nº lcidmaopera = CHRTRAN(lcidmaopera,",","")Error nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias CSRVENDEDOR registro          1Control activo  REGFACVTAPUB.KEYPRESS
-27-09-2019 12:33:51 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo CODIGO REGFACVTA.LOAD
-27-09-2019 12:34:20 , Linea nº where Csrbonictacte.idctacte =<<lnidctacte>> and Csrbonictacte.idproducto in (<<CsrProducto.id>>)Error nº:         12Error No se encuentra la variable 'LNIDCTACTE'. Alias CSRPRODUCTO registro          1Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-27-09-2019 13:29:37 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo  REGFACVTA.LOAD
-27-09-2019 13:36:14 , Linea nº Orslista.ActiveConnection = loConnDataSourceError nº:       1429Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Alias  registro          0Control activo  MAIN
-27-09-2019 13:39:39 , Linea nº Orslista.ActiveConnection = loConnDataSourceError nº:       1429Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Alias  registro          0Control activo  MAIN
-27-09-2019 14:11:58 , Linea nº SELECT CsrExistencError nº:         13Error No se encuentra el alias 'CSREXISTENC'. Alias CSRCOMPROBANTE registro          1Control activo  REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-03-10-2019 10:42:49 , Linea nº IF lObjeto.esEAN13Error nº:          9Error No coinciden los tipos de datos. Alias CSRPRODUCTO registro          1Control activo CODIGO15 REGFACVTAPUB.GRID2.COLUMN1.TEXT1.VALID
-04-10-2019 15:44:29 , Linea nº SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITEError nº:          1Error El archivo 'csrcursor.dbf' no existe. Alias CSRCTACTE registro          1Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-25-10-2019 13:58:15 , Linea nº IF CsrProdFzaVta.topeofiprod#0Error nº:         12Error No se encuentra la variable 'TOPEOFIPROD'. Alias CSRPRODFZAVTA registro          1Control activo CODIGO MAIN
-25-10-2019 14:06:57 , Linea nº IF CsrProdFzaVta.topeofiprod#0Error nº:         12Error No se encuentra la variable 'TOPEOFIPROD'. Alias CSRPRODFZAVTA registro          1Control activo CODIGO MAIN
-25-10-2019 14:13:35 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0Error nº:       1734Error No se encuentra la propiedad MINIMOTOFI. Alias CSRPRODFZAVTA registro          1Control activo CODIGO MAIN
-25-10-2019 14:13:40 , Linea nº lntopeOfi	= IIF(NVL(Oscatter.minimotofi,0) > lnCantFinal,0,lntopeOfi)Error nº:       1734Error No se encuentra la propiedad MINIMOTOFI. Alias CSRPRODFZAVTA registro          1Control activo  MAIN
-25-10-2019 14:15:50 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0Error nº:       1734Error No se encuentra la propiedad MINIMOTOFI. Alias CSRPRODFZAVTA registro          1Control activo CODIGO MAIN
-25-10-2019 14:20:04 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0Error nº:       1734Error No se encuentra la propiedad MINIMOTOFI. Alias CSRPRODFZAVTA registro       5031Control activo CODIGO MAIN
-25-10-2019 14:46:34 , Linea nº loObjcol.controlsource = lCaliasNavega+'.'+lccadenaError nº:       1742Error El origen de datos para este objeto debe ser una referencia de variable. Alias _CSRFORMS registro          1Control activo  CAMBIACLASES.ACEPTAR2.CLICK
-25-10-2019 14:47:26 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITEError nº:          1Error El archivo 'csrmovtarjeta.dbf' no existe. Alias CSRCLASECOMP registro          1Control activo  REGTARJETA.LOAD
-25-10-2019 15:07:43 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITEError nº:          1Error El archivo 'csrmovtarjeta.dbf' no existe. Alias CSRCLASECOMP registro          1Control activo  REGTARJETA.LOAD
-25-10-2019 15:10:05 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITEError nº:          1Error El archivo 'csrmovtarjeta.dbf' no existe. Alias CSRCLASECOMP registro          1Control activo  REGTARJETA.LOAD
-25-10-2019 15:15:03 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITEError nº:          1Error El archivo 'csrmovtarjeta.dbf' no existe. Alias CSRCLASECOMP registro          1Control activo  REGTARJETA.LOAD
-25-10-2019 15:16:02 , Linea nº IF !thisform.obtenerdatos('CsrValor',lcCmdValor)Error nº:       1734Error No se encuentra la propiedad OBTENERDATOS. Alias CSRVALOR registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:16:11 , Linea nº IF !thisform.obtenerdatos('CsrValor',lcCmdValor)Error nº:       1734Error No se encuentra la propiedad OBTENERDATOS. Alias CSRVALOR registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:16:25 , Linea nº IF !thisform.obtenerdatos('CsrValor',lcCmdValor)Error nº:       1734Error No se encuentra la propiedad OBTENERDATOS. Alias CSRVALOR registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:16:30 , Linea nº IF !thisform.obtenerdatos('CsrPrefitermi',lcCmd)Error nº:       1734Error No se encuentra la propiedad OBTENERDATOS. Alias CSRVALOR registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:18:52 , Linea nº SELECT CsrParaConta.* FROM ParaConta as CsrParaConta WHERE idejercicio = <<Goapp.idejercicio>>Error nº:       1734Error No se encuentra la propiedad IDEJERCICIO. Alias CSRPREFITERMI registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:19:03 , Linea nº SELECT CsrParaConta.* FROM ParaConta as CsrParaConta WHERE idejercicio = <<Goapp.idejercicio>>Error nº:       1734Error No se encuentra la propiedad IDEJERCICIO. Alias CSRPREFITERMI registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:22:40 , Linea nº .lnidnrocaja	= Csrparaconfig.iddetanrocajaError nº:         13Error No se encuentra el alias 'CSRPARACONFIG'. Alias CSRPARACONTA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:28:56 , Linea nº .lnidnrocaja	= Csrparaconfig.iddetanrocajaError nº:         12Error No se encuentra la variable 'IDDETANROCAJA'. Alias CSRPARACONTA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:29:07 , Linea nº .lnidnrocaja	= Csrparaconfig.iddetanrocajaError nº:         12Error No se encuentra la variable 'IDDETANROCAJA'. Alias CSRPARACONTA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:31:09 , Linea nº .containersistema._txtfecha.Value = Csrparaconfig.fechaserverError nº:         12Error No se encuentra la variable 'FECHASERVER'. Alias CSRPARACONTA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:31:18 , Linea nº .containersistema._txtfecha.Value = Csrparaconfig.fechaserverError nº:         12Error No se encuentra la variable 'FECHASERVER'. Alias CSRPARACONTA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:32:36 , Linea nº INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id)Error nº:         12Error No se encuentra la variable 'FECHASERVER'. Alias CSRAUXMAOPERA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:33:31 , Linea nº INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id)Error nº:         12Error No se encuentra la variable 'TURNO'. Alias CSRAUXMAOPERA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:34:30 , Linea nº INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id)Error nº:         12Error No se encuentra la variable 'NROCAJA'. Alias CSRAUXMAOPERA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:34:40 , Linea nº INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparaconfig.pefiscal,'0',"",CsrComprobante.id)Error nº:         12Error No se encuentra la variable 'NROCAJA'. Alias CSRAUXMAOPERA registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:35:12 , Linea nº Insert into CsrAuxMovimiento (fecha,switch,idvalor,idctacte) value (DATE(),"00000",0,0)Error nº:         12Error No se encuentra la variable 'SWITCH'. Alias CSRAUXMOVIMIENTO registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:35:25 , Linea nº Insert into CsrAuxMovimiento (fecha,switch,idvalor,idctacte) value (DATE(),"00000",0,0)Error nº:         12Error No se encuentra la variable 'SWITCH'. Alias CSRAUXMOVIMIENTO registro          1Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
-25-10-2019 15:36:25 , Linea nº this.proximonro = STR(VAL(CsrNumeracion.numcomp)+1,8)Error nº:         13Error No se encuentra el alias 'CSRNUMERACION'. Alias CSRPARACONTA registro         33Control activo IDCOMPROBA REGTARJETA.CONTAINERENCABEZA._CBOCOMPROBANTE.LOSTFOCUS
-25-10-2019 15:43:28 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH CsrCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMovError nº:       1581Error El campo IDCUENTA no acepta valores NULL. Alias CSRCURSORASTO registro          2Control activo IMPORTE REGTARJETA.KEYPRESS
-12-11-2019 11:32:24 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH CsrCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMovError nº:       1581Error El campo IDCUENTA no acepta valores NULL. Alias CSRCURSORASTO registro          2Control activo IMPORTE REGTARJETA.KEYPRESS
-12-11-2019 12:30:42 , Linea nº and CsrCabeMod.idejercicio = <<goapp.idejercicio>>Error nº:       1734Error No se encuentra la propiedad IDEJERCICIO. Alias CURSORASTO registro          1Control activo DETALLE REGTARJETA.CONTAINERENCABEZA._TXTDETALLE.KEYPRESS
-12-11-2019 12:33:57 , Linea nº CASE lnKeyCode=22			&&insertError nº:        107Error Incompatibilidad entre el tipo de operador y el tipo de operando. Alias CSRAUXPLANCUE registro          1Control activo DETALLE REGTARJETA.CONTAINERENCABEZA._TXTDETALLE.KEYPRESS
-12-11-2019 12:37:25 , Linea nº this.cadenaerrores = ""Error nº:       1734Error No se encuentra la propiedad CADENAERRORES. Alias CSRAUXPLANCUE registro          1Control activo CUENTA REGTARJETA.KEYPRESS
-12-11-2019 13:08:54 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo  REGFACVTAPUB.LOAD
-12-11-2019 13:35:00 , Linea nº this.lblconvenio.Caption = 'TOTAL POR CONVENIO ('+STRTRIM(oCliente.descuento,8,2)+'%)='Error nº:         13Error No se encuentra el alias 'OCLIENTE'. Alias CSRAUXCUERFAC registro          1Control activo IDCOMPROBA REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-12-11-2019 14:06:36 , Linea nº this.lblconvenio.Caption = 'TOTAL POR CONVENIO ('+STRTRIM(CsrAuxCabefac.aliconvenio,8,2)+'%)=' + lnTotalFacError nº:        107Error Incompatibilidad entre el tipo de operador y el tipo de operando. Alias CSRAUXCUERFAC registro          1Control activo IDCOMPROBA REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
-12-11-2019 16:29:54 , Linea nº SELECT (lcalias)Error nº:         13Error No se encuentra el alias 'CSRPLANCUE'. Alias  registro          0Control activo NOMBRE REGTARJETA.GRID1.COLUMN2.TEXT1.KEYPRESS
-12-11-2019 16:32:49 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH CsrCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMovError nº:       1581Error El campo IDCUENTA no acepta valores NULL. Alias CSRCURSORASTO registro          2Control activo IMPORTE REGTARJETA.KEYPRESS
-12-11-2019 16:44:29 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITEError nº:          1Error El archivo 'csrmovtarjeta.dbf' no existe. Alias  registro          0Control activo IDCOMPROBA REGTARJETA.LOAD
-12-11-2019 16:46:19 , Linea nº PACKError nº:       1549Error La sesión de datos nº 3 no se puede liberar si hay transacciones abiertas. Alias CSRAUXPLANCUE registro          1Control activo IDCOMPROBA ON... 
-12-11-2019 16:52:27 , Linea nº DO FORM buscompro WITH .cOrigen,oObjoca,.cCmdCampos,.cTypeData,.cTipoeleccion,loObjParametro,.cCmdMuestra,.cCboOperador,.cDatoInicialError nº:         12Error No se encuentra la variable 'OOBJOCA'. Alias CSRMOVTARJETA registro          1Control activo  REGTARJETA.CMDCONSULTA.CLICK
-12-11-2019 16:52:58 , Linea nº DO FORM buscompro WITH .cOrigen,.oObjoca,.cCmdCampos,.cTypeData,.cTipoeleccion,loObjParametro,.cCmdMuestra,.cCboOperador,.cDatoInicialError nº:       1734Error No se encuentra la propiedad CTIPOELECCION. Alias CSRMOVTARJETA registro          1Control activo  REGTARJETA.CMDCONSULTA.CLICK
-12-11-2019 16:54:04 , Linea nº DO FORM buscompro WITH .cOrigen,.oObjoca,.cCmdCampos,.cTypeData,.cTipoSelection,loObjParametro,.cCmdMuestra,.cCboOperador,.cDatoInicialError nº:       1734Error No se encuentra la propiedad CTIPOSELECTION. Alias CSRMOVTARJETA registro          1Control activo  REGTARJETA.CMDCONSULTA.CLICK
-12-11-2019 16:54:36 , Linea nº DO FORM buscompro WITH .cOrigen,.oObjoca,.cCmdCampos,.cTypeData,.cTypeSelection,loObjParametro,.cCmdMuestra,.cCboOperador,.cDatoInicialError nº:       1734Error No se encuentra la propiedad CCBOOPERADOR. Alias CSRMOVTARJETA registro          1Control activo  REGTARJETA.CMDCONSULTA.CLICK
-12-11-2019 16:55:10 , Linea nº DO FORM buscompro WITH .cOrigen,.oObjoca,.cCmdCampos,.cTypeData,.cTypeSelection,loObjParametro,.cCmdMuestra,.cCmdOperador,.cDatoInicialError nº:       1734Error No se encuentra la propiedad CDATOINICIAL. Alias CSRMOVTARJETA registro          1Control activo  REGTARJETA.CMDCONSULTA.CLICK
-12-11-2019 16:58:39 , Linea nº .containerencabeza.kitbuscaoaltaenCtacte.txtid.Value = OscatterMov.idctacteError nº:       1925Error KITBUSCAOALTAENCTACTE es un miembro desconocido. Alias CSRAUXPLANCUE registro          1Control activo  REGTARJETA.CMDCONSULTA.CLICK
-14-11-2019 15:28:09 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITEError nº:          1Error El archivo 'csrcabefac.dbf' no existe. Alias  registro          0Control activo  REGFACVTAPUB.LOAD
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+04-07-2019 11:51:26 , Linea nº SELECT CsrUnificacion
+Error nº:         13
+Error No se encuentra el alias 'CSRUNIFICACION'.
+ Alias CSRENVASE registro          1
+Control activo  REGFACVTA.CMDCONSULTA.CLICK
+04-07-2019 12:05:16 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+04-07-2019 12:07:23 , Linea nº IF lnTipo#3
+Error nº:         12
+Error No se encuentra la variable 'LNTIPO'.
+ Alias CSRAUXTOPES registro          1
+Control activo  REGFACVTA.CMDCONSULTA.CLICK
+04-07-2019 12:47:29 , Linea nº lnmulti = IIF(nTipo=3,-1,l) * lnmulti
+Error nº:         12
+Error No se encuentra la variable 'L'.
+ Alias CSRAUXCUERVARI registro          1
+Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
+04-07-2019 13:07:41 , Linea nº select (this.cAlias)
+Error nº:         13
+Error No se encuentra el alias 'CSRTOPES'.
+ Alias CSRVISITA registro          1
+Control activo  MAIN
+04-07-2019 13:48:19 , Linea nº GATHER NAME Oscatter
+Error nº:       1581
+Error El campo IDCABEUNIFICA no acepta valores NULL.
+ Alias CSRAUXCUERFAC registro          1
+Control activo  REGFACVTA.CMDCONSULTA.CLICK
+15-07-2019 11:41:48 , Linea nº replace numProveed WITH 0,nomProveed WITH 'TOTALES',ventas WITH nVentas ,bonciva WITH nBonif,importes WITH nTotal
+Error nº:          9
+Error No coinciden los tipos de datos.
+ Alias CSRIMPRIMIR registro         45
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+18-07-2019 11:20:21 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
+Error nº:          1
+Error El archivo 'csrvendedor.dbf' no existe.
+ Alias  registro          0
+Control activo  LISTAPADRON.PAGEFRAME1.PAGE1.KITGRILLATILDARVENDEDOR.INIT
+22-07-2019 12:22:56 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+22-07-2019 12:25:06 , Linea nº DO FORM pidodescripcion WITH loObjeto name LobjForm linked
+Error nº:          1
+Error El archivo 'j:\xsoftsr\proyectos\starossa\pidodescripcion.scx' no existe.
+ Alias CSRPRODFZAVTA registro        640
+Control activo CODIGO REGFACVTA.GRID2.COLUMN1.TEXT1.VALID
+22-07-2019 12:37:23 , Linea nº lcSwitch = NVL(CsrRubro.Switch,'00000')
+Error nº:         12
+Error No se encuentra la variable 'SWITCH'.
+ Alias CSRRUBRO registro          1
+Control activo NOMBRE ABMRUBROS._TEXTBOX1.KEYPRESS
+22-07-2019 16:05:53 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo PARADA REGFACVTA.LOAD
+01-08-2019 10:41:59 , Linea nº SELECT *,VAL(CodCtacte) Orden FROM CsrCursor ORDER BY Orden INTO CURSOR CsrImport2 READWRITE
+Error nº:          1
+Error El archivo 'csrcursor.dbf' no existe.
+ Alias  registro          0
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+01-08-2019 13:35:55 , Linea nº SELECT CsrImprimir
+Error nº:         13
+Error No se encuentra el alias 'CSRIMPRIMIR'.
+ Alias CSRCOMPVENTA registro          1
+Control activo  DEBCREDFISCAL.CMDBUSCAR.CLICK
+05-08-2019 13:11:36 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0,'=D'+RECNO()+1,0 FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURS
+
+OR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'BONCIVA'.
+ Alias CSRIMPRIMIR registro       2079
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+05-08-2019 13:11:42 , Linea nº SUM ALL ventas TO nVentas
+Error nº:         12
+Error No se encuentra la variable 'VENTAS'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+05-08-2019 13:11:53 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0,'=D'+RECNO()+1,0 FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURS
+
+OR CsrImprimir READWRITE
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias  registro          0
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+05-08-2019 13:23:48 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0 as bonifm,'=(G'+strtrim(RECNO()+2)+'*100)/(G'+strtrim(RECNO()+2)+'+F'+s
+
+trtrim(RECNO()+2)+')' FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'BONCIVA'.
+ Alias CSRIMPRIMIR registro       2079
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+05-08-2019 13:30:39 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0 as bonifm,'=(G'+strtrim(RECNO()+2,3)+'*100)/(G'+strtrim(RECNO()+2,3)+'+
+
+F'+strtrim(RECNO()+2,3)+')' as calculo_bon FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'BONCIVA'.
+ Alias CSRIMPRIMIR registro       2079
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+05-08-2019 13:30:43 , Linea nº SUM ALL ventas TO nVentas
+Error nº:         12
+Error No se encuentra la variable 'VENTAS'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+05-08-2019 13:31:51 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
+Error nº:          1
+Error El archivo 'csrproducto.dbf' no existe.
+ Alias  registro          0
+Control activo  VENTASPORFECHA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
+05-08-2019 13:33:51 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+05-08-2019 13:43:45 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
+Error nº:          1
+Error El archivo 'csrproducto.dbf' no existe.
+ Alias  registro          0
+Control activo  VENTASPORFECHA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
+05-08-2019 15:37:18 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
+Error nº:          1
+Error El archivo 'csrproducto.dbf' no existe.
+ Alias  registro          0
+Control activo  VENTASPORFECHA.PAGEFRAME1.PAGE1.KITGRILLATILDARSTOCK.INIT
+05-08-2019 15:37:38 , Linea nº SELECT numProveed,nomProveed,(importes + bonciva) as ventas,bonciva ,IIF(importes=0,0,(bonciva * 100 / (importes + bonciva))) as porcebonif,importes ,0 as bonifm,'=(G'+strtrim(RECNO()+2,3)+'*100)/(G'+strtrim(RECNO()+2,3)+'+
+
+F'+strtrim(RECNO()+2,3)+')' as calculo_bon FROM CsrImprimir WHERE grupo=0 AND grupo2=0  INTO CURSOR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'BONCIVA'.
+ Alias CSRIMPRIMIR registro       2079
+Control activo  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+09-08-2019 11:15:57 , Linea nº Oca = GETCURSORADAPTER(lcalias)
+Error nº:         13
+Error No se encuentra el alias.
+ Alias CSRPAGO registro          1
+Control activo NUMERO MAIN
+09-08-2019 11:16:32 , Linea nº Oca = GETCURSORADAPTER(lcalias)
+Error nº:         13
+Error No se encuentra el alias.
+ Alias CSRPAGO registro          1
+Control activo  PIDOPAGOS.IMAGE1.CLICK
+09-08-2019 11:16:48 , Linea nº Oca = GETCURSORADAPTER(lcalias)
+Error nº:         13
+Error No se encuentra el alias.
+ Alias CSRPAGO registro          1
+Control activo  PIDOPAGOS.KEYPRESS
+09-08-2019 11:19:25 , Linea nº SELECT (lcalias)
+Error nº:         13
+Error No se encuentra el alias 'CSRVALOR'.
+ Alias  registro          0
+Control activo CNOMBRE REGCTACTE.KEYPRESS
+09-08-2019 11:20:07 , Linea nº Oca = GETCURSORADAPTER(lcalias)
+Error nº:         13
+Error No se encuentra el alias.
+ Alias CSRPAGO registro          1
+Control activo CNOMBRE PIDOPAGOS.IMAGE1.CLICK
+12-08-2019 14:43:40 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+14-08-2019 10:19:44 , Linea nº IF !thisform.obtenerdatos('Csrcomprobante',lccmd)
+Error nº:         12
+Error No se encuentra la variable 'LCCMD'.
+ Alias CSRPREFITERMI registro         19
+Control activo  REGFACVTA.INIT
+15-08-2019 11:37:15 , Linea nº CASE  LEN(TRIM(lcparam2))=0
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias CURPERFIL registro        144
+Control activo  MAIN
+15-08-2019 15:07:13 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
+Error nº:          1
+Error El archivo 'csrproducto.dbf' no existe.
+ Alias  registro          0
+Control activo  LISTAETIQUETA.KITGRILLATILDARSTOCK.INIT
+21-08-2019 12:42:34 , Linea nº COUNT ALL FOR tasaiva=0 AND idarticulo#0 TO lHayTasaZero
+Error nº:         12
+Error No se encuentra la variable 'IDARTICULO'.
+ Alias CSRCABEIMP registro          1
+Control activo  MAIN
+22-08-2019 10:53:03 , Linea nº SELECT 0 as grupo2, 0 as grupo,csr1.*,csr1.vtalitros as litros,Csr1.importefinal as importes ,unibulto as unibulto ,internos as interno ,IIF(lnProveedor=1,idproveed,CAST(0 as int)) as idproveed ,IIF(lnProveedor=1,nomproveed
+
+,SPACE(30)) as nomproveed ,IIF(lnProveedor=1,numproveed,SPACE(10)) as numproveed FROM csr1 LEFT JOIN CsrDatos ON Csr1.idarticulo = CsrDatos.id INTO CURSOR CsrImprimir READWRITE
+Error nº:          1
+Error El archivo 'csrdatos.dbf' no existe.
+ Alias CSR1 registro          1
+Control activo  VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+22-08-2019 11:04:24 , Linea nº SELECT Csrimprimir.* FROM Csrimprimir UNION select CsrRestas.* FROM CsrRestas UNION select CsrTotales.* FROM CsrTotales ORDER BY  grupo, idfletero, idvendedor,idproveed,idcategoria, idasociado, idrubro  INTO CURSOR Csrimpri
+
+mir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'IDCATEGORIA'.
+ Alias  registro          0
+Control activo  VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+23-08-2019 15:19:17 , Linea nº SELECT CsrCuerfac.*,0000000.00 as stock,0000000.00 as total,CAST(0 as int) as idcuerfac,0000000.000 as desctoCiva,0000000.000 as DesctoSiva ,CAST(0 as numeric(12,0)) as registro,CAST(0 as int) as idfuerzavta,' ' as alcohol,
+
+' ' as codvalido,CAST(0 as int) as idcabeunifica ,CAST(0 as int) as idprodpromo,CAST(0 as int) as idprodregalo,000000 as cada,000000 as entrega,0 as nofactura,00000000.000 as InternoFin ,CAST(0 as int) as idctavta,00000000.000 as UniCiva,00000000.000 as 
+
+UniSiva,00000000.000 as IvaUni,00000000.000 as UniCiva2 ,00000000.000 as UniSiva2,00000000.000 as IvaUni2,CAST(0 as int) as idenvase,CAST(0 as int) as idprodgenera,0000 as hojaactual ,0 as bondigitada,CAST(0 as int) as minimofac,SPACE(10+6) as clavepedid
+
+o,CAST(0 as int) as registropromgen ,0 as noctrolstock,space(15) as codigo15, 0 as vtakilos FROM CsrCuerfac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCuerfac READWRITE
+Error nº:          1
+Error El archivo 'csrcuerfac.dbf' no existe.
+ Alias CSRAUXMAOPERA registro          1
+Control activo  REGFACVTAPUB.LOAD
+23-08-2019 15:21:30 , Linea nº thisform.lnidfletero	= NVL(CsrSeteoTermi.idfletero,1038)
+Error nº:         12
+Error No se encuentra la variable 'IDFLETERO'.
+ Alias CSRSETEOTERMI registro          1
+Control activo  REGFACVTAPUB.INIT
+23-08-2019 15:23:11 , Linea nº SELECT Csrprodfzavta
+Error nº:         13
+Error No se encuentra el alias 'CSRPRODFZAVTA'.
+ Alias  registro          0
+Control activo  REGFACVTAPUB._TXTINICIAR.GOTFOCUS
+23-08-2019 15:24:16 , Linea nº SELECT Csrprodfzavta
+Error nº:         13
+Error No se encuentra el alias 'CSRPRODFZAVTA'.
+ Alias FSRCAEA registro          1
+Control activo  REGFACVTAPUB._TXTINICIAR.GOTFOCUS
+23-08-2019 15:27:51 , Linea nº USE (tcTabla) IN SELECT(JUSTSTEM(tcTabla))
+Error nº:          1
+Error El archivo 'j:\xsoftsr\proyectos\starossa\csrauxexistenc.dbf' no existe.
+ Alias FSREXISTENCIA registro          1
+Control activo  REGFACVTAPUB.KEYPRESS
+23-08-2019 15:32:50 , Linea nº IF ATAGINFO(laTag,,,tcTabla) > 0
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias FSREXISTENCIA registro          1
+Control activo  REGFACVTAPUB.KEYPRESS
+23-08-2019 15:33:09 , Linea nº llRet = ASCAN(laTag,tcTag,-1,-1,1,1) > 0
+Error nº:         12
+Error No se encuentra la variable 'LATAG'.
+ Alias FSREXISTENCIA registro          1
+Control activo  REGFACVTAPUB.KEYPRESS
+04-09-2019 10:43:26 , Linea nº SUM importe FOR clase='CDO' TO nTotEfectivo
+Error nº:         12
+Error No se encuentra la variable 'CLASE'.
+ Alias CSRFINANCIA registro          1
+Control activo  REGFACVTAPUB.CONTENEDORDNI.CMDSALVAR.CLICK
+04-09-2019 13:00:19 , Linea nº loObjnavega.RecordSource=lCaliasNavega
+Error nº:         52
+Error No hay ninguna tabla abierta en el área de trabajo actual.
+ Alias CSRAUXCUERFAC registro          1
+Control activo PARADA REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
+04-09-2019 13:36:36 , Linea nº IF thisform.idctactegral = CsrAuxCabefac.idctacte
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXCABEFAC registro          1
+Control activo  REGFACVTAPUB.KEYPRESS
+04-09-2019 14:24:59 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+11-09-2019 17:39:23 , Linea nº SELECT csrparadiario
+Error nº:         13
+Error No se encuentra el alias 'CSRPARADIARIO'.
+ Alias CSRIMPRIMIRARQUEO registro          1
+Control activo  RINDEARQUEO.INIT
+11-09-2019 17:43:27 , Linea nº Oca = GETCURSORADAPTER(lcalias)
+Error nº:         13
+Error No se encuentra el alias.
+ Alias CSRAUXARQUEO registro          1
+Control activo  MAIN
+11-09-2019 22:05:14 , Linea nº Oca = GETCURSORADAPTER(lcalias)
+Error nº:         13
+Error No se encuentra el alias.
+ Alias CSRAUXARQUEO registro          1
+Control activo  LISRESOPERA.ACEPTAR1.CLICK
+11-09-2019 22:05:56 , Linea nº SELECT CsrMaopera
+Error nº:         13
+Error No se encuentra el alias 'CSRMAOPERA'.
+ Alias CSRDETANROCAJA registro          1
+Control activo  LISRESOPERA.ACEPTAR1.CLICK
+11-09-2019 22:06:45 , Linea nº SELECT CsrMaopera
+Error nº:         13
+Error No se encuentra el alias 'CSRMAOPERA'.
+ Alias CSRDETANROCAJA registro          1
+Control activo  LISRESOPERA.ACEPTAR1.CLICK
+11-09-2019 22:11:51 , Linea nº SELECT CsrMaopera.* FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITE
+Error nº:          1
+Error El archivo 'csrmaopera.dbf' no existe.
+ Alias CSRDETANROCAJA registro          1
+Control activo  LISRESOPERA.LOAD
+11-09-2019 22:13:12 , Linea nº SELECT * FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITE
+Error nº:          1
+Error El archivo 'csrmaopera.dbf' no existe.
+ Alias CSRDETANROCAJA registro          1
+Control activo  LISRESOPERA.LOAD
+11-09-2019 22:13:27 , Linea nº SELECT * FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITE
+Error nº:          1
+Error El archivo 'csrmaopera.dbf' no existe.
+ Alias CSRDETANROCAJA registro          1
+Control activo  LISRESOPERA.LOAD
+11-09-2019 22:14:13 , Linea nº SELECT * FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITE
+Error nº:          1
+Error El archivo 'csrmaopera.dbf' no existe.
+ Alias CSRDETANROCAJA registro          1
+Control activo  LISRESOPERA.LOAD
+11-09-2019 22:15:50 , Linea nº SELECT * FROM CsrMaopera INTO CURSOR CsrAuxMAopera READWRITE
+Error nº:          1
+Error El archivo 'csrmaopera.dbf' no existe.
+ Alias CSRDETANROCAJA registro          1
+Control activo  LISRESOPERA.LOAD
+12-09-2019 00:07:59 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
+Error nº:          1
+Error El archivo 'csrcateasociado.dbf' no existe.
+ Alias _CSRPRODUCTO registro          1
+Control activo  VENTASPORFECHA_ASO.PAGEFRAME1.PAGE2.KITGRILLATILDARCATEGORIA.INIT
+12-09-2019 00:14:05 , Linea nº loObjnavega.RecordSource=''
+Error nº:       1924
+Error LOOBJNAVEGA no es un objeto.
+ Alias CSRCURSOR registro          1
+Control activo  SUBMOVBCOCAR.INIT
+12-09-2019 00:16:09 , Linea nº loObjnavega.RecordSource=''
+Error nº:       1924
+Error LOOBJNAVEGA no es un objeto.
+ Alias CSRCURSOR registro          1
+Control activo  SUBMOVBCOCAR.INIT
+12-09-2019 00:23:10 , Linea nº lcValor = .pageframe1.page1.kitgrillatildarVALOR.cadenaelegidos()
+Error nº:       1925
+Error KITGRILLATILDARVALOR es un miembro desconocido.
+ Alias  registro          0
+Control activo  SUBMOVBCOCAR.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+12-09-2019 00:23:50 , Linea nº SELECT CsrCuerpo.* FROM CsrCuerpo INTO CURSOR CsrImprimir READWRITE
+Error nº:          1
+Error El archivo 'csrcuerpo.dbf' no existe.
+ Alias _CSRVALOR registro          2
+Control activo  SUBMOVBCOCAR.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+12-09-2019 00:24:30 , Linea nº SELECT CsrCuerpo.* FROM CsrCuerpo INTO CURSOR CsrImprimir READWRITE
+Error nº:          1
+Error El archivo 'csrcuerpo.dbf' no existe.
+ Alias _CSRVALOR registro          2
+Control activo  SUBMOVBCOCAR.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+12-09-2019 00:33:43 , Linea nº SELECT fechacaja,nomvalor,numvalor,cupon,lote,fecha,fechavto,importe,saldo,cuota FROM CsrImprimir ORDER BY iddetanrocaja,id INTO CURSOR CsrImprimir READWRITE
+Error nº:       1806
+Error SQL: no se encuentra la columna 'NOMVALOR'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  SUBMOVTARJETA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+12-09-2019 09:26:15 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,
+
+idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgo
+Error nº:          9
+Error No coinciden los tipos de datos.
+ Alias CSRPAGO registro          1
+Control activo  RINDEARQUEO.GRID2.KEYPRESS
+12-09-2019 09:27:06 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,
+
+idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgo
+Error nº:          9
+Error No coinciden los tipos de datos.
+ Alias CSRPAGO registro          1
+Control activo  RINDEARQUEO.GRID2.KEYPRESS
+12-09-2019 09:28:58 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,
+
+idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgo
+Error nº:          9
+Error No coinciden los tipos de datos.
+ Alias CSRRENDIFLE registro          3
+Control activo  RINDEARQUEO.GRID2.KEYPRESS
+12-09-2019 10:35:25 , Linea nº DO FORM &lcForm WITH lcparam1
+Error nº:          1
+Error El archivo 'j:\xsoftsr\proyectos\starossa\submovtarjeta.scx' no existe.
+ Alias CURPERFIL registro        203
+Control activo  MAIN
+12-09-2019 10:38:17 , Linea nº DO FORM &lcForm WITH lcparam1
+Error nº:          1
+Error El archivo 'j:\xsoftsr\proyectos\starossa\submovbtarjeta.scx' no existe.
+ Alias CURPERFIL registro        203
+Control activo  MAIN
+12-09-2019 10:39:33 , Linea nº DO FORM &lcForm WITH lcparam1
+Error nº:          1
+Error El archivo 'j:\xsoftsr\proyectos\starossa\submovbtarjeta.scx' no existe.
+ Alias CURPERFIL registro        203
+Control activo  MAIN
+12-09-2019 10:44:02 , Linea nº .Column011.Header = "Cuotas"
+Error nº:       1925
+Error COLUMN011 es un miembro desconocido.
+ Alias CSRIMPRIMIR registro          1
+Control activo  MAIN
+12-09-2019 11:06:52 , Linea nº GATHER NAME OscImprimir
+Error nº:       1581
+Error El campo MOVIMIENTO no acepta valores NULL.
+ Alias CSRIMPRIMIR registro         26
+Control activo  RINDEARQUEO.CONTENEDORREPORTE.CMDIMPRIMIRTESO.CLICK
+12-09-2019 15:48:40 , Linea nº IF This.lnModulo567Exentos
+Error nº:       1734
+Error No se encuentra la propiedad LNMODULO567EXENTOS.
+ Alias CSRPRODUCTO registro          1
+Control activo  REGFACVTA.GRID2.COLUMN2.TEXT1.KEYPRESS
+16-09-2019 11:35:24 , Linea nº SELECT CsrAuxImprimir.* FROM CsrAuxImprimir WHERE RECNO()<1 INTO CURSOR CsrImprimir READWRITE
+Error nº:          1
+Error El archivo 'csrauximprimir.dbf' no existe.
+ Alias CSRCURSOR registro         33
+Control activo  SUBIVAVTA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
+16-09-2019 13:47:00 , Linea nº IF this.importandopedidos
+Error nº:       1734
+Error No se encuentra la propiedad IMPORTANDOPEDIDOS.
+ Alias CSRAUXCUERFAC registro          1
+Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
+17-09-2019 11:47:49 , Linea nº lnuniventa=This.loObjBonifica.univtaorig
+Error nº:       1734
+Error No se encuentra la propiedad UNIVTAORIG.
+ Alias CSRAUXCUERFAC registro          1
+Control activo  REGFACVTA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS
+17-09-2019 12:08:58 , Linea nº replace tasaiva WITH CsrProducto.tasaiva
+Error nº:         12
+Error No se encuentra la variable 'TASAIVA'.
+ Alias CSRPRODUCTO registro          9
+Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
+17-09-2019 12:10:17 , Linea nº replace tasaiva WITH CsrProducto.tasa
+Error nº:         12
+Error No se encuentra la variable 'TASAIVA'.
+ Alias CSRPRODUCTO registro          9
+Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
+20-09-2019 14:06:12 , Linea nº replace prearti WITH lnpreunita,preartisiva WITH lnpreunitasiva IN CsrAuxCuerfac
+Error nº:          9
+Error No coinciden los tipos de datos.
+ Alias CSRPRODUCTO registro          1
+Control activo  REGFACVTAPUB.GRID2.COLUMN2.TEXT1.KEYPRESS
+20-09-2019 14:52:25 , Linea nº lcidmaopera = CHRTRAN(lcidmaopera,",","")
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias CSRVENDEDOR registro          1
+Control activo  REGFACVTAPUB.KEYPRESS
+27-09-2019 12:33:51 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo CODIGO REGFACVTA.LOAD
+27-09-2019 12:34:20 , Linea nº where Csrbonictacte.idctacte =<<lnidctacte>> and Csrbonictacte.idproducto in (<<CsrProducto.id>>)
+Error nº:         12
+Error No se encuentra la variable 'LNIDCTACTE'.
+ Alias CSRPRODUCTO registro          1
+Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
+27-09-2019 13:29:37 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+27-09-2019 13:36:14 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+27-09-2019 13:39:39 , Linea nº Orslista.ActiveConnection = loConnDataSource
+Error nº:       1429
+Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..
+ Alias  registro          0
+Control activo  MAIN
+27-09-2019 14:11:58 , Linea nº SELECT CsrExistenc
+Error nº:         13
+Error No se encuentra el alias 'CSREXISTENC'.
+ Alias CSRCOMPROBANTE registro          1
+Control activo  REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
+03-10-2019 10:42:49 , Linea nº IF lObjeto.esEAN13
+Error nº:          9
+Error No coinciden los tipos de datos.
+ Alias CSRPRODUCTO registro          1
+Control activo CODIGO15 REGFACVTAPUB.GRID2.COLUMN1.TEXT1.VALID
+04-10-2019 15:44:29 , Linea nº SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE
+Error nº:          1
+Error El archivo 'csrcursor.dbf' no existe.
+ Alias CSRCTACTE registro          1
+Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+25-10-2019 13:58:15 , Linea nº IF CsrProdFzaVta.topeofiprod#0
+Error nº:         12
+Error No se encuentra la variable 'TOPEOFIPROD'.
+ Alias CSRPRODFZAVTA registro          1
+Control activo CODIGO MAIN
+25-10-2019 14:06:57 , Linea nº IF CsrProdFzaVta.topeofiprod#0
+Error nº:         12
+Error No se encuentra la variable 'TOPEOFIPROD'.
+ Alias CSRPRODFZAVTA registro          1
+Control activo CODIGO MAIN
+25-10-2019 14:13:35 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0
+Error nº:       1734
+Error No se encuentra la propiedad MINIMOTOFI.
+ Alias CSRPRODFZAVTA registro          1
+Control activo CODIGO MAIN
+25-10-2019 14:13:40 , Linea nº lntopeOfi	= IIF(NVL(Oscatter.minimotofi,0) > lnCantFinal,0,lntopeOfi)
+Error nº:       1734
+Error No se encuentra la propiedad MINIMOTOFI.
+ Alias CSRPRODFZAVTA registro          1
+Control activo  MAIN
+25-10-2019 14:15:50 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0
+Error nº:       1734
+Error No se encuentra la propiedad MINIMOTOFI.
+ Alias CSRPRODFZAVTA registro          1
+Control activo CODIGO MAIN
+25-10-2019 14:20:04 , Linea nº IF NVL(Oscatter.minimotofi,0) > 0
+Error nº:       1734
+Error No se encuentra la propiedad MINIMOTOFI.
+ Alias CSRPRODFZAVTA registro       5031
+Control activo CODIGO MAIN
+25-10-2019 14:46:34 , Linea nº loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+Error nº:       1742
+Error El origen de datos para este objeto debe ser una referencia de variable.
+ Alias _CSRFORMS registro          1
+Control activo  CAMBIACLASES.ACEPTAR2.CLICK
+25-10-2019 14:47:26 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE
+Error nº:          1
+Error El archivo 'csrmovtarjeta.dbf' no existe.
+ Alias CSRCLASECOMP registro          1
+Control activo  REGTARJETA.LOAD
+25-10-2019 15:07:43 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE
+Error nº:          1
+Error El archivo 'csrmovtarjeta.dbf' no existe.
+ Alias CSRCLASECOMP registro          1
+Control activo  REGTARJETA.LOAD
+25-10-2019 15:10:05 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE
+Error nº:          1
+Error El archivo 'csrmovtarjeta.dbf' no existe.
+ Alias CSRCLASECOMP registro          1
+Control activo  REGTARJETA.LOAD
+25-10-2019 15:15:03 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE
+Error nº:          1
+Error El archivo 'csrmovtarjeta.dbf' no existe.
+ Alias CSRCLASECOMP registro          1
+Control activo  REGTARJETA.LOAD
+25-10-2019 15:16:02 , Linea nº IF !thisform.obtenerdatos('CsrValor',lcCmdValor)
+Error nº:       1734
+Error No se encuentra la propiedad OBTENERDATOS.
+ Alias CSRVALOR registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:16:11 , Linea nº IF !thisform.obtenerdatos('CsrValor',lcCmdValor)
+Error nº:       1734
+Error No se encuentra la propiedad OBTENERDATOS.
+ Alias CSRVALOR registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:16:25 , Linea nº IF !thisform.obtenerdatos('CsrValor',lcCmdValor)
+Error nº:       1734
+Error No se encuentra la propiedad OBTENERDATOS.
+ Alias CSRVALOR registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:16:30 , Linea nº IF !thisform.obtenerdatos('CsrPrefitermi',lcCmd)
+Error nº:       1734
+Error No se encuentra la propiedad OBTENERDATOS.
+ Alias CSRVALOR registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:18:52 , Linea nº SELECT CsrParaConta.* FROM ParaConta as CsrParaConta WHERE idejercicio = <<Goapp.idejercicio>>
+Error nº:       1734
+Error No se encuentra la propiedad IDEJERCICIO.
+ Alias CSRPREFITERMI registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:19:03 , Linea nº SELECT CsrParaConta.* FROM ParaConta as CsrParaConta WHERE idejercicio = <<Goapp.idejercicio>>
+Error nº:       1734
+Error No se encuentra la propiedad IDEJERCICIO.
+ Alias CSRPREFITERMI registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:22:40 , Linea nº .lnidnrocaja	= Csrparaconfig.iddetanrocaja
+Error nº:         13
+Error No se encuentra el alias 'CSRPARACONFIG'.
+ Alias CSRPARACONTA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:28:56 , Linea nº .lnidnrocaja	= Csrparaconfig.iddetanrocaja
+Error nº:         12
+Error No se encuentra la variable 'IDDETANROCAJA'.
+ Alias CSRPARACONTA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:29:07 , Linea nº .lnidnrocaja	= Csrparaconfig.iddetanrocaja
+Error nº:         12
+Error No se encuentra la variable 'IDDETANROCAJA'.
+ Alias CSRPARACONTA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:31:09 , Linea nº .containersistema._txtfecha.Value = Csrparaconfig.fechaserver
+Error nº:         12
+Error No se encuentra la variable 'FECHASERVER'.
+ Alias CSRPARACONTA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:31:18 , Linea nº .containersistema._txtfecha.Value = Csrparaconfig.fechaserver
+Error nº:         12
+Error No se encuentra la variable 'FECHASERVER'.
+ Alias CSRPARACONTA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:32:36 , Linea nº INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisfor
+
+m.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrpara
+
+config.pefiscal,'0',"",CsrComprobante.id)
+Error nº:         12
+Error No se encuentra la variable 'FECHASERVER'.
+ Alias CSRAUXMAOPERA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:33:31 , Linea nº INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisfor
+
+m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
+
+fig.pefiscal,'0',"",CsrComprobante.id)
+Error nº:         12
+Error No se encuentra la variable 'TURNO'.
+ Alias CSRAUXMAOPERA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:34:30 , Linea nº INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisfor
+
+m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
+
+fig.pefiscal,'0',"",CsrComprobante.id)
+Error nº:         12
+Error No se encuentra la variable 'NROCAJA'.
+ Alias CSRAUXMAOPERA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:34:40 , Linea nº INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,iddetanrocaja,turno,switch ,sucursal,sector,puestocaja,idcotizadolar,nrocaja,pefiscal,estado,detalle,idcomproba) VALUES ('TAR',UPPER(thisfor
+
+m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
+
+fig.pefiscal,'0',"",CsrComprobante.id)
+Error nº:         12
+Error No se encuentra la variable 'NROCAJA'.
+ Alias CSRAUXMAOPERA registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:35:12 , Linea nº Insert into CsrAuxMovimiento (fecha,switch,idvalor,idctacte) value (DATE(),"00000",0,0)
+Error nº:         12
+Error No se encuentra la variable 'SWITCH'.
+ Alias CSRAUXMOVIMIENTO registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:35:25 , Linea nº Insert into CsrAuxMovimiento (fecha,switch,idvalor,idctacte) value (DATE(),"00000",0,0)
+Error nº:         12
+Error No se encuentra la variable 'SWITCH'.
+ Alias CSRAUXMOVIMIENTO registro          1
+Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
+25-10-2019 15:36:25 , Linea nº this.proximonro = STR(VAL(CsrNumeracion.numcomp)+1,8)
+Error nº:         13
+Error No se encuentra el alias 'CSRNUMERACION'.
+ Alias CSRPARACONTA registro         33
+Control activo IDCOMPROBA REGTARJETA.CONTAINERENCABEZA._CBOCOMPROBANTE.LOSTFOCUS
+25-10-2019 15:43:28 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH Cs
+
+rCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov
+Error nº:       1581
+Error El campo IDCUENTA no acepta valores NULL.
+ Alias CSRCURSORASTO registro          2
+Control activo IMPORTE REGTARJETA.KEYPRESS
+12-11-2019 11:32:24 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH Cs
+
+rCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov
+Error nº:       1581
+Error El campo IDCUENTA no acepta valores NULL.
+ Alias CSRCURSORASTO registro          2
+Control activo IMPORTE REGTARJETA.KEYPRESS
+12-11-2019 12:30:42 , Linea nº and CsrCabeMod.idejercicio = <<goapp.idejercicio>>
+Error nº:       1734
+Error No se encuentra la propiedad IDEJERCICIO.
+ Alias CURSORASTO registro          1
+Control activo DETALLE REGTARJETA.CONTAINERENCABEZA._TXTDETALLE.KEYPRESS
+12-11-2019 12:33:57 , Linea nº CASE lnKeyCode=22			&&insert
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXPLANCUE registro          1
+Control activo DETALLE REGTARJETA.CONTAINERENCABEZA._TXTDETALLE.KEYPRESS
+12-11-2019 12:37:25 , Linea nº this.cadenaerrores = ""
+Error nº:       1734
+Error No se encuentra la propiedad CADENAERRORES.
+ Alias CSRAUXPLANCUE registro          1
+Control activo CUENTA REGTARJETA.KEYPRESS
+12-11-2019 13:08:54 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTAPUB.LOAD
+12-11-2019 13:35:00 , Linea nº this.lblconvenio.Caption = 'TOTAL POR CONVENIO ('+STRTRIM(oCliente.descuento,8,2)+'%)='
+Error nº:         13
+Error No se encuentra el alias 'OCLIENTE'.
+ Alias CSRAUXCUERFAC registro          1
+Control activo IDCOMPROBA REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
+12-11-2019 14:06:36 , Linea nº this.lblconvenio.Caption = 'TOTAL POR CONVENIO ('+STRTRIM(CsrAuxCabefac.aliconvenio,8,2)+'%)=' + lnTotalFac
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXCUERFAC registro          1
+Control activo IDCOMPROBA REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
+12-11-2019 16:29:54 , Linea nº SELECT (lcalias)
+Error nº:         13
+Error No se encuentra el alias 'CSRPLANCUE'.
+ Alias  registro          0
+Control activo NOMBRE REGTARJETA.GRID1.COLUMN2.TEXT1.KEYPRESS
+12-11-2019 16:32:49 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH Cs
+
+rCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov
+Error nº:       1581
+Error El campo IDCUENTA no acepta valores NULL.
+ Alias CSRCURSORASTO registro          2
+Control activo IMPORTE REGTARJETA.KEYPRESS
+12-11-2019 16:44:29 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE
+Error nº:          1
+Error El archivo 'csrmovtarjeta.dbf' no existe.
+ Alias  registro          0
+Control activo IDCOMPROBA REGTARJETA.LOAD
+12-11-2019 16:46:19 , Linea nº PACK
+Error nº:       1549
+Error La sesión de datos nº 3 no se puede liberar si hay transacciones abiertas.
+ Alias CSRAUXPLANCUE registro          1
+Control activo IDCOMPROBA ON... 
+12-11-2019 16:52:27 , Linea nº DO FORM buscompro WITH .cOrigen,oObjoca,.cCmdCampos,.cTypeData,.cTipoeleccion,loObjParametro,.cCmdMuestra,.cCboOperador,.cDatoInicial
+Error nº:         12
+Error No se encuentra la variable 'OOBJOCA'.
+ Alias CSRMOVTARJETA registro          1
+Control activo  REGTARJETA.CMDCONSULTA.CLICK
+12-11-2019 16:52:58 , Linea nº DO FORM buscompro WITH .cOrigen,.oObjoca,.cCmdCampos,.cTypeData,.cTipoeleccion,loObjParametro,.cCmdMuestra,.cCboOperador,.cDatoInicial
+Error nº:       1734
+Error No se encuentra la propiedad CTIPOELECCION.
+ Alias CSRMOVTARJETA registro          1
+Control activo  REGTARJETA.CMDCONSULTA.CLICK
+12-11-2019 16:54:04 , Linea nº DO FORM buscompro WITH .cOrigen,.oObjoca,.cCmdCampos,.cTypeData,.cTipoSelection,loObjParametro,.cCmdMuestra,.cCboOperador,.cDatoInicial
+Error nº:       1734
+Error No se encuentra la propiedad CTIPOSELECTION.
+ Alias CSRMOVTARJETA registro          1
+Control activo  REGTARJETA.CMDCONSULTA.CLICK
+12-11-2019 16:54:36 , Linea nº DO FORM buscompro WITH .cOrigen,.oObjoca,.cCmdCampos,.cTypeData,.cTypeSelection,loObjParametro,.cCmdMuestra,.cCboOperador,.cDatoInicial
+Error nº:       1734
+Error No se encuentra la propiedad CCBOOPERADOR.
+ Alias CSRMOVTARJETA registro          1
+Control activo  REGTARJETA.CMDCONSULTA.CLICK
+12-11-2019 16:55:10 , Linea nº DO FORM buscompro WITH .cOrigen,.oObjoca,.cCmdCampos,.cTypeData,.cTypeSelection,loObjParametro,.cCmdMuestra,.cCmdOperador,.cDatoInicial
+Error nº:       1734
+Error No se encuentra la propiedad CDATOINICIAL.
+ Alias CSRMOVTARJETA registro          1
+Control activo  REGTARJETA.CMDCONSULTA.CLICK
+12-11-2019 16:58:39 , Linea nº .containerencabeza.kitbuscaoaltaenCtacte.txtid.Value = OscatterMov.idctacte
+Error nº:       1925
+Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
+ Alias CSRAUXPLANCUE registro          1
+Control activo  REGTARJETA.CMDCONSULTA.CLICK
+14-11-2019 15:28:09 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTAPUB.LOAD
+19-11-2019 12:15:44 , Linea nº replace dni WITH oCliente.dni IN CsrAuxCabefac
+Error nº:       1734
+Error No se encuentra la propiedad DNI.
+ Alias CSRPREFITERMI registro         19
+Control activo PARADA REGFACVTAPUB.KEYPRESS
+19-11-2019 13:44:29 , Linea nº USE (_form) IN 0 ALIAS formulario
+Error nº:          3
+Error El archivo ya está en uso.
+ Alias _CSRFORMS registro        224
+Control activo  __UTILBUSCAROBJETOS.ACEPTAR2.CLICK
+19-11-2019 13:44:36 , Linea nº SELECT formulario
+Error nº:         13
+Error No se encuentra el alias 'FORMULARIO'.
+ Alias _CSRFORMS registro        224
+Control activo  __UTILBUSCAROBJETOS.ACEPTAR2.CLICK
+19-11-2019 14:13:12 , Linea nº IF Csrimprimir.bonificacion<>0 OR CsrImprimir.convenio<>0
+Error nº:         12
+Error No se encuentra la variable 'CONVENIO'.
+ Alias CSRIMPRIMIR registro          1
+Control activo  VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+19-11-2019 14:53:33 , Linea nº replace &lcbonif WITH lnbonifgrl + lnbonf, &lcpromo WITH lnpromogrl + lnpromo,&lcconve WITH lnconvegral + lnconve IN CsrPieimp
+Error nº:         12
+Error No se encuentra la variable 'LNCONVEGRAL'.
+ Alias CSRAUX registro       1274
+Control activo  VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+19-11-2019 14:59:33 , Linea nº DELETE FROM CsrImprimir WHERE estad_1=0 AND estad_2=0 AND estad_3 =0 AND estad_4 = 0 AND estad_5=0 AND estad_6 =0 AND estad_7=0 AND estad_8=0 AND estad_9=0 AND estad_10 =0 AND estad_11=0 AND estad_12=0 AND estad_13=0 AND bo
+
+nificacion = 0 AND promocion = 0 AND convenio = 0
+Error nº:         12
+Error No se encuentra la variable 'CONVENIO'.
+ Alias CSRAUX registro       1600
+Control activo  VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+19-11-2019 15:03:54 , Linea nº replace &valor WITH lntotal,&valorgrl WITH lntotal-&lndatapromo-&lndatabonif-&lndataconve IN CsrPieImp
+Error nº:       1231
+Error Falta algún operando.
+ Alias CSRIMPRIMIR registro       2492
+Control activo  VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+19-11-2019 15:16:08 , Linea nº replace &valor WITH lntotal,&valorgrl WITH lntotal-&lndatapromo-&lndatabonif-&lndataconve IN CsrPieImpError nº:       1231Error Falta algún operando. Alias CSRIMPRIMIR registro       2492Control activo  VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
