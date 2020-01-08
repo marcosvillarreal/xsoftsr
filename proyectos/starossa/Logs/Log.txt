@@ -31,309 +31,6 @@
 
 
 
-00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
-Error nº:          1
-Error El archivo 'csrcabefac.dbf' no existe.
- Alias  registro          0
-Control activo  REGFACVTA.LOAD
-14-08-2019 10:19:44 , Linea nº IF !thisform.obtenerdatos('Csrcomprobante',lccmd)
-Error nº:         12
-Error No se encuentra la variable 'LCCMD'.
- Alias CSRPREFITERMI registro         19
-Control activo  REGFACVTA.INIT
-15-08-2019 11:37:15 , Linea nº CASE  LEN(TRIM(lcparam2))=0
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias CURPERFIL registro        144
-Control activo  MAIN
-15-08-2019 15:07:13 , Linea nº select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE
-Error nº:          1
-Error El archivo 'csrproducto.dbf' no existe.
- Alias  registro          0
-Control activo  LISTAETIQUETA.KITGRILLATILDARSTOCK.INIT
-21-08-2019 12:42:34 , Linea nº COUNT ALL FOR tasaiva=0 AND idarticulo#0 TO lHayTasaZero
-Error nº:         12
-Error No se encuentra la variable 'IDARTICULO'.
- Alias CSRCABEIMP registro          1
-Control activo  MAIN
-22-08-2019 10:53:03 , Linea nº SELECT 0 as grupo2, 0 as grupo,csr1.*,csr1.vtalitros as litros,Csr1.importefinal as importes ,unibulto as unibulto ,internos as interno ,IIF(lnProveedor=1,idproveed,CAST(0 as int)) as idproveed ,IIF(lnProveedor=1,nomproveed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,SPACE(30)) as nomproveed ,IIF(lnProveedor=1,numproveed,SPACE(10)) as numproveed FROM csr1 LEFT JOIN CsrDatos ON Csr1.idarticulo = CsrDatos.id INTO CURSOR CsrImprimir READWRITE
-Error nº:          1
-Error El archivo 'csrdatos.dbf' no existe.
- Alias CSR1 registro          1
-Control activo  VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-22-08-2019 11:04:24 , Linea nº SELECT Csrimprimir.* FROM Csrimprimir UNION select CsrRestas.* FROM CsrRestas UNION select CsrTotales.* FROM CsrTotales ORDER BY  grupo, idfletero, idvendedor,idproveed,idcategoria, idasociado, idrubro  INTO CURSOR Csrimpri
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mir READWRITE
-Error nº:       1806
-Error SQL: no se encuentra la columna 'IDCATEGORIA'.
- Alias  registro          0
-Control activo  VENTASPORFECHA_ASO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-23-08-2019 15:19:17 , Linea nº SELECT CsrCuerfac.*,0000000.00 as stock,0000000.00 as total,CAST(0 as int) as idcuerfac,0000000.000 as desctoCiva,0000000.000 as DesctoSiva ,CAST(0 as numeric(12,0)) as registro,CAST(0 as int) as idfuerzavta,' ' as alcohol,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-' ' as codvalido,CAST(0 as int) as idcabeunifica ,CAST(0 as int) as idprodpromo,CAST(0 as int) as idprodregalo,000000 as cada,000000 as entrega,0 as nofactura,00000000.000 as InternoFin ,CAST(0 as int) as idctavta,00000000.000 as UniCiva,00000000.000 as 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-UniSiva,00000000.000 as IvaUni,00000000.000 as UniCiva2 ,00000000.000 as UniSiva2,00000000.000 as IvaUni2,CAST(0 as int) as idenvase,CAST(0 as int) as idprodgenera,0000 as hojaactual ,0 as bondigitada,CAST(0 as int) as minimofac,SPACE(10+6) as clavepedid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -431,7 +128,31 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -501,7 +222,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -571,7 +316,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -731,6 +500,18 @@ Control activo  SUBMOVTARJETA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgo
 Error nº:          9
 Error No coinciden los tipos de datos.
@@ -771,12 +552,36 @@ Control activo  RINDEARQUEO.GRID2.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 idvalor WITH OscPago.idvalor,esclase WITH OscPago.clasevalor IN CsrPAgo
 Error nº:          9
 Error No coinciden los tipos de datos.
  Alias CSRPAGO registro          1
 Control activo  RINDEARQUEO.GRID2.KEYPRESS
 12-09-2019 09:28:58 , Linea nº replace idctabco WITH OscPago.idctabco,nrocheque WITH IIF(OscPago.clasevalor$'A','',VAL(OscPago.detalle)) ,fechavto WITH OscPago.fecha,importe WITH OscPago.importe ,numero with OscPago.vnumero,cnombre with OscPago.vnombre ,
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -916,7 +721,31 @@ Control activo  REGFACVTAPUB.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -986,7 +815,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1056,7 +909,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1136,7 +1013,31 @@ Control activo IDCOMPROBA REGFACVTA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1206,7 +1107,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1276,7 +1201,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1486,7 +1435,31 @@ Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 m.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrpara
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1561,7 +1534,31 @@ Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1636,7 +1633,31 @@ Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1711,7 +1732,31 @@ Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1801,12 +1846,36 @@ Control activo IDCOMPROBA REGTARJETA.CONTAINERENCABEZA._CBOCOMPROBANTE.LOSTFOCUS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 rCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov
 Error nº:       1581
 Error El campo IDCUENTA no acepta valores NULL.
  Alias CSRCURSORASTO registro          2
 Control activo IMPORTE REGTARJETA.KEYPRESS
 12-11-2019 11:32:24 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH Cs
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1896,7 +1965,31 @@ Control activo CUENTA REGTARJETA.KEYPRESS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1966,7 +2059,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2036,7 +2153,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2092,6 +2233,18 @@ Error No se encuentra el alias 'CSRPLANCUE'.
  Alias  registro          0
 Control activo NOMBRE REGTARJETA.GRID1.COLUMN2.TEXT1.KEYPRESS
 12-11-2019 16:32:49 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH Cs
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2206,7 +2359,31 @@ Control activo  REGTARJETA.CMDCONSULTA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2276,7 +2453,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2346,7 +2547,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2412,6 +2637,18 @@ Error No se encuentra la variable 'LNCONVEGRAL'.
  Alias CSRAUX registro       1274
 Control activo  VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 19-11-2019 14:59:33 , Linea nº DELETE FROM CsrImprimir WHERE estad_1=0 AND estad_2=0 AND estad_3 =0 AND estad_4 = 0 AND estad_5=0 AND estad_6 =0 AND estad_7=0 AND estad_8=0 AND estad_9=0 AND estad_10 =0 AND estad_11=0 AND estad_12=0 AND estad_13=0 AND bo
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2557,7 +2794,31 @@ Control activo  RINDEARQUEO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  as cartera ,IIF('L'$UPPER(clasevalor),total,0000000000.000) as transf ,IIF('A'$UPPER(clasevalor),total,0000000000.000) as tarj ,IIF('I'$UPPER(clasevalor),total,0000000000.000) as rete ,IIF(not UPPER(clasevalor)$'ETJLAI',total,0000000000.000) as otros , 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2612,7 +2873,31 @@ Control activo CODIGO15 REGFACVTAPUB.GRID2.COLUMN1.TEXT1.VALID
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2650,7 +2935,31 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2688,7 +2997,31 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2822,4 +3155,79 @@ Error nº:       1734
 Error No se encuentra la propiedad IDASOACIADO.
  Alias CSRAUXCABEFAC registro          1
 Control activo  REGFACVTAPUB.KEYPRESS
-27-12-2019 14:30:01 , Linea nº .ContainerEnCabeza.kitbuscoaltaenctacte.filtrar = ' and ctaacreedor = 1'Error nº:       1925Error KITBUSCOALTAENCTACTE es un miembro desconocido. Alias  registro          0Control activo  MAIN
+27-12-2019 14:30:01 , Linea nº .ContainerEnCabeza.kitbuscoaltaenctacte.filtrar = ' and ctaacreedor = 1'
+Error nº:       1925
+Error KITBUSCOALTAENCTACTE es un miembro desconocido.
+ Alias  registro          0
+Control activo  MAIN
+08-01-2020 12:46:52 , Linea nº WITH oRemitoCOT
+Error nº:         12
+Error No se encuentra la variable 'OREMITOCOT'.
+ Alias CSRAUXCARGA registro          1
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 12:48:18 , Linea nº replace ALL cuitfletero WITH CsrChofer.cuit IN CsrAuxCOT
+Error nº:         13
+Error No se encuentra el alias 'CSRCHOFER'.
+ Alias CSRAUXCOT registro          1
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 12:50:54 , Linea nº IF NOT thisform.cotWS.cot_createfile()
+Error nº:       1734
+Error No se encuentra la propiedad COT_CREATEFILE.
+ Alias CSRAUXCOT registro        298
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 12:54:03 , Linea nº cLinea = cLinea + cSep + Oscatter.letracpostal
+Error nº:       1734
+Error No se encuentra la propiedad LETRACPOSTAL.
+ Alias CSRAUXCOT registro          1
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:03:29 , Linea nº RETURN ALLTRIM(STR(lnValor,lnTam,lnDec))
+Error nº:       1908
+Error El argumento de ancho o número de decimales no es válido.
+ Alias CSRAUXCOT registro        298
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:05:45 , Linea nº RETURN ALLTRIM(STR(lnValor,lnTam,lnDec))
+Error nº:       1908
+Error El argumento de ancho o número de decimales no es válido.
+ Alias CSRAUXCOT registro        298
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:06:37 , Linea nº WITH thisform.containerDatos
+Error nº:       1734
+Error No se encuentra la propiedad CONTAINERDATOS.
+ Alias CSRAUXCOT registro        298
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:11:23 , Linea nº .cmdEnvio.Enabled = .t.
+Error nº:       1925
+Error CMDENVIO es un miembro desconocido.
+ Alias CSRAUXCOT registro        298
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:17:41 , Linea nº thisform.cmdCambiaFlete.Visible=.f.
+Error nº:       1925
+Error CMDCAMBIAFLETE es un miembro desconocido.
+ Alias CSRFLETERO registro          1
+Control activo  PATRONCARGA_COT.CONTAINERENCABEZA.CLICK
+08-01-2020 13:21:11 , Linea nº loFile.Write(cLinea)
+Error nº:       1924
+Error LOFILE no es un objeto.
+ Alias CSRAUXCOT registro          1
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:21:25 , Linea nº loFile.WriteBlankLines(1)   && salto de línea
+Error nº:       1924
+Error LOFILE no es un objeto.
+ Alias CSRAUXCOT registro          1
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:21:43 , Linea nº DELETE FILE &cFileName
+Error nº:       1705
+Error Denegado j:\cot\tb_20114820203_000000_20200108_000001.txt al acceso al archivo.
+ Alias CSRAUXCOT registro          2
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:23:04 , Linea nº loFile.Write(cLinea)
+Error nº:       1924
+Error LOFILE no es un objeto.
+ Alias CSRAUXCOT registro          1
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:25:34 , Linea nº loFile.Write(cLinea)
+Error nº:       1924
+Error LOFILE no es un objeto.
+ Alias CSRAUXCOT registro          1
+Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
+08-01-2020 13:25:42 , Linea nº loFile.WriteBlankLines(1)   && salto de líneaError nº:       1924Error LOFILE no es un objeto. Alias CSRAUXCOT registro          1Control activo  PATRONCARGA_COT.ACEPTAR1.CLICK
