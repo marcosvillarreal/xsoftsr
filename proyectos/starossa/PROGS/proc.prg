@@ -1635,7 +1635,7 @@ ENDFUNC
 
 * Desencripta(lc, "MiLlave")
 
-FUNCTION Encripta1(tcCadena, tcLlave, tlSinDesencripta)
+FUNCTION Encripta2(tcCadena, tcLlave, tlSinDesencripta)
 
 	LOCAL lc, ln, lcRet
 	LOCAL lnClaveMul, lnClaveXor
@@ -1668,7 +1668,7 @@ FUNCTION Encripta1(tcCadena, tcLlave, tlSinDesencripta)
 ENDFUNC
 
 
-FUNCTION Desencripta1(tcCadena, tcLlave)
+FUNCTION Desencripta2(tcCadena, tcLlave)
 
 	LOCAL lc, ln, lcRet, lnByte
 	LOCAL lnClaveMul, lnClaveXor
