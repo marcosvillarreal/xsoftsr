@@ -3731,3 +3731,4 @@ Error El campo IDCUENTA no acepta valores NULL.
  Alias CSRCURSORASTO registro          2
 Control activo IMPORTE REGTARJETA.KEYPRESS
 06-02-2020 14:30:13 , Linea nº SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITEError nº:          1Error El archivo 'csrmovtarjeta.dbf' no existe. Alias  registro          0Control activo  REGTARJETA.LOAD
+07-02-2020 12:24:08 , Linea nº SELECT *,VAL(CodCtacte) Orden FROM CsrCursor ORDER BY Orden INTO CURSOR CsrImport2 READWRITEError nº:          1Error El archivo 'csrcursor.dbf' no existe. Alias  registro          0Control activo  GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
