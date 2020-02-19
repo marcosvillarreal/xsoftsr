@@ -1,21 +1,6 @@
-08-01-2020 13:03:30 , Nº de Linea :          2
-08-01-2020 13:03:30 , En el Fuente: lok = thisform.generar_archivo()
-08-01-2020 13:03:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
-08-01-2020 13:03:31 , Objeto      : patroncarga_cot.generar_archivo
-08-01-2020 13:03:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
-08-01-2020 13:03:31 , Nº de Linea :         36
-08-01-2020 13:03:32 , En el Fuente: 	this.guardardestinos()
-08-01-2020 13:03:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
-08-01-2020 13:03:32 , Objeto      : patroncarga_cot.guardardestinos
-08-01-2020 13:03:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
-08-01-2020 13:03:33 , Nº de Linea :          6
-08-01-2020 13:03:33 , En el Fuente: RutaSecuencia = strtrim(this.containerencabeza._sarchivo.Value,1000)
-08-01-2020 13:03:34 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-08-01-2020 13:03:34 , Objeto      : strtrim
-08-01-2020 13:03:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-08-01-2020 13:03:34 , Nº de Linea :        531
-08-01-2020 13:03:35 , En el Fuente: RETURN ALLTRIM(STR(lnValor,lnTam,lnDec))
-08-01-2020 13:05:46 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: El argumento de ancho o número de decimales no es válido.;Linea : RETURN ALLTRIM(STR(lnValor,lnTam,lnDec));Error :       1908;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:        298 ;DBF: C:
+
+
+
 
 
 
@@ -350,6 +335,10 @@
 
 
 
+
+
+
+
 L\TEMP\0000BT3D00NI.TMP;Ultimo Control activo: 
 08-01-2020 13:06:38 , Pila de llamadas
 08-01-2020 13:06:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -363,6 +352,10 @@ L\TEMP\0000BT3D00NI.TMP;Ultimo Control activo:
 08-01-2020 13:06:41 , Nº de Linea :         39
 08-01-2020 13:06:42 , En el Fuente: 	WITH thisform.containerDatos
 08-01-2020 13:11:24 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: CMDENVIO es un miembro desconocido.;Linea : .cmdEnvio.Enabled = .t.;Error :       1925;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:        298 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BT3
+
+
+
+
 
 
 
@@ -669,6 +662,10 @@ D00QL.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 N\APPDATA\LOCAL\TEMP\0000BT3D012P.TMP;Ultimo Control activo: 
 08-01-2020 13:17:42 , Pila de llamadas
 08-01-2020 13:17:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -677,6 +674,10 @@ N\APPDATA\LOCAL\TEMP\0000BT3D012P.TMP;Ultimo Control activo:
 08-01-2020 13:17:44 , Nº de Linea :          2
 08-01-2020 13:17:44 , En el Fuente: thisform.cmdCambiaFlete.Visible=.f.
 08-01-2020 13:21:12 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: LOFILE no es un objeto.;Linea : loFile.Write(cLinea);Error :       1924;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BT3D017N.TMP;Ultim
+
+
+
+
 
 
 
@@ -976,6 +977,10 @@ o Control activo:
 
 
 
+
+
+
+
 MP\0000BT3D017N.TMP;Ultimo Control activo: 
 08-01-2020 13:21:26 , Pila de llamadas
 08-01-2020 13:21:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -994,6 +999,10 @@ MP\0000BT3D017N.TMP;Ultimo Control activo:
 08-01-2020 13:21:30 , Nº de Linea :         44
 08-01-2020 13:21:30 , En el Fuente: loFile.WriteBlankLines(1)   && salto de línea
 08-01-2020 13:21:44 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: Denegado j:\cot\tb_20114820203_000000_20200108_000001.txt al acceso al archivo.;Linea : DELETE FILE &cFileName;Error :       1705;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:          2 ;DBF
+
+
+
+
 
 
 
@@ -1273,6 +1282,10 @@ MP\0000BT3D017N.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 o Control activo: 
 08-01-2020 13:23:05 , Pila de llamadas
 08-01-2020 13:23:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -1291,6 +1304,10 @@ o Control activo:
 08-01-2020 13:23:08 , Nº de Linea :         43
 08-01-2020 13:23:08 , En el Fuente: loFile.Write(cLinea)
 08-01-2020 13:25:34 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: LOFILE no es un objeto.;Linea : loFile.Write(cLinea);Error :       1924;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BT3D01KF.TMP;Ultim
+
+
+
+
 
 
 
@@ -1550,6 +1567,10 @@ o Control activo:
 
 
 
+
+
+
+
 MP\0000BT3D01KF.TMP;Ultimo Control activo: 
 08-01-2020 13:25:43 , Pila de llamadas
 08-01-2020 13:25:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -1680,6 +1701,10 @@ MP\0000BT3D01KF.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 \0000AWW900UX.TMP;Ultimo Control activo: 
 17-01-2020 13:52:32 , Pila de llamadas
 17-01-2020 13:52:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
@@ -1688,6 +1713,10 @@ MP\0000BT3D01KF.TMP;Ultimo Control activo:
 17-01-2020 13:52:33 , Nº de Linea :          1
 17-01-2020 13:52:33 , En el Fuente: this.MapeoImpresora()
 17-01-2020 13:52:58 , REGFACVTAPUB.CMDMAPEO.CLICK, Error: No se encuentra el alias 'CSRIMPRESORA'.;Linea : DO FORM frmelijoimpresora_mapeadas NAME ofrminicimpre LINKED TO loimpresoraelegida;Error :         13;Ultimo Alias Activo: CSRPREFITERMI;Ultimo reg
+
+
+
+
 
 
 
@@ -1923,6 +1952,10 @@ istro:         21 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AWW90164.TMP;Ultim
 
 
 
+
+
+
+
 vo: CSRMAPEOIMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AWW901PX.TMP;Ultimo Control activo: 
 17-01-2020 13:55:49 , Pila de llamadas
 17-01-2020 13:55:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
@@ -1936,6 +1969,10 @@ vo: CSRMAPEOIMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\T
 17-01-2020 13:55:50 , Nº de Linea :         21
 17-01-2020 13:55:50 , En el Fuente: 		cCmdText = "UPDATE mapeimpresora SET estado  = "+nEstado +" where id ="+STR(nIdMapeo)
 03-02-2020 11:08:27 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registr
+
+
+
+
 
 
 
@@ -2155,6 +2192,10 @@ o:          0 ;DBF: ;Ultimo Control activo:
 
 
 
+
+
+
+
 ntrol activo: 
 03-02-2020 12:38:50 , Pila de llamadas
 03-02-2020 12:38:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
@@ -2168,6 +2209,10 @@ ntrol activo:
 03-02-2020 12:38:52 , Nº de Linea :         19
 03-02-2020 12:38:52 , En el Fuente: 	visa()
 04-02-2020 10:34:27 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
 
 
 
@@ -2366,6 +2411,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
 nDataSource;Error :       1429;Ultimo Alias Activo: CFCONFIG2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002VBD000M.TMP;Ultimo Control activo: 
 04-02-2020 10:34:41 , Pila de llamadas
 04-02-2020 10:34:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcfconfig.sct
@@ -2389,6 +2438,10 @@ nDataSource;Error :       1429;Ultimo Alias Activo: CFCONFIG2;Ultimo registro:  
 04-02-2020 10:34:44 , Nº de Linea :       1889
 04-02-2020 10:34:44 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 04-02-2020 10:34:55 , ABMCFCONFIG.INIT, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loCon
+
+
+
+
 
 
 
@@ -2573,6 +2626,10 @@ nDataSource;Error :       1429;Ultimo Alias Activo: CFCONFIG2;Ultimo registro:  
 
 
 
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 04-02-2020 13:21:25 , Pila de llamadas
 04-02-2020 13:21:26 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -2591,6 +2648,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 04-02-2020 13:21:28 , Nº de Linea :       1889
 04-02-2020 13:21:28 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 04-02-2020 13:21:50 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
 
 
 
@@ -2753,6 +2814,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 04-02-2020 13:22:26 , Pila de llamadas
 04-02-2020 13:22:27 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -2771,6 +2836,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 04-02-2020 13:22:29 , Nº de Linea :       1889
 04-02-2020 13:22:29 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 04-02-2020 13:22:54 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
 
 
 
@@ -2914,6 +2983,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 04-02-2020 13:23:32 , Pila de llamadas
 04-02-2020 13:23:32 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -2932,6 +3005,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 04-02-2020 13:23:34 , Nº de Linea :       1889
 04-02-2020 13:23:34 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 04-02-2020 13:24:33 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
 
 
 
@@ -3055,6 +3132,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
 USERS\ADMIN\APPDATA\LOCAL\TEMP\00003289000Z.TMP;Ultimo Control activo: ALIASCONEXION
 04-02-2020 13:27:41 , Pila de llamadas
 04-02-2020 13:27:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcfconfig.sct
@@ -3073,6 +3154,10 @@ USERS\ADMIN\APPDATA\LOCAL\TEMP\00003289000Z.TMP;Ultimo Control activo: ALIASCONE
 04-02-2020 13:27:44 , Nº de Linea :       1712
 04-02-2020 13:27:44 , En el Fuente:     		lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i)
 04-02-2020 13:28:19 , ABMCFCONFIG.INIT, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i);Error :         11;Ultimo Alias Activo: CSRCONEXION;Ultimo registro:          2 ;DBF: C:\
+
+
+
+
 
 
 
@@ -3174,6 +3259,10 @@ USERS\ADMIN\APPDATA\LOCAL\TEMP\00003289001M.TMP;Ultimo Control activo: ALIASCONE
 
 
 
+
+
+
+
 IN\APPDATA\LOCAL\TEMP\000082YX00MQ.TMP;Ultimo Control activo: 
 05-02-2020 19:55:56 , Pila de llamadas
 05-02-2020 19:55:57 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3197,6 +3286,10 @@ IN\APPDATA\LOCAL\TEMP\000082YX00MQ.TMP;Ultimo Control activo:
 05-02-2020 19:56:00 , Nº de Linea :         30
 05-02-2020 19:56:00 , En el Fuente: 			.Column001Header = "Fecha"
 05-02-2020 19:56:07 , SUBFACTURA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'CATEGOIVA'.;Linea : SELECT chrfecha,nomcompro,numcomp,ctacte,cnombre,categoiva ,numvendedor,numfletero,usuario,total,totalpb2,alicuotapb2 ,nompago
+
+
+
+
 
 
 
@@ -3280,6 +3373,10 @@ IN\APPDATA\LOCAL\TEMP\000082YX00MQ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000082YX00OG.TMP;Ultimo Control activo: 
 05-02-2020 19:56:52 , Pila de llamadas
 05-02-2020 19:56:52 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3323,7 +3420,15 @@ inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;
 
 
 
+
+
+
+
 000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,
+
+
+
+
 
 
 
@@ -3365,7 +3470,15 @@ inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;
 
 
 
+
+
+
+
 0.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,000
+
+
+
+
 
 
 
@@ -3407,6 +3520,10 @@ inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;
 
 
 
+
+
+
+
 00000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,0
 
 
@@ -3428,7 +3545,15 @@ inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;
 
 
 
+
+
+
+
 0000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READW
+
+
+
+
 
 
 
@@ -3478,7 +3603,15 @@ RITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: 
 
 
 
+
+
+
+
 s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
+
+
+
+
 
 
 
@@ -3514,7 +3647,15 @@ a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomre
 
 
 
+
+
+
+
 e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
+
+
+
+
 
 
 
@@ -3550,7 +3691,15 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
  as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
+
+
+
+
 
 
 
@@ -3586,6 +3735,10 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
 OR CsrAuxcabefac READWRITE  
 06-02-2020 14:08:10 , REGTARJETA.KEYPRESS, Error: El campo IDCUENTA no acepta valores NULL.;Linea : REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,de
 
@@ -3604,7 +3757,15 @@ OR CsrAuxcabefac READWRITE
 
 
 
+
+
+
+
 talle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH CsrCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov;Error :       1581;Ultimo Alias Activo: CSRCURSORASTO;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
+
+
+
+
 
 
 
@@ -3652,8 +3813,16 @@ MP\0000DUKP004N.TMP;Ultimo Control activo: IMPORTE
 
 
 
+
+
+
+
 to WITH CsrCursorAsto.tipoconce			,debehaber WITH cDebeHaber IN CsrAuxPlanMov
 06-02-2020 14:30:13 , REGTARJETA.LOAD, Error: El archivo 'csrmovtarjeta.dbf' no existe.;Linea : SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE;Error :          1;Ultimo
+
+
+
+
 
 
 
@@ -3682,6 +3851,10 @@ to WITH CsrCursorAsto.tipoconce			,debehaber WITH cDebeHaber IN CsrAuxPlanMov
 
 
 
+
+
+
+
 s Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 07-02-2020 12:24:09 , Pila de llamadas
 07-02-2020 12:24:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3704,3 +3877,18 @@ s Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo:
 07-02-2020 12:24:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
 07-02-2020 12:24:14 , Nº de Linea :         65
 07-02-2020 12:24:14 , En el Fuente: SELECT *,VAL(CodCtacte) Orden FROM CsrCursor ORDER BY Orden INTO CURSOR CsrImport2 READWRITE 
+19-02-2020 14:19:23 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra la propiedad EXCELSINRELACIONAR.;Linea : thisform.excelsinrelacionar = .t.;Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:        401 ;DBF: C:\USERS\ADMIN\AP
+
+
+PDATA\LOCAL\TEMP\00007955009Y.TMP;Ultimo Control activo: ESTADOTILDE
+19-02-2020 14:19:24 , Pila de llamadas
+19-02-2020 14:19:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
+19-02-2020 14:19:24 , Objeto      : cbioprecio3.cmdprocesar.click
+19-02-2020 14:19:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
+19-02-2020 14:19:24 , Nº de Linea :          1
+19-02-2020 14:19:25 , En el Fuente: thisform.estadook = thisform.CrearInforme()
+19-02-2020 14:19:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
+19-02-2020 14:19:25 , Objeto      : cbioprecio3.crearinforme
+19-02-2020 14:19:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
+19-02-2020 14:19:25 , Nº de Linea :        127
+19-02-2020 14:19:25 , En el Fuente: 	thisform.excelsinrelacionar = .t.
