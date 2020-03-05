@@ -2,11 +2,11 @@
 
 FUNCTION BuscarTag(tcTabla, tcTag)
 	llRet = .f.
-	stop()
+	*stop()
 	IF USED (tcTabla) 
 		SELECT (tcTabla)
 		IF ATAGINFO(laTag) > 0
-			llRet = ASCAN(laTag,tcTag,-1,-1,1,1) > 0
+			llRet = ASCAN(laTag,UPPER(tcTag),-1,-1,1,1) > 0
 		ELSE
 			llRet = .F.
 		ENDIF
@@ -1635,7 +1635,7 @@ ENDFUNC
 
 * Desencripta(lc, "MiLlave")
 
-FUNCTION Encripta(tcCadena, tcLlave, tlSinDesencripta)
+FUNCTION Encripta1(tcCadena, tcLlave, tlSinDesencripta)
 
 	LOCAL lc, ln, lcRet
 	LOCAL lnClaveMul, lnClaveXor
@@ -1668,7 +1668,7 @@ FUNCTION Encripta(tcCadena, tcLlave, tlSinDesencripta)
 ENDFUNC
 
 
-FUNCTION Desencripta(tcCadena, tcLlave)
+FUNCTION Desencripta1(tcCadena, tcLlave)
 
 	LOCAL lc, ln, lcRet, lnByte
 	LOCAL lnClaveMul, lnClaveXor
@@ -1695,7 +1695,7 @@ FUNCTION Desencripta(tcCadena, tcLlave)
 
 ENDFUNC
 
-FUNCTION Encripta2(tcCadena, tcLlave)
+FUNCTION Encripta(tcCadena, tcLlave)
 	lcRet = ""
 	lc = ALLTRIM(tcCadena)
 	
@@ -1705,7 +1705,7 @@ FUNCTION Encripta2(tcCadena, tcLlave)
 	RETURN lcRet
 ENDFUNC
 
-FUNCTION Desencripta2(tcCadena, tcLlave)
+FUNCTION Desencripta(tcCadena, tcLlave)
 	lcRet = ""
 	lc = tcCadena
 	for i=1 to LEN(lc)
