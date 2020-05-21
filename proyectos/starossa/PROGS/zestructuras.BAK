@@ -49,7 +49,7 @@ NEXT
 *!*								5
 
 *!*	 FLETEPLANILLA.switch	1	1= rendida
-*!*								2
+*!*								2= impresa
 *!*								3
 *!*								4
 *!*								5

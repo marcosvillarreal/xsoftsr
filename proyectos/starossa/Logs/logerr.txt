@@ -17,525 +17,6 @@
 
 
 
-vo: CSRMAPEOIMP;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000AWW901PX.TMP;Ultimo Control activo: 
-17-01-2020 13:55:49 , Pila de llamadas
-17-01-2020 13:55:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-17-01-2020 13:55:49 , Objeto      : regfacvtapub.cmdmapeo.click
-17-01-2020 13:55:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-17-01-2020 13:55:49 , Nº de Linea :          1
-17-01-2020 13:55:49 , En el Fuente: thisform.MapeoImpresora()
-17-01-2020 13:55:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-17-01-2020 13:55:50 , Objeto      : regfacvtapub.mapeoimpresora
-17-01-2020 13:55:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-17-01-2020 13:55:50 , Nº de Linea :         21
-17-01-2020 13:55:50 , En el Fuente: 		cCmdText = "UPDATE mapeimpresora SET estado  = "+nEstado +" where id ="+STR(nIdMapeo)
-03-02-2020 11:08:27 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-o:          0 ;DBF: ;Ultimo Control activo: 
-03-02-2020 11:08:27 , Pila de llamadas
-03-02-2020 11:08:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-03-02-2020 11:08:28 , Objeto      : generarimp_sigma.imprimir_vistaprevia1.impresora.click
-03-02-2020 11:08:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-03-02-2020 11:08:28 , Nº de Linea :          8
-03-02-2020 11:08:29 , En el Fuente: 	llOK=thisform.CrearInforme()
-03-02-2020 11:08:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-03-02-2020 11:08:29 , Objeto      : generarimp_sigma.crearinforme
-03-02-2020 11:08:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-03-02-2020 11:08:29 , Nº de Linea :         15
-03-02-2020 11:08:29 , En el Fuente: 	.generar('movStock','Stock','.t.',lcCodEmpresa+'sto'+lcfecha+'.TXT')
-03-02-2020 11:08:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-03-02-2020 11:08:29 , Objeto      : generarimp_sigma.generar
-03-02-2020 11:08:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-03-02-2020 11:08:30 , Nº de Linea :         18
-03-02-2020 11:08:30 , En el Fuente: 			_existe = .leerMovStock()
-03-02-2020 11:08:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-03-02-2020 11:08:30 , Objeto      : generarimp_sigma.leermovstock
-03-02-2020 11:08:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_sigma.sct
-03-02-2020 11:08:31 , Nº de Linea :         29
-03-02-2020 11:08:31 , En el Fuente: SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE 
-03-02-2020 12:38:49 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: El archivo 'visa.prg' no existe.;Linea : visa();Error :          1;Ultimo Alias Activo: FSRARTICULO;Ultimo registro:         58 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\0000BH8P009R.TMP;Ultimo Co
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ntrol activo: 
-03-02-2020 12:38:50 , Pila de llamadas
-03-02-2020 12:38:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-03-02-2020 12:38:51 , Objeto      : cbioprecio3.cmdprocesar.click
-03-02-2020 12:38:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-03-02-2020 12:38:51 , Nº de Linea :          1
-03-02-2020 12:38:52 , En el Fuente: thisform.estadook = thisform.CrearInforme()
-03-02-2020 12:38:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-03-02-2020 12:38:52 , Objeto      : cbioprecio3.crearinforme
-03-02-2020 12:38:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-03-02-2020 12:38:52 , Nº de Linea :         19
-03-02-2020 12:38:52 , En el Fuente: 	visa()
-04-02-2020 10:34:27 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-04-02-2020 10:34:27 , Pila de llamadas
-04-02-2020 10:34:28 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-04-02-2020 10:34:28 , Objeto      : main
-04-02-2020 10:34:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-04-02-2020 10:34:28 , Nº de Linea :        226
-04-02-2020 10:34:28 , En el Fuente: 	LeerEmpresa()
-04-02-2020 10:34:28 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-04-02-2020 10:34:28 , Objeto      : leerempresa
-04-02-2020 10:34:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-04-02-2020 10:34:28 , Nº de Linea :       2009
-04-02-2020 10:34:28 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
-04-02-2020 10:34:29 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-04-02-2020 10:34:29 , Objeto      : crearcursoradapter
-04-02-2020 10:34:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-04-02-2020 10:34:29 , Nº de Linea :       1889
-04-02-2020 10:34:30 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
-04-02-2020 10:34:41 , ABMCFCONFIG.INIT, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loCon
-
-
 
 
 
@@ -836,6 +317,24 @@ nDataSource;Error :       1429;Ultimo Alias Activo: CFCONFIG2;Ultimo registro:  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nDataSource;Error :       1429;Ultimo Alias Activo: CFCONFIG2;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\00002VBD000S.TMP;Ultimo Control activo: 
 04-02-2020 10:34:55 , Pila de llamadas
 04-02-2020 10:34:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcfconfig.sct
@@ -859,6 +358,24 @@ nDataSource;Error :       1429;Ultimo Alias Activo: CFCONFIG2;Ultimo registro:  
 04-02-2020 10:34:58 , Nº de Linea :       1889
 04-02-2020 10:34:58 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 04-02-2020 13:21:24 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1137,6 +654,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 04-02-2020 13:21:50 , Pila de llamadas
 04-02-2020 13:21:51 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -1155,6 +690,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 04-02-2020 13:21:53 , Nº de Linea :       1889
 04-02-2020 13:21:54 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 04-02-2020 13:22:26 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1416,6 +969,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 04-02-2020 13:22:54 , Pila de llamadas
 04-02-2020 13:22:55 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -1434,6 +1005,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 04-02-2020 13:22:58 , Nº de Linea :       1889
 04-02-2020 13:22:58 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 04-02-2020 13:23:31 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1675,6 +1264,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 04-02-2020 13:24:34 , Pila de llamadas
 04-02-2020 13:24:35 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -1693,6 +1300,24 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 04-02-2020 13:24:37 , Nº de Linea :       1889
 04-02-2020 13:24:38 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 04-02-2020 13:27:41 , ABMCFCONFIG.INIT, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i);Error :         11;Ultimo Alias Activo: CSRCONEXION;Ultimo registro:          2 ;DBF: C:\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1913,6 +1538,24 @@ USERS\ADMIN\APPDATA\LOCAL\TEMP\00003289000Z.TMP;Ultimo Control activo: ALIASCONE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 USERS\ADMIN\APPDATA\LOCAL\TEMP\00003289001M.TMP;Ultimo Control activo: ALIASCONEXION
 04-02-2020 13:28:20 , Pila de llamadas
 04-02-2020 13:28:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmcfconfig.sct
@@ -1931,6 +1574,24 @@ USERS\ADMIN\APPDATA\LOCAL\TEMP\00003289001M.TMP;Ultimo Control activo: ALIASCONE
 04-02-2020 13:28:24 , Nº de Linea :       1712
 04-02-2020 13:28:24 , En el Fuente:     		lcRet=lcRet+chr(asc(substr(lc,i,1))-25-i)
 05-02-2020 19:55:56 , SUBFACTURA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la propiedad COLUMN001HEADER.;Linea : .Column001Header = "Fecha";Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2134,6 +1795,24 @@ IN\APPDATA\LOCAL\TEMP\000082YX00MQ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ,terminal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TEMP\000082YX00MQ.TMP;Ultimo Control activo: 
 05-02-2020 19:56:07 , Pila de llamadas
 05-02-2020 19:56:08 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -2157,6 +1836,24 @@ IN\APPDATA\LOCAL\TEMP\000082YX00MQ.TMP;Ultimo Control activo:
 05-02-2020 19:56:11 , Nº de Linea :         55
 05-02-2020 19:56:11 , En el Fuente: 		SELECT chrfecha,nomcompro,numcomp,ctacte,cnombre,categoiva		,numvendedor,numfletero,usuario,total,totalpb2,alicuotapb2		,nompago,terminal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE 
 05-02-2020 19:56:51 , SUBFACTURA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'PASE'.;Linea : SELECT chrfecha,nomcompro,numcomp,ctacte,cnombre,nomcatego ,numvendedor,numfletero,usuario,total,totalpb2,alicuotapb2 ,nompago,term
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2335,7 +2032,43 @@ inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2485,7 +2218,43 @@ inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2635,6 +2404,24 @@ inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 00000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,0
 
 
@@ -2710,7 +2497,43 @@ inal,pase FROM CsrImprimir INTO CURSOR CsrImprimir READWRITE;Error :       1806;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2868,7 +2691,43 @@ RITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3012,7 +2871,43 @@ a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomre
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3156,7 +3051,43 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3300,6 +3231,24 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 OR CsrAuxcabefac READWRITE  
 06-02-2020 14:08:10 , REGTARJETA.KEYPRESS, Error: El campo IDCUENTA no acepta valores NULL.;Linea : REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,de
 
@@ -3372,7 +3321,43 @@ OR CsrAuxcabefac READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 talle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH CsrCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov;Error :       1581;Ultimo Alias Activo: CSRCURSORASTO;Ultimo registro:          2 ;DBF: C:\USERS\ADMIN\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3528,8 +3513,44 @@ MP\0000DUKP004N.TMP;Ultimo Control activo: IMPORTE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 to WITH CsrCursorAsto.tipoconce			,debehaber WITH cDebeHaber IN CsrAuxPlanMov
 06-02-2020 14:30:13 , REGTARJETA.LOAD, Error: El archivo 'csrmovtarjeta.dbf' no existe.;Linea : SELECT CsrMovTarjeta.*,CAST(0 as int) as idctacte FROM CsrMovTarjeta WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovimiento READWRITE;Error :          1;Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3666,6 +3687,24 @@ to WITH CsrCursorAsto.tipoconce			,debehaber WITH cDebeHaber IN CsrAuxPlanMov
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 07-02-2020 12:24:09 , Pila de llamadas
 07-02-2020 12:24:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3689,6 +3728,24 @@ s Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo:
 07-02-2020 12:24:14 , Nº de Linea :         65
 07-02-2020 12:24:14 , En el Fuente: SELECT *,VAL(CodCtacte) Orden FROM CsrCursor ORDER BY Orden INTO CURSOR CsrImport2 READWRITE 
 19-02-2020 14:19:23 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra la propiedad EXCELSINRELACIONAR.;Linea : thisform.excelsinrelacionar = .t.;Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:        401 ;DBF: C:\USERS\ADMIN\AP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3802,6 +3859,24 @@ PDATA\LOCAL\TEMP\00007955009Y.TMP;Ultimo Control activo: ESTADOTILDE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DMIN\APPDATA\LOCAL\TEMP\000076RT028T.TMP;Ultimo Control activo: CANTIDAD
 02-03-2020 17:02:16 , Pila de llamadas
 02-03-2020 17:02:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3810,6 +3885,24 @@ DMIN\APPDATA\LOCAL\TEMP\000076RT028T.TMP;Ultimo Control activo: CANTIDAD
 02-03-2020 17:02:17 , Nº de Linea :          4
 02-03-2020 17:02:17 , En el Fuente: IF NOT .cambioarticulo
 02-03-2020 17:18:10 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.WHEN, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : IF NOT .cambioarticulo;Error :       1940;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3907,6 +4000,24 @@ DMIN\APPDATA\LOCAL\TEMP\000076RT02GP.TMP;Ultimo Control activo: CANTIDAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DMIN\APPDATA\LOCAL\TEMP\000076RT02GP.TMP;Ultimo Control activo: CANTIDAD
 02-03-2020 17:18:16 , Pila de llamadas
 02-03-2020 17:18:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3915,6 +4026,24 @@ DMIN\APPDATA\LOCAL\TEMP\000076RT02GP.TMP;Ultimo Control activo: CANTIDAD
 02-03-2020 17:18:16 , Nº de Linea :          4
 02-03-2020 17:18:17 , En el Fuente: IF NOT .cambioarticulo
 01-04-2020 12:41:42 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT CsrCursor.* FROM CsrCursor INTO CURSOR CsrImportar READWRITE;Error :          1;Ultimo Alias Activo: CSRCTACTE;Ultim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4013,6 +4142,24 @@ o registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00008W090037.TMP;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TAR;Ultimo registro:        518 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00008W090047.TMP;Ultimo Control activo: 
 01-04-2020 12:42:09 , Pila de llamadas
 01-04-2020 12:42:09 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4036,6 +4183,24 @@ TAR;Ultimo registro:        518 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00008W09
 01-04-2020 12:42:10 , Nº de Linea :         65
 01-04-2020 12:42:11 , En el Fuente: REPLACE ALL CodVendedor WITH '19' FOR CodVendedor='18' IN CsrImportar
 01-04-2020 12:43:21 , GENERARIMP_SIGMA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CODVENDEDOR'.;Linea : REPLACE ALL CodVendedor WITH '19' FOR codvdor='18' IN CsrImportar;Error :         12;Ultimo Alias Activo: CSRIMPORTAR;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4109,6 +4274,24 @@ Ultimo registro:        683 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00008W09005K
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 imo registro:          1 ID;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00004CG901J8.TMP;Ultimo Control activo: 
 09-04-2020 16:31:30 , Pila de llamadas
 09-04-2020 16:31:30 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -4132,6 +4315,24 @@ imo registro:          1 ID;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00004CG901J8.
 09-04-2020 16:31:32 , Nº de Linea :         31
 09-04-2020 16:31:32 , En el Fuente: 				.Column00x.Header = IIF(this.chkproveedor.Value=0,'','Cód.Proveedor')
 09-04-2020 16:36:44 , EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: El archivo 'imprirmir.dbf' no existe.;Linea : SELECT codproveedor,nomproveedor,fecha,ctacte,nomcliente,numcomp,codvdor,codigo,articulo,unidades,convenio ,importefinal,bon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4178,6 +4379,24 @@ ificacion,costociva,despor FROM Imprirmir INTO CURSOR CsrImprimir READWRITE;Erro
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ficacion,costociva,despor FROM Imprimir INTO CURSOR CsrImprimir READWRITE;Error :          1;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ID;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00004CG901MS.TMP;Ultimo Control activo: 
 09-04-2020 16:38:02 , Pila de llamadas
 09-04-2020 16:38:02 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -4203,7 +4422,43 @@ ficacion,costociva,despor FROM Imprimir INTO CURSOR CsrImprimir READWRITE;Error 
 16-04-2020 19:22:03 , EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: la cláusula GROUP BY falta o no es válida.;Linea : SELECT SPACE(10) as fecha,'' as ctacte,'' as nomcliente,SPACE(13) as numcomp, 0 as codvdor,0 as codigo,SPACE(3
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0) as articulo ,0 as unibulto,0 as despor,SUM(unidades) as unidades,SUM(importefinal) as importefinal,SUM(bonificacion) as bonificacion ,SUM(costociva) as costociva,SUM(convenio) as convenio,1 as univenta,0 as idctacte,clasecomp ,nomproveedor,idproveedor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ,codproveedor, 0 as id FROM CsrAux GROUP BY idctacte,ctacte,nomcliente,clasecomp INTO CURSOR CsrAux READWRITE;Error :       1807;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
@@ -4217,4 +4472,124 @@ ficacion,costociva,despor FROM Imprimir INTO CURSOR CsrImprimir READWRITE;Error 
 16-04-2020 19:22:04 , Objeto      : est_ventabonificada.crearinforme
 16-04-2020 19:22:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventabonificada.sct
 16-04-2020 19:22:05 , Nº de Linea :         34
-16-04-2020 19:22:05 , En el Fuente: 	SELECT SPACE(10) as fecha,'' as ctacte,'' as nomcliente,SPACE(13) as numcomp, 0 as codvdor,0 as codigo,SPACE(30) as articulo	,0 as unibulto,0 as despor,SUM(unidades) as unidades,SUM(importefinal) as importefinal,SUM(bonificacion) as bonificacion	,SUM(costociva) as costociva,SUM(convenio) as convenio,1 as univenta,0 as idctacte,clasecomp	,nomproveedor,idproveedor,codproveedor, 0 as id 	FROM CsrAux GROUP BY idctacte,ctacte,nomcliente,clasecomp INTO CURSOR CsrAux READWRITE 
+16-04-2020 19:22:05 , En el Fuente: 	SELECT SPACE(10) as fecha,'' as ctacte,'' as nomcliente,SPACE(13) as numcomp, 0 as codvdor,0 as codigo,SPACE(30) as articulo	,0 as unibulto,0 as despor,SUM(unidades) as unidades,SUM(importefinal) as importefinal,SUM(b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+onificacion) as bonificacion	,SUM(costociva) as costociva,SUM(convenio) as convenio,1 as univenta,0 as idctacte,clasecomp	,nomproveedor,idproveedor,codproveedor, 0 as id 	FROM CsrAux GROUP BY idctacte,ctacte,nomcliente,clasecomp INTO CURSOR CsrAux READWR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITE 
+21-05-2020 13:27:17 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: The connection cannot be used to perform this operation. It is either closed or invalid in this context..;Linea : Orslista.ActiveConnection = loConnDataSource;Erro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+21-05-2020 13:27:18 , Pila de llamadas
+21-05-2020 13:27:18 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
+21-05-2020 13:27:18 , Objeto      : main
+21-05-2020 13:27:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
+21-05-2020 13:27:18 , Nº de Linea :        226
+21-05-2020 13:27:18 , En el Fuente: 	LeerEmpresa()
+21-05-2020 13:27:18 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+21-05-2020 13:27:18 , Objeto      : leerempresa
+21-05-2020 13:27:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+21-05-2020 13:27:19 , Nº de Linea :       2009
+21-05-2020 13:27:19 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
+21-05-2020 13:27:19 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+21-05-2020 13:27:19 , Objeto      : crearcursoradapter
+21-05-2020 13:27:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+21-05-2020 13:27:19 , Nº de Linea :       1889
+21-05-2020 13:27:19 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
+21-05-2020 13:32:52 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: The connection cannot be used to perform this operation. It is either closed or invalid in this context..;Linea : Orslista.ActiveConnection = loConnDataSource;Erro
+
+
+
+
+
+
+
+
+
+
+r :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+21-05-2020 13:32:52 , Pila de llamadas
+21-05-2020 13:32:52 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
+21-05-2020 13:32:52 , Objeto      : main
+21-05-2020 13:32:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
+21-05-2020 13:32:53 , Nº de Linea :        226
+21-05-2020 13:32:53 , En el Fuente: 	LeerEmpresa()
+21-05-2020 13:32:53 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+21-05-2020 13:32:53 , Objeto      : leerempresa
+21-05-2020 13:32:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+21-05-2020 13:32:53 , Nº de Linea :       2009
+21-05-2020 13:32:53 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
+21-05-2020 13:32:53 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+21-05-2020 13:32:53 , Objeto      : crearcursoradapter
+21-05-2020 13:32:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+21-05-2020 13:32:54 , Nº de Linea :       1889
+21-05-2020 13:32:54 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
+21-05-2020 14:09:10 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: The connection cannot be used to perform this operation. It is either closed or invalid in this context..;Linea : Orslista.ActiveConnection = loConnDataSource;Erro
+
+
+
+
+r :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+21-05-2020 14:09:10 , Pila de llamadas
+21-05-2020 14:09:11 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
+21-05-2020 14:09:11 , Objeto      : main
+21-05-2020 14:09:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
+21-05-2020 14:09:11 , Nº de Linea :        226
+21-05-2020 14:09:11 , En el Fuente: 	LeerEmpresa()
+21-05-2020 14:09:11 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+21-05-2020 14:09:11 , Objeto      : leerempresa
+21-05-2020 14:09:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+21-05-2020 14:09:11 , Nº de Linea :       2009
+21-05-2020 14:09:11 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
+21-05-2020 14:09:11 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+21-05-2020 14:09:12 , Objeto      : crearcursoradapter
+21-05-2020 14:09:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+21-05-2020 14:09:12 , Nº de Linea :       1889
+21-05-2020 14:09:12 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
