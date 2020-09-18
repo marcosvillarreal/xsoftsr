@@ -1989,7 +1989,9 @@ IF lok
 		RELEASE OrsTerminal
 		RELEASE OCaterminal
 		IF LEN(TRIM(lcform))#0 
-			DO CASE 
+			&&Verificamos que le form no tenga clave
+			IF VeriClaveForm(lcform)						
+				DO CASE 
 				CASE  LEN(TRIM(lcparam1))=0
 					 DO FORM &lcForm
 				CASE  LEN(TRIM(lcparam2))=0
@@ -2012,7 +2014,8 @@ IF lok
 					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4,lcparam5,lcparam6,lcparam7,lcparam8,lcparam9
 				CASE  LEN(TRIM(lcparam10))#0
 					 DO FORM &lcForm WITH lcparam1,lcparam2,lcparam3,lcparam4,lcparam5,lcparam6,lcparam7,lcparam8,lcparam9,lcparm10
-		    ENDCASE 
+		    	ENDCASE 
+		    ENDIF 
 		ELSE
 		      =Oavisar.usuario("OPCION NO DISPONIBLE")
 		ENDIF      
@@ -2029,6 +2032,28 @@ ENDIF
 
 RETURN .t.
 
+*-----------------------------------------------------------------
+*--------------------------------------------------------
+FUNCTION VeriClaveForm
+LPARAMETERS lcForm
+
+&&Si ingresa la clave de acceso correcto.
+LOCAL loObjeto,lok
+
+lok =.t.
+
+DO FORM frmCLAVE name LobjForm LINKED WITH UPPER(lcform)
+
+IF TYPE('lobjform')$'O'
+	lok = lobjform.encontrokey
+
+	RELEASE lobjform
+ENDIF 
+
+RETURN lok
+ENDFUNC 
+*-----------------------------------------------------
+*------------------------------------------------------------------
 
 FUNCTION LeerEmpresa
 
