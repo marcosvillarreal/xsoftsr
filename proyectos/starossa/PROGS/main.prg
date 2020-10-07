@@ -108,6 +108,9 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 *   SET LIBRARY TO xfrxlib.fll ADDITIVE 
 	 SET CLASSLIB  TO  ZIP ADDITIVE 
 *	SET LIBRARY TO vfpconnection.fll ADDITIVE 
+	*BarCode
+	SET PROCEDURE TO FoxBarcode.prg ADDITIVE 
+	SET PROCEDURE TO gpImage2.prg ADDITIVE
 
 *clear all
 
@@ -143,6 +146,10 @@ ObjReporter.AddProperty('numcae',cRutaCAE)
 IF lldesarrollo
 	ObjReporter.logo = lcdd+'graphics\logogestion.jpg'
 ENDIF 
+
+PUBLIC fBCode
+
+fBCode = CREATEOBJECT("FoxBarcode")
 
 IF TYPE('goApp')='O'
 *-- CARGAR PROPIEDADES DE RUTA EN OBJETO APLICACION

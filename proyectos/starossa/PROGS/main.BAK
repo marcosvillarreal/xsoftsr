@@ -73,13 +73,15 @@ If lldesarrollo
    _rutaformcp  =lcdd+'forms\compras'
    _rutaformut  =lcdd+'forms\util'
    _rutaformtar  =lcdd+'forms\tarjetas'
+   _rutaformwha  =lcdd+'forms\whatsapp'
    Set default to (lcdd) &&;(lcddc)
 
    Set path to &_rutaclases,&_rutaprogs,&_rutamenu,&_rutadatos,&_rutabmps,&_rutaforms;
                ,&_rutareports,&_rutaclased,&_rutabmpd,&_rutaformsDesarrollo,&_rutaffc;
                ,&_rutalib, &_rutaformsb, &_rutaformscc, &_rutaformsc, &_rutaformsre;
                ,&_rutaformsa,&_rutaformse,&_rutaformvta,&_rutaformped,&_rutaformpre;
-               ,&_rutaformpm,&_rutaformst,&_rutaformcp,&_rutaformut,&_rutaformtar
+               ,&_rutaformpm,&_rutaformst,&_rutaformcp,&_rutaformut,&_rutaformtar;
+               ,&_rutaformwha
 Endif
 
 
@@ -106,6 +108,9 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 *   SET LIBRARY TO xfrxlib.fll ADDITIVE 
 	 SET CLASSLIB  TO  ZIP ADDITIVE 
 *	SET LIBRARY TO vfpconnection.fll ADDITIVE 
+	*BarCode
+	SET PROCEDURE TO FoxBarcode.prg ADDITIVE 
+	SET PROCEDURE TO gpImage2.prg ADDITIVE
 
 *clear all
 
