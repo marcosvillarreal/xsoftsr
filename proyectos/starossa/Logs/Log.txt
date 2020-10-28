@@ -106,115 +106,6 @@
 
 
 
-m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 fig.pefiscal,'0',"",CsrComprobante.id)
 Error nº:         12
@@ -331,7 +222,9 @@ Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
 
 
 
+
 m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
+
 
 
 
@@ -556,7 +449,9 @@ Control activo  REGTARJETA.CONTAINERENCABEZA._TXTLOSTFOCUS.GOTFOCUS
 
 
 
+
 m.name),Goapp.terminal,Csrparadiario.fechafac,goapp.idusuario,thisform.lnidvendedor ,thisform.lnidnrocaja,Csrparadiario.turno,"00000",Goapp.sucursal,thisform.sectorterminal,thisform.puestocaja ,Csrparadiario.idcotizadolar,CsrParaConfig.nrocaja,Csrparacon
+
 
 
 
@@ -796,12 +691,14 @@ Control activo IDCOMPROBA REGTARJETA.CONTAINERENCABEZA._CBOCOMPROBANTE.LOSTFOCUS
 
 
 
+
 rCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov
 Error nº:       1581
 Error El campo IDCUENTA no acepta valores NULL.
  Alias CSRCURSORASTO registro          2
 Control activo IMPORTE REGTARJETA.KEYPRESS
 12-11-2019 11:32:24 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH Cs
+
 
 
 
@@ -1041,7 +938,9 @@ Control activo CUENTA REGTARJETA.KEYPRESS
 
 
 
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
 
 
 
@@ -1261,7 +1160,9 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
 
 
 
@@ -1481,7 +1382,9 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
 
 
 
@@ -1612,6 +1515,7 @@ Error No se encuentra el alias 'CSRPLANCUE'.
  Alias  registro          0
 Control activo NOMBRE REGTARJETA.GRID1.COLUMN2.TEXT1.KEYPRESS
 12-11-2019 16:32:49 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH Cs
+
 
 
 
@@ -1876,7 +1780,9 @@ Control activo  REGTARJETA.CMDCONSULTA.CLICK
 
 
 
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
 
 
 
@@ -2096,7 +2002,9 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
 
 
 
@@ -2316,7 +2224,9 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
 
 
 
@@ -2457,6 +2367,7 @@ Error No se encuentra la variable 'LNCONVEGRAL'.
  Alias CSRAUX registro       1274
 Control activo  VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 19-11-2019 14:59:33 , Linea nº DELETE FROM CsrImprimir WHERE estad_1=0 AND estad_2=0 AND estad_3 =0 AND estad_4 = 0 AND estad_5=0 AND estad_6 =0 AND estad_7=0 AND estad_8=0 AND estad_9=0 AND estad_10 =0 AND estad_11=0 AND estad_12=0 AND estad_13=0 AND bo
+
 
 
 
@@ -2752,7 +2663,9 @@ Control activo  RINDEARQUEO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
  as cartera ,IIF('L'$UPPER(clasevalor),total,0000000000.000) as transf ,IIF('A'$UPPER(clasevalor),total,0000000000.000) as tarj ,IIF('I'$UPPER(clasevalor),total,0000000000.000) as rete ,IIF(not UPPER(clasevalor)$'ETJLAI',total,0000000000.000) as otros , 
+
 
 
 
@@ -2957,7 +2870,9 @@ Control activo CODIGO15 REGFACVTAPUB.GRID2.COLUMN1.TEXT1.VALID
 
 
 
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
 
 
 
@@ -3145,7 +3060,9 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
 
 
 
@@ -3333,7 +3250,9 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
 
 
 
@@ -3766,7 +3685,9 @@ Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
 
 
 
@@ -3854,7 +3775,9 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
 
 
 
@@ -3942,7 +3865,9 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
 
 
 
@@ -3992,6 +3917,7 @@ Error El archivo 'csrcabefac.dbf' no existe.
  Alias  registro          0
 Control activo  REGFACVTA.LOAD
 06-02-2020 14:08:09 , Linea nº REPLACE idcuenta WITH CsrCursorAsto.idcuenta ,cuenta WITH CsrCursorAsto.cuenta,nombre WITH CsrAuxPlanMov.nombre,tipoconce WITH CsrCursorAsto.tipoconce ,detalle WITH '',importe WITH CsrCursorAsto.importe,nombreobjeto WITH Cs
+
 
 
 
@@ -4100,6 +4026,7 @@ Error El archivo 'imprimir.dbf' no existe.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 16-04-2020 19:22:02 , Linea nº SELECT SPACE(10) as fecha,'' as ctacte,'' as nomcliente,SPACE(13) as numcomp, 0 as codvdor,0 as codigo,SPACE(30) as articulo ,0 as unibulto,0 as despor,SUM(unidades) as unidades,SUM(importefinal) as importefinal,SUM(bonific
+
 
 
 
@@ -4307,7 +4234,9 @@ Error El campo VENTAS no acepta valores NULL.
 Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 07-10-2020 12:55:58 , Linea nº SELECT NVL(csr2.idfletero,0) as idfletero,csrdatos.idrubro,csrdatos.id as idarticulo,csrdatos.idvariedad ,NVL(csr2.unidades,0) as unidades,CAST(0 as numeric(13,2)) as ventas,CAST(0 as numeric(13,2)) as stock ,CAST(0 as nume
 
+
 ric(13,2)) as dife,CAST(0 as numeric(13,2)) as pedirbultos,00 as signo,csrdatos.unibulto as unibulto ,csrdatos.nomrubro,csrdatos.codrubro,csrdatos.numero as codigo,csrdatos.nombre as articulo,csrdatos.nomvariedad,csrdatos.codalfa,csrDatos.verCodAlfa ,csr
+
 
 datos.ean FROM CsrDatos LEFT JOIN Csr2 ON CsrDatos.id = Csr2.idarticulo INTO CURSOR Csrimprimir READWRITE
 Error nº:          1
@@ -4319,5 +4248,14 @@ Error nº:         11
 Error El valor, tipo o número de argumentos no es válido para la función.
  Alias  registro          0
 Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-07-10-2020 16:27:13 , Linea nº Error nº:       1760Error El miembro OPTION2 es un miembro de clase. Alias  registro          0Control activo  ON... 
-07-10-2020 17:12:17 , Linea nº IF THIS.IsNumeric(SUBSTR(THIS.cTextValue, 1, 4))Error nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias  registro          0Control activo  LISTACODBARRA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+07-10-2020 16:27:13 , Linea nº 
+Error nº:       1760
+Error El miembro OPTION2 es un miembro de clase.
+ Alias  registro          0
+Control activo  ON... 
+07-10-2020 17:12:17 , Linea nº IF THIS.IsNumeric(SUBSTR(THIS.cTextValue, 1, 4))
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias  registro          0
+Control activo  LISTACODBARRA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+28-10-2020 16:48:31 , Linea nº SELECT CsrImprimirError nº:         13Error No se encuentra el alias 'CSRIMPRIMIR'. Alias CSRAUXCBIOPRECIO registro        129Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
