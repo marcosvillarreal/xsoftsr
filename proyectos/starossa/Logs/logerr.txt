@@ -1,361 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-STR(VAL(DTOS(lcfecha2)),8);Error :         11;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00003TAH0385.TMP;Ultimo Control activo: 
-30-10-2020 17:09:08 , Pila de llamadas
-30-10-2020 17:09:08 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-30-10-2020 17:09:08 , Objeto      : _util_campari.imprimir_vistaprevia1.impresora.click
-30-10-2020 17:09:08 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-30-10-2020 17:09:09 , Nº de Linea :          8
-30-10-2020 17:09:09 , En el Fuente: 	llOK=thisform.CrearInforme()
-30-10-2020 17:09:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_campari.sct
-30-10-2020 17:09:09 , Objeto      : _util_campari.crearinforme
-30-10-2020 17:09:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_campari.sct
-30-10-2020 17:09:09 , Nº de Linea :          5
-30-10-2020 17:09:09 , En el Fuente: 	.generar('articulos','Articulos....')
-30-10-2020 17:09:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_campari.sct
-30-10-2020 17:09:10 , Objeto      : _util_campari.generar
-30-10-2020 17:09:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_campari.sct
-30-10-2020 17:09:10 , Nº de Linea :         14
-30-10-2020 17:09:10 , En el Fuente: 			_existe = .leerarticulos()
-30-10-2020 17:09:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_campari.sct
-30-10-2020 17:09:10 , Objeto      : _util_campari.leerarticulos
-30-10-2020 17:09:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_campari.sct
-30-10-2020 17:09:11 , Nº de Linea :         26
-30-10-2020 17:09:11 , En el Fuente: cFileName	= "Cam_Prod_" + STRtrim(this.coddistribuidor,15) + STR(VAL(DTOS(lcfecha1)),8) + "_" + STR(VAL(DTOS(lcfecha2)),8)
-02-11-2020 14:12:24 , _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'LCFECHA1'.;Linea : and (Csrfleteren.fecha between  <<lcFecha1>> and <<lcFecha2>>);Error :         12;Ultimo Alias Activo: ;Ultimo registro:    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      0 ;DBF: ;Ultimo Control activo: 
-02-11-2020 14:12:25 , Pila de llamadas
-02-11-2020 14:12:25 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-02-11-2020 14:12:25 , Objeto      : _util_campari.imprimir_vistaprevia1.impresora.click
-02-11-2020 14:12:25 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-02-11-2020 14:12:25 , Nº de Linea :          8
-02-11-2020 14:12:25 , En el Fuente: 	llOK=thisform.CrearInforme()
-02-11-2020 14:12:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\_util_campari.sct
-02-11-2020 14:12:26 , Objeto      : _util_campari.crearinforme
 02-11-2020 14:12:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\_util_campari.sct
 02-11-2020 14:12:26 , Nº de Linea :          6
 02-11-2020 14:12:26 , En el Fuente: 	.generar('ctacte','Clientes')
@@ -370,6 +12,16 @@ STR(VAL(DTOS(lcfecha2)),8);Error :         11;Ultimo Alias Activo: CSRCURSOR;Ult
 02-11-2020 14:12:27 , Nº de Linea :         44
 02-11-2020 14:12:27 , En el Fuente: and (Csrfleteren.fecha between  <<lcFecha1>> and <<lcFecha2>>) 
 11-11-2020 17:12:23 , PRUEBA_UNILEVER, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : do while LEN(Trim(cReferencia)) <> 0    && Condición para saber donde terminan los datos, se podrían agregar más condiciones;Error :
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -696,6 +348,16 @@ STR(VAL(DTOS(lcfecha2)),8);Error :         11;Ultimo Alias Activo: CSRCURSOR;Ult
 
 
 
+
+
+
+
+
+
+
+
+
+
      11;Ultimo Alias Activo: CSRFACTURA;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000FBWP00M3.TMP;Ultimo Control activo: 
 12-11-2020 13:21:39 , Pila de llamadas
 12-11-2020 13:21:39 , Programa    : j:\xsoftsr\proyectos\starossa\progs\prueba_unilever.fxp
@@ -709,6 +371,16 @@ STR(VAL(DTOS(lcfecha2)),8);Error :         11;Ultimo Alias Activo: CSRCURSOR;Ult
 12-11-2020 13:21:40 , Nº de Linea :         49
 12-11-2020 13:21:40 , En el Fuente: 	  	do while LEN(Trim(nCodigo)) <> 0    && Condición para saber donde terminan los datos, se podrían agregar más condiciones
 12-11-2020 13:22:51 , PRUEBA_UNILEVER, Error: Falta una coma (,).;Linea : nCantidad = INT(IIF(TYPE('nCantidad ')'N',nCantidad ,VAL(nCantidad )));Error :       1306;Ultimo Alias Activo: CSRFACTURA;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\L
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1001,6 +673,16 @@ OCAL\TEMP\0000FBWP00QN.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
 C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000FBWP00QR.TMP;Ultimo Control activo: 
 12-11-2020 13:23:34 , Pila de llamadas
 12-11-2020 13:23:34 , Programa    : j:\xsoftsr\proyectos\starossa\progs\prueba_unilever.fxp
@@ -1014,6 +696,16 @@ C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000FBWP00QR.TMP;Ultimo Control activo:
 12-11-2020 13:23:35 , Nº de Linea :         56
 12-11-2020 13:23:35 , En el Fuente: 	    	replace codproveedor WITH cCodigo, cantidad WITH nCantidad IN csrFactura
 12-11-2020 13:23:46 , PRUEBA_UNILEVER, Error: El campo CANTIDAD no acepta valores NULL.;Linea : replace codproveedor WITH cCodigo, cantidad WITH nCantidad IN csrFactura;Error :       1581;Ultimo Alias Activo: CSRFACTURA;Ultimo registro:         16 ;DBF: 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1292,6 +984,16 @@ C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000FBWP00QR.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
 C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000FBWP00QV.TMP;Ultimo Control activo: 
 12-11-2020 13:24:18 , Pila de llamadas
 12-11-2020 13:24:18 , Programa    : j:\xsoftsr\proyectos\starossa\progs\prueba_unilever.fxp
@@ -1305,6 +1007,16 @@ C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000FBWP00QV.TMP;Ultimo Control activo:
 12-11-2020 13:24:19 , Nº de Linea :         56
 12-11-2020 13:24:19 , En el Fuente: 	    	replace codproveedor WITH cCodigo, cantidad WITH nCantidad IN csrFactura
 12-11-2020 13:25:15 , PRUEBA_UNILEVER, Error: El campo CODPROVEEDOR no acepta valores NULL.;Linea : replace codproveedor WITH cCodigo, cantidad WITH nCantidad IN csrFactura;Error :       1581;Ultimo Alias Activo: CSRFACTURA;Ultimo registro:         15 ;D
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1569,6 +1281,16 @@ BF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000FBWP00QZ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
 PDATA\LOCAL\TEMP\0000GPVT01GY.TMP;Ultimo Control activo: PARADA
 12-11-2020 16:10:45 , Pila de llamadas
 12-11-2020 16:10:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
@@ -1577,6 +1299,16 @@ PDATA\LOCAL\TEMP\0000GPVT01GY.TMP;Ultimo Control activo: PARADA
 12-11-2020 16:10:46 , Nº de Linea :         14
 12-11-2020 16:10:46 , En el Fuente: 			this.cargarfactura()
 12-11-2020 16:11:53 , REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'OEXCELFACTURA'.;Linea : with oExcelFactura;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APP
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1841,6 +1573,16 @@ DATA\LOCAL\TEMP\0000GPVT01PX.TMP;Ultimo Control activo: PARADA
 
 
 
+
+
+
+
+
+
+
+
+
+
  1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000GPVT03K7.TMP;Ultimo Control activo: 
 12-11-2020 16:36:23 , Pila de llamadas
 12-11-2020 16:36:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
@@ -1869,6 +1611,16 @@ DATA\LOCAL\TEMP\0000GPVT01PX.TMP;Ultimo Control activo: PARADA
 12-11-2020 16:36:26 , Nº de Linea :         29
 12-11-2020 16:36:26 , En el Fuente: 		this.grid2_generarlinea()   && 22=insert
 12-11-2020 16:37:26 , REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : LOCATE FOR VAL(codalfa) = CsrFactura.codproveedor;Error :        107;Ultimo Alias Activo: CSRPRODUCT
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2101,6 +1853,16 @@ O;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000GPVT03
 
 
 
+
+
+
+
+
+
+
+
+
+
 DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000GPVT0446.TMP;Ultimo Control activo: CODALFA
 12-11-2020 16:38:37 , Pila de llamadas
 12-11-2020 16:38:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
@@ -2129,6 +1891,16 @@ DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000GPVT0446.TMP;Ultimo Control activo: C
 12-11-2020 16:38:41 , Nº de Linea :         34
 12-11-2020 16:38:41 , En el Fuente: 			thisform.kitbuscarProd.losostfocussay()
 13-11-2020 14:04:56 , REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'CIMP'.;Linea : cImp = .Cells(cImp, 11).Value;Error :         12;Ultimo Alias Activo: CSRIMPUFILE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2329,6 +2101,16 @@ DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000GPVT0446.TMP;Ultimo Control activo: C
 
 
 
+
+
+
+
+
+
+
+
+
+
 mo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00007RWP01JI.TMP;Ultimo Control activo: PARADA
 13-11-2020 14:06:04 , Pila de llamadas
 13-11-2020 14:06:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
@@ -2357,6 +2139,16 @@ mo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00007RWP01JI.TMP
 13-11-2020 14:06:07 , Nº de Linea :         36
 13-11-2020 14:06:07 , En el Fuente: 	  	nImp = IIF(TYPE(cImp)$'C',VAL(cImp),cImp)
 30-11-2020 13:47:33 , GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Debe especificar parámetros adicionales.;Linea : INSERT INTO CsrImportar VALUES (9999999999,9999999999,0,'VACIO','0');Error :         94;Ultimo Alias Activo: CSRIMPORTAR;Ulti
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2522,7 +2314,27 @@ mo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000FAQ10014.TMP
 
 
 
+
+
+
+
+
+
+
+
+
+
 + cSep + "1" + cSep + "CD" + cSep + ALLTRIM(STR(Oscatter.numero)) + cSep + "1" + cSep + "" + cSep + strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H";Error :       1734;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\MAR
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2675,6 +2487,16 @@ CO\APPDATA\LOCAL\TEMP\0000BNRD01N4.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
  "" + cSep + strtrim(Oscatter.cantidad,15)		+ cSep + "UNI" + cSep + "H"
 11-12-2020 10:05:07 , _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + st
 
@@ -2738,7 +2560,27 @@ CO\APPDATA\LOCAL\TEMP\0000BNRD01N4.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
 rtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM(STR(Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H";Error :         11;Ultimo Alias Activo: CSRCURSOR;Ultimo registro
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2876,8 +2718,28 @@ rtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM(STR(O
 
 
 
+
+
+
+
+
+
+
+
+
+
  "" + cSep + strtrim(Oscatter.cantidad,15)		+ cSep + "UNI" + cSep + "H"
 11-12-2020 10:06:43 , _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : RETURN ALLTRIM(STR(lnValor,lnTam,lnDec));Error :         11;Ultimo Alias Activo: CSRCURSOR;Ultim
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3000,6 +2862,16 @@ o registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BNRD01TY.TMP;
 
 
 
+
+
+
+
+
+
+
+
+
+
  + cSep + strtrim(Oscatter.cantidad,15)		+ cSep + "UNI" + cSep + "H"
 11-12-2020 10:06:45 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
 11-12-2020 10:06:46 , Objeto      : strtrim
@@ -3052,7 +2924,27 @@ o registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BNRD01TY.TMP;
 
 
 
+
+
+
+
+
+
+
+
+
+
 rim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H";Error :        107;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:    
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3159,6 +3051,16 @@ rim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Oscatt
 
 
 
+
+
+
+
+
+
+
+
+
+
  + cSep + strtrim(Oscatter.cantidad,15)		+ cSep + "UNI" + cSep + "H"
 11-12-2020 10:07:58 , _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + st
 
@@ -3199,7 +3101,27 @@ rim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Oscatt
 
 
 
+
+
+
+
+
+
+
+
+
+
 rtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + str(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H";Error :         11;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:      
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3292,8 +3214,28 @@ rtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Osca
 
 
 
+
+
+
+
+
+
+
+
+
+
  + cSep + str(Oscatter.cantidad,15)		+ cSep + "UNI" + cSep + "H"
 11-12-2020 10:12:14 , _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad IDMAOPERA.;Linea : cLinea = "L" + cSep + lcfecha1 + cSep + lcfecha2 + cSep + strtrim(this.coddistribuidor,15) + cSep + RTRIM(Oscatter.CodCtacte
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3357,7 +3299,27 @@ rtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Osca
 
 
 
+
+
+
+
+
+
+
+
+
+
  STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) + cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedor " +RTRIM(OScatter.codvdor);Error :       1734;Ultimo Alias Activo: CSRCURSOR;Ultimo regi
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3437,7 +3399,27 @@ stro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BNRD0201.TMP;Ultimo
 
 
 
+
+
+
+
+
+
+
+
+
+
 p + cSep + Oscatter.fecha		+ cSep + IIF(Oscatter.signo=1,'VTA','DEV')		+ cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) 		+ cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15)		+ cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.c
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3491,6 +3473,16 @@ antidad,17,6)		+ cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedo
 
 
 
+
+
+
+
+
+
+
+
+
+
 + cSep + "1" + cSep + "CD" + cSep + STRTRIM(Oscatter.idmaopera) + cSep + Oscatter.numcomp + cSep + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + S
 
 
@@ -3517,7 +3509,27 @@ antidad,17,6)		+ cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedo
 
 
 
+
+
+
+
+
+
+
+
+
+
 TRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) + cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedor " +RTRIM(OScatter.codvdor);Error :       1734;Ultimo Alias Activo: CSRCURSOR;Ultimo regist
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3584,7 +3596,27 @@ ro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BNRD022I.TMP;Ultimo C
 
 
 
+
+
+
+
+
+
+
+
+
+
 p + cSep + Oscatter.fecha		+ cSep + IIF(Oscatter.signo=1,'VTA','DEV')		+ cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) 		+ cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15)		+ cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.c
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3624,6 +3656,16 @@ antidad,17,6)		+ cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedo
 
 
 
+
+
+
+
+
+
+
+
+
+
 + cSep + "1" + cSep + "CD" + cSep + STRTRIM(Oscatter.idmaopera) + cSep + Oscatter.numcomp + cSep + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + S
 
 
@@ -3643,7 +3685,27 @@ antidad,17,6)		+ cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedo
 
 
 
+
+
+
+
+
+
+
+
+
+
 TRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) + cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedor " +RTRIM(OScatter.codvdor);Error :       1734;Ultimo Alias Activo: CSRCURSOR;Ultimo regist
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3695,7 +3757,27 @@ ro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BNRD023T.TMP;Ultimo C
 
 
 
+
+
+
+
+
+
+
+
+
+
 p + cSep + Oscatter.fecha		+ cSep + IIF(Oscatter.signo=1,'VTA','DEV')		+ cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) 		+ cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15)		+ cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.c
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3719,6 +3801,16 @@ antidad,17,6)		+ cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedo
 
 
 
+
+
+
+
+
+
+
+
+
+
 :          0 ;DBF: ;Ultimo Control activo: 
 22-12-2020 14:29:36 , Pila de llamadas
 22-12-2020 14:29:36 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3727,6 +3819,16 @@ antidad,17,6)		+ cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedo
 22-12-2020 14:29:36 , Nº de Linea :          2
 22-12-2020 14:29:37 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 28-12-2020 10:54:04 , SUBIVAVTA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : INDEX on grupo+chrfecha+numcomp TAG chrfecha;Error :         52;Ultimo Alias Activo: ;Ultimo registro:          0
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3757,6 +3859,16 @@ antidad,17,6)		+ cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedo
 
 
 
+
+
+
+
+
+
+
+
+
+
          0 ;DBF: ;Ultimo Control activo: 
 28-12-2020 13:02:51 , Pila de llamadas
 28-12-2020 13:02:52 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3774,3 +3886,49 @@ antidad,17,6)		+ cSep + "ARS" + cSep + RTRIM(OScatter.codvdor) + cSep + "Vendedo
 28-12-2020 13:02:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\subivavta.sct
 28-12-2020 13:02:53 , Nº de Linea :        157
 28-12-2020 13:02:53 , En el Fuente: INDEX on grupo+chrfecha+nomcompro+numcomp TAG chrfecha
+14-01-2021 12:00:59 , PLANILLAPARAPEDIDOS.INIT, Error: No se encuentra el alias 'GOAAP'.;Linea : IF goaap.terminal = 2;Error :         13;Ultimo Alias Activo: CSRDEPOSITO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000J0G900HI.TM
+
+
+
+
+
+
+
+
+
+P;Ultimo Control activo: 
+14-01-2021 12:00:59 , Pila de llamadas
+14-01-2021 12:00:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
+14-01-2021 12:00:59 , Objeto      : planillaparapedidos.init
+14-01-2021 12:00:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
+14-01-2021 12:00:59 , Nº de Linea :         15
+14-01-2021 12:00:59 , En el Fuente:      IF goaap.terminal = 2
+14-01-2021 12:13:54 , PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: COLUMN012 es un miembro desconocido.;Linea : .Column012.Header = "Costo Sistema";Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\
+
+
+
+
+
+
+USERS\MARCO\APPDATA\LOCAL\TEMP\0000J0G9013U.TMP;Ultimo Control activo: 
+14-01-2021 12:13:54 , Pila de llamadas
+14-01-2021 12:13:55 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+14-01-2021 12:13:55 , Objeto      : planillaparapedidos.imprimir_vistaprevia1.excel.click
+14-01-2021 12:13:55 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+14-01-2021 12:13:55 , Nº de Linea :          8
+14-01-2021 12:13:55 , En el Fuente: llOK=thisform.CrearInforme()
+14-01-2021 12:13:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
+14-01-2021 12:13:55 , Objeto      : planillaparapedidos.crearinforme
+14-01-2021 12:13:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
+14-01-2021 12:13:55 , Nº de Linea :        106
+14-01-2021 12:13:55 , En el Fuente: DODEFAULT()
+14-01-2021 12:13:55 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+14-01-2021 12:13:56 , Objeto      : informe.crearinforme
+14-01-2021 12:13:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+14-01-2021 12:13:56 , Nº de Linea :          1
+14-01-2021 12:13:56 , En el Fuente: thisform.crearheader()
+14-01-2021 12:13:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
+14-01-2021 12:13:56 , Objeto      : planillaparapedidos.crearheader
+14-01-2021 12:13:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\planillaparapedidos.sct
+14-01-2021 12:13:57 , Nº de Linea :         57
+14-01-2021 12:13:57 , En el Fuente: 				.Column012.Header = "Costo Sistema"
