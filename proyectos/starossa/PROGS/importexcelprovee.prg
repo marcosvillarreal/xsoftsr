@@ -43,15 +43,24 @@ FUNCTION Format_Unilever()
 	  
 		&&Extraemos los articulos  
 	  	LOCAL nCodigo
+	  	LOCAL nFilaCantidad
 	  	
-	  	Fila = 7     
 	  	.Sheets(4).Select
+	  	Fila = 6
+	  	FOR i =1 TO 15 &&Nos pasamos para estar seguros
+	  		cCampo = .Cells(Fila, i).Value    
+	  		IF ALLTRIM(UPPER(cCampo)) = 'CANTIDAD' 
+	  			nFilaCantidad = i
+	  		ENDIF 
+	  	ENDFOR 
+	  	Fila = 7     
+	  	
 	  	nCodigo = .Cells(Fila, 1).Value     
 	  	nCodigo = INT(IIF(TYPE('nCodigo')$'N',nCodigo,VAL(nCodigo)))
 	  	cCodigo = ALLTRIM(STR(nCodigo,15))
 	  	do while LEN(Trim(cCodigo)) <> 0    && Condición para saber donde terminan los datos, se podrían agregar más condiciones
 	    	*oavisar.usuario(cCodigo)
-	    	nCantidad = .Cells(Fila,5).Value
+	    	nCantidad = .Cells(Fila,nFilaCantidad ).Value
 	    	nCantidad = INT(IIF(TYPE('nCantidad')$'N',nCantidad ,VAL(nCantidad )))
 	    	
 	    	APPEND BLANK IN CsrFactura
