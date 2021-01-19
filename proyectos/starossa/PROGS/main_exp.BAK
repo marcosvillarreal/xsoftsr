@@ -5,6 +5,15 @@
 *	VER AL PIE alguna consideracion con respecto a campos tablas
 *
 *select min(id) from ctacte c where not exists (select cnumero from ctacte d where c.id=d.cnumero )
+LPARAMETERS oIdPrograma
+
+oIdprograma = IIF(PCOUNT()<1,"1",oIdprograma)
+
+LOCAL nidprograma
+
+stop()
+
+nidprograma=IIF(VARTYPE(oIdprograma)="C",oIdprograma,LTRIM(STR(oIdprograma)))
 
 clear all
 set classlib to
@@ -202,7 +211,7 @@ IF TYPE('goApp')='O'
 
 	PUBLIC loConnDataSource,lcIdObjCon,lcIdObjneg,lcServidor,ObjNeg
 
-	LeerXMLClassID("objetodll.xml")
+	*LeerXMLClassID("objetodll.xml")
 	
 	If lldesarrollo 
 		oavisar.usuario('Conectado a  '+ALLTRIM(goapp.servidor)+'\'+LTRIM(goapp.initcatalo))
@@ -239,19 +248,27 @@ IF TYPE('goApp')='O'
 	Goapp.perfilusuario     = 0
 	Goapp.nombreusuario= ""
 	    		
-	DO FORM frmlogin
+	*DO FORM frmlogin
 		 
-	LOCAL oMenu
-	oMenu= null
-	oDesktop = ''
-	oMenu = NEWOBJECT("createmenu","symde.vcx",.NULL.,.T.,odesktop,Goapp.perfilusuario,"'verdana',9","")
-	oMenu.createMenu()   
-	oMenu = null
+*!*		LOCAL oMenu
+*!*		oMenu= null
+*!*		oDesktop = ''
+*!*		oMenu = NEWOBJECT("createmenu","symde.vcx",.NULL.,.T.,odesktop,Goapp.perfilusuario,"'verdana',9","")
+*!*		oMenu.createMenu()   
+*!*		oMenu = null
 
-	DO FORM frmmenu
+*!*		DO FORM frmmenu
 	   
 	 *  Do mnuppal.mpr
-	                  
+	 
+	 DO CASE
+	CASE VAL(nidprograma)=1
+		goapp.otherformsclose ="_UTIL_CAMPARI"
+		DO FORM _util_campari WITH .t.
+	OTHERWISE
+
+	ENDCASE
+	                 
 	 _screen.visible=.t.
 	   
 	_screen.lockscreen=.f.

@@ -11,9 +11,10 @@ oIdprograma = IIF(PCOUNT()<1,"1",oIdprograma)
 
 LOCAL nidprograma
 
+*stop()
+
 nidprograma=IIF(VARTYPE(oIdprograma)="C",oIdprograma,LTRIM(STR(oIdprograma)))
 
-clear all
 set classlib to
 l='j:\xsoftsr'
 *l='X:'
