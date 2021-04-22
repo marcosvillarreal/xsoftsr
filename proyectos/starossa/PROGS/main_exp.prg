@@ -264,6 +264,9 @@ IF TYPE('goApp')='O'
 	CASE VAL(nidprograma)=1
 		goapp.otherformsclose ="_UTIL_CAMPARI"
 		DO FORM _util_campari WITH .t.
+	CASE VAL(nidprograma)=2
+		goapp.otherformsclose ="_UTIL_MH"
+		DO FORM _util_mh WITH .t.
 	OTHERWISE
 
 	ENDCASE
