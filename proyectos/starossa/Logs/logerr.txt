@@ -1,33 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-or :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-22-01-2021 12:26:35 , Pila de llamadas
-22-01-2021 12:26:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regpubvario_f4.sct
-22-01-2021 12:26:36 , Objeto      : regpubvario_f4.load
-22-01-2021 12:26:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regpubvario_f4.sct
-22-01-2021 12:26:36 , Nº de Linea :          4
-22-01-2021 12:26:36 , En el Fuente: thisform.crearcursor()
-22-01-2021 12:26:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regpubvario_f4.sct
-22-01-2021 12:26:37 , Objeto      : regpubvario_f4.crearcursor
-22-01-2021 12:26:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regpubvario_f4.sct
-22-01-2021 12:26:37 , Nº de Linea :          2
-22-01-2021 12:26:37 , En el Fuente: SELECT Csrmovpub.*,00000000 AS nrocaja,SPACE(6) as cnumero,SPACE(30) as cnombre FROM Csrmovpub WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovpub READWRITE 
-22-01-2021 12:27:44 , REGPUBVARIO_F4.INIT, Error: No se encuentra el alias 'CSRPARADIARIO'.;Linea : .lnidnrocaja	 = Csrparadiario.iddetanrocaja;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-22-01-2021 12:27:45 , Pila de llamadas
-22-01-2021 12:27:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regpubvario_f4.sct
-22-01-2021 12:27:45 , Objeto      : regpubvario_f4.init
-22-01-2021 12:27:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regpubvario_f4.sct
 22-01-2021 12:27:46 , Nº de Linea :          4
 22-01-2021 12:27:46 , En el Fuente:      .iniciavariables()   
 22-01-2021 12:27:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regpubvario_f4.sct
@@ -205,6 +175,10 @@ or :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo 
 
 
 
+
+
+
+
 o: 
 22-01-2021 12:28:14 , Pila de llamadas
 22-01-2021 12:28:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regpubvario_f4.sct
@@ -218,6 +192,10 @@ o:
 22-01-2021 12:28:16 , Nº de Linea :          3
 22-01-2021 12:28:16 , En el Fuente: 	.containerencabeza._cbomesfiscal.Value = MONTH(DATE())
 19-02-2021 11:38:17 , REGFACVTA.CMDIMPRIMIR.CLICK, Error: No se encuentra la definición de clase FOXBARCODEQR.;Linea : loFbc = CREATEOBJECT("FoxBarcodeQR");Error :       1733;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 ;DBF: C:\USERS\M
+
+
+
+
 
 
 
@@ -561,6 +539,10 @@ ARCO\APPDATA\LOCAL\TEMP\00009GJT00XM.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 19-02-2021 11:48:27 , Pila de llamadas
 19-02-2021 11:48:28 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -579,6 +561,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 19-02-2021 11:48:29 , Nº de Linea :       1927
 19-02-2021 11:48:29 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 19-02-2021 11:54:41 , REGFACVTA.CMDIMPRIMIR.CLICK, Error: No se encuentra la propiedad P_FILEQR.;Linea : This.P_FileQR = "";Error :       1734;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00009GJT
+
+
+
+
 
 
 
@@ -884,6 +870,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
        2 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00009GJT02PG.TMP;Ultimo Control activo: 
 19-02-2021 11:59:56 , Pila de llamadas
 19-02-2021 11:59:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
@@ -907,6 +897,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 19-02-2021 11:59:58 , Nº de Linea :          6
 19-02-2021 11:59:59 , En el Fuente: IF LEN(TRIM(lcimpresora))=0 OR lntipoimpresora=0
 19-02-2021 16:13:51 , REGFACVTAPUB.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivar
+
+
+
+
 
 
 
@@ -1164,7 +1158,15 @@ i2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,0000000
 
 
 
+
+
+
+
 a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,00000
+
+
+
+
 
 
 
@@ -1422,7 +1424,15 @@ a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 a
 
 
 
+
+
+
+
 00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,
+
+
+
+
 
 
 
@@ -1680,7 +1690,15 @@ a5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 a
 
 
 
+
+
+
+
 n,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO 
+
+
+
+
 
 
 
@@ -1945,7 +1963,15 @@ CURSOR CsrAuxcabefac READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo r
 
 
 
+
+
+
+
 s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
+
+
+
+
 
 
 
@@ -2195,7 +2221,15 @@ a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomre
 
 
 
+
+
+
+
 e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
+
+
+
+
 
 
 
@@ -2445,7 +2479,15 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
  as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
+
+
+
+
 
 
 
@@ -2695,6 +2737,10 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
  RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE  
 19-02-2021 16:36:31 , INF_CAEA.OFACCAE.INIT, Error: No se encuentra la propiedad TOPECF.;Linea : THIS.TOPecf = THISFORM.TOPECF;Error :       1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: CODIGO15
 19-02-2021 16:36:32 , Pila de llamadas
@@ -2704,6 +2750,10 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 19-02-2021 16:36:32 , Nº de Linea :         37
 19-02-2021 16:36:32 , En el Fuente: THIS.TOPecf = THISFORM.TOPECF
 01-03-2021 10:14:16 , MAIN, Error: No se encuentra el alias 'CSRPLANCUE'.;Linea : This.txtnombre.value = &lccamponombre;Error :         13;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:         18 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000EWAX00I3.T
+
+
+
+
 
 
 
@@ -2969,6 +3019,10 @@ MP;Ultimo Control activo:
 
 
 
+
+
+
+
 Ultimo Control activo: 
 10-03-2021 14:16:12 , Pila de llamadas
 10-03-2021 14:16:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpubgastos.sct
@@ -2992,6 +3046,10 @@ Ultimo Control activo:
 10-03-2021 14:16:16 , Nº de Linea :          1
 10-03-2021 14:16:16 , En el Fuente: SELECT CsrAuxF4
 10-03-2021 14:17:06 , REGPUBGASTOS.GRID2.KEYPRESS, Error: No se encuentra el alias 'CSRAUXF4'.;Linea : SELECT CsrAuxF4;Error :         13;Ultimo Alias Activo: CSRAUXPIE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00002KND00EM.TMP;
+
+
+
+
 
 
 
@@ -3216,6 +3274,10 @@ Ultimo Control activo:
 
 
 
+
+
+
+
 lias Activo: CSRAUXPIE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00002KND00H7.TMP;Ultimo Control activo: 
 10-03-2021 14:17:42 , Pila de llamadas
 10-03-2021 14:17:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpubgastos.sct
@@ -3229,6 +3291,10 @@ lias Activo: CSRAUXPIE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
 10-03-2021 14:17:43 , Nº de Linea :          7
 10-03-2021 14:17:43 , En el Fuente: DO FORM regpubgastos_f4
 10-03-2021 14:19:54 , REGPUBGASTOS.GRID2.KEYPRESS, Error: Error al cargar el archivo - número de registro 18. Grid2  <o uno de sus miembros>.  ControlSource : No se encuentra la variable 'SALDO';Linea : DO FORM regpubgastos_f4;Error :       2005;Ultimo A
+
+
+
+
 
 
 
@@ -3425,6 +3491,10 @@ lias Activo: CSRAUXPIE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
 
 
 
+
+
+
+
 MARCO\APPDATA\LOCAL\TEMP\00002KND00NR.TMP;Ultimo Control activo: 
 10-03-2021 14:21:42 , Pila de llamadas
 10-03-2021 14:21:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpubgastos.sct
@@ -3438,6 +3508,10 @@ MARCO\APPDATA\LOCAL\TEMP\00002KND00NR.TMP;Ultimo Control activo:
 10-03-2021 14:21:44 , Nº de Linea :         18
 10-03-2021 14:21:44 , En el Fuente: thisform.grid2.column7.ControlSource = "CsrAuxiliar.saldo"
 10-03-2021 14:21:55 , REGPUBGASTOS.GRID2.KEYPRESS, Error: No se encuentra la variable 'SALDO'.;Linea : REPLACE saldo WITH lnsaldo;Error :         12;Ultimo Alias Activo: CSRAUXF4;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00002KN
+
+
+
+
 
 
 
@@ -3627,6 +3701,10 @@ D00NY.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 MARCO\APPDATA\LOCAL\TEMP\00002KND00PO.TMP;Ultimo Control activo: 
 10-03-2021 14:22:38 , Pila de llamadas
 10-03-2021 14:22:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpubgastos.sct
@@ -3640,6 +3718,10 @@ MARCO\APPDATA\LOCAL\TEMP\00002KND00PO.TMP;Ultimo Control activo:
 10-03-2021 14:22:39 , Nº de Linea :         18
 10-03-2021 14:22:39 , En el Fuente: thisform.grid2.column7.ControlSource = "CsrAuxiliar.saldo"
 10-03-2021 14:24:56 , REGPUBGASTOS.GRID2.KEYPRESS, Error: No se encuentra la variable 'SALDO'.;Linea : thisform.grid2.column7.ControlSource = "CsrAuxiliar.saldo";Error :         12;Ultimo Alias Activo: CSRAUXF4;Ultimo registro:          1 ;DBF: C:\USERS\
+
+
+
+
 
 
 
@@ -3801,6 +3883,10 @@ MARCO\APPDATA\LOCAL\TEMP\00002KND00RI.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
  wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 25-03-2021 16:39:04 , Pila de llamadas
 25-03-2021 16:39:05 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3878,8 +3964,16 @@ MARCO\APPDATA\LOCAL\TEMP\00002KND00RI.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 ursor &micursor READWRITE
 26-03-2021 13:35:30 , RESCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRMOVIMIENTO'.;Linea : SELECT csrmovimiento;Error :         13;Ultimo Alias Activo: CSRCURSORA;Ultimo registro:          1 ID;DBF: C:\USERS\MARCO\APP
+
+
+
+
 
 
 
@@ -4029,7 +4123,15 @@ DATA\LOCAL\TEMP\0000EH3D00OD.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 S (Oscatter.idctacte,Oscatter.ctacte,Oscatter.cnombre,Oscatter.idmaopera,"B",Oscatter.fecha,Oscatter.vencimien,lcnomcomp,lndebe,lnhaber,lnSaldores,Oscatter.detalle);Error :         12;Ultimo Alias Activo: CSRMOVIMIENTO;Ultimo registro:          1 STR(IDC
+
+
+
+
 
 
 
@@ -4172,8 +4274,16 @@ TACTE,10)+DTOC(FECHA,1);DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000EH3D00PH.TMP;
 
 
 
+
+
+
+
 tter.fecha,Oscatter.vencimien,lcnomcomp,lndebe,lnhaber,lnSaldores,Oscatter.detalle)
 05-04-2021 13:13:37 , RESCTACTE.KITGRILLATILDARCTACTE.INIT, Error: El archivo 'csrctacte.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcam
+
+
+
+
 
 
 
@@ -4303,8 +4413,16 @@ po09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :    
 
 
 
+
+
+
+
 ursor &micursor READWRITE
 21-04-2021 20:10:10 , EXPORTAR_CPRA_VTA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRBACKUP'.;Linea : APPEND BLANK IN CsrBackup;Error :         13;Ultimo Alias Activo: CSREXPORTAR;Ultimo registro:          1 ;DBF: C:\USERS\M
+
+
+
+
 
 
 
@@ -4450,6 +4568,10 @@ ARCO\APPDATA\LOCAL\TEMP\0000L6VD0035.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 TMP;Ultimo Control activo: 
 22-04-2021 09:14:24 , Pila de llamadas
 22-04-2021 09:14:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\inf_caea.sct
@@ -4463,6 +4585,10 @@ TMP;Ultimo Control activo:
 22-04-2021 09:14:25 , Nº de Linea :         18
 22-04-2021 09:14:25 , En el Fuente: 	SELECT CsrInfCabefac
 22-04-2021 09:15:29 , INF_CAEA.ACEPTAR2.CLICK, Error: No se encuentra el alias 'CSRINFCABEFAC'.;Linea : SELECT CsrInfCabefac;Error :         13;Ultimo Alias Activo: CSRGRID;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000NGND0039.
+
+
+
+
 
 
 
@@ -4560,6 +4686,10 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
  
 22-04-2021 10:39:33 , Pila de llamadas
 22-04-2021 10:39:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\inf_caea.sct
@@ -4573,6 +4703,10 @@ TMP;Ultimo Control activo:
 22-04-2021 10:39:35 , Nº de Linea :         15
 22-04-2021 10:39:35 , En el Fuente: 		sFirstDay		= CsrCAEA.periodo+IIF(VAL(CsrCAEA.quincena)=1,"01","16")
 22-04-2021 12:49:37 , REGPUBVARIO.LOAD, Error: El archivo 'csrmovpub.dbf' no existe.;Linea : SELECT Csrmovpub.*,00000000 AS nrocaja,SPACE(6) as cnumero,SPACE(30) as cnombre FROM Csrmovpub WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovpub READWRITE;Error 
+
+
+
+
 
 
 
@@ -4653,6 +4787,10 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 22-04-2021 12:49:54 , Pila de llamadas
 22-04-2021 12:49:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regpubvario.sct
@@ -4693,9 +4831,17 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 (6) as cnumero,SPACE(30) as cnombre from Csrmovpub INTO CURSOR Csrauxiliar READWRITE;Error :       2005;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 22-04-2021 12:49:57 , Pila de llamadas
 13-05-2021 09:48:34 , GENERAR_KRETZ.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: _TXTDESTINOEXPORTAR es un miembro desconocido.;Linea : cRuta	= ADDBS(thisform._txtDestinoExportar.Value);Error :       1925;Ultimo Alias Activo: CSRCURSOR;Ultimo registro: 
+
+
+
+
 
 
 
@@ -4763,6 +4909,10 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 RS\MARCO\APPDATA\LOCAL\TEMP\0000FWND008K.TMP;Ultimo Control activo: 
 13-05-2021 09:54:11 , Pila de llamadas
 13-05-2021 09:54:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4786,6 +4936,10 @@ RS\MARCO\APPDATA\LOCAL\TEMP\0000FWND008K.TMP;Ultimo Control activo:
 13-05-2021 09:54:13 , Nº de Linea :         21
 13-05-2021 09:54:13 , En el Fuente: 	DELETE FILE &cFileName
 18-05-2021 08:45:18 , GENERAR_KRETZ.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: _TXTTOPE es un miembro desconocido.;Linea : lnTope = thisform._txttope.Value;Error :       1925;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\MA
+
+
+
+
 
 
 
@@ -4823,6 +4977,10 @@ RCO\APPDATA\LOCAL\TEMP\0000A8EH0029.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 ARCO\APPDATA\LOCAL\TEMP\0000DD6X02I6.TMP;Ultimo Control activo: CODIGO15
 18-05-2021 16:26:38 , Pila de llamadas
 18-05-2021 16:26:38 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -4840,3 +4998,15 @@ ARCO\APPDATA\LOCAL\TEMP\0000DD6X02I6.TMP;Ultimo Control activo: CODIGO15
 18-05-2021 16:26:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 18-05-2021 16:26:40 , Nº de Linea :        129
 18-05-2021 16:26:40 , En el Fuente: 				lbfound = this.fc_lostfocus(lnthisvalueCod)  &&CsrProducto.numero
+20-05-2021 19:37:47 , REGFACVTA.CMDWEBSERVICE.CLICK, Error: No se encuentra la propiedad TOPECF.;Linea : THIS.TOPecf = THISFORM.TOPECF;Error :       1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+20-05-2021 19:37:48 , Pila de llamadas
+20-05-2021 19:37:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
+20-05-2021 19:37:48 , Objeto      : regfacvta.cmdwebservice.click
+20-05-2021 19:37:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
+20-05-2021 19:37:48 , Nº de Linea :          1
+20-05-2021 19:37:48 , En el Fuente: DO FORM compconsultar_fe WITH CsrAuxMaopera.id
+20-05-2021 19:37:48 , Programa    : j:\xsoftsr\desarrollo\clases\onegocios.vct
+20-05-2021 19:37:48 , Objeto      : compconsultar_fe.ofaccae.init
+20-05-2021 19:37:48 , Base Objeto : j:\xsoftsr\desarrollo\clases\onegocios.vct
+20-05-2021 19:37:48 , Nº de Linea :         37
+20-05-2021 19:37:49 , En el Fuente: THIS.TOPecf = THISFORM.TOPECF
