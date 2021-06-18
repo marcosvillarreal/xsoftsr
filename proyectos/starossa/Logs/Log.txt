@@ -1,61 +1,3 @@
-Control activo PARADA REGFACVTAPUB.KEYPRESS
-13-12-2019 10:11:15 , Linea nº GATHER NAME Oscatter
-Error nº:       1581
-Error El campo TOTAL no acepta valores NULL.
- Alias CSRAUXCUERFAC registro          1
-Control activo IDCOMPROBA REGFACVTAPUB.KEYPRESS
-13-12-2019 10:15:47 , Linea nº LOCATE FOR id=Oscatter.idcuerfac
-Error nº:         12
-Error No se encuentra la variable 'NIDOPERACION'.
- Alias CSRAUXCUERFAC registro          1
-Control activo PARADA REGFACVTAPUB.KEYPRESS
-13-12-2019 10:17:02 , Linea nº GATHER NAME Oscatter
-Error nº:       1581
-Error El campo TOTAL no acepta valores NULL.
- Alias CSRAUXCUERFAC registro          1
-Control activo IDCOMPROBA REGFACVTAPUB.KEYPRESS
-13-12-2019 10:23:02 , Linea nº LOCATE FOR id=Oscatter.idcuerfac
-Error nº:         12
-Error No se encuentra la variable 'NIDOPERACION'.
- Alias CSRAUXCUERFAC registro          1
-Control activo IDCOMPROBA REGFACVTAPUB.KEYPRESS
-18-12-2019 11:52:44 , Linea nº LOCATE FOR ALLTRIM(FsrArticulo.codigo) = &lcCodigo
-Error nº:         12
-Error No se encuentra la variable 'CNUMERO'.
- Alias FSRARTICULO registro          1
-Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-18-12-2019 12:10:48 , Linea nº IF this.imprimir_vistaprevia1.esreporteexcel
-Error nº:       1238
-Error No se encuentra la instrucción PARAMETER.
- Alias CSRAUXCBIOPRECIO registro          5
-Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-18-12-2019 12:12:25 , Linea nº IF this.imprimir_vistaprevia1.esreporteexcel
-Error nº:       1238
-Error No se encuentra la instrucción PARAMETER.
- Alias CSRAUXCBIOPRECIO registro          5
-Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-18-12-2019 12:13:16 , Linea nº IF this.imprimir_vistaprevia1.esreporteexcel
-Error nº:       1238
-Error No se encuentra la instrucción PARAMETER.
- Alias CSRAUXCBIOPRECIO registro          5
-Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-20-12-2019 10:39:11 , Linea nº .oFACCAE.compconsultar_fe()
-Error nº:       1734
-Error No se encuentra la propiedad COMPCONSULTAR_FE.
- Alias CSRCURSOR registro          1
-Control activo  REGFACVTA.CMDWEBSERVICE.CLICK
-20-12-2019 11:50:05 , Linea nº .containerencabeza.lblId.Caption = oCabeCAE.cDocTipo
-Error nº:       1734
-Error No se encuentra la propiedad CDOCTIPO.
- Alias CSRCURSOR registro          1
-Control activo  REGFACVTA.CMDWEBSERVICE.CLICK
-20-12-2019 11:57:31 , Linea nº loObjeto = &lcName
-Error nº:         36
-Error El comando contiene una frase o palabra clave no reconocida.
- Alias CSRCURSOR registro          1
-Control activo  REGFACVTA.CMDWEBSERVICE.CLICK
-20-12-2019 12:19:36 , Linea nº IF OscCabefac.idasoaciado=1
-Error nº:       1734
 Error No se encuentra la propiedad IDASOACIADO.
  Alias CSRAUXCABEFAC registro          1
 Control activo  REGFACVTAPUB.KEYPRESS
@@ -347,7 +289,21 @@ Control activo  SUBFACTURA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
 
 
 
@@ -563,7 +519,21 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
 
 
 
@@ -779,7 +749,21 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
 
 
 
@@ -999,6 +983,13 @@ Control activo  REGFACVTA.LOAD
 
 
 
+
+
+
+
+
+
+
 rCursorAsto.tipoconce ,debehaber WITH cDebeHaber IN CsrAuxPlanMov
 Error nº:       1581
 Error El campo IDCUENTA no acepta valores NULL.
@@ -1065,6 +1056,13 @@ Error El archivo 'imprimir.dbf' no existe.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 16-04-2020 19:22:02 , Linea nº SELECT SPACE(10) as fecha,'' as ctacte,'' as nomcliente,SPACE(13) as numcomp, 0 as codvdor,0 as codigo,SPACE(30) as articulo ,0 as unibulto,0 as despor,SUM(unidades) as unidades,SUM(importefinal) as importefinal,SUM(bonific
+
+
+
+
+
+
+
 
 
 
@@ -1400,7 +1398,21 @@ Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
 ric(13,2)) as dife,CAST(0 as numeric(13,2)) as pedirbultos,00 as signo,csrdatos.unibulto as unibulto ,csrdatos.nomrubro,csrdatos.codrubro,csrdatos.numero as codigo,csrdatos.nombre as articulo,csrdatos.nomvariedad,csrdatos.codalfa,csrDatos.verCodAlfa ,csr
+
+
+
+
+
+
+
 
 
 
@@ -1683,12 +1695,26 @@ Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
 p + strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H"
 Error nº:       1734
 Error No se encuentra la propiedad NUMERO.
  Alias CSRCURSOR registro          1
 Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 11-12-2020 10:05:07 , Linea nº cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + strtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM(STR(Oscatter.codigo)) + cSep + "1" + cSep + "" + cSe
+
+
+
+
+
+
+
 
 
 
@@ -1778,12 +1804,26 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
  strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H"
 Error nº:        107
 Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRCURSOR registro          1
 Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 11-12-2020 10:07:58 , Linea nº cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + strtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep +
+
+
+
+
+
+
+
 
 
 
@@ -1863,7 +1903,21 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
+
+
+
+
+
 
 
 
@@ -1941,7 +1995,21 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
+
+
+
+
+
 
 
 
@@ -2017,7 +2085,21 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
+
+
+
+
+
 
 
 
@@ -2197,7 +2279,21 @@ Control activo  REGFACVTA.CMDIMPRIMIR.CLICK
 
 
 
+
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
+
 
 
 
@@ -2237,7 +2333,21 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
+
 
 
 
@@ -2277,7 +2387,21 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
+
 
 
 
@@ -2373,6 +2497,13 @@ Control activo  RESCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
 catter.vencimien,lcnomcomp,lndebe,lnhaber,lnSaldores,Oscatter.detalle)
 Error nº:         12
 Error No se encuentra la variable 'DETALLE'.
@@ -2453,4 +2584,49 @@ Error nº:         11
 Error El valor, tipo o número de argumentos no es válido para la función.
  Alias CSRCTACTE registro          1
 Control activo  _UTIL_CEPAS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-08-06-2021 12:59:26 , Linea nº .generar('ctacte',"PDV's",'.t.',lcCodEmpresa+'-0001-'+lcsemana+'-pop-'+lcfecha+'.TXT')Error nº:         12Error No se encuentra la variable 'LCSEMANA'. Alias CSRCTACTE registro          1Control activo  _UTIL_CEPAS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+08-06-2021 12:59:26 , Linea nº .generar('ctacte',"PDV's",'.t.',lcCodEmpresa+'-0001-'+lcsemana+'-pop-'+lcfecha+'.TXT')
+Error nº:         12
+Error No se encuentra la variable 'LCSEMANA'.
+ Alias CSRCTACTE registro          1
+Control activo  _UTIL_CEPAS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+18-06-2021 10:44:56 , Linea nº COPY TO PUTFILE(' ',lcfecha,'Xls') TYPE xls
+Error nº:          1
+Error El archivo 'week2021.prg' no existe.
+ Alias  registro          0
+Control activo  ON... 
+18-06-2021 11:50:22 , Linea nº this.Parent.Parent.lBLSEMANA.Caption = lcSemana
+Error nº:       1924
+Error PARENT no es un objeto.
+ Alias CSRCTACTE registro          1
+Control activo  _UTIL_CEPAS.FECHA_CALENDARIO1.BOTONIMAGEN.CLICK
+18-06-2021 11:50:31 , Linea nº this.Parent.Parent.fecha_calendario2.Txtfecha.Value = This.Value + 6
+Error nº:       1924
+Error PARENT no es un objeto.
+ Alias CSRCTACTE registro          1
+Control activo  _UTIL_CEPAS.FECHA_CALENDARIO1.BOTONIMAGEN.CLICK
+18-06-2021 11:50:39 , Linea nº this.Parent.Parent.lBLSEMANA.Caption = lcSemana
+Error nº:       1924
+Error PARENT no es un objeto.
+ Alias CSRCTACTE registro          1
+Control activo  _UTIL_CEPAS.FECHA_CALENDARIO1.LOSTFOCUS
+18-06-2021 11:50:41 , Linea nº this.Parent.Parent.fecha_calendario2.Txtfecha.Value = This.Value + 6
+Error nº:       1924
+Error PARENT no es un objeto.
+ Alias CSRCTACTE registro          1
+Control activo  _UTIL_CEPAS.FECHA_CALENDARIO1.LOSTFOCUS
+18-06-2021 11:51:23 , Linea nº this.Parent.fecha_calendario2.Txtfecha.Value = This.Value + 6
+Error nº:       1734
+Error No se encuentra la propiedad VALUE.
+ Alias CSRCTACTE registro          1
+Control activo  _UTIL_CEPAS.FECHA_CALENDARIO1.BOTONIMAGEN.CLICK
+18-06-2021 11:51:32 , Linea nº this.Parent.fecha_calendario2.Txtfecha.Value = This.Value + 6
+Error nº:       1734
+Error No se encuentra la propiedad VALUE.
+ Alias CSRCTACTE registro          1
+Control activo  _UTIL_CEPAS.FECHA_CALENDARIO1.LOSTFOCUS
+18-06-2021 13:06:50 , Linea nº IF Oscatter.idarticulo#0 AND UPPER("ThisForm.Grid2.Column5.Text1")$UPPER(lcGotFocus)
+Error nº:         11
+Error El valor, tipo o número de argumentos no es válido para la función.
+ Alias CSRAUXCUERFAC registro          1
+Control activo CODIGO15 REGFACVTAPUB.KEYPRESS
+18-06-2021 13:07:01 , Linea nº IF Oscatter.idarticulo#0 AND UPPER("ThisForm.Grid2.Column4.Text1")$UPPER(lcGotFocus) AND !this.leyendocuerpedidoError nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias CSRAUXCUERVARI registro          1Control activo  REGFACVTAPUB.KEYPRESS
