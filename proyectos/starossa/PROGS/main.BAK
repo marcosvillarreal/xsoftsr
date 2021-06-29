@@ -40,6 +40,7 @@ lcdd=alltrim(curdir()) && directorio de arranque
 
 cRutaCAE = sys(5)+CURDIR()+"caevacio.jpg"
 cLogoFac	= SYS(5)+CURDIR()+"logofac.jpg"
+cRutaQR		= SYS(5)+CURDIR()+"qr.jpg"
 
 If lldesarrollo
    lcdd=L+'\proyectos\starossa\'   
@@ -58,6 +59,7 @@ If lldesarrollo
    _rutalib = L +'\desarrollo\lib'   
    cRutaCAE	= _rutabmps + '\caevacio.jpg'
    cLogoFAC	= _rutabmps + '\logofac.jpg'
+   cRutaQR	= _rutabmps + "\qr.jpg"
    
    _rutaformsb  =lcdd+'forms\banco'
    _rutaformsc  =lcdd+'forms\caja' 
@@ -112,7 +114,8 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 	SET PROCEDURE TO FoxBarcode.prg ADDITIVE 
 	SET PROCEDURE TO gpImage2.prg ADDITIVE
 	*SET PROCEDURE TO importexcelprovee.prg ADDITIVE 
-
+	 SET PROCEDURE TO FoxBarcodeQR ADDITIVE
+	 
 *clear all
 
 _screen.lockscreen=.t.
@@ -144,6 +147,8 @@ ObjReporter.AddProperty('titulo4',"")
 ObjReporter.AddProperty('logo',"logogestion.jpg")
 objReporter.AddProperty('logofac',cLogoFac)
 ObjReporter.AddProperty('numcae',cRutaCAE)
+ObjReporter.AddProperty('fileqr',cRutaQR)
+
 IF lldesarrollo
 	ObjReporter.logo = lcdd+'graphics\logogestion.jpg'
 ENDIF 
