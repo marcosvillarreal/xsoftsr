@@ -1,14 +1,9 @@
-09-04-2020 16:36:43 , Linea nº SELECT codproveedor,nomproveedor,fecha,ctacte,nomcliente,numcomp,codvdor,codigo,articulo,unidades,convenio ,importefinal,bonificacion,costociva,despor FROM Imprirmir INTO CURSOR CsrImprimir READWRITE
-Error nº:          1
-Error El archivo 'imprirmir.dbf' no existe.
- Alias CSRIMPRIMIR registro          1
-Control activo  EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-09-04-2020 16:38:01 , Linea nº SELECT codproveedor,nomproveedor,fecha,ctacte,nomcliente,numcomp,codvdor,codigo,articulo,unidades,convenio ,importefinal,bonificacion,costociva,despor FROM Imprimir INTO CURSOR CsrImprimir READWRITE
 Error nº:          1
 Error El archivo 'imprimir.dbf' no existe.
  Alias CSRIMPRIMIR registro          1
 Control activo  EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 16-04-2020 19:22:02 , Linea nº SELECT SPACE(10) as fecha,'' as ctacte,'' as nomcliente,SPACE(13) as numcomp, 0 as codvdor,0 as codigo,SPACE(30) as articulo ,0 as unibulto,0 as despor,SUM(unidades) as unidades,SUM(importefinal) as importefinal,SUM(bonific
+
 
 
 
@@ -442,7 +437,9 @@ Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 ric(13,2)) as dife,CAST(0 as numeric(13,2)) as pedirbultos,00 as signo,csrdatos.unibulto as unibulto ,csrdatos.nomrubro,csrdatos.codrubro,csrdatos.numero as codigo,csrdatos.nombre as articulo,csrdatos.nomvariedad,csrdatos.codalfa,csrDatos.verCodAlfa ,csr
+
 
 
 
@@ -823,12 +820,14 @@ Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 p + strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H"
 Error nº:       1734
 Error No se encuentra la propiedad NUMERO.
  Alias CSRCURSOR registro          1
 Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 11-12-2020 10:05:07 , Linea nº cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + strtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM(STR(Oscatter.codigo)) + cSep + "1" + cSep + "" + cSe
+
 
 
 
@@ -1016,12 +1015,14 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
  strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H"
 Error nº:        107
 Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRCURSOR registro          1
 Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 11-12-2020 10:07:58 , Linea nº cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + strtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep +
+
 
 
 
@@ -1199,7 +1200,9 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
 
 
 
@@ -1375,7 +1378,9 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
 
 
 
@@ -1549,7 +1554,9 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
 
 
 
@@ -1827,7 +1834,9 @@ Control activo  REGFACVTA.CMDIMPRIMIR.CLICK
 
 
 
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
 
 
 
@@ -1965,7 +1974,9 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
 
 
 
@@ -2103,7 +2114,9 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
 
 
 
@@ -2238,6 +2251,7 @@ Error No se encuentra el alias 'CSRMOVIMIENTO'.
  Alias CSRCURSORA registro          1
 Control activo  RESCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 26-03-2021 13:35:57 , Linea nº INSERT INTO Csrimprimir (idctacte,ctacte,cnombre,idmaopera,clase,fecha,vencimien,nomcomp,impdebe,imphaber,Saldores,detalle) VALUES (Oscatter.idctacte,Oscatter.ctacte,Oscatter.cnombre,Oscatter.idmaopera,"B",Oscatter.fecha,Os
+
 
 
 
@@ -2662,5 +2676,14 @@ Error nº:          1
 Error El archivo 'j:\xsoftsr\proyectos\starossa\abmprodcombo.scx' no existe.
  Alias CSRKEY registro          2
 Control activo  MAIN
-20-07-2021 11:25:33 , Linea nº DO FORM &lcFormError nº:          1Error El archivo 'j:\xsoftsr\proyectos\starossa\abmprodcombo.scx' no existe. Alias CSRKEY registro          2Control activo  MAIN
-20-07-2021 11:28:30 , Linea nº .containerencabeza.kitbuscaoaltaenctacte.txtEXISTE1.SetFocus()Error nº:       1925Error KITBUSCAOALTAENCTACTE es un miembro desconocido. Alias CSRPRODUCTO registro          1Control activo  MAIN
+20-07-2021 11:25:33 , Linea nº DO FORM &lcForm
+Error nº:          1
+Error El archivo 'j:\xsoftsr\proyectos\starossa\abmprodcombo.scx' no existe.
+ Alias CSRKEY registro          2
+Control activo  MAIN
+20-07-2021 11:28:30 , Linea nº .containerencabeza.kitbuscaoaltaenctacte.txtEXISTE1.SetFocus()
+Error nº:       1925
+Error KITBUSCAOALTAENCTACTE es un miembro desconocido.
+ Alias CSRPRODUCTO registro          1
+Control activo  MAIN
+11-08-2021 13:57:09 , Linea nº SELECT * FROM CsrCursor ORDER BY idmaopera INTO CURSOR Csrauxiliar READWRITEError nº:          1Error El archivo 'csrcursor.dbf' no existe. Alias CSRRENDIFLE registro          1Control activo  RINDEARQUEO.CONTENEDORREPORTE.CMDIMPRIMIRTESO.CLICK
