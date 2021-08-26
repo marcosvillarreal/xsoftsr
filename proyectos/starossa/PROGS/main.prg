@@ -11,6 +11,7 @@ set classlib to
 l='j:\xsoftsr'
 *l='X:'
 set talk off
+PUBLIC lldesarrollo
 lldesarrollo=(_vfp.startmode()#4)
 
 _vfp.AutoYield = .f.
