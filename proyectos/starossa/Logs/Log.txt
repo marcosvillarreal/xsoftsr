@@ -1,13 +1,3 @@
-Error nº:       1807
-Error SQL: la cláusula GROUP BY falta o no es válida.
- Alias  registro          0
-Control activo  EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-21-05-2020 13:27:16 , Linea nº Orslista.ActiveConnection = loConnDataSource
-Error nº:       1429
-Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: The connection cannot be used to perform this operation. It is either closed or invalid in this context..
- Alias  registro          0
-Control activo  MAIN
-21-05-2020 13:32:52 , Linea nº Orslista.ActiveConnection = loConnDataSource
 Error nº:       1429
 Error Código de excepción OLE IDispatch 0 de ADODB.Recordset: The connection cannot be used to perform this operation. It is either closed or invalid in this context..
  Alias  registro          0
@@ -290,7 +280,11 @@ Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 ric(13,2)) as dife,CAST(0 as numeric(13,2)) as pedirbultos,00 as signo,csrdatos.unibulto as unibulto ,csrdatos.nomrubro,csrdatos.codrubro,csrdatos.numero as codigo,csrdatos.nombre as articulo,csrdatos.nomvariedad,csrdatos.codalfa,csrDatos.verCodAlfa ,csr
+
+
 
 
 
@@ -677,12 +671,16 @@ Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 p + strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H"
 Error nº:       1734
 Error No se encuentra la propiedad NUMERO.
  Alias CSRCURSOR registro          1
 Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 11-12-2020 10:05:07 , Linea nº cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + strtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM(STR(Oscatter.codigo)) + cSep + "1" + cSep + "" + cSe
+
+
 
 
 
@@ -876,12 +874,16 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
  strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H"
 Error nº:        107
 Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRCURSOR registro          1
 Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 11-12-2020 10:07:58 , Linea nº cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + strtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep +
+
+
 
 
 
@@ -1065,7 +1067,11 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
 
 
 
@@ -1247,7 +1253,11 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
 
 
 
@@ -1427,7 +1437,11 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
 
 
 
@@ -1711,7 +1725,11 @@ Control activo  REGFACVTA.CMDIMPRIMIR.CLICK
 
 
 
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
 
 
 
@@ -1855,7 +1873,11 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
 
 
 
@@ -1999,7 +2021,11 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
 
 
 
@@ -2137,6 +2163,8 @@ Error No se encuentra el alias 'CSRMOVIMIENTO'.
  Alias CSRCURSORA registro          1
 Control activo  RESCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 26-03-2021 13:35:57 , Linea nº INSERT INTO Csrimprimir (idctacte,ctacte,cnombre,idmaopera,clase,fecha,vencimien,nomcomp,impdebe,imphaber,Saldores,detalle) VALUES (Oscatter.idctacte,Oscatter.ctacte,Oscatter.cnombre,Oscatter.idmaopera,"B",Oscatter.fecha,Os
+
+
 
 
 
@@ -2589,4 +2617,20 @@ Error nº:       2065
 Error La tabla "C:\Users\marco\AppData\Local\Temp\0000DMVD04EY.TMP" tiene una inconsistencia de longitud de archivo o recuento de registros que no permite realizar esta transacción. Abra la tabla en modo exclusivo y empaquétela.
  Alias CSRARQUEO registro          1
 Control activo AFECTA MAIN
-26-08-2021 13:21:33 , Linea nº If lldesarrolloError nº:         12Error No se encuentra la variable 'LLDESARROLLO'. Alias CURPERFIL registro         15Control activo  FRMMENU1.TREEVIEW.DBLCLICK
+26-08-2021 13:21:33 , Linea nº If lldesarrollo
+Error nº:         12
+Error No se encuentra la variable 'LLDESARROLLO'.
+ Alias CURPERFIL registro         15
+Control activo  FRMMENU1.TREEVIEW.DBLCLICK
+27-08-2021 12:09:05 , Linea nº Oscatter.despor = lnbonificaNoCombo
+Error nº:         12
+Error No se encuentra la variable 'LNBONIFICANOCOMBO'.
+ Alias CSRAUXCUERFAC registro          1
+Control activo CANTIDAD REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
+27-08-2021 12:09:18 , Linea nº Oscatter.despor = lnbonificaNoCombo
+Error nº:         12
+Error No se encuentra la variable 'LNBONIFICANOCOMBO'.
+ Alias CSRAUXCUERFAC registro          1
+Control activo CANTIDAD REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
+27-08-2021 12:50:08 , Linea nº .grid2_controlcombo()Error nº:       1734Error No se encuentra la propiedad GRID2_CONTROLCOMBO. Alias CSRAUXCUERFAC registro          4Control activo CODIGO15 REGFACVTAPUB.KEYPRESS
+27-08-2021 12:51:38 , Linea nº .grid2_controlcombo()Error nº:       1734Error No se encuentra la propiedad GRID2_CONTROLCOMBO. Alias CSRAUXCUERFAC registro          4Control activo CODIGO15 REGFACVTAPUB.KEYPRESS
