@@ -1,0 +1,37 @@
+Controles del facturador de Santarossa.
+
+automaticamente 
+
+
+-Si el cliente es Factura, se rechaza si el cuit es invalido.
+
+-Se rechaza (el operador no puede omitir el control).
+	si la promocion tiene precio. Excepto el 3141.
+	si hay venta , el total es 0 y el dto % <> 100
+	si hay dto % y el valor es 0
+	Si total > tope de CF en un unico articulo. (Se tiene que convertir a Rto para facturar)
+	Si el dto% > 100
+	Si no cumple el minimo de facturacion. (El operador lo puede cambiar.)
+	Si hay existencia negativa.
+	Si los topes establecidos de venta son negativos.
+	Si es VALE, se controla el saldo autorizado.
+	Se controla el saldo aturizado del cliente.
+	
+-Se automatiza
+	si hay productos con reba vencido, se pasan a rto.
+	si el vendedor NO es oficina, y el "maximo autorizado" es 0, se toman automaticas
+		Si tiene tope,En caso que se supere, se pone el maximo.
+	si es OFICINA. y son 54,91,101,55
+		Si el dto% supera el tope + maximo autorizado, se pone tope + maximo.
+	
+Problema.
+	Si el producto tiene bonificacion y promocion, se requiere desicion del operador
+
+	
+	
+	
+	
+	
+	
+
+

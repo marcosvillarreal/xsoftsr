@@ -79,6 +79,7 @@ If lldesarrollo
    _rutaformwha  =lcdd+'forms\whatsapp'
    _rutaformest =lcdd+'forms\estadistica'
    _rutaformart =lcdd+'forms\articulos'
+     _rutaformsync =lcdd+'forms\sync'
    Set default to (lcdd) &&;(lcddc)
 
    Set path to &_rutaclases,&_rutaprogs,&_rutamenu,&_rutadatos,&_rutabmps,&_rutaforms;
@@ -86,7 +87,7 @@ If lldesarrollo
                ,&_rutalib, &_rutaformsb, &_rutaformscc, &_rutaformsc, &_rutaformsre;
                ,&_rutaformsa,&_rutaformse,&_rutaformvta,&_rutaformped,&_rutaformpre;
                ,&_rutaformpm,&_rutaformst,&_rutaformcp,&_rutaformut,&_rutaformtar;
-               ,&_rutaformwha,&_rutaformest,&_rutaformart
+               ,&_rutaformwha,&_rutaformest,&_rutaformart,&_rutaformsync
 Endif
 
 
