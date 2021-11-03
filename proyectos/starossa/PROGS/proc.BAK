@@ -216,7 +216,7 @@ ENDFUNC
 *----------------------------------------------------------------------------
 FUNCTION StoC
 PARAMETERS lcFecha
-lcfecha = alltrim(lcFecha)
+lcfecha = alltrim(STRTRAN(STRTRAN(lcFecha,'"',''),"'",""))
 IF LEN(lcFecha)#8
 	RETURN "01-01-1900"
 ENDIF 

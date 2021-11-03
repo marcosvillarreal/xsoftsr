@@ -1,3 +1,105 @@
+*-----------------------------------------------------------------------------
+FUNCTION LeerConfigTermi
+
+oConfigTermi = CREATEOBJECT("Custom")
+oConfigTermi.AddProperty('FoxyPreviewer',"FALSE")
+oConfigTermi.AddProperty('ShowBalloonTip',"FALSE")
+oConfigTermi.AddProperty('FontName_TextBox',"Tahoma")
+oConfigTermi.AddProperty('FontName_Header',"Tahoma")
+oConfigTermi.AddProperty('FontName_Label',"Tahoma")
+oConfigTermi.AddProperty('FontName_Column',"Tahoma")
+oConfigTermi.AddProperty('MenuRibbon',"FALSE")
+oConfigTermi.AddProperty('MenuDashBoard',"FALSE")
+oConfigTermi.AddProperty('NetDriveFileCtacte','C:\Documentos')
+oConfigTermi.AddProperty('NetDriveGS1','C:\GS1')
+oConfigTermi.AddProperty('NetDriveSYNC','C:\Aplicaciones\Sync')
+
+LOCAL i,LenRegistro,Arc,lcActDato,lntamano,XX
+i = 1
+
+cFile = ADDBS(SYS(5)+CURDIR())+'SETUP.INI'
+
+IF FILE(cFile)
+	*stop()
+	Adir(lCarray,cFile)
+	lntamano = lCarray[1,2]
+    
+	Arc = FOPEN(cFile)
+	LenRegistro = lntamano
+	DO WHILE !FEOF(Arc)
+		*lcActDato			=FREAD(Arc,LenRegistro)
+		lcActDato = FGETS(Arc)
+		i = AT(']',lcActDato) + 1
+		IF i#1 &&No existe label. Por lo tanto es parte de el dato anterior
+	   	    	lclabel = CHRTRAN(UPPER(LEFT(lcActDato,i-1)),']','')
+	   	    	lclabel = CHRTRAN(lclabel,'[','')
+	   	ELSE
+	   		lcActDato = CHR(13)+lcActDato
+	   	ENDIF 
+	   	&&Solo lo haremos para los campos encriptados
+		DO case
+			CASE lclabel="FOXYPREVIEWER"
+				oConfigTermi.FoxyPreviewer =  ALLTRIM(SUBSTR(lcActDato,i))
+			CASE lclabel="SHOWBALLOONTIP"
+				oConfigTermi.ShowBalloonTip =  ALLTRIM(SUBSTR(lcActDato,i))
+			CASE lclabel="FONTNAME_TEXTBOX"
+				oConfigTermi.FontName_TextBox=  ALLTRIM(SUBSTR(lcActDato,i))
+			CASE lclabel="FONTNAME_HEADER"
+				oConfigTermi.FontName_Header=  ALLTRIM(SUBSTR(lcActDato,i))
+			CASE lclabel="FONTNAME_LABEL"
+				oConfigTermi.FontName_Label=  ALLTRIM(SUBSTR(lcActDato,i))
+			CASE lclabel="FONTNAME_COLUMN"
+				oConfigTermi.FontName_Column=  ALLTRIM(SUBSTR(lcActDato,i))
+			CASE lclabel="MENURIBBON"
+				oConfigTermi.MenuRibbon=  ALLTRIM(SUBSTR(lcActDato,i))
+			CASE lclabel="MENUDASHBOARD"
+				oConfigTermi.MenuDashBoard=  ALLTRIM(SUBSTR(lcActDato,i))
+			CASE lclabel="NETDRIVEFILECTACTE"
+				oConfigTermi.NetDriveFileCtacte=  ALLTRIM(SUBSTR(lcActDato,i))	
+			CASE lclabel="NETDRIVEGS1"
+				oConfigTermi.NetDriveGS1=  ALLTRIM(SUBSTR(lcActDato,i))	
+			CASE lclabel="NETDRIVESYNC"
+				oConfigTermi.NetDriveSync=  ALLTRIM(SUBSTR(lcActDato,i))	
+		ENDCASE		 
+	ENDDO 
+                    
+	FCLOSE(Arc)
+ENDIF 
+IF NOT FILE(cFile)
+	Arc = FCREATE(cFile)
+	LenRegistro = 100
+	IF arc#0
+		lclabel="[FoxyPreviewer]" + oConfigTermi.FoxyPreviewer 
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[ShowBalloonTip]" + oConfigTermi.ShowBalloonTip
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[MenuRibbon]" + oConfigTermi.MenuRibbon
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[MenuDashBoard]" + oConfigTermi.MenuDashBoard
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[FontName_TextBox]" + oConfigTermi.FontName_TextBox
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[FontName_Header]" + oConfigTermi.FontName_Header
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[FontName_Label]" + oConfigTermi.FontName_Label
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[FontName_Column]" + oConfigTermi.FontName_Column
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[NetDriveFileCtacte]" + oConfigTermi.NetDriveFileCtacte
+		XX= FPUTS(Arc,lclabel,lenregistro)
+		lclabel="[NetDriveSync]" + oConfigTermi.NetDriveSync
+		XX= FPUTS(Arc,lclabel,lenregistro)
+	ENDIF 	
+	FCLOSE(Arc)
+ENDIF 
+
+IF oConfigTermi.FoxyPreviewer = 'TRUE'
+
+ENDIF 
+
+ENDFUNC 
+*-------------------------------------------------------------------------
+
 FUNCTION EnviarWhatsapp
 PARAMETERS cNroWhatsapp, cMensaje
 DECLARE  INTEGER FindWindow IN WIN32API STRING , STRING  
