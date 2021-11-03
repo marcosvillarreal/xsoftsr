@@ -1,368 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ric(13,2)) as dife,CAST(0 as numeric(13,2)) as pedirbultos,00 as signo,csrdatos.unibulto as unibulto ,csrdatos.nomrubro,csrdatos.codrubro,csrdatos.numero as codigo,csrdatos.nombre as articulo,csrdatos.nomvariedad,csrdatos.codalfa,csrDatos.verCodAlfa ,csr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-datos.ean FROM CsrDatos LEFT JOIN Csr2 ON CsrDatos.id = Csr2.idarticulo INTO CURSOR Csrimprimir READWRITE
-Error nº:          1
-Error El archivo 'csrdatos.dbf' no existe.
- Alias CSRSTOCK registro          1
-Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-07-10-2020 12:57:25 , Linea nº SELECT Csrimprimir.* FROM Csrimprimir WHERE VAL(codigo)<>0 ORDER BY idfletero,codrubro,codigo INTO CURSOR Csrimprimir READWRITE
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias  registro          0
-Control activo  PLANILLAPARAPEDIDOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-07-10-2020 16:27:13 , Linea nº 
-Error nº:       1760
-Error El miembro OPTION2 es un miembro de clase.
- Alias  registro          0
-Control activo  ON... 
-07-10-2020 17:12:17 , Linea nº IF THIS.IsNumeric(SUBSTR(THIS.cTextValue, 1, 4))
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias  registro          0
-Control activo  LISTACODBARRA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-28-10-2020 16:48:31 , Linea nº SELECT CsrImprimir
-Error nº:         13
-Error No se encuentra el alias 'CSRIMPRIMIR'.
- Alias CSRAUXCBIOPRECIO registro        129
-Control activo  CBIOPRECIO3.CMDPROCESAR.CLICK
-29-10-2020 17:28:50 , Linea nº CASE ._ogroupestado = 1
-Error nº:       1734
-Error No se encuentra la propiedad _OGROUPESTADO.
- Alias _CSRMARCA registro          1
-Control activo  MAIN
-29-10-2020 17:32:13 , Linea nº CASE ._ogroupestado.value = 1
-Error nº:       1925
-Error _OGROUPESTADO es un miembro desconocido.
- Alias _CSRMARCA registro          1
-Control activo  MAIN
-29-10-2020 17:34:13 , Linea nº CASE ._ogroupestado.value = 1
-Error nº:       1925
-Error _OGROUPESTADO es un miembro desconocido.
- Alias _CSRMARCA registro          1
-Control activo  MAIN
-29-10-2020 17:36:01 , Linea nº CASE _ogrupoestado.value = 1
-Error nº:         13
-Error No se encuentra el alias '_OGRUPOESTADO'.
- Alias _CSRMARCA registro          1
-Control activo  MAIN
-30-10-2020 16:55:58 , Linea nº SELECT CsrCursor
-Error nº:         13
-Error No se encuentra el alias 'CSRCURSOR'.
- Alias CSRCTACTE registro          1
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-30-10-2020 17:01:03 , Linea nº SELECT CsrCursor
-Error nº:         13
-Error No se encuentra el alias 'CSRCURSOR'.
- Alias CSRCTACTE registro          1
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-30-10-2020 17:04:01 , Linea nº cFileName	= "Cam_Prod_" + this.coddistribuidor + STR(VAL(lcfecha1),8) + "_" + STR(VAL(lcfecha2),8)
-Error nº:        107
-Error Incompatibilidad entre el tipo de operador y el tipo de operando.
- Alias CSRCURSOR registro          1
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-30-10-2020 17:05:00 , Linea nº SCAN FOR lok
-Error nº:         12
-Error No se encuentra la variable 'LOK'.
- Alias CSRCURSOR registro          1
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-30-10-2020 17:05:33 , Linea nº nContadorComp = nContadorComp + 1
-Error nº:         12
-Error No se encuentra la variable 'NCONTADORCOMP'.
- Alias CSRCURSOR registro          1
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-30-10-2020 17:06:06 , Linea nº =This.LimpiarChar(@cLinea)
-Error nº:       1734
-Error No se encuentra la propiedad LIMPIARCHAR.
- Alias CSRCURSOR registro          1
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-30-10-2020 17:06:16 , Linea nº =This.LimpiarChar(@cLinea)
-Error nº:       1734
-Error No se encuentra la propiedad LIMPIARCHAR.
- Alias CSRCURSOR registro          2
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-30-10-2020 17:09:07 , Linea nº cFileName	= "Cam_Prod_" + STRtrim(this.coddistribuidor,15) + STR(VAL(DTOS(lcfecha1)),8) + "_" + STR(VAL(DTOS(lcfecha2)),8)
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias CSRCURSOR registro          1
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-02-11-2020 14:12:24 , Linea nº and (Csrfleteren.fecha between  <<lcFecha1>> and <<lcFecha2>>)
-Error nº:         12
-Error No se encuentra la variable 'LCFECHA1'.
- Alias  registro          0
-Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-11-11-2020 17:12:22 , Linea nº do while LEN(Trim(cReferencia)) <> 0    && Condición para saber donde terminan los datos, se podrían agregar más condiciones
-Error nº:         11
-Error El valor, tipo o número de argumentos no es válido para la función.
- Alias  registro          0
-Control activo  PRUEBA_UNILEVER
-12-11-2020 13:03:20 , Linea nº CASE nIdProveedor = 1
-Error nº:         12
-Error No se encuentra la variable 'NIDPROVEEDOR'.
- Alias  registro          0
-Control activo  PRUEBA_UNILEVER
-12-11-2020 13:04:14 , Linea nº nCodigo = INT(IIF(TYPE('nCodigo')'N',nCodigo,VAL(nCodigo)))
 Error nº:       1306
 Error Falta una coma (,).
  Alias  registro          0
@@ -546,12 +181,24 @@ Control activo  GENERARCELU.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 p + strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H"
 Error nº:       1734
 Error No se encuentra la propiedad NUMERO.
  Alias CSRCURSOR registro          1
 Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 11-12-2020 10:05:07 , Linea nº cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + strtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM(STR(Oscatter.codigo)) + cSep + "1" + cSep + "" + cSe
+
+
+
+
+
+
 
 
 
@@ -775,12 +422,24 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
  strtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + "H"
 Error nº:        107
 Error Incompatibilidad entre el tipo de operador y el tipo de operando.
  Alias CSRCURSOR registro          1
 Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 11-12-2020 10:07:58 , Linea nº cLinea = "L" + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + Oscatter.fecha + cSep + strtrim(this.coddistribuidor,15) + cSep + "1" + cSep + "CD" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep +
+
+
+
+
+
+
 
 
 
@@ -994,7 +653,19 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
+
+
+
+
 
 
 
@@ -1206,7 +877,19 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
+
+
+
+
 
 
 
@@ -1416,7 +1099,19 @@ Control activo  _UTIL_CAMPARI.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 + Oscatter.fecha + cSep + IIF(Oscatter.signo=1,'VTA','DEV') + cSep + "O" + cSep + "1" + cSep + ALLTRIM((Oscatter.codigo)) + cSep + "1" + cSep + "" + cSep + STRtrim(Oscatter.cantidad,15) + cSep + "UNI" + cSep + STR(Oscatter.neto * Oscatter.cantidad,17,6) 
+
+
+
+
+
+
 
 
 
@@ -1730,7 +1425,19 @@ Control activo  REGFACVTA.CMDIMPRIMIR.CLICK
 
 
 
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
 
 
 
@@ -1904,7 +1611,19 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
 
 
 
@@ -2078,7 +1797,19 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
 
 
 
@@ -2231,6 +1962,12 @@ Error No se encuentra el alias 'CSRMOVIMIENTO'.
  Alias CSRCURSORA registro          1
 Control activo  RESCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 26-03-2021 13:35:57 , Linea nº INSERT INTO Csrimprimir (idctacte,ctacte,cnombre,idmaopera,clase,fecha,vencimien,nomcomp,impdebe,imphaber,Saldores,detalle) VALUES (Oscatter.idctacte,Oscatter.ctacte,Oscatter.cnombre,Oscatter.idmaopera,"B",Oscatter.fecha,Os
+
+
+
+
+
+
 
 
 
@@ -2778,6 +2515,12 @@ Control activo  LISRENFLETE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
 e+totalvales+otros ,totalxx WITH lntotalxx,totalgen WITH total+totalxx+lntotalctacte,totalctacte WITH lntotalctacte ,totalstock with lntotalstock
 Error nº:         12
 Error No se encuentra la variable 'TOTALSTOCK'.
@@ -2800,15 +2543,51 @@ Error El archivo 'csrctacte.dbf' no existe.
 Control activo  PTOVTA_IMPGESTION.LOAD
 22-10-2021 13:04:01 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
 
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
 
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
 
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
 
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
 
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
 
 taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
 Error nº:          1
@@ -2816,14 +2595,147 @@ Error El archivo 'csrcabefac.dbf' no existe.
  Alias  registro          0
 Control activo  REGFACVTA.LOAD
 22-10-2021 13:07:44 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
+
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+
+
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
+
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+
+
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+
+
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+
+
 taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
 Error nº:          1
 Error El archivo 'csrcabefac.dbf' no existe.
  Alias  registro          0
 Control activo  REGFACVTA.LOAD
-02-11-2021 16:26:54 , Linea nº IF lentrim(.cadenaerrores)<>0 AND llok = .f.Error nº:       1734Error No se encuentra la propiedad CADENAERRORES. Alias CSRAUXPRODUCTO registro          1Control activo  PTOVTA_IMPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+02-11-2021 16:26:54 , Linea nº IF lentrim(.cadenaerrores)<>0 AND llok = .f.
+Error nº:       1734
+Error No se encuentra la propiedad CADENAERRORES.
+ Alias CSRAUXPRODUCTO registro          1
+Control activo  PTOVTA_IMPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+03-11-2021 13:07:22 , Linea nº oCa.Datasource.ActiveConnection.Begintrans()
+Error nº:          1
+Error El archivo 'j:\xsoftsr\proyectos\desarrollo\graficos\delete16.bmp' no existe.
+ Alias  registro          0
+Control activo  ON... 
+03-11-2021 13:27:34 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
+
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
+
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+
+
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+03-11-2021 13:38:57 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
+
+dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
+5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
+
+00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
+sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
+
+
+
+bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
+taDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE
+Error nº:          1
+Error El archivo 'csrcabefac.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+03-11-2021 13:39:04 , Linea nº SELECT Csrmaopera.*,CAST(0 as int) as idvdorplan,CAST(0 as int) as iddeposito,00000000 AS nrocaja,SPACE(6) as pefiscal,CAST(0 as int) as idmotanula FROM Csrmaopera WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMaopera READWRIT
+
+
+E
+Error nº:          1
+Error El archivo 'csrmaopera.dbf' no existe.
+ Alias  registro          0
+Control activo  REGFACVTA.LOAD
+03-11-2021 13:41:06 , Linea nº cRuta = ADDBS(This.RutaSync)+ALLTRIM(CsrAuxCabefac)
+Error nº:       1734
+Error No se encuentra la propiedad RUTASYNC.
+ Alias CSRAUXCUERFAC registro          1
+Control activo  MAIN
+03-11-2021 13:43:25 , Linea nº cRuta = ADDBS(ThisForm.RutaSync)+ALLTRIM(CsrAuxCabefac)
+Error nº:         12
+Error No se encuentra la variable 'CSRAUXCABEFAC'.
+ Alias CSRAUXCUERFAC registro          1
+Control activo  MAIN
+03-11-2021 13:47:09 , Linea nº IF tcdato<0
+Error nº:        107
+Error Incompatibilidad entre el tipo de operador y el tipo de operando.
+ Alias CSRAUXCUERFAC registro          1
+Control activo  MAIN
+03-11-2021 13:47:21 , Linea nº tcdato=ABS(tcdato)Error nº:         11Error El valor, tipo o número de argumentos no es válido para la función. Alias CSRAUXCUERFAC registro          1Control activo  MAIN
