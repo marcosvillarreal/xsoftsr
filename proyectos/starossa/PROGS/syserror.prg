@@ -34,7 +34,7 @@ procedure errorsys
 			CASE nError = 5                   && record out of range
  				if eof()
   			          go bott
-*				    skip
+				    skip
  			      endif
 				RETURN
 			CASE nError = 4                   && fin de archivo
@@ -59,7 +59,10 @@ procedure errorsys
 			       ENDIF    
 			CASE nError = 2203  && recursos insuficiente
 				Mensaje_error(nError)
-				RETURN			       
+				RETURN		
+			CASE nError=2065
+				GRABAR_SEC(MESSAGE(),"Error2065.txt","TempError")
+				RETURN 		  		    	       
 			OTHERWISE	
 				=Mensaje_error(nError)
 				CLEAR CLASSLIB onegocioslocal
@@ -70,10 +73,15 @@ RETURN
 function Mensaje_error(nError)
 	LOCAL lclocalprogram,lcmensaje,gnx
 
-	lcmensaje = 'Linea nº '+MESSAGE(1) +CHR(13)+"Error nº: "+STR(nError)+CHR(13);
-	+'Error '+MESSAGE()+chr(13)+' Alias '+alias()+' registro '+str(recno())+chr(13);
-	+'Control activo '+sys(18) 
-
+*!*		lcmensaje = 'Linea nº '+MESSAGE(1) +CHR(13)+"Error nº: "+STR(nError)+CHR(13);
+*!*		+'Error '+MESSAGE()+chr(13)+' Alias '+alias()+' registro '+str(recno())+chr(13);
+*!*		+'Control activo '+sys(18) 
+	oform=Null
+	
+	lcmensaje = 'Error: '+Message()+' '+'Linea : '+Message(1)+' '+"Error : "+Str(nError)+' ';
+		+'Ultimo Alias Activo: '+Alias()+' '+'Ultimo registro: '+Str(Recno())+" "+Sys(14,1)+' ';
+		+'DBF: '+Dbf()+' '+'Ultimo Control activo: '+Sys(18)
+		
 	lclocalprogram = PROGRAM(1) &&""	
 	lcmensaje = lcmensaje +" "+ lclocalprogram
 	*=Oavisar.usuario(lcmensaje,0) 
@@ -84,10 +92,10 @@ function Mensaje_error(nError)
 	uvalorbuscado=luvalorbuscado
 	Release oform
 
-	If uvalorbuscado=1 && Aceptar
-	   return
+	*If uvalorbuscado=1 && Aceptar
+	*   return
 		*Return To Master
-	Else && cancelar	  
+	*Else && cancelar	  
 	    && me fijo si hay una transaccion abierta
 	    
 		If Txnlevel()>0
@@ -113,6 +121,6 @@ function Mensaje_error(nError)
 			
 		ENDIF
 		Do Form frmlogout 
-	ENDIF
+	*ENDIF
 RETURN
 
