@@ -34,7 +34,7 @@ procedure errorsys
 			CASE nError = 5                   && record out of range
  				if eof()
   			          go bott
-				    skip
+*				    skip
  			      endif
 				RETURN
 			CASE nError = 4                   && fin de archivo
