@@ -124,387 +124,6 @@
 
 
 
-00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -574,6 +193,9 @@ Error No se encuentra el alias 'CSRMOVIMIENTO'.
  Alias CSRCURSORA registro          1
 Control activo  RESCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 26-03-2021 13:35:57 , Linea nº INSERT INTO Csrimprimir (idctacte,ctacte,cnombre,idmaopera,clase,fecha,vencimien,nomcomp,impdebe,imphaber,Saldores,detalle) VALUES (Oscatter.idctacte,Oscatter.ctacte,Oscatter.cnombre,Oscatter.idmaopera,"B",Oscatter.fecha,Os
+
+
+
 
 
 
@@ -1203,6 +825,9 @@ Control activo  LISRENFLETE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
 e+totalvales+otros ,totalxx WITH lntotalxx,totalgen WITH total+totalxx+lntotalctacte,totalctacte WITH lntotalctacte ,totalstock with lntotalstock
 Error nº:         12
 Error No se encuentra la variable 'TOTALSTOCK'.
@@ -1224,6 +849,9 @@ Error El archivo 'csrctacte.dbf' no existe.
  Alias CSRAUXRUBRO registro          1
 Control activo  PTOVTA_IMPGESTION.LOAD
 22-10-2021 13:04:01 , Linea nº SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as i
+
+
+
 
 
 
@@ -1309,7 +937,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,
+
+
+
 
 
 
@@ -1395,6 +1029,9 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as su
 
 
@@ -1438,7 +1075,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -1528,7 +1171,13 @@ Control activo  REGFACVTA.LOAD
 
 
 
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
 
 
 
@@ -1612,7 +1261,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
 
 
 
@@ -1696,7 +1351,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -1793,7 +1454,13 @@ Control activo  ON...
 
 
 
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
 
 
 
@@ -1873,7 +1540,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
 
 
 
@@ -1953,7 +1626,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -2037,7 +1716,13 @@ Control activo  REGFACVTA.LOAD
 
 
 
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
 
 
 
@@ -2115,7 +1800,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
 
 
 
@@ -2193,7 +1884,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -2238,6 +1935,9 @@ Error El archivo 'csrcabefac.dbf' no existe.
  Alias  registro          0
 Control activo  REGFACVTA.LOAD
 03-11-2021 13:39:04 , Linea nº SELECT Csrmaopera.*,CAST(0 as int) as idvdorplan,CAST(0 as int) as iddeposito,00000000 AS nrocaja,SPACE(6) as pefiscal,CAST(0 as int) as idmotanula FROM Csrmaopera WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMaopera READWRIT
+
+
+
 
 
 
@@ -2335,7 +2035,13 @@ Control activo  MAIN
 
 
 
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
 
 
 
@@ -2405,7 +2111,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
 
 
 
@@ -2475,7 +2187,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -2578,7 +2296,13 @@ Control activo  ABMPROMOPUB.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.
 
 
 
+
+
+
 dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa
+
+
+
 
 
 
@@ -2634,7 +2358,13 @@ dctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 
 
 
 
+
+
+
 00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as ta
+
+
+
 
 
 
@@ -2690,7 +2420,13 @@ sarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as Ba
 
 
 
+
+
+
 bcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as Solici
+
+
+
 
 
 
@@ -2816,8 +2552,14 @@ Control activo  _UTIL_CAMPARI.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
 
 
 
+
+
+
 o registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001HM2X00CT.TMP Ultimo Control activo:  PTOVTA_EXPGESTION.INIT
 16-12-2021 18:32:58 , Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Linea : Orslista.ActiveConnection = loConnDataSource Error 
+
+
+
 
 
 
@@ -2841,8 +2583,14 @@ o registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001HM2X00CT.TMP 
 
 
 
+
+
+
 :       1429 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  MAIN
 17-12-2021 10:14:23 , Error: No se encuentra la propiedad CCODIGO. Linea : cCodigo = this.cCodigo Error :       1734 Ultimo Alias Activo: CSRSYNC Ultimo registro:         12  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001KJRD00D0.TMP Ultimo Control activo: 
+
+
+
 
 
 
@@ -2862,8 +2610,14 @@ o registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001HM2X00CT.TMP 
 
 
 
+
+
+
  ABMUNIFICADOR.CMDSALVAR.CLICK
 20-12-2021 15:53:32 , Error: LOFILE no es un objeto. Linea : loFile.Write(cLinea) Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD5003H.TMP Ultimo Control activo:  PATRONCARGA_C
+
+
+
 
 
 
@@ -2879,8 +2633,14 @@ OT.ACEPTAR1.CLICK
 
 
 
+
+
+
 OT.ACEPTAR1.CLICK
 20-12-2021 15:56:43 , Error: LOFILE no es un objeto. Linea : loFile.Write(cLinea) Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD5008T.TMP Ultimo Control activo:  PATRONCARGA_C
+
+
+
 
 
 
@@ -2894,8 +2654,14 @@ OT.ACEPTAR1.CLICK
 
 
 
+
+
+
 ATRONCARGA_COT.ACEPTAR1.CLICK
 20-12-2021 15:57:59 , Error: No se encuentra la variable 'FARCHIVO'. Linea : FCLOSE(fArchivo) Error :         12 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD50093.TMP Ultimo Control activo:  P
+
+
+
 
 
 
@@ -2905,15 +2671,39 @@ ATRONCARGA_COT.ACEPTAR1.CLICK
 
 
 
+
+
+
 OT.ACEPTAR1.CLICK
 20-12-2021 15:59:38 , Error: LOFILE no es un objeto. Linea : loFile.Write(cLinea) Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500CT.TMP Ultimo Control activo:  PATRONCARGA_C
+
+
+
 
 
 OT.ACEPTAR1.CLICK
 20-12-2021 15:59:52 , Error: LOFILE no es un objeto. Linea : loFile.WriteBlankLines(1)   && salto de línea Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500CT.TMP Ultimo Contr
 
+
+
+
 ol activo:  PATRONCARGA_COT.ACEPTAR1.CLICK
 20-12-2021 16:00:01 , Error: LOFILE no es un objeto. Linea : loFile.Write(cLinea) Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500CT.TMP Ultimo Control activo:  PATRONCARGA_C
+
+
+
 OT.ACEPTAR1.CLICK
-20-12-2021 16:00:09 , Error: LOFILE no es un objeto. Linea : loFile.WriteBlankLines(1)   && salto de línea Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500CT.TMP Ultimo Control activo:  PATRONCARGA_COT.ACEPTAR1.CLICK
-20-12-2021 16:01:07 , Error: LOFILE no es un objeto. Linea : loFile.Write(cLinea) Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500D5.TMP Ultimo Control activo:  PATRONCARGA_COT.IMAGE1.MOUSEMOVE
+20-12-2021 16:00:09 , Error: LOFILE no es un objeto. Linea : loFile.WriteBlankLines(1)   && salto de línea Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500CT.TMP Ultimo Contr
+
+
+ol activo:  PATRONCARGA_COT.ACEPTAR1.CLICK
+20-12-2021 16:01:07 , Error: LOFILE no es un objeto. Linea : loFile.Write(cLinea) Error :       1924 Ultimo Alias Activo: CSRAUXCOT Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500D5.TMP Ultimo Control activo:  PATRONCARGA_C
+
+
+OT.IMAGE1.MOUSEMOVE
+07-01-2022 21:50:15 , Error: No se encuentra la propiedad IDMENUACTIVO. Linea : thisform.idmenu = goapp.idmenuactivo Error :       1734 Ultimo Alias Activo: CSRCOMPROBANTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000S6IX006I.T
+
+MP Ultimo Control activo:  EXPORTAR_CPRA_VTA_V2.BOTON_FAVORITO1.INIT
+07-01-2022 21:50:23 , Error: No se encuentra la propiedad IDMENUACTIVO. Linea : goapp.idmenuactivo = 0 Error :       1734 Ultimo Alias Activo: CSRCOMPROBANTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000S6IX006I.TMP Ultimo Cont
+rol activo:  EXPORTAR_CPRA_VTA_V2.BOTON_FAVORITO1.INIT
+07-01-2022 21:55:12 , Error: No se encuentra la propiedad CADENAERRORES. Linea : oavisar.usuario(this.cadenaerrores) Error :       1734 Ultimo Alias Activo: _CSRCONEXION Ultimo registro:          2 CNUMERO DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000S6IX009E.TMP Ultimo Control activo:  EXPORTAR_CPRA_VTA_V2.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
