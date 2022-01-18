@@ -1,758 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck       ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567       ,SPACE(2) as categoiva       FROM CsrCabefac WHERE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE  
-17-11-2021 15:04:23 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-17-11-2021 15:04:23 , Pila de llamadas
-17-11-2021 15:04:24 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-17-11-2021 15:04:24 , Objeto      : main
 17-11-2021 15:04:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
 17-11-2021 15:04:24 , Nº de Linea :        250
 17-11-2021 15:04:24 , En el Fuente: 	LeerEmpresa()
@@ -767,6 +12,13 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 17-11-2021 15:04:25 , Nº de Linea :       2029
 17-11-2021 15:04:25 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 17-11-2021 15:53:39 , REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'CRUTA'.;Linea : XMLTOCURSOR(cRuta,"CsrAuxCuerpoSync",512+8192);Error :         12;Ultimo Alias Activo: CSRAUXCUERPOSYNC;Ultimo registro:         
+
+
+
+
+
+
+
 
 
 
@@ -1151,6 +403,13 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
 as Activo: CSRAUXCUERCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000105L05YB.TMP;Ultimo Control activo: 
 18-11-2021 12:30:14 , Pila de llamadas
 18-11-2021 12:30:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_ptovta_imp.sct
@@ -1164,6 +423,13 @@ as Activo: CSRAUXCUERCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPD
 18-11-2021 12:30:15 , Nº de Linea :         28
 18-11-2021 12:30:15 , En el Fuente: SELECT *, numero as numprodpromo, numero as numprodregalo FROM CsrCabePromoPub INTO CURSOR CsrAuxCabePromoPub READWRITE 
 18-11-2021 12:31:23 , PASAJE_PTOVTA_IMP.LOAD, Error: El archivo 'csrcabepromopub.dbf' no existe.;Linea : SELECT *, numero as numprodpromo, numero as numprodregalo FROM CsrCabePromoPub INTO CURSOR CsrAuxCabePromoPub READWRITE;Error :          1;Ultimo Ali
+
+
+
+
+
+
+
 
 
 
@@ -1553,7 +819,21 @@ as Activo: CSRAUXCUERCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPD
 
 
 
+
+
+
+
+
+
+
 lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXNOFISCAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000Q8SP00TO.TMP;Ultimo Control ac
+
+
+
+
+
+
+
 
 
 
@@ -1855,8 +1135,22 @@ tivo:
 
 
 
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 24-11-2021 12:55:14 , REGFACVTAPUB.CMDSALVAR.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : IF VAL(&lcIdCtacteGral) = OscCabefac.idctacte;Error :         11;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:   
+
+
+
+
+
+
+
 
 
 
@@ -2015,6 +1309,13 @@ ursor &micursor READWRITE
 24-11-2021 12:55:16 , Nº de Linea :         27
 24-11-2021 12:55:16 , En el Fuente: IF VAL(&lcIdCtacteGral) = OscCabefac.idctacte
 24-11-2021 13:01:09 , REGFACVTAPUB.KEYPRESS, Error: No se encuentra la propiedad IDMENUACTIVO.;Linea : thisform.idmenu = goapp.idmenuactivo;Error :       1734;Ultimo Alias Activo: CSRCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\
+
+
+
+
+
+
+
 
 
 
@@ -2314,6 +1615,13 @@ TEMP\0000LE6H010V.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 S\MARCO\APPDATA\LOCAL\TEMP\00003OQX00B9.TMP;Ultimo Control activo: 
 29-11-2021 15:02:55 , Pila de llamadas
 29-11-2021 15:02:55 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2327,6 +1635,13 @@ S\MARCO\APPDATA\LOCAL\TEMP\00003OQX00B9.TMP;Ultimo Control activo:
 29-11-2021 15:02:56 , Nº de Linea :         33
 29-11-2021 15:02:57 , En el Fuente: 		        	IF NOT lok
 29-11-2021 15:32:38 , SUBFACSALON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CORDERBY'.;Linea : order by <<cOrderBy>> Csrcuerpo.id,Csrfletero.numero,Csrvendedor.numero;Error :         12;Ultimo Alias Activo: _CSRCOMPROBANT
+
+
+
+
+
+
+
 
 
 
@@ -2589,6 +1904,13 @@ E;Ultimo registro:         12 CNUMERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000
 
 
 
+
+
+
+
+
+
+
 1 as int) as cantcomp from CsrCuerpo INTO CURSOR csrimprimir READWRITE;Error :          1;Ultimo Alias Activo: _CSRCOMPROBANTE;Ultimo registro:         12 CNUMERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BU2X00J0.TMP;Ultimo Control activo: 
 29-11-2021 15:33:35 , Pila de llamadas
 29-11-2021 15:33:36 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2602,6 +1924,13 @@ E;Ultimo registro:         12 CNUMERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000
 29-11-2021 15:33:37 , Nº de Linea :        183
 29-11-2021 15:33:37 , En el Fuente: 			SELECT Csrcuerpo.*,RIGHT(DTOS(TTOD(fecha)),2)+"-"+SUBSTR(DTOS(TTOD(fecha)),5,2)+"-"+LEFT(DTOS(TTOD(fecha)),4) as chrfecha				,CAST(1 as int) as cantcomp from CsrCuerpo INTO CURSOR csrimprimir READWRITE
 29-11-2021 17:06:41 , PASAJE_PTOVTA_IMP.PRECIOPROD1.INIT, Error: La sesión de datos nº 2 no se puede liberar si hay transacciones abiertas.;Linea : lobjprecio = CREATEOBJECT('custom');Error :       1549;Ultimo Alias Activo: CSRAUXCUERUNIFICAPUB;Ultimo re
+
+
+
+
+
+
+
 
 
 
@@ -2861,6 +2190,13 @@ gistro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000I9ZD00DD.TMP;Ulti
 
 
 
+
+
+
+
+
+
+
 1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000IEIX02FF.TMP;Ultimo Control activo: 
 29-11-2021 18:27:44 , Pila de llamadas
 29-11-2021 18:27:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_ptovta_imp.sct
@@ -2891,6 +2227,13 @@ gistro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000I9ZD00DD.TMP;Ulti
 01-12-2021 09:06:49 , Nº de Linea :         32
 01-12-2021 09:06:49 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
 16-12-2021 18:29:08 , PTOVTA_EXPGESTION.INIT, Error: Ya existe un subdirectorio o archivo j:\xsoftsr\proyectos\starossa\temporal\ptovta_expgestion.me\.;Linea : MKDIR ADDBS(SYS(5)+CURDIR())+'\Temporal\'+this.name+'.me';Error :       1961;Ultimo Alias Acti
+
+
+
+
+
+
+
 
 
 
@@ -3094,6 +2437,13 @@ vo: CSRCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCA
 
 
 
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 16-12-2021 18:32:59 , Pila de llamadas
 16-12-2021 18:32:59 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3112,6 +2462,13 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 16-12-2021 18:33:00 , Nº de Linea :       2029
 16-12-2021 18:33:01 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 16-12-2021 18:33:14 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
 
 
 
@@ -3301,6 +2658,13 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
 0D0.TMP;Ultimo Control activo: 
 17-12-2021 10:14:24 , Pila de llamadas
 17-12-2021 10:14:24 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3319,6 +2683,13 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 17-12-2021 10:14:26 , Nº de Linea :         30
 17-12-2021 10:14:26 , En el Fuente: cCodigo = this.cCodigo
 17-12-2021 10:14:31 , ABMUNIFICADOR.CMDSALVAR.CLICK, Error: No se encuentra la variable 'CCODIGO'.;Linea : IF lentrim(cCodigo)=0;Error :         12;Ultimo Alias Activo: CSRSYNC;Ultimo registro:         12 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001KJRD0
+
+
+
+
+
+
+
 
 
 
@@ -3486,6 +2857,13 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
 o Control activo: 
 20-12-2021 15:53:34 , Pila de llamadas
 20-12-2021 15:53:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -3504,6 +2882,13 @@ o Control activo:
 20-12-2021 15:53:36 , Nº de Linea :         43
 20-12-2021 15:53:37 , En el Fuente: loFile.Write(cLinea)
 20-12-2021 15:55:15 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: LOFILE no es un objeto.;Linea : loFile.Write(cLinea);Error :       1924;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD5006G.TMP;Ultim
+
+
+
+
+
+
+
 
 
 
@@ -3650,6 +3035,13 @@ o Control activo:
 
 
 
+
+
+
+
+
+
+
 o Control activo: 
 20-12-2021 15:56:43 , Pila de llamadas
 20-12-2021 15:56:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -3668,6 +3060,13 @@ o Control activo:
 20-12-2021 15:56:45 , Nº de Linea :         43
 20-12-2021 15:56:45 , En el Fuente: loFile.Write(cLinea)
 20-12-2021 15:57:07 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: No se encuentra la variable 'FARCHIVO'.;Linea : FCLOSE(fArchivo);Error :         12;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500
+
+
+
+
+
+
+
 
 
 
@@ -3793,6 +3192,13 @@ o Control activo:
 
 
 
+
+
+
+
+
+
+
 93.TMP;Ultimo Control activo: 
 20-12-2021 15:57:59 , Pila de llamadas
 20-12-2021 15:58:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -3811,6 +3217,13 @@ o Control activo:
 20-12-2021 15:58:02 , Nº de Linea :        102
 20-12-2021 15:58:02 , En el Fuente: 		FCLOSE(fArchivo)
 20-12-2021 15:58:55 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: LOFILE no es un objeto.;Linea : loFile.Write(cLinea);Error :       1924;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HFD500B4.TMP;Ultim
+
+
+
+
+
+
+
 
 
 
@@ -3916,6 +3329,13 @@ o Control activo:
 
 
 
+
+
+
+
+
+
+
 o Control activo: 
 20-12-2021 15:59:39 , Pila de llamadas
 20-12-2021 15:59:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -3934,6 +3354,13 @@ o Control activo:
 20-12-2021 15:59:42 , Nº de Linea :         43
 20-12-2021 15:59:42 , En el Fuente: loFile.Write(cLinea)
 20-12-2021 15:59:53 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: LOFILE no es un objeto.;Linea : loFile.WriteBlankLines(1)   && salto de línea;Error :       1924;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
 
 
 
@@ -4017,6 +3444,13 @@ MP\0000HFD500CT.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 o Control activo: 
 20-12-2021 16:00:02 , Pila de llamadas
 20-12-2021 16:00:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\patron\patroncarga_cot_ws.sct
@@ -4035,6 +3469,13 @@ o Control activo:
 20-12-2021 16:00:06 , Nº de Linea :         91
 20-12-2021 16:00:06 , En el Fuente: 		loFile.Write(cLinea)
 20-12-2021 16:00:10 , PATRONCARGA_COT.ACEPTAR1.CLICK, Error: LOFILE no es un objeto.;Linea : loFile.WriteBlankLines(1)   && salto de línea;Error :       1924;Ultimo Alias Activo: CSRAUXCOT;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
 
 
 
@@ -4098,6 +3539,13 @@ MP\0000HFD500CT.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
 imo Control activo: 
 20-12-2021 16:01:07 , Pila de llamadas
 20-12-2021 16:01:08 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -4134,6 +3582,13 @@ imo Control activo:
 
 
 
+
+
+
+
+
+
+
 ERS\MARCO\APPDATA\LOCAL\TEMP\0000S6IX006I.TMP;Ultimo Control activo: 
 07-01-2022 21:50:16 , Pila de llamadas
 07-01-2022 21:50:16 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
@@ -4142,6 +3597,13 @@ ERS\MARCO\APPDATA\LOCAL\TEMP\0000S6IX006I.TMP;Ultimo Control activo:
 07-01-2022 21:50:16 , Nº de Linea :          1
 07-01-2022 21:50:16 , En el Fuente: thisform.idmenu = goapp.idmenuactivo
 07-01-2022 21:50:23 , EXPORTAR_CPRA_VTA_V2.BOTON_FAVORITO1.INIT, Error: No se encuentra la propiedad IDMENUACTIVO.;Linea : goapp.idmenuactivo = 0;Error :       1734;Ultimo Alias Activo: CSRCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPD
+
+
+
+
+
+
+
 
 
 
@@ -4170,6 +3632,13 @@ ATA\LOCAL\TEMP\0000S6IX006I.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
   2 CNUMERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000S6IX009E.TMP;Ultimo Control activo: 
 07-01-2022 21:55:13 , Pila de llamadas
 07-01-2022 21:55:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4183,6 +3652,13 @@ ATA\LOCAL\TEMP\0000S6IX006I.TMP;Ultimo Control activo:
 07-01-2022 21:55:14 , Nº de Linea :         27
 07-01-2022 21:55:14 , En el Fuente: 	oavisar.usuario(this.cadenaerrores)
 10-01-2022 11:43:32 , REGFACVTA.INIT, Error: No se encuentra la variable 'LCCMD'.;Linea : IF !thisform.obtenerdatos('Csrcomprobante',lccmd);Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:          9 ;DBF: C:\USERS\MARCO\APPDATA\LOC
+
+
+
+
+
+
+
 
 
 
@@ -4203,6 +3679,13 @@ AL\TEMP\0000VO5L00FZ.TMP;Ultimo Control activo:
 10-01-2022 11:44:01 , REGFACVTA.INIT, Error: No se encuentra la variable 'LCCMD'.;Linea : IF !thisform.obtenerdatos('Csrcomprobante',lccmd);Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:          9 ;DBF: C:\USERS\MARCO\APPDATA\LOC
 
 
+
+
+
+
+
+
+
 AL\TEMP\0000VO5L00MR.TMP;Ultimo Control activo: 
 10-01-2022 11:44:01 , Pila de llamadas
 10-01-2022 11:44:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
@@ -4215,3 +3698,32 @@ AL\TEMP\0000VO5L00MR.TMP;Ultimo Control activo:
 10-01-2022 11:44:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
 10-01-2022 11:44:02 , Nº de Linea :         27
 10-01-2022 11:44:03 , En el Fuente: IF !thisform.obtenerdatos('Csrcomprobante',lccmd)
+14-01-2022 10:43:51 , REGPIDOCAEA.OFACCAE.INIT, Error: No se encuentra la propiedad TOPECF.;Linea : THIS.TOPecf = THISFORM.TOPECF;Error :       1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+14-01-2022 10:43:51 , Pila de llamadas
+14-01-2022 10:43:52 , Programa    : j:\xsoftsr\desarrollo\clases\onegocios.vct
+14-01-2022 10:43:52 , Objeto      : regpidocaea.ofaccae.init
+14-01-2022 10:43:52 , Base Objeto : j:\xsoftsr\desarrollo\clases\onegocios.vct
+14-01-2022 10:43:52 , Nº de Linea :         37
+14-01-2022 10:43:52 , En el Fuente: THIS.TOPecf = THISFORM.TOPECF
+17-01-2022 09:29:32 , PARACONFIG.CONTAINERENCABEZA.KITBUSCAOALTAENCTAENVASE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control ac
+
+
+
+
+tivo: 
+17-01-2022 09:29:33 , Pila de llamadas
+17-01-2022 09:29:33 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+17-01-2022 09:29:33 , Objeto      : paraconfig.containerencabeza.kitbuscaoaltaenctaenvase.txtexiste1.init
+17-01-2022 09:29:33 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+17-01-2022 09:29:34 , Nº de Linea :          1
+17-01-2022 09:29:34 , En el Fuente: this.Parent.refrescardato("")
+17-01-2022 09:29:34 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+17-01-2022 09:29:34 , Objeto      : paraconfig.containerencabeza.kitbuscaoaltaenctaenvase.refrescardato
+17-01-2022 09:29:34 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+17-01-2022 09:29:34 , Nº de Linea :         18
+17-01-2022 09:29:34 , En el Fuente: This.traerdatos(.t.,lccmd) 
+17-01-2022 09:29:34 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+17-01-2022 09:29:34 , Objeto      : paraconfig.containerencabeza.kitbuscaoaltaenctaenvase.traerdatos
+17-01-2022 09:29:34 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+17-01-2022 09:29:34 , Nº de Linea :         32
+17-01-2022 09:29:35 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
