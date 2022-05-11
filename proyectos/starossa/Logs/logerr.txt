@@ -24,226 +24,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ITH noferbonifcant			,cantkilos WITH nkilos IN CsrAuxCuerfac
-21-02-2022 16:42:53 , LISTAPADRON.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'NOMSECORREP'.;Linea : SELECT CODIGO,NOMCLIENTE,CUIT,IVA,DIRECCION,TELEFONO,LOCALIDAD ,PROVINCIA,CANAL,codvendedor,nomvendedor,CODSECTOR,NOMSECTOR
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ,RUTASECTOR,DNI,cobertura ,codsectorrep,nomsecorrep FROM CsrImprimir ORDER BY CODSECTOR,RUTASECTOR INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       4018 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0
+
+
 
 
 
@@ -647,8 +430,12 @@ ITH noferbonifcant			,cantkilos WITH nkilos IN CsrAuxCuerfac
 
 
 
+
+
 OR,RUTASECTOR INTO CURSOR CsrImprimir READWRITE 
 22-02-2022 13:34:02 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'SIVA'.;Linea : IF NVL(CsrCateCtacte.siva,0) = 1;Error :         12;Ultimo Alias Activo: CSRCATECTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEM
+
+
 
 
 
@@ -1041,6 +828,8 @@ P\0001P5OP062T.TMP;Ultimo Control activo:
 
 
 
+
+
  ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001P5OP06I0.TMP;Ultimo Control activo: 
 22-02-2022 13:41:00 , Pila de llamadas
 22-02-2022 13:41:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -1079,6 +868,8 @@ P\0001P5OP062T.TMP;Ultimo Control activo:
 22-02-2022 13:41:09 , Nº de Linea :          1
 22-02-2022 13:41:09 , En el Fuente: PARAMETERS lccuit,lnidprovincia,aliascateibto,lnporperce,lnporrete
 22-02-2022 14:47:05 , REGFACPM.CMDPROCESAR.CLICK, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : LOCATE FOR id = .lnidcomprobafac;Error :       1940;Ultimo Alias Activo: CSRCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APP
+
+
 
 
 
@@ -1417,6 +1208,8 @@ DATA\LOCAL\TEMP\0001P5OP08F7.TMP;Ultimo Control activo:
 
 
 
+
+
 PPDATA\LOCAL\TEMP\0001P5OP08RJ.TMP;Ultimo Control activo: 
 22-02-2022 14:55:53 , Pila de llamadas
 22-02-2022 14:55:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -1445,6 +1238,8 @@ PPDATA\LOCAL\TEMP\0001P5OP08RJ.TMP;Ultimo Control activo:
 22-02-2022 14:55:56 , Nº de Linea :         45
 22-02-2022 14:55:56 , En el Fuente: replace idcomproba WITH CsrComprobante.id
 22-02-2022 15:04:23 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'IDCOMPROBA'.;Linea : replace idcomproba WITH CsrComprobante.id;Error :         12;Ultimo Alias Activo: CSRCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\A
+
+
 
 
 
@@ -1751,6 +1546,8 @@ PPDATA\LOCAL\TEMP\0001P5OP094Q.TMP;Ultimo Control activo:
 
 
 
+
+
 MPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001P5OP09KV.TMP;Ultimo Control activo: 
 22-02-2022 15:05:46 , Pila de llamadas
 22-02-2022 15:05:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -1779,6 +1576,8 @@ MPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00
 22-02-2022 15:05:51 , Nº de Linea :         45
 22-02-2022 15:05:51 , En el Fuente: replace idcomproba WITH CsrComprobante.id, descripcion WITH CsrComprobante.cabrevia IN CsrAuxCabefac
 23-02-2022 11:35:31 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: CHKKSALDO es un miembro desconocido.;Linea : IF this.chkkSaldo.Value = 1;Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\
+
+
 
 
 
@@ -2048,6 +1847,8 @@ APPDATA\LOCAL\TEMP\000286X500KR.TMP;Ultimo Control activo:
 
 
 
+
+
 IMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X500MI.TMP;Ultimo Control activo: 
 23-02-2022 11:37:41 , Pila de llamadas
 23-02-2022 11:37:41 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -2071,6 +1872,8 @@ IMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X
 23-02-2022 11:37:45 , Nº de Linea :         50
 23-02-2022 11:37:45 , En el Fuente: 		IF .crutainforme=.crutainforme='listaguiavisita.frx'
 23-02-2022 11:39:00 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra el alias 'NOMGRUPO'.;Linea : SELECT numgrupo,nomgrupo.numcte,nomcte,directe,fecins01,cuit,iva,sectorrep,sectorvta,orden,sdocte FROM CsrImprimir ORDER BY numgr
+
+
 
 
 
@@ -2310,6 +2113,8 @@ upo INTO CURSOR CsrImprimir READWRITE;Error :         13;Ultimo Alias Activo: CS
 
 
 
+
+
 BY numgrupo INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X500R0.TMP;Ultimo Control activo: 
 23-02-2022 11:39:55 , Pila de llamadas
 23-02-2022 11:39:55 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -2429,6 +2234,8 @@ BY numgrupo INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Ac
 
 
 
+
+
 Activo: _CSRVENDEDOR;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X500U2.TMP;Ultimo Control activo: 
 23-02-2022 11:52:09 , Pila de llamadas
 23-02-2022 11:52:10 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2437,6 +2244,8 @@ Activo: _CSRVENDEDOR;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\MARCO\APP
 23-02-2022 11:52:10 , Nº de Linea :          9
 23-02-2022 11:52:10 , En el Fuente:    REPLACE ALL ok WITH 1 FOR &lcCampo IN &micursor
 23-02-2022 11:57:46 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'SECTORVTA'.;Linea : SELECT numgrupo,nomgrupo,numcte,nomcte,directe,fecins01,cuit,iva,sectorvta,rutasector,sectorrep,orden,sdocte FROM CsrImpr
+
+
 
 
 
@@ -2640,7 +2449,11 @@ imir ORDER BY numgrupo INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ulti
 
 
 
+
+
 vta,rutasector,sectorrep) VALUES (CsrCursor.numgrupo,CsrCursor.nomgrupo,Csrcursor.numcte,CsrCursor.nomcte,CsrCursor.directe ,CsrCursor.sdocte,TTOD(CsrCursor.fecins01),0,0,CsrCursor.orden,CsrCursor.turno,csrcursor.cuit,csrcursor.iva ,CsrCursor.sectorvta,C
+
+
 
 
 
@@ -2822,8 +2635,12 @@ srCursor.rutasector,CsrCursor.sectorrep);Error :         12;Ultimo Alias Activo:
 
 
 
+
+
 sor.numcte,CsrCursor.nomcte,CsrCursor.directe	     			,CsrCursor.sdocte,TTOD(CsrCursor.fecins01),0,0,CsrCursor.orden,CsrCursor.turno,csrcursor.cuit,csrcursor.iva	     			,CsrCursor.sectorvta,CsrCursor.rutasector,CsrCursor.sectorrep)
 23-02-2022 13:50:34 , LISTAGUIAVISITA.PAGEFRAME1.PAGE1.KITGRILLATILDARRUTA.INIT, Error: El archivo 'csrruta.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wc
+
+
 
 
 
@@ -2993,8 +2810,12 @@ ampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor RE
 
 
 
+
+
 ursor &micursor READWRITE
 23-02-2022 13:51:07 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: COLUMN013 es un miembro desconocido.;Linea : .Column013.Header = "Saldo";Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\
+
+
 
 
 
@@ -3169,6 +2990,8 @@ APPDATA\LOCAL\TEMP\000286X5016G.TMP;Ultimo Control activo:
 
 
 
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 25-02-2022 18:16:18 , Pila de llamadas
 25-02-2022 18:16:19 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3187,6 +3010,8 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 25-02-2022 18:16:21 , Nº de Linea :       2029
 25-02-2022 18:16:22 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 03-03-2022 16:58:02 , ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENSECTORREP.TXTID.INIT, Error: No se encuentra el alias 'CSRCTACTE'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro
+
+
 
 
 
@@ -3327,6 +3152,8 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
 TMP;Ultimo Control activo: 
 07-03-2022 12:25:13 , Pila de llamadas
 07-03-2022 12:25:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\inf_caea.sct
@@ -3340,6 +3167,8 @@ TMP;Ultimo Control activo:
 07-03-2022 12:25:14 , Nº de Linea :         18
 07-03-2022 12:25:14 , En el Fuente: 	SELECT CsrInfCabefac
 07-03-2022 12:25:48 , INF_CAEA.ACEPTAR2.CLICK, Error: No se encuentra el alias 'CSRINFCABEFAC'.;Linea : SELECT CsrInfCabefac;Error :         13;Ultimo Alias Activo: CSRGRID;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0002Z1FT00KY.
+
+
 
 
 
@@ -3471,6 +3300,8 @@ TMP;Ultimo Control activo:
 
 
 
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 17-03-2022 11:03:08 , Pila de llamadas
 17-03-2022 11:03:08 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3489,6 +3320,8 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 17-03-2022 11:03:10 , Nº de Linea :       2029
 17-03-2022 11:03:10 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 17-03-2022 11:08:56 , ABMPROMOPUB.CMDBORRAR.CLICK, Error: No se encuentra la variable 'ESTADO'.;Linea : replace estado WITH 1 IN CsrCabePromoPub;Error :         12;Ultimo Alias Activo: CSRCABEPROMOPUB;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPD
+
+
 
 
 
@@ -3599,6 +3432,8 @@ ATA\LOCAL\TEMP\0000MMFD0I5H.TMP;Ultimo Control activo:
 
 
 
+
+
 UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMFD0I7R.TMP;Ultimo Control activo: 
 17-03-2022 11:10:31 , Pila de llamadas
 17-03-2022 11:10:31 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3607,6 +3442,8 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 17-03-2022 11:10:32 , Nº de Linea :          2
 17-03-2022 11:10:32 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 17-03-2022 11:17:55 , ABMPROMOPUB.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT, Error: No se encuentra el alias 'CSRCABEPROMOPUB'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: CSRPROD
+
+
 
 
 
@@ -3708,6 +3545,8 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 
 
 
+
+
 UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMFD0J6M.TMP;Ultimo Control activo: 
 17-03-2022 11:18:47 , Pila de llamadas
 17-03-2022 11:18:47 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3716,6 +3555,8 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 17-03-2022 11:18:48 , Nº de Linea :          2
 17-03-2022 11:18:48 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 17-03-2022 11:19:24 , ABMPROMOPUB.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT, Error: No se encuentra el alias 'CSRCABEPROMOPUB'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: CSRPROD
+
+
 
 
 
@@ -3806,6 +3647,8 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 
 
 
+
+
 UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMFD0JC3.TMP;Ultimo Control activo: 
 17-03-2022 11:20:10 , Pila de llamadas
 17-03-2022 11:20:10 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3851,6 +3694,8 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 
 
 
+
+
  registro:          0 ;DBF: ;Ultimo Control activo: 
 17-03-2022 11:52:59 , Pila de llamadas
 17-03-2022 11:53:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3859,6 +3704,8 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 17-03-2022 11:53:01 , Nº de Linea :          2
 17-03-2022 11:53:01 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 17-03-2022 11:54:56 , ABMPROMOPUB.CMDSALVAR.CLICK, Error: No se encuentra el alias 'CSRDUPLI'.;Linea : SELECT CsrDupli;Error :         13;Ultimo Alias Activo: CSRCABEPROMOPUB;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000J3M1024
+
+
 
 
 
@@ -3942,6 +3789,8 @@ P.TMP;Ultimo Control activo:
 
 
 
+
+
 .TMP;Ultimo Control activo: CANTIDAD
 17-03-2022 13:36:42 , Pila de llamadas
 17-03-2022 13:36:43 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3965,6 +3814,8 @@ P.TMP;Ultimo Control activo:
 17-03-2022 13:36:49 , Nº de Linea :        324
 17-03-2022 13:36:49 , En el Fuente: 		GATHER NAME Oscatter
 17-03-2022 13:37:26 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
 
 
 
@@ -4023,6 +3874,8 @@ P.TMP;Ultimo Control activo:
 
 
 
+
+
 \MARCO\APPDATA\LOCAL\TEMP\000006X500FA.TMP;Ultimo Control activo: CANTIDAD
 17-03-2022 13:39:21 , Pila de llamadas
 17-03-2022 13:39:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -4041,6 +3894,8 @@ P.TMP;Ultimo Control activo:
 17-03-2022 13:39:25 , Nº de Linea :        324
 17-03-2022 13:39:25 , En el Fuente: 		GATHER NAME Oscatter
 17-03-2022 13:39:28 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
 
 
 
@@ -4076,6 +3931,8 @@ P.TMP;Ultimo Control activo:
 
 
 
+
+
  ;DBF: ;Ultimo Control activo: 
 28-03-2022 12:55:17 , Pila de llamadas
 28-03-2022 12:55:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4095,6 +3952,8 @@ P.TMP;Ultimo Control activo:
 28-03-2022 12:55:19 , En el Fuente:    This.txtnombre.value = &lccamponombre
 28-03-2022 12:55:25 , REGFACCPRA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.LOSTFOCUS, Error: No se encuentra el alias.;Linea : lcordenvie=order(lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control a
 
+
+
 ctivo: 
 28-03-2022 12:55:25 , Pila de llamadas
 28-03-2022 12:55:25 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4102,3 +3961,12 @@ ctivo:
 28-03-2022 12:55:25 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 28-03-2022 12:55:25 , Nº de Linea :         24
 28-03-2022 12:55:25 , En el Fuente: lcordenvie=order(lcalias)
+11-05-2022 13:56:18 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro:
+
+          0 ;DBF: ;Ultimo Control activo: NOMBRE
+11-05-2022 13:56:18 , Pila de llamadas
+11-05-2022 13:56:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+11-05-2022 13:56:18 , Objeto      : abmproducto.contenedor1.pframe1.page1.kitbuscaoaltaenabm1.txtid.init
+11-05-2022 13:56:18 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+11-05-2022 13:56:19 , Nº de Linea :          2
+11-05-2022 13:56:19 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
