@@ -132,6 +132,7 @@ _Screen.visible=.t.
 
 PUBLIC LcConectionString,LcDataSourceType,lcOrigenPublico,PcmsgIU,PcmsgIP,LcWebService,LcLlaveCf,Pnterminal,pnsucursal
 PUBLIC lcConectionODBC,lnconectorODBC
+   PUBLIC oConfigTermi
    
  STORE '' TO LcConectionString,LcDataSourceType,lcOrigenPublico,LcWebService,lcConectionODBC
  STORE 0 TO Pnterminal,Pnsucursal,lnconectorODBC
@@ -186,6 +187,9 @@ IF TYPE('goApp')='O'
 	on error do errorsys
 	           		                          
 	do setup
+	
+	LeerConfigTermi()
+	
 	_screen.LockScreen=.f.
 	
 	oavisar.proceso('S','Inicializando el sistema, aguarde unos instantes por favor ...')
@@ -202,6 +206,7 @@ IF TYPE('goApp')='O'
 	
 	
 	 =ObtenerServidor()
+	
 	
 	
 	IF LEN(TRIM(LcConectionString))=0

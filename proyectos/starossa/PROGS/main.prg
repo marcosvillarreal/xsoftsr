@@ -11,9 +11,10 @@ set classlib to
 l='j:\xsoftsr'
 *l='X:'
 set talk off
-PUBLIC lldesarrollo
+PUBLIC lldesarrollo,PIDSISTEMA
 lldesarrollo=(_vfp.startmode()#4)
 
+PIDSISTEMA = 1
 _vfp.AutoYield = .f.
 
 lctituloGestion = "Gestión de Ventas .-"

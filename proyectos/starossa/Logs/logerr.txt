@@ -24,7 +24,6 @@
 
 
 
-,RUTASECTOR,DNI,cobertura ,codsectorrep,nomsecorrep FROM CsrImprimir ORDER BY CODSECTOR,RUTASECTOR INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       4018 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0
 
 
 
@@ -42,1973 +41,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-001A77T0AOE.TMP;Ultimo Control activo: 
-21-02-2022 16:42:54 , Pila de llamadas
-21-02-2022 16:42:54 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-21-02-2022 16:42:54 , Objeto      : listapadron.imprimir_vistaprevia1.excel.click
-21-02-2022 16:42:54 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-21-02-2022 16:42:55 , Nº de Linea :          8
-21-02-2022 16:42:55 , En el Fuente: llOK=thisform.CrearInforme()
-21-02-2022 16:42:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listapadron.sct
-21-02-2022 16:42:55 , Objeto      : listapadron.crearinforme
-21-02-2022 16:42:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listapadron.sct
-21-02-2022 16:42:55 , Nº de Linea :        398
-21-02-2022 16:42:56 , En el Fuente: DODEFAULT()
-21-02-2022 16:42:56 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-21-02-2022 16:42:56 , Objeto      : informe.crearinforme
-21-02-2022 16:42:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-21-02-2022 16:42:56 , Nº de Linea :          1
-21-02-2022 16:42:56 , En el Fuente: thisform.crearheader()
-21-02-2022 16:42:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listapadron.sct
-21-02-2022 16:42:56 , Objeto      : listapadron.crearheader
-21-02-2022 16:42:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listapadron.sct
-21-02-2022 16:42:57 , Nº de Linea :        106
-21-02-2022 16:42:57 , En el Fuente: 			SELECT CODIGO,NOMCLIENTE,CUIT,IVA,DIRECCION,TELEFONO,LOCALIDAD			,PROVINCIA,CANAL,codvendedor,nomvendedor,CODSECTOR,NOMSECTOR,RUTASECTOR,DNI,cobertura			,codsectorrep,nomsecorrep			 FROM CsrImprimir ORDER BY CODSECT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OR,RUTASECTOR INTO CURSOR CsrImprimir READWRITE 
-22-02-2022 13:34:02 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'SIVA'.;Linea : IF NVL(CsrCateCtacte.siva,0) = 1;Error :         12;Ultimo Alias Activo: CSRCATECTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-P\0001P5OP062T.TMP;Ultimo Control activo: 
-22-02-2022 13:34:02 , Pila de llamadas
-22-02-2022 13:34:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:03 , Objeto      : regfacpm.cmdprocesar.click
-22-02-2022 13:34:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:03 , Nº de Linea :          2
-22-02-2022 13:34:03 , En el Fuente: IF NOT thisform.iniciarimportacion()
-22-02-2022 13:34:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:03 , Objeto      : regfacpm.iniciarimportacion
-22-02-2022 13:34:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:04 , Nº de Linea :         20
-22-02-2022 13:34:04 , En el Fuente: 		 thisform.cmdSalvar.Click()
-22-02-2022 13:34:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:04 , Objeto      : regfacpm.cmdsalvar.click
-22-02-2022 13:34:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:04 , Nº de Linea :          5
-22-02-2022 13:34:04 , En el Fuente: 		thisform.cargarpedido()
-22-02-2022 13:34:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:05 , Objeto      : regfacpm.cargarpedido
-22-02-2022 13:34:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:05 , Nº de Linea :        130
-22-02-2022 13:34:05 , En el Fuente: 		thisform.cargarcabefac()
-22-02-2022 13:34:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:05 , Objeto      : regfacpm.cargarcabefac
-22-02-2022 13:34:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:06 , Nº de Linea :         14
-22-02-2022 13:34:06 , En el Fuente: 		IF !thisform.controlctacte(CsrCtactePed.id,lcCuit,lnidcategoria,lnidprovincia)
-22-02-2022 13:34:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:06 , Objeto      : regfacpm.controlctacte
-22-02-2022 13:34:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:34:06 , Nº de Linea :         42
-22-02-2022 13:34:07 , En el Fuente: IF NVL(CsrCateCtacte.siva,0) = 1
-22-02-2022 13:41:00 , REGFACPM.CMDPROCESAR.CLICK, Error: Debe especificar parámetros adicionales.;Linea : PARAMETERS lccuit,lnidprovincia,aliascateibto,lnporperce,lnporrete;Error :         94;Ultimo Alias Activo: CSRCATECTACTE;Ultimo registro:          1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001P5OP06I0.TMP;Ultimo Control activo: 
-22-02-2022 13:41:00 , Pila de llamadas
-22-02-2022 13:41:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:00 , Objeto      : regfacpm.cmdprocesar.click
-22-02-2022 13:41:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:01 , Nº de Linea :          2
-22-02-2022 13:41:01 , En el Fuente: IF NOT thisform.iniciarimportacion()
-22-02-2022 13:41:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:01 , Objeto      : regfacpm.iniciarimportacion
-22-02-2022 13:41:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:02 , Nº de Linea :         20
-22-02-2022 13:41:02 , En el Fuente: 		 thisform.cmdSalvar.Click()
-22-02-2022 13:41:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:03 , Objeto      : regfacpm.cmdsalvar.click
-22-02-2022 13:41:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:04 , Nº de Linea :          5
-22-02-2022 13:41:04 , En el Fuente: 		thisform.cargarpedido()
-22-02-2022 13:41:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:05 , Objeto      : regfacpm.cargarpedido
-22-02-2022 13:41:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:06 , Nº de Linea :        130
-22-02-2022 13:41:06 , En el Fuente: 		thisform.cargarcabefac()
-22-02-2022 13:41:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:07 , Objeto      : regfacpm.cargarcabefac
-22-02-2022 13:41:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:07 , Nº de Linea :         14
-22-02-2022 13:41:07 , En el Fuente: 		IF !thisform.controlctacte(CsrCtactePed.id,lcCuit,lnidcategoria,lnidprovincia)
-22-02-2022 13:41:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:08 , Objeto      : regfacpm.controlctacte
-22-02-2022 13:41:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 13:41:08 , Nº de Linea :         33
-22-02-2022 13:41:09 , En el Fuente: thisform.agregaobjeto.objobteneribto(lccuit,lnidprovincia,@lcaliascateibto,@lnporperce,@lnporrete,lnidctacte)
-22-02-2022 13:41:09 , Programa    : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
-22-02-2022 13:41:09 , Objeto      : regfacpm.agregaobjeto.objobteneribto
-22-02-2022 13:41:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
-22-02-2022 13:41:09 , Nº de Linea :          1
-22-02-2022 13:41:09 , En el Fuente: PARAMETERS lccuit,lnidprovincia,aliascateibto,lnporperce,lnporrete
-22-02-2022 14:47:05 , REGFACPM.CMDPROCESAR.CLICK, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : LOCATE FOR id = .lnidcomprobafac;Error :       1940;Ultimo Alias Activo: CSRCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DATA\LOCAL\TEMP\0001P5OP08F7.TMP;Ultimo Control activo: 
-22-02-2022 14:47:06 , Pila de llamadas
-22-02-2022 14:47:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:06 , Objeto      : regfacpm.cmdprocesar.click
-22-02-2022 14:47:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:07 , Nº de Linea :          2
-22-02-2022 14:47:07 , En el Fuente: IF NOT thisform.iniciarimportacion()
-22-02-2022 14:47:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:07 , Objeto      : regfacpm.iniciarimportacion
-22-02-2022 14:47:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:07 , Nº de Linea :         20
-22-02-2022 14:47:08 , En el Fuente: 		 thisform.cmdSalvar.Click()
-22-02-2022 14:47:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:08 , Objeto      : regfacpm.cmdsalvar.click
-22-02-2022 14:47:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:08 , Nº de Linea :          5
-22-02-2022 14:47:09 , En el Fuente: 		thisform.cargarpedido()
-22-02-2022 14:47:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:09 , Objeto      : regfacpm.cargarpedido
-22-02-2022 14:47:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:09 , Nº de Linea :        221
-22-02-2022 14:47:09 , En el Fuente: 		this.cargarcomprobante()
-22-02-2022 14:47:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:09 , Objeto      : regfacpm.cargarcomprobante
-22-02-2022 14:47:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:47:10 , Nº de Linea :         24
-22-02-2022 14:47:10 , En el Fuente: 			LOCATE FOR id = .lnidcomprobafac
-22-02-2022 14:55:53 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'IDCOMPROBA'.;Linea : replace idcomproba WITH CsrComprobante.id;Error :         12;Ultimo Alias Activo: CSRCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\A
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PPDATA\LOCAL\TEMP\0001P5OP08RJ.TMP;Ultimo Control activo: 
-22-02-2022 14:55:53 , Pila de llamadas
-22-02-2022 14:55:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:53 , Objeto      : regfacpm.cmdprocesar.click
-22-02-2022 14:55:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:53 , Nº de Linea :          2
-22-02-2022 14:55:54 , En el Fuente: IF NOT thisform.iniciarimportacion()
-22-02-2022 14:55:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:54 , Objeto      : regfacpm.iniciarimportacion
-22-02-2022 14:55:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:54 , Nº de Linea :         20
-22-02-2022 14:55:54 , En el Fuente: 		 thisform.cmdSalvar.Click()
-22-02-2022 14:55:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:55 , Objeto      : regfacpm.cmdsalvar.click
-22-02-2022 14:55:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:55 , Nº de Linea :          5
-22-02-2022 14:55:55 , En el Fuente: 		thisform.cargarpedido()
-22-02-2022 14:55:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:55 , Objeto      : regfacpm.cargarpedido
-22-02-2022 14:55:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:55 , Nº de Linea :        221
-22-02-2022 14:55:55 , En el Fuente: 		this.cargarcomprobante()
-22-02-2022 14:55:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:56 , Objeto      : regfacpm.cargarcomprobante
-22-02-2022 14:55:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 14:55:56 , Nº de Linea :         45
-22-02-2022 14:55:56 , En el Fuente: replace idcomproba WITH CsrComprobante.id
-22-02-2022 15:04:23 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'IDCOMPROBA'.;Linea : replace idcomproba WITH CsrComprobante.id;Error :         12;Ultimo Alias Activo: CSRCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\A
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PPDATA\LOCAL\TEMP\0001P5OP094Q.TMP;Ultimo Control activo: 
-22-02-2022 15:04:23 , Pila de llamadas
-22-02-2022 15:04:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:24 , Objeto      : regfacpm.cmdprocesar.click
-22-02-2022 15:04:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:24 , Nº de Linea :          2
-22-02-2022 15:04:24 , En el Fuente: IF NOT thisform.iniciarimportacion()
-22-02-2022 15:04:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:25 , Objeto      : regfacpm.iniciarimportacion
-22-02-2022 15:04:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:25 , Nº de Linea :         20
-22-02-2022 15:04:25 , En el Fuente: 		 thisform.cmdSalvar.Click()
-22-02-2022 15:04:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:25 , Objeto      : regfacpm.cmdsalvar.click
-22-02-2022 15:04:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:26 , Nº de Linea :          5
-22-02-2022 15:04:26 , En el Fuente: 		thisform.cargarpedido()
-22-02-2022 15:04:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:26 , Objeto      : regfacpm.cargarpedido
-22-02-2022 15:04:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:26 , Nº de Linea :        220
-22-02-2022 15:04:27 , En el Fuente: 		this.cargarcomprobante()
-22-02-2022 15:04:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:27 , Objeto      : regfacpm.cargarcomprobante
-22-02-2022 15:04:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:04:27 , Nº de Linea :         45
-22-02-2022 15:04:27 , En el Fuente: replace idcomproba WITH CsrComprobante.id
-22-02-2022 15:05:46 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'DESCRIPCION'.;Linea : replace idcomproba WITH CsrComprobante.id, descripcion WITH CsrComprobante.cabrevia IN CsrAuxCabefac;Error :         12;Ultimo Alias Activo: CSRCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0001P5OP09KV.TMP;Ultimo Control activo: 
-22-02-2022 15:05:46 , Pila de llamadas
-22-02-2022 15:05:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:47 , Objeto      : regfacpm.cmdprocesar.click
-22-02-2022 15:05:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:47 , Nº de Linea :          2
-22-02-2022 15:05:47 , En el Fuente: IF NOT thisform.iniciarimportacion()
-22-02-2022 15:05:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:48 , Objeto      : regfacpm.iniciarimportacion
-22-02-2022 15:05:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:48 , Nº de Linea :         20
-22-02-2022 15:05:49 , En el Fuente: 		 thisform.cmdSalvar.Click()
-22-02-2022 15:05:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:49 , Objeto      : regfacpm.cmdsalvar.click
-22-02-2022 15:05:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:49 , Nº de Linea :          5
-22-02-2022 15:05:49 , En el Fuente: 		thisform.cargarpedido()
-22-02-2022 15:05:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:50 , Objeto      : regfacpm.cargarpedido
-22-02-2022 15:05:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:50 , Nº de Linea :        220
-22-02-2022 15:05:51 , En el Fuente: 		this.cargarcomprobante()
-22-02-2022 15:05:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:51 , Objeto      : regfacpm.cargarcomprobante
-22-02-2022 15:05:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-22-02-2022 15:05:51 , Nº de Linea :         45
-22-02-2022 15:05:51 , En el Fuente: replace idcomproba WITH CsrComprobante.id, descripcion WITH CsrComprobante.cabrevia IN CsrAuxCabefac
-23-02-2022 11:35:31 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: CHKKSALDO es un miembro desconocido.;Linea : IF this.chkkSaldo.Value = 1;Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-APPDATA\LOCAL\TEMP\000286X500KR.TMP;Ultimo Control activo: 
-23-02-2022 11:35:31 , Pila de llamadas
-23-02-2022 11:35:32 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:35:32 , Objeto      : listaguiavisita.imprimir_vistaprevia1.excel.click
-23-02-2022 11:35:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:35:33 , Nº de Linea :          8
-23-02-2022 11:35:33 , En el Fuente: llOK=thisform.CrearInforme()
-23-02-2022 11:35:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:35:33 , Objeto      : listaguiavisita.crearinforme
-23-02-2022 11:35:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:35:33 , Nº de Linea :         54
-23-02-2022 11:35:34 , En el Fuente: DODEFAULT()
-23-02-2022 11:35:34 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:35:34 , Objeto      : informe.crearinforme
-23-02-2022 11:35:35 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:35:35 , Nº de Linea :          1
-23-02-2022 11:35:35 , En el Fuente: thisform.crearheader()
-23-02-2022 11:35:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:35:35 , Objeto      : listaguiavisita.crearheader
-23-02-2022 11:35:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:35:36 , Nº de Linea :         42
-23-02-2022 11:35:36 , En el Fuente: 			IF this.chkkSaldo.Value = 1
-23-02-2022 11:37:40 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF .crutainforme=.crutainforme='listaguiavisita.frx';Error :        107;Ultimo Alias Activo: CSRIMPR
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-IMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X500MI.TMP;Ultimo Control activo: 
-23-02-2022 11:37:41 , Pila de llamadas
-23-02-2022 11:37:41 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:37:41 , Objeto      : listaguiavisita.imprimir_vistaprevia1.excel.click
-23-02-2022 11:37:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:37:41 , Nº de Linea :          8
-23-02-2022 11:37:42 , En el Fuente: llOK=thisform.CrearInforme()
-23-02-2022 11:37:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:37:42 , Objeto      : listaguiavisita.crearinforme
-23-02-2022 11:37:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:37:43 , Nº de Linea :         54
-23-02-2022 11:37:43 , En el Fuente: DODEFAULT()
-23-02-2022 11:37:43 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:37:43 , Objeto      : informe.crearinforme
-23-02-2022 11:37:43 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:37:44 , Nº de Linea :          1
-23-02-2022 11:37:44 , En el Fuente: thisform.crearheader()
-23-02-2022 11:37:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:37:45 , Objeto      : listaguiavisita.crearheader
-23-02-2022 11:37:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:37:45 , Nº de Linea :         50
-23-02-2022 11:37:45 , En el Fuente: 		IF .crutainforme=.crutainforme='listaguiavisita.frx'
-23-02-2022 11:39:00 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra el alias 'NOMGRUPO'.;Linea : SELECT numgrupo,nomgrupo.numcte,nomcte,directe,fecins01,cuit,iva,sectorrep,sectorvta,orden,sdocte FROM CsrImprimir ORDER BY numgr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-upo INTO CURSOR CsrImprimir READWRITE;Error :         13;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X500NZ.TMP;Ultimo Control activo: 
-23-02-2022 11:39:00 , Pila de llamadas
-23-02-2022 11:39:00 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:39:00 , Objeto      : listaguiavisita.imprimir_vistaprevia1.excel.click
-23-02-2022 11:39:00 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:39:00 , Nº de Linea :          8
-23-02-2022 11:39:00 , En el Fuente: llOK=thisform.CrearInforme()
-23-02-2022 11:39:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:39:01 , Objeto      : listaguiavisita.crearinforme
-23-02-2022 11:39:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:39:01 , Nº de Linea :         54
-23-02-2022 11:39:01 , En el Fuente: DODEFAULT()
-23-02-2022 11:39:01 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:39:01 , Objeto      : informe.crearinforme
-23-02-2022 11:39:01 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-23-02-2022 11:39:02 , Nº de Linea :          1
-23-02-2022 11:39:02 , En el Fuente: thisform.crearheader()
-23-02-2022 11:39:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:39:02 , Objeto      : listaguiavisita.crearheader
-23-02-2022 11:39:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaguiavisita.sct
-23-02-2022 11:39:02 , Nº de Linea :         53
-23-02-2022 11:39:02 , En el Fuente: 			SELECT numgrupo,nomgrupo.numcte,nomcte,directe,fecins01,cuit,iva,sectorrep,sectorvta,orden,sdocte FROM CsrImprimir ORDER BY numgrupo INTO CURSOR CsrImprimir READWRITE 
-23-02-2022 11:39:55 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'SECTORREP'.;Linea : SELECT numgrupo,nomgrupo,numcte,nomcte,directe,fecins01,cuit,iva,sectorrep,sectorvta,orden,sdocte FROM CsrImprimir ORDER 
 
 
 
@@ -2236,6 +268,80 @@ BY numgrupo INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Ac
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Activo: _CSRVENDEDOR;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X500U2.TMP;Ultimo Control activo: 
 23-02-2022 11:52:09 , Pila de llamadas
 23-02-2022 11:52:10 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2244,6 +350,80 @@ Activo: _CSRVENDEDOR;Ultimo registro:          1 CNUMERO;DBF: C:\USERS\MARCO\APP
 23-02-2022 11:52:10 , Nº de Linea :          9
 23-02-2022 11:52:10 , En el Fuente:    REPLACE ALL ok WITH 1 FOR &lcCampo IN &micursor
 23-02-2022 11:57:46 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'SECTORVTA'.;Linea : SELECT numgrupo,nomgrupo,numcte,nomcte,directe,fecins01,cuit,iva,sectorvta,rutasector,sectorrep,orden,sdocte FROM CsrImpr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2451,7 +631,155 @@ imir ORDER BY numgrupo INTO CURSOR CsrImprimir READWRITE;Error :       1806;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 vta,rutasector,sectorrep) VALUES (CsrCursor.numgrupo,CsrCursor.nomgrupo,Csrcursor.numcte,CsrCursor.nomcte,CsrCursor.directe ,CsrCursor.sdocte,TTOD(CsrCursor.fecins01),0,0,CsrCursor.orden,CsrCursor.turno,csrcursor.cuit,csrcursor.iva ,CsrCursor.sectorvta,C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2637,8 +965,156 @@ srCursor.rutasector,CsrCursor.sectorrep);Error :         12;Ultimo Alias Activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sor.numcte,CsrCursor.nomcte,CsrCursor.directe	     			,CsrCursor.sdocte,TTOD(CsrCursor.fecins01),0,0,CsrCursor.orden,CsrCursor.turno,csrcursor.cuit,csrcursor.iva	     			,CsrCursor.sectorvta,CsrCursor.rutasector,CsrCursor.sectorrep)
 23-02-2022 13:50:34 , LISTAGUIAVISITA.PAGEFRAME1.PAGE1.KITGRILLATILDARRUTA.INIT, Error: El archivo 'csrruta.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2812,8 +1288,156 @@ ampo08,&lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor RE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 23-02-2022 13:51:07 , LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: COLUMN013 es un miembro desconocido.;Linea : .Column013.Header = "Saldo";Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2992,6 +1616,80 @@ APPDATA\LOCAL\TEMP\000286X5016G.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 25-02-2022 18:16:18 , Pila de llamadas
 25-02-2022 18:16:19 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3010,6 +1708,80 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 25-02-2022 18:16:21 , Nº de Linea :       2029
 25-02-2022 18:16:22 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 03-03-2022 16:58:02 , ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENSECTORREP.TXTID.INIT, Error: No se encuentra el alias 'CSRCTACTE'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3154,6 +1926,80 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 TMP;Ultimo Control activo: 
 07-03-2022 12:25:13 , Pila de llamadas
 07-03-2022 12:25:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\inf_caea.sct
@@ -3167,6 +2013,80 @@ TMP;Ultimo Control activo:
 07-03-2022 12:25:14 , Nº de Linea :         18
 07-03-2022 12:25:14 , En el Fuente: 	SELECT CsrInfCabefac
 07-03-2022 12:25:48 , INF_CAEA.ACEPTAR2.CLICK, Error: No se encuentra el alias 'CSRINFCABEFAC'.;Linea : SELECT CsrInfCabefac;Error :         13;Ultimo Alias Activo: CSRGRID;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0002Z1FT00KY.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3302,6 +2222,80 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 17-03-2022 11:03:08 , Pila de llamadas
 17-03-2022 11:03:08 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3320,6 +2314,80 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 17-03-2022 11:03:10 , Nº de Linea :       2029
 17-03-2022 11:03:10 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 17-03-2022 11:08:56 , ABMPROMOPUB.CMDBORRAR.CLICK, Error: No se encuentra la variable 'ESTADO'.;Linea : replace estado WITH 1 IN CsrCabePromoPub;Error :         12;Ultimo Alias Activo: CSRCABEPROMOPUB;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3434,6 +2502,80 @@ ATA\LOCAL\TEMP\0000MMFD0I5H.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMFD0I7R.TMP;Ultimo Control activo: 
 17-03-2022 11:10:31 , Pila de llamadas
 17-03-2022 11:10:31 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3442,6 +2584,80 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 17-03-2022 11:10:32 , Nº de Linea :          2
 17-03-2022 11:10:32 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 17-03-2022 11:17:55 , ABMPROMOPUB.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT, Error: No se encuentra el alias 'CSRCABEPROMOPUB'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: CSRPROD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3547,6 +2763,80 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMFD0J6M.TMP;Ultimo Control activo: 
 17-03-2022 11:18:47 , Pila de llamadas
 17-03-2022 11:18:47 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3555,6 +2845,80 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 17-03-2022 11:18:48 , Nº de Linea :          2
 17-03-2022 11:18:48 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 17-03-2022 11:19:24 , ABMPROMOPUB.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT, Error: No se encuentra el alias 'CSRCABEPROMOPUB'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: CSRPROD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3649,6 +3013,80 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMFD0JC3.TMP;Ultimo Control activo: 
 17-03-2022 11:20:10 , Pila de llamadas
 17-03-2022 11:20:10 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3696,6 +3134,80 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  registro:          0 ;DBF: ;Ultimo Control activo: 
 17-03-2022 11:52:59 , Pila de llamadas
 17-03-2022 11:53:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3704,6 +3216,80 @@ UCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMF
 17-03-2022 11:53:01 , Nº de Linea :          2
 17-03-2022 11:53:01 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 17-03-2022 11:54:56 , ABMPROMOPUB.CMDSALVAR.CLICK, Error: No se encuentra el alias 'CSRDUPLI'.;Linea : SELECT CsrDupli;Error :         13;Ultimo Alias Activo: CSRCABEPROMOPUB;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000J3M1024
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3791,6 +3377,80 @@ P.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .TMP;Ultimo Control activo: CANTIDAD
 17-03-2022 13:36:42 , Pila de llamadas
 17-03-2022 13:36:43 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3814,6 +3474,80 @@ P.TMP;Ultimo Control activo:
 17-03-2022 13:36:49 , Nº de Linea :        324
 17-03-2022 13:36:49 , En el Fuente: 		GATHER NAME Oscatter
 17-03-2022 13:37:26 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3876,6 +3610,80 @@ P.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \MARCO\APPDATA\LOCAL\TEMP\000006X500FA.TMP;Ultimo Control activo: CANTIDAD
 17-03-2022 13:39:21 , Pila de llamadas
 17-03-2022 13:39:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
@@ -3894,6 +3702,80 @@ P.TMP;Ultimo Control activo:
 17-03-2022 13:39:25 , Nº de Linea :        324
 17-03-2022 13:39:25 , En el Fuente: 		GATHER NAME Oscatter
 17-03-2022 13:39:28 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3933,6 +3815,80 @@ P.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  ;DBF: ;Ultimo Control activo: 
 28-03-2022 12:55:17 , Pila de llamadas
 28-03-2022 12:55:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3954,6 +3910,80 @@ P.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ctivo: 
 28-03-2022 12:55:25 , Pila de llamadas
 28-03-2022 12:55:25 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3963,6 +3993,80 @@ ctivo:
 28-03-2022 12:55:25 , En el Fuente: lcordenvie=order(lcalias)
 11-05-2022 13:56:18 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro:
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           0 ;DBF: ;Ultimo Control activo: NOMBRE
 11-05-2022 13:56:18 , Pila de llamadas
 11-05-2022 13:56:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3970,3 +4074,745 @@ ctivo:
 11-05-2022 13:56:18 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 11-05-2022 13:56:19 , Nº de Linea :          2
 11-05-2022 13:56:19 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
+19-05-2022 10:16:06 , RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS, Error: No se encuentra la propiedad IDMENUACTIVO.;Linea : thisform.idmenu = goapp.idmenuactivo;Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000M39L001G.TMP;Ultimo Control activo: 
+19-05-2022 10:16:06 , Pila de llamadas
+19-05-2022 10:16:06 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:06 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtnombre.keypress
+19-05-2022 10:16:06 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:06 , Nº de Linea :         11
+19-05-2022 10:16:07 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
+19-05-2022 10:16:07 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:07 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:16:07 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:07 , Nº de Linea :        188
+19-05-2022 10:16:07 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:16:07 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:16:07 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:16:07 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:16:07 , Nº de Linea :          1
+19-05-2022 10:16:08 , En el Fuente: thisform.idmenu = goapp.idmenuactivo
+19-05-2022 10:16:18 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la propiedad IDMENUACTIVO.;Linea : thisform.idmenu = goapp.idmenuactivo;Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RCO\APPDATA\LOCAL\TEMP\0000M39L001G.TMP;Ultimo Control activo: 
+19-05-2022 10:16:18 , Pila de llamadas
+19-05-2022 10:16:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:19 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:16:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:19 , Nº de Linea :         26
+19-05-2022 10:16:19 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:16:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:19 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:16:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:19 , Nº de Linea :        188
+19-05-2022 10:16:19 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:16:19 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:16:20 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:16:20 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:16:20 , Nº de Linea :          1
+19-05-2022 10:16:20 , En el Fuente: thisform.idmenu = goapp.idmenuactivo
+19-05-2022 10:16:22 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la propiedad IDMENUACTIVO.;Linea : goapp.idmenuactivo = 0;Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAL\TEMP\0000M39L001G.TMP;Ultimo Control activo: 
+19-05-2022 10:16:22 , Pila de llamadas
+19-05-2022 10:16:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:22 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:16:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:22 , Nº de Linea :         26
+19-05-2022 10:16:22 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:16:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:22 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:16:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:23 , Nº de Linea :        188
+19-05-2022 10:16:23 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:16:23 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:16:23 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:16:23 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:16:23 , Nº de Linea :          2
+19-05-2022 10:16:23 , En el Fuente: goapp.idmenuactivo = 0
+19-05-2022 10:16:31 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la propiedad IDMENUACTIVO.;Linea : thisform.idmenu = goapp.idmenuactivo;Error :       1734;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RCO\APPDATA\LOCAL\TEMP\0000M39L001G.TMP;Ultimo Control activo: 
+19-05-2022 10:16:31 , Pila de llamadas
+19-05-2022 10:16:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:32 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:16:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:32 , Nº de Linea :         26
+19-05-2022 10:16:32 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:16:32 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:32 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:16:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:16:32 , Nº de Linea :        188
+19-05-2022 10:16:32 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:16:32 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:16:33 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:16:33 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:16:33 , Nº de Linea :          1
+19-05-2022 10:16:33 , En el Fuente: thisform.idmenu = goapp.idmenuactivo
+19-05-2022 10:20:27 , RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS, Error: No se encuentra la variable 'PIDSISTEMA'.;Linea : lnidprograma = pidsistema;Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+O\APPDATA\LOCAL\TEMP\0000UAKP001C.TMP;Ultimo Control activo: 
+19-05-2022 10:20:27 , Pila de llamadas
+19-05-2022 10:20:27 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:27 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtnombre.keypress
+19-05-2022 10:20:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:28 , Nº de Linea :         11
+19-05-2022 10:20:28 , En el Fuente:       this.Parent.txtexiste1.LostFocus()
+19-05-2022 10:20:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:28 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:20:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:28 , Nº de Linea :        188
+19-05-2022 10:20:28 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:20:28 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:28 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:20:28 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:29 , Nº de Linea :          3
+19-05-2022 10:20:29 , En el Fuente: this.estadofavorito()
+19-05-2022 10:20:29 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:29 , Objeto      : busdescripcion1.boton_favorito1.estadofavorito
+19-05-2022 10:20:29 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:29 , Nº de Linea :          6
+19-05-2022 10:20:29 , En el Fuente: lnidprograma = pidsistema 
+19-05-2022 10:20:41 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la variable 'PIDSISTEMA'.;Linea : lnidprograma = pidsistema;Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\0000UAKP001C.TMP;Ultimo Control activo: 
+19-05-2022 10:20:41 , Pila de llamadas
+19-05-2022 10:20:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:41 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:20:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:41 , Nº de Linea :         26
+19-05-2022 10:20:42 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:20:42 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:42 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:20:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:42 , Nº de Linea :        188
+19-05-2022 10:20:42 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:20:42 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:42 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:20:42 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:42 , Nº de Linea :          3
+19-05-2022 10:20:43 , En el Fuente: this.estadofavorito()
+19-05-2022 10:20:43 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:43 , Objeto      : busdescripcion1.boton_favorito1.estadofavorito
+19-05-2022 10:20:43 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:43 , Nº de Linea :          6
+19-05-2022 10:20:43 , En el Fuente: lnidprograma = pidsistema 
+19-05-2022 10:20:44 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la variable 'PIDSISTEMA'.;Linea : lnidprograma = pidsistema;Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\0000UAKP001C.TMP;Ultimo Control activo: 
+19-05-2022 10:20:45 , Pila de llamadas
+19-05-2022 10:20:45 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:45 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:20:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:45 , Nº de Linea :         26
+19-05-2022 10:20:45 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:20:45 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:45 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:20:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:46 , Nº de Linea :        188
+19-05-2022 10:20:46 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:20:46 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:46 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:20:46 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:46 , Nº de Linea :          3
+19-05-2022 10:20:47 , En el Fuente: this.estadofavorito()
+19-05-2022 10:20:47 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:47 , Objeto      : busdescripcion1.boton_favorito1.estadofavorito
+19-05-2022 10:20:47 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:47 , Nº de Linea :          6
+19-05-2022 10:20:47 , En el Fuente: lnidprograma = pidsistema 
+19-05-2022 10:20:49 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la variable 'PIDSISTEMA'.;Linea : lnidprograma = pidsistema;Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\0000UAKP001C.TMP;Ultimo Control activo: 
+19-05-2022 10:20:49 , Pila de llamadas
+19-05-2022 10:20:49 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:49 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:20:49 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:49 , Nº de Linea :         26
+19-05-2022 10:20:49 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:20:49 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:49 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:20:50 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:50 , Nº de Linea :        188
+19-05-2022 10:20:50 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:20:50 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:50 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:20:50 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:51 , Nº de Linea :          3
+19-05-2022 10:20:51 , En el Fuente: this.estadofavorito()
+19-05-2022 10:20:51 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:51 , Objeto      : busdescripcion1.boton_favorito1.estadofavorito
+19-05-2022 10:20:51 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:51 , Nº de Linea :          6
+19-05-2022 10:20:51 , En el Fuente: lnidprograma = pidsistema 
+19-05-2022 10:20:53 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la variable 'PIDSISTEMA'.;Linea : lnidprograma = pidsistema;Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\0000UAKP001C.TMP;Ultimo Control activo: 
+19-05-2022 10:20:53 , Pila de llamadas
+19-05-2022 10:20:53 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:53 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:20:53 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:53 , Nº de Linea :         26
+19-05-2022 10:20:53 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:20:53 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:53 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:20:53 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:54 , Nº de Linea :        188
+19-05-2022 10:20:54 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:20:54 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:54 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:20:54 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:54 , Nº de Linea :          3
+19-05-2022 10:20:54 , En el Fuente: this.estadofavorito()
+19-05-2022 10:20:54 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:54 , Objeto      : busdescripcion1.boton_favorito1.estadofavorito
+19-05-2022 10:20:55 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:55 , Nº de Linea :          6
+19-05-2022 10:20:55 , En el Fuente: lnidprograma = pidsistema 
+19-05-2022 10:20:56 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la variable 'PIDSISTEMA'.;Linea : lnidprograma = pidsistema;Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\0000UAKP001C.TMP;Ultimo Control activo: 
+19-05-2022 10:20:56 , Pila de llamadas
+19-05-2022 10:20:57 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:57 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:20:57 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:57 , Nº de Linea :         26
+19-05-2022 10:20:57 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:20:57 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:57 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:20:57 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:20:57 , Nº de Linea :        188
+19-05-2022 10:20:58 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:20:58 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:58 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:20:58 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:58 , Nº de Linea :          3
+19-05-2022 10:20:58 , En el Fuente: this.estadofavorito()
+19-05-2022 10:20:58 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:59 , Objeto      : busdescripcion1.boton_favorito1.estadofavorito
+19-05-2022 10:20:59 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:20:59 , Nº de Linea :          6
+19-05-2022 10:20:59 , En el Fuente: lnidprograma = pidsistema 
+19-05-2022 10:21:00 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la variable 'PIDSISTEMA'.;Linea : lnidprograma = pidsistema;Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\0000UAKP001C.TMP;Ultimo Control activo: 
+19-05-2022 10:21:00 , Pila de llamadas
+19-05-2022 10:21:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:21:01 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:21:01 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:21:01 , Nº de Linea :         26
+19-05-2022 10:21:01 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:21:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:21:01 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:21:01 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:21:01 , Nº de Linea :        188
+19-05-2022 10:21:01 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:21:01 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:21:02 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:21:02 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:21:02 , Nº de Linea :          3
+19-05-2022 10:21:02 , En el Fuente: this.estadofavorito()
+19-05-2022 10:21:02 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:21:02 , Objeto      : busdescripcion1.boton_favorito1.estadofavorito
+19-05-2022 10:21:02 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:21:03 , Nº de Linea :          6
+19-05-2022 10:21:03 , En el Fuente: lnidprograma = pidsistema 
+19-05-2022 10:21:04 , RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS, Error: No se encuentra la variable 'PIDSISTEMA'.;Linea : lnidprograma = pidsistema;Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
+
+
+
+
+
+LOCAL\TEMP\0000UAKP001C.TMP;Ultimo Control activo: 
+19-05-2022 10:21:04 , Pila de llamadas
+19-05-2022 10:21:05 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:21:05 , Objeto      : resctacte.kitbuscaoaltaenctacte.gotfocus
+19-05-2022 10:21:05 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:21:05 , Nº de Linea :         26
+19-05-2022 10:21:05 , En el Fuente:    this.txtexiste1.LostFocus()
+19-05-2022 10:21:05 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:21:05 , Objeto      : resctacte.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+19-05-2022 10:21:05 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+19-05-2022 10:21:05 , Nº de Linea :        188
+19-05-2022 10:21:05 , En el Fuente: 				DO FORM buscar2 NAME oform LINKED WITH oBuscar TO luvalorbuscado
+19-05-2022 10:21:05 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:21:06 , Objeto      : busdescripcion1.boton_favorito1.init
+19-05-2022 10:21:06 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:21:06 , Nº de Linea :          3
+19-05-2022 10:21:06 , En el Fuente: this.estadofavorito()
+19-05-2022 10:21:06 , Programa    : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:21:06 , Objeto      : busdescripcion1.boton_favorito1.estadofavorito
+19-05-2022 10:21:06 , Base Objeto : j:\xsoftsql\desarrollo\clases\controles.vct
+19-05-2022 10:21:06 , Nº de Linea :          6
+19-05-2022 10:21:07 , En el Fuente: lnidprograma = pidsistema 
