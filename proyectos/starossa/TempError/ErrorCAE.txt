@@ -1,279 +1,2114 @@
-12-04-2016 , Version 2.10d InstallDir C:\PROGRA~1\PyAfipWs1.16d C:\PROGRA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,10)WSFE.CompUltimoAutorizado(2,10)WSFE.CompUltimoAutorizado(3,10)WSFE.CompUltimoAutorizado(6,10)WSFE.CompUltimoAutorizado(7,10)WSFE.CompUltimoAutorizado(8,10)WSFE.CompUltimoAutorizado(1,10)Orden:2071287703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
-15-04-2016 , Version 2.10d InstallDir C:\PROGRA~1\PyAfipWs1.16d C:\PROGRA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,10)WSFE.CompUltimoAutorizado(2,10)WSFE.CompUltimoAutorizado(3,10)WSFE.CompUltimoAutorizado(6,10)WSFE.CompUltimoAutorizado(7,10)WSFE.CompUltimoAutorizado(8,10)WSFE.CompUltimoAutorizado(6,10)10202: Campo CbteNro no lo ingreso o supera el tamaño permitido de 8 caracteres numericos.
-19-04-2016 , Version 2.10b HomologaciónInstallDir C:\PROGRA~1\PyAfipWs1.16d HomologaciónC:\PROGRA~1\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 152, in capturar_errores_wrapper
-  File "utils.pyc", line 375, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 152, in capturar_errores_wrapper
-  File "utils.pyc", line 375, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-.Exepción: RuntimeError: Ticket de Acceso vacio!
-Traceback: Traceback (most recent call last):
-  File "utils.pyc", line 152, in capturar_errores_wrapper
-  File "utils.pyc", line 375, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-
-19-04-2016 , Version 2.10d InstallDir C:\PROGRA~1\PyAfipWs1.16d C:\PROGRA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,10)WSFE.CompUltimoAutorizado(2,10)WSFE.CompUltimoAutorizado(3,10)WSFE.CompUltimoAutorizado(6,10)WSFE.CompUltimoAutorizado(7,10)WSFE.CompUltimoAutorizado(8,10)WSFE.CompUltimoAutorizado(1,10)Orden:2076637780: El CAEA informado no se encuentra registrado en las bases de la AdministraciÃ³n.602: No existen datos en nuestros registros para los parametros ingresados.
-03-01-2017 , Version 2.11a HomologaciónInstallDir C:\PROGRA~1\PyAfipWs1.18a HomologaciónC:\PROGRA~1\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-.Exepción: RuntimeError: Ticket de Acceso vacio!
-Traceback: Traceback (most recent call last):
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-
-03-01-2017 , Version 2.11a InstallDir C:\PROGRA~1\PyAfipWs1.18a C:\PROGRA~1\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-.Exepción: RuntimeError: Ticket de Acceso vacio!
-Traceback: Traceback (most recent call last):
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-
-07-02-2017 , Version 2.11a InstallDir C:\PROGRA~1\PyAfipWs1.18a C:\PROGRA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Orden:21832681423: Si ImpTrib es mayor a 0 el objeto Tributos y Tributo son obligatorios.602: No existen datos en nuestros registros para los parametros ingresados.
-07-02-2017 , Version 2.11a InstallDir C:\PROGRA~1\PyAfipWs1.18a C:\PROGRA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Orden:21832681423: Si ImpTrib es mayor a 0 el objeto Tributos y Tributo son obligatorios.602: No existen datos en nuestros registros para los parametros ingresados.
-06-04-2018 , Version 2.11a InstallDir C:\APLICA~1\PyAfipWs1.18a C:\APLICA~1\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-.Exepción: RuntimeError: Ticket de Acceso vacio!
-Traceback: Traceback (most recent call last):
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-
-06-04-2018 , Version 2.11a InstallDir C:\PyAfipWs1.18a C:\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-.Exepción: RuntimeError: Ticket de Acceso vacio!
-Traceback: Traceback (most recent call last):
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-
-06-04-2018 , Version 2.11a InstallDir C:\PyAfipWs1.18a C:\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-.Exepción: RuntimeError: Ticket de Acceso vacio!
-Traceback: Traceback (most recent call last):
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-
-06-04-2018 , Version 2.11a InstallDir C:\PyAfipWs1.18a C:\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-.Exepción: RuntimeError: Ticket de Acceso vacio!
-Traceback: Traceback (most recent call last):
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-
-06-04-2018 , Version 2.11a InstallDir C:\PyAfipWs1.18a C:\PyAfipWsCodigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-Linea de codigo de error: wsfe.SetTicketAcceso(ta)Procedimiento: sw_conectarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-.Exepción: RuntimeError: Ticket de Acceso vacio!
-Traceback: Traceback (most recent call last):
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "utils.pyc", line 378, in SetTicketAcceso
-RuntimeError: Ticket de Acceso vacio!
-
-06-04-2018 , Version 2.11a InstallDir C:\PyAfipWsCodigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "wsaa.pyc", line 255, in LoginCMS
-  File "pysimplesoap\client.pyc", line 147, in <lambda>
-  File "pysimplesoap\client.pyc", line 342, in wsdl_call
-  File "pysimplesoap\client.pyc", line 220, in call
-SoapFault: ns1:cms.sign.invalid: Firma invlida o algoritmo no soportado
-Linea de codigo de error: ta = WSAA.LoginCMS(cms)Procedimiento: sw_iniciarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 151, in capturar_errores_wrapper
-  File "wsaa.pyc", line 255, in LoginCMS
-  File "pysimplesoap\client.pyc", line 147, in <lambda>
-  File "pysimplesoap\client.pyc", line 342, in wsdl_call
-  File "pysimplesoap\client.pyc", line 220, in call
-SoapFault: ns1:cms.sign.invalid: Firma invlida o algoritmo no soportado
-.Exepción: ns1:cms.sign.invalid: Firma inválida o algoritmo no soportadoTraceback: 
-09-04-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,14)Orden:2392433704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-09-04-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,14)Orden:2392444704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-09-04-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,14)Orden:2392444704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-14-08-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,14)Orden:2417492704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-14-08-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,14)Orden:2417492704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-14-08-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,14)Orden:2417492704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2434224704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2434224704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2434224704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.704: La fecha del comprobante (CbteFch) debe ser mayor o igual a la fecha del Ãºltimo comprobante informado para igual tipo de comprobante y punto de venta.
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,11)Orden:24378061009: El campo BaseImp en AlicIva es obligatorio y debe ser mayor a 0 cero.602: No existen datos en nuestros registros para los parametros ingresados.
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,11)Orden:24378061009: El campo BaseImp en AlicIva es obligatorio y debe ser mayor a 0 cero.602: No existen datos en nuestros registros para los parametros ingresados.
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,11)Orden:24378061009: El campo BaseImp en AlicIva es obligatorio y debe ser mayor a 0 cero.602: No existen datos en nuestros registros para los parametros ingresados.
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,14)Orden:2441868782: El <CAEA> no esta formado por caracteres numericos.782: El <CAEA> no esta formado por caracteres numericos.
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-10-10-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(3,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-12-11-2019 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(3,0)11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
-06-01-2020 , 1.18a C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2466513602: No existen datos en nuestros registros para los parametros ingresados.
-703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+10-10-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(1,14)
+Orden:2441868782: El <CAEA> no esta formado por caracteres numericos.
+
+782: El <CAEA> no esta formado por caracteres numericos.
+10-10-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+10-10-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(1,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(1,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(1,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(1,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(1,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+12-11-2019 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,0)
+11000: Campo PtoVta, no es un punto de venta valido, los valores posibles son entre 1 y 99998
+06-01-2020 , 
+1.18a 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,11)
+Orden:2466513602: No existen datos en nuestros registros para los parametros ingresados.
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutoriz
+
+
+
+
+
+
+
+
+
+ado.
+
+602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
-30-11-2020 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2591199602: No existen datos en nuestros registros para los parametros ingresados.
-703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+30-11-2020 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,11)
+Orden:2591199602: No existen datos en nuestros registros para los parametros ingresados.
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutoriz
+
+
+
+
+
+
+
+
+
+ado.
+
+602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
-30-11-2020 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2591473602: No existen datos en nuestros registros para los parametros ingresados.
-703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+30-11-2020 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,11)
+Orden:2591473602: No existen datos en nuestros registros para los parametros ingresados.
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutoriz
+
+
+
+
+
+
+
+
+
+ado.
+
+602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
-19-02-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,14)Orden:26224621419: Para facturas B (CbteDesde igual a CbteHasta) menor a $20932, si DocTipo es distinto a 99, DocNro debe ser mayor a 0.602: No existen datos en nuestros registros para los parametros ingresados.
-22-04-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2643747602: No existen datos en nuestros registros para los parametros ingresados.
-703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+19-02-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,14)
+Orden:2622462
+1419: Para facturas B (CbteDesde igual a CbteHasta) menor a $20932, si DocTipo es distinto a 99, DocNro debe ser mayor a 0.
+602: No existen datos en nuestros registros para los parametros ingresados.
+22-04-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,11)
+Orden:2643747602: No existen datos en nuestros registros para los parametros ingresados.
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutoriz
+
+
+
+
+
+
+
+
+
+ado.
+
+602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
-22-04-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2643747602: No existen datos en nuestros registros para los parametros ingresados.
-703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+22-04-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,11)
+Orden:2643747602: No existen datos en nuestros registros para los parametros ingresados.
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutoriz
+
+
+
+
+
+
+
+
+
+ado.
+
+602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
-22-04-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(7,11)Orden:26444771491: Si el comprobante es Debito o Credito, enviar estructura CbteAsoc o PeriodoAsoc.602: No existen datos en nuestros registros para los parametros ingresados.
-22-04-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Codigo error afip:*****Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+22-04-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(7,11)
+Orden:2644477
+1491: Si el comprobante es Debito o Credito, enviar estructura CbteAsoc o PeriodoAsoc.
+602: No existen datos en nuestros registros para los parametros ingresados.
+22-04-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,11)
+Codigo error afip:*****
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
   File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 345, in CompUltimoAutorizado
   File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 354, in wsdl_call
+  File "p
+
+
+
+
+
+
+
+
+
+ysimplesoap\client.pyc", line 354, in wsdl_call
   File "pysimplesoap\simplexml.pyc", line 362, in __call__
 AttributeError: Tag not found: Body (No elements found)
-Linea de codigo de error: UltCBTE = WSFE.CompUltimoAutorizado(cTipoCbte, cPrefijo)Procedimiento: sw_ultimocomprobaError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+
+Linea de codigo de error: UltCBTE = WSFE.CompUltimoAutorizado(cTipoCbte, cPrefijo)
+Procedimiento: sw_ultimocomproba
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
   File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 345, in CompUltimoAutorizado
   File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 354, in wsdl_call
+  File "pysimple
+
+
+
+
+
+
+
+
+
+soap\client.pyc", line 354, in wsdl_call
   File "pysimplesoap\simplexml.pyc", line 362, in __call__
 AttributeError: Tag not found: Body (No elements found)
-.Exepción: AttributeError: Tag not found: Body (No elements found)
-Traceback: Traceback (most recent call last):
+.
+
+Exepción: AttributeError: Tag not found: Body (No elements found)
+
+Traceback: Traceback (most recent call last):
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 345, in CompUltimoAutorizado
   File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 354, in wsdl_call
+  File "pysimplesoap\client.pyc", line 
+
+
+
+
+
+
+
+
+
+354, in wsdl_call
   File "pysimplesoap\simplexml.pyc", line 362, in __call__
 AttributeError: Tag not found: Body (No elements found)
-
-22-04-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(7,11)Orden:2644477805: De enviarse el tag CbtesAsoc, CbteAsoc debe enviarse con Tipo mayor a 0602: No existen datos en nuestros registros para los parametros ingresados.
-22-04-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(7,11)Orden:2644477805: De enviarse el tag CbtesAsoc, CbteAsoc debe enviarse con Tipo mayor a 0602: No existen datos en nuestros registros para los parametros ingresados.
-01-12-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2723347602: No existen datos en nuestros registros para los parametros ingresados.
-703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+
+
+22-04-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(7,11)
+Orden:2644477
+805: De enviarse el tag CbtesAsoc, CbteAsoc debe enviarse con Tipo mayor a 0
+602: No existen datos en nuestros registros para los parametros ingresados.
+22-04-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(7,11)
+Orden:2644477
+805: De enviarse el tag CbtesAsoc, CbteAsoc debe enviarse con Tipo mayor a 0
+602: No existen datos en nuestros registros para los parametros ingresados.
+01-12-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,11)
+Orden:2723347602: No existen datos en nuestros registros para los parametros ingresados.
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutoriz
+
+
+
+
+
+
+
+
+
+ado.
+
+602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
-01-12-2021 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(6,11)Orden:2723347602: No existen datos en nuestros registros para los parametros ingresados.
-703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+01-12-2021 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,11)
+Orden:2723347602: No existen datos en nuestros registros para los parametros ingresados.
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutoriz
+
+
+
+
+
+
+
+
+
+ado.
+
+602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
-10-01-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,17)WSFE.CompUltimoAutorizado(2,17)WSFE.CompUltimoAutorizado(3,17)WSFE.CompUltimoAutorizado(6,17)WSFE.CompUltimoAutorizado(7,17)WSFE.CompUltimoAutorizado(8,17)WSFE.CompUltimoAutorizado(6,17)Orden:68602: No existen datos en nuestros registros para los parametros ingresados.
-703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
+10-01-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,17)
+WSFE.CompUltimoAutorizado(2,17)
+WSFE.CompUltimoAutorizado(3,17)
+WSFE.CompUltimoAutorizado(6,17)
+WSFE.CompUltimoAutorizado(7,17)
+WSFE.CompUltimoAutorizado(8,17)
+WSFE.CompUltimoAutorizado(6,17)
+Orden:68602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
-10-01-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,17)WSFE.CompUltimoAutorizado(2,17)WSFE.CompUltimoAutorizado(3,17)WSFE.CompUltimoAutorizado(6,17)WSFE.CompUltimoAutorizado(7,17)WSFE.CompUltimoAutorizado(8,17)WSFE.CompUltimoAutorizado(8,17)Orden:422703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.602: No existen datos en nuestros registros para los parametros ingresados.
-07-03-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Orden:27619651491: Si el comprobante es Debito o Credito, enviar estructura CbteAsoc o PeriodoAsoc.602: No existen datos en nuestros registros para los parametros ingresados.
-07-03-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Orden:27619651491: Si el comprobante es Debito o Credito, enviar estructura CbteAsoc o PeriodoAsoc.602: No existen datos en nuestros registros para los parametros ingresados.
-21-03-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(3,11)Orden:27716311491: Si el comprobante es Debito o Credito, enviar estructura CbteAsoc o PeriodoAsoc.602: No existen datos en nuestros registros para los parametros ingresados.
-01-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Orden:2789155802: De enviarse el tag CbtesAsoc debe enviarse PtoVta mayor a 0602: No existen datos en nuestros registros para los parametros ingresados.
-02-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+
+602: No existen datos en nuestros registros para los parametros ingresados.
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
+10-01-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,17)
+WSFE.CompUltimoAutorizado(2,17)
+WSFE.CompUltimoAutorizado(3,17)
+WSFE.CompUltimoAutorizado(6,17)
+WSFE.CompUltimoAutorizado(7,17)
+WSFE.CompUltimoAutorizado(8,17)
+WSFE.CompUltimoAutorizado(8,17)
+Orden:422
+703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutorizado.
+602: No existen datos en nuestros registros para los parametros ingresados.
+07-03-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Orden:2761965
+1491: Si el comprobante es Debito o Credito, enviar estructura CbteAsoc o PeriodoAsoc.
+602: No existen datos en nuestros registros para los parametros ingresados.
+07-03-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Orden:2761965
+1491: Si el comprobante es Debito o Credito, enviar estructura CbteAsoc o PeriodoAsoc.
+602: No existen datos en nuestros registros para los parametros ingresados.
+21-03-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Orden:2771631
+1491: Si el comprobante es Debito o Credito, enviar estructura CbteAsoc o PeriodoAsoc.
+602: No existen datos en nuestros registros para los parametros ingresados.
+01-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Orden:2789155
+802: De enviarse el tag CbtesAsoc debe enviarse PtoVta mayor a 0
+602: No existen datos en nuestros registros para los parametros ingresados.
+02-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+02-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+02-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,14)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,14)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(6,14)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1253). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1253). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1253). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(2,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1583). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1583). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1583). ---> Input string was not in a correct format.
+03-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(2,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1583). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1583). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1583). ---> Input string was not in a correct format.
+06-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1592). ---> Input string was not in a correct format.
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1592). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1592). ---> Input string was not in a correct format.
+22-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+22-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+22-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+22-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+22-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(3,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
   File "win32com\server\policy.pyc", line 277, in _Invoke_
   File "win32com\server\policy.pyc", line 282, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
@@ -282,7 +2117,7 @@ AttributeError: Tag not found: Body (No elements found)
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimplesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1588). ---> Input string was not in a correct format.
 Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()Procedimiento: inf_procesoError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
   File "win32com\server\policy.pyc", line 277, in _Invoke_
   File "win32com\server\policy.pyc", line 282, in _invoke_
@@ -292,152 +2127,5 @@ SoapFault: soap:Client: Server was unable to read request. ---> There is an erro
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimplesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-02-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()Procedimiento: inf_procesoError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-02-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()Procedimiento: inf_procesoError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-03-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()Procedimiento: inf_procesoError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-03-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()Procedimiento: inf_procesoError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-03-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()Procedimiento: inf_procesoError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-03-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()Procedimiento: inf_procesoError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-03-06-2022 , 1.23b C:\APLICA~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Codigo error afip:0Numero de Error: 1429Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()Procedimiento: inf_procesoError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimplesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1588). ---> Input string was not in a correct format.
+.Exepción: Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1588). ---> Input string was not in a correct format.
