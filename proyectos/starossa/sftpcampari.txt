@@ -1,0 +1,9 @@
+echo on
+open sftp://CAM.SantaRosa.851:rGnL)F3q@ftpsrv01.lacarss.com.ar -hostkey="ssh-rsa 2047 mWau6JppgfvvUNnX1HNU52TWaKKhSWlG+wFf2iSW+6U="
+
+put c:\aplicaciones\santarossa\campari\*.txt /CAMPARI/SantaRosa/ -resume
+
+exit
+
+#user:CAM.SantaRosa.851 -password=rGnL)F3q 
+
