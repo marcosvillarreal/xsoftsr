@@ -1,495 +1,5 @@
 
 
- :       1806 Ultimo Alias Activo: CSRIMPRIMIR Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X500R0.TMP Ultimo Control activo:  LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-23-02-2022 11:52:07 , Error: Incompatibilidad entre el tipo de operador y el tipo de operando. Linea : REPLACE ALL ok WITH 1 FOR &lcCampo IN &micursor Error :        107 Ultimo Alias Activo: _CSRVENDEDOR Ultimo registro:          1 CNUMERO DBF: C:\USERS\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MARCO\APPDATA\LOCAL\TEMP\000286X500U2.TMP Ultimo Control activo:  LISTAPADRON.PAGEFRAME1.PAGE1.KITGRILLATILDARVENDEDOR.CMDOPTION1.CLICK
-23-02-2022 11:57:45 , Error: SQL: no se encuentra la columna 'SECTORVTA'. Linea : SELECT numgrupo,nomgrupo,numcte,nomcte,directe,fecins01,cuit,iva,sectorvta,rutasector,sectorrep,orden,sdocte FROM CsrImprimir ORDER BY numgrupo INTO CURSOR CsrImprimir READ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-WRITE Error :       1806 Ultimo Alias Activo: CSRIMPRIMIR Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X500ZC.TMP Ultimo Control activo:  LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-23-02-2022 12:39:09 , Error: No se encuentra la variable 'SECTORVTA'. Linea : INSERT INTO CsrImprimir (numgrupo,nomgrupo,numcte,nomcte,directe,sdocte,fecins01,botella,plastico,orden,turno,cuit,iva,sectorvta,rutasector,sectorrep) VALUES (CsrCursor.numgrup
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-o,CsrCursor.nomgrupo,Csrcursor.numcte,CsrCursor.nomcte,CsrCursor.directe ,CsrCursor.sdocte,TTOD(CsrCursor.fecins01),0,0,CsrCursor.orden,CsrCursor.turno,csrcursor.cuit,csrcursor.iva ,CsrCursor.sectorvta,CsrCursor.rutasector,CsrCursor.sectorrep) Error :   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      12 Ultimo Alias Activo: CSRCURSOR Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X5010Q.TMP Ultimo Control activo:  LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-23-02-2022 13:50:34 , Error: El archivo 'csrruta.dbf' no existe. Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden int
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -598,6 +108,11 @@ o,CsrCursor.nomgrupo,Csrcursor.numcte,CsrCursor.nomcte,CsrCursor.directe ,CsrCur
 
 o cursor &micursor READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  LISTAGUIAVISITA.PAGEFRAME1.PAGE1.KITGRILLATILDARRUTA.INIT
 23-02-2022 13:51:06 , Error: COLUMN013 es un miembro desconocido. Linea : .Column013.Header = "Saldo" Error :       1925 Ultimo Alias Activo: CSRIMPRIMIR Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000286X5016G.TMP Ultimo Control 
+
+
+
+
+
 
 
 
@@ -829,8 +344,18 @@ activo:  LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
 :       1429 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  MAIN
 03-03-2022 16:58:01 , Error: No se encuentra el alias 'CSRCTACTE'. Linea : this.controlsource=this.parent.controlsourcetxtid Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1
+
+
+
+
+
 
 
 
@@ -1058,8 +583,18 @@ activo:  LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
 :  INF_CAEA.ACEPTAR2.CLICK
 07-03-2022 12:25:48 , Error: No se encuentra el alias 'CSRINFCABEFAC'. Linea : SELECT CsrInfCabefac Error :         13 Ultimo Alias Activo: CSRGRID Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0002Z1FT00KY.TMP Ultimo Control activo
+
+
+
+
+
 
 
 
@@ -1283,8 +818,18 @@ activo:  LISTAGUIAVISITA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
 :       1429 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  MAIN
 17-03-2022 11:08:55 , Error: No se encuentra la variable 'ESTADO'. Linea : replace estado WITH 1 IN CsrCabePromoPub Error :         12 Ultimo Alias Activo: CSRCABEPROMOPUB Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMFD0I5H.T
+
+
+
+
+
 
 
 
@@ -1504,8 +1049,18 @@ MP Ultimo Control activo:  ABMPROMOPUB.CMDBORRAR.CLICK
 
 
 
+
+
+
+
+
 0MMFD0I7R.TMP Ultimo Control activo:  ABMPROMOPUB.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT
 17-03-2022 11:17:55 , Error: No se encuentra el alias 'CSRCABEPROMOPUB'. Linea : this.controlsource=this.parent.controlsourcetxtid Error :         13 Ultimo Alias Activo: CSRPRODUCTO Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
 
 
 
@@ -1721,8 +1276,18 @@ MP Ultimo Control activo:  ABMPROMOPUB.CMDBORRAR.CLICK
 
 
 
+
+
+
+
+
 0MMFD0J6M.TMP Ultimo Control activo:  ABMPROMOPUB.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT
 17-03-2022 11:19:24 , Error: No se encuentra el alias 'CSRCABEPROMOPUB'. Linea : this.controlsource=this.parent.controlsourcetxtid Error :         13 Ultimo Alias Activo: CSRPRODUCTO Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
 
 
 
@@ -1934,8 +1499,18 @@ MP Ultimo Control activo:  ABMPROMOPUB.CMDBORRAR.CLICK
 
 
 
+
+
+
+
+
 0MMFD0JC3.TMP Ultimo Control activo:  ABMPROMOPUB.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABONIFICAR.TXTID.INIT
 17-03-2022 11:52:57 , Error: No se encuentra el alias 'CSRCABEPROMOPUB'. Linea : this.controlsource=this.parent.controlsourcetxtid Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ABMPROMOPUB.CONTENEDOR1
+
+
+
+
+
 
 
 
@@ -2143,8 +1718,18 @@ MP Ultimo Control activo:  ABMPROMOPUB.CMDBORRAR.CLICK
 
 
 
+
+
+
+
+
  ABMPROMOPUB.CMDSALVAR.CLICK
 17-03-2022 13:36:39 , Error: Desbordamiento numérico (se han perdido datos). Linea : GATHER NAME Oscatter Error :         39 Ultimo Alias Activo: CSRAUXCUERFAC Ultimo registro:          1 REGISTRO DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000006X500FA.TMP U
+
+
+
+
+
 
 
 
@@ -2348,8 +1933,18 @@ ltimo Control activo: CANTIDAD MAIN
 
 
 
+
+
+
+
+
 ltimo Control activo: CANTIDAD REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
 17-03-2022 13:39:20 , Error: Desbordamiento numérico (se han perdido datos). Linea : GATHER NAME Oscatter Error :         39 Ultimo Alias Activo: CSRAUXCUERFAC Ultimo registro:          1 REGISTRO DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000006X500FA.TMP U
+
+
+
+
+
 
 
 
@@ -2549,8 +2144,18 @@ ltimo Control activo: CANTIDAD REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
 
 
 
+
+
+
+
+
 ltimo Control activo: CANTIDAD REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
 28-03-2022 12:55:17 , Error: No se encuentra el alias 'CSRCTACTE'. Linea : This.txtnombre.value = &lccamponombre Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  REGFACCPRA.CONTAINERENCABEZA.KITBUSCAOALT
+
+
+
+
+
 
 
 
@@ -2746,8 +2351,18 @@ AENCTACTE.TXTEXISTE1.LOSTFOCUS
 
 
 
+
+
+
+
+
 TFOCUS
 11-05-2022 13:56:17 , Error: No se encuentra el alias 'CSRPRODUCTO'. Linea : this.controlsource=this.parent.controlsourcetxtid Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo: NOMBRE ABMPRODUCTO.CONTENEDO
+
+
+
+
+
 
 
 
@@ -2939,8 +2554,18 @@ R1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT
 
 
 
+
+
+
+
+
 timo Control activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS
 19-05-2022 10:16:18 , Error: No se encuentra la propiedad IDMENUACTIVO. Linea : thisform.idmenu = goapp.idmenuactivo Error :       1734 Ultimo Alias Activo: CSRCTACTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000M39L001G.TMP Ul
+
+
+
+
+
 
 
 
@@ -3128,8 +2753,18 @@ timo Control activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 
 
 
+
+
+
+
+
 ctivo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 19-05-2022 10:16:31 , Error: No se encuentra la propiedad IDMENUACTIVO. Linea : thisform.idmenu = goapp.idmenuactivo Error :       1734 Ultimo Alias Activo: CSRCTACTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000M39L001G.TMP Ul
+
+
+
+
+
 
 
 
@@ -3313,8 +2948,18 @@ timo Control activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 
 
 
+
+
+
+
+
  activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.TXTNOMBRE.KEYPRESS
 19-05-2022 10:20:41 , Error: No se encuentra la variable 'PIDSISTEMA'. Linea : lnidprograma = pidsistema Error :         12 Ultimo Alias Activo: CSRCTACTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000UAKP001C.TMP Ultimo Control
+
+
+
+
+
 
 
 
@@ -3494,8 +3139,18 @@ timo Control activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 
 
 
+
+
+
+
+
  activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 19-05-2022 10:20:48 , Error: No se encuentra la variable 'PIDSISTEMA'. Linea : lnidprograma = pidsistema Error :         12 Ultimo Alias Activo: CSRCTACTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000UAKP001C.TMP Ultimo Control
+
+
+
+
+
 
 
 
@@ -3671,8 +3326,18 @@ timo Control activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 
 
 
+
+
+
+
+
  activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 19-05-2022 10:20:56 , Error: No se encuentra la variable 'PIDSISTEMA'. Linea : lnidprograma = pidsistema Error :         12 Ultimo Alias Activo: CSRCTACTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000UAKP001C.TMP Ultimo Control
+
+
+
+
+
 
 
 
@@ -3844,8 +3509,18 @@ timo Control activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 
 
 
+
+
+
+
+
  activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 19-05-2022 10:21:03 , Error: No se encuentra la variable 'PIDSISTEMA'. Linea : lnidprograma = pidsistema Error :         12 Ultimo Alias Activo: CSRCTACTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000UAKP001C.TMP Ultimo Control
+
+
+
+
+
 
 
 
@@ -4013,8 +3688,18 @@ timo Control activo:  RESCTACTE.KITBUSCAOALTAENCTACTE.GOTFOCUS
 
 
 
+
+
+
+
+
 H00AL.TMP Ultimo Control activo:  VENTAAGRUPADA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 05-07-2022 15:46:01 , Error: El archivo 'csrcabefac.dbf' no existe. Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as 
+
+
+
+
+
 
 
 
@@ -4178,7 +3863,17 @@ Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,0000
 
 
 
+
+
+
+
+
 vari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete
+
+
+
+
+
 
 
 
@@ -4342,7 +4037,17 @@ vari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as cop
 
 
 
+
+
+
+
+
 ncion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as Subt
+
+
+
+
+
 
 
 
@@ -4506,7 +4211,17 @@ otSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00
 
 
 
+
+
+
+
+
 seDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefa
+
+
+
+
+
 
 
 
@@ -4670,8 +4385,18 @@ c READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0
 
 
 
+
+
+
+
+
 0CI.TMP Ultimo Control activo:  MAIN
 13-07-2022 11:34:42 , Error: El archivo 'j:\xsoftsr\proyectos\starossa\patroncarga_cot_ws.scx' no existe. Linea : DO FORM &lcForm Error :          1 Ultimo Alias Activo: CSRKEY Ultimo registro:          2  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000TGY10
+
+
+
+
+
 
 
 
@@ -4831,8 +4556,18 @@ c READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0
 
 
 
+
+
+
+
+
 PPDATA\LOCAL\TEMP\0000TGY1014M.TMP Ultimo Control activo:  MAIN
 13-07-2022 12:05:24 , Error: COTWS es un miembro desconocido. Linea : This.CotWS.cot_generar() Error :       1925 Ultimo Alias Activo: CSRAUXCARGA Ultimo registro:          1 NROCARGA DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000RD3D006K.TMP Ultimo Control
+
+
+
+
+
 
 
 
@@ -4988,8 +4723,18 @@ PPDATA\LOCAL\TEMP\0000TGY1014M.TMP Ultimo Control activo:  MAIN
 
 
 
+
+
+
+
+
  activo:  PATRONCARGA_COT.ACEPTAR1.CLICK
 13-07-2022 13:16:19 , Error: El archivo 'csrcabefac.dbf' no existe. Linea : SELECT CsrCabefac.*,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2 ,00000000.00 as ivari3,00000000
+
+
+
+
+
 
 
 
@@ -5141,7 +4886,17 @@ PPDATA\LOCAL\TEMP\0000TGY1014M.TMP Ultimo Control activo:  MAIN
 
 
 
+
+
+
+
+
 1 ,SPACE(13) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(13) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(13) as nomrete4,00000000.00 as retencion4,000000000.00 
+
+
+
+
+
 
 
 
@@ -5293,7 +5048,17 @@ as Baserete4,000.00 as tasarete4 ,SPACE(13) as nomrete5,00000000.00 as retencion
 
 
 
+
+
+
+
+
 nilla ,SPACE(2) as categoria FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE Error :          1 Ultimo Alias Activo: CSRAUXCARGA Ultimo registro:          1 NROCARGA DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000RD3D00C5.TMP Ult
+
+
+
+
+
 
 
 
@@ -5445,8 +5210,18 @@ imo Control activo:  PATRONCARGA_COT.LOAD
 
 
 
+
+
+
+
+
 PPDATA\LOCAL\TEMP\0000RD3D00GH.TMP Ultimo Control activo:  PATRONCARGA_COT.CMDPROCESAR.CLICK
 13-07-2022 13:26:53 , Error: Denegado j:\xsoftsr\proyectos\starossa\knumcomp.idx al acceso al archivo. Linea : INDEX on numcomp TO knumcomp Error :       1705 Ultimo Alias Activo: CSRAUXCABEFAC Ultimo registro:         36 IDVENDEDOR DBF: C:\USERS\MARCO\A
+
+
+
+
+
 
 
 
@@ -5594,8 +5369,18 @@ PPDATA\LOCAL\TEMP\0000RD3D00I3.TMP Ultimo Control activo:  PATRONCARGA_COT.CMDPR
 
 
 
+
+
+
+
+
 PPDATA\LOCAL\TEMP\0000RD3D00LQ.TMP Ultimo Control activo:  PATRONCARGA_COT.CMDPROCESAR.CLICK
 22-07-2022 14:12:31 , Error: El archivo 'csrcabecpra.dbf' no existe. Linea : SELECT CsrCabecpra.*,00 as copiatkt,0 as idsubcta,SPACE(3) as subnumero,SPACE(40) as detalle,DATETIME() as Vencimien ,000.00 as bonif1,000.00 as bonif2,SPACE(10) as parada FROM 
+
+
+
+
+
 
 
 
@@ -5739,8 +5524,18 @@ CsrCabecpra WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE Error :
 
 
 
+
+
+
+
+
 era READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  REGFACCPRA.LOAD
 22-07-2022 14:13:01 , Error: Error al cargar el archivo - número de registro 152. Grid1  <o uno de sus miembros>.  ControlSource : No se encuentra la variable 'IDCLASE' Linea : SELECT Csrmaopera.*,0000000000 as idvdorplan,CAST(0 as int) as iddeposito,000
+
+
+
+
+
 
 
 
@@ -5880,8 +5675,18 @@ era READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:         
 
 
 
+
+
+
+
+
 00000 AS nrocaja,SPACE(6) as pefiscal FROM Csrmaopera WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMaopera READWRITE Error :       2005 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ON... 
 22-07-2022 14:28:40 , Error: El nombre de campo está duplicado o no es válido. Linea : CREATE CURSOR CsrAuxPlancue (cuenta n(5),nombre c(40),detalle c(40),nomprov c(20),importe n(11,2),tasa n(5,2),impuesto n(11,2),idprovincia i ,idcuenta i,tipoconce c(2)
+
+
+
+
+
 
 
 
@@ -6017,8 +5822,18 @@ era READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:         
 
 
 
+
+
+
+
+
 GFACCPRA.LOAD
 22-07-2022 14:29:35 , Error: No se encuentra la variable 'NROCAJA'. Linea : INSERT INTO CsrAuxmaopera (origen,programa,terminal,fechasis,idoperador,idvendedor,numcomp ,iddetanrocaja,turno,switch,sucursal,sector,puestocaja,idcotizadolar,nrocaja,iddeposito
+
+
+
+
+
 
 
 
@@ -6152,7 +5967,17 @@ GFACCPRA.LOAD
 
 
 
+
+
+
+
+
 puestocaja ,Csrparadiario.idcotizadolar,Csrparadiario.nrocaja,thisform.lniddeposito,Csrparadiario.pefiscal,'0',"") Error :         12 Ultimo Alias Activo: CSRAUXMAOPERA Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000AG3T01PV.TMP 
+
+
+
+
+
 
 
 
@@ -6286,8 +6111,18 @@ Ultimo Control activo:  REGFACCPRA.INIT
 
 
 
+
+
+
+
+
 A REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 14:32:21 , Error: GRID1 es un miembro desconocido. Linea : .grid1.coLUMN3.combo1.RowSource = "CsrClaseCta.cnombre,id" Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
 
 
 
@@ -6417,8 +6252,18 @@ A REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 0AG3T026S.TMP Ultimo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 14:38:39 , Error: GRID1 es un miembro desconocido. Linea : .grid1.coLUMN3.combo1.RowSource = "CsrClaseCta.cnombre,id" Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
 
 
 
@@ -6544,8 +6389,18 @@ A REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 0AG3T02OJ.TMP Ultimo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 14:44:36 , Error: GRID1 es un miembro desconocido. Linea : .grid1.coLUMN3.combo1.refresh() Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000AG3T02XW.TMP Ultimo Contro
+
+
+
+
+
 
 
 
@@ -6667,8 +6522,18 @@ l activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 14:46:25 , Error: GRID1 es un miembro desconocido. Linea : thisform.grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000AG3T0378.TMP Ultimo Control a
+
+
+
+
+
 
 
 
@@ -6786,8 +6651,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
 ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 14:46:36 , Error: GRID1 es un miembro desconocido. Linea : thisform.grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000AG3T0378.TMP Ultimo Control a
+
+
+
+
+
 
 
 
@@ -6901,8 +6776,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
 ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 14:46:49 , Error: GRID1 es un miembro desconocido. Linea : thisform.grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000AG3T0378.TMP Ultimo Control a
+
+
+
+
+
 
 
 
@@ -7012,8 +6897,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
 ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 14:50:54 , Error: GRID1 es un miembro desconocido. Linea : thisform.grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000Q615007N.TMP Ultimo Control a
+
+
+
+
+
 
 
 
@@ -7119,8 +7014,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
 ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 15:55:45 , Error: GRID1 es un miembro desconocido. Linea : lObjetoId    = &lcnameObjeto Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MHHL007U.TMP Ultimo Control a
+
+
+
+
+
 
 
 
@@ -7222,8 +7127,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 15:56:12 , Error: GRID1 es un miembro desconocido. Linea : thisform.grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MHHL007U.TMP Ultimo Control a
+
+
+
+
+
 
 
 
@@ -7321,8 +7236,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
 ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 16:02:49 , Error: No se encuentra el alias 'CSRPROVCONTABLE'. Linea : SELECT CsrProvcontable Error :         13 Ultimo Alias Activo: CSRPLANCUE Ultimo registro:         48  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000KPHL009Q.TMP Ultimo Control
+
+
+
+
+
 
 
 
@@ -7416,8 +7341,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
 vo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 16:03:13 , Error: GRID1 es un miembro desconocido. Linea : thisform.grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRPLANCUE Ultimo registro:         48  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000KPHL009Q.TMP Ultimo Control acti
+
+
+
+
+
 
 
 
@@ -7507,8 +7442,18 @@ vo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
 vo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 16:03:39 , Error: GRID1 es un miembro desconocido. Linea : thisform.grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRPLANCUE Ultimo registro:         48  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000KPHL009Q.TMP Ultimo Control acti
+
+
+
+
+
 
 
 
@@ -7594,8 +7539,18 @@ vo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
 vo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 16:09:16 , Error: GRID1 es un miembro desconocido. Linea : thisform.grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          3  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000F5S9007W.TMP Ultimo Control a
+
+
+
+
+
 
 
 
@@ -7677,8 +7632,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 22-07-2022 16:18:46 , Error: No se encuentra el alias 'CSRPROVCONTABLE'. Linea : SELECT CsrProvcontable Error :         13 Ultimo Alias Activo: CSRPLANCUE Ultimo registro:         48  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000089AH009M.TMP Ultimo Control
+
+
+
+
+
 
 
 
@@ -7756,8 +7721,18 @@ ctivo: PARADA REGFACCPRA.CONTAINERENCABEZA.GOTFOCUS
 
 
 
+
+
+
+
+
   4  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000089AH00KP.TMP Ultimo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 16:24:47 , Error: No se encuentra la propiedad GRID1B_PROCESARLINEA. Linea : thisform.grid1b_procesarlinea(27) Error :       1734 Ultimo Alias Activo: CSRPROVCTACON Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000089AH00
+
+
+
+
+
 
 
 
@@ -7831,8 +7806,18 @@ ML.TMP Ultimo Control activo: PARADA REGFACCPRA.KEYPRESS
 
 
 
+
+
+
+
+
 \USERS\MARCO\APPDATA\LOCAL\TEMP\000089AH00V6.TMP Ultimo Control activo:  REGFACCPRA.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.GOTFOCUS
 22-07-2022 16:29:09 , Error: No se encuentra la variable 'IDCUENTA'. Linea : LOCATE FOR id = CsrAuxCabefac.idcuenta Error :         12 Ultimo Alias Activo: CSRPLANCUE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000089AH01AY.TMP Ul
+
+
+
+
+
 
 
 
@@ -7902,8 +7887,18 @@ timo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 mo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 16:37:13 , Error: No se encuentra la propiedad GRID3_VIZUALISAR. Linea : thisform.grid3_vizualisar() Error :       1734 Ultimo Alias Activo: CSRPROVINCIA Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000089AH01GU.TMP Ulti
+
+
+
+
+
 
 
 
@@ -7969,8 +7964,18 @@ mo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 mo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 16:40:05 , Error: No se encuentra la propiedad GRID3_VIZUALISAR. Linea : thisform.grid3_vizualisar() Error :       1734 Ultimo Alias Activo: CSRPROVINCIA Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000089AH01Q7.TMP Ulti
+
+
+
+
+
 
 
 
@@ -8032,8 +8037,18 @@ mo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 mo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 16:42:18 , Error: No se encuentra la propiedad GRID3_VISUALISAR. Linea : thisform.grid3_visualisar() Error :       1734 Ultimo Alias Activo: CSRPROVINCIA Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\000089AH01ZK.TMP Ulti
+
+
+
+
+
 
 
 
@@ -8091,8 +8106,18 @@ mo Control activo: PARADA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 
 
 
+
+
+
+
+
 AL\TEMP\0000ONWP007O.TMP Ultimo Control activo: CUENTA REGFACCPRA.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 22-07-2022 16:47:03 , Error: KITBUSCARPLANGRAVADO es un miembro desconocido. Linea : thisform.kitbuscarPlanGravado.ltextodigitado = .t. Error :       1925 Ultimo Alias Activo: CSRAUXPLANGRAVADO Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOC
+
+
+
+
+
 
 
 
@@ -8146,8 +8171,18 @@ AL\TEMP\0000ONWP007O.TMP Ultimo Control activo: CUENTA REGFACCPRA.CONTENEDORREGI
 
 
 
+
+
+
+
+
 AL\TEMP\0000ONWP007O.TMP Ultimo Control activo: CUENTA REGFACCPRA.CONTENEDORREGISTRO.GRID3.AFTERROWCOLCHANGE
 22-07-2022 16:47:11 , Error: KITBUSCARPLANGRAVADO es un miembro desconocido. Linea : thisform.kitbuscarPlanGravado.ltextodigitado = .t. Error :       1925 Ultimo Alias Activo: CSRAUXPLANGRAVADO Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOC
+
+
+
+
+
 
 
 
@@ -8197,8 +8232,18 @@ AL\TEMP\0000ONWP007O.TMP Ultimo Control activo: CUENTA REGFACCPRA.CONTENEDORREGI
 
 
 
+
+
+
+
+
 trol activo: IMPUESTO REGFACCPRA.KEYPRESS
 22-07-2022 17:25:41 , Error: No se encuentra la propiedad CARGARVALORESGRAVADO. Linea : .cargarvaloresgravado() Error :       1734 Ultimo Alias Activo: CSRAUXPLANGRAVADO Ultimo registro:          2  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000VGUH031X.TMP
+
+
+
+
+
 
 
 
@@ -8244,8 +8289,18 @@ trol activo: IMPUESTO REGFACCPRA.KEYPRESS
 
 
 
+
+
+
+
+
 Ultimo Control activo:  REGFACCPRA.KEYPRESS
 22-07-2022 17:30:28 , Error: GRID1 es un miembro desconocido. Linea : .grid1.column1.text1.Value =  CsrPlanCue.cuenta Error :       1925 Ultimo Alias Activo: CSRPLANCUE Ultimo registro:          7  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000VGUH03KT.TMP 
+
+
+
+
+
 
 
 
@@ -8287,8 +8342,18 @@ Ultimo Control activo:  REGFACCPRA.KEYPRESS
 
 
 
+
+
+
+
+
 o Control activo: IMPORTE REGFACCPRA.KEYPRESS
 25-07-2022 11:34:54 , Error: GRID1 es un miembro desconocido. Linea : .grid1.Visible = .f. Error :       1925 Ultimo Alias Activo: CSRAUXPLANCUE Ultimo registro:          3  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00000ZYH00ZC.TMP Ultimo Control activo: I
+
+
+
+
+
 
 
 
@@ -8326,8 +8391,18 @@ MPORTE REGFACCPRA.KEYPRESS
 
 
 
+
+
+
+
+
 GFACCPRA.KEYPRESS
 25-07-2022 11:38:10 , Error: GRID2 es un miembro desconocido. Linea : thisform.grid2.ReadOnly=.t. Error :       1925 Ultimo Alias Activo: CSRCTACTE Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00000ZYH01HX.TMP Ultimo Control activo
+
+
+
+
+
 
 
 
@@ -8361,8 +8436,18 @@ GFACCPRA.KEYPRESS
 
 
 
+
+
+
+
+
 o:  EXPORTARB.INIT
 25-07-2022 16:51:04 , Error: _OPTIONTIPO es un miembro desconocido. Linea : ._optionTipo.value=IIF(.tipoimp$'P',1,2) Error :       1925 Ultimo Alias Activo: CSRIMPPB2 Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000KCG900CC.TMP Ul
+
+
+
+
+
 
 
 
@@ -8392,8 +8477,18 @@ timo Control activo:  EXPORTARB.INIT
 
 
 
+
+
+
+
+
 Y.TMP Ultimo Control activo:  EXPORTARB.INIT
 25-07-2022 18:07:04 , Error: _OPTIONTIPO es un miembro desconocido. Linea : IF .tipoprov$'BA' AND .tipoform$"R" AND ._optionTipo.Value=1  &&Retenciones Practicadas BsAs Error :       1925 Ultimo Alias Activo: CSRIMPPB2 Ultimo registro:          1  DBF: C
+
+
+
+
+
 
 
 
@@ -8419,8 +8514,18 @@ Y.TMP Ultimo Control activo:  EXPORTARB.INIT
 
 
 
+
+
+
+
+
  activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 25-07-2022 18:07:54 , Error: La expresión no es válida fuera de WITH/ENDWITH. Linea : CASE .tipoform$"R" Error :       1940 Ultimo Alias Activo: CSRIMPPB2 Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000KCG900K4.TMP Ultimo Control
+
+
+
+
+
 
 
 
@@ -8442,8 +8547,18 @@ Y.TMP Ultimo Control activo:  EXPORTARB.INIT
 
 
 
+
+
+
+
+
  activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 25-07-2022 18:08:56 , Error: No se encuentra la variable 'LNDIAS'. Linea : .exportaribtorete(lndias) Error :         12 Ultimo Alias Activo: CSRIMPPB2 Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000KCG900KT.TMP Ultimo Control act
+
+
+
+
+
 
 
 
@@ -8461,8 +8576,18 @@ ivo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 O\APPDATA\LOCAL\TEMP\00003UO90023.TMP Ultimo Control activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 04-08-2022 10:57:39 , Error: No se encuentra la propiedad EMPRESACONVENIO. Linea : IF  goapp.empresaconvenio = 0 Error :       1734 Ultimo Alias Activo: CSRIMPRIMIR Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00003UO90023.TMP Ulti
+
+
+
+
+
 
 
 
@@ -8476,8 +8601,18 @@ mo Control activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
 mo Control activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 04-08-2022 10:59:33 , Error: No se encuentra la propiedad EMPRESACONVENIO. Linea : IF  goapp.empresaconvenio = 0 Error :       1734 Ultimo Alias Activo: CSRIMPRIMIR Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00003UO90063.TMP Ulti
+
+
+
+
+
 
 
 
@@ -8487,14 +8622,54 @@ mo Control activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
 ol activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 04-08-2022 11:02:58 , Error: No se encuentra la variable 'LCUIT'. Linea : INSERT INTO Csrauximprimir (cuit ,fecha ,sucursal,emision,importe) VALUES (lcuit ,lcfecha ,lcsucursal ,lcemision,lcimporte ) Error :         12 Ultimo Alias Activo: CSRCUERPO Ultim
+
+
+
+
+
 
 
 o registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00003UO900I4.TMP Ultimo Control activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 04-08-2022 11:04:33 , Error: No se encuentra la propiedad LCTITULO. Linea : ObjReporter.titulo1 =UPPER( 'Informe '+thisform.lctitulo) Error :       1734 Ultimo Alias Activo: CSRAUXIMPRIMIR Ultimo registro:          5  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TE
 
+
+
+
+
+
 MP\00003UO900LL.TMP Ultimo Control activo:  EXPORTARB.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 04-08-2022 11:50:45 , Error: El archivo 'csrauximprimir.dbf' no existe. Linea : INSERT INTO Csrauximprimir (cuit ,fecha ,sucursal,emision,importe) VALUES (lccuit ,lcfecha ,lcsucursal ,lcemision,lcimporte ) Error :          1 Ultimo Alias Activo: CSRAUXIL
+
+
+
+
+
 IAR Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00003UO902H2.TMP Ultimo Control activo:  REGRETEIB.CONTAINEREXP.ACEPTAR1.CLICK
-04-08-2022 11:53:56 , Error: No se encuentra la variable 'LCPERIODO'. Linea : lcFile = lcDestino+'RIBR'+lcPeriodo Error :         12 Ultimo Alias Activo: CSRAUXILIAR Ultimo registro:          6  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00003UO902P9.TMP Ultimo Control activo:  REGRETEIB.CONTAINEREXP.ACEPTAR1.CLICK
+04-08-2022 11:53:56 , Error: No se encuentra la variable 'LCPERIODO'. Linea : lcFile = lcDestino+'RIBR'+lcPeriodo Error :         12 Ultimo Alias Activo: CSRAUXILIAR Ultimo registro:          6  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00003UO902P9.TMP Ult
+
+
+
+
+imo Control activo:  REGRETEIB.CONTAINEREXP.ACEPTAR1.CLICK
+04-08-2022 13:19:28 , Error: Error al cargar el archivo - número de registro 16. Grid2  <o uno de sus miembros>.  ControlSource : No se encuentra la variable 'CUIT' Linea :  Error :       2005 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ulti
+
+
+
+mo Control activo:  ON... 
+04-08-2022 13:20:15 , Error: Error al cargar el archivo - número de registro 16. Grid2  <o uno de sus miembros>.  ControlSource : No se encuentra la variable 'CNOMBRE' Linea :  Error :       2005 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  U
+
+
+ltimo Control activo:  ON... 
+04-08-2022 13:26:14 , Error: No se encuentra la variable 'LCDETALLE'. Linea : lcdetalle = substr(detalle,AT('[',lcdetalle)+1,LEN(detalle)-1) Error :         12 Ultimo Alias Activo: CSRAUXILIAR Ultimo registro:          1  DBF: C:\USERS\MARCO\APPDATA\LOCA
+
+L\TEMP\0000DTZD00N9.TMP Ultimo Control activo:  REGRETEIB.CONTAINERENCABEZA.CMDPROCESAR.CLICK
+04-08-2022 13:30:13 , Error: _TXTCONCEPTO es un miembro desconocido. Linea : REPLACE id WITH lnid,fecha WITH .txtfecha.Value,detalle WITH ._txtdetalle.value ,debe WITH ._txtdebe.value,haber WITH ._txthaber.Value,concepto WITH ._TXTCONCEPTO.value IN CsrAu
+xiliar Error :       1925 Ultimo Alias Activo: CSRAUXILIAR Ultimo registro:          7  DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000DTZD00X9.TMP Ultimo Control activo:  REGRETEIB.CONTAINERPIE.OK.CLICK
+04-08-2022 14:33:13 , Error: El archivo 'csrmovpub.dbf' no existe. Linea : SELECT Csrmovpub.*,00000000 AS nrocaja FROM Csrmovpub WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMovpub READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  REGRETEIB.LOAD
