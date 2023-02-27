@@ -17,7 +17,7 @@ lldesarrollo=(_vfp.startmode()#4)
 PIDSISTEMA = 1
 _vfp.AutoYield = .f.
 
-lctituloGestion = "Gestión de Ventas .-"
+lctituloGestion = "Gestión de Ventas " + IIF(lldesarrollo," - Beta","")
 
 If !lldesarrollo
    If f_activawin(lctituloGestion)
@@ -115,6 +115,7 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 *   SET  CLASSLIB  TO  xfrxlib ADDITIVE 
 *   SET LIBRARY TO xfrxlib.fll ADDITIVE 
 	 SET CLASSLIB  TO  ZIP ADDITIVE 
+	 SET CLASSLIB TO onegocioslocal ADDITIVE 
 *	SET LIBRARY TO vfpconnection.fll ADDITIVE 
 	*BarCode
 	SET PROCEDURE TO FoxBarcode.prg ADDITIVE 
