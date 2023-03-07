@@ -1,2504 +1,3 @@
-07-02-2023 17:51:20 , Nº de Linea :          1
-07-02-2023 17:51:21 , En el Fuente: PARAMETERS lccuit,lnidprovincia,aliascateibto,lnporperce,lnporrete
-07-02-2023 17:52:47 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'SIVA'.;Linea : IF NVL(CsrCateCtacte.siva,0) = 1;Error :         12;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-07-02-2023 17:52:47 , Pila de llamadas
-07-02-2023 17:52:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:47 , Objeto      : regfacpm.cmdprocesar.click
-07-02-2023 17:52:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:48 , Nº de Linea :          2
-07-02-2023 17:52:48 , En el Fuente: IF NOT thisform.iniciarimportacion()
-07-02-2023 17:52:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:48 , Objeto      : regfacpm.iniciarimportacion
-07-02-2023 17:52:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:49 , Nº de Linea :         21
-07-02-2023 17:52:49 , En el Fuente: 		 thisform.cmdSalvar.Click()
-07-02-2023 17:52:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:49 , Objeto      : regfacpm.cmdsalvar.click
-07-02-2023 17:52:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:50 , Nº de Linea :          5
-07-02-2023 17:52:50 , En el Fuente: 		thisform.cargarpedido()
-07-02-2023 17:52:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:50 , Objeto      : regfacpm.cargarpedido
-07-02-2023 17:52:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:50 , Nº de Linea :        130
-07-02-2023 17:52:50 , En el Fuente: 		thisform.cargarcabefac()
-07-02-2023 17:52:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:51 , Objeto      : regfacpm.cargarcabefac
-07-02-2023 17:52:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:51 , Nº de Linea :         40
-07-02-2023 17:52:52 , En el Fuente: 		IF !thisform.controlctacte(OscCabefac.idctacte,lcCuit,lnidcategoria,lnidprovincia)
-07-02-2023 17:52:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:52 , Objeto      : regfacpm.controlctacte
-07-02-2023 17:52:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:52:52 , Nº de Linea :         51
-07-02-2023 17:52:52 , En el Fuente: IF NVL(CsrCateCtacte.siva,0) = 1
-07-02-2023 17:54:13 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'OFERFECHA'.;Linea : replace cantidad WITH (cantidad + (ABS(OscCuerpo.cantidad))), univenta WITH nUniventa, iddeposito WITH thisform.lniddeposito ,despor WITH ndespor, o
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ferfecha WITH doferfecha, oferbonif WITH noferbonif, oferbonifcant WITH noferbonifcant ,cantkilos WITH nkilos IN CsrAuxCuerfac;Error :         12;Ultimo Alias Activo: CSRAUXCUERVARIPED;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-000MMTL07GF.TMP;Ultimo Control activo: 
-07-02-2023 17:54:14 , Pila de llamadas
-07-02-2023 17:54:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:54:14 , Objeto      : regfacpm.cmdprocesar.click
-07-02-2023 17:54:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:54:15 , Nº de Linea :          2
-07-02-2023 17:54:15 , En el Fuente: IF NOT thisform.iniciarimportacion()
-07-02-2023 17:54:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:54:15 , Objeto      : regfacpm.iniciarimportacion
-07-02-2023 17:54:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:54:15 , Nº de Linea :         21
-07-02-2023 17:54:15 , En el Fuente: 		 thisform.cmdSalvar.Click()
-07-02-2023 17:54:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:54:16 , Objeto      : regfacpm.cmdsalvar.click
-07-02-2023 17:54:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:54:16 , Nº de Linea :          5
-07-02-2023 17:54:17 , En el Fuente: 		thisform.cargarpedido()
-07-02-2023 17:54:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:54:17 , Objeto      : regfacpm.cargarpedido
-07-02-2023 17:54:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:54:17 , Nº de Linea :        336
-07-02-2023 17:54:17 , En el Fuente: 			replace cantidad WITH (cantidad + (ABS(OscCuerpo.cantidad))), univenta WITH nUniventa, iddeposito WITH thisform.lniddeposito			,despor WITH ndespor, oferfecha WITH doferfecha, oferbonif WITH noferbonif, oferbonifcan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-t WITH noferbonifcant			,cantkilos WITH nkilos IN CsrAuxCuerfac
-07-02-2023 17:57:53 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'OFERFECHA'.;Linea : replace cantidad WITH (cantidad + (ABS(OscCuerpo.cantidad))), univenta WITH nUniventa, iddeposito WITH thisform.lniddeposito ,despor WITH ndespor, o
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ferfecha WITH doferfecha, oferbonif WITH noferbonif, oferbonifcant WITH noferbonifcant ,cantkilos WITH nkilos IN CsrAuxCuerfac;Error :         12;Ultimo Alias Activo: CSRAUXCUERVARIPED;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-000MMTL07VS.TMP;Ultimo Control activo: 
-07-02-2023 17:57:53 , Pila de llamadas
-07-02-2023 17:57:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:57:54 , Objeto      : regfacpm.cmdprocesar.click
-07-02-2023 17:57:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:57:54 , Nº de Linea :          2
-07-02-2023 17:57:54 , En el Fuente: IF NOT thisform.iniciarimportacion()
-07-02-2023 17:57:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:57:54 , Objeto      : regfacpm.iniciarimportacion
-07-02-2023 17:57:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:57:55 , Nº de Linea :         21
-07-02-2023 17:57:55 , En el Fuente: 		 thisform.cmdSalvar.Click()
-07-02-2023 17:57:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:57:55 , Objeto      : regfacpm.cmdsalvar.click
-07-02-2023 17:57:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:57:56 , Nº de Linea :          5
-07-02-2023 17:57:56 , En el Fuente: 		thisform.cargarpedido()
-07-02-2023 17:57:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:57:56 , Objeto      : regfacpm.cargarpedido
-07-02-2023 17:57:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:57:56 , Nº de Linea :        336
-07-02-2023 17:57:57 , En el Fuente: 			replace cantidad WITH (cantidad + (ABS(OscCuerpo.cantidad))), univenta WITH nUniventa, iddeposito WITH thisform.lniddeposito			,despor WITH ndespor, oferfecha WITH doferfecha, oferbonif WITH noferbonif, oferbonifcan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-t WITH noferbonifcant			,cantkilos WITH nkilos IN CsrAuxCuerfac
-07-02-2023 17:59:51 , REGFACPM.CMDPROCESAR.CLICK, Error: Debe especificar parámetros adicionales.;Linea : PARAMETERS Oscatter,OscatterCab,lncantidad,lnunibulto;Error :         94;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000MMTL085C.TMP;Ultimo Control activo: 
-07-02-2023 17:59:52 , Pila de llamadas
-07-02-2023 17:59:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:52 , Objeto      : regfacpm.cmdprocesar.click
-07-02-2023 17:59:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:53 , Nº de Linea :          2
-07-02-2023 17:59:53 , En el Fuente: IF NOT thisform.iniciarimportacion()
-07-02-2023 17:59:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:53 , Objeto      : regfacpm.iniciarimportacion
-07-02-2023 17:59:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:53 , Nº de Linea :         21
-07-02-2023 17:59:54 , En el Fuente: 		 thisform.cmdSalvar.Click()
-07-02-2023 17:59:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:54 , Objeto      : regfacpm.cmdsalvar.click
-07-02-2023 17:59:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:54 , Nº de Linea :          5
-07-02-2023 17:59:54 , En el Fuente: 		thisform.cargarpedido()
-07-02-2023 17:59:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:54 , Objeto      : regfacpm.cargarpedido
-07-02-2023 17:59:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:55 , Nº de Linea :        345
-07-02-2023 17:59:55 , En el Fuente: 			IF NOT thisform.cuerpo_control(OscatterCab,lHayFactura,@lcRespuesta)
-07-02-2023 17:59:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:56 , Objeto      : regfacpm.cuerpo_control
-07-02-2023 17:59:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-07-02-2023 17:59:56 , Nº de Linea :         79
-07-02-2023 17:59:56 , En el Fuente: 		.unitariofac.Calculaimpuesto(Oscatter,OscatterCab,lnCantidad,lnunibulto,lnpesable,lnkilos)
-07-02-2023 17:59:57 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
-07-02-2023 17:59:57 , Objeto      : regfacpm.unitariofac.calculaimpuesto
-07-02-2023 17:59:57 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
-07-02-2023 17:59:57 , Nº de Linea :          1
-07-02-2023 17:59:57 , En el Fuente: PARAMETERS Oscatter,OscatterCab,lncantidad,lnunibulto
-15-02-2023 09:09:21 , MAIN, Error: No se encuentra la etiqueta de índice.;Linea : IF SEEK(cClave,"CsrAuxCuerfac","kclave");Error :       1683;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5LHL01OT.TMP;Ultimo Control activo: 
-15-02-2023 09:09:22 , Pila de llamadas
-15-02-2023 09:09:22 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-15-02-2023 09:09:22 , Objeto      : main
-15-02-2023 09:09:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-15-02-2023 09:09:22 , Nº de Linea :        275
-15-02-2023 09:09:22 , En el Fuente: 	Read events   
-15-02-2023 09:09:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:09:22 , Objeto      : regfacpm.cmdprocesar.click
-15-02-2023 09:09:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:09:23 , Nº de Linea :          2
-15-02-2023 09:09:23 , En el Fuente: IF NOT thisform.iniciarimportacion()
-15-02-2023 09:09:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:09:23 , Objeto      : regfacpm.iniciarimportacion
-15-02-2023 09:09:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:09:23 , Nº de Linea :         21
-15-02-2023 09:09:24 , En el Fuente: 		 thisform.cmdSalvar.Click()
-15-02-2023 09:09:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:09:24 , Objeto      : regfacpm.cmdsalvar.click
-15-02-2023 09:09:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:09:24 , Nº de Linea :          5
-15-02-2023 09:09:24 , En el Fuente: 		thisform.cargarpedido()
-15-02-2023 09:09:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:09:24 , Objeto      : regfacpm.cargarpedido
-15-02-2023 09:09:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:09:24 , Nº de Linea :        267
-15-02-2023 09:09:24 , En el Fuente: 			IF SEEK(cClave,"CsrAuxCuerfac","kclave")	
-15-02-2023 09:13:31 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'BONIFINFO'.;Linea : REPLACE idarticulo WITH Csrproducto.id,codigo WITH LTRIM(STR(Csrproducto.numero)),nombre WITH Csrproducto.nombre ,univenta WITH lnuniventa,idctavta 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-WITH Csrproducto.idctavta,unibulto WITH Csrproducto.unibulto ,idfuerzavta WITH Csrproducto.IDFUERZAVTA,alcohol WITH Csrproducto.alcohol,kilos WITH IIF(kilos=0,Csrproducto.peso,kilos) ,volumen WITH Csrproducto.volumen,perceibruto WITH Csrproducto.perceibr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-uto,nofactura WITH Csrproducto.nofactura ,idenvase WITH Csrproducto.idenvase,pesable WITH 0 ,listaprecio WITH CsrauxCabefac.listaprecio ,escambio WITH 0,peso WITH CsrProducto.peso ,oricod WITH LTRIM(STR(Csrproducto.numero,8)),bonifinfo WITH CsrProducto.b
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-onifinfo IN CsrAuxCuerFac;Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00005LHL022T.TMP;Ultimo Control activo: 
-15-02-2023 09:13:31 , Pila de llamadas
-15-02-2023 09:13:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:32 , Objeto      : regfacpm.cmdprocesar.click
-15-02-2023 09:13:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:32 , Nº de Linea :          2
-15-02-2023 09:13:32 , En el Fuente: IF NOT thisform.iniciarimportacion()
-15-02-2023 09:13:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:32 , Objeto      : regfacpm.iniciarimportacion
-15-02-2023 09:13:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:32 , Nº de Linea :         21
-15-02-2023 09:13:32 , En el Fuente: 		 thisform.cmdSalvar.Click()
-15-02-2023 09:13:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:33 , Objeto      : regfacpm.cmdsalvar.click
-15-02-2023 09:13:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:33 , Nº de Linea :          5
-15-02-2023 09:13:33 , En el Fuente: 		thisform.cargarpedido()
-15-02-2023 09:13:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:33 , Objeto      : regfacpm.cargarpedido
-15-02-2023 09:13:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:34 , Nº de Linea :        274
-15-02-2023 09:13:34 , En el Fuente: 			thisform.kitbuscarprod.f_lostfocussay
-15-02-2023 09:13:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:34 , Objeto      : regfacpm.kitbuscarprod.f_lostfocussay
-15-02-2023 09:13:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:13:34 , Nº de Linea :         14
-15-02-2023 09:13:34 , En el Fuente: REPLACE idarticulo WITH Csrproducto.id,codigo WITH LTRIM(STR(Csrproducto.numero)),nombre WITH Csrproducto.nombre,univenta WITH lnuniventa,idctavta WITH Csrproducto.idctavta,unibulto WITH Csrproducto.unibulto,idfuerzavt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a WITH Csrproducto.IDFUERZAVTA,alcohol WITH Csrproducto.alcohol,kilos WITH IIF(kilos=0,Csrproducto.peso,kilos),volumen WITH Csrproducto.volumen,perceibruto WITH Csrproducto.perceibruto,nofactura WITH Csrproducto.nofactura,idenvase WITH Csrproducto.idenva
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-se,pesable WITH 0,listaprecio WITH CsrauxCabefac.listaprecio ,escambio WITH 0,peso WITH CsrProducto.peso,oricod WITH LTRIM(STR(Csrproducto.numero,8)),bonifinfo WITH CsrProducto.bonifinfo IN CsrAuxCuerFac
-15-02-2023 09:40:28 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra el alias.;Linea : IF RECCOUNT("Csrbonictacte")>0;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\00005LHL05Z6.TMP;Ultimo Control activo: 
-15-02-2023 09:40:28 , Pila de llamadas
-15-02-2023 09:40:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:29 , Objeto      : regfacpm.cmdprocesar.click
-15-02-2023 09:40:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:29 , Nº de Linea :          2
-15-02-2023 09:40:29 , En el Fuente: IF NOT thisform.iniciarimportacion()
-15-02-2023 09:40:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:29 , Objeto      : regfacpm.iniciarimportacion
-15-02-2023 09:40:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:29 , Nº de Linea :         21
-15-02-2023 09:40:30 , En el Fuente: 		 thisform.cmdSalvar.Click()
-15-02-2023 09:40:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:30 , Objeto      : regfacpm.cmdsalvar.click
-15-02-2023 09:40:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:30 , Nº de Linea :          5
-15-02-2023 09:40:30 , En el Fuente: 		thisform.cargarpedido()
-15-02-2023 09:40:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:31 , Objeto      : regfacpm.cargarpedido
-15-02-2023 09:40:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:31 , Nº de Linea :        352
-15-02-2023 09:40:31 , En el Fuente: 			IF NOT thisform.cuerpo_control(OscatterCab,lHayFactura,@lcRespuesta)
-15-02-2023 09:40:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:31 , Objeto      : regfacpm.cuerpo_control
-15-02-2023 09:40:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:31 , Nº de Linea :         52
-15-02-2023 09:40:31 , En el Fuente:    	  	.controlbonificacion()
-15-02-2023 09:40:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:31 , Objeto      : regfacpm.controlbonificacion
-15-02-2023 09:40:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:40:32 , Nº de Linea :         12
-15-02-2023 09:40:32 , En el Fuente: IF RECCOUNT("Csrbonictacte")>0 
-15-02-2023 09:42:18 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra el alias.;Linea : IF RECCOUNT("Csrbonictacte")>0;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\00005LHL06E5.TMP;Ultimo Control activo: 
-15-02-2023 09:42:18 , Pila de llamadas
-15-02-2023 09:42:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:42:18 , Objeto      : regfacpm.cmdprocesar.click
-15-02-2023 09:42:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:42:19 , Nº de Linea :          2
-15-02-2023 09:42:19 , En el Fuente: IF NOT thisform.iniciarimportacion()
-15-02-2023 09:42:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:42:19 , Objeto      : regfacpm.iniciarimportacion
-15-02-2023 09:42:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:42:19 , Nº de Linea :         21
-15-02-2023 09:42:19 , En el Fuente: 		 thisform.cmdSalvar.Click()
-15-02-2023 09:42:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:42:19 , Objeto      : regfacpm.cmdsalvar.click
-15-02-2023 09:42:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:42:19 , Nº de Linea :          5
-15-02-2023 09:42:20 , En el Fuente: 		thisform.cargarpedido()
-15-02-2023 09:42:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:42:20 , Objeto      : regfacpm.cargarpedido
-15-02-2023 09:42:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:42:20 , Nº de Linea :        352
-15-02-2023 09:42:20 , En el Fuente: 			IF NOT thisform.cuerpo_control(OscatterCab,lHayFactura,@lcRespuesta)
 15-02-2023 09:42:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
 15-02-2023 09:42:21 , Objeto      : regfacpm.cuerpo_control
 15-02-2023 09:42:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -2510,6 +9,78 @@ se,pesable WITH 0,listaprecio WITH CsrauxCabefac.listaprecio ,escambio WITH 0,pe
 15-02-2023 09:42:21 , Nº de Linea :         12
 15-02-2023 09:42:22 , En el Fuente: IF RECCOUNT("Csrbonictacte")>0 
 15-02-2023 09:42:44 , REGFACPM.CMDSALVAR.CLICK, Error: No se encuentra el alias.;Linea : IF RECCOUNT("Csrbonictacte")>0;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2751,6 +322,78 @@ se,pesable WITH 0,listaprecio WITH CsrauxCabefac.listaprecio ,escambio WITH 0,pe
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \00005LHL06VG.TMP;Ultimo Control activo: 
 15-02-2023 09:43:58 , Pila de llamadas
 15-02-2023 09:43:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -2784,6 +427,78 @@ se,pesable WITH 0,listaprecio WITH CsrauxCabefac.listaprecio ,escambio WITH 0,pe
 15-02-2023 09:44:01 , Nº de Linea :         12
 15-02-2023 09:44:01 , En el Fuente: IF RECCOUNT("Csrbonictacte")>0 
 15-02-2023 09:46:37 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la propiedad TRAERDATOSEXTRA.;Linea : thisform.traerdatosextra(lcCodarticulo,lcCodCtacte);Error :       1734;Ultimo Alias Activo: CSRSUBCOMBO;Ultimo registro:          1 ;DBF: C:\US
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2995,6 +710,78 @@ ERS\MARCO\APPDATA\LOCAL\TEMP\00005LHL07D8.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \00005LHL07KE.TMP;Ultimo Control activo: 
 15-02-2023 09:47:48 , Pila de llamadas
 15-02-2023 09:47:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -3028,6 +815,78 @@ ERS\MARCO\APPDATA\LOCAL\TEMP\00005LHL07D8.TMP;Ultimo Control activo:
 15-02-2023 09:47:51 , Nº de Linea :         12
 15-02-2023 09:47:51 , En el Fuente: IF RECCOUNT("Csrbonictacte")>0 
 15-02-2023 09:48:34 , REGFACPM.CMDPROCESAR.CLICK, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : .Release;Error :       1940;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00005LHL080U.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3212,6 +1071,78 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 SRAUXCUERFAC;Ultimo registro:          1 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00005LHL0A3O.TMP;Ultimo Control activo: 
 15-02-2023 10:06:16 , Pila de llamadas
 15-02-2023 10:06:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -3240,6 +1171,78 @@ SRAUXCUERFAC;Ultimo registro:          1 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA
 15-02-2023 10:06:19 , Nº de Linea :         19
 15-02-2023 10:06:19 , En el Fuente: replace minimotofi WITH CsrProducto.minimotofi,topeboniofi WITH CsrProducto.topeboniofi IN CsrAuxCuerfac
 15-02-2023 11:18:09 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'IDMAOPE'.;Linea : SET ORDER TO idmaope;Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:         10 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3391,6 +1394,78 @@ EMP\000036YX00C7.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 EMP\000036YX012W.TMP;Ultimo Control activo: 
 15-02-2023 11:27:28 , Pila de llamadas
 15-02-2023 11:27:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -3419,6 +1494,78 @@ EMP\000036YX012W.TMP;Ultimo Control activo:
 15-02-2023 11:27:30 , Nº de Linea :        141
 15-02-2023 11:27:30 , En el Fuente: 			SET ORDER TO idmaope
 15-02-2023 13:01:50 , REGFACPM.LOAD, Error: El archivo 'csrmaopera.dbf' no existe.;Linea : SELECT Csrmaopera.*,CAST(0 as n(12,0)) as idvdorplan,CAST(0 as int) as iddeposito,00000000 AS nrocaja,SPACE(6) as pefiscal,CAST(0 as int) as idmotanula ,SPACE(20) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3526,6 +1673,78 @@ as NomOpera,'00' as clasetipo,'00000' as idope,CAST(0 as i) as idfletero FROM Cs
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 0 as i) as idfletero	    FROM Csrmaopera WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMaopera READWRITE 
 15-02-2023 14:08:13 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct no existe o no es válido.;Linea : PACK;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: PARADA
 15-02-2023 14:08:13 , Pila de llamadas
@@ -3542,6 +1761,78 @@ as NomOpera,'00' as clasetipo,'00000' as idope,CAST(0 as i) as idfletero FROM Cs
 15-02-2023 14:08:37 , ON..., Error: El archivo no está abierto.;Linea : PACK;Error :       1113;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 15-02-2023 14:08:37 , Pila de llamadas
 17-02-2023 12:24:43 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la propiedad ESREMITO.;Linea : Oscatter.esremito = IIF(OscatterCab.esremito = 0 AND OscatterCab.escredito = 0, 1 ,0);Error :       1734;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo reg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3643,6 +1934,78 @@ istro:          5 IDOPE;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000UGI100C2.TMP;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 27-02-2023 16:28:14 , Pila de llamadas
 27-02-2023 16:28:15 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3650,6 +2013,78 @@ wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :
 27-02-2023 16:28:15 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 27-02-2023 16:28:15 , Nº de Linea :         35
 27-02-2023 16:28:16 , En el Fuente:       select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid         ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07         ,&lc8 as wcampo08,&lc9 as wcampo09       from &lcalias       order by &lcorden into c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3764,6 +2199,78 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 vo: 
 27-02-2023 18:19:18 , Pila de llamadas
 27-02-2023 18:19:19 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3799,6 +2306,78 @@ vo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 o Control activo: 
 27-02-2023 18:27:55 , Pila de llamadas
 27-02-2023 18:27:56 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3826,3 +2405,743 @@ o Control activo:
 27-02-2023 18:28:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\frmlogin.sct
 27-02-2023 18:28:02 , Nº de Linea :         28
 27-02-2023 18:28:02 , En el Fuente: 	   goapp.switchUsuario = csrusr.switch
+28-02-2023 10:04:46 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la propiedad CODIGO.;Linea : IF OscatterCab.codigo = 11616;Error :       1734;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMP\0000OYKP030R.TMP;Ultimo Control activo: 
+28-02-2023 10:04:46 , Pila de llamadas
+28-02-2023 10:04:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:04:47 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 10:04:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:04:47 , Nº de Linea :          2
+28-02-2023 10:04:48 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 10:04:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:04:48 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 10:04:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:04:49 , Nº de Linea :         21
+28-02-2023 10:04:49 , En el Fuente: 		 thisform.cmdSalvar.Click()
+28-02-2023 10:04:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:04:50 , Objeto      : regfacpm.cmdsalvar.click
+28-02-2023 10:04:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:04:50 , Nº de Linea :          5
+28-02-2023 10:04:51 , En el Fuente: 		thisform.cargarpedido()
+28-02-2023 10:04:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:04:51 , Objeto      : regfacpm.cargarpedido
+28-02-2023 10:04:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:04:52 , Nº de Linea :        384
+28-02-2023 10:04:52 , En el Fuente: 		IF OscatterCab.codigo = 11616
+28-02-2023 10:06:03 , REGFACPM.CMDPROCESAR.CLICK, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF OscatterCab.ctacte = 11616;Error :        107;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 IDOPE;DBF: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000OYKP03FM.TMP;Ultimo Control activo: 
+28-02-2023 10:06:03 , Pila de llamadas
+28-02-2023 10:06:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:06:04 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 10:06:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:06:04 , Nº de Linea :          2
+28-02-2023 10:06:04 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 10:06:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:06:05 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 10:06:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:06:05 , Nº de Linea :         21
+28-02-2023 10:06:06 , En el Fuente: 		 thisform.cmdSalvar.Click()
+28-02-2023 10:06:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:06:06 , Objeto      : regfacpm.cmdsalvar.click
+28-02-2023 10:06:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:06:08 , Nº de Linea :          5
+28-02-2023 10:06:08 , En el Fuente: 		thisform.cargarpedido()
+28-02-2023 10:06:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:06:09 , Objeto      : regfacpm.cargarpedido
+28-02-2023 10:06:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:06:10 , Nº de Linea :        384
+28-02-2023 10:06:10 , En el Fuente: 		IF OscatterCab.ctacte = 11616
+28-02-2023 10:13:03 , REGFACPM.ACEPTAR1.CLICK, Error: No se encuentra la propiedad CADENAERRORES.;Linea : =oavisar.usuario("GRABADO CANCELADO"+CHR(13)+this.cadenaerrores,0);Error :       1734;Ultimo Alias Activo: CSRAUXCABEZA;Ultimo registro:          1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000OYKP05I4.TMP;Ultimo Control activo: 
+28-02-2023 10:13:04 , Pila de llamadas
+28-02-2023 10:13:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:13:05 , Objeto      : regfacpm.aceptar1.click
+28-02-2023 10:13:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:13:05 , Nº de Linea :          1
+28-02-2023 10:13:06 , En el Fuente: thisform.key_43()
+28-02-2023 10:13:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:13:06 , Objeto      : regfacpm.key_43
+28-02-2023 10:13:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:13:07 , Nº de Linea :          6
+28-02-2023 10:13:07 , En el Fuente: thisform.actualizar()
+28-02-2023 10:13:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:13:08 , Objeto      : regfacpm.actualizar
+28-02-2023 10:13:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 10:13:08 , Nº de Linea :         72
+28-02-2023 10:13:10 , En el Fuente: 							=oavisar.usuario("GRABADO CANCELADO"+CHR(13)+this.cadenaerrores,0)
+28-02-2023 11:16:08 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra el alias 'CABEPEDIDO'.;Linea : SELECT CabePedido;Error :         13;Ultimo Alias Activo: CSROPCION;Ultimo registro:         25 ARCHIVO+FECHAHORA;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MP\0000BG95012J.TMP;Ultimo Control activo: 
+28-02-2023 11:16:08 , Pila de llamadas
+28-02-2023 11:16:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:16:09 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 11:16:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:16:09 , Nº de Linea :          2
+28-02-2023 11:16:09 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 11:16:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:16:10 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 11:16:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:16:10 , Nº de Linea :         12
+28-02-2023 11:16:11 , En el Fuente: DO FORM actualizarfacandroidsql WITH loObjeto NAME lobjform linked   
+28-02-2023 11:16:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 11:16:11 , Objeto      : actualizarfacandroidsql.cmdaceptar.click
+28-02-2023 11:16:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 11:16:12 , Nº de Linea :          1
+28-02-2023 11:16:12 , En el Fuente: thisform.actualizaarchivos()
+28-02-2023 11:16:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 11:16:13 , Objeto      : actualizarfacandroidsql.actualizaarchivos
+28-02-2023 11:16:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 11:16:13 , Nº de Linea :        156
+28-02-2023 11:16:14 , En el Fuente: This.GenerarXML()
+28-02-2023 11:16:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 11:16:14 , Objeto      : actualizarfacandroidsql.generarxml
+28-02-2023 11:16:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 11:16:15 , Nº de Linea :        102
+28-02-2023 11:16:15 , En el Fuente: SELECT CabePedido
+28-02-2023 11:26:19 , REGFACPM.CONTAINERENCABEZA._TXTFOCO.GOTFOCUS, Error: No se encuentra la variable 'LCCMDVALOR'.;Linea : thisform.actualizafac.cadenavalor = lcCmdValor;Error :         12;Ultimo Alias Activo: CSRPARACONTA;Ultimo registro:          1 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000RTOP02ET.TMP;Ultimo Control activo: 
+28-02-2023 11:26:19 , Pila de llamadas
+28-02-2023 11:26:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:26:20 , Objeto      : regfacpm.containerencabeza._txtfoco.gotfocus
+28-02-2023 11:26:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:26:20 , Nº de Linea :          7
+28-02-2023 11:26:20 , En el Fuente: 	.leerentorno()
+28-02-2023 11:26:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:26:20 , Objeto      : regfacpm.leerentorno
+28-02-2023 11:26:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:26:21 , Nº de Linea :         49
+28-02-2023 11:26:21 , En el Fuente: thisform.actualizafac.cadenavalor = lcCmdValor
+28-02-2023 11:27:00 , REGFACPM.CONTAINERENCABEZA._TXTFOCO.GOTFOCUS, Error: No se encuentra la propiedad CADENAVALOR.;Linea : thisform.actualizafac.cadenavalor = lcCmd;Error :       1734;Ultimo Alias Activo: CSRPARACONTA;Ultimo registro:          1 ;DBF: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000RTOP02N9.TMP;Ultimo Control activo: 
+28-02-2023 11:27:01 , Pila de llamadas
+28-02-2023 11:27:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:27:02 , Objeto      : regfacpm.containerencabeza._txtfoco.gotfocus
+28-02-2023 11:27:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:27:02 , Nº de Linea :          7
+28-02-2023 11:27:03 , En el Fuente: 	.leerentorno()
+28-02-2023 11:27:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:27:03 , Objeto      : regfacpm.leerentorno
+28-02-2023 11:27:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 11:27:05 , Nº de Linea :         49
+28-02-2023 11:27:05 , En el Fuente: thisform.actualizafac.cadenavalor = lcCmd
+28-02-2023 12:11:56 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF SEEK(cClave,"CsrAuxCuerfac","kclave");Error :       1683;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PPDATA\LOCAL\TEMP\0000RTOP09N3.TMP;Ultimo Control activo: 
+28-02-2023 12:11:58 , Pila de llamadas
+28-02-2023 12:11:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:11:59 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 12:11:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:11:59 , Nº de Linea :          2
+28-02-2023 12:12:00 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 12:12:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:00 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 12:12:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:01 , Nº de Linea :         21
+28-02-2023 12:12:01 , En el Fuente: 		 thisform.cmdSalvar.Click()
+28-02-2023 12:12:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:02 , Objeto      : regfacpm.cmdsalvar.click
+28-02-2023 12:12:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:02 , Nº de Linea :          5
+28-02-2023 12:12:03 , En el Fuente: 		thisform.cargarpedido()
+28-02-2023 12:12:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:03 , Objeto      : regfacpm.cargarpedido
+28-02-2023 12:12:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:04 , Nº de Linea :        260
+28-02-2023 12:12:04 , En el Fuente: 			IF SEEK(cClave,"CsrAuxCuerfac","kclave")	
+28-02-2023 12:12:13 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF SEEK(cClave,"CsrAuxCuerfac","kclave");Error :       1683;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PPDATA\LOCAL\TEMP\0000RTOP09N3.TMP;Ultimo Control activo: 
+28-02-2023 12:12:13 , Pila de llamadas
+28-02-2023 12:12:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:14 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 12:12:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:14 , Nº de Linea :          2
+28-02-2023 12:12:15 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 12:12:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:15 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 12:12:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:16 , Nº de Linea :         21
+28-02-2023 12:12:17 , En el Fuente: 		 thisform.cmdSalvar.Click()
+28-02-2023 12:12:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:17 , Objeto      : regfacpm.cmdsalvar.click
+28-02-2023 12:12:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:17 , Nº de Linea :          5
+28-02-2023 12:12:19 , En el Fuente: 		thisform.cargarpedido()
+28-02-2023 12:12:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:19 , Objeto      : regfacpm.cargarpedido
+28-02-2023 12:12:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:20 , Nº de Linea :        260
+28-02-2023 12:12:20 , En el Fuente: 			IF SEEK(cClave,"CsrAuxCuerfac","kclave")	
+28-02-2023 12:12:25 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF SEEK(cClave,"CsrAuxCuerfac","kclave");Error :       1683;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PPDATA\LOCAL\TEMP\0000RTOP09N3.TMP;Ultimo Control activo: 
+28-02-2023 12:12:26 , Pila de llamadas
+28-02-2023 12:12:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:27 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 12:12:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:27 , Nº de Linea :          2
+28-02-2023 12:12:28 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 12:12:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:28 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 12:12:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:28 , Nº de Linea :         21
+28-02-2023 12:12:29 , En el Fuente: 		 thisform.cmdSalvar.Click()
+28-02-2023 12:12:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:12:30 , Objeto      : regfacpm.cmdsalvar.click
+28-02-2023 12:21:01 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra el alias 'CABEPEDIDO'.;Linea : SELECT CabePedido;Error :         13;Ultimo Alias Activo: CSROPCION;Ultimo registro:         25 ARCHIVO+FECHAHORA;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MP\00018DFT01WL.TMP;Ultimo Control activo: 
+28-02-2023 12:21:02 , Pila de llamadas
+28-02-2023 12:21:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:21:03 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 12:21:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:21:03 , Nº de Linea :          2
+28-02-2023 12:21:04 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 12:21:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:21:04 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 12:21:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:21:05 , Nº de Linea :         12
+28-02-2023 12:21:05 , En el Fuente: DO FORM actualizarfacandroidsql WITH loObjeto NAME lobjform linked   
+28-02-2023 12:21:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 12:21:05 , Objeto      : actualizarfacandroidsql.cmdaceptar.click
+28-02-2023 12:21:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 12:21:06 , Nº de Linea :          1
+28-02-2023 12:21:06 , En el Fuente: thisform.actualizaarchivos()
+28-02-2023 12:21:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 12:21:07 , Objeto      : actualizarfacandroidsql.actualizaarchivos
+28-02-2023 12:21:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 12:21:07 , Nº de Linea :        156
+28-02-2023 12:21:09 , En el Fuente: This.GenerarXML()
+28-02-2023 12:21:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 12:21:09 , Objeto      : actualizarfacandroidsql.generarxml
+28-02-2023 12:21:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\actualizarfacandroidsql.sct
+28-02-2023 12:21:10 , Nº de Linea :        102
+28-02-2023 12:21:10 , En el Fuente: SELECT CabePedido
+28-02-2023 12:43:21 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF SEEK(cClave,"CsrAuxCuerfac","kclave");Error :       1683;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PPDATA\LOCAL\TEMP\00002RYH01JM.TMP;Ultimo Control activo: 
+28-02-2023 12:43:21 , Pila de llamadas
+28-02-2023 12:43:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:22 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 12:43:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:22 , Nº de Linea :          2
+28-02-2023 12:43:23 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 12:43:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:23 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 12:43:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:24 , Nº de Linea :         21
+28-02-2023 12:43:24 , En el Fuente: 		 thisform.cmdSalvar.Click()
+28-02-2023 12:43:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:25 , Objeto      : regfacpm.cmdsalvar.click
+28-02-2023 12:43:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:25 , Nº de Linea :          5
+28-02-2023 12:43:26 , En el Fuente: 		thisform.cargarpedido()
+28-02-2023 12:43:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:26 , Objeto      : regfacpm.cargarpedido
+28-02-2023 12:43:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:27 , Nº de Linea :        260
+28-02-2023 12:43:27 , En el Fuente: 			IF SEEK(cClave,"CsrAuxCuerfac","kclave")	
+28-02-2023 12:43:34 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF SEEK(cClave,"CsrAuxCuerfac","kclave");Error :       1683;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\A
+
+
+
+
+
+
+
+
+PPDATA\LOCAL\TEMP\00002RYH01JM.TMP;Ultimo Control activo: 
+28-02-2023 12:43:34 , Pila de llamadas
+28-02-2023 12:43:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:35 , Objeto      : regfacpm.cmdprocesar.click
+28-02-2023 12:43:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:35 , Nº de Linea :          2
+28-02-2023 12:43:36 , En el Fuente: IF NOT thisform.iniciarimportacion()
+28-02-2023 12:43:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:36 , Objeto      : regfacpm.iniciarimportacion
+28-02-2023 12:43:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:37 , Nº de Linea :         21
+28-02-2023 12:43:37 , En el Fuente: 		 thisform.cmdSalvar.Click()
+28-02-2023 12:43:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:38 , Objeto      : regfacpm.cmdsalvar.click
+28-02-2023 12:43:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:38 , Nº de Linea :          5
+28-02-2023 12:43:40 , En el Fuente: 		thisform.cargarpedido()
+28-02-2023 12:43:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:40 , Objeto      : regfacpm.cargarpedido
+28-02-2023 12:43:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
+28-02-2023 12:43:41 , Nº de Linea :        260
+28-02-2023 12:43:41 , En el Fuente: 			IF SEEK(cClave,"CsrAuxCuerfac","kclave")	
+07-03-2023 08:53:28 , GUIAVISITA.CONTAINERENCABEZA.CMDBUSCAR.CLICK, Error: No se encuentra la variable 'LNIDRUTA'.;Linea : thisform.cargaruta(lnidruta);Error :         12;Ultimo Alias Activo: CSRAUXCABEZA;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\
+
+APPDATA\LOCAL\TEMP\000045QH00O8.TMP;Ultimo Control activo: 
+07-03-2023 08:53:28 , Pila de llamadas
+07-03-2023 08:53:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
+07-03-2023 08:53:28 , Objeto      : guiavisita.containerencabeza.cmdbuscar.click
+07-03-2023 08:53:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
+07-03-2023 08:53:28 , Nº de Linea :          1
+07-03-2023 08:53:29 , En el Fuente: 	thisform.cargaruta(lnidruta)
