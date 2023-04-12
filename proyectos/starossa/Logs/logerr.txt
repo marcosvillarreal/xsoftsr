@@ -1,9 +1,3 @@
-15-02-2023 09:48:35 , Nº de Linea :          2
-15-02-2023 09:48:35 , En el Fuente: IF NOT thisform.iniciarimportacion()
-15-02-2023 09:48:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:48:35 , Objeto      : regfacpm.iniciarimportacion
-15-02-2023 09:48:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
-15-02-2023 09:48:35 , Nº de Linea :         21
 15-02-2023 09:48:35 , En el Fuente: 		 thisform.cmdSalvar.Click()
 15-02-2023 09:48:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
 15-02-2023 09:48:36 , Objeto      : regfacpm.cmdsalvar.click
@@ -21,6 +15,7 @@
 15-02-2023 09:48:37 , Nº de Linea :         50
 15-02-2023 09:48:37 , En el Fuente:    .Release 
 15-02-2023 10:06:16 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'TOPEBONIOFI'.;Linea : replace minimotofi WITH CsrProducto.minimotofi,topeboniofi WITH CsrProducto.topeboniofi IN CsrAuxCuerfac;Error :         12;Ultimo Alias Activo: C
+
 
 
 
@@ -399,6 +394,7 @@ SRAUXCUERFAC;Ultimo registro:          1 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA
 
 
 
+
 EMP\000036YX00C7.TMP;Ultimo Control activo: 
 15-02-2023 11:18:09 , Pila de llamadas
 15-02-2023 11:18:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -427,6 +423,7 @@ EMP\000036YX00C7.TMP;Ultimo Control activo:
 15-02-2023 11:18:13 , Nº de Linea :        141
 15-02-2023 11:18:13 , En el Fuente: 			SET ORDER TO idmaope
 15-02-2023 11:27:28 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'IDMAOPE'.;Linea : SET ORDER TO idmaope;Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:         11 CLAVEPEDIDO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\T
+
 
 
 
@@ -771,6 +768,7 @@ EMP\000036YX012W.TMP;Ultimo Control activo:
 
 
 
+
 as NomOpera,'00' as clasetipo,'00000' as idope,CAST(0 as i) as idfletero FROM Csrmaopera WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxMaopera READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 15-02-2023 13:01:51 , Pila de llamadas
 15-02-2023 13:01:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -783,6 +781,7 @@ as NomOpera,'00' as clasetipo,'00000' as idope,CAST(0 as i) as idfletero FROM Cs
 15-02-2023 13:01:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
 15-02-2023 13:01:52 , Nº de Linea :          5
 15-02-2023 13:01:52 , En el Fuente: SELECT Csrmaopera.*,CAST(0 as n(12,0)) as idvdorplan,CAST(0 as int) as iddeposito,00000000 AS nrocaja,SPACE(6) as pefiscal,CAST(0 as int) as idmotanula	   ,SPACE(20) as NomOpera,'00' as clasetipo,'00000' as idope,CAST(
+
 
 
 
@@ -1095,6 +1094,7 @@ as NomOpera,'00' as clasetipo,'00000' as idope,CAST(0 as i) as idfletero FROM Cs
 
 
 
+
 istro:          5 IDOPE;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000UGI100C2.TMP;Ultimo Control activo: 
 17-02-2023 12:24:44 , Pila de llamadas
 17-02-2023 12:24:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -1261,6 +1261,7 @@ istro:          5 IDOPE;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000UGI100C2.TMP;
 
 
 
+
 wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 27-02-2023 16:28:14 , Pila de llamadas
 27-02-2023 16:28:15 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1268,6 +1269,7 @@ wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :
 27-02-2023 16:28:15 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 27-02-2023 16:28:15 , Nº de Linea :         35
 27-02-2023 16:28:16 , En el Fuente:       select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid         ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07         ,&lc8 as wcampo08,&lc9 as wcampo09       from &lcalias       order by &lcorden into c
+
 
 
 
@@ -1592,6 +1594,7 @@ ursor &micursor READWRITE
 
 
 
+
 vo: 
 27-02-2023 18:19:18 , Pila de llamadas
 27-02-2023 18:19:19 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -1622,6 +1625,7 @@ vo:
 27-02-2023 18:20:13 , Nº de Linea :         21
 27-02-2023 18:20:13 , En el Fuente: IF RECCOUNT('CsrSeteo')> 0
 27-02-2023 18:27:54 , MAIN, Error: No se encuentra la variable 'SWITCH'.;Linea : goapp.switchUsuario = csrusr.switch;Error :         12;Ultimo Alias Activo: CSRUSR;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000GQVD07SF.TMP;Ultim
+
 
 
 
@@ -1864,6 +1868,7 @@ o Control activo:
 
 
 
+
 TEMP\0000OYKP030R.TMP;Ultimo Control activo: 
 28-02-2023 10:04:46 , Pila de llamadas
 28-02-2023 10:04:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -1887,6 +1892,7 @@ TEMP\0000OYKP030R.TMP;Ultimo Control activo:
 28-02-2023 10:04:52 , Nº de Linea :        384
 28-02-2023 10:04:52 , En el Fuente: 		IF OscatterCab.codigo = 11616
 28-02-2023 10:06:03 , REGFACPM.CMDPROCESAR.CLICK, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : IF OscatterCab.ctacte = 11616;Error :        107;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro:          1 IDOPE;DBF: 
+
 
 
 
@@ -2099,6 +2105,7 @@ C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000OYKP03FM.TMP;Ultimo Control activo:
 
 
 
+
 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000OYKP05I4.TMP;Ultimo Control activo: 
 28-02-2023 10:13:04 , Pila de llamadas
 28-02-2023 10:13:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -2117,6 +2124,7 @@ C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000OYKP03FM.TMP;Ultimo Control activo:
 28-02-2023 10:13:08 , Nº de Linea :         72
 28-02-2023 10:13:10 , En el Fuente: 							=oavisar.usuario("GRABADO CANCELADO"+CHR(13)+this.cadenaerrores,0)
 28-02-2023 11:16:08 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra el alias 'CABEPEDIDO'.;Linea : SELECT CabePedido;Error :         13;Ultimo Alias Activo: CSROPCION;Ultimo registro:         25 ARCHIVO+FECHAHORA;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TE
+
 
 
 
@@ -2310,6 +2318,7 @@ MP\0000BG95012J.TMP;Ultimo Control activo:
 
 
 
+
 DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000RTOP02ET.TMP;Ultimo Control activo: 
 28-02-2023 11:26:19 , Pila de llamadas
 28-02-2023 11:26:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -2323,6 +2332,7 @@ DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000RTOP02ET.TMP;Ultimo Control activo:
 28-02-2023 11:26:21 , Nº de Linea :         49
 28-02-2023 11:26:21 , En el Fuente: thisform.actualizafac.cadenavalor = lcCmdValor
 28-02-2023 11:27:00 , REGFACPM.CONTAINERENCABEZA._TXTFOCO.GOTFOCUS, Error: No se encuentra la propiedad CADENAVALOR.;Linea : thisform.actualizafac.cadenavalor = lcCmd;Error :       1734;Ultimo Alias Activo: CSRPARACONTA;Ultimo registro:          1 ;DBF: 
+
 
 
 
@@ -2484,6 +2494,7 @@ C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000RTOP02N9.TMP;Ultimo Control activo:
 
 
 
+
 PPDATA\LOCAL\TEMP\0000RTOP09N3.TMP;Ultimo Control activo: 
 28-02-2023 12:11:58 , Pila de llamadas
 28-02-2023 12:11:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -2507,6 +2518,7 @@ PPDATA\LOCAL\TEMP\0000RTOP09N3.TMP;Ultimo Control activo:
 28-02-2023 12:12:04 , Nº de Linea :        260
 28-02-2023 12:12:04 , En el Fuente: 			IF SEEK(cClave,"CsrAuxCuerfac","kclave")	
 28-02-2023 12:12:13 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF SEEK(cClave,"CsrAuxCuerfac","kclave");Error :       1683;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\A
+
 
 
 
@@ -2655,6 +2667,7 @@ PPDATA\LOCAL\TEMP\0000RTOP09N3.TMP;Ultimo Control activo:
 
 
 
+
 PPDATA\LOCAL\TEMP\0000RTOP09N3.TMP;Ultimo Control activo: 
 28-02-2023 12:12:26 , Pila de llamadas
 28-02-2023 12:12:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -2670,6 +2683,7 @@ PPDATA\LOCAL\TEMP\0000RTOP09N3.TMP;Ultimo Control activo:
 28-02-2023 12:12:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
 28-02-2023 12:12:30 , Objeto      : regfacpm.cmdsalvar.click
 28-02-2023 12:21:01 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra el alias 'CABEPEDIDO'.;Linea : SELECT CabePedido;Error :         13;Ultimo Alias Activo: CSROPCION;Ultimo registro:         25 ARCHIVO+FECHAHORA;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TE
+
 
 
 
@@ -2800,6 +2814,7 @@ MP\00018DFT01WL.TMP;Ultimo Control activo:
 
 
 
+
 PPDATA\LOCAL\TEMP\00002RYH01JM.TMP;Ultimo Control activo: 
 28-02-2023 12:43:21 , Pila de llamadas
 28-02-2023 12:43:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -2823,6 +2838,7 @@ PPDATA\LOCAL\TEMP\00002RYH01JM.TMP;Ultimo Control activo:
 28-02-2023 12:43:27 , Nº de Linea :        260
 28-02-2023 12:43:27 , En el Fuente: 			IF SEEK(cClave,"CsrAuxCuerfac","kclave")	
 28-02-2023 12:43:34 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la etiqueta de índice.;Linea : IF SEEK(cClave,"CsrAuxCuerfac","kclave");Error :       1683;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCO\A
+
 
 
 
@@ -2921,6 +2937,7 @@ PPDATA\LOCAL\TEMP\00002RYH01JM.TMP;Ultimo Control activo:
 
 
 
+
 APPDATA\LOCAL\TEMP\000045QH00O8.TMP;Ultimo Control activo: 
 07-03-2023 08:53:28 , Pila de llamadas
 07-03-2023 08:53:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\guiavisita.sct
@@ -2929,6 +2946,7 @@ APPDATA\LOCAL\TEMP\000045QH00O8.TMP;Ultimo Control activo:
 07-03-2023 08:53:28 , Nº de Linea :          1
 07-03-2023 08:53:29 , En el Fuente: 	thisform.cargaruta(lnidruta)
 08-03-2023 17:17:29 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'AUTODEC567'.;Linea : replace idsector WITH CsrCtacte.idsectorvta, sectorcate WITH CsrCtacte.sectorcate ,idsectorrep WITH CsrCtacte.idsectorrep ,autodec567 WITH CsrCtact
+
 
 
 
@@ -3013,6 +3031,7 @@ e.autodec567  IN CsrAuxcabefac;Error :         12;Ultimo Alias Activo: CSRCTACTE
 
 
 
+
 UMERO);DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000QS5L02D3.TMP;Ultimo Control activo: 
 08-03-2023 17:18:34 , Pila de llamadas
 08-03-2023 17:18:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -3041,6 +3060,7 @@ UMERO);DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000QS5L02D3.TMP;Ultimo Control ac
 08-03-2023 17:18:36 , Nº de Linea :         38
 08-03-2023 17:18:36 , En el Fuente: 		   replace categoiva WITH CsrCategoiva.abrevia IN CsrAuxCabefac
 08-03-2023 18:04:51 , REGFACPM.CMDPROCESAR.CLICK, Error: No se encuentra el alias 'CSRAUXVISITA'.;Linea : SELECT CsrAuxVisita;Error :         13;Ultimo Alias Activo: CSRAUXCABEPED;Ultimo registro:         25 ID;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000
+
 
 
 
@@ -3092,6 +3112,7 @@ FR490161.TMP;Ultimo Control activo:
 
 
 
+
 PPDATA\LOCAL\TEMP\000099U100Q7.TMP;Ultimo Control activo: 
 09-03-2023 18:10:28 , Pila de llamadas
 09-03-2023 18:10:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -3120,6 +3141,7 @@ PPDATA\LOCAL\TEMP\000099U100Q7.TMP;Ultimo Control activo:
 
 
 
+
 PPDATA\LOCAL\TEMP\000099U104R8.TMP;Ultimo Control activo: 
 09-03-2023 18:49:27 , Pila de llamadas
 09-03-2023 18:49:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
@@ -3142,3 +3164,5 @@ PPDATA\LOCAL\TEMP\000099U104R8.TMP;Ultimo Control activo:
 09-03-2023 18:49:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacpm.sct
 09-03-2023 18:49:29 , Nº de Linea :        260
 09-03-2023 18:49:29 , En el Fuente: 			IF SEEK(cClave,"CsrAuxCuerfac","kclave")	
+12-04-2023 11:58:15 , ON..., Error: No hay ninguna tabla abierta en el área de trabajo actual.;Linea : go this.recnoareaini in (lcalias);Error :         52;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+12-04-2023 11:58:15 , Pila de llamadas
