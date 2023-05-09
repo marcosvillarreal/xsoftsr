@@ -17,7 +17,7 @@ lldesarrollo=(_vfp.startmode()#4)
 PIDSISTEMA = 1
 _vfp.AutoYield = .f.
 
-lctituloGestion = "Gestión de Ventas .-"
+lctituloGestion = "Gestión de Ventas " + IIF(lldesarrollo," - Beta","")
 
 If !lldesarrollo
    If f_activawin(lctituloGestion)
