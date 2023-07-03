@@ -1,6 +1,3 @@
-08-05-2023 14:14:07 , Nº de Linea :        141
-08-05-2023 14:14:08 , En el Fuente: 	this.lblinformado.Caption = "Total de Retenciones Informadas al Aplicativo "+STR(nTotalRete,12,2)
-12-05-2023 15:45:04 , CBIOPRECIO3.CMDPROCESAR.CLICK, Error: No se encuentra la variable 'CNUMERO'.;Linea : lcCodBarra1 = &lcCodigo;Error :         12;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:          1 VAL(CNUMERO);DBF: C:\USERS\MARCO\APPDATA\LOC
 
 
 
@@ -132,3404 +129,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-AL\TEMP\00011SEH001K.TMP;Ultimo Control activo: 
-12-05-2023 15:45:04 , Pila de llamadas
-12-05-2023 15:45:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:04 , Objeto      : cbioprecio3.cmdprocesar.click
-12-05-2023 15:45:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:04 , Nº de Linea :          5
-12-05-2023 15:45:05 , En el Fuente: thisform.imprimir_vistaprevia1.excel.Click()
-12-05-2023 15:45:05 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-12-05-2023 15:45:05 , Objeto      : cbioprecio3.imprimir_vistaprevia1.excel.click
-12-05-2023 15:45:05 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-12-05-2023 15:45:05 , Nº de Linea :          8
-12-05-2023 15:45:05 , En el Fuente: llOK=thisform.CrearInforme()
-12-05-2023 15:45:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:05 , Objeto      : cbioprecio3.crearinforme
-12-05-2023 15:45:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:06 , Nº de Linea :         19
-12-05-2023 15:45:06 , En el Fuente: 	IF NOT thisform.leerarchivo()
-12-05-2023 15:45:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:06 , Objeto      : cbioprecio3.leerarchivo
-12-05-2023 15:45:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:06 , Nº de Linea :         33
-12-05-2023 15:45:06 , En el Fuente: 	thisform.procesararchivo()
-12-05-2023 15:45:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:06 , Objeto      : cbioprecio3.procesararchivo
-12-05-2023 15:45:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:07 , Nº de Linea :        116
-12-05-2023 15:45:07 , En el Fuente: this.mapearproductos()
-12-05-2023 15:45:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:07 , Objeto      : cbioprecio3.mapearproductos
-12-05-2023 15:45:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\cbioprecio3.sct
-12-05-2023 15:45:08 , Nº de Linea :         51
-12-05-2023 15:45:08 , En el Fuente: 	lcCodBarra1 = &lcCodigo
-18-05-2023 12:32:32 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra la variable 'IDARTICULO'.;Linea : IF idarticulo <> 0;Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         30 ;DBF: C:\USERS\MARCO\APPDATA\L
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OCAL\TEMP\0000G6X5009O.TMP;Ultimo Control activo: 
-18-05-2023 12:32:32 , Pila de llamadas
-18-05-2023 12:32:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:32 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-18-05-2023 12:32:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:32 , Nº de Linea :         21
-18-05-2023 12:32:33 , En el Fuente: 		IF .grid2_lostfocuscant()
-18-05-2023 12:32:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:33 , Objeto      : regfacvtapub.grid2_lostfocuscant
-18-05-2023 12:32:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:33 , Nº de Linea :          5
-18-05-2023 12:32:33 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-18-05-2023 12:32:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:34 , Objeto      : regfacvtapub.grid2_control
-18-05-2023 12:32:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:34 , Nº de Linea :        416
-18-05-2023 12:32:34 , En el Fuente: 		thisform.grid2_controlcombos()	
-18-05-2023 12:32:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:34 , Objeto      : regfacvtapub.grid2_controlcombos
-18-05-2023 12:32:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:35 , Nº de Linea :         89
-18-05-2023 12:32:35 , En el Fuente: thisform.totalcomprobante()
-18-05-2023 12:32:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:35 , Objeto      : regfacvtapub.totalcomprobante
-18-05-2023 12:32:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 12:32:35 , Nº de Linea :         81
-18-05-2023 12:32:35 , En el Fuente: 	IF idarticulo <> 0
-18-05-2023 13:53:19 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-18-05-2023 13:53:19 , Pila de llamadas
-18-05-2023 14:15:58 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No coinciden los tipos de datos.;Linea : replace nomrete1 WITH "IBTO1",retencion1 WITH loObjRetencion.nombre1,baserete1 WITH loObjRetencion.base1,tasarete1 WITH thisform.ta
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-saperib1 ,nomrete2 WITH loObjRetencion.nombre2,retencion2 WITH loObjRetencion.impuesto2,baserete2 WITH loObjRetencion.base2,tasarete2 WITH loObjRetencion.Tasa2 ,nomrete3 WITH "NOCATEGORI",retencion3 WITH lnTotNocatego,baserete3 WITH lnBaseNoCatego,tasare
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-te3 WITH lntasaNoCatego IN CsrAuxCabefac;Error :          9;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          2 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000CW7D02AW.TMP;Ultimo Control activo: PARADA
-18-05-2023 14:15:58 , Pila de llamadas
-18-05-2023 14:15:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 14:15:58 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-18-05-2023 14:15:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 14:15:58 , Nº de Linea :        149
-18-05-2023 14:15:58 , En el Fuente: 	thisform.totalcomprobante()
-18-05-2023 14:15:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 14:15:58 , Objeto      : regfacvtapub.totalcomprobante
-18-05-2023 14:15:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-18-05-2023 14:15:59 , Nº de Linea :        265
-18-05-2023 14:15:59 , En el Fuente: 	 replace nomrete1 WITH "IBTO1",retencion1 WITH loObjRetencion.nombre1,baserete1 WITH loObjRetencion.base1,tasarete1 WITH thisform.tasaperib1	 		,nomrete2 WITH loObjRetencion.nombre2,retencion2 WITH loObjRetencion.impu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-esto2,baserete2 WITH loObjRetencion.base2,tasarete2 WITH loObjRetencion.Tasa2			,nomrete3 WITH "NOCATEGORI",retencion3 WITH lnTotNocatego,baserete3 WITH lnBaseNoCatego,tasarete3 WITH lntasaNoCatego			IN CsrAuxCabefac
-22-05-2023 10:31:01 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\000071MX00LI.TMP;Ultimo Control activo: CANTIDAD
-22-05-2023 10:31:02 , Pila de llamadas
-22-05-2023 10:31:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:03 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-22-05-2023 10:31:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:03 , Nº de Linea :         21
-22-05-2023 10:31:03 , En el Fuente: 		IF .grid2_lostfocuscant()
-22-05-2023 10:31:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:03 , Objeto      : regfacvtapub.grid2_lostfocuscant
-22-05-2023 10:31:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:04 , Nº de Linea :          5
-22-05-2023 10:31:04 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-22-05-2023 10:31:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:04 , Objeto      : regfacvtapub.grid2_control
-22-05-2023 10:31:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:04 , Nº de Linea :        416
-22-05-2023 10:31:04 , En el Fuente: 		thisform.grid2_controlcombos()	
-22-05-2023 10:31:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:05 , Objeto      : regfacvtapub.grid2_controlcombos
-22-05-2023 10:31:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:05 , Nº de Linea :         29
-22-05-2023 10:31:05 , En el Fuente: SELECT CsrProdCombos
-22-05-2023 10:31:10 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\000071MX00LI.TMP;Ultimo Control activo: CANTIDAD
-22-05-2023 10:31:10 , Pila de llamadas
-22-05-2023 10:31:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:10 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-22-05-2023 10:31:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:10 , Nº de Linea :         21
-22-05-2023 10:31:10 , En el Fuente: 		IF .grid2_lostfocuscant()
-22-05-2023 10:31:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:10 , Objeto      : regfacvtapub.grid2_lostfocuscant
-22-05-2023 10:31:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:11 , Nº de Linea :          5
-22-05-2023 10:31:11 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-22-05-2023 10:31:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:11 , Objeto      : regfacvtapub.grid2_control
-22-05-2023 10:31:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:11 , Nº de Linea :        416
-22-05-2023 10:31:11 , En el Fuente: 		thisform.grid2_controlcombos()	
-22-05-2023 10:31:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:11 , Objeto      : regfacvtapub.grid2_controlcombos
-22-05-2023 10:31:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:11 , Nº de Linea :         29
-22-05-2023 10:31:12 , En el Fuente: SELECT CsrProdCombos
-22-05-2023 10:31:14 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\000071MX00LI.TMP;Ultimo Control activo: CANTIDAD
-22-05-2023 10:31:14 , Pila de llamadas
-22-05-2023 10:31:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:15 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-22-05-2023 10:31:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:15 , Nº de Linea :         21
-22-05-2023 10:31:15 , En el Fuente: 		IF .grid2_lostfocuscant()
-22-05-2023 10:31:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:16 , Objeto      : regfacvtapub.grid2_lostfocuscant
-22-05-2023 10:31:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:16 , Nº de Linea :          5
-22-05-2023 10:31:16 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-22-05-2023 10:31:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:16 , Objeto      : regfacvtapub.grid2_control
-22-05-2023 10:31:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:16 , Nº de Linea :        416
-22-05-2023 10:31:16 , En el Fuente: 		thisform.grid2_controlcombos()	
-22-05-2023 10:31:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:17 , Objeto      : regfacvtapub.grid2_controlcombos
-22-05-2023 10:31:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:17 , Nº de Linea :         29
-22-05-2023 10:31:17 , En el Fuente: SELECT CsrProdCombos
-22-05-2023 10:31:21 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\000071MX00LI.TMP;Ultimo Control activo: CANTIDAD
-22-05-2023 10:31:21 , Pila de llamadas
-22-05-2023 10:31:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:22 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-22-05-2023 10:31:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:22 , Nº de Linea :         21
-22-05-2023 10:31:22 , En el Fuente: 		IF .grid2_lostfocuscant()
-22-05-2023 10:31:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:22 , Objeto      : regfacvtapub.grid2_lostfocuscant
-22-05-2023 10:31:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:23 , Nº de Linea :          5
-22-05-2023 10:31:23 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-22-05-2023 10:31:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:23 , Objeto      : regfacvtapub.grid2_control
-22-05-2023 10:31:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:23 , Nº de Linea :        416
-22-05-2023 10:31:23 , En el Fuente: 		thisform.grid2_controlcombos()	
-22-05-2023 10:31:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:23 , Objeto      : regfacvtapub.grid2_controlcombos
-22-05-2023 10:31:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:24 , Nº de Linea :         29
-22-05-2023 10:31:24 , En el Fuente: SELECT CsrProdCombos
-22-05-2023 10:31:33 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\000071MX00LI.TMP;Ultimo Control activo: CANTIDAD
-22-05-2023 10:31:34 , Pila de llamadas
-22-05-2023 10:31:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:34 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-22-05-2023 10:31:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:34 , Nº de Linea :         21
-22-05-2023 10:31:34 , En el Fuente: 		IF .grid2_lostfocuscant()
-22-05-2023 10:31:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:34 , Objeto      : regfacvtapub.grid2_lostfocuscant
-22-05-2023 10:31:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:35 , Nº de Linea :          5
-22-05-2023 10:31:35 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-22-05-2023 10:31:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:35 , Objeto      : regfacvtapub.grid2_control
-22-05-2023 10:31:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:36 , Nº de Linea :        416
-22-05-2023 10:31:36 , En el Fuente: 		thisform.grid2_controlcombos()	
-22-05-2023 10:31:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:36 , Objeto      : regfacvtapub.grid2_controlcombos
-22-05-2023 10:31:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:36 , Nº de Linea :         29
-22-05-2023 10:31:36 , En el Fuente: SELECT CsrProdCombos
-22-05-2023 10:31:39 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\000071MX00LI.TMP;Ultimo Control activo: CANTIDAD
-22-05-2023 10:31:39 , Pila de llamadas
-22-05-2023 10:31:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:40 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-22-05-2023 10:31:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:40 , Nº de Linea :         21
-22-05-2023 10:31:40 , En el Fuente: 		IF .grid2_lostfocuscant()
-22-05-2023 10:31:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:40 , Objeto      : regfacvtapub.grid2_lostfocuscant
-22-05-2023 10:31:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:40 , Nº de Linea :          5
-22-05-2023 10:31:41 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-22-05-2023 10:31:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:41 , Objeto      : regfacvtapub.grid2_control
-22-05-2023 10:31:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:41 , Nº de Linea :        416
-22-05-2023 10:31:41 , En el Fuente: 		thisform.grid2_controlcombos()	
-22-05-2023 10:31:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:41 , Objeto      : regfacvtapub.grid2_controlcombos
-22-05-2023 10:31:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:41 , Nº de Linea :         29
-22-05-2023 10:31:41 , En el Fuente: SELECT CsrProdCombos
-22-05-2023 10:31:43 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\000071MX00LI.TMP;Ultimo Control activo: CANTIDAD
-22-05-2023 10:31:44 , Pila de llamadas
-22-05-2023 10:31:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:44 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-22-05-2023 10:31:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:44 , Nº de Linea :         21
-22-05-2023 10:31:44 , En el Fuente: 		IF .grid2_lostfocuscant()
-22-05-2023 10:31:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:44 , Objeto      : regfacvtapub.grid2_lostfocuscant
-22-05-2023 10:31:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:45 , Nº de Linea :          5
-22-05-2023 10:31:45 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-22-05-2023 10:31:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:45 , Objeto      : regfacvtapub.grid2_control
-22-05-2023 10:31:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:45 , Nº de Linea :        416
-22-05-2023 10:31:45 , En el Fuente: 		thisform.grid2_controlcombos()	
-22-05-2023 10:31:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:46 , Objeto      : regfacvtapub.grid2_controlcombos
-22-05-2023 10:31:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:46 , Nº de Linea :         29
-22-05-2023 10:31:46 , En el Fuente: SELECT CsrProdCombos
-22-05-2023 10:31:54 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\000071MX00LI.TMP;Ultimo Control activo: CANTIDAD
-22-05-2023 10:31:54 , Pila de llamadas
-22-05-2023 10:31:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:55 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-22-05-2023 10:31:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:55 , Nº de Linea :         21
-22-05-2023 10:31:55 , En el Fuente: 		IF .grid2_lostfocuscant()
-22-05-2023 10:31:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:55 , Objeto      : regfacvtapub.grid2_lostfocuscant
-22-05-2023 10:31:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:56 , Nº de Linea :          5
-22-05-2023 10:31:56 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-22-05-2023 10:31:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:56 , Objeto      : regfacvtapub.grid2_control
-22-05-2023 10:31:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:56 , Nº de Linea :        416
-22-05-2023 10:31:56 , En el Fuente: 		thisform.grid2_controlcombos()	
-22-05-2023 10:31:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:56 , Objeto      : regfacvtapub.grid2_controlcombos
-22-05-2023 10:31:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-22-05-2023 10:31:56 , Nº de Linea :         29
-22-05-2023 10:31:57 , En el Fuente: SELECT CsrProdCombos
-30-05-2023 10:00:06 , REGFACVTA_V1.LOAD, Error: El archivo 'csrcuerfac.dbf' no existe.;Linea : SELECT CsrCuerfac.*,0000000.00 as stock,0000000.00 as total,CAST(0 as int) as idcuerfac,0000000.000 as desctoCiva,0000000.000 as DesctoSiva ,CAST(0 as numeric(
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12,0)) as registro,CAST(0 as int) as idfuerzavta,' ' as alcohol,' ' as codvalido,CAST(0 as int) as idcabeunifica ,CAST(0 as int) as idprodpromo,CAST(0 as int) as idprodregalo,000000 as cada,000000 as entrega,0 as nofactura,00000000.000 as InternoFin ,CAS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-T(0 as int) as idctavta,00000000.000 as UniCiva,00000000.000 as UniSiva,00000000.000 as IvaUni,00000000.000 as UniCiva2 ,00000000.000 as UniSiva2,00000000.000 as IvaUni2,CAST(0 as int) as idenvase,CAST(0 as int) as idprodgenera,0000 as hojaactual ,0 as b
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ondigitada,CAST(0 as int) as minimofac,SPACE(10+6) as clavepedido,CAST(0 as int) as registropromgen ,0 as noctrolstock,SPACE(30) as nombre02, 0 as exentoiva,0 as univtaorig ,CAST(0 as int) as minimotofi,CAST(0 as n(6,2)) as topeboniofi FROM CsrCuerfac WH
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCuerfac READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000HCEH005S.TMP;Ultimo Control activo: 
-30-05-2023 10:00:06 , Pila de llamadas
-30-05-2023 10:00:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-30-05-2023 10:00:06 , Objeto      : regfacvta_v1.load
-30-05-2023 10:00:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-30-05-2023 10:00:06 , Nº de Linea :          3
-30-05-2023 10:00:06 , En el Fuente: thisform.crearcursor()
-30-05-2023 10:00:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-30-05-2023 10:00:06 , Objeto      : regfacvta_v1.crearcursor
-30-05-2023 10:00:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v1.sct
-30-05-2023 10:00:06 , Nº de Linea :         35
-30-05-2023 10:00:07 , En el Fuente: SELECT CsrCuerfac.*,0000000.00 as stock,0000000.00 as total,CAST(0 as int) as idcuerfac,0000000.000 as desctoCiva,0000000.000 as DesctoSiva	   ,CAST(0 as numeric(12,0)) as registro,CAST(0 as int) as idfuerzavta,' ' as 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-alcohol,' ' as codvalido,CAST(0 as int) as idcabeunifica	   ,CAST(0 as int) as idprodpromo,CAST(0 as int) as idprodregalo,000000 as cada,000000 as entrega,0 as nofactura,00000000.000 as InternoFin	   ,CAST(0 as int) as idctavta,00000000.000 as UniCiva,00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-000000.000 as UniSiva,00000000.000 as IvaUni,00000000.000 as UniCiva2	   ,00000000.000 as UniSiva2,00000000.000 as IvaUni2,CAST(0 as int) as idenvase,CAST(0 as int) as idprodgenera,0000 as hojaactual       ,0 as bondigitada,CAST(0 as int) as minimofac,SP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ACE(10+6) as clavepedido,CAST(0 as int) as registropromgen;      	        	   
-16-06-2023 09:55:47 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra el alias 'CSRPRODCOMBOS'.;Linea : SELECT CsrProdCombos;Error :         13;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\US
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ERS\MARCO\APPDATA\LOCAL\TEMP\0000UMFD006P.TMP;Ultimo Control activo: IDCOMPROBA
-16-06-2023 09:55:47 , Pila de llamadas
-16-06-2023 09:55:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-16-06-2023 09:55:48 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-16-06-2023 09:55:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-16-06-2023 09:55:48 , Nº de Linea :        147
-16-06-2023 09:55:48 , En el Fuente: 	thisform.refresh_cuerpofac()
-16-06-2023 09:55:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-16-06-2023 09:55:49 , Objeto      : regfacvtapub.refresh_cuerpofac
-16-06-2023 09:55:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-16-06-2023 09:55:49 , Nº de Linea :         48
-16-06-2023 09:55:49 , En el Fuente: 	thisform.grid2_control('','ThisForm.Grid2.Column5.Text1')
-16-06-2023 09:55:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-16-06-2023 09:55:49 , Objeto      : regfacvtapub.grid2_control
-16-06-2023 09:55:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-16-06-2023 09:55:49 , Nº de Linea :        416
-16-06-2023 09:55:49 , En el Fuente: 		thisform.grid2_controlcombos()	
-16-06-2023 09:55:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-16-06-2023 09:55:50 , Objeto      : regfacvtapub.grid2_controlcombos
-16-06-2023 09:55:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub.sct
-16-06-2023 09:55:50 , Nº de Linea :         29
-16-06-2023 09:55:50 , En el Fuente: SELECT CsrProdCombos
-26-06-2023 11:07:53 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-26-06-2023 11:07:53 , Pila de llamadas
-26-06-2023 11:07:53 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
-26-06-2023 11:07:53 , Objeto      : main
-26-06-2023 11:07:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
-26-06-2023 11:07:53 , Nº de Linea :        255
-26-06-2023 11:07:53 , En el Fuente: 	LeerEmpresa()
-26-06-2023 11:07:53 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-26-06-2023 11:07:53 , Objeto      : leerempresa
-26-06-2023 11:07:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-26-06-2023 11:07:53 , Nº de Linea :       2194
-26-06-2023 11:07:53 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
-26-06-2023 11:07:54 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-26-06-2023 11:07:54 , Objeto      : crearcursoradapter
-26-06-2023 11:07:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-26-06-2023 11:07:54 , Nº de Linea :       2049
-26-06-2023 11:07:54 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
-26-06-2023 11:12:36 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'REINTEGRO'.;Linea : replace convenio WITH convenio - Oscatter.ConvCiva, reintegro WITH reintegro - Oscatter.ReintCIva IN CsrAuxCabefac;Error : 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000D1JD01BM.TMP;Ultimo Control activo: IDCOMPROBA
-26-06-2023 11:12:36 , Pila de llamadas
-26-06-2023 11:12:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:12:36 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-26-06-2023 11:12:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:12:36 , Nº de Linea :        147
-26-06-2023 11:12:37 , En el Fuente: 	thisform.refresh_cuerpofac()
-26-06-2023 11:12:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:12:37 , Objeto      : regfacvtapub.refresh_cuerpofac
-26-06-2023 11:12:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:12:37 , Nº de Linea :         48
-26-06-2023 11:12:37 , En el Fuente: 	thisform.grid2_control('','ThisForm.Grid2.Column5.Text1')
-26-06-2023 11:12:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:12:37 , Objeto      : regfacvtapub.grid2_control
-26-06-2023 11:12:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:12:37 , Nº de Linea :         45
-26-06-2023 11:12:38 , En el Fuente:      replace convenio WITH convenio - Oscatter.ConvCiva, reintegro WITH reintegro - Oscatter.ReintCIva IN CsrAuxCabefac
-26-06-2023 11:21:00 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct no existe o no es válido.;Linea : replace convenio WITH convenio - Oscatter.ConvCiva, reintegro WITH reintegro - Oscatter.ReintCIva IN CsrAu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-xCabefac;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-26-06-2023 11:21:00 , Pila de llamadas
-26-06-2023 11:34:19 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-26-06-2023 11:34:19 , Pila de llamadas
-26-06-2023 11:37:44 , REGFACVTAPUB.KEYPRESS, Error: LBLREINTEGRO es un miembro desconocido.;Linea : this.lblreintegro.Caption = '';Error :       1925;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         29 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-000HIBT00LQ.TMP;Ultimo Control activo: 
-26-06-2023 11:37:44 , Pila de llamadas
-26-06-2023 11:37:44 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:37:44 , Objeto      : regfacvtapub.keypress
-26-06-2023 11:37:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:37:44 , Nº de Linea :         59
-26-06-2023 11:37:45 , En el Fuente: 				.grid2_cambiocliente() 
-26-06-2023 11:37:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:37:45 , Objeto      : regfacvtapub.grid2_cambiocliente
-26-06-2023 11:37:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:37:45 , Nº de Linea :         60
-26-06-2023 11:37:45 , En el Fuente: 	this.lblreintegro.Caption = ''
-26-06-2023 11:40:57 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-26-06-2023 11:40:57 , Pila de llamadas
-26-06-2023 11:42:04 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'LNREINTSIVA'.;Linea : LnBaseReintSiva 	= LnBaseReintSiva + red(lnReintSiva,lndecimaltot);Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000D98P004Z.TMP;Ultimo Control activo: IDCOMPROBA
-26-06-2023 11:42:04 , Pila de llamadas
-26-06-2023 11:42:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:42:04 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-26-06-2023 11:42:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:42:05 , Nº de Linea :        149
-26-06-2023 11:42:05 , En el Fuente: 	thisform.totalcomprobante()
-26-06-2023 11:42:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:42:05 , Objeto      : regfacvtapub.totalcomprobante
-26-06-2023 11:42:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:42:05 , Nº de Linea :         81
-26-06-2023 11:42:05 , En el Fuente:      LnBaseReintSiva 	= LnBaseReintSiva + red(lnReintSiva,lndecimaltot) 
-26-06-2023 11:43:45 , REGFACVTAPUB.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'RENITSIVA'.;Linea : lnReintSiva= CsrAuxCuerfac.RenitSiva;Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGI
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-STRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000D98P00K7.TMP;Ultimo Control activo: IDCOMPROBA
-26-06-2023 11:43:45 , Pila de llamadas
-26-06-2023 11:43:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:43:46 , Objeto      : regfacvtapub.containerencabeza._txtparada.lostfocus
-26-06-2023 11:43:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:43:46 , Nº de Linea :        149
-26-06-2023 11:43:46 , En el Fuente: 	thisform.totalcomprobante()
-26-06-2023 11:43:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:43:46 , Objeto      : regfacvtapub.totalcomprobante
-26-06-2023 11:43:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct
-26-06-2023 11:43:47 , Nº de Linea :         51
-26-06-2023 11:43:47 , En el Fuente:      lnReintSiva= CsrAuxCuerfac.RenitSiva     
-26-06-2023 11:44:16 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2.sct no existe o no es válido.;Linea : lnReintSiva= CsrAuxCuerfac.RenitSiva;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;DBF: ;Ultimo Control activo: IDCOMPROBA
-26-06-2023 11:44:16 , Pila de llamadas
-26-06-2023 13:09:42 , REGFACVTAPUB_V1.LOAD, Error: El archivo 'csrcabefac.dbf' no existe.;Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as i
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-vari2,000000000.00 as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idct
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-avta5,00000000.00 as ivari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomret
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-e5,00000000.00 as retencion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-o2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Venci
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva FROM CsrCabefac WHERE RECNO()=1 AND id=0 IN
 
 
 
@@ -3642,7 +241,271 @@ TO CURSOR CsrAuxcabefac READWRITE;Error :          1;Ultimo Alias Activo: ;Ultim
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3740,7 +603,271 @@ a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomre
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3838,6 +965,138 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimi
 
 
@@ -3887,7 +1146,271 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck       ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567       ,SPACE(2) as categoiva       FROM CsrCabefac WHERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3986,8 +1509,272 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 26-06-2023 14:16:24 , Pila de llamadas
 26-06-2023 14:51:05 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_b.sct no existe o no es válido.;Linea : .agregaobjeto.objimpuestovta(@loObjIva,@loObjRetencion);Error :         41;Ultimo Alias Activo: ;Ultimo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4037,6 +1824,138 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 registro:          0 ;DBF: ;Ultimo Control activo: IDCOMPROBA
 26-06-2023 14:51:05 , Pila de llamadas
 26-06-2023 15:00:56 , REGFACVTAPUB.CMDSALVAR.CLICK, Error: No se encuentra la variable 'OSCATTERCAB'.;Linea : thisform.unitariofac.Calculaimpuesto(@Oscatter,OscatterCab,lnCantidad,lnunibulto);Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4146,6 +2065,138 @@ egistro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BWG9004Z
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BWG901OT.TMP;Ultimo Control activo: 
 26-06-2023 16:02:27 , Pila de llamadas
 26-06-2023 16:02:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_b.sct
@@ -4214,9 +2265,273 @@ ERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEM
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 imo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 26-06-2023 16:06:18 , Pila de llamadas
 26-06-2023 16:08:10 , REGFACVTAPUB.CMDSALVAR.CLICK, Error: No se encuentra la variable 'LNDECIMALTOT'.;Linea : Oscatter.total = Red((Oscatter.UniSiva + Oscatter.internofin + Oscatter.ivauni ),lndecimaltot);Error :         12;Ultimo Alias Activo: CSRAUXCU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4275,8 +2590,272 @@ ERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEM
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 26-06-2023 17:20:23 , Pila de llamadas
 26-06-2023 18:56:29 , PARAVARIO.INIT, Error: No se encuentra la propiedad CONTREINTEGRO.;Linea : WITH .ContReintegro;Error :       1734;Ultimo Alias Activo: CSRPROVINCIARN;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000JX1L068Y.T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4304,6 +2883,138 @@ MP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \LOCAL\TEMP\0000JX1L06A8.TMP;Ultimo Control activo: 
 26-06-2023 18:57:11 , Pila de llamadas
 26-06-2023 18:57:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\paravario.sct
@@ -4319,6 +3030,138 @@ MP;Ultimo Control activo:
 26-06-2023 18:57:39 , PARAVARIO.INIT, Error: Error en chk1 - Value : No coinciden los tipos de datos.;Linea : .chk1.Value = LEFT(ReintDias,1);Error :       1881;Ultimo Alias Activo: CSRPROVINCIARN;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LOCAL\TEMP\0000JX1L06BJ.TMP;Ultimo Control activo: 
 26-06-2023 18:57:39 , Pila de llamadas
 26-06-2023 18:57:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\paravario.sct
@@ -4331,3 +3174,1621 @@ LOCAL\TEMP\0000JX1L06BJ.TMP;Ultimo Control activo:
 26-06-2023 18:57:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\paravario.sct
 26-06-2023 18:57:41 , Nº de Linea :         91
 26-06-2023 18:57:41 , En el Fuente: 		.chk1.Value = LEFT(ReintDias,1)
+03-07-2023 11:01:30 , ABMPRODCOMBO.ACEPTAR1.CLICK, Error: La propiedad SYNC_LOAD no es un método o evento.;Linea : this.sync_load('COM');Error :       1738;Ultimo Alias Activo: CSRCUERCOMBO;Ultimo registro:          4 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EMP\0000MUX500Y4.TMP;Ultimo Control activo: 
+03-07-2023 11:01:31 , Pila de llamadas
+03-07-2023 11:01:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:01:32 , Objeto      : abmprodcombo.aceptar1.click
+03-07-2023 11:01:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:01:32 , Nº de Linea :          2
+03-07-2023 11:01:32 , En el Fuente: thisform.key_43grid2()
+03-07-2023 11:01:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:01:32 , Objeto      : abmprodcombo.key_43grid2
+03-07-2023 11:01:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:01:33 , Nº de Linea :          6
+03-07-2023 11:01:33 , En el Fuente: thisform.actualizar()
+03-07-2023 11:01:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:01:33 , Objeto      : abmprodcombo.actualizar
+03-07-2023 11:01:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:01:33 , Nº de Linea :         28
+03-07-2023 11:01:33 , En el Fuente: 			   this.sync_load('COM')
+03-07-2023 11:06:14 , ABMPRODCOMBO.ACEPTAR1.CLICK, Error: La propiedad SYNC_LOAD no es un método o evento.;Linea : this.sync_load('COM');Error :       1738;Ultimo Alias Activo: CSRCUERCOMBO;Ultimo registro:          5 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EMP\0000MUX501I0.TMP;Ultimo Control activo: 
+03-07-2023 11:06:14 , Pila de llamadas
+03-07-2023 11:06:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:06:15 , Objeto      : abmprodcombo.aceptar1.click
+03-07-2023 11:06:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:06:15 , Nº de Linea :          2
+03-07-2023 11:06:16 , En el Fuente: thisform.key_43grid2()
+03-07-2023 11:06:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:06:16 , Objeto      : abmprodcombo.key_43grid2
+03-07-2023 11:06:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:06:16 , Nº de Linea :          6
+03-07-2023 11:06:17 , En el Fuente: thisform.actualizar()
+03-07-2023 11:06:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:06:17 , Objeto      : abmprodcombo.actualizar
+03-07-2023 11:06:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
+03-07-2023 11:06:18 , Nº de Linea :         28
+03-07-2023 11:06:18 , En el Fuente: 			   this.sync_load('COM')
+03-07-2023 11:50:11 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRAUXCUERVARIPROMO'.;Linea : SELECT CsrAuxCuerVariPromo;Error :         13;Ultimo Alias Activo: CSRAUXCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\MARCO\APPDATA\LOCAL\TEMP\0000H3PL013C.TMP;Ultimo Control activo: PREUNITA
+03-07-2023 11:50:11 , Pila de llamadas
+03-07-2023 11:50:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:12 , Objeto      : regfacvta_v1.grid2.column4.text1.lostfocus
+03-07-2023 11:50:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:12 , Nº de Linea :          1
+03-07-2023 11:50:13 , En el Fuente: thisform.grid2_lostfocusimp()
+03-07-2023 11:50:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:13 , Objeto      : regfacvta_v1.grid2_lostfocusimp
+03-07-2023 11:50:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:14 , Nº de Linea :          8
+03-07-2023 11:50:15 , En el Fuente: 		.controlpromocion()
+03-07-2023 11:50:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:15 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 11:50:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:15 , Nº de Linea :         10
+03-07-2023 11:50:16 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 11:50:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:16 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 11:50:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:17 , Nº de Linea :          6
+03-07-2023 11:50:18 , En el Fuente: SELECT CsrAuxCuerVariPromo
+03-07-2023 11:50:26 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRAUXCUERVARIPROMO'.;Linea : SELECT CsrAuxCuerVariPromo;Error :         13;Ultimo Alias Activo: CSRAUXCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\MARCO\APPDATA\LOCAL\TEMP\0000H3PL013C.TMP;Ultimo Control activo: PREUNITA
+03-07-2023 11:50:26 , Pila de llamadas
+03-07-2023 11:50:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:27 , Objeto      : regfacvta_v1.grid2.column4.text1.lostfocus
+03-07-2023 11:50:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:28 , Nº de Linea :          1
+03-07-2023 11:50:28 , En el Fuente: thisform.grid2_lostfocusimp()
+03-07-2023 11:50:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:28 , Objeto      : regfacvta_v1.grid2_lostfocusimp
+03-07-2023 11:50:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:28 , Nº de Linea :          8
+03-07-2023 11:50:29 , En el Fuente: 		.controlpromocion()
+03-07-2023 11:50:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:29 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 11:50:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:30 , Nº de Linea :         10
+03-07-2023 11:50:31 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 11:50:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:31 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 11:50:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:50:31 , Nº de Linea :          6
+03-07-2023 11:50:31 , En el Fuente: SELECT CsrAuxCuerVariPromo
+03-07-2023 11:50:59 , REGFACVTA_V1.KEYPRESS, Error: No se encuentra el alias 'CSRAUXCUERVARIPROMO'.;Linea : SELECT CsrAuxCuerVariPromo;Error :         13;Ultimo Alias Activo: CSRAUXCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMP\0000H3PL013C.TMP;Ultimo Control activo: 
+03-07-2023 11:50:59 , Pila de llamadas
+03-07-2023 11:51:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:00 , Objeto      : regfacvta_v1.keypress
+03-07-2023 11:51:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:01 , Nº de Linea :         30
+03-07-2023 11:51:01 , En el Fuente: 	        .k_escape()
+03-07-2023 11:51:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:01 , Objeto      : regfacvta_v1.k_escape
+03-07-2023 11:51:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:02 , Nº de Linea :         34
+03-07-2023 11:51:02 , En el Fuente: 	   		.grid2_procesolinea(27)      
+03-07-2023 11:51:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:03 , Objeto      : regfacvta_v1.grid2_procesolinea
+03-07-2023 11:51:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:03 , Nº de Linea :         65
+03-07-2023 11:51:03 , En el Fuente: 	thisform.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
+03-07-2023 11:51:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:03 , Objeto      : regfacvta_v1.grid2.column4.text1.lostfocus
+03-07-2023 11:51:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:04 , Nº de Linea :          1
+03-07-2023 11:51:05 , En el Fuente: thisform.grid2_lostfocusimp()
+03-07-2023 11:51:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:05 , Objeto      : regfacvta_v1.grid2_lostfocusimp
+03-07-2023 11:51:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:06 , Nº de Linea :          8
+03-07-2023 11:51:06 , En el Fuente: 		.controlpromocion()
+03-07-2023 11:51:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:07 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 11:51:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:08 , Nº de Linea :         10
+03-07-2023 11:51:08 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 11:51:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:08 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 11:51:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:09 , Nº de Linea :          6
+03-07-2023 11:51:09 , En el Fuente: SELECT CsrAuxCuerVariPromo
+03-07-2023 11:51:15 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRAUXCUERVARIPROMO'.;Linea : SELECT CsrAuxCuerVariPromo;Error :         13;Ultimo Alias Activo: CSRAUXCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\MARCO\APPDATA\LOCAL\TEMP\0000H3PL013C.TMP;Ultimo Control activo: PREUNITA
+03-07-2023 11:51:15 , Pila de llamadas
+03-07-2023 11:51:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:16 , Objeto      : regfacvta_v1.grid2.column4.text1.lostfocus
+03-07-2023 11:51:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:17 , Nº de Linea :          1
+03-07-2023 11:51:17 , En el Fuente: thisform.grid2_lostfocusimp()
+03-07-2023 11:51:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:17 , Objeto      : regfacvta_v1.grid2_lostfocusimp
+03-07-2023 11:51:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:17 , Nº de Linea :          8
+03-07-2023 11:51:18 , En el Fuente: 		.controlpromocion()
+03-07-2023 11:51:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:18 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 11:51:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:18 , Nº de Linea :         10
+03-07-2023 11:51:19 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 11:51:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:19 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 11:51:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:51:19 , Nº de Linea :          6
+03-07-2023 11:51:19 , En el Fuente: SELECT CsrAuxCuerVariPromo
+03-07-2023 11:53:22 , REGFACVTA_V1.KEYPRESS, Error: No se encuentra el alias 'CSRAUXCUERVARIPROMO'.;Linea : SELECT CsrAuxCuerVariPromo;Error :         13;Ultimo Alias Activo: CSRAUXCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMP\0000H3PL013C.TMP;Ultimo Control activo: 
+03-07-2023 11:53:22 , Pila de llamadas
+03-07-2023 11:53:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:23 , Objeto      : regfacvta_v1.keypress
+03-07-2023 11:53:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:24 , Nº de Linea :         30
+03-07-2023 11:53:24 , En el Fuente: 	        .k_escape()
+03-07-2023 11:53:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:24 , Objeto      : regfacvta_v1.k_escape
+03-07-2023 11:53:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:25 , Nº de Linea :         34
+03-07-2023 11:53:25 , En el Fuente: 	   		.grid2_procesolinea(27)      
+03-07-2023 11:53:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:26 , Objeto      : regfacvta_v1.grid2_procesolinea
+03-07-2023 11:53:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:27 , Nº de Linea :         65
+03-07-2023 11:53:27 , En el Fuente: 	thisform.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
+03-07-2023 11:53:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:27 , Objeto      : regfacvta_v1.grid2.column4.text1.lostfocus
+03-07-2023 11:53:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:28 , Nº de Linea :          1
+03-07-2023 11:53:28 , En el Fuente: thisform.grid2_lostfocusimp()
+03-07-2023 11:53:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:28 , Objeto      : regfacvta_v1.grid2_lostfocusimp
+03-07-2023 11:53:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:29 , Nº de Linea :          8
+03-07-2023 11:53:29 , En el Fuente: 		.controlpromocion()
+03-07-2023 11:53:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:30 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 11:53:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:31 , Nº de Linea :         10
+03-07-2023 11:53:31 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 11:53:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:31 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 11:53:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 11:53:31 , Nº de Linea :          6
+03-07-2023 11:53:31 , En el Fuente: SELECT CsrAuxCuerVariPromo
+03-07-2023 12:04:47 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: No se encuentra la propiedad CANTKILOS.;Linea : Oscatter.cantkilos		= 0;Error :       1734;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\LOCAL\TEMP\00006UQ100F3.TMP;Ultimo Control activo: PREUNITA
+03-07-2023 12:04:47 , Pila de llamadas
+03-07-2023 12:04:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:04:48 , Objeto      : regfacvta_v1.grid2.column4.text1.lostfocus
+03-07-2023 12:04:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:04:48 , Nº de Linea :          1
+03-07-2023 12:04:48 , En el Fuente: thisform.grid2_lostfocusimp()
+03-07-2023 12:04:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:04:49 , Objeto      : regfacvta_v1.grid2_lostfocusimp
+03-07-2023 12:04:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:04:49 , Nº de Linea :          8
+03-07-2023 12:04:49 , En el Fuente: 		.controlpromocion()
+03-07-2023 12:04:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:04:49 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 12:04:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:04:50 , Nº de Linea :         10
+03-07-2023 12:04:50 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 12:04:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:04:51 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 12:04:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:04:51 , Nº de Linea :         82
+03-07-2023 12:04:51 , En el Fuente: 	Oscatter.cantkilos		= 0
+03-07-2023 12:05:02 , REGFACVTA_V1.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra la propiedad CANTKILOS.;Linea : Oscatter.cantkilos		= 0;Error :       1734;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\LOCAL\TEMP\00006UQ100F6.TMP;Ultimo Control activo: CANTIDAD
+03-07-2023 12:05:02 , Pila de llamadas
+03-07-2023 12:05:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:03 , Objeto      : regfacvta_v1.grid2.column5.text1.lostfocus
+03-07-2023 12:05:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:03 , Nº de Linea :         21
+03-07-2023 12:05:03 , En el Fuente: 		IF NOT .grid2_lostfocuscant()
+03-07-2023 12:05:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:04 , Objeto      : regfacvta_v1.grid2_lostfocuscant
+03-07-2023 12:05:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:04 , Nº de Linea :         13
+03-07-2023 12:05:04 , En el Fuente: 		         .controlpromocion()			   
+03-07-2023 12:05:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:05 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 12:05:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:06 , Nº de Linea :         10
+03-07-2023 12:05:06 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 12:05:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:07 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 12:05:07 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:07 , Nº de Linea :         82
+03-07-2023 12:05:07 , En el Fuente: 	Oscatter.cantkilos		= 0
+03-07-2023 12:05:13 , REGFACVTA_V1.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra la propiedad CANTKILOS.;Linea : Oscatter.cantkilos		= 0;Error :       1734;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\LOCAL\TEMP\00006UQ100F9.TMP;Ultimo Control activo: CANTIDAD
+03-07-2023 12:05:13 , Pila de llamadas
+03-07-2023 12:05:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:14 , Objeto      : regfacvta_v1.grid2.column5.text1.lostfocus
+03-07-2023 12:05:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:15 , Nº de Linea :         21
+03-07-2023 12:05:15 , En el Fuente: 		IF NOT .grid2_lostfocuscant()
+03-07-2023 12:05:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:16 , Objeto      : regfacvta_v1.grid2_lostfocuscant
+03-07-2023 12:05:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:16 , Nº de Linea :         13
+03-07-2023 12:05:16 , En el Fuente: 		         .controlpromocion()			   
+03-07-2023 12:05:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:17 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 12:05:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:17 , Nº de Linea :         10
+03-07-2023 12:05:17 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 12:05:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:18 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 12:05:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:18 , Nº de Linea :         82
+03-07-2023 12:05:19 , En el Fuente: 	Oscatter.cantkilos		= 0
+03-07-2023 12:05:23 , REGFACVTA_V1.KEYPRESS, Error: No se encuentra la propiedad CANTKILOS.;Linea : Oscatter.cantkilos		= 0;Error :       1734;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\00006UQ10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0FC.TMP;Ultimo Control activo: 
+03-07-2023 12:05:23 , Pila de llamadas
+03-07-2023 12:05:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:24 , Objeto      : regfacvta_v1.keypress
+03-07-2023 12:05:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:25 , Nº de Linea :         30
+03-07-2023 12:05:25 , En el Fuente: 	        .k_escape()
+03-07-2023 12:05:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:26 , Objeto      : regfacvta_v1.k_escape
+03-07-2023 12:05:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:26 , Nº de Linea :         34
+03-07-2023 12:05:26 , En el Fuente: 	   		.grid2_procesolinea(27)      
+03-07-2023 12:05:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:26 , Objeto      : regfacvta_v1.grid2_procesolinea
+03-07-2023 12:05:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:27 , Nº de Linea :         65
+03-07-2023 12:05:27 , En el Fuente: 	thisform.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
+03-07-2023 12:05:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:28 , Objeto      : regfacvta_v1.grid2.column5.text1.lostfocus
+03-07-2023 12:05:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:28 , Nº de Linea :         21
+03-07-2023 12:05:28 , En el Fuente: 		IF NOT .grid2_lostfocuscant()
+03-07-2023 12:05:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:29 , Objeto      : regfacvta_v1.grid2_lostfocuscant
+03-07-2023 12:05:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:30 , Nº de Linea :         13
+03-07-2023 12:05:30 , En el Fuente: 		         .controlpromocion()			   
+03-07-2023 12:05:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:32 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 12:05:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:32 , Nº de Linea :         10
+03-07-2023 12:05:34 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 12:05:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:34 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 12:05:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:05:36 , Nº de Linea :         82
+03-07-2023 12:05:36 , En el Fuente: 	Oscatter.cantkilos		= 0
+03-07-2023 12:13:26 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: Debe especificar parámetros adicionales.;Linea : PARAMETERS lObjProducto,lobjprecio;Error :         94;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARCO\APPDATA\LOCAL\TEMP\0000O07D00EQ.TMP;Ultimo Control activo: PREUNITA
+03-07-2023 12:13:27 , Pila de llamadas
+03-07-2023 12:13:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:13:28 , Objeto      : regfacvta_v1.grid2.column4.text1.lostfocus
+03-07-2023 12:13:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:13:29 , Nº de Linea :          1
+03-07-2023 12:13:29 , En el Fuente: thisform.grid2_lostfocusimp()
+03-07-2023 12:13:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:13:29 , Objeto      : regfacvta_v1.grid2_lostfocusimp
+03-07-2023 12:13:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:13:29 , Nº de Linea :          8
+03-07-2023 12:13:29 , En el Fuente: 		.controlpromocion()
+03-07-2023 12:13:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:13:30 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 12:13:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:13:30 , Nº de Linea :         10
+03-07-2023 12:13:31 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 12:13:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:13:31 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 12:13:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:13:32 , Nº de Linea :         82
+03-07-2023 12:13:32 , En el Fuente: 	thisform.precioprod1.calculaprecio(lObjProducto,@lObjprecio,CsrAuxcabefac.listaprecio)
+03-07-2023 12:13:32 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
+03-07-2023 12:13:32 , Objeto      : regfacvta_v1.precioprod1.calculaprecio
+03-07-2023 12:13:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
+03-07-2023 12:13:32 , Nº de Linea :          1
+03-07-2023 12:13:33 , En el Fuente: PARAMETERS lObjProducto,lobjprecio
+03-07-2023 12:14:06 , REGFACVTA_V1.KEYPRESS, Error: Debe especificar parámetros adicionales.;Linea : PARAMETERS lObjProducto,lobjprecio;Error :         94;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MP\0000O07D00ET.TMP;Ultimo Control activo: 
+03-07-2023 12:14:06 , Pila de llamadas
+03-07-2023 12:14:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:06 , Objeto      : regfacvta_v1.keypress
+03-07-2023 12:14:06 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:06 , Nº de Linea :         30
+03-07-2023 12:14:07 , En el Fuente: 	        .k_escape()
+03-07-2023 12:14:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:07 , Objeto      : regfacvta_v1.k_escape
+03-07-2023 12:14:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:08 , Nº de Linea :         34
+03-07-2023 12:14:08 , En el Fuente: 	   		.grid2_procesolinea(27)      
+03-07-2023 12:14:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:08 , Objeto      : regfacvta_v1.grid2_procesolinea
+03-07-2023 12:14:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:09 , Nº de Linea :         65
+03-07-2023 12:14:09 , En el Fuente: 	thisform.containerencabeza.kitbuscaoaltaenCtacte.txtexiste1.SetFocus()
+03-07-2023 12:14:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:10 , Objeto      : regfacvta_v1.grid2.column5.text1.lostfocus
+03-07-2023 12:14:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:10 , Nº de Linea :         21
+03-07-2023 12:14:11 , En el Fuente: 		IF NOT .grid2_lostfocuscant()
+03-07-2023 12:14:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:11 , Objeto      : regfacvta_v1.grid2_lostfocuscant
+03-07-2023 12:14:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:12 , Nº de Linea :         13
+03-07-2023 12:14:12 , En el Fuente: 		         .controlpromocion()			   
+03-07-2023 12:14:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:13 , Objeto      : regfacvta_v1.controlpromocion
+03-07-2023 12:14:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:13 , Nº de Linea :         10
+03-07-2023 12:14:13 , En el Fuente: 	.cargarcombo(Oscatter)
+03-07-2023 12:14:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:14 , Objeto      : regfacvta_v1.cargarcombo
+03-07-2023 12:14:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:14:15 , Nº de Linea :         82
+03-07-2023 12:14:15 , En el Fuente: 	thisform.precioprod1.calculaprecio(lObjProducto,@lObjprecio,CsrAuxcabefac.listaprecio)
+03-07-2023 12:14:15 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
+03-07-2023 12:14:15 , Objeto      : regfacvta_v1.precioprod1.calculaprecio
+03-07-2023 12:14:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\odata.vct
+03-07-2023 12:14:16 , Nº de Linea :          1
+03-07-2023 12:14:16 , En el Fuente: PARAMETERS lObjProducto,lobjprecio
+03-07-2023 12:22:06 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+03-07-2023 12:22:06 , Pila de llamadas
+03-07-2023 12:25:22 , REGFACVTA_V1.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.LOSTFOCUS, Error: No se encuentra el alias.;Linea : lcordenvie=order(lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ activo: 
+03-07-2023 12:25:22 , Pila de llamadas
+03-07-2023 12:25:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+03-07-2023 12:25:22 , Objeto      : regfacvta_v1.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+03-07-2023 12:25:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+03-07-2023 12:25:23 , Nº de Linea :         24
+03-07-2023 12:25:23 , En el Fuente: lcordenvie=order(lcalias)
+03-07-2023 12:25:35 , REGFACVTA_V1.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.LOSTFOCUS, Error: No se puede borrar el objeto AGREGAOBJETO  porque está en uso.;Linea : clear all;Error :       1951;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000DDE100C8.TMP;Ultimo Control activo: 
+03-07-2023 12:25:35 , Pila de llamadas
+03-07-2023 12:25:35 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+03-07-2023 12:25:35 , Objeto      : regfacvta_v1.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.lostfocus
+03-07-2023 12:25:35 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+03-07-2023 12:25:36 , Nº de Linea :         24
+03-07-2023 12:25:36 , En el Fuente: lcordenvie=order(lcalias)
+03-07-2023 12:30:15 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+03-07-2023 12:30:15 , Pila de llamadas
+03-07-2023 12:34:49 , REGFACVTA_V1.GRID2.COLUMN6.TEXT1.GOTFOCUS, Error: No se encuentra la propiedad CODIGO.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :       1734;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          3 REG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000QNM100LI.TMP;Ultimo Control activo: 
+03-07-2023 12:34:49 , Pila de llamadas
+03-07-2023 12:34:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:50 , Objeto      : regfacvta_v1.grid2.column6.text1.gotfocus
+03-07-2023 12:34:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:50 , Nº de Linea :          7
+03-07-2023 12:34:50 , En el Fuente: 	this.LostFocus()
+03-07-2023 12:34:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:50 , Objeto      : regfacvta_v1.grid2.column6.text1.lostfocus
+03-07-2023 12:34:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:51 , Nº de Linea :          1
+03-07-2023 12:34:51 , En el Fuente: thisform.grid2_lostfocusdto()
+03-07-2023 12:34:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:51 , Objeto      : regfacvta_v1.grid2_lostfocusdto
+03-07-2023 12:34:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:51 , Nº de Linea :         10
+03-07-2023 12:34:51 , En el Fuente: 			.grid2_procesolinea(13)
+03-07-2023 12:34:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:51 , Objeto      : regfacvta_v1.grid2_procesolinea
+03-07-2023 12:34:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:51 , Nº de Linea :         51
+03-07-2023 12:34:52 , En el Fuente: 			thisform.bindergridon('thisform.grid2',lcalias,lcCtrlSource,AcolOdataNavega)
+03-07-2023 12:34:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:52 , Objeto      : regfacvta_v1.bindergridon
+03-07-2023 12:34:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:34:52 , Nº de Linea :         13
+03-07-2023 12:34:52 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+03-07-2023 12:37:08 , REGFACVTA_V1.GRID2.COLUMN6.TEXT1.GOTFOCUS, Error: No se encuentra la propiedad CODIGO.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :       1734;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          3 REG
+
+
+
+
+
+
+
+
+ISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000QNM100X8.TMP;Ultimo Control activo: 
+03-07-2023 12:37:08 , Pila de llamadas
+03-07-2023 12:37:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:09 , Objeto      : regfacvta_v1.grid2.column6.text1.gotfocus
+03-07-2023 12:37:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:09 , Nº de Linea :          7
+03-07-2023 12:37:09 , En el Fuente: 	this.LostFocus()
+03-07-2023 12:37:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:09 , Objeto      : regfacvta_v1.grid2.column6.text1.lostfocus
+03-07-2023 12:37:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:10 , Nº de Linea :          1
+03-07-2023 12:37:10 , En el Fuente: thisform.grid2_lostfocusdto()
+03-07-2023 12:37:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:10 , Objeto      : regfacvta_v1.grid2_lostfocusdto
+03-07-2023 12:37:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:10 , Nº de Linea :         10
+03-07-2023 12:37:10 , En el Fuente: 			.grid2_procesolinea(13)
+03-07-2023 12:37:10 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:10 , Objeto      : regfacvta_v1.grid2_procesolinea
+03-07-2023 12:37:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:11 , Nº de Linea :         51
+03-07-2023 12:37:11 , En el Fuente: 			thisform.bindergridon('thisform.grid2',lcalias,lcCtrlSource,AcolOdataNavega)
+03-07-2023 12:37:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:11 , Objeto      : regfacvta_v1.bindergridon
+03-07-2023 12:37:11 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+03-07-2023 12:37:11 , Nº de Linea :         13
+03-07-2023 12:37:11 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+03-07-2023 12:43:00 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_b.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+
+03-07-2023 12:43:00 , Pila de llamadas
