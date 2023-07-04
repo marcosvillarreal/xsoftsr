@@ -181,742 +181,21 @@
 
 
 
-TO CURSOR CsrAuxcabefac READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-26-06-2023 13:09:42 , Pila de llamadas
-26-06-2023 13:09:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-26-06-2023 13:09:42 , Objeto      : regfacvtapub_v1.load
-26-06-2023 13:09:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-26-06-2023 13:09:42 , Nº de Linea :          3
-26-06-2023 13:09:42 , En el Fuente: thisform.crearcursor()
-26-06-2023 13:09:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-26-06-2023 13:09:42 , Objeto      : regfacvtapub_v1.crearcursor
-26-06-2023 13:09:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v1.sct
-26-06-2023 13:09:43 , Nº de Linea :         20
-26-06-2023 13:09:43 , En el Fuente: SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1	   ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as Basegra2,000.00 as tasa2	   ,CAST(0 a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-s int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as ivari5,000000000.00 as Basegr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt	   ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1   	   ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasaret
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-e2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(10) as nomrete5,00000000.00 as retencio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 
 n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva   	   ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1278,7 +557,25 @@ n5,000000000.00 as Baserete5,000.00 as tasarete5   	   ,00000000.00 as BaseInter
 
 
 
+
+
+
+
+
+
+
+
+
 en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck       ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567       ,SPACE(2) as categoiva       FROM CsrCabefac WHERE
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1641,8 +938,26 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 
 
 
+
+
+
+
+
+
+
+
+
 26-06-2023 14:16:24 , Pila de llamadas
 26-06-2023 14:51:05 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_b.sct no existe o no es válido.;Linea : .agregaobjeto.objimpuestovta(@loObjIva,@loObjRetencion);Error :         41;Ultimo Alias Activo: ;Ultimo 
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1824,6 +1139,15 @@ en,00000000.00 as BaseDesctoSiva       ,'0' as facturacosto,0 as SolicitaDNI,SPA
 registro:          0 ;DBF: ;Ultimo Control activo: IDCOMPROBA
 26-06-2023 14:51:05 , Pila de llamadas
 26-06-2023 15:00:56 , REGFACVTAPUB.CMDSALVAR.CLICK, Error: No se encuentra la variable 'OSCATTERCAB'.;Linea : thisform.unitariofac.Calculaimpuesto(@Oscatter,OscatterCab,lnCantidad,lnunibulto);Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo r
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2197,6 +1521,15 @@ egistro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BWG9004Z
 
 
 
+
+
+
+
+
+
+
+
+
 ERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000BWG901OT.TMP;Ultimo Control activo: 
 26-06-2023 16:02:27 , Pila de llamadas
 26-06-2023 16:02:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_b.sct
@@ -2397,9 +1730,27 @@ ERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEM
 
 
 
+
+
+
+
+
+
+
+
+
 imo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 26-06-2023 16:06:18 , Pila de llamadas
 26-06-2023 16:08:10 , REGFACVTAPUB.CMDSALVAR.CLICK, Error: No se encuentra la variable 'LNDECIMALTOT'.;Linea : Oscatter.total = Red((Oscatter.UniSiva + Oscatter.internofin + Oscatter.ivauni ),lndecimaltot);Error :         12;Ultimo Alias Activo: CSRAUXCU
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2722,8 +2073,26 @@ ERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEM
 
 
 
+
+
+
+
+
+
+
+
+
 26-06-2023 17:20:23 , Pila de llamadas
 26-06-2023 18:56:29 , PARAVARIO.INIT, Error: No se encuentra la propiedad CONTREINTEGRO.;Linea : WITH .ContReintegro;Error :       1734;Ultimo Alias Activo: CSRPROVINCIARN;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000JX1L068Y.T
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3015,6 +2384,15 @@ MP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 \LOCAL\TEMP\0000JX1L06A8.TMP;Ultimo Control activo: 
 26-06-2023 18:57:11 , Pila de llamadas
 26-06-2023 18:57:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\paravario.sct
@@ -3028,6 +2406,15 @@ MP;Ultimo Control activo:
 26-06-2023 18:57:11 , Nº de Linea :         87
 26-06-2023 18:57:11 , En el Fuente: 	WITH thisform.containerencabeza.ContReintegro
 26-06-2023 18:57:39 , PARAVARIO.INIT, Error: Error en chk1 - Value : No coinciden los tipos de datos.;Linea : .chk1.Value = LEFT(ReintDias,1);Error :       1881;Ultimo Alias Activo: CSRPROVINCIARN;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA\
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3305,6 +2692,15 @@ LOCAL\TEMP\0000JX1L06BJ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 EMP\0000MUX500Y4.TMP;Ultimo Control activo: 
 03-07-2023 11:01:31 , Pila de llamadas
 03-07-2023 11:01:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\articulos\abmprodcombo.sct
@@ -3323,6 +2719,15 @@ EMP\0000MUX500Y4.TMP;Ultimo Control activo:
 03-07-2023 11:01:33 , Nº de Linea :         28
 03-07-2023 11:01:33 , En el Fuente: 			   this.sync_load('COM')
 03-07-2023 11:06:14 , ABMPRODCOMBO.ACEPTAR1.CLICK, Error: La propiedad SYNC_LOAD no es un método o evento.;Linea : this.sync_load('COM');Error :       1738;Ultimo Alias Activo: CSRCUERCOMBO;Ultimo registro:          5 ;DBF: C:\USERS\MARCO\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3586,6 +2991,15 @@ EMP\0000MUX501I0.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 \MARCO\APPDATA\LOCAL\TEMP\0000H3PL013C.TMP;Ultimo Control activo: PREUNITA
 03-07-2023 11:50:11 , Pila de llamadas
 03-07-2023 11:50:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -3609,6 +3023,15 @@ EMP\0000MUX501I0.TMP;Ultimo Control activo:
 03-07-2023 11:50:17 , Nº de Linea :          6
 03-07-2023 11:50:18 , En el Fuente: SELECT CsrAuxCuerVariPromo
 03-07-2023 11:50:26 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRAUXCUERVARIPROMO'.;Linea : SELECT CsrAuxCuerVariPromo;Error :         13;Ultimo Alias Activo: CSRAUXCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3851,6 +3274,15 @@ EMP\0000MUX501I0.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 TEMP\0000H3PL013C.TMP;Ultimo Control activo: 
 03-07-2023 11:50:59 , Pila de llamadas
 03-07-2023 11:51:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -3889,6 +3321,15 @@ TEMP\0000H3PL013C.TMP;Ultimo Control activo:
 03-07-2023 11:51:09 , Nº de Linea :          6
 03-07-2023 11:51:09 , En el Fuente: SELECT CsrAuxCuerVariPromo
 03-07-2023 11:51:15 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRAUXCUERVARIPROMO'.;Linea : SELECT CsrAuxCuerVariPromo;Error :         13;Ultimo Alias Activo: CSRAUXCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4094,6 +3535,15 @@ TEMP\0000H3PL013C.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 TEMP\0000H3PL013C.TMP;Ultimo Control activo: 
 03-07-2023 11:53:22 , Pila de llamadas
 03-07-2023 11:53:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -4132,6 +3582,15 @@ TEMP\0000H3PL013C.TMP;Ultimo Control activo:
 03-07-2023 11:53:31 , Nº de Linea :          6
 03-07-2023 11:53:31 , En el Fuente: SELECT CsrAuxCuerVariPromo
 03-07-2023 12:04:47 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: No se encuentra la propiedad CANTKILOS.;Linea : Oscatter.cantkilos		= 0;Error :       1734;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4300,6 +3759,15 @@ TEMP\0000H3PL013C.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 \LOCAL\TEMP\00006UQ100F6.TMP;Ultimo Control activo: CANTIDAD
 03-07-2023 12:05:02 , Pila de llamadas
 03-07-2023 12:05:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -4323,6 +3791,15 @@ TEMP\0000H3PL013C.TMP;Ultimo Control activo:
 03-07-2023 12:05:07 , Nº de Linea :         82
 03-07-2023 12:05:07 , En el Fuente: 	Oscatter.cantkilos		= 0
 03-07-2023 12:05:13 , REGFACVTA_V1.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra la propiedad CANTKILOS.;Linea : Oscatter.cantkilos		= 0;Error :       1734;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCO\APPDATA
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4463,6 +3940,15 @@ TEMP\0000H3PL013C.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 0FC.TMP;Ultimo Control activo: 
 03-07-2023 12:05:23 , Pila de llamadas
 03-07-2023 12:05:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -4501,6 +3987,15 @@ TEMP\0000H3PL013C.TMP;Ultimo Control activo:
 03-07-2023 12:05:36 , Nº de Linea :         82
 03-07-2023 12:05:36 , En el Fuente: 	Oscatter.cantkilos		= 0
 03-07-2023 12:13:26 , REGFACVTA_V1.GRID2.COLUMN4.TEXT1.LOSTFOCUS, Error: Debe especificar parámetros adicionales.;Linea : PARAMETERS lObjProducto,lobjprecio;Error :         94;Ultimo Alias Activo: CSRPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\M
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4607,6 +4102,15 @@ ARCO\APPDATA\LOCAL\TEMP\0000O07D00EQ.TMP;Ultimo Control activo: PREUNITA
 
 
 
+
+
+
+
+
+
+
+
+
 MP\0000O07D00ET.TMP;Ultimo Control activo: 
 03-07-2023 12:14:06 , Pila de llamadas
 03-07-2023 12:14:06 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -4673,6 +4177,15 @@ MP\0000O07D00ET.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
  activo: 
 03-07-2023 12:25:22 , Pila de llamadas
 03-07-2023 12:25:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4681,6 +4194,15 @@ MP\0000O07D00ET.TMP;Ultimo Control activo:
 03-07-2023 12:25:23 , Nº de Linea :         24
 03-07-2023 12:25:23 , En el Fuente: lcordenvie=order(lcalias)
 03-07-2023 12:25:35 , REGFACVTA_V1.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.LOSTFOCUS, Error: No se puede borrar el objeto AGREGAOBJETO  porque está en uso.;Linea : clear all;Error :       1951;Ultimo Alias Activo: CSRAUXCABEFAC;Ultimo registro
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4710,6 +4232,15 @@ MP\0000O07D00ET.TMP;Ultimo Control activo:
 03-07-2023 12:30:15 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 03-07-2023 12:30:15 , Pila de llamadas
 03-07-2023 12:34:49 , REGFACVTA_V1.GRID2.COLUMN6.TEXT1.GOTFOCUS, Error: No se encuentra la propiedad CODIGO.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :       1734;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          3 REG
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4762,6 +4293,15 @@ ISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000QNM100LI.TMP;Ultimo Control act
 
 
 
+
+
+
+
+
+
+
+
+
 ISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000QNM100X8.TMP;Ultimo Control activo: 
 03-07-2023 12:37:08 , Pila de llamadas
 03-07-2023 12:37:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -4791,4 +4331,46 @@ ISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000QNM100X8.TMP;Ultimo Control act
 03-07-2023 12:37:11 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
 03-07-2023 12:43:00 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_b.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 
+
+
+
+
+
+
+
+
+
 03-07-2023 12:43:00 , Pila de llamadas
+04-07-2023 12:23:27 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+04-07-2023 12:23:27 , Pila de llamadas
+04-07-2023 12:33:52 , REGFACVTA_V1.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: El archivo 'and.prg' no existe.;Linea : LOCATE FOR idprodgenera=OScatter.idprodgenera AND AND (espromocion=1 OR escombo=1);Error :          1;Ultimo Al
+
+
+
+
+
+
+
+ias Activo: CSRAUXCUERFAC;Ultimo registro:          2 REGISTRO;DBF: C:\USERS\MARCO\APPDATA\LOCAL\TEMP\0000NSAX01JM.TMP;Ultimo Control activo: 
+04-07-2023 12:33:52 , Pila de llamadas
+04-07-2023 12:33:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+04-07-2023 12:33:53 , Objeto      : regfacvta_v1.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.keypress
+04-07-2023 12:33:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+04-07-2023 12:33:53 , Nº de Linea :         50
+04-07-2023 12:33:53 , En el Fuente: 				   	 	thisform.importarpedidos()
+04-07-2023 12:33:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+04-07-2023 12:33:53 , Objeto      : regfacvta_v1.importarpedidos
+04-07-2023 12:33:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+04-07-2023 12:33:54 , Nº de Linea :          6
+04-07-2023 12:33:54 , En el Fuente: 	RETURN this.importarpedidos_Android()
+04-07-2023 12:33:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+04-07-2023 12:33:55 , Objeto      : regfacvta_v1.importarpedidos_android
+04-07-2023 12:33:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
+04-07-2023 12:33:55 , Nº de Linea :        534
+04-07-2023 12:33:55 , En el Fuente: 				LOCATE FOR idprodgenera=OScatter.idprodgenera AND AND (espromocion=1 OR escombo=1)
+04-07-2023 12:45:52 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct no existe o no es válido.;Linea : PACK;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+04-07-2023 12:45:52 , Pila de llamadas
+04-07-2023 13:12:54 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct no existe o no es válido.;Linea : SKIP;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+04-07-2023 13:12:54 , Pila de llamadas
+04-07-2023 13:19:21 , ON..., Error: El archivo memo j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct no existe o no es válido.;Linea : PACK;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: IDCOMPROBA
+04-07-2023 13:19:21 , Pila de llamadas
