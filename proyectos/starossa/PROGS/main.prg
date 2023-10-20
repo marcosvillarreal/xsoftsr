@@ -124,7 +124,7 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 	SET PROCEDURE TO gpImage2.prg ADDITIVE
 	*SET PROCEDURE TO importexcelprovee.prg ADDITIVE 
 	 SET PROCEDURE TO FoxBarcodeQR ADDITIVE
-	 
+	 SET PROCEDURE TO mapsApiKey.prg ADDITIVE 
 *clear all
 
 _screen.lockscreen=.t.
@@ -137,7 +137,7 @@ _Screen.visible=.t.
 
 PUBLIC LcConectionString,LcDataSourceType,lcOrigenPublico,PcmsgIU,PcmsgIP,LcWebService,LcLlaveCf,Pnterminal,pnsucursal
 PUBLIC lcConectionODBC,lnconectorODBC
-   PUBLIC oConfigTermi
+   PUBLIC oConfigTermi,GoogleMapsKeyAPI
    
  STORE '' TO LcConectionString,LcDataSourceType,lcOrigenPublico,LcWebService,lcConectionODBC
  STORE 0 TO Pnterminal,Pnsucursal,lnconectorODBC
@@ -158,6 +158,8 @@ ObjReporter.AddProperty('logo',"logogestion.jpg")
 objReporter.AddProperty('logofac',cLogoFac)
 ObjReporter.AddProperty('numcae',cRutaCAE)
 ObjReporter.AddProperty('fileqr',cRutaQR)
+
+GoogleMapsKeyAPI = 'AIzaSyBcWBS6HjNKZ2QkFWeQoiOQFtP6thnE8to'
 
 IF lldesarrollo
 	ObjReporter.logo = lcdd+'graphics\logogestion.jpg'

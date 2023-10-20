@@ -82,6 +82,7 @@ If lldesarrollo
    _rutaformart =lcdd+'forms\articulos'
      _rutaformsync =lcdd+'forms\sync'
       _rutaformpatron =lcdd+'forms\patron'
+      _rutaformimpu =lcdd+'forms\impu'
    Set default to (lcdd) &&;(lcddc)
 
    Set path to &_rutaclases,&_rutaprogs,&_rutamenu,&_rutadatos,&_rutabmps,&_rutaforms;
@@ -89,7 +90,8 @@ If lldesarrollo
                ,&_rutalib, &_rutaformsb, &_rutaformscc, &_rutaformsc, &_rutaformsre;
                ,&_rutaformsa,&_rutaformse,&_rutaformvta,&_rutaformped,&_rutaformpre;
                ,&_rutaformpm,&_rutaformst,&_rutaformcp,&_rutaformut,&_rutaformtar;
-               ,&_rutaformwha,&_rutaformest,&_rutaformart,&_rutaformsync,&_rutaformpatron 
+               ,&_rutaformwha,&_rutaformest,&_rutaformart,&_rutaformsync,&_rutaformpatron ;
+               ,&_rutaformimpu
 Endif
 
 
@@ -135,7 +137,7 @@ _Screen.visible=.t.
 
 PUBLIC LcConectionString,LcDataSourceType,lcOrigenPublico,PcmsgIU,PcmsgIP,LcWebService,LcLlaveCf,Pnterminal,pnsucursal
 PUBLIC lcConectionODBC,lnconectorODBC
-   PUBLIC oConfigTermi
+   PUBLIC oConfigTermi,GoogleMapsKeyAPI
    
  STORE '' TO LcConectionString,LcDataSourceType,lcOrigenPublico,LcWebService,lcConectionODBC
  STORE 0 TO Pnterminal,Pnsucursal,lnconectorODBC
@@ -156,6 +158,8 @@ ObjReporter.AddProperty('logo',"logogestion.jpg")
 objReporter.AddProperty('logofac',cLogoFac)
 ObjReporter.AddProperty('numcae',cRutaCAE)
 ObjReporter.AddProperty('fileqr',cRutaQR)
+
+GoogleMapsKeyAPI = 'AIzaSyBcWBS6HjNKZ2QkFWeQoiOQFtP6thnE8to'
 
 IF lldesarrollo
 	ObjReporter.logo = lcdd+'graphics\logogestion.jpg'
