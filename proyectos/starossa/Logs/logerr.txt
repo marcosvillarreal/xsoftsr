@@ -1,1935 +1,3 @@
-18-09-2023 10:55:21 , En el Fuente: 	llOK=thisform.CrearInforme()
-18-09-2023 10:55:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankctacte.sct
-18-09-2023 10:55:21 , Objeto      : est_rankctacte.crearinforme
-18-09-2023 10:55:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankctacte.sct
-18-09-2023 10:55:21 , Nº de Linea :         31
-18-09-2023 10:55:22 , En el Fuente: 	this.crearlistado()
-18-09-2023 10:55:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankctacte.sct
-18-09-2023 10:55:22 , Objeto      : est_rankctacte.crearlistado
-18-09-2023 10:55:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankctacte.sct
-18-09-2023 10:55:23 , Nº de Linea :        273
-18-09-2023 10:55:23 , En el Fuente: SELECT 0 as grupo,CsrAuxCabe.idvendedor,CsrauxCabe.importefinal,ctacte,nomcliente,CsrAuxCabe.idctacte,codvendedor,nomvendedor,bonificacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*100,4) as
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguia,CsrAuxCabe.unidadesFROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacteGROU
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-P BY CsrAuxCabe.idVendedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente,CsrAuxCabe.Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsector,codsector,nomsector,sectorruta,detalle&lcorder INTO CURSOR csrimprimir readwrite
-18-09-2023 10:58:30 , EST_RANKCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: UNIDADES no es único y se debe calificar.;Linea : SELECT 0 as grupo,CsrAuxCabe.idvendedor,CsrauxCabe.importefinal,ctacte,nomcliente,CsrAuxCabe.idctacte,codvendedor,nomvend
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-edor ,bonificacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*100,4) as importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguia,CsrAuxCabe.unidades FROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=C
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-srvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacte GROUP BY CsrAuxCabe.idVendedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente ,CsrAuxCabe.Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsecto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-r,codsector,nomsector,sectorruta,detalle,unidades &lcorder INTO CURSOR csrimprimir readwrite;Error :       1832;Ultimo Alias Activo: CSRCTACTEGUIA;Ultimo registro:         88 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000012IX07CM.TMP;Ultimo Control activo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-: 
-18-09-2023 10:58:30 , Pila de llamadas
-18-09-2023 10:58:31 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-18-09-2023 10:58:31 , Objeto      : est_rankctacte.imprimir_vistaprevia1.impresora.click
-18-09-2023 10:58:31 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-18-09-2023 10:58:31 , Nº de Linea :          8
-18-09-2023 10:58:32 , En el Fuente: 	llOK=thisform.CrearInforme()
-18-09-2023 10:58:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankctacte.sct
-18-09-2023 10:58:32 , Objeto      : est_rankctacte.crearinforme
-18-09-2023 10:58:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankctacte.sct
-18-09-2023 10:58:33 , Nº de Linea :         31
-18-09-2023 10:58:33 , En el Fuente: 	this.crearlistado()
-18-09-2023 10:58:34 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_rankctacte.sct
-18-09-2023 10:58:34 , Objeto      : est_rankctacte.crearlistado
-18-09-2023 10:58:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_rankctacte.sct
-18-09-2023 10:58:35 , Nº de Linea :        273
-18-09-2023 10:58:35 , En el Fuente: SELECT 0 as grupo,CsrAuxCabe.idvendedor,CsrauxCabe.importefinal,ctacte,nomcliente,CsrAuxCabe.idctacte,codvendedor,nomvendedor,bonificacion,cdireccion,ROUND((CsrauxCabe.importefinal/CsrVendedores.importefinal)*100,4) as
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- importe ,idsector,codsector,nomsector,sectorruta,detalle as detaguia,CsrAuxCabe.unidadesFROM csrauxCabe left JOIN csrvendedores ON CsrauxCabe.idvendedor=Csrvendedores.idvendedor LEFT JOIN csrctacteguia ON CsrAuxCabe.idctacte = CsrCtacteGuia.idctacteGROU
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-P BY CsrAuxCabe.idVendedor,CsrAuxCabe.ImporteFinal,Ctacte,NomCliente,CsrAuxCabe.Idctacte,CodVendedor,NomVendedor,Bonificacion,importe,cdireccion ,idsector,codsector,nomsector,sectorruta,detalle,unidades&lcorder INTO CURSOR csrimprimir readwrite
-27-09-2023 11:05:17 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRAUXCPRODCOMBO'.;Linea : SUM ALL cantidad FOR idcabecombo = CsrAuxcProdCombo.idprodcombo TO nValido;Error :         13;Ultimo Alias Activo: CSRAUXCOMBOCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006C5L011V.TMP;Ultimo Control activo: CANTIDAD
-27-09-2023 11:05:17 , Pila de llamadas
-27-09-2023 11:05:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:18 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-27-09-2023 11:05:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:19 , Nº de Linea :         21
-27-09-2023 11:05:19 , En el Fuente: 		IF .grid2_lostfocuscant()
-27-09-2023 11:05:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:19 , Objeto      : regfacvtapub.grid2_lostfocuscant
-27-09-2023 11:05:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:20 , Nº de Linea :          5
-27-09-2023 11:05:20 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-27-09-2023 11:05:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:20 , Objeto      : regfacvtapub.grid2_control
-27-09-2023 11:05:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:21 , Nº de Linea :        434
-27-09-2023 11:05:21 , En el Fuente: 		thisform.grid2_controlcombos()	
-27-09-2023 11:05:21 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:22 , Objeto      : regfacvtapub.grid2_controlcombos
-27-09-2023 11:05:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:22 , Nº de Linea :         78
-27-09-2023 11:05:22 , En el Fuente: 	thisform.verificarcombo(cidArticulos )
-27-09-2023 11:05:23 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:23 , Objeto      : regfacvtapub.verificarcombo
-27-09-2023 11:05:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:23 , Nº de Linea :         51
-27-09-2023 11:05:23 , En el Fuente: 			SUM ALL cantidad FOR idcabecombo = CsrAuxcProdCombo.idprodcombo TO nValido
-27-09-2023 11:05:34 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias 'CSRAUXCPRODCOMBO'.;Linea : SUM ALL cantidad FOR idcabecombo = CsrAuxcProdCombo.idprodcombo TO nValido;Error :         13;Ultimo Alias Activo: CSRAUXCOMBOCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006C5L011Z.TMP;Ultimo Control activo: CANTIDAD
-27-09-2023 11:05:34 , Pila de llamadas
-27-09-2023 11:05:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:35 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-27-09-2023 11:05:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:36 , Nº de Linea :         21
-27-09-2023 11:05:36 , En el Fuente: 		IF .grid2_lostfocuscant()
-27-09-2023 11:05:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:36 , Objeto      : regfacvtapub.grid2_lostfocuscant
-27-09-2023 11:05:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:36 , Nº de Linea :          5
-27-09-2023 11:05:37 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-27-09-2023 11:05:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:37 , Objeto      : regfacvtapub.grid2_control
-27-09-2023 11:05:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:37 , Nº de Linea :        434
-27-09-2023 11:05:37 , En el Fuente: 		thisform.grid2_controlcombos()	
-27-09-2023 11:05:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:38 , Objeto      : regfacvtapub.grid2_controlcombos
-27-09-2023 11:05:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:38 , Nº de Linea :         78
-27-09-2023 11:05:39 , En el Fuente: 	thisform.verificarcombo(cidArticulos )
-27-09-2023 11:05:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:39 , Objeto      : regfacvtapub.verificarcombo
-27-09-2023 11:05:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 11:05:40 , Nº de Linea :         51
-27-09-2023 11:05:40 , En el Fuente: 			SUM ALL cantidad FOR idcabecombo = CsrAuxcProdCombo.idprodcombo TO nValido
-27-09-2023 12:12:56 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias.;Linea : IF EOF('CsrAuxProdComo');Error :         13;Ultimo Alias Activo: CSRAUXPRODCOMBO;Ultimo registro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MP\00007G210106.TMP;Ultimo Control activo: CANTIDAD
-27-09-2023 12:12:56 , Pila de llamadas
-27-09-2023 12:12:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 12:12:57 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-27-09-2023 12:12:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-27-09-2023 12:12:58 , Nº de Linea :         21
-27-09-2023 12:12:58 , En el Fuente: 		IF .grid2_lostfocuscant()
-27-09-2023 12:12:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
 27-09-2023 12:12:58 , Objeto      : regfacvtapub.grid2_lostfocuscant
 27-09-2023 12:12:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
 27-09-2023 12:12:59 , Nº de Linea :          5
@@ -1950,6 +18,43 @@ MP\00007G210106.TMP;Ultimo Control activo: CANTIDAD
 27-09-2023 12:13:02 , Nº de Linea :         89
 27-09-2023 12:13:02 , En el Fuente: 	 	IF EOF('CsrAuxProdComo')
 27-09-2023 12:13:12 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra el alias.;Linea : IF EOF('CsrAuxProdComo');Error :         13;Ultimo Alias Activo: CSRAUXPRODCOMBO;Ultimo registro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2252,6 +357,43 @@ MP\00007G21010A.TMP;Ultimo Control activo: CANTIDAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 EMP\0000JKZT02QT.TMP;Ultimo Control activo: CANTIDAD
 27-09-2023 12:38:07 , Pila de llamadas
 27-09-2023 12:38:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -2280,6 +422,43 @@ EMP\0000JKZT02QT.TMP;Ultimo Control activo: CANTIDAD
 27-09-2023 12:38:13 , Nº de Linea :        104
 27-09-2023 12:38:13 , En el Fuente: 				IF registo<0
 27-09-2023 12:38:20 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra la variable 'REGISTO'.;Linea : IF registo<0;Error :         12;Ultimo Alias Activo: CSRAUXPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2548,6 +727,43 @@ EMP\0000JKZT02QX.TMP;Ultimo Control activo: CANTIDAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 EMP\0000JKZT02R1.TMP;Ultimo Control activo: CANTIDAD
 27-09-2023 12:38:29 , Pila de llamadas
 27-09-2023 12:38:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -2576,6 +792,43 @@ EMP\0000JKZT02R1.TMP;Ultimo Control activo: CANTIDAD
 27-09-2023 12:38:35 , Nº de Linea :        104
 27-09-2023 12:38:36 , En el Fuente: 				IF registo<0
 27-09-2023 12:43:03 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: No se encuentra la variable 'REGISTO'.;Linea : IF CsrAuxProdCombo.registo<0;Error :         12;Ultimo Alias Activo: CSRAUXPRODCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2812,6 +1065,43 @@ EMP\0000JKZT02R1.TMP;Ultimo Control activo: CANTIDAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \APPDATA\LOCAL\TEMP\00006UIX00D9.TMP;Ultimo Control activo: CANTIDAD
 27-09-2023 12:43:19 , Pila de llamadas
 27-09-2023 12:43:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -2922,6 +1212,43 @@ EMP\0000JKZT02R1.TMP;Ultimo Control activo: CANTIDAD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 S\APPDATA\LOCAL\TEMP\0000DVRD0011.TMP;Ultimo Control activo: 
 02-10-2023 16:26:21 , Pila de llamadas
 02-10-2023 16:26:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventasembase.sct
@@ -2930,6 +1257,43 @@ S\APPDATA\LOCAL\TEMP\0000DVRD0011.TMP;Ultimo Control activo:
 02-10-2023 16:26:23 , Nº de Linea :          6
 02-10-2023 16:26:23 , En el Fuente: 	.fecha_calendario1.txtfecha.Value = DATE()-8
 03-10-2023 18:14:29 , REGFACVTAPUB.CONTENEDORDNI.CMDSALVAR.CLICK, Error: No se encuentra la variable 'IMPROTE'.;Linea : LOCATE FOR improte < 0;Error :         12;Ultimo Alias Activo: CSRFINANCIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3141,6 +1505,43 @@ OCAL\TEMP\0000BK0902ZA.TMP;Ultimo Control activo: AFECTA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 02ZA.TMP;Ultimo Control activo: 
 03-10-2023 18:14:46 , Pila de llamadas
 03-10-2023 18:14:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\pidoplanpago.sct
@@ -3149,6 +1550,43 @@ OCAL\TEMP\0000BK0902ZA.TMP;Ultimo Control activo: AFECTA
 03-10-2023 18:14:47 , Nº de Linea :          8
 03-10-2023 18:14:47 , En el Fuente: 	LOCATE FOR improte < 0
 04-10-2023 14:36:43 , VENTASEMBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'I'.;Linea : meses = 'mes_'+ALLTRIM(STR(i));Error :         12;Ultimo Alias Activo: CSRAUXFECHA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3316,6 +1754,43 @@ OCAL\TEMP\0000BK0902ZA.TMP;Ultimo Control activo: AFECTA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 AL\TEMP\0000IR6101CA.TMP;Ultimo Control activo: 
 04-10-2023 14:42:10 , Pila de llamadas
 04-10-2023 14:42:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3329,6 +1804,43 @@ AL\TEMP\0000IR6101CA.TMP;Ultimo Control activo:
 04-10-2023 14:42:12 , Nº de Linea :         43
 04-10-2023 14:42:13 , En el Fuente: 	.ocont.max = nMax
 04-10-2023 15:11:31 , VENTASEMBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la variable 'CCAMPOS'.;Linea : cCampos = cCampos + ",estad_"+strtrim(i,2)+",promedio_"+strtrim(i,2);Error :         12;Ultimo Alias Activo: CSRAUXFECHA;Ultimo re
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3489,6 +2001,43 @@ gistro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IR6102N5.TMP;Ult
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IR6102ST.TMP;Ultimo Control activo: 
 04-10-2023 15:15:04 , Pila de llamadas
 04-10-2023 15:15:04 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3512,6 +2061,43 @@ gistro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IR6102N5.TMP;Ult
 04-10-2023 15:15:08 , Nº de Linea :         46
 04-10-2023 15:15:09 , En el Fuente: 				.NameGroup	= CsrGrupos.nomgrupo02 &&Nombre de la Hoja
 04-10-2023 15:18:05 , VENTASEMBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: COLUMN001 es un miembro desconocido.;Linea : lcCampo = &lcName;Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       2311 ;DBF: C:\USERS\MARCOS\APPDATA\LOCA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3642,6 +2228,43 @@ L\TEMP\0000IR6102W1.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 L\TEMP\0000IR6102Y1.TMP;Ultimo Control activo: 
 04-10-2023 15:19:44 , Pila de llamadas
 04-10-2023 15:19:45 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3660,6 +2283,43 @@ L\TEMP\0000IR6102Y1.TMP;Ultimo Control activo:
 04-10-2023 15:19:47 , Nº de Linea :        182
 04-10-2023 15:19:47 , En el Fuente: 		      	lcCampo = &lcName
 04-10-2023 15:26:30 , VENTASEMBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: COLUMN001 es un miembro desconocido.;Linea : lcCampo = &lcName;Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       2311 ;DBF: C:\USERS\MARCOS\APPDATA\LOCA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3769,6 +2429,43 @@ L\TEMP\0000IR61030C.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 L\TEMP\0000IR610332.TMP;Ultimo Control activo: 
 04-10-2023 15:27:57 , Pila de llamadas
 04-10-2023 15:27:58 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3787,6 +2484,43 @@ L\TEMP\0000IR610332.TMP;Ultimo Control activo:
 04-10-2023 15:28:00 , Nº de Linea :        182
 04-10-2023 15:28:01 , En el Fuente: 		      	lcCampo = &lcName
 04-10-2023 15:44:15 , VENTASEMBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la propiedad COLUMN011.;Linea : oColumna = &cColumna;Error :       1734;Ultimo Alias Activo: CSRAUXFECHA;Ultimo registro:          5 ;DBF: C:\USERS\MARCOS\APPDAT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3882,6 +2616,43 @@ A\LOCAL\TEMP\0000IR6103BJ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A\LOCAL\TEMP\0000IR6103DH.TMP;Ultimo Control activo: 
 04-10-2023 15:45:39 , Pila de llamadas
 04-10-2023 15:45:39 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3905,6 +2676,43 @@ A\LOCAL\TEMP\0000IR6103DH.TMP;Ultimo Control activo:
 04-10-2023 15:45:43 , Nº de Linea :         65
 04-10-2023 15:45:43 , En el Fuente: 					oColumna = &cColumna
 04-10-2023 15:52:03 , VENTASEMBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la propiedad COLUMN014.;Linea : oColumna = &cColumna;Error :       1734;Ultimo Alias Activo: CSRAUXFECHA;Ultimo registro:          7 ;DBF: C:\USERS\MARCOS\APPDAT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3976,6 +2784,43 @@ A\LOCAL\TEMP\0000IR6103LF.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 activo: 
 20-10-2023 09:30:17 , Pila de llamadas
 20-10-2023 09:30:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3994,6 +2839,43 @@ activo:
 20-10-2023 09:30:21 , Nº de Linea :         32
 20-10-2023 09:30:21 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
 20-10-2023 09:31:27 , EST_VENTAVISITAS_V2.MAPS.CLICK, Error: No se encuentra la propiedad ORIGENMAP.;Linea : oParam.AddProperty("origen",thisform.origenmap);Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:        132 STR(IDVENDEDOR,10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4032,6 +2914,43 @@ activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 )+STR(IDCTACTE,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000099MX0130.TMP;Ultimo Control activo: 
 20-10-2023 09:45:17 , Pila de llamadas
 20-10-2023 09:45:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
@@ -4040,6 +2959,43 @@ activo:
 20-10-2023 09:45:18 , Nº de Linea :         11
 20-10-2023 09:45:19 , En el Fuente: 	oParam.AddProperty("origen",thisform.origenmap)
 20-10-2023 09:47:59 , MOSTRAR_MAPS_FAC.CMD_CARGAR.CLICK, Error: El archivo 'obtenerxyapi.prg' no existe.;Linea : ObtenerXYAPI(cDire,@cLat,@cLng,cCodCtacte);Error :          1;Ultimo Alias Activo: CSRREMFAC;Ultimo registro:          1 ;DBF: C:\USERS\MARCO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4068,6 +3024,43 @@ S\APPDATA\LOCAL\TEMP\000099MX017E.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 EJ9L001L.TMP;Ultimo Control activo: 
 20-10-2023 09:54:34 , Pila de llamadas
 20-10-2023 09:54:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
@@ -4081,6 +3074,43 @@ EJ9L001L.TMP;Ultimo Control activo:
 20-10-2023 09:54:36 , Nº de Linea :         22
 20-10-2023 09:54:36 , En el Fuente: 	SELECT csrimprimir
 20-10-2023 09:55:00 , EST_VENTAVISITAS_V2.MAPS.CLICK, Error: No se encuentra el alias 'CSRIMPRIMIR'.;Linea : SELECT csrimprimir;Error :         13;Ultimo Alias Activo: CSRSUBTITULO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4101,6 +3131,43 @@ EJ9L001S.TMP;Ultimo Control activo:
 20-10-2023 10:32:21 , MOSTRAR_MAPS_FAC.CMD_CARGAR.CLICK, Error: No se encuentra la propiedad EMPRESALAT.;Linea : } var centerPoint = new google.maps.LatLng(<<goapp.empresalat>>,<<goapp.empresalng>>) var mapOptions = {zoom: 15, center: centerPoint, mapTyp
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 eId: google.maps.MapTypeId.ROADMAP, streetViewControl: true};Error :       1734;Ultimo Alias Activo: CSRREMFAC;Ultimo registro:          8 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000EJ9L0065.TMP;Ultimo Control activo: 
 20-10-2023 10:32:21 , Pila de llamadas
 20-10-2023 10:32:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\mostrar_maps_fac.sct
@@ -4113,3 +3180,262 @@ eId: google.maps.MapTypeId.ROADMAP, streetViewControl: true};Error :       1734;
 20-10-2023 10:32:23 , Base Objeto : j:\xsoftsql\desarrollo\lib\mapsapikey.prg
 20-10-2023 10:32:23 , Nº de Linea :        780
 20-10-2023 10:32:24 , En el Fuente: 		}; 
+01-11-2023 11:11:51 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+01-11-2023 11:11:52 , Pila de llamadas
+01-11-2023 11:11:52 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:11:52 , Objeto      : ventamesbase.imprimir_vistaprevia1.excel.click
+01-11-2023 11:11:52 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:11:52 , Nº de Linea :          8
+01-11-2023 11:11:53 , En el Fuente: llOK=thisform.CrearInforme()
+01-11-2023 11:11:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:11:53 , Objeto      : ventamesbase.crearinforme
+01-11-2023 11:11:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:11:54 , Nº de Linea :        136
+01-11-2023 11:11:54 , En el Fuente: 		  SELECT CsrAux
+01-11-2023 11:36:53 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la variable 'MES_13'.;Linea : .Column028.Header = csrcabeimp.mes_13 + " " + ObjReporter.titulo3;Error :         12;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000DOUH02DT.TMP;Ultimo Control activo: 
+01-11-2023 11:36:53 , Pila de llamadas
+01-11-2023 11:36:54 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:36:54 , Objeto      : ventamesbase.imprimir_vistaprevia1.excel.click
+01-11-2023 11:36:54 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:36:55 , Nº de Linea :          8
+01-11-2023 11:36:55 , En el Fuente: llOK=thisform.CrearInforme()
+01-11-2023 11:36:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:36:55 , Objeto      : ventamesbase.crearinforme
+01-11-2023 11:36:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:36:55 , Nº de Linea :        296
+01-11-2023 11:36:55 , En el Fuente: DODEFAULT()
+01-11-2023 11:36:55 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:36:56 , Objeto      : informe.crearinforme
+01-11-2023 11:36:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:36:56 , Nº de Linea :          1
+01-11-2023 11:36:57 , En el Fuente: thisform.crearheader()
+01-11-2023 11:36:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:36:57 , Objeto      : ventamesbase.crearheader
+01-11-2023 11:36:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:36:58 , Nº de Linea :         77
+01-11-2023 11:36:58 , En el Fuente: 				.Column028.Header = csrcabeimp.mes_13 + " " + ObjReporter.titulo3
+01-11-2023 11:40:48 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'GRUPO2'.;Linea : SELECT 1 as grupohoja,CsrImprimir.* FROM CsrImprimir WHERE grupo2 = 0 ORDER BY codrubro,nomrubro,codigo,articulo,sucursal INTO 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000DOUH02G7.TMP;Ultimo Control activo: 
+01-11-2023 11:40:49 , Pila de llamadas
+01-11-2023 11:40:49 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:40:49 , Objeto      : ventamesbase.imprimir_vistaprevia1.excel.click
+01-11-2023 11:40:49 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:40:49 , Nº de Linea :          8
+01-11-2023 11:40:50 , En el Fuente: llOK=thisform.CrearInforme()
+01-11-2023 11:40:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:40:50 , Objeto      : ventamesbase.crearinforme
+01-11-2023 11:40:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:40:51 , Nº de Linea :        296
+01-11-2023 11:40:51 , En el Fuente: DODEFAULT()
+01-11-2023 11:40:51 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:40:51 , Objeto      : informe.crearinforme
+01-11-2023 11:40:52 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 11:40:52 , Nº de Linea :          1
+01-11-2023 11:40:52 , En el Fuente: thisform.crearheader()
+01-11-2023 11:40:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:40:53 , Objeto      : ventamesbase.crearheader
+01-11-2023 11:40:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 11:40:53 , Nº de Linea :         93
+01-11-2023 11:40:53 , En el Fuente: 			SELECT 1 as grupohoja,CsrImprimir.* FROM CsrImprimir			WHERE grupo2 = 0 			ORDER BY codrubro,nomrubro,codigo,articulo,sucursal INTO CURSOR CsrImprimir READWRITE 
+01-11-2023 12:15:37 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra la propiedad DINAMICO.;Linea : thisform.dinamico = .t.;Error :       1734;Ultimo Alias Activo: CSRPIEIMP;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDAT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A\LOCAL\TEMP\0000DOUH032J.TMP;Ultimo Control activo: 
+01-11-2023 12:15:37 , Pila de llamadas
+01-11-2023 12:15:38 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:15:38 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
+01-11-2023 12:15:38 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:15:38 , Nº de Linea :          5
+01-11-2023 12:15:38 , En el Fuente: thisform.dinamico = .t.
+01-11-2023 12:24:02 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra la propiedad FILENAMEPIVOT.;Linea : lcfilename = this.Parent.Parent.filenamepivot;Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       1925
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000DOUH034I.TMP;Ultimo Control activo: 
+01-11-2023 12:24:02 , Pila de llamadas
+01-11-2023 12:24:02 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:24:02 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
+01-11-2023 12:24:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:24:03 , Nº de Linea :         11
+01-11-2023 12:24:03 , En el Fuente: 	   DODEFAULT()
+01-11-2023 12:24:03 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:24:03 , Objeto      : imprimir_vistaprevia.pivot.click
+01-11-2023 12:24:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:24:03 , Nº de Linea :          3
+01-11-2023 12:24:04 , En el Fuente: lcfilename = this.Parent.Parent.filenamepivot
+01-11-2023 12:39:28 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: Ya existe un subdirectorio o archivo j:\xsoftsr\proyectos\starossa\cpath.;Linea : MKDIR cPath;Error :       1961;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       1925 ;DB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo: 
+01-11-2023 12:39:28 , Pila de llamadas
+01-11-2023 12:39:29 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:39:29 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
+01-11-2023 12:39:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:39:29 , Nº de Linea :         11
+01-11-2023 12:39:29 , En el Fuente: 	   DODEFAULT()
+01-11-2023 12:39:30 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:39:30 , Objeto      : imprimir_vistaprevia.pivot.click
+01-11-2023 12:39:30 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:39:30 , Nº de Linea :         19
+01-11-2023 12:39:30 , En el Fuente: 	MKDIR cPath
+01-11-2023 12:41:23 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: CSRCABEIMP;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\
+
+
+
+
+
+
+
+
+
+
+
+0000OFT500S1.TMP;Ultimo Control activo: 
+01-11-2023 12:41:23 , Pila de llamadas
+01-11-2023 12:41:24 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:41:24 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
+01-11-2023 12:41:24 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:41:24 , Nº de Linea :          7
+01-11-2023 12:41:25 , En el Fuente: llOK=thisform.CrearInforme()
+01-11-2023 12:41:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 12:41:25 , Objeto      : ventamesbase.crearinforme
+01-11-2023 12:41:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 12:41:25 , Nº de Linea :        136
+01-11-2023 12:41:26 , En el Fuente: 		  SELECT CsrAux
+01-11-2023 12:41:52 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+01-11-2023 12:41:52 , Pila de llamadas
+01-11-2023 12:41:53 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:41:53 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
+01-11-2023 12:41:53 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+01-11-2023 12:41:53 , Nº de Linea :          7
+01-11-2023 12:41:53 , En el Fuente: llOK=thisform.CrearInforme()
+01-11-2023 12:41:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 12:41:54 , Objeto      : ventamesbase.crearinforme
+01-11-2023 12:41:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 12:41:54 , Nº de Linea :        136
+01-11-2023 12:41:54 , En el Fuente: 		  SELECT CsrAux
+01-11-2023 12:48:34 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias ''.;Linea : SELECT (cAlias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+01-11-2023 12:48:34 , Pila de llamadas
+01-11-2023 12:48:35 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:48:35 , Objeto      : ventamesbase.imprimir_vistaprevia1.impresora.click
+01-11-2023 12:48:35 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:48:35 , Nº de Linea :          4
+01-11-2023 12:48:35 , En el Fuente: this.Parent.establecerseteos()
+01-11-2023 12:48:35 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:48:35 , Objeto      : ventamesbase.imprimir_vistaprevia1.establecerseteos
+01-11-2023 12:48:36 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:48:36 , Nº de Linea :         23
+01-11-2023 12:48:36 , En el Fuente: SELECT (cAlias)
+01-11-2023 12:49:15 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+01-11-2023 12:49:15 , Pila de llamadas
+01-11-2023 12:49:16 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:49:16 , Objeto      : ventamesbase.imprimir_vistaprevia1.impresora.click
+01-11-2023 12:49:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+01-11-2023 12:49:16 , Nº de Linea :          8
+01-11-2023 12:49:16 , En el Fuente: 	llOK=thisform.CrearInforme()
+01-11-2023 12:49:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 12:49:16 , Objeto      : ventamesbase.crearinforme
+01-11-2023 12:49:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
+01-11-2023 12:49:17 , Nº de Linea :        136
+01-11-2023 12:49:17 , En el Fuente: 		  SELECT CsrAux
