@@ -1,880 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-activo: 
-20-10-2023 09:30:17 , Pila de llamadas
-20-10-2023 09:30:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-20-10-2023 09:30:18 , Objeto      : est_ventavisitas_v2.containerguia.kitbuscaoaltaenfzavta.txtexiste1.init
-20-10-2023 09:30:18 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-20-10-2023 09:30:18 , Nº de Linea :          1
-20-10-2023 09:30:18 , En el Fuente: this.Parent.refrescardato("")
-20-10-2023 09:30:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-20-10-2023 09:30:19 , Objeto      : est_ventavisitas_v2.containerguia.kitbuscaoaltaenfzavta.refrescardato
-20-10-2023 09:30:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-20-10-2023 09:30:20 , Nº de Linea :         18
-20-10-2023 09:30:20 , En el Fuente: This.traerdatos(.t.,lccmd) 
-20-10-2023 09:30:20 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-20-10-2023 09:30:20 , Objeto      : est_ventavisitas_v2.containerguia.kitbuscaoaltaenfzavta.traerdatos
-20-10-2023 09:30:21 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-20-10-2023 09:30:21 , Nº de Linea :         32
-20-10-2023 09:30:21 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
-20-10-2023 09:31:27 , EST_VENTAVISITAS_V2.MAPS.CLICK, Error: No se encuentra la propiedad ORIGENMAP.;Linea : oParam.AddProperty("origen",thisform.origenmap);Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:        132 STR(IDVENDEDOR,10
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-)+STR(IDCTACTE,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000099MX00SA.TMP;Ultimo Control activo: 
-20-10-2023 09:31:27 , Pila de llamadas
-20-10-2023 09:31:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:31:27 , Objeto      : est_ventavisitas_v2.maps.click
-20-10-2023 09:31:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:31:28 , Nº de Linea :         11
-20-10-2023 09:31:28 , En el Fuente: 	oParam.AddProperty("origen",thisform.origenmap)
-20-10-2023 09:45:17 , EST_VENTAVISITAS_V2.MAPS.CLICK, Error: No se encuentra la propiedad ORIGENMAP.;Linea : oParam.AddProperty("origen",thisform.origenmap);Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:        132 STR(IDVENDEDOR,10
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-)+STR(IDCTACTE,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000099MX0130.TMP;Ultimo Control activo: 
-20-10-2023 09:45:17 , Pila de llamadas
-20-10-2023 09:45:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:45:18 , Objeto      : est_ventavisitas_v2.maps.click
-20-10-2023 09:45:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:45:18 , Nº de Linea :         11
-20-10-2023 09:45:19 , En el Fuente: 	oParam.AddProperty("origen",thisform.origenmap)
-20-10-2023 09:47:59 , MOSTRAR_MAPS_FAC.CMD_CARGAR.CLICK, Error: El archivo 'obtenerxyapi.prg' no existe.;Linea : ObtenerXYAPI(cDire,@cLat,@cLng,cCodCtacte);Error :          1;Ultimo Alias Activo: CSRREMFAC;Ultimo registro:          1 ;DBF: C:\USERS\MARCO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-S\APPDATA\LOCAL\TEMP\000099MX017E.TMP;Ultimo Control activo: 
-20-10-2023 09:48:00 , Pila de llamadas
-20-10-2023 09:48:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\mostrar_maps_fac.sct
-20-10-2023 09:48:00 , Objeto      : mostrar_maps_fac.cmd_cargar.click
-20-10-2023 09:48:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\mostrar_maps_fac.sct
-20-10-2023 09:48:01 , Nº de Linea :         50
-20-10-2023 09:48:01 , En el Fuente: 				ObtenerXYAPI(cDire,@cLat,@cLng,cCodCtacte)
-20-10-2023 09:54:34 , EST_VENTAVISITAS_V2.MAPS.CLICK, Error: No se encuentra el alias 'CSRIMPRIMIR'.;Linea : SELECT csrimprimir;Error :         13;Ultimo Alias Activo: CSRSUBTITULO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-EJ9L001L.TMP;Ultimo Control activo: 
-20-10-2023 09:54:34 , Pila de llamadas
-20-10-2023 09:54:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:54:35 , Objeto      : est_ventavisitas_v2.maps.click
-20-10-2023 09:54:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
 20-10-2023 09:54:35 , Nº de Linea :          3
 20-10-2023 09:54:35 , En el Fuente: llOK=thisform.CrearInforme()
 20-10-2023 09:54:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
@@ -883,6 +6,22 @@ EJ9L001L.TMP;Ultimo Control activo:
 20-10-2023 09:54:36 , Nº de Linea :         22
 20-10-2023 09:54:36 , En el Fuente: 	SELECT csrimprimir
 20-10-2023 09:55:00 , EST_VENTAVISITAS_V2.MAPS.CLICK, Error: No se encuentra el alias 'CSRIMPRIMIR'.;Linea : SELECT csrimprimir;Error :         13;Ultimo Alias Activo: CSRSUBTITULO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1053,6 +192,22 @@ EJ9L001S.TMP;Ultimo Control activo:
 20-10-2023 09:55:02 , Nº de Linea :         22
 20-10-2023 09:55:02 , En el Fuente: 	SELECT csrimprimir
 20-10-2023 10:32:21 , MOSTRAR_MAPS_FAC.CMD_CARGAR.CLICK, Error: No se encuentra la propiedad EMPRESALAT.;Linea : } var centerPoint = new google.maps.LatLng(<<goapp.empresalat>>,<<goapp.empresalng>>) var mapOptions = {zoom: 15, center: centerPoint, mapTyp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1379,6 +534,22 @@ eId: google.maps.MapTypeId.ROADMAP, streetViewControl: true};Error :       1734;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 :          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000DOUH02DT.TMP;Ultimo Control activo: 
 01-11-2023 11:36:53 , Pila de llamadas
 01-11-2023 11:36:54 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -1402,6 +573,22 @@ eId: google.maps.MapTypeId.ROADMAP, streetViewControl: true};Error :       1734;
 01-11-2023 11:36:58 , Nº de Linea :         77
 01-11-2023 11:36:58 , En el Fuente: 				.Column028.Header = csrcabeimp.mes_13 + " " + ObjReporter.titulo3
 01-11-2023 11:40:48 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'GRUPO2'.;Linea : SELECT 1 as grupohoja,CsrImprimir.* FROM CsrImprimir WHERE grupo2 = 0 ORDER BY codrubro,nomrubro,codigo,articulo,sucursal INTO 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1699,6 +886,22 @@ CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRGRUPOS;U
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A\LOCAL\TEMP\0000DOUH032J.TMP;Ultimo Control activo: 
 01-11-2023 12:15:37 , Pila de llamadas
 01-11-2023 12:15:38 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -1707,6 +910,22 @@ A\LOCAL\TEMP\0000DOUH032J.TMP;Ultimo Control activo:
 01-11-2023 12:15:38 , Nº de Linea :          5
 01-11-2023 12:15:38 , En el Fuente: thisform.dinamico = .t.
 01-11-2023 12:24:02 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra la propiedad FILENAMEPIVOT.;Linea : lcfilename = this.Parent.Parent.filenamepivot;Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       1925
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1981,6 +1200,22 @@ A\LOCAL\TEMP\0000DOUH032J.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo: 
 01-11-2023 12:39:28 , Pila de llamadas
 01-11-2023 12:39:29 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -1994,6 +1229,22 @@ F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo:
 01-11-2023 12:39:30 , Nº de Linea :         19
 01-11-2023 12:39:30 , En el Fuente: 	MKDIR cPath
 01-11-2023 12:41:23 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: CSRCABEIMP;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2282,6 +1533,22 @@ F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 000K7WP005M.TMP;Ultimo Control activo: 
 01-11-2023 13:41:54 , Pila de llamadas
 01-11-2023 13:41:55 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
@@ -2300,6 +1567,22 @@ F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo:
 01-11-2023 13:41:57 , Nº de Linea :         23
 01-11-2023 13:41:58 , En el Fuente: SELECT CsrHistPrecio
 01-11-2023 14:13:46 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2528,6 +1811,22 @@ F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \MARCOS\APPDATA\LOCAL\TEMP\0000K7WP01OI.TMP;Ultimo Control activo: CANTIDAD
 01-11-2023 14:13:57 , Pila de llamadas
 01-11-2023 14:13:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -2547,6 +1846,22 @@ F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo:
 01-11-2023 14:14:01 , En el Fuente: 		GATHER NAME Oscatter
 02-11-2023 09:11:59 , REGFACVTA_V2.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: Error de análisis de XML: El sistema no puede encontrar la ruta especificada.;
  línea 0, posición 0.   (null);Linea : XMLTOCURSOR(cArchivo,"CabePedido"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2753,7 +2068,39 @@ F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rsor.idrubro,Csrcursor.numero,CsrCursor.nombre,lnunibulto ,lnprevta,CsrCursor.nomrubro,lcclave,"",csrcursor.minimofac ,IIF(CsrCursor.verCodAlfa=1,CsrCursor.codalfa,""),CsrCursot.stock);Error :         13;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2945,8 +2292,40 @@ rsor.idrubro,Csrcursor.numero,CsrCursor.nombre,lnunibulto ,lnprevta,CsrCursor.no
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 vta,CsrCursor.nomrubro,lcclave,"",csrcursor.minimofac     			,IIF(CsrCursor.verCodAlfa=1,CsrCursor.codalfa,""),CsrCursot.stock)
 08-11-2023 15:46:15 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No es una expresión numérica.;Linea : FOR i=1 TO lnColumnas;Error :         27;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3146,6 +2525,22 @@ vta,CsrCursor.nomrubro,lcclave,"",csrcursor.minimofac     			,IIF(CsrCursor.verC
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 MARCOS\APPDATA\LOCAL\TEMP\00009B0P00GE.TMP;Ultimo Control activo: 
 08-11-2023 15:48:55 , Pila de llamadas
 08-11-2023 15:48:56 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3169,6 +2564,22 @@ MARCOS\APPDATA\LOCAL\TEMP\00009B0P00GE.TMP;Ultimo Control activo:
 08-11-2023 15:48:59 , Nº de Linea :         46
 08-11-2023 15:48:59 , En el Fuente: 				.Columna005.BodyFormat = FormatImporte
 08-11-2023 15:49:57 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: El nombre de alias ya está en uso.;Linea : SELECT CsrGrupos.grupohoja,CsrImprimir.* FROM CsrImprimir INNER JOIN CsrGrupos ON CsrImprimir.idrubro= CsrGrupos.idrubro ORDER BY CsrGr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3333,6 +2744,22 @@ upos.grupohoja,CsrImprimir.idrubro INTO CURSOR CsrImprimir READWRITE;Error :    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 : CSRCURSORHOJAS;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00UP.TMP;Ultimo Control activo: 
 08-11-2023 15:51:43 , Pila de llamadas
 08-11-2023 15:51:43 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3356,6 +2783,22 @@ upos.grupohoja,CsrImprimir.idrubro INTO CURSOR CsrImprimir READWRITE;Error :    
 08-11-2023 15:51:48 , Nº de Linea :         77
 08-11-2023 15:51:48 , En el Fuente: 	SELECT &lcSelect FROM &cCursor WHERE grupohoja = lnGrupo INTO CURSOR CsrAuxHoja READWRITE 
 08-11-2023 15:53:16 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'MINIMO'.;Linea : SELECT &lcSelect FROM &cCursor WHERE grupohoja = lnGrupo INTO CURSOR CsrAuxHoja READWRITE;Error :       1806;Ultimo Alias Activo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3492,6 +2935,22 @@ upos.grupohoja,CsrImprimir.idrubro INTO CURSOR CsrImprimir READWRITE;Error :    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 RS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00ZZ.TMP;Ultimo Control activo: 
 08-11-2023 15:55:46 , Pila de llamadas
 08-11-2023 15:55:47 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3500,6 +2959,22 @@ RS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00ZZ.TMP;Ultimo Control activo:
 08-11-2023 15:55:48 , Nº de Linea :         18
 08-11-2023 15:55:48 , En el Fuente: SELECT(lcAliasActual)
 08-11-2023 15:58:01 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace ALL grupohoja WITH RECNO() IN CsrGrupos;Error :         39;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3620,8 +3095,40 @@ RS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00ZZ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3728,8 +3235,40 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3822,8 +3361,40 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3903,8 +3474,40 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3972,8 +3575,40 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4026,6 +3661,22 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 : C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GXZD01KW.TMP;Ultimo Control activo: 
 08-11-2023 16:19:21 , Pila de llamadas
 08-11-2023 16:19:21 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -4054,6 +3705,22 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GXZD01MQ.TMP;Ultimo Control activo: 
 08-11-2023 16:21:53 , Pila de llamadas
 08-11-2023 16:21:53 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -4076,3 +3743,86 @@ DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GXZD01MQ.TMP;Ultimo Control activo:
 08-11-2023 16:21:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
 08-11-2023 16:21:57 , Nº de Linea :         47
 08-11-2023 16:21:57 , En el Fuente: 				.NameGroup	= CsrGrupos.nomrubro&&Nombre de la Hoja
+09-11-2023 11:24:46 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\MARCOS\APPDATA\LOCAL\TEMP\0000EZ9L01Q6.TMP;Ultimo Control activo: CANTIDAD
+09-11-2023 11:24:46 , Pila de llamadas
+09-11-2023 11:24:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:24:47 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
+09-11-2023 11:24:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:24:47 , Nº de Linea :         21
+09-11-2023 11:24:47 , En el Fuente: 		IF .grid2_lostfocuscant()
+09-11-2023 11:24:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:24:47 , Objeto      : regfacvtapub.grid2_lostfocuscant
+09-11-2023 11:24:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:24:48 , Nº de Linea :          5
+09-11-2023 11:24:48 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
+09-11-2023 11:24:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:24:49 , Objeto      : regfacvtapub.grid2_control
+09-11-2023 11:24:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:24:49 , Nº de Linea :        340
+09-11-2023 11:24:50 , En el Fuente: 		GATHER NAME Oscatter
+09-11-2023 11:25:01 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+\MARCOS\APPDATA\LOCAL\TEMP\0000EZ9L01Q6.TMP;Ultimo Control activo: CANTIDAD
+09-11-2023 11:25:01 , Pila de llamadas
+09-11-2023 11:25:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:02 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
+09-11-2023 11:25:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:03 , Nº de Linea :         21
+09-11-2023 11:25:03 , En el Fuente: 		IF .grid2_lostfocuscant()
+09-11-2023 11:25:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:03 , Objeto      : regfacvtapub.grid2_lostfocuscant
+09-11-2023 11:25:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:04 , Nº de Linea :          5
+09-11-2023 11:25:04 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
+09-11-2023 11:25:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:04 , Objeto      : regfacvtapub.grid2_control
+09-11-2023 11:25:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:05 , Nº de Linea :        340
+09-11-2023 11:25:05 , En el Fuente: 		GATHER NAME Oscatter
+09-11-2023 11:25:39 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
+
+
+\MARCOS\APPDATA\LOCAL\TEMP\0000EZ9L01Q6.TMP;Ultimo Control activo: CANTIDAD
+09-11-2023 11:25:40 , Pila de llamadas
+09-11-2023 11:25:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:40 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
+09-11-2023 11:25:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:41 , Nº de Linea :         21
+09-11-2023 11:25:41 , En el Fuente: 		IF .grid2_lostfocuscant()
+09-11-2023 11:25:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:41 , Objeto      : regfacvtapub.grid2_lostfocuscant
+09-11-2023 11:25:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:42 , Nº de Linea :          5
+09-11-2023 11:25:42 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
+09-11-2023 11:25:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:42 , Objeto      : regfacvtapub.grid2_control
+09-11-2023 11:25:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
+09-11-2023 11:25:43 , Nº de Linea :        340
+09-11-2023 11:25:43 , En el Fuente: 		GATHER NAME Oscatter
