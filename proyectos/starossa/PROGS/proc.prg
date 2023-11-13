@@ -1,13 +1,34 @@
 *--------------------------------------------------
+*-----------------
+FUNCTION sectohour
+*-----------------
+* parm1 = segundos
+LPARAMETERS seg
+LOCAL dummy,hora,minuto,segundo,cRest
+seg= INT(seg)
+hora = INT(seg/3600)
+parm1 = seg- (hora*3600)
+minuto = INT(seg/60)
+segundo = seg - (minuto*60)
+cRest = STRTRAN(STR(hora,4,0)+":"+STR(minuto,2,0)+":"+STR(segundo,2,0)," ","0")
+IF cRest = "0"
+	cRest = SUBSTR(cRest,3)
+	IF cRest = "0"
+		cRest = SUBSTR(cRest,2)
+	ENDIF
+ENDIF
+RETURN cRest
+ENDFUNC
+
 *----------------------------------------------------------------------------
 * FUNCION SaveFile(lcCmd,lcArchivo,llgenera)
 *----------------------------------------------------------------------------
 * Guarda la consulta al motor
 *----------------------------------------------------------------------------
 FUNCTION SaveFile
-PARAMETERS lcCmd,lcArchivo,lcExten,llgenera
+PARAMETERS lcCmd,lcArchivo,tcCarpeta,llgenera
 llgenera = IIF(PCOUNT()<4,.f.,llgenera)
-lcExten = IIF(PCOUNT()<3,'txt',lcExten)
+tcCarpeta= IIF(PCOUNT()<3,'',tcCarpeta)
 
 IF LEN(LTRIM(lcCmd))=0
 	RETURN 
@@ -17,21 +38,25 @@ IF LEN(LTRIM(lcArchivo))=0
 ENDIF 
 lldesarrollo=(_vfp.startmode()#4)
 lcRuta = SYS(5)+ "\tempsql\"+ALLTRIM(goapp.initcatalo)
+
 IF VARTYPE(goapp.rutaaplicacion)$'C' AND NOT lldesarrollo
 	lcRutaApli = IIF(LEN(ALLTRIM(goapp.rutaaplicacion))#0,goapp.rutaaplicacion,"")
 	lcRutaApli = RTRIM(lcRutaApli) + IIF(RIGHT(lcRutaApli,1)="\" or LEN(LTRIM(lcRutaApli))=0,"","\") &&Si es vacio o tiene \. Mantiene lo mismo.
 	lcRuta = IIF(LEN(LTRIM(lcRutaApli))#0,lcRutaApli+ "tempsql",lcRuta)	
 ENDIF 
-IF llgenera &&Determinamos que queres que siempre se guarde
+IF LEN(LTRIM(tcCarpeta))>0 AND AT(':',tcCarpeta)> 0
+	lcRuta = tcCarpeta
+ENDIF 
+IF llgenera&&Determinamos que queres que siempre se guarde
 	IF !DIRECTORY(lcRuta)
 		MKDIR &lcRuta
 	ENDIF 
 ENDIF 
 SET SAFETY OFF 
-= STRTOFILE(lccmd,lcRuta+"\"+lcArchivo+"."+lcExten)
+= STRTOFILE(lccmd,lcRuta+"\"+lcArchivo)
 SET SAFETY ON 
 
-RETURN lcRuta+"\"+lcArchivo+"."+lcExten
+RETURN lcRuta+"\"+lcArchivo
 *--------------------------------------------
 *Generar un codigo de barra a partir de una secuencia numerica
 FUNCTION GenerarCodBarra
@@ -405,15 +430,19 @@ RETURN cRuta
 *----------------------------------------------------------------------------
 Function GRABAR_SEC
 
-Parameters tcTexto,tcArchivo,tcCarpeta
+Parameters tcTexto,tcArchivo,tcCarpeta,tlConFecha
 
 Private plRet, pnFich, pnFichn, pnFtama, pnTammax, pnLongAc
 Private pcChar, pnPos,Lcdirlog,Lcfilelog,Lcnewlog
 
 tcArchivo=IIF(PCOUNT()<2,'Secuencia'+DTOS(DATE())+'.txt',tcArchivo)
 tcCarpeta=IIF(PCOUNT()<2,'Sec',tcCarpeta)
+tlConFecha= IIF(PCOUNT()<4,.t.,tlConFecha)
 
 Lcdirlog=Sys(5)+Sys(2003)+'\'+tcCarpeta
+IF AT(':',tcCarpeta)> 0
+	Lcdirlog= tcCarpeta
+ENDIF 
 Lcfilelog=Lcdirlog+'\'+tcArchivo
 LcNewlog=Lcdirlog+'\'+'New'+ALLTRIM(tcArchivo)
 
@@ -426,7 +455,8 @@ pnLongAc = 0
 pnTammax = 60000
 pnFtama = 0
 
-tcTexto=Dtoc(Datetime())+' , '+tcTexto
+
+tcTexto=IIF(tlConFecha,Dtoc(Datetime())+' , ','')+tcTexto
 
 If File(Lcfilelog)                && ¿Existe el archivo?
 	pnFich = Fopen(Lcfilelog,12)  && Sí: abrir lect./escrit.
