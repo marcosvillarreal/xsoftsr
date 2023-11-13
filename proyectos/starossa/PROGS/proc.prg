@@ -1,3 +1,37 @@
+*--------------------------------------------------
+*----------------------------------------------------------------------------
+* FUNCION SaveFile(lcCmd,lcArchivo,llgenera)
+*----------------------------------------------------------------------------
+* Guarda la consulta al motor
+*----------------------------------------------------------------------------
+FUNCTION SaveFile
+PARAMETERS lcCmd,lcArchivo,lcExten,llgenera
+llgenera = IIF(PCOUNT()<4,.f.,llgenera)
+lcExten = IIF(PCOUNT()<3,'txt',lcExten)
+
+IF LEN(LTRIM(lcCmd))=0
+	RETURN 
+ENDIF 
+IF LEN(LTRIM(lcArchivo))=0
+	RETURN 
+ENDIF 
+lldesarrollo=(_vfp.startmode()#4)
+lcRuta = SYS(5)+ "\tempsql\"+ALLTRIM(goapp.initcatalo)
+IF VARTYPE(goapp.rutaaplicacion)$'C' AND NOT lldesarrollo
+	lcRutaApli = IIF(LEN(ALLTRIM(goapp.rutaaplicacion))#0,goapp.rutaaplicacion,"")
+	lcRutaApli = RTRIM(lcRutaApli) + IIF(RIGHT(lcRutaApli,1)="\" or LEN(LTRIM(lcRutaApli))=0,"","\") &&Si es vacio o tiene \. Mantiene lo mismo.
+	lcRuta = IIF(LEN(LTRIM(lcRutaApli))#0,lcRutaApli+ "tempsql",lcRuta)	
+ENDIF 
+IF llgenera &&Determinamos que queres que siempre se guarde
+	IF !DIRECTORY(lcRuta)
+		MKDIR &lcRuta
+	ENDIF 
+ENDIF 
+SET SAFETY OFF 
+= STRTOFILE(lccmd,lcRuta+"\"+lcArchivo+"."+lcExten)
+SET SAFETY ON 
+
+RETURN lcRuta+"\"+lcArchivo+"."+lcExten
 *--------------------------------------------
 *Generar un codigo de barra a partir de una secuencia numerica
 FUNCTION GenerarCodBarra
@@ -2209,6 +2243,8 @@ IF lok
    GOapp.empresaimpint			= Csrempresa.impint
    Goapp.empresaagenteibb        = Csrempresa.agenteibb
    GOapp.empresatag				= Csrempresa.tag
+   goapp.empresacoorx			= '-38.71659170886005'
+   goapp.empresacoory			= '-62.251412796188106'
 ENDIF
    
 IF USED("Csrseteotermi")

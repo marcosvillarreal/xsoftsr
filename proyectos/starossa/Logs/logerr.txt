@@ -1,2964 +1,112 @@
-20-10-2023 09:54:35 , Nº de Linea :          3
-20-10-2023 09:54:35 , En el Fuente: llOK=thisform.CrearInforme()
-20-10-2023 09:54:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:54:35 , Objeto      : est_ventavisitas_v2.crearinforme
-20-10-2023 09:54:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:54:36 , Nº de Linea :         22
-20-10-2023 09:54:36 , En el Fuente: 	SELECT csrimprimir
-20-10-2023 09:55:00 , EST_VENTAVISITAS_V2.MAPS.CLICK, Error: No se encuentra el alias 'CSRIMPRIMIR'.;Linea : SELECT csrimprimir;Error :         13;Ultimo Alias Activo: CSRSUBTITULO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-EJ9L001S.TMP;Ultimo Control activo: 
-20-10-2023 09:55:00 , Pila de llamadas
-20-10-2023 09:55:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:55:01 , Objeto      : est_ventavisitas_v2.maps.click
-20-10-2023 09:55:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:55:01 , Nº de Linea :          3
-20-10-2023 09:55:01 , En el Fuente: llOK=thisform.CrearInforme()
-20-10-2023 09:55:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:55:02 , Objeto      : est_ventavisitas_v2.crearinforme
-20-10-2023 09:55:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventavisitas_v2.sct
-20-10-2023 09:55:02 , Nº de Linea :         22
-20-10-2023 09:55:02 , En el Fuente: 	SELECT csrimprimir
-20-10-2023 10:32:21 , MOSTRAR_MAPS_FAC.CMD_CARGAR.CLICK, Error: No se encuentra la propiedad EMPRESALAT.;Linea : } var centerPoint = new google.maps.LatLng(<<goapp.empresalat>>,<<goapp.empresalng>>) var mapOptions = {zoom: 15, center: centerPoint, mapTyp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-eId: google.maps.MapTypeId.ROADMAP, streetViewControl: true};Error :       1734;Ultimo Alias Activo: CSRREMFAC;Ultimo registro:          8 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000EJ9L0065.TMP;Ultimo Control activo: 
-20-10-2023 10:32:21 , Pila de llamadas
-20-10-2023 10:32:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\mostrar_maps_fac.sct
-20-10-2023 10:32:22 , Objeto      : mostrar_maps_fac.cmd_cargar.click
-20-10-2023 10:32:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\mostrar_maps_fac.sct
-20-10-2023 10:32:23 , Nº de Linea :        161
-20-10-2023 10:32:23 , En el Fuente: 		cFile = GoogleCoords2API(" ",llamada,cmark)
-20-10-2023 10:32:23 , Programa    : j:\xsoftsr\proyectos\starossa\progs\mapsapikey.fxp
-20-10-2023 10:32:23 , Objeto      : googlecoords2api
-20-10-2023 10:32:23 , Base Objeto : j:\xsoftsql\desarrollo\lib\mapsapikey.prg
-20-10-2023 10:32:23 , Nº de Linea :        780
-20-10-2023 10:32:24 , En el Fuente: 		}; 
-01-11-2023 11:11:51 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-01-11-2023 11:11:52 , Pila de llamadas
-01-11-2023 11:11:52 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:11:52 , Objeto      : ventamesbase.imprimir_vistaprevia1.excel.click
-01-11-2023 11:11:52 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:11:52 , Nº de Linea :          8
-01-11-2023 11:11:53 , En el Fuente: llOK=thisform.CrearInforme()
-01-11-2023 11:11:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:11:53 , Objeto      : ventamesbase.crearinforme
-01-11-2023 11:11:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:11:54 , Nº de Linea :        136
-01-11-2023 11:11:54 , En el Fuente: 		  SELECT CsrAux
-01-11-2023 11:36:53 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la variable 'MES_13'.;Linea : .Column028.Header = csrcabeimp.mes_13 + " " + ObjReporter.titulo3;Error :         12;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000DOUH02DT.TMP;Ultimo Control activo: 
-01-11-2023 11:36:53 , Pila de llamadas
-01-11-2023 11:36:54 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:36:54 , Objeto      : ventamesbase.imprimir_vistaprevia1.excel.click
-01-11-2023 11:36:54 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:36:55 , Nº de Linea :          8
-01-11-2023 11:36:55 , En el Fuente: llOK=thisform.CrearInforme()
-01-11-2023 11:36:55 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:36:55 , Objeto      : ventamesbase.crearinforme
-01-11-2023 11:36:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:36:55 , Nº de Linea :        296
-01-11-2023 11:36:55 , En el Fuente: DODEFAULT()
-01-11-2023 11:36:55 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:36:56 , Objeto      : informe.crearinforme
-01-11-2023 11:36:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:36:56 , Nº de Linea :          1
-01-11-2023 11:36:57 , En el Fuente: thisform.crearheader()
-01-11-2023 11:36:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:36:57 , Objeto      : ventamesbase.crearheader
-01-11-2023 11:36:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:36:58 , Nº de Linea :         77
-01-11-2023 11:36:58 , En el Fuente: 				.Column028.Header = csrcabeimp.mes_13 + " " + ObjReporter.titulo3
-01-11-2023 11:40:48 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'GRUPO2'.;Linea : SELECT 1 as grupohoja,CsrImprimir.* FROM CsrImprimir WHERE grupo2 = 0 ORDER BY codrubro,nomrubro,codigo,articulo,sucursal INTO 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CURSOR CsrImprimir READWRITE;Error :       1806;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000DOUH02G7.TMP;Ultimo Control activo: 
-01-11-2023 11:40:49 , Pila de llamadas
-01-11-2023 11:40:49 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:40:49 , Objeto      : ventamesbase.imprimir_vistaprevia1.excel.click
-01-11-2023 11:40:49 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:40:49 , Nº de Linea :          8
-01-11-2023 11:40:50 , En el Fuente: llOK=thisform.CrearInforme()
-01-11-2023 11:40:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:40:50 , Objeto      : ventamesbase.crearinforme
-01-11-2023 11:40:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:40:51 , Nº de Linea :        296
-01-11-2023 11:40:51 , En el Fuente: DODEFAULT()
-01-11-2023 11:40:51 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:40:51 , Objeto      : informe.crearinforme
-01-11-2023 11:40:52 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 11:40:52 , Nº de Linea :          1
-01-11-2023 11:40:52 , En el Fuente: thisform.crearheader()
-01-11-2023 11:40:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:40:53 , Objeto      : ventamesbase.crearheader
-01-11-2023 11:40:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 11:40:53 , Nº de Linea :         93
-01-11-2023 11:40:53 , En el Fuente: 			SELECT 1 as grupohoja,CsrImprimir.* FROM CsrImprimir			WHERE grupo2 = 0 			ORDER BY codrubro,nomrubro,codigo,articulo,sucursal INTO CURSOR CsrImprimir READWRITE 
-01-11-2023 12:15:37 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra la propiedad DINAMICO.;Linea : thisform.dinamico = .t.;Error :       1734;Ultimo Alias Activo: CSRPIEIMP;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDAT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-A\LOCAL\TEMP\0000DOUH032J.TMP;Ultimo Control activo: 
-01-11-2023 12:15:37 , Pila de llamadas
-01-11-2023 12:15:38 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:15:38 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
-01-11-2023 12:15:38 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:15:38 , Nº de Linea :          5
-01-11-2023 12:15:38 , En el Fuente: thisform.dinamico = .t.
-01-11-2023 12:24:02 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra la propiedad FILENAMEPIVOT.;Linea : lcfilename = this.Parent.Parent.filenamepivot;Error :       1734;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       1925
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000DOUH034I.TMP;Ultimo Control activo: 
-01-11-2023 12:24:02 , Pila de llamadas
-01-11-2023 12:24:02 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:24:02 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
-01-11-2023 12:24:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:24:03 , Nº de Linea :         11
-01-11-2023 12:24:03 , En el Fuente: 	   DODEFAULT()
-01-11-2023 12:24:03 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:24:03 , Objeto      : imprimir_vistaprevia.pivot.click
-01-11-2023 12:24:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:24:03 , Nº de Linea :          3
-01-11-2023 12:24:04 , En el Fuente: lcfilename = this.Parent.Parent.filenamepivot
-01-11-2023 12:39:28 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: Ya existe un subdirectorio o archivo j:\xsoftsr\proyectos\starossa\cpath.;Linea : MKDIR cPath;Error :       1961;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:       1925 ;DB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-F: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OFT500R9.TMP;Ultimo Control activo: 
-01-11-2023 12:39:28 , Pila de llamadas
-01-11-2023 12:39:29 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:39:29 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
-01-11-2023 12:39:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:39:29 , Nº de Linea :         11
-01-11-2023 12:39:29 , En el Fuente: 	   DODEFAULT()
-01-11-2023 12:39:30 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:39:30 , Objeto      : imprimir_vistaprevia.pivot.click
-01-11-2023 12:39:30 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:39:30 , Nº de Linea :         19
-01-11-2023 12:39:30 , En el Fuente: 	MKDIR cPath
-01-11-2023 12:41:23 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: CSRCABEIMP;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0000OFT500S1.TMP;Ultimo Control activo: 
-01-11-2023 12:41:23 , Pila de llamadas
-01-11-2023 12:41:24 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:41:24 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
-01-11-2023 12:41:24 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:41:24 , Nº de Linea :          7
-01-11-2023 12:41:25 , En el Fuente: llOK=thisform.CrearInforme()
-01-11-2023 12:41:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 12:41:25 , Objeto      : ventamesbase.crearinforme
-01-11-2023 12:41:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 12:41:25 , Nº de Linea :        136
-01-11-2023 12:41:26 , En el Fuente: 		  SELECT CsrAux
-01-11-2023 12:41:52 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.PIVOT.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-01-11-2023 12:41:52 , Pila de llamadas
-01-11-2023 12:41:53 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:41:53 , Objeto      : ventamesbase.imprimir_vistaprevia1.pivot.click
-01-11-2023 12:41:53 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-01-11-2023 12:41:53 , Nº de Linea :          7
-01-11-2023 12:41:53 , En el Fuente: llOK=thisform.CrearInforme()
-01-11-2023 12:41:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 12:41:54 , Objeto      : ventamesbase.crearinforme
-01-11-2023 12:41:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 12:41:54 , Nº de Linea :        136
-01-11-2023 12:41:54 , En el Fuente: 		  SELECT CsrAux
-01-11-2023 12:48:34 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias ''.;Linea : SELECT (cAlias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-01-11-2023 12:48:34 , Pila de llamadas
-01-11-2023 12:48:35 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:48:35 , Objeto      : ventamesbase.imprimir_vistaprevia1.impresora.click
-01-11-2023 12:48:35 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:48:35 , Nº de Linea :          4
-01-11-2023 12:48:35 , En el Fuente: this.Parent.establecerseteos()
-01-11-2023 12:48:35 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:48:35 , Objeto      : ventamesbase.imprimir_vistaprevia1.establecerseteos
-01-11-2023 12:48:36 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:48:36 , Nº de Linea :         23
-01-11-2023 12:48:36 , En el Fuente: SELECT (cAlias)
-01-11-2023 12:49:15 , VENTAMESBASE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-01-11-2023 12:49:15 , Pila de llamadas
-01-11-2023 12:49:16 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:49:16 , Objeto      : ventamesbase.imprimir_vistaprevia1.impresora.click
-01-11-2023 12:49:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-01-11-2023 12:49:16 , Nº de Linea :          8
-01-11-2023 12:49:16 , En el Fuente: 	llOK=thisform.CrearInforme()
-01-11-2023 12:49:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 12:49:16 , Objeto      : ventamesbase.crearinforme
-01-11-2023 12:49:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventamesbase.sct
-01-11-2023 12:49:17 , Nº de Linea :        136
-01-11-2023 12:49:17 , En el Fuente: 		  SELECT CsrAux
-01-11-2023 13:41:53 , ABMPRODUCTO._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias 'CSRHISTPRECIO'.;Linea : SELECT CsrHistPrecio;Error :         13;Ultimo Alias Activo: CSRVARIEDAD;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-000K7WP005M.TMP;Ultimo Control activo: 
-01-11-2023 13:41:54 , Pila de llamadas
-01-11-2023 13:41:55 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-01-11-2023 13:41:55 , Objeto      : abmproducto._textbox1.keypress
-01-11-2023 13:41:55 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
-01-11-2023 13:41:55 , Nº de Linea :        131
-01-11-2023 13:41:55 , En el Fuente: 	    thisform.DespuesObtenerDatos()
-01-11-2023 13:41:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-01-11-2023 13:41:56 , Objeto      : abmproducto.despuesobtenerdatos
-01-11-2023 13:41:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-01-11-2023 13:41:56 , Nº de Linea :          2
-01-11-2023 13:41:56 , En el Fuente: thisform.contenedor1.gridabm1.AfterRowColChange(ThisForm.Contenedor1.Gridabm1.ActiveColumn)
-01-11-2023 13:41:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-01-11-2023 13:41:57 , Objeto      : abmproducto.contenedor1.gridabm1.afterrowcolchange
-01-11-2023 13:41:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
-01-11-2023 13:41:57 , Nº de Linea :         23
-01-11-2023 13:41:58 , En el Fuente: SELECT CsrHistPrecio
-01-11-2023 14:13:46 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\MARCOS\APPDATA\LOCAL\TEMP\0000K7WP01OI.TMP;Ultimo Control activo: CANTIDAD
-01-11-2023 14:13:46 , Pila de llamadas
-01-11-2023 14:13:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:47 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-01-11-2023 14:13:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:48 , Nº de Linea :         21
-01-11-2023 14:13:48 , En el Fuente: 		IF .grid2_lostfocuscant()
-01-11-2023 14:13:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:48 , Objeto      : regfacvtapub.grid2_lostfocuscant
-01-11-2023 14:13:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:49 , Nº de Linea :          5
-01-11-2023 14:13:49 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-01-11-2023 14:13:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:49 , Objeto      : regfacvtapub.grid2_control
-01-11-2023 14:13:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:50 , Nº de Linea :        340
-01-11-2023 14:13:50 , En el Fuente: 		GATHER NAME Oscatter
-01-11-2023 14:13:57 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\MARCOS\APPDATA\LOCAL\TEMP\0000K7WP01OI.TMP;Ultimo Control activo: CANTIDAD
-01-11-2023 14:13:57 , Pila de llamadas
-01-11-2023 14:13:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:58 , Objeto      : regfacvtapub.grid2.column5.text1.lostfocus
-01-11-2023 14:13:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:58 , Nº de Linea :         21
-01-11-2023 14:13:58 , En el Fuente: 		IF .grid2_lostfocuscant()
-01-11-2023 14:13:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:59 , Objeto      : regfacvtapub.grid2_lostfocuscant
-01-11-2023 14:13:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:13:59 , Nº de Linea :          5
-01-11-2023 14:13:59 , En el Fuente: 		IF !.grid2_control(lcSetFocus,lcGotFocus)
-01-11-2023 14:14:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:14:00 , Objeto      : regfacvtapub.grid2_control
-01-11-2023 14:14:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
-01-11-2023 14:14:00 , Nº de Linea :        340
-01-11-2023 14:14:01 , En el Fuente: 		GATHER NAME Oscatter
-02-11-2023 09:11:59 , REGFACVTA_V2.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: Error de análisis de XML: El sistema no puede encontrar la ruta especificada.;
- línea 0, posición 0.   (null);Linea : XMLTOCURSOR(cArchivo,"CabePedido"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-,512+8192);Error :       1435;Ultimo Alias Activo: CSROPCION;Ultimo registro:          1 ARCHIVO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000A8ZT00O1.TMP;Ultimo Control activo: 
-02-11-2023 09:11:59 , Pila de llamadas
-02-11-2023 09:12:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
-02-11-2023 09:12:00 , Objeto      : regfacvta_v2.containerencabeza.kitbuscaoaltaenctacte.txtexiste1.keypress
-02-11-2023 09:12:00 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
-02-11-2023 09:12:00 , Nº de Linea :         50
-02-11-2023 09:12:00 , En el Fuente: 				   	 	thisform.importarpedidos()
-02-11-2023 09:12:01 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
-02-11-2023 09:12:01 , Objeto      : regfacvta_v2.importarpedidos
-02-11-2023 09:12:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
-02-11-2023 09:12:01 , Nº de Linea :          6
-02-11-2023 09:12:02 , En el Fuente: 	RETURN this.importarpedidos_Android()
-02-11-2023 09:12:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
-02-11-2023 09:12:02 , Objeto      : regfacvta_v2.importarpedidos_android
-02-11-2023 09:12:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
-02-11-2023 09:12:03 , Nº de Linea :         65
-02-11-2023 09:12:03 , En el Fuente: XMLTOCURSOR(cArchivo,"CabePedido",512+8192)
-08-11-2023 15:43:57 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSOT'.;Linea : INSERT INTO CsrImprimir (idrubro,numero,nombre,unibulto,pvtaciva1,nomrubro,clave ,detalle,minimofac,codalfa,stock) VALUES (CsrCu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-rsor.idrubro,Csrcursor.numero,CsrCursor.nombre,lnunibulto ,lnprevta,CsrCursor.nomrubro,lcclave,"",csrcursor.minimofac ,IIF(CsrCursor.verCodAlfa=1,CsrCursor.codalfa,""),CsrCursot.stock);Error :         13;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00AJ.TMP;Ultimo Control activo: 
-08-11-2023 15:43:57 , Pila de llamadas
-08-11-2023 15:43:58 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:43:58 , Objeto      : listaprecio.imprimir_vistaprevia1.impresora.click
-08-11-2023 15:43:58 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:43:58 , Nº de Linea :          8
-08-11-2023 15:43:59 , En el Fuente: 	llOK=thisform.CrearInforme()
-08-11-2023 15:43:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:43:59 , Objeto      : listaprecio.crearinforme
-08-11-2023 15:43:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:43:59 , Nº de Linea :         67
-08-11-2023 15:44:00 , En el Fuente:      INSERT INTO CsrImprimir (idrubro,numero,nombre,unibulto,pvtaciva1,nomrubro,clave     			,detalle,minimofac,codalfa,stock)     			VALUES (CsrCursor.idrubro,Csrcursor.numero,CsrCursor.nombre,lnunibulto     			,lnpre
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-vta,CsrCursor.nomrubro,lcclave,"",csrcursor.minimofac     			,IIF(CsrCursor.verCodAlfa=1,CsrCursor.codalfa,""),CsrCursot.stock)
-08-11-2023 15:46:15 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No es una expresión numérica.;Linea : FOR i=1 TO lnColumnas;Error :         27;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\00009B0P00EJ.TMP;Ultimo Control activo: 
-08-11-2023 15:46:16 , Pila de llamadas
-08-11-2023 15:46:16 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:46:16 , Objeto      : listaprecio.imprimir_vistaprevia1.excel.click
-08-11-2023 15:46:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:46:17 , Nº de Linea :          8
-08-11-2023 15:46:17 , En el Fuente: llOK=thisform.CrearInforme()
-08-11-2023 15:46:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:46:17 , Objeto      : listaprecio.crearinforme
-08-11-2023 15:46:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:46:17 , Nº de Linea :        129
-08-11-2023 15:46:18 , En el Fuente: DODEFAULT()
-08-11-2023 15:46:18 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:46:18 , Objeto      : informe.crearinforme
-08-11-2023 15:46:18 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:46:18 , Nº de Linea :          1
-08-11-2023 15:46:19 , En el Fuente: thisform.crearheader()
-08-11-2023 15:46:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:46:19 , Objeto      : listaprecio.crearheader
-08-11-2023 15:46:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:46:20 , Nº de Linea :         34
-08-11-2023 15:46:20 , En el Fuente: 			=AsociarColumnaGrupo("ObjNomGrupo",RECNO('CsrGrupos'),)
-08-11-2023 15:46:20 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-08-11-2023 15:46:20 , Objeto      : asociarcolumnagrupo
-08-11-2023 15:46:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-08-11-2023 15:46:20 , Nº de Linea :        546
-08-11-2023 15:46:20 , En el Fuente: =ExcelVistaPrevia(@oObjeto,nColumna,.t.,.f.)
-08-11-2023 15:46:21 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-08-11-2023 15:46:21 , Objeto      : excelvistaprevia
-08-11-2023 15:46:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-08-11-2023 15:46:21 , Nº de Linea :        575
-08-11-2023 15:46:21 , En el Fuente: 	FOR i=1 TO lnColumnas
-08-11-2023 15:48:54 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: COLUMNA005 es un miembro desconocido.;Linea : .Columna005.BodyFormat = FormatImporte;Error :       1925;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:          1 ;DBF: C:\USERS\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MARCOS\APPDATA\LOCAL\TEMP\00009B0P00GE.TMP;Ultimo Control activo: 
-08-11-2023 15:48:55 , Pila de llamadas
-08-11-2023 15:48:56 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:48:56 , Objeto      : listaprecio.imprimir_vistaprevia1.excel.click
-08-11-2023 15:48:56 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:48:56 , Nº de Linea :          8
-08-11-2023 15:48:56 , En el Fuente: llOK=thisform.CrearInforme()
-08-11-2023 15:48:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:48:57 , Objeto      : listaprecio.crearinforme
-08-11-2023 15:48:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:48:57 , Nº de Linea :        129
-08-11-2023 15:48:58 , En el Fuente: DODEFAULT()
-08-11-2023 15:48:58 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:48:58 , Objeto      : informe.crearinforme
-08-11-2023 15:48:58 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:48:58 , Nº de Linea :          1
-08-11-2023 15:48:58 , En el Fuente: thisform.crearheader()
-08-11-2023 15:48:59 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:48:59 , Objeto      : listaprecio.crearheader
-08-11-2023 15:48:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:48:59 , Nº de Linea :         46
-08-11-2023 15:48:59 , En el Fuente: 				.Columna005.BodyFormat = FormatImporte
-08-11-2023 15:49:57 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: El nombre de alias ya está en uso.;Linea : SELECT CsrGrupos.grupohoja,CsrImprimir.* FROM CsrImprimir INNER JOIN CsrGrupos ON CsrImprimir.idrubro= CsrGrupos.idrubro ORDER BY CsrGr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-upos.grupohoja,CsrImprimir.idrubro INTO CURSOR CsrImprimir READWRITE;Error :         24;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00I9.TMP;Ultimo Control activo: 
-08-11-2023 15:49:57 , Pila de llamadas
-08-11-2023 15:49:57 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:49:57 , Objeto      : listaprecio.imprimir_vistaprevia1.excel.click
-08-11-2023 15:49:58 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:49:58 , Nº de Linea :          8
-08-11-2023 15:49:58 , En el Fuente: llOK=thisform.CrearInforme()
-08-11-2023 15:49:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:49:58 , Objeto      : listaprecio.crearinforme
-08-11-2023 15:49:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:49:59 , Nº de Linea :        129
-08-11-2023 15:49:59 , En el Fuente: DODEFAULT()
-08-11-2023 15:49:59 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:49:59 , Objeto      : informe.crearinforme
-08-11-2023 15:50:00 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:50:00 , Nº de Linea :          1
-08-11-2023 15:50:00 , En el Fuente: thisform.crearheader()
-08-11-2023 15:50:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:50:01 , Objeto      : listaprecio.crearheader
-08-11-2023 15:50:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\listaprecio.sct
-08-11-2023 15:50:01 , Nº de Linea :         60
-08-11-2023 15:50:01 , En el Fuente: 		SELECT CsrGrupos.grupohoja,CsrImprimir.*		FROM CsrImprimir INNER JOIN CsrGrupos ON CsrImprimir.idrubro= CsrGrupos.idrubro		ORDER BY CsrGrupos.grupohoja,CsrImprimir.idrubro INTO CURSOR CsrImprimir READWRITE 
-08-11-2023 15:51:42 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'MINIMO'.;Linea : SELECT &lcSelect FROM &cCursor WHERE grupohoja = lnGrupo INTO CURSOR CsrAuxHoja READWRITE;Error :       1806;Ultimo Alias Activo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-: CSRCURSORHOJAS;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00UP.TMP;Ultimo Control activo: 
-08-11-2023 15:51:43 , Pila de llamadas
-08-11-2023 15:51:43 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:51:43 , Objeto      : listaprecio.imprimir_vistaprevia1.excel.click
-08-11-2023 15:51:44 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:51:44 , Nº de Linea :         14
-08-11-2023 15:51:44 , En el Fuente:    DODEFAULT()
-08-11-2023 15:51:44 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:51:44 , Objeto      : imprimir_vistaprevia.excel.click
-08-11-2023 15:51:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:51:45 , Nº de Linea :         11
-08-11-2023 15:51:45 , En el Fuente: this.Parent.exp2excel(thisform.aliasinforme,lcfilename,lcTitulo)
-08-11-2023 15:51:45 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:51:46 , Objeto      : listaprecio.imprimir_vistaprevia1.exp2excel
-08-11-2023 15:51:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:51:46 , Nº de Linea :         78
-08-11-2023 15:51:46 , En el Fuente: 	lok = this.excelhojagrupo(cCursor,cFileSave,cTitulo,lCerrar)
-08-11-2023 15:51:47 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:51:47 , Objeto      : listaprecio.imprimir_vistaprevia1.excelhojagrupo
-08-11-2023 15:51:47 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:51:48 , Nº de Linea :         77
-08-11-2023 15:51:48 , En el Fuente: 	SELECT &lcSelect FROM &cCursor WHERE grupohoja = lnGrupo INTO CURSOR CsrAuxHoja READWRITE 
-08-11-2023 15:53:16 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: SQL: no se encuentra la columna 'MINIMO'.;Linea : SELECT &lcSelect FROM &cCursor WHERE grupohoja = lnGrupo INTO CURSOR CsrAuxHoja READWRITE;Error :       1806;Ultimo Alias Activo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-: CSRCURSORHOJAS;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00YL.TMP;Ultimo Control activo: 
-08-11-2023 15:53:16 , Pila de llamadas
-08-11-2023 15:53:17 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:53:17 , Objeto      : listaprecio.imprimir_vistaprevia1.excel.click
-08-11-2023 15:53:17 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
-08-11-2023 15:53:18 , Nº de Linea :         14
-08-11-2023 15:53:18 , En el Fuente:    DODEFAULT()
-08-11-2023 15:53:18 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:53:18 , Objeto      : imprimir_vistaprevia.excel.click
-08-11-2023 15:53:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:53:19 , Nº de Linea :         11
-08-11-2023 15:53:19 , En el Fuente: this.Parent.exp2excel(thisform.aliasinforme,lcfilename,lcTitulo)
-08-11-2023 15:53:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:53:20 , Objeto      : listaprecio.imprimir_vistaprevia1.exp2excel
-08-11-2023 15:53:20 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:53:20 , Nº de Linea :         78
-08-11-2023 15:53:20 , En el Fuente: 	lok = this.excelhojagrupo(cCursor,cFileSave,cTitulo,lCerrar)
-08-11-2023 15:53:21 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:53:21 , Objeto      : listaprecio.imprimir_vistaprevia1.excelhojagrupo
-08-11-2023 15:53:21 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:53:21 , Nº de Linea :         77
-08-11-2023 15:53:21 , En el Fuente: 	SELECT &lcSelect FROM &cCursor WHERE grupohoja = lnGrupo INTO CURSOR CsrAuxHoja READWRITE 
-08-11-2023 15:55:45 , LISTAPRECIO.PAGEFRAME1.PAGE1.KITGRILLATILDARRUBROS.CHKGENERAL.CLICK, Error: No se encuentra el alias ''.;Linea : SELECT(lcAliasActual);Error :         13;Ultimo Alias Activo: _CSRRUBRO;Ultimo registro:        219 CNUMERO;DBF: C:\USE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00ZZ.TMP;Ultimo Control activo: 
-08-11-2023 15:55:46 , Pila de llamadas
-08-11-2023 15:55:47 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-08-11-2023 15:55:47 , Objeto      : listaprecio.pageframe1.page1.kitgrillatildarrubros.chkgeneral.click
 08-11-2023 15:55:47 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 08-11-2023 15:55:48 , Nº de Linea :         18
 08-11-2023 15:55:48 , En el Fuente: SELECT(lcAliasActual)
 08-11-2023 15:58:01 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace ALL grupohoja WITH RECNO() IN CsrGrupos;Error :         39;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3111,8 +259,218 @@ RS\MARCOS\APPDATA\LOCAL\TEMP\00009B0P00ZZ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3251,8 +609,218 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3377,8 +945,218 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3490,8 +1268,218 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3591,8 +1579,218 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 acteres.
 • El nombre no contenga ninguno de los siguientes caracteres:  :  \ ;Linea : XLSheet.NAME	= ALLTRIM(oParametros.NameGroup);Error :       1429;Ultimo Alias Activo: CSRAUXHOJA;Ultimo registro:         60 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3677,6 +1875,111 @@ acteres.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 : C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GXZD01KW.TMP;Ultimo Control activo: 
 08-11-2023 16:19:21 , Pila de llamadas
 08-11-2023 16:19:21 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -3700,6 +2003,111 @@ acteres.
 08-11-2023 16:19:25 , Nº de Linea :         27
 08-11-2023 16:19:26 , En el Fuente: 		replace idrubro WITH 0, nombrubo WITH "GENERAL"
 08-11-2023 16:21:52 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: No se encuentra la variable 'NOMRUBRO'.;Linea : .NameGroup	= CsrGrupos.nomrubro&&Nombre de la Hoja;Error :         12;Ultimo Alias Activo: CSRGRUPOS;Ultimo registro:          1 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3759,6 +2167,111 @@ DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GXZD01MQ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \MARCOS\APPDATA\LOCAL\TEMP\0000EZ9L01Q6.TMP;Ultimo Control activo: CANTIDAD
 09-11-2023 11:24:46 , Pila de llamadas
 09-11-2023 11:24:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -3777,6 +2290,111 @@ DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GXZD01MQ.TMP;Ultimo Control activo:
 09-11-2023 11:24:49 , Nº de Linea :        340
 09-11-2023 11:24:50 , En el Fuente: 		GATHER NAME Oscatter
 09-11-2023 11:25:01 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3809,6 +2427,111 @@ DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GXZD01MQ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \MARCOS\APPDATA\LOCAL\TEMP\0000EZ9L01Q6.TMP;Ultimo Control activo: CANTIDAD
 09-11-2023 11:25:40 , Pila de llamadas
 09-11-2023 11:25:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -3826,3 +2549,1350 @@ DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GXZD01MQ.TMP;Ultimo Control activo:
 09-11-2023 11:25:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
 09-11-2023 11:25:43 , Nº de Linea :        340
 09-11-2023 11:25:43 , En el Fuente: 		GATHER NAME Oscatter
+13-11-2023 12:52:11 , ABM_MAPS.INIT, Error: No se encuentra la propiedad EMPRESACOORX.;Linea : This.oMaps.CoordAdd(@oObjeto,ALLTRIM(GOapp.empresaCoorX)+","+ALLTRIM(GOapp.empresaCoorY),ALLTRIM(goapp.empresanombre),ALLTRIM(goapp.empresadireccion));Error : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 12:52:11 , Pila de llamadas
+13-11-2023 12:52:12 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 12:52:12 , Objeto      : abm_maps.init
+13-11-2023 12:52:12 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 12:52:12 , Nº de Linea :         21
+13-11-2023 12:52:13 , En el Fuente: 	This.oMaps.CoordAdd(@oObjeto,ALLTRIM(GOapp.empresaCoorX)+","+ALLTRIM(GOapp.empresaCoorY),ALLTRIM(goapp.empresanombre),ALLTRIM(goapp.empresadireccion))
+13-11-2023 12:54:12 , ABM_MAPS.INIT, Error: GOAPP no es un objeto.;Linea : goapp.programa = this.Name;Error :       1924;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 12:54:12 , Pila de llamadas
+13-11-2023 12:54:13 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 12:54:13 , Objeto      : abm_maps.init
+13-11-2023 12:54:13 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 12:54:13 , Nº de Linea :          3
+13-11-2023 12:54:13 , En el Fuente: DODEFAULT()
+13-11-2023 12:54:14 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+13-11-2023 12:54:14 , Objeto      : baseconector.init
+13-11-2023 12:54:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+13-11-2023 12:54:14 , Nº de Linea :          1
+13-11-2023 12:54:15 , En el Fuente: DODEFAULT()
+13-11-2023 12:54:15 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 12:54:15 , Objeto      : baseconector.init
+13-11-2023 12:54:15 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 12:54:15 , Nº de Linea :          2
+13-11-2023 12:54:16 , En el Fuente: DODEFAULT()
+13-11-2023 12:54:16 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 12:54:16 , Objeto      : base.init
+13-11-2023 12:54:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 12:54:16 , Nº de Linea :         13
+13-11-2023 12:54:16 , En el Fuente: 	goapp.programa = this.Name
+13-11-2023 13:16:22 , MAIN, Error: No se encuentra la propiedad EMPRESACOORY.;Linea : goapp.empresacoory			= '-62.251412796188106';Error :       1734;Ultimo Alias Activo: CSREMPRESA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0E32H009J.TMP;Ultimo Control activo: 
+13-11-2023 13:16:22 , Pila de llamadas
+13-11-2023 13:16:23 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
+13-11-2023 13:16:23 , Objeto      : main
+13-11-2023 13:16:23 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
+13-11-2023 13:16:23 , Nº de Linea :        257
+13-11-2023 13:16:24 , En el Fuente: 	LeerEmpresa()
+13-11-2023 13:16:24 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+13-11-2023 13:16:24 , Objeto      : leerempresa
+13-11-2023 13:16:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+13-11-2023 13:16:24 , Nº de Linea :       2213
+13-11-2023 13:16:25 , En el Fuente:    goapp.empresacoory			= '-62.251412796188106'
+13-11-2023 13:16:59 , ABM_MAPS.INIT, Error: No se encuentra la propiedad EMPRESACOORX.;Linea : This.oMaps.CoordAdd(@oObjeto,ALLTRIM(GOapp.empresaCoorX)+","+ALLTRIM(GOapp.empresaCoorY),ALLTRIM(goapp.empresanombre),ALLTRIM(goapp.empresadireccion));Error : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 13:16:59 , Pila de llamadas
+13-11-2023 13:17:00 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:17:00 , Objeto      : abm_maps.init
+13-11-2023 13:17:00 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:17:00 , Nº de Linea :         21
+13-11-2023 13:17:00 , En el Fuente: 	This.oMaps.CoordAdd(@oObjeto,ALLTRIM(GOapp.empresaCoorX)+","+ALLTRIM(GOapp.empresaCoorY),ALLTRIM(goapp.empresanombre),ALLTRIM(goapp.empresadireccion))
+13-11-2023 13:18:00 , ABM_MAPS.INIT, Error: El archivo 'savefile.prg' no existe.;Linea : cPath = SaveFile(lcMaps,"MostrarXY","html",.t.);Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 13:18:01 , Pila de llamadas
+13-11-2023 13:18:02 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:18:02 , Objeto      : abm_maps.init
+13-11-2023 13:18:02 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:18:02 , Nº de Linea :         43
+13-11-2023 13:18:02 , En el Fuente: cFile = This.oMaps.MostrarXY(oObjeto)
+13-11-2023 13:18:02 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+13-11-2023 13:18:03 , Objeto      : maps.mostrarxy
+13-11-2023 13:18:03 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+13-11-2023 13:18:03 , Nº de Linea :        134
+13-11-2023 13:18:03 , En el Fuente: cPath = SaveFile(lcMaps,"MostrarXY","html",.t.)
+13-11-2023 13:19:41 , ABM_MAPS.TIMER1.TIMER, Error: LABELDIRECCION es un miembro desconocido.;Linea : thisform.labelDireccion.Caption = UPPER("Corrdenadas: "+cCoord );Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Cont
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rol activo: 
+13-11-2023 13:19:41 , Pila de llamadas
+13-11-2023 13:19:42 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:19:42 , Objeto      : abm_maps.timer1.timer
+13-11-2023 13:19:42 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:19:42 , Nº de Linea :         18
+13-11-2023 13:19:42 , En el Fuente: 	thisform.labelDireccion.Caption = UPPER("Corrdenadas: "+cCoord )
+13-11-2023 13:25:11 , PIDORUTAVENDEDOR.INIT, Error: No se encuentra el alias 'CSRVENDEDOR'.;Linea : .ADDPROPERTY( '_nOriginalHeight', .HEIGHT );Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 13:25:12 , Pila de llamadas
+13-11-2023 13:25:12 , Programa    : j:\xsoftsr\desarrollo\forms\pidorutavendedor.sct
+13-11-2023 13:25:12 , Objeto      : pidorutavendedor.init
+13-11-2023 13:25:12 , Base Objeto : j:\xsoftsr\desarrollo\forms\pidorutavendedor.sct
+13-11-2023 13:25:12 , Nº de Linea :          3
+13-11-2023 13:25:13 , En el Fuente: DODEFAULT()
+13-11-2023 13:25:13 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+13-11-2023 13:25:13 , Objeto      : baseconector.init
+13-11-2023 13:25:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+13-11-2023 13:25:14 , Nº de Linea :          1
+13-11-2023 13:25:14 , En el Fuente: DODEFAULT()
+13-11-2023 13:25:14 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 13:25:14 , Objeto      : baseconector.init
+13-11-2023 13:25:15 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 13:25:15 , Nº de Linea :          2
+13-11-2023 13:25:15 , En el Fuente: DODEFAULT()
+13-11-2023 13:25:15 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 13:25:15 , Objeto      : base.init
+13-11-2023 13:25:15 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 13:25:16 , Nº de Linea :          9
+13-11-2023 13:25:16 , En el Fuente: 		.sizer.frmresize()
+13-11-2023 13:25:16 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:16 , Objeto      : pidorutavendedor.sizer.frmresize
+13-11-2023 13:25:16 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:16 , Nº de Linea :          7
+13-11-2023 13:25:16 , En el Fuente: 	m.This.ResizeContainer( m.Thisform )
+13-11-2023 13:25:17 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:17 , Objeto      : pidorutavendedor.sizer.resizecontainer
+13-11-2023 13:25:17 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:18 , Nº de Linea :          8
+13-11-2023 13:25:18 , En el Fuente: 			.DoInit()
+13-11-2023 13:25:18 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:18 , Objeto      : pidorutavendedor.sizer.doinit
+13-11-2023 13:25:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:19 , Nº de Linea :         13
+13-11-2023 13:25:19 , En el Fuente: 	.SaveContainer( m.THISFORM )
+13-11-2023 13:25:19 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:19 , Objeto      : pidorutavendedor.sizer.savecontainer
+13-11-2023 13:25:19 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:20 , Nº de Linea :         22
+13-11-2023 13:25:20 , En el Fuente: 				.SaveContainer( m.loControl )
+13-11-2023 13:25:20 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:20 , Objeto      : pidorutavendedor.sizer.savecontainer
+13-11-2023 13:25:20 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:20 , Nº de Linea :         16
+13-11-2023 13:25:21 , En el Fuente: 			.SaveOriginalSize( m.loControl )
+13-11-2023 13:25:21 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:21 , Objeto      : pidorutavendedor.sizer.saveoriginalsize
+13-11-2023 13:25:22 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 13:25:22 , Nº de Linea :         87
+13-11-2023 13:25:22 , En el Fuente: 			.ADDPROPERTY( '_nOriginalHeight', .HEIGHT )
+13-11-2023 13:25:27 , PIDORUTAVENDEDOR.UNLOAD, Error: No se encuentra el objeto LOOBJETO.;Linea : loObjeto.idretorno	=	thisform.idretorno;Error :       1923;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 13:25:27 , Pila de llamadas
+13-11-2023 13:25:28 , Programa    : j:\xsoftsr\desarrollo\forms\pidorutavendedor.sct
+13-11-2023 13:25:28 , Objeto      : pidorutavendedor.unload
+13-11-2023 13:25:28 , Base Objeto : j:\xsoftsr\desarrollo\forms\pidorutavendedor.sct
+13-11-2023 13:25:28 , Nº de Linea :          1
+13-11-2023 13:25:28 , En el Fuente: loObjeto.idretorno	=	thisform.idretorno 
+13-11-2023 13:30:58 , ABM_MAPS.INIT, Error: No se encuentra la propiedad INIIARVARIABLES.;Linea : this.iniiarvariables();Error :       1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 13:30:58 , Pila de llamadas
+13-11-2023 13:30:59 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:30:59 , Objeto      : abm_maps.init
+13-11-2023 13:30:59 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:30:59 , Nº de Linea :         41
+13-11-2023 13:30:59 , En el Fuente: this.iniiarvariables()
+13-11-2023 13:31:22 , ABM_MAPS.INIT, Error: No se encuentra la propiedad INICIARVARIABLES.;Linea : this.iniciarvariables();Error :       1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 13:31:22 , Pila de llamadas
+13-11-2023 13:31:23 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:31:23 , Objeto      : abm_maps.init
+13-11-2023 13:31:23 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:31:23 , Nº de Linea :         41
+13-11-2023 13:31:23 , En el Fuente: this.iniciarvariables()
+13-11-2023 13:32:14 , ABM_MAPS.INIT, Error: No se encuentra el alias.;Linea : Oca = GETCURSORADAPTER(lcalias);Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 13:32:14 , Pila de llamadas
+13-11-2023 13:32:15 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:32:15 , Objeto      : abm_maps.init
+13-11-2023 13:32:15 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:32:15 , Nº de Linea :         41
+13-11-2023 13:32:16 , En el Fuente: this.iniciarvariables()
+13-11-2023 13:32:16 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:32:16 , Objeto      : abm_maps.iniciarvariables
+13-11-2023 13:32:16 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:32:17 , Nº de Linea :          6
+13-11-2023 13:32:17 , En el Fuente: IF NOT this.Obtenerdatos('CsrConexionCentral',lcCmd)
+13-11-2023 13:32:17 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 13:32:17 , Objeto      : abm_maps.obtenerdatos
+13-11-2023 13:32:17 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 13:32:18 , Nº de Linea :          4
+13-11-2023 13:32:18 , En el Fuente: oCa = thisform.obtenercursor(lcalias)
+13-11-2023 13:32:18 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 13:32:18 , Objeto      : abm_maps.obtenercursor
+13-11-2023 13:32:18 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 13:32:19 , Nº de Linea :         19
+13-11-2023 13:32:19 , En el Fuente: 	Oca = GETCURSORADAPTER(lcalias)
+13-11-2023 13:53:11 , ABM_MAPS.CMD_RUTA.CLICK, Error: No coinciden los tipos de datos.;Linea : replace numero WITH OScCursor.vendedor, nombre WITH OScCursor.nombre;Error :          9;Ultimo Alias Activo: CSRAUXVENDEDOR;Ultimo registro:          1 ;DBF: C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H02CN.TMP;Ultimo Control activo: 
+13-11-2023 13:53:11 , Pila de llamadas
+13-11-2023 13:53:11 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:53:12 , Objeto      : abm_maps.cmd_ruta.click
+13-11-2023 13:53:12 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:53:12 , Nº de Linea :         38
+13-11-2023 13:53:12 , En el Fuente: 			replace numero WITH OScCursor.vendedor, nombre WITH OScCursor.nombre 
+13-11-2023 13:54:14 , ABM_MAPS.CMD_RUTA.CLICK, Error: No se encuentra la variable 'CODVENDOR'.;Linea : replace codvendor WITH VAL(OScCursor.vendedor),codigo WITH OScCursor.numerocliente, nombre WITH cliente,traking WITH OScCursor.fecserver;Error :       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H02DZ.TMP;Ultimo Control activo: 
+13-11-2023 13:54:14 , Pila de llamadas
+13-11-2023 13:54:15 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:54:15 , Objeto      : abm_maps.cmd_ruta.click
+13-11-2023 13:54:15 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:54:15 , Nº de Linea :         42
+13-11-2023 13:54:15 , En el Fuente: 		replace codvendor WITH VAL(OScCursor.vendedor),codigo WITH OScCursor.numerocliente, nombre WITH cliente,traking WITH OScCursor.fecserver
+13-11-2023 13:54:53 , ABM_MAPS.CMD_RUTA.CLICK, Error: No se encuentra la variable 'TRAKING'.;Linea : replace codvendedor WITH VAL(OScCursor.vendedor),codigo WITH OScCursor.numerocliente, nombre WITH cliente,traking WITH OScCursor.fecserver;Error :       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H02FB.TMP;Ultimo Control activo: 
+13-11-2023 13:54:54 , Pila de llamadas
+13-11-2023 13:54:55 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:54:55 , Objeto      : abm_maps.cmd_ruta.click
+13-11-2023 13:54:55 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:54:55 , Nº de Linea :         42
+13-11-2023 13:54:56 , En el Fuente: 		replace codvendedor WITH VAL(OScCursor.vendedor),codigo WITH OScCursor.numerocliente, nombre WITH cliente,traking WITH OScCursor.fecserver
+13-11-2023 13:55:54 , ABM_MAPS.CMD_RUTA.CLICK, Error: No se encuentra la variable 'CLIENTE'.;Linea : replace codvendedor WITH VAL(OScCursor.vendedor),codigo WITH OScCursor.numerocliente, nombre WITH cliente,tracking WITH OScCursor.fecserver;Error :      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H02GM.TMP;Ultimo Control activo: 
+13-11-2023 13:55:54 , Pila de llamadas
+13-11-2023 13:55:55 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:55:55 , Objeto      : abm_maps.cmd_ruta.click
+13-11-2023 13:55:55 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:55:55 , Nº de Linea :         42
+13-11-2023 13:55:56 , En el Fuente: 		replace codvendedor WITH VAL(OScCursor.vendedor),codigo WITH OScCursor.numerocliente, nombre WITH cliente,tracking WITH OScCursor.fecserver
+13-11-2023 13:58:38 , ABM_MAPS.CMD_RUTA.CLICK, Error: No se encuentra la variable 'ESTADOTILDE'.;Linea : thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde";Error :         12;Ultimo Alias Activo: CSRRUTAVENDEDOR;Ultimo registro:         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H02PQ.TMP;Ultimo Control activo: 
+13-11-2023 13:58:38 , Pila de llamadas
+13-11-2023 13:58:39 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:58:39 , Objeto      : abm_maps.cmd_ruta.click
+13-11-2023 13:58:39 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:58:39 , Nº de Linea :         89
+13-11-2023 13:58:40 , En el Fuente: thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde"
+13-11-2023 13:59:26 , ABM_MAPS.GRID1.KEYPRESS, Error: No se encuentra la propiedad KEY_13GRID2.;Linea : thisform.Key_13Grid2();Error :       1734;Ultimo Alias Activo: CSRAUXVENDEDOR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0E32H02R4.TMP;Ultimo Control activo: 
+13-11-2023 13:59:26 , Pila de llamadas
+13-11-2023 13:59:26 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:59:26 , Objeto      : abm_maps.grid1.keypress
+13-11-2023 13:59:26 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 13:59:26 , Nº de Linea :          6
+13-11-2023 13:59:27 , En el Fuente:         thisform.Key_13Grid2()
+13-11-2023 14:01:45 , ABM_MAPS.GRID1.KEYPRESS, Error: No se encuentra la variable 'ESTATILDE'.;Linea : replace ALL estatilde WITH 1 FOR codvendedor = lnCodigo;Error :         12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          2 ;DBF: C:\USERS\M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARCOS\APPDATA\LOCAL\TEMP\0000E32H03BW.TMP;Ultimo Control activo: 
+13-11-2023 14:01:45 , Pila de llamadas
+13-11-2023 14:01:46 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:01:46 , Objeto      : abm_maps.grid1.keypress
+13-11-2023 14:01:46 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:01:46 , Nº de Linea :          6
+13-11-2023 14:01:47 , En el Fuente:         thisform.Key_13Grid2(CsrAuxVendedor.numero)
+13-11-2023 14:01:47 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:01:47 , Objeto      : abm_maps.key_13grid2
+13-11-2023 14:01:47 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:01:47 , Nº de Linea :          7
+13-11-2023 14:01:47 , En el Fuente: replace ALL estatilde WITH 1 FOR codvendedor = lnCodigo
+13-11-2023 14:14:38 , ABM_MAPS.GRID2.KEYPRESS, Error: No se encuentra la variable 'COODY'.;Linea : oMap.CoordAdd(@oParam,ALLTRIM(CsrAuxRuta.coorX)+","+ALLTRIM(CsrAuxRuta.CoodY),CsrAuxRuta.codigo,CsrAuxRuta.tracking,nFiltro);Error :         12;Ultimo Alia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H03XR.TMP;Ultimo Control activo: 
+13-11-2023 14:14:38 , Pila de llamadas
+13-11-2023 14:14:39 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:14:39 , Objeto      : abm_maps.grid2.keypress
+13-11-2023 14:14:39 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:14:39 , Nº de Linea :          6
+13-11-2023 14:14:39 , En el Fuente:         thisform.Key_13Grid2()
+13-11-2023 14:14:40 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:14:40 , Objeto      : abm_maps.key_13grid2
+13-11-2023 14:14:40 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:14:40 , Nº de Linea :         19
+13-11-2023 14:14:40 , En el Fuente: 	oMap.CoordAdd(@oParam,ALLTRIM(CsrAuxRuta.coorX)+","+ALLTRIM(CsrAuxRuta.CoodY),CsrAuxRuta.codigo,CsrAuxRuta.tracking,nFiltro)
+13-11-2023 14:15:09 , ABM_MAPS.CMDSALIR.CLICK, Error: No se encuentra la propiedad RESPUESTA.;Linea : thisform.parametro.respuesta='ESC';Error :       1734;Ultimo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCAL\TEMP\0000E32H03YX.TMP;Ultimo Control activo: 
+13-11-2023 14:15:09 , Pila de llamadas
+13-11-2023 14:15:10 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:15:10 , Objeto      : abm_maps.cmdsalir.click
+13-11-2023 14:15:10 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:15:10 , Nº de Linea :          1
+13-11-2023 14:15:10 , En el Fuente: thisform.parametro.respuesta='ESC'
+13-11-2023 14:15:28 , ABM_MAPS.GRID2.KEYPRESS, Error: No se encuentra la variable 'OOBJETO'.;Linea : cFile = This.oMaps.MostrarXY(oObjeto);Error :         12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMP\0000E32H03ZD.TMP;Ultimo Control activo: 
+13-11-2023 14:15:28 , Pila de llamadas
+13-11-2023 14:15:29 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:15:29 , Objeto      : abm_maps.grid2.keypress
+13-11-2023 14:15:29 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:15:29 , Nº de Linea :          6
+13-11-2023 14:15:30 , En el Fuente:         thisform.Key_13Grid2()
+13-11-2023 14:15:30 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:15:30 , Objeto      : abm_maps.key_13grid2
+13-11-2023 14:15:31 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:15:31 , Nº de Linea :         22
+13-11-2023 14:15:31 , En el Fuente: cFile = This.oMaps.MostrarXY(oObjeto)
+13-11-2023 14:18:25 , ABM_MAPS.GRID2.KEYPRESS, Error: No se encuentra la variable 'OOBJETO'.;Linea : This.oMaps.CoordAdd(@oObjeto,ALLTRIM(GOapp.empresaCoorX)+","+ALLTRIM(GOapp.empresaCoorY),ALLTRIM(goapp.empresanombre),ALLTRIM(goapp.empresadireccion));Er
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ror :         12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H0423.TMP;Ultimo Control activo: 
+13-11-2023 14:18:26 , Pila de llamadas
+13-11-2023 14:18:26 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:18:26 , Objeto      : abm_maps.grid2.keypress
+13-11-2023 14:18:26 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:18:26 , Nº de Linea :          6
+13-11-2023 14:18:27 , En el Fuente:         thisform.Key_13Grid2()
+13-11-2023 14:18:27 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:18:27 , Objeto      : abm_maps.key_13grid2
+13-11-2023 14:18:27 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:18:27 , Nº de Linea :          8
+13-11-2023 14:18:27 , En el Fuente: This.oMaps.CoordAdd(@oObjeto,ALLTRIM(GOapp.empresaCoorX)+","+ALLTRIM(GOapp.empresaCoorY),ALLTRIM(goapp.empresanombre),ALLTRIM(goapp.empresadireccion))
+13-11-2023 14:27:22 , PIDORUTAVENDEDOR.INIT, Error: No se encuentra el alias 'CSRVENDEDOR'.;Linea : .ADDPROPERTY( '_nOriginalHeight', .HEIGHT );Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 14:27:23 , Pila de llamadas
+13-11-2023 14:27:24 , Programa    : j:\xsoftsr\desarrollo\forms\pidorutavendedor.sct
+13-11-2023 14:27:24 , Objeto      : pidorutavendedor.init
+13-11-2023 14:27:24 , Base Objeto : j:\xsoftsr\desarrollo\forms\pidorutavendedor.sct
+13-11-2023 14:27:24 , Nº de Linea :          3
+13-11-2023 14:27:24 , En el Fuente: DODEFAULT()
+13-11-2023 14:27:24 , Programa    : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+13-11-2023 14:27:25 , Objeto      : baseconector.init
+13-11-2023 14:27:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\oformslocal.vct
+13-11-2023 14:27:25 , Nº de Linea :          1
+13-11-2023 14:27:25 , En el Fuente: DODEFAULT()
+13-11-2023 14:27:25 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 14:27:25 , Objeto      : baseconector.init
+13-11-2023 14:27:26 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 14:27:26 , Nº de Linea :          2
+13-11-2023 14:27:26 , En el Fuente: DODEFAULT()
+13-11-2023 14:27:26 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 14:27:27 , Objeto      : base.init
+13-11-2023 14:27:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+13-11-2023 14:27:27 , Nº de Linea :          9
+13-11-2023 14:27:27 , En el Fuente: 		.sizer.frmresize()
+13-11-2023 14:27:28 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:28 , Objeto      : pidorutavendedor.sizer.frmresize
+13-11-2023 14:27:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:28 , Nº de Linea :          7
+13-11-2023 14:27:29 , En el Fuente: 	m.This.ResizeContainer( m.Thisform )
+13-11-2023 14:27:29 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:29 , Objeto      : pidorutavendedor.sizer.resizecontainer
+13-11-2023 14:27:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:29 , Nº de Linea :          8
+13-11-2023 14:27:29 , En el Fuente: 			.DoInit()
+13-11-2023 14:27:30 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:30 , Objeto      : pidorutavendedor.sizer.doinit
+13-11-2023 14:27:30 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:30 , Nº de Linea :         13
+13-11-2023 14:27:30 , En el Fuente: 	.SaveContainer( m.THISFORM )
+13-11-2023 14:27:30 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:31 , Objeto      : pidorutavendedor.sizer.savecontainer
+13-11-2023 14:27:31 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:31 , Nº de Linea :         22
+13-11-2023 14:27:32 , En el Fuente: 				.SaveContainer( m.loControl )
+13-11-2023 14:27:32 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:32 , Objeto      : pidorutavendedor.sizer.savecontainer
+13-11-2023 14:27:32 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:33 , Nº de Linea :         16
+13-11-2023 14:27:33 , En el Fuente: 			.SaveOriginalSize( m.loControl )
+13-11-2023 14:27:33 , Programa    : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:33 , Objeto      : pidorutavendedor.sizer.saveoriginalsize
+13-11-2023 14:27:33 , Base Objeto : j:\xsoftsr\desarrollo\clases\mwresize.vct
+13-11-2023 14:27:33 , Nº de Linea :         87
+13-11-2023 14:27:33 , En el Fuente: 			.ADDPROPERTY( '_nOriginalHeight', .HEIGHT )
+13-11-2023 14:27:38 , PIDORUTAVENDEDOR.UNLOAD, Error: No se encuentra el objeto LOOBJETO.;Linea : loObjeto.idretorno	=	thisform.idretorno;Error :       1923;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 14:27:38 , Pila de llamadas
+13-11-2023 14:27:39 , Programa    : j:\xsoftsr\desarrollo\forms\pidorutavendedor.sct
+13-11-2023 14:27:39 , Objeto      : pidorutavendedor.unload
+13-11-2023 14:27:39 , Base Objeto : j:\xsoftsr\desarrollo\forms\pidorutavendedor.sct
+13-11-2023 14:27:39 , Nº de Linea :          1
+13-11-2023 14:27:39 , En el Fuente: loObjeto.idretorno	=	thisform.idretorno 
+13-11-2023 14:27:49 , ABM_MAPS.GRID2.KEYPRESS, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : cMensaje = CsrAuxRuta.codigo+CHR(13)+CsrAuxRuta.nombre+CHR(13)+CsrAuxRuta.fechahora+CHR(13)+CsrAuxRuta.concepto;Error :       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 107;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H04GM.TMP;Ultimo Control activo: 
+13-11-2023 14:27:50 , Pila de llamadas
+13-11-2023 14:27:51 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:27:51 , Objeto      : abm_maps.grid2.keypress
+13-11-2023 14:27:51 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:27:51 , Nº de Linea :          6
+13-11-2023 14:27:52 , En el Fuente:         thisform.Key_13Grid2()
+13-11-2023 14:27:52 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:27:52 , Objeto      : abm_maps.key_13grid2
+13-11-2023 14:27:52 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:27:52 , Nº de Linea :         20
+13-11-2023 14:27:53 , En el Fuente: 	cMensaje = CsrAuxRuta.codigo+CHR(13)+CsrAuxRuta.nombre+CHR(13)+CsrAuxRuta.fechahora+CHR(13)+CsrAuxRuta.concepto
+13-11-2023 14:58:23 , ABM_MAPS.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrConexionCentral')=0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 14:58:23 , Pila de llamadas
+13-11-2023 14:58:24 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:58:24 , Objeto      : abm_maps.init
+13-11-2023 14:58:24 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:58:24 , Nº de Linea :         41
+13-11-2023 14:58:25 , En el Fuente: this.iniciarvariables()
+13-11-2023 14:58:25 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:58:25 , Objeto      : abm_maps.iniciarvariables
+13-11-2023 14:58:25 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 14:58:25 , Nº de Linea :         10
+13-11-2023 14:58:25 , En el Fuente: IF RECCOUNT('CsrConexionCentral')=0
+13-11-2023 15:01:16 , ABM_MAPS.GRID2.KEYPRESS, Error: No se encuentra el alias 'OSCCURSOR'.;Linea : IF "visita"$OScCursor.concepto;Error :         13;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
+
+
+
+
+
+0E32H04RE.TMP;Ultimo Control activo: 
+13-11-2023 15:01:16 , Pila de llamadas
+13-11-2023 15:01:16 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:01:16 , Objeto      : abm_maps.grid2.keypress
+13-11-2023 15:01:16 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:01:16 , Nº de Linea :          6
+13-11-2023 15:01:17 , En el Fuente:         thisform.Key_13Grid2()
+13-11-2023 15:01:17 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:01:17 , Objeto      : abm_maps.key_13grid2
+13-11-2023 15:01:17 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:01:18 , Nº de Linea :         20
+13-11-2023 15:01:18 , En el Fuente: 	IF "visita"$OScCursor.concepto
+13-11-2023 15:08:15 , ABM_MAPS.CMD_RUTA.CLICK, Error: COLUMN3 es un miembro desconocido.;Linea : thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde";Error :       1925;Ultimo Alias Activo: CSRRUTAVENDEDOR;Ultimo registro:          7 ;DBF:
+
+
+
+
+
+
+
+ C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H04WA.TMP;Ultimo Control activo: 
+13-11-2023 15:08:16 , Pila de llamadas
+13-11-2023 15:08:16 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:08:16 , Objeto      : abm_maps.cmd_ruta.click
+13-11-2023 15:08:16 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:08:16 , Nº de Linea :         89
+13-11-2023 15:08:17 , En el Fuente: thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde"
+13-11-2023 15:13:47 , ON..., Error: No se encuentra la variable 'LNCODIGO'.;Linea : thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde";Error :         12;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 15:13:47 , Pila de llamadas
+13-11-2023 15:14:31 , ON..., Error: No se encuentra la variable 'LNCODIGO'.;Linea : thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde";Error :         12;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 15:14:31 , Pila de llamadas
+13-11-2023 15:14:51 , ON..., Error: No se encuentra la variable 'LNCODIGO'.;Linea : thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde";Error :         12;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+13-11-2023 15:14:51 , Pila de llamadas
+13-11-2023 15:15:27 , ABM_MAPS.GRID1.KEYPRESS, Error: Falta algún operando.;Linea : SET FILTER TO codvendedor = &lnCodigo;Error :       1231;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          7 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H05BZ
+
+
+.TMP;Ultimo Control activo: 
+13-11-2023 15:15:27 , Pila de llamadas
+13-11-2023 15:15:28 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:15:28 , Objeto      : abm_maps.grid1.keypress
+13-11-2023 15:15:28 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:15:28 , Nº de Linea :          6
+13-11-2023 15:15:28 , En el Fuente:         thisform.Key_13Grid1(CsrAuxVendedor.numero)
+13-11-2023 15:15:28 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:15:28 , Objeto      : abm_maps.key_13grid1
+13-11-2023 15:15:29 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
+13-11-2023 15:15:29 , Nº de Linea :          8
+13-11-2023 15:15:29 , En el Fuente: SET FILTER TO codvendedor = &lnCodigo
