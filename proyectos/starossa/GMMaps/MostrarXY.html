@@ -3,6 +3,10 @@
 <head>
 	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	
+	
+	
+	
 	<style>
 		 #map { 
 			width: 100%;
@@ -17,11 +21,11 @@
 		
 		<script>
 			var map = L.map('map').
-			 setView([-38.71659170886005,-62.251412796188106],
+			 setView([-38.7157315,-62.2520744],
 			 15);
-			Coordenada.innerHTML = -38.71659170886005,-62.251412796188106;
+			Coordenada.innerHTML = -38.7157315,-62.2520744;
          	
-           													var greenIcon = new L.Icon({
+           												var greenIcon = new L.Icon({
 			  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
 			  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
 			  iconSize: [25, 41],
@@ -103,7 +107,7 @@
 			});
 	
 	var greenNumber_1 = new L.Icon({
-	  iconUrl: 'icons_blue/number_1.png',
+	  iconUrl: 'icons_green/number_1.png',
 	  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
 	  iconSize: [25, 41],
 	  iconAnchor: [12, 41],
@@ -153,7 +157,7 @@
 			
 	
 	var greenNumber_6 = new L.Icon({
-	  iconUrl: 'icons_green/number_6.png',
+	  iconUrl: 'icons_yellow/number_6.png',
 	  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
 	  iconSize: [25, 41],
 	  iconAnchor: [12, 41],
@@ -173,17 +177,7 @@
 			
 	
 	var greenNumber_8 = new L.Icon({
-	  iconUrl: 'icons_yellow/number_8.png',
-	  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-	  iconSize: [25, 41],
-	  iconAnchor: [12, 41],
-	  popupAnchor: [1, -34],
-	  shadowSize: [41, 41]
-	});
-			
-	
-	var greenNumber_9 = new L.Icon({
-	  iconUrl: 'icons_green/number_9.png',
+	  iconUrl: 'icons_green/number_8.png',
 	  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
 	  iconSize: [25, 41],
 	  iconAnchor: [12, 41],
@@ -201,25 +195,23 @@
 			L.control.scale().addTo(map);
 			
 			
-												
+											
 	
-	L.marker([-38.71659170886005,-62.251412796188106] ,{icon: greenNumber_1} ,{draggable: 'true'},{alt:'DISTRIBUIDORA SANTAROSSA'} ,{zIndexOffset: 1}).bindPopup('BRANSEN 720').addTo(map);
+	L.marker([-38.7157315,-62.2520744] ,{icon: greenNumber_1} ,{draggable: 'true'},{alt:'5551    '}).bindPopup('5551    ,PETROPAMPA S.R.L.             ,SAENZ PE?A 468                                    ,13-11-2023 01:33:27 PM,Pedido           , Demora:          ').addTo(map);
 	
-	L.marker([-38.7157315,-62.2520744] ,{icon: greenNumber_2} ,{draggable: 'true'},{alt:'5551    '} ,{zIndexOffset: 2}).bindPopup('5551    ,PETROPAMPA S.R.L.             ,SAENZ PE?A 468                                    ,13-11-2023 01:33:27 PM,Pedido           , Demora:          ').addTo(map);
+	L.marker([-38.7151723,-62.2528494] ,{icon: greenNumber_2} ,{draggable: 'true'},{alt:'8543    '}).bindPopup('8543    ,FANG YUZHU                    ,SAN MARTIN 637 SUP. ORIENTE                       ,13-11-2023 02:52:03 PM,Pedido           , Demora:1:78:35   ').addTo(map);
 	
-	L.marker([-38.7151723,-62.2528494] ,{icon: greenNumber_3} ,{draggable: 'true'},{alt:'8543    '} ,{zIndexOffset: 3}).bindPopup('8543    ,FANG YUZHU                    ,SAN MARTIN 637 SUP. ORIENTE                       ,13-11-2023 02:52:03 PM,Pedido           , Demora:1:78:35   ').addTo(map);
+	L.marker([-38.7158275,-62.2545706] ,{icon: greenNumber_3} ,{draggable: 'true'},{alt:'8681    '}).bindPopup('8681    ,ZHENG HAI HONG                ,28 N 103                                          ,13-11-2023 02:54:16 PM,Pedido           , Demora:0:02:13   ').addTo(map);
 	
-	L.marker([-38.7158275,-62.2545706] ,{icon: greenNumber_4} ,{draggable: 'true'},{alt:'8681    '} ,{zIndexOffset: 4}).bindPopup('8681    ,ZHENG HAI HONG                ,28 N 103                                          ,13-11-2023 02:54:16 PM,Pedido           , Demora:0:02:13   ').addTo(map);
+	L.marker([-38.7162898,-62.2553033] ,{icon: greenNumber_4} ,{draggable: 'true'},{alt:'10700   '}).bindPopup('10700   ,BARRACA MITRE SRL             ,RODRIGUEZ PE?A Y 25 DE MAYO                       ,13-11-2023 02:56:08 PM,Pedido           , Demora:0:01:52   ').addTo(map);
 	
-	L.marker([-38.7162898,-62.2553033] ,{icon: greenNumber_5} ,{draggable: 'true'},{alt:'10700   '} ,{zIndexOffset: 5}).bindPopup('10700   ,BARRACA MITRE SRL             ,RODRIGUEZ PE?A Y 25 DE MAYO                       ,13-11-2023 02:56:08 PM,Pedido           , Demora:0:01:52   ').addTo(map);
+	L.marker([-38.7169016,-62.2560229] ,{icon: greenNumber_5} ,{draggable: 'true'},{alt:'10670   '}).bindPopup('10670   ,SORIA JONATAN JOEL            ,SARMIENTO 1114                                    ,13-11-2023 02:58:00 PM,Pedido           , Demora:0:01:52   ').addTo(map);
 	
-	L.marker([-38.7169016,-62.2560229] ,{icon: greenNumber_6} ,{draggable: 'true'},{alt:'10670   '} ,{zIndexOffset: 6}).bindPopup('10670   ,SORIA JONATAN JOEL            ,SARMIENTO 1114                                    ,13-11-2023 02:58:00 PM,Pedido           , Demora:0:01:52   ').addTo(map);
+	L.marker([-38.7163768,-62.2554372] ,{icon: greenNumber_6} ,{draggable: 'true'},{alt:'10758   '}).bindPopup('10758   ,WEISBECK NOBERTO SERGIO       ,AV. 11 DE MAYO 1202                               ,13-11-2023 02:59:11 PM,Visita sin Pedido, Demora:0:01:10   ').addTo(map);
 	
-	L.marker([-38.7163768,-62.2554372] ,{icon: greenNumber_7} ,{draggable: 'true'},{alt:'10758   '} ,{zIndexOffset: 7}).bindPopup('10758   ,WEISBECK NOBERTO SERGIO       ,AV. 11 DE MAYO 1202                               ,13-11-2023 02:59:11 PM,Visita sin Pedido, Demora:0:01:10   ').addTo(map);
+	L.marker([-38.7157288,-62.2520697] ,{icon: greenNumber_7} ,{draggable: 'true'},{alt:'10758   '}).bindPopup('10758   ,WEISBECK NOBERTO SERGIO       ,AV. 11 DE MAYO 1202                               ,13-11-2023 03:45:04 PM,Visita sin Pedido, Demora:0:45:53   ').addTo(map);
 	
-	L.marker([-38.7157288,-62.2520697] ,{icon: greenNumber_8} ,{draggable: 'true'},{alt:'10758   '} ,{zIndexOffset: 8}).bindPopup('10758   ,WEISBECK NOBERTO SERGIO       ,AV. 11 DE MAYO 1202                               ,13-11-2023 03:45:04 PM,Visita sin Pedido, Demora:0:45:53   ').addTo(map);
-	
-	L.marker([-38.7157288,-62.2520697] ,{icon: greenNumber_9} ,{draggable: 'true'},{alt:'10697   '} ,{zIndexOffset: 9}).bindPopup('10697   ,HUANG JINZHANG                ,JULIO A. COUSTE 745                               ,13-11-2023 03:45:44 PM,Pedido           , Demora:0:00:39   ').addTo(map);
+	L.marker([-38.7157288,-62.2520697] ,{icon: greenNumber_8} ,{draggable: 'true'},{alt:'10697   '}).bindPopup('10697   ,HUANG JINZHANG                ,JULIO A. COUSTE 745                               ,13-11-2023 03:45:44 PM,Pedido           , Demora:0:00:39   ').addTo(map);
 			
 			var popup = L.popup();
 
