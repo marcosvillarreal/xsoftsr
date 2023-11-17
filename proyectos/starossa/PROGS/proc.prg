@@ -1,4 +1,26 @@
 *--------------------------------------------------
+
+FUNCTION OpenFileShell
+LPARAMETERS lcfile,nTipo
+
+IF NOT FILE(lcFile)
+	oavisar.usuario('No se encontrol el archivo'+CHR(13)+CHR(13)+'Archivo: '+lcFile)
+	RETURN 
+ENDIF 
+NTipo = IIF(PCOUNT()<2,3,nTipo)
+NTipo = IIF(nTipo > 100,3,nTipo)
+
+DECLARE INTEGER ShellExecute IN "Shell32.dll" ;
+INTEGER hwnd, ;
+STRING lpVerb, ;
+STRING lpFile, ;
+STRING lpParameters, ;
+STRING lpDirectory, ;
+LONG nShowCmd
+
+*lcPDFfile = "C:\ebooks\web\visual c.pdf"
+* Open PDF file
+=Shellexecute(0,"Open", lcfile, "","",(nTipo))
 *-----------------
 FUNCTION sectohour
 *-----------------
@@ -7,7 +29,7 @@ LPARAMETERS seg
 LOCAL dummy,hora,minuto,segundo,cRest
 seg= INT(seg)
 hora = INT(seg/3600)
-parm1 = seg- (hora*3600)
+seg = seg- (hora*3600)
 minuto = INT(seg/60)
 segundo = seg - (minuto*60)
 cRest = STRTRAN(STR(hora,4,0)+":"+STR(minuto,2,0)+":"+STR(segundo,2,0)," ","0")

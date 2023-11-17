@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	
+	
+		<link rel="stylesheet" href="dist/css/leaflet.extra-markers.min.css">
+	<script src="dist/js/leaflet.extra-markers.min.js"></script>
+	
+	<style>
+		 #map { 
+			width: 100%;
+			height: 850px;
+			box-shadow: 5px 5px 5px #888;
+		 }
+	</style>
+</head>
+	<body>
+		<div id = 'map'></div>
+		<div id="Coordenada"></div>
+		
+		<script>
+			var map = L.map('map').
+			 setView([-38.8765156,-62.0723537],
+			 15);
+			Coordenada.innerHTML = -38.8765156,-62.0723537;
+         	
+           	var marker_1 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'blue',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         1',
+	svg: false
+});
+		
+
+var marker_2 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'green',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         2',
+	svg: false
+});
+		
+
+var marker_3 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'blue',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         3',
+	svg: false
+});
+		
+
+var marker_4 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'green',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         4',
+	svg: false
+});
+		
+
+var marker_5 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'green',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         5',
+	svg: false
+});
+		
+
+var marker_6 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'green',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         6',
+	svg: false
+});
+		
+
+var marker_7 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'green',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         7',
+	svg: false
+});
+		
+
+var marker_8 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'blue',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         8',
+	svg: false
+});
+		
+
+var marker_9 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'blue',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '         9',
+	svg: false
+});
+		
+
+var marker_10 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'green',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '        10',
+	svg: false
+});
+		
+
+var marker_11 = L.ExtraMarkers.icon({
+	shape: 'circle',
+	markerColor: 'green',
+	prefix: 'glyphicon',
+	icon: 'fa-number',
+	iconColor: '#fff',
+	iconRotate: 0,
+	extraClasses: '',
+	number: '        11',
+	svg: false
+});
+					
+           	
+           		var latlngs = [
+	    																						
+		[-38.8765156,-62.0723537],
+		[-38.8779875,-62.0785087],
+		[-38.8775005,-62.0765916],
+		[-38.879524,-62.0793105],
+		[-38.879524,-62.0793105],
+		[-38.8777571,-62.0772962],
+		[-38.8777571,-62.0772962],
+		[-38.8801406,-62.0792516],
+		[-38.879524,-62.0793105],
+		[-38.879524,-62.0793105],
+		[-38.8803411,-62.0698412]
+	];
+           	
+			L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+			maxZoom: 18
+			}).addTo(map);
+			
+			L.control.scale().addTo(map);
+			
+			
+				var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+			
+	map.fitBounds(polyline.getBounds());
+			
+			
+														
+	
+	L.marker([-38.8765156,-62.0723537] ,{icon: marker_1} ,{draggable: 'true'},{alt:''}).bindPopup('17-11-2023 09:17:37 AM,Tracking         , Demora:').addTo(map);
+	
+	L.marker([-38.8779875,-62.0785087] ,{icon: marker_2} ,{draggable: 'true'},{alt:'13126'}).bindPopup('13126,GIMENEZ DIEGO RIO,LUIGGI 399,17-11-2023 09:17:51 AM,Pedido           , Demora:0:00:13').addTo(map);
+	
+	L.marker([-38.8775005,-62.0765916] ,{icon: marker_3} ,{draggable: 'true'},{alt:''}).bindPopup('17-11-2023 09:23:57 AM,Tracking         , Demora:0:06:06').addTo(map);
+	
+	L.marker([-38.879524,-62.0793105] ,{icon: marker_4} ,{draggable: 'true'},{alt:'3449'}).bindPopup('3449,FRONTALINI HECTOR RICARDO,PELLEGRINI 492,17-11-2023 09:38:40 AM,Pedido           , Demora:0:14:42').addTo(map);
+	
+	L.marker([-38.879524,-62.0793105] ,{icon: marker_5} ,{draggable: 'true'},{alt:'3449'}).bindPopup('3449,FRONTALINI HECTOR RICARDO,PELLEGRINI 492,17-11-2023 09:38:40 AM,Pedido           , Demora:0:00:00').addTo(map);
+	
+	L.marker([-38.8777571,-62.0772962] ,{icon: marker_6} ,{draggable: 'true'},{alt:'5183'}).bindPopup('5183,EL LOCO LUCAS,BROWN Y LIUGGI,17-11-2023 10:05:57 AM,Pedido           , Demora:0:27:17').addTo(map);
+	
+	L.marker([-38.8777571,-62.0772962] ,{icon: marker_7} ,{draggable: 'true'},{alt:'3977'}).bindPopup('3977,KLASS MARIO,25 DE MAYO 531,17-11-2023 10:22:04 AM,Pedido           , Demora:0:16:06').addTo(map);
+	
+	L.marker([-38.8801406,-62.0792516] ,{icon: marker_8} ,{draggable: 'true'},{alt:''}).bindPopup('17-11-2023 10:31:22 AM,Tracking         , Demora:0:09:18').addTo(map);
+	
+	L.marker([-38.879524,-62.0793105] ,{icon: marker_9} ,{draggable: 'true'},{alt:''}).bindPopup('17-11-2023 12:45:52 PM,Tracking         , Demora:2:14:29').addTo(map);
+	
+	L.marker([-38.879524,-62.0793105] ,{icon: marker_10} ,{draggable: 'true'},{alt:'12593'}).bindPopup('12593,MACHADO MARIANA ELIZABETH,25 DE MAYO 508,17-11-2023 12:46:13 PM,Pedido           , Demora:0:00:21').addTo(map);
+	
+	L.marker([-38.8803411,-62.0698412] ,{icon: marker_11} ,{draggable: 'true'},{alt:'10931'}).bindPopup('10931,SANSO JORGELINA LAURA,IRIGOYEN 899,17-11-2023 01:02:48 PM,Pedido           , Demora:0:16:34').addTo(map);
+			
+			var popup = L.popup();
+
+			function onMapClick(e) {
+				popup
+					.setLatLng(e.latlng)
+					.setContent("You clicked the map at " + e.latlng.toString())
+					.openOn(map);
+					Coordenada.innerHTML = e.latlng;
+			}
+
+			map.on('click', onMapClick);
+			
+ 		
+		
+
+			
+		</script>
+	</body>
+	
+</html>

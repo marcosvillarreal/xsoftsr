@@ -1,4 +1,25 @@
 *--------------------------------------------------
+
+FUNCTION OpenFileShell
+LPARAMETERS lcfile,nTipo
+
+IF NOT FILE(lcFile)
+	oavisar.usuario('No se encontrol el archivo'+CHR(13)+CHR(13)+'Archivo: '+lcFile)
+	RETURN 
+ENDIF 
+NTipo = IIF(PCOUNT()<2,3,nTipo)
+
+DECLARE INTEGER ShellExecute IN "Shell32.dll" ;
+INTEGER hwnd, ;
+STRING lpVerb, ;
+STRING lpFile, ;
+STRING lpParameters, ;
+STRING lpDirectory, ;
+LONG nShowCmd
+
+*lcPDFfile = "C:\ebooks\web\visual c.pdf"
+* Open PDF file
+=Shellexecute(0,"Open", lcfile, "","",STR(nTipo))
 *-----------------
 FUNCTION sectohour
 *-----------------
@@ -7,7 +28,7 @@ LPARAMETERS seg
 LOCAL dummy,hora,minuto,segundo,cRest
 seg= INT(seg)
 hora = INT(seg/3600)
-parm1 = seg- (hora*3600)
+seg = seg- (hora*3600)
 minuto = INT(seg/60)
 segundo = seg - (minuto*60)
 cRest = STRTRAN(STR(hora,4,0)+":"+STR(minuto,2,0)+":"+STR(segundo,2,0)," ","0")
@@ -26,9 +47,9 @@ ENDFUNC
 * Guarda la consulta al motor
 *----------------------------------------------------------------------------
 FUNCTION SaveFile
-PARAMETERS lcCmd,lcArchivo,lcExten,llgenera
+PARAMETERS lcCmd,lcArchivo,tcCarpeta,llgenera
 llgenera = IIF(PCOUNT()<4,.f.,llgenera)
-lcExten = IIF(PCOUNT()<3,'txt',lcExten)
+tcCarpeta= IIF(PCOUNT()<3,'',tcCarpeta)
 
 IF LEN(LTRIM(lcCmd))=0
 	RETURN 
@@ -38,21 +59,25 @@ IF LEN(LTRIM(lcArchivo))=0
 ENDIF 
 lldesarrollo=(_vfp.startmode()#4)
 lcRuta = SYS(5)+ "\tempsql\"+ALLTRIM(goapp.initcatalo)
+
 IF VARTYPE(goapp.rutaaplicacion)$'C' AND NOT lldesarrollo
 	lcRutaApli = IIF(LEN(ALLTRIM(goapp.rutaaplicacion))#0,goapp.rutaaplicacion,"")
 	lcRutaApli = RTRIM(lcRutaApli) + IIF(RIGHT(lcRutaApli,1)="\" or LEN(LTRIM(lcRutaApli))=0,"","\") &&Si es vacio o tiene \. Mantiene lo mismo.
 	lcRuta = IIF(LEN(LTRIM(lcRutaApli))#0,lcRutaApli+ "tempsql",lcRuta)	
 ENDIF 
-IF llgenera &&Determinamos que queres que siempre se guarde
+IF LEN(LTRIM(tcCarpeta))>0 AND AT(':',tcCarpeta)> 0
+	lcRuta = tcCarpeta
+ENDIF 
+IF llgenera&&Determinamos que queres que siempre se guarde
 	IF !DIRECTORY(lcRuta)
 		MKDIR &lcRuta
 	ENDIF 
 ENDIF 
 SET SAFETY OFF 
-= STRTOFILE(lccmd,lcRuta+"\"+lcArchivo+"."+lcExten)
+= STRTOFILE(lccmd,lcRuta+"\"+lcArchivo)
 SET SAFETY ON 
 
-RETURN lcRuta+"\"+lcArchivo+"."+lcExten
+RETURN lcRuta+"\"+lcArchivo
 *--------------------------------------------
 *Generar un codigo de barra a partir de una secuencia numerica
 FUNCTION GenerarCodBarra
