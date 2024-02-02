@@ -1,491 +1,3 @@
-13-11-2023 15:08:16 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
-13-11-2023 15:08:16 , Nº de Linea :         89
-13-11-2023 15:08:17 , En el Fuente: thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde"
-13-11-2023 15:13:47 , ON..., Error: No se encuentra la variable 'LNCODIGO'.;Linea : thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde";Error :         12;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-13-11-2023 15:13:47 , Pila de llamadas
-13-11-2023 15:14:31 , ON..., Error: No se encuentra la variable 'LNCODIGO'.;Linea : thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde";Error :         12;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-13-11-2023 15:14:31 , Pila de llamadas
-13-11-2023 15:14:51 , ON..., Error: No se encuentra la variable 'LNCODIGO'.;Linea : thisform.grid1.Column3.ControlSource = "CsrAuxVendedor.estadotilde";Error :         12;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-13-11-2023 15:14:51 , Pila de llamadas
-13-11-2023 15:15:27 , ABM_MAPS.GRID1.KEYPRESS, Error: Falta algún operando.;Linea : SET FILTER TO codvendedor = &lnCodigo;Error :       1231;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          7 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000E32H05BZ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.TMP;Ultimo Control activo: 
-13-11-2023 15:15:27 , Pila de llamadas
-13-11-2023 15:15:28 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
-13-11-2023 15:15:28 , Objeto      : abm_maps.grid1.keypress
-13-11-2023 15:15:28 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
-13-11-2023 15:15:28 , Nº de Linea :          6
-13-11-2023 15:15:28 , En el Fuente:         thisform.Key_13Grid1(CsrAuxVendedor.numero)
-13-11-2023 15:15:28 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
-13-11-2023 15:15:28 , Objeto      : abm_maps.key_13grid1
-13-11-2023 15:15:29 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
-13-11-2023 15:15:29 , Nº de Linea :          8
-13-11-2023 15:15:29 , En el Fuente: SET FILTER TO codvendedor = &lnCodigo
-13-11-2023 15:56:16 , ABM_MAPS.KEYPRESS, Error: No se encuentra la propiedad RESPUESTA.;Linea : this.parametro.respuesta="ESC";Error :       1734;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          7 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-T002F.TMP;Ultimo Control activo: 
-13-11-2023 15:56:17 , Pila de llamadas
-13-11-2023 15:56:17 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
-13-11-2023 15:56:18 , Objeto      : abm_maps.keypress
-13-11-2023 15:56:18 , Base Objeto : j:\xsoftsr\desarrollo\forms\maps_traking.sct
-13-11-2023 15:56:18 , Nº de Linea :          3
-13-11-2023 15:56:18 , En el Fuente: 	this.parametro.respuesta="ESC"
-13-11-2023 15:57:00 , ABM_MAPS.KEYPRESS, Error: No se encuentra la propiedad RESPUESTA.;Linea : this.parametro.respuesta="ESC";Error :       1734;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -528,6 +40,15 @@ T003Q.TMP;Ultimo Control activo:
 13-11-2023 15:57:01 , Nº de Linea :          3
 13-11-2023 15:57:01 , En el Fuente: 	this.parametro.respuesta="ESC"
 13-11-2023 16:31:53 , ABM_MAPS.CMD_RUTA.CLICK, Error: No se encuentra la variable 'DEMORA'.;Linea : replace demora WITH STR(INT((DATETIME() - tTiempoAnt)/60)+1);Error :         12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          2 ;DBF: C:\USERS
+
+
+
+
+
+
+
+
+
 
 
 
@@ -852,6 +373,15 @@ T003Q.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 ro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT01GY.TMP;Ultimo Control activo: 
 13-11-2023 16:42:13 , Pila de llamadas
 13-11-2023 16:42:14 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -860,6 +390,15 @@ ro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT01GY.TMP;Ultimo 
 13-11-2023 16:42:14 , Nº de Linea :         51
 13-11-2023 16:42:15 , En el Fuente: 			replace demora WITH STR(sectohour(DATETIME() - tTiempoAnt))
 13-11-2023 16:45:28 , ABM_MAPS.CMD_RUTA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : replace demora WITH STR(sectohour(DATETIME() - tTiempoAnt));Error :         11;Ultimo Alias Activo: CSRAUXRUTA;Ultimo regist
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1176,6 +715,15 @@ ro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT01K3.TMP;Ultimo 
 
 
 
+
+
+
+
+
+
+
+
+
 stro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT01LF.TMP;Ultimo Control activo: 
 13-11-2023 16:46:10 , Pila de llamadas
 13-11-2023 16:46:11 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -1184,6 +732,15 @@ stro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT01LF.TMP;Ultim
 13-11-2023 16:46:11 , Nº de Linea :         51
 13-11-2023 16:46:11 , En el Fuente: 			replace demora WITH (INT(sectohour(DATETIME() - tTiempoAnt)))
 13-11-2023 18:32:15 , ABM_MAPS.INIT, Error: La ruta o el nombre de archivo no es válido.;Linea : Md (Lcdirlog);Error :        202;Ultimo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT029E.TM
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1499,6 +1056,15 @@ P;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 P;Ultimo Control activo: 
 13-11-2023 18:32:35 , Pila de llamadas
 13-11-2023 18:32:36 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -1517,6 +1083,15 @@ P;Ultimo Control activo:
 13-11-2023 18:32:38 , Nº de Linea :        443
 13-11-2023 18:32:38 , En el Fuente: 	Md (Lcdirlog)
 13-11-2023 18:33:28 , ABM_MAPS.INIT, Error: La ruta o el nombre de archivo no es válido.;Linea : Md (Lcdirlog);Error :        202;Ultimo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT02A6.TM
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1813,6 +1388,15 @@ P;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 OS\APPDATA\LOCAL\TEMP\00006LFT03J5.TMP;Ultimo Control activo: 
 13-11-2023 19:03:25 , Pila de llamadas
 13-11-2023 19:03:25 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -1826,6 +1410,15 @@ OS\APPDATA\LOCAL\TEMP\00006LFT03J5.TMP;Ultimo Control activo:
 13-11-2023 19:03:26 , Nº de Linea :         20
 13-11-2023 19:03:26 , En el Fuente: 	cIco = ALLTRIM(oIco)+'Icon'
 13-11-2023 19:09:26 , ABM_MAPS.KEYPRESS, Error: OMAP es un miembro desconocido.;Linea : oParam = This.oMap.CoordCreate();Error :       1925;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT03Q2.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2103,6 +1696,15 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 03SG.TMP;Ultimo Control activo: 
 13-11-2023 19:12:54 , Pila de llamadas
 13-11-2023 19:12:55 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -2126,6 +1728,15 @@ TMP;Ultimo Control activo:
 13-11-2023 19:12:59 , Nº de Linea :          8
 13-11-2023 19:12:59 , En el Fuente: IF NOT DIRECTORY(&cPathIcons)
 13-11-2023 19:42:44 , ABM_MAPS.CMD_RUTA.CLICK, Error: No se encuentra la variable 'NODEN'.;Linea : nOden = nOden + 1;Error :         12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00006LFT04NP.TMP;
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2380,6 +1991,15 @@ Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 4P1.TMP;Ultimo Control activo: 
 13-11-2023 19:43:19 , Pila de llamadas
 13-11-2023 19:43:19 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -2388,6 +2008,15 @@ Ultimo Control activo:
 13-11-2023 19:43:20 , Nº de Linea :         59
 13-11-2023 19:43:20 , En el Fuente: 		replace orden WITH nOrden 
 14-11-2023 09:43:22 , ABM_MAPS.INIT, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : oMarker = .MarkerCreate(i,'circle',ALLTRIM(oIco));Error :       1940;Ultimo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\M
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2638,6 +2267,15 @@ ARCOS\APPDATA\LOCAL\TEMP\00002CY1014J.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 \LOCAL\TEMP\00002CY1014U.TMP;Ultimo Control activo: 
 14-11-2023 09:43:58 , Pila de llamadas
 14-11-2023 09:43:59 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -2656,6 +2294,15 @@ ARCOS\APPDATA\LOCAL\TEMP\00002CY1014J.TMP;Ultimo Control activo:
 14-11-2023 09:44:01 , Nº de Linea :         24
 14-11-2023 09:44:02 , En el Fuente: IF VAL(cNumber)>0
 14-11-2023 09:46:18 , ABM_MAPS.INIT, Error: El archivo 'markerprop.prg' no existe.;Linea : cIco = MarkerProp(oMarker,@cColores);Error :          1;Ultimo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEM
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2889,6 +2536,15 @@ P\00002CY1015M.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 P\00002CY10160.TMP;Ultimo Control activo: 
 14-11-2023 09:46:44 , Pila de llamadas
 14-11-2023 09:46:44 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -2907,6 +2563,15 @@ P\00002CY10160.TMP;Ultimo Control activo:
 14-11-2023 09:46:46 , Nº de Linea :         15
 14-11-2023 09:46:46 , En el Fuente: 	extraClasses: '<<oM.extraClass>>',
 14-11-2023 09:47:17 , ABM_MAPS.INIT, Error: Incompatibilidad entre el tipo de operador y el tipo de operando.;Linea : cIco = ",{icon: "+cIco+"}";Error :        107;Ultimo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3125,6 +2790,15 @@ APPDATA\LOCAL\TEMP\00002CY1016B.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 RS\MARCOS\APPDATA\LOCAL\TEMP\00002CY101MA.TMP;Ultimo Control activo: 
 14-11-2023 10:40:34 , Pila de llamadas
 14-11-2023 10:40:35 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -3138,6 +2812,15 @@ RS\MARCOS\APPDATA\LOCAL\TEMP\00002CY101MA.TMP;Ultimo Control activo:
 14-11-2023 10:40:36 , Nº de Linea :         30
 14-11-2023 10:40:36 , En el Fuente: 		cIco =IIF(oIco = 1,"greenIcon",cIco)
 17-11-2023 12:37:37 , ABM_MAPS.CMD_RUTA.CLICK, Error: No se encuentra el alias 'OSCCURSOR'.;Linea : IF Thisform.chknopedido.Value = 1 AND UPPER(OscCursor.concepto)='TRACKING';Error :         13;Ultimo Alias Activo: CSRRUTAVENDEDOR;Ultimo registro:       
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3340,6 +3023,15 @@ RS\MARCOS\APPDATA\LOCAL\TEMP\00002CY101MA.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 0000FTVT028Z.TMP;Ultimo Control activo: 
 17-11-2023 14:15:57 , Pila de llamadas
 17-11-2023 14:15:58 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -3353,6 +3045,15 @@ RS\MARCOS\APPDATA\LOCAL\TEMP\00002CY101MA.TMP;Ultimo Control activo:
 17-11-2023 14:15:59 , Nº de Linea :         71
 17-11-2023 14:15:59 , En el Fuente: 	cPathMarkAux = cPathMark+cSigPath
 17-11-2023 14:31:09 , ABM_MAPS.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : =Shellexecute(0,"Open", lcfile, "","",nTipo);Error :          9;Ultimo Alias Activo: CSRAUXVENDEDOR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3556,6 +3257,15 @@ EMP\0000FTVT02I7.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 L\TEMP\0000FTVT02JS.TMP;Ultimo Control activo: 
 17-11-2023 14:34:20 , Pila de llamadas
 17-11-2023 14:34:20 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -3579,6 +3289,15 @@ L\TEMP\0000FTVT02JS.TMP;Ultimo Control activo:
 17-11-2023 14:34:23 , Nº de Linea :         22
 17-11-2023 14:34:24 , En el Fuente: =Shellexecute(0,"Open", lcfile, "","",nTipo)
 17-11-2023 14:34:55 , ABM_MAPS.KEYPRESS, Error: No se encuentra la variable ' 189'.;Linea : =Shellexecute(0,"Open", lcfile, "","",nTipo);Error :         12;Ultimo Alias Activo: CSRAUXVENDEDOR;Ultimo registro:          2 ;DBF: C:\USERS\MARCOS\APPDATA\LOCA
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3759,6 +3478,15 @@ L\TEMP\0000FTVT02KS.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 MP\0000FTVT02N7.TMP;Ultimo Control activo: 
 17-11-2023 14:36:05 , Pila de llamadas
 17-11-2023 14:36:06 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -3782,6 +3510,15 @@ MP\0000FTVT02N7.TMP;Ultimo Control activo:
 17-11-2023 14:36:10 , Nº de Linea :         22
 17-11-2023 14:36:10 , En el Fuente: =Shellexecute(0,"Open", lcfile, "","",nTipo)
 17-11-2023 14:36:57 , ABM_MAPS.KEYPRESS, Error: No se encuentra la variable ' 189'.;Linea : =Shellexecute(0,"Open", lcfile, "","",nTipo);Error :         12;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3937,6 +3674,15 @@ MP\0000FTVT02OF.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 MP\0000FTVT02PS.TMP;Ultimo Control activo: 
 17-11-2023 14:37:30 , Pila de llamadas
 17-11-2023 14:37:31 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -3960,6 +3706,15 @@ MP\0000FTVT02PS.TMP;Ultimo Control activo:
 17-11-2023 14:37:34 , Nº de Linea :         22
 17-11-2023 14:37:34 , En el Fuente: =Shellexecute(0,"Open", lcfile, "","",nTipo)
 17-11-2023 14:40:27 , ABM_MAPS.KEYPRESS, Error: No coinciden los tipos de datos.;Linea : =Shellexecute(0,"Open", lcfile, "","",STR(nTipo));Error :          9;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4091,6 +3846,15 @@ TEMP\0000FTVT02RL.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 TEMP\0000FTVT02UI.TMP;Ultimo Control activo: 
 17-11-2023 14:43:55 , Pila de llamadas
 17-11-2023 14:43:55 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -4114,6 +3878,15 @@ TEMP\0000FTVT02UI.TMP;Ultimo Control activo:
 17-11-2023 14:43:59 , Nº de Linea :         23
 17-11-2023 14:43:59 , En el Fuente: =Shellexecute(0,"Open", lcfile, "","",(nTipo))
 17-11-2023 14:46:10 , ABM_MAPS.KEYPRESS, Error: No se encuentra la propiedad SHOWPATH.;Linea : This.oMaps.ShowPath = .f.;Error :       1734;Ultimo Alias Activo: CSRAUXRUTA;Ultimo registro:         31 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000FTVT033K.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4215,6 +3988,15 @@ TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 vo: 
 17-11-2023 14:49:13 , Pila de llamadas
 17-11-2023 14:49:13 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -4263,6 +4045,15 @@ vo:
 
 
 
+
+
+
+
+
+
+
+
+
 000FTVT04E4.TMP;Ultimo Control activo: 
 17-11-2023 15:10:51 , Pila de llamadas
 17-11-2023 15:10:52 , Programa    : j:\xsoftsr\desarrollo\forms\maps_traking.sct
@@ -4276,6 +4067,15 @@ vo:
 17-11-2023 15:10:53 , Nº de Linea :         11
 17-11-2023 15:10:53 , En el Fuente: SELECT CsrAuxRuta
 05-12-2023 15:55:34 , _UTIL_PR.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Código de excepción OLE IDispatch 0 de Microsoft Excel: No se puede acceder al documento de solo lectura «CLIENTES_20114820203_20231205_155532.TXT»..;Linea : oWorkbook.SaveAs(cF
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4357,6 +4157,15 @@ ileName, 56) && Version 2003 o ant.;Error :       1429;Ultimo Alias Activo: CSRI
 
 
 
+
+
+
+
+
+
+
+
+
 + "1" + cSep + "CD" + cSep + STRTRIM(Oscatter.idmaopera) + cSep + RTRIM(Oscatter.provincia) + cSep + RTRIM(Oscatter.localidad) + cSep + RTRIM(Oscatter.direccion) + cSep + RTRIM(OScatter.canalvta) + cSep + RTRIM(Oscatter.vendedor) + cSep + RTRIM(Oscatter.
 
 
@@ -4384,7 +4193,25 @@ ileName, 56) && Version 2003 o ant.;Error :       1429;Ultimo Alias Activo: CSRI
 
 
 
+
+
+
+
+
+
+
+
+
 marca) + cSep + Oscatter.codalfa + cSep + Oscatter.ean + cSep + rtrim(Oscatter.producto) + cSep + strtrim(OScatter.cantidad,11,2) + cSep + STRtrim(Oscatter.preunitasiva,17,2) + cSep + STRtrim(Oscatter.total,17,2);Error :       1734;Ultimo Alias Activo: C
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4453,7 +4280,25 @@ SRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
 
 
 
+
+
+
+
+
+
+
+
+
 incia) + cSep + RTRIM(Oscatter.localidad)		+ cSep + RTRIM(Oscatter.direccion)		+ cSep + RTRIM(OScatter.canalvta) + cSep + RTRIM(Oscatter.vendedor) + cSep + RTRIM(Oscatter.marca) 		+ cSep + Oscatter.codalfa + cSep + Oscatter.ean + cSep + rtrim(Oscatter.pr
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4476,6 +4321,15 @@ incia) + cSep + RTRIM(Oscatter.localidad)		+ cSep + RTRIM(Oscatter.direccion)		+
 
 oducto)		+ cSep + strtrim(OScatter.cantidad,11,2) + cSep + STRtrim(Oscatter.preunitasiva,17,2)		+ cSep + STRtrim(Oscatter.total,17,2)
 05-12-2023 16:25:06 , _UTIL_PR.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias.;Linea : =MESSAGEBOX('Clientes que compraron: '+ALLTRIM(STR(RECCOUNT('clien'),12)));Error :         13;Ultimo Alias Activo: CSRIMPORTAR;Ultimo registro:
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4530,6 +4384,15 @@ oducto)		+ cSep + strtrim(OScatter.cantidad,11,2) + cSep + STRtrim(Oscatter.preu
 
 
 
+
+
+
+
+
+
+
+
+
 CAL\TEMP\0000G26H00Z8.TMP;Ultimo Control activo: 
 05-12-2023 16:45:05 , Pila de llamadas
 05-12-2023 16:45:05 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4559,7 +4422,25 @@ CAL\TEMP\0000G26H00Z8.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 ,Campo008 c(10) ,Campo009 n(14,2),Campo010 c(10),Campo011 c(12),Campo012 n(14,2),Campo013 c(14,2),Campo014 c(12),origen c(1),orimaster c(1),Campo015 c(1));Error :       1713;Ultimo Alias Activo: CSRIMPCAB;Ultimo registro:          1 ORIMASTER+ORIGEN;DBF:
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4581,11 +4462,38 @@ CAL\TEMP\0000G26H00Z8.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
  n(14,2),Campo013 c(14,2),Campo014 c(12),origen c(1),orimaster c(1),Campo015 c(1))
 25-01-2024 16:03:39 , LISRENFLETE.INIT, Error: El ancho o el número de decimales del campo no es válido.;Linea : Create CURSOR CsrimpCue (clave c(28),Campo001 c(08),Campo002 c(80),Campo003 c(10),Campo004 c(10),Campo005 c(10),Campo006 c(10),Campo007 c(10)
 
 
+
+
+
+
+
+
+
+
+
 ,Campo008 c(10) ,Campo009 n(14,2),Campo010 c(10),Campo011 c(12),Campo012 n(14,2),Campo013 c(14,2),Campo014 c(12),origen c(1),orimaster c(1),Campo015 c(1));Error :       1713;Ultimo Alias Activo: CSRIMPCAB;Ultimo registro:          1 ORIMASTER+ORIGEN;DBF:
+
+
+
+
+
+
+
+
+
 
 
  C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000AQRT00L9.TMP;Ultimo Control activo: 
@@ -4599,4 +4507,59 @@ CAL\TEMP\0000G26H00Z8.TMP;Ultimo Control activo:
 25-01-2024 16:03:42 , Objeto      : lisrenflete.iniciacursor
 25-01-2024 16:03:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisrenflete.sct
 25-01-2024 16:03:42 , Nº de Linea :          8
-25-01-2024 16:03:42 , En el Fuente: Create CURSOR CsrimpCue (clave c(28),Campo001 c(08),Campo002 c(80),Campo003 c(10),Campo004 c(10),Campo005 c(10),Campo006 c(10),Campo007 c(10),Campo008 c(10)						,Campo009 n(14,2),Campo010 c(10),Campo011 c(12),Campo012 n(14,2),Campo013 c(14,2),Campo014 c(12),origen c(1),orimaster c(1),Campo015 c(1))
+25-01-2024 16:03:42 , En el Fuente: Create CURSOR CsrimpCue (clave c(28),Campo001 c(08),Campo002 c(80),Campo003 c(10),Campo004 c(10),Campo005 c(10),Campo006 c(10),Campo007 c(10),Campo008 c(10)						,Campo009 n(14,2),Campo010 c(10),Campo011 c(12),Campo012
+
+
+
+
+
+
+
+
+ n(14,2),Campo013 c(14,2),Campo014 c(12),origen c(1),orimaster c(1),Campo015 c(1))
+31-01-2024 11:18:19 , FRMMENU1.IMAGE1.MOUSEMOVE, Error: No se puede borrar el objeto IMAGE1  porque está en uso.;Linea : clear all;Error :       1951;Ultimo Alias Activo: CSRKEY;Ultimo registro:          3 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000D9M
+
+
+
+
+
+
+
+X00TA.TMP;Ultimo Control activo: 
+31-01-2024 11:18:19 , Pila de llamadas
+31-01-2024 11:18:19 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+31-01-2024 11:18:19 , Objeto      : frmmenu1.image1.mousemove
+31-01-2024 11:18:20 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+31-01-2024 11:18:20 , Nº de Linea :          2
+31-01-2024 11:18:20 , En el Fuente: DO WHILE MDOWN()
+31-01-2024 11:18:20 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
+31-01-2024 11:18:20 , Objeto      : main
+31-01-2024 11:18:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\main.prg
+31-01-2024 11:18:21 , Nº de Linea :          9
+31-01-2024 11:18:21 , En el Fuente: clear all
+02-02-2024 15:37:07 , RINDEARQUEOCHEQUES.INIT, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lcfecha1 = "'"+DTOS(.fecha)+"'";Error :         11;Ultimo Alias Activo: CSRCUERARQUEO;Ultimo registro:          1 ;DBF: C:\U
+
+
+
+
+SERS\MARCOS\APPDATA\LOCAL\TEMP\0000FCW9007H.TMP;Ultimo Control activo: TOTAL
+02-02-2024 15:37:08 , Pila de llamadas
+02-02-2024 15:37:08 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueocheques.sct
+02-02-2024 15:37:08 , Objeto      : rindearqueocheques.init
+02-02-2024 15:37:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueocheques.sct
+02-02-2024 15:37:09 , Nº de Linea :         15
+02-02-2024 15:37:09 , En el Fuente: thisform.leerrendicionpordenominacion()
+02-02-2024 15:37:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueocheques.sct
+02-02-2024 15:37:09 , Objeto      : rindearqueocheques.leerrendicionpordenominacion
+02-02-2024 15:37:09 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueocheques.sct
+02-02-2024 15:37:09 , Nº de Linea :          6
+02-02-2024 15:37:10 , En el Fuente: 	lcfecha1 = "'"+DTOS(.fecha)+"'"
+02-02-2024 16:29:01 , LISRENFLETE.KITGRILLATILDARFLETERO.INIT, Error: El archivo 'csrfletero.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as 
+
+wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+02-02-2024 16:29:01 , Pila de llamadas
+02-02-2024 16:29:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+02-02-2024 16:29:02 , Objeto      : lisrenflete.kitgrillatildarfletero.init
+02-02-2024 16:29:02 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+02-02-2024 16:29:03 , Nº de Linea :         35
+02-02-2024 16:29:03 , En el Fuente:       select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid         ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07         ,&lc8 as wcampo08,&lc9 as wcampo09       from &lcalias       order by &lcorden into cursor &micursor READWRITE
