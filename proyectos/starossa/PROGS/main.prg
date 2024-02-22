@@ -125,6 +125,7 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 	*SET PROCEDURE TO importexcelprovee.prg ADDITIVE 
 	 SET PROCEDURE TO FoxBarcodeQR ADDITIVE
 	 SET PROCEDURE TO mapsApiKey.prg ADDITIVE 
+	 SET PROCEDURE TO  foxypreviewercaller.prg ADDITIVE 
 *clear all
 
 _screen.lockscreen=.t.

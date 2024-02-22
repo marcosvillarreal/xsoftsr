@@ -8,6 +8,7 @@ IF NOT FILE(lcFile)
 	RETURN 
 ENDIF 
 NTipo = IIF(PCOUNT()<2,3,nTipo)
+NTipo = IIF(nTipo > 100,3,nTipo)
 
 DECLARE INTEGER ShellExecute IN "Shell32.dll" ;
 INTEGER hwnd, ;
@@ -19,7 +20,7 @@ LONG nShowCmd
 
 *lcPDFfile = "C:\ebooks\web\visual c.pdf"
 * Open PDF file
-=Shellexecute(0,"Open", lcfile, "","",STR(nTipo))
+=Shellexecute(0,"Open", lcfile, "","",(nTipo))
 *-----------------
 FUNCTION sectohour
 *-----------------
