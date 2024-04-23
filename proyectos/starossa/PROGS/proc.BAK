@@ -2297,6 +2297,7 @@ IF lok
    GOapp.empresatag				= Csrempresa.tag
    goapp.empresacoorx			= '-38.71659170886005'
    goapp.empresacoory			= '-62.251412796188106'
+   goapp.empresaemail			= 'marcosevillarreal@gmail.com'
 ENDIF
    
 IF USED("Csrseteotermi")
