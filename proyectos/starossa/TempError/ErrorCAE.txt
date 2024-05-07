@@ -1,179 +1,9 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-.
-
-Exepción: 
-Traceback: 
-
-Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-02-06-2022 , 
-1.23b 
-C:\APLICA~1\PyAfipWs
-appserver status OK
-dbserver status OK
-authserver status OK
-WSFE.CompUltimoAutorizado(1,11)
-WSFE.CompUltimoAutorizado(2,11)
-WSFE.CompUltimoAutorizado(3,11)
-WSFE.CompUltimoAutorizado(6,11)
-WSFE.CompUltimoAutorizado(7,11)
-WSFE.CompUltimoAutorizado(8,11)
-WSFE.CompUltimoAutorizado(8,11)
-Codigo error afip:0
-Numero de Error: 1429
-Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 28
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pys
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-implesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
-Procedimiento: inf_proceso
-Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
 
 
 
@@ -257,6 +87,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -291,9 +124,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -357,12 +196,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -446,6 +291,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -480,9 +328,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -546,12 +400,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -635,6 +495,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -669,9 +532,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -735,12 +604,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -824,6 +699,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -858,9 +736,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -924,12 +808,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -1013,6 +903,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -1047,9 +940,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -1113,12 +1012,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -1202,6 +1107,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -1236,9 +1144,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1585). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -1302,12 +1216,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -1391,6 +1311,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -1425,9 +1348,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -1491,12 +1420,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -1579,6 +1514,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -1612,9 +1550,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -1676,12 +1620,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -1762,12 +1712,18 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pys
+
+
+
 
 
 
@@ -1825,11 +1781,17 @@ SoapFault: soap:Client: Server was unable to read request. ---> There is an erro
 
 
 
+
+
+
 Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
 Procedimiento: inf_proceso
 Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
   File "win32com\server\policy.pyc", line 277, in _Invoke_
   File "win32com\server\policy.pyc", line 282, in _
+
+
+
 
 
 
@@ -1862,6 +1824,9 @@ invoke_
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -1940,6 +1905,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -1971,9 +1939,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1583). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -2031,12 +2005,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -2113,6 +2093,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -2143,9 +2126,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1583). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -2201,12 +2190,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -2281,6 +2276,9 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -2310,9 +2308,15 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1592). ---> Input string was not in a correct format.
+
+
+
 
 
 
@@ -2366,12 +2370,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -2444,6 +2454,513 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+22-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+22-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2, in _invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+implesoap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
+Procedimiento: inf_proceso
+Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 282, in _
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+invoke_
+  File "win32com\server\policy.pyc", line 585, in _invokeex_
+  File "utils.pyc", line 157, in capturar_errores_wrapper
+  File "wsfev1.pyc", line 798, in CAEARegInformativo
+  File "pysimplesoap\client.pyc", line 148, in <lambda>
+  File "pysimpleso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ap\client.pyc", line 352, in wsdl_call
+  File "pysimplesoap\client.pyc", line 223, in call
+SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+.
+
+Exepción: 
+Traceback: 
+
+Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
+22-06-2022 , 
+1.23b 
+C:\APLICA~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(3,11)
+Codigo error afip:0
+Numero de Error: 1429
+Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.pyc", line 277, in _Invoke_
+  File "win32com\server\policy.pyc", line 28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
@@ -2611,447 +3128,6 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-implesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
-Procedimiento: inf_proceso
-Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimpleso
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-.
-
-Exepción: 
-Traceback: 
-
-Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-22-06-2022 , 
-1.23b 
-C:\APLICA~1\PyAfipWs
-appserver status OK
-dbserver status OK
-authserver status OK
-WSFE.CompUltimoAutorizado(1,11)
-WSFE.CompUltimoAutorizado(2,11)
-WSFE.CompUltimoAutorizado(3,11)
-WSFE.CompUltimoAutorizado(6,11)
-WSFE.CompUltimoAutorizado(7,11)
-WSFE.CompUltimoAutorizado(8,11)
-WSFE.CompUltimoAutorizado(3,11)
-Codigo error afip:0
-Numero de Error: 1429
-Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 28
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pys
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-implesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
-Procedimiento: inf_proceso
-Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimpleso
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-.
-
-Exepción: 
-Traceback: 
-
-Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-22-06-2022 , 
-1.23b 
-C:\APLICA~1\PyAfipWs
-appserver status OK
-dbserver status OK
-authserver status OK
-WSFE.CompUltimoAutorizado(1,11)
-WSFE.CompUltimoAutorizado(2,11)
-WSFE.CompUltimoAutorizado(3,11)
-WSFE.CompUltimoAutorizado(6,11)
-WSFE.CompUltimoAutorizado(7,11)
-WSFE.CompUltimoAutorizado(8,11)
-WSFE.CompUltimoAutorizado(3,11)
-Codigo error afip:0
-Numero de Error: 1429
-Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 28
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pys
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-implesoap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
-Procedimiento: inf_proceso
-Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 282, in _
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pysimpleso
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ap\client.pyc", line 352, in wsdl_call
-  File "pysimplesoap\client.pyc", line 223, in call
-SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-.
-
-Exepción: 
-Traceback: 
-
-Server was unable to read request. ---> There is an error in XML document (5, 1591). ---> Input string was not in a correct format.
-22-06-2022 , 
-1.23b 
-C:\APLICA~1\PyAfipWs
-appserver status OK
-dbserver status OK
-authserver status OK
-WSFE.CompUltimoAutorizado(1,11)
-WSFE.CompUltimoAutorizado(2,11)
-WSFE.CompUltimoAutorizado(3,11)
-WSFE.CompUltimoAutorizado(6,11)
-WSFE.CompUltimoAutorizado(7,11)
-WSFE.CompUltimoAutorizado(8,11)
-WSFE.CompUltimoAutorizado(3,11)
-Codigo error afip:0
-Numero de Error: 1429
-Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
-  File "win32com\server\policy.pyc", line 277, in _Invoke_
-  File "win32com\server\policy.pyc", line 28
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2, in _invoke_
-  File "win32com\server\policy.pyc", line 585, in _invokeex_
-  File "utils.pyc", line 157, in capturar_errores_wrapper
-  File "wsfev1.pyc", line 798, in CAEARegInformativo
-  File "pysimplesoap\client.pyc", line 148, in <lambda>
-  File "pys
 
 
 
@@ -3093,11 +3169,17 @@ SoapFault: soap:Client: Server was unable to read request. ---> There is an erro
 
 
 
+
+
+
 Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
 Procedimiento: inf_proceso
 Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
   File "win32com\server\policy.pyc", line 277, in _Invoke_
   File "win32com\server\policy.pyc", line 282, in _
+
+
+
 
 
 
@@ -3122,6 +3204,9 @@ invoke_
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 
 
 
@@ -3181,6 +3266,9 @@ Orden:2840801602: No existen datos en nuestros registros para los parametros ing
 
 
 
+
+
+
 ado.
 
 602: No existen datos en nuestros registros para los parametros ingresados.
@@ -3200,6 +3288,9 @@ WSFE.CompUltimoAutorizado(8,11)
 WSFE.CompUltimoAutorizado(6,14)
 Orden:2840801602: No existen datos en nuestros registros para los parametros ingresados.
 703: El numero de comprobante informado debe ser mayor en 1 al ultimo informado para igual punto de venta y tipo de comprobante. Consultar metodo FECompUltimoAutoriz
+
+
+
 
 
 
@@ -3295,6 +3386,9 @@ Orden:2865386602: No existen datos en nuestros registros para los parametros ing
 
 
 
+
+
+
 ado.
 
 602: No existen datos en nuestros registros para los parametros ingresados.
@@ -3317,12 +3411,18 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsaa.pyc", line 258, in SignTRA
   File "wsaa.pyc", line 96, in sign_tra
 RuntimeError: Archivos no encontrados: c
+
+
+
 
 
 
@@ -3352,12 +3452,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsaa.pyc", line 258, in SignTRA
   File "wsaa.pyc", line 96, in sign_tra
 RuntimeError: Archivos no encontrados: c:\aplic
+
+
+
 
 
 
@@ -3379,6 +3485,9 @@ Traceback: Traceback (most recent call last):
   File "wsaa.pyc", line 258, in SignTRA
   File "wsaa.pyc", line 96, in sign_tra
 RuntimeError: Archivos no encontrados: c:\aplicaciones\santarossa\afip
+
+
+
 
 
 
@@ -3410,12 +3519,18 @@ Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Inter
 
 
 
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsaa.pyc", line 258, in SignTRA
   File "wsaa.pyc", line 96, in sign_tra
 RuntimeError: Archivos no encontrados: c
+
+
+
 
 
 
@@ -3443,12 +3558,18 @@ Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Err
 
 
 
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsaa.pyc", line 258, in SignTRA
   File "wsaa.pyc", line 96, in sign_tra
 RuntimeError: Archivos no encontrados: c:\aplic
+
+
+
 
 
 
@@ -3469,6 +3590,9 @@ Traceback: Traceback (most recent call last):
   File "wsaa.pyc", line 258, in SignTRA
   File "wsaa.pyc", line 96, in sign_tra
 RuntimeError: Archivos no encontrados: c:\aplicaciones\santarossa\afip
+
+
+
 
 
 
@@ -3581,6 +3705,9 @@ Orden:2985753602: No existen datos en nuestros registros para los parametros ing
 
 
 
+
+
+
 ado.
 
 602: No existen datos en nuestros registros para los parametros ingresados.
@@ -3651,15 +3778,24 @@ Numero de Error: 1429
 Mensaje de Error: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
   File "win32com\server\policy.pyc", line 277, in _Invoke_
   File "win32com\server\policy.pyc", line 28
+
+
+
 2, in _invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pys
+
+
+
 implesoap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
+
+
+
 
 
 Linea de codigo de error: cCAEA = WSFE.CAEARegInformativo()
@@ -3667,12 +3803,18 @@ Procedimiento: inf_proceso
 Error VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
   File "win32com\server\policy.pyc", line 277, in _Invoke_
   File "win32com\server\policy.pyc", line 282, in _
+
+
+
 invoke_
   File "win32com\server\policy.pyc", line 585, in _invokeex_
   File "utils.pyc", line 157, in capturar_errores_wrapper
   File "wsfev1.pyc", line 798, in CAEARegInformativo
   File "pysimplesoap\client.pyc", line 148, in <lambda>
   File "pysimpleso
+
+
+
 ap\client.pyc", line 352, in wsdl_call
   File "pysimplesoap\client.pyc", line 223, in call
 SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
@@ -3682,4 +3824,52 @@ Exepción:
 Traceback: 
 
 Server was unable to read request. ---> There is an error in XML document (5, 1249). ---> Input string was not in a correct format.
-21-03-2024 , 1.23b C:\GMSOLU~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(8,11)Orden:3005867805: De enviarse el tag CbtesAsoc, CbteAsoc debe enviarse con Tipo mayor a 0602: No existen datos en nuestros registros para los parametros ingresados.
+21-03-2024 , 
+1.23b 
+C:\GMSOLU~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(8,11)
+Orden:3005867
+805: De enviarse el tag CbtesAsoc, CbteAsoc debe enviarse con Tipo mayor a 0
+602: No existen datos en nuestros registros para los parametros ingresados.
+07-05-2024 , 
+1.23b 
+C:\GMSOLU~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(1,11)
+Orden:3017015
+702: El campo CbteFch debe estar comprendida dentro de la fecha desde y fecha hasta de vigencia del CAEA.
+602: No existen datos en nuestros registros para los parametros ingresados.
+07-05-2024 , 
+1.23b 
+C:\GMSOLU~1\PyAfipWs
+appserver status OK
+dbserver status OK
+authserver status OK
+WSFE.CompUltimoAutorizado(1,11)
+WSFE.CompUltimoAutorizado(2,11)
+WSFE.CompUltimoAutorizado(3,11)
+WSFE.CompUltimoAutorizado(6,11)
+WSFE.CompUltimoAutorizado(7,11)
+WSFE.CompUltimoAutorizado(8,11)
+WSFE.CompUltimoAutorizado(1,11)
+Orden:3017015
+702: El campo CbteFch debe estar comprendida dentro de la fecha desde y fecha hasta de vigencia del CAEA.
+602: No existen datos en nuestros registros para los parametros ingresados.
+07-05-2024 , 1.23b C:\GMSOLU~1\PyAfipWsappserver status OKdbserver status OKauthserver status OKWSFE.CompUltimoAutorizado(1,11)WSFE.CompUltimoAutorizado(2,11)WSFE.CompUltimoAutorizado(3,11)WSFE.CompUltimoAutorizado(6,11)WSFE.CompUltimoAutorizado(7,11)WSFE.CompUltimoAutorizado(8,11)WSFE.CompUltimoAutorizado(1,11)Orden:3017015702: El campo CbteFch debe estar comprendida dentro de la fecha desde y fecha hasta de vigencia del CAEA.602: No existen datos en nuestros registros para los parametros ingresados.
