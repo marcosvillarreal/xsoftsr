@@ -9,749 +9,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :         13;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000Y9ZD003Z.TMP;Ultimo Control activo: 
-28-02-2024 12:06:52 , Pila de llamadas
-28-02-2024 12:06:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:06:53 , Objeto      : regnotapedandroid.load
-28-02-2024 12:06:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:06:53 , Nº de Linea :          2
-28-02-2024 12:06:54 , En el Fuente: thisform.crearcursor()
-28-02-2024 12:06:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:06:54 , Objeto      : regnotapedandroid.crearcursor
-28-02-2024 12:06:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:06:54 , Nº de Linea :         11
-28-02-2024 12:06:55 , En el Fuente: SELECT CsrCabefac.*,SPACE(13) as numcomp,DATETIME() as fechareba,SPACE(15) as numreba, 00 as ProvReba		,00 as copiatkt       ,SPACE(25) as subcnombre,0000000000 as idprefijo,SPACE(40) as detalle,00 as parada,SPACE(13) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien       ,'00000' as idope,CAST(0 as n(12)) as idpedmobile,CAST(0 as v(200)) as pedidoid_pm       ,SPACE(255) as observa       FROM CsrNCabefac WHERE RECNO()=1 AND id=0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- INTO CURSOR CsrAuxcabefac READWRITE  
-28-02-2024 12:08:06 , REGNOTAPEDANDROID.LOAD, Error: No se encuentra el alias 'CSRCABEFAC'.;Linea : SELECT CsrCabefac.*,SPACE(13) as numcomp,DATETIME() as fechareba,SPACE(15) as numreba, 00 as ProvReba ,00 as copiatkt ,SPACE(25) as subcnombre,0000000000 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-as idprefijo,SPACE(40) as detalle,00 as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien ,'00000' as idope,CAST(0 as n(12)) as idpedmobile,CAST(0 as v(200)) as pedidoid_pm ,SPACE(255) as observa FROM Csr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 NCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :         13;Ultimo Alias Activo: CSRCABEFAC;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000Y9ZD00JM.TMP;Ultimo Control activo: 
 28-02-2024 12:08:06 , Pila de llamadas
 28-02-2024 12:08:07 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
@@ -909,7 +166,25 @@ NCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE;Error :   
 
 
 
+
+
+
+
+
+
+
+
+
 as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien       ,'00000' as idope,CAST(0 as n(12)) as idpedmobile,CAST(0 as v(200)) as pedidoid_pm       ,SPACE(255) as observa       FROM CsrNCabefac WHERE RECNO()=1 AND id=0
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1201,7 +476,25 @@ as proximonro       ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as V
 
 
 
+
+
+
+
+
+
+
+
+
 as int) as registro,CAST(0 as int) as idfuerzavta,' ' as codvalido,CAST(0 as n(12,0)) as idcabeunifica ,CAST(0 as int) as idprodpromo,CAST(0 as int) as idprodregalo,000000 as cada,000000 as entrega,00000000.000 as InternoFin ,CAST(0 as int) as idctavta,0
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1491,7 +784,25 @@ as int) as registro,CAST(0 as int) as idfuerzavta,' ' as codvalido,CAST(0 as n(1
 
 
 
+
+
+
+
+
+
+
+
+
 ome  ,'00000' as idope,'0000000000' as idcuerpo ,0000000000 as minimofac, RECNO() as idk ,CAST(0 as int) as idsubprod,CAST(0 as int) as idvariedad FROM CsrNCuerfac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxCuerfac READWRITE;Error :          1;Ultimo Ali
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1788,7 +1099,25 @@ as Activo: CSRAUXMAOPERA;Ultimo registro:          1 IDOPE;DBF: C:\USERS\MARCOS\
 
 
 
+
+
+
+
+
+
+
+
+
 lido,CAST(0 as n(12,0)) as idcabeunifica	   ,CAST(0 as int) as idprodpromo,CAST(0 as int) as idprodregalo,000000 as cada,000000 as entrega,00000000.000 as InternoFin	   ,CAST(0 as int) as idctavta,00000000.000 as UniCiva,00000000.000 as UniSiva,00000000.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2070,8 +1399,26 @@ lido,CAST(0 as n(12,0)) as idcabeunifica	   ,CAST(0 as int) as idprodpromo,CAST(
 
 
 
+
+
+
+
+
+
+
+
+
 ;     	   
 28-02-2024 12:10:04 , REGNOTAPEDANDROID.LOAD, Error: El archivo 'csrncuervari.dbf' no existe.;Linea : SELECT CsrNCuervari.*,SPACE(20) as nombre, 0 as comprome ,'00000' as idope,'0000000000' as idcuerpo FROM CsrNCuervari WHERE RECNO()=1 AND id=0 INTO CURS
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2357,6 +1704,15 @@ OR CsrAuxCuervari READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXCUERFA
 
 
 
+
+
+
+
+
+
+
+
+
 PDATA\LOCAL\TEMP\0000Y9ZD00TZ.TMP;Ultimo Control activo: 
 28-02-2024 12:10:38 , Pila de llamadas
 28-02-2024 12:10:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
@@ -2495,6 +1851,15 @@ PDATA\LOCAL\TEMP\0000Y9ZD00TZ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 PDATA\LOCAL\TEMP\0000Y9ZD00YY.TMP;Ultimo Control activo: 
 28-02-2024 12:11:41 , Pila de llamadas
 28-02-2024 12:11:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
@@ -2503,6 +1868,15 @@ PDATA\LOCAL\TEMP\0000Y9ZD00YY.TMP;Ultimo Control activo:
 28-02-2024 12:11:42 , Nº de Linea :         15
 28-02-2024 12:11:42 , En el Fuente: 	.agregaobjeto.objseteoparam(@lObjeto)
 28-02-2024 12:13:22 , REGNOTAPEDANDROID.INIT, Error: No se encuentra la variable 'IDDETAFAC'.;Linea : .lnidnrocaja	 = Csrparaconfig.iddetafac;Error :         12;Ultimo Alias Activo: CSRPLANPAGO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LO
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2770,6 +2144,15 @@ CAL\TEMP\0000Y9ZD010O.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.su
 
 
@@ -2893,7 +2276,25 @@ tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',
 
 
 
+
+
+
+
+
+
+
+
+
 cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,Csrparaconfig.nrocaja,thisform.lniddeposito,Csrparaconfig.pefiscal,'0',"",Csrparaconfig.fechaserver);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:   
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3146,7 +2547,25 @@ cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,
 
 
 
+
+
+
+
+
+
+
+
+
 lle,fechaserver)           VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor	            ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectortermi
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3384,6 +2803,15 @@ nal,thisform.puestocaja                ,Csrparaconfig.idcotizadolar,Csrparaconfi
 
 
 
+
+
+
+
+
+
+
+
+
 tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.su
 
 
@@ -3502,7 +2930,25 @@ tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',
 
 
 
+
+
+
+
+
+
+
+
+
 cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,Csrparaconfig.nrocaja,thisform.lniddeposito,Csrparaconfig.pefiscal,'0',"",Csrparadiario.fechaserver);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:   
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3746,7 +3192,25 @@ cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,
 
 
 
+
+
+
+
+
+
+
+
+
 lle,fechaserver)           VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor	            ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectortermi
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3976,6 +3440,15 @@ nal,thisform.puestocaja                ,Csrparaconfig.idcotizadolar,Csrparaconfi
 
 
 
+
+
+
+
+
+
+
+
+
 tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.su
 
 
@@ -4090,7 +3563,25 @@ tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',
 
 
 
+
+
+
+
+
+
+
+
+
 cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,Csrparaconfig.nrocaja,thisform.lniddeposito,Csrparaconfig.pefiscal,'0',"",Csrparadiario.fechaserver);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:   
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4325,7 +3816,25 @@ cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,
 
 
 
+
+
+
+
+
+
+
+
+
 lle,fechaserver)           VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor	            ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectortermi
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4545,6 +4054,15 @@ nal,thisform.puestocaja                ,Csrparaconfig.idcotizadolar,Csrparaconfi
 
 
 
+
+
+
+
+
+
+
+
+
 tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.su
 
 
@@ -4654,7 +4172,25 @@ tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',
 
 
 
+
+
+
+
+
+
+
+
+
 cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,Csrparaconfig.nrocaja,thisform.lniddeposito,Csrparaconfig.pefiscal,'0',"",Csrparadiario.fechaserver);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:   
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4878,7 +4414,25 @@ cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,
 
 
 
+
+
+
+
+
+
+
+
+
 lle,fechaserver)           VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor	            ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectortermi
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5086,6 +4640,15 @@ nal,thisform.puestocaja                ,Csrparaconfig.idcotizadolar,Csrparaconfi
 
 
 
+
+
+
+
+
+
+
+
+
 tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.su
 
 
@@ -5189,7 +4752,25 @@ tizadolar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',
 
 
 
+
+
+
+
+
+
+
+
+
 cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,Csrparaconfig.nrocaja,thisform.lniddeposito,Csrparaconfig.pefiscal,'0',"",Csrparadiario.fechaserver);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:   
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5401,7 +4982,25 @@ cursal,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,
 
 
 
+
+
+
+
+
+
+
+
+
 lle,fechaserver)           VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparaconfig.fechaserver,goapp.idusuario,thisform.lnidvendedor	            ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectortermi
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5597,6 +5196,15 @@ nal,thisform.puestocaja                ,Csrparaconfig.idcotizadolar,Csrparaconfi
 
 
 
+
+
+
+
+
+
+
+
+
 lar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechaserver,goapp.idusuario,thisform.lnidvendedor ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal
 
 
@@ -5694,7 +5302,25 @@ lar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',UPPER(
 
 
 
+
+
+
+
+
+
+
+
+
 ,thisform.sectorterminal,thisform.puestocaja ,Csrparaconfig.idcotizadolar,Csrparaconfig.nrocaja,thisform.lniddeposito,Csrparaconfig.pefiscal,'0',"",Csrparadiario.fechaserver);Error :         12;Ultimo Alias Activo: CSRAUXMAOPERA;Ultimo registro:         
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5895,7 +5521,25 @@ lar,nrocaja,iddeposito,pefiscal,estado,detalle,fechaserver) VALUES ('FAC',UPPER(
 
 
 
+
+
+
+
+
+
+
+
+
 lle,fechaserver)           VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csrparadiario.fechaserver,goapp.idusuario,thisform.lnidvendedor	            ,'B000000000000',thisform.lnidnrocaja,Csrparaconfig.turno,"00000",Goapp.sucursal,thisform.sectortermi
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5990,6 +5634,15 @@ lle,fechaserver)           VALUES ('FAC',UPPER(thisform.name),Goapp.terminal,Csr
 
 nal,thisform.puestocaja                ,Csrparaconfig.idcotizadolar,Csrparaconfig.nrocaja,thisform.lniddeposito,Csrparaconfig.pefiscal,'0',"",Csrparadiario.fechaserver)
 28-02-2024 12:20:55 , REGNOTAPEDANDROID._TXTFOCOINI.GOTFOCUS, Error: El archivo 'j:\xsoftsr\proyectos\starossa\actualizarpedandroidsql_v2.scx' no existe.;Linea : DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked;Error :          1;Ult
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6185,6 +5838,15 @@ imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\
 
 
 
+
+
+
+
+
+
+
+
+
 imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000Y9ZD020C.TMP;Ultimo Control activo: 
 28-02-2024 12:21:09 , Pila de llamadas
 28-02-2024 12:21:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
@@ -6203,6 +5865,15 @@ imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\
 28-02-2024 12:21:13 , Nº de Linea :         10
 28-02-2024 12:21:13 , En el Fuente: 	DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked   
 28-02-2024 12:21:18 , REGNOTAPEDANDROID._TXTFOCOINI.GOTFOCUS, Error: El archivo 'j:\xsoftsr\proyectos\starossa\actualizarpedandroidsql_v2.scx' no existe.;Linea : DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked;Error :          1;Ult
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6373,6 +6044,15 @@ imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\
 
 
 
+
+
+
+
+
+
+
+
+
 EMP\0000Y9ZD020C.TMP;Ultimo Control activo: 
 28-02-2024 12:21:26 , Pila de llamadas
 28-02-2024 12:21:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
@@ -6381,6 +6061,15 @@ EMP\0000Y9ZD020C.TMP;Ultimo Control activo:
 28-02-2024 12:21:27 , Nº de Linea :          2
 28-02-2024 12:21:27 , En el Fuente: IF RECCOUNT('CsrOpcion')#0
 28-02-2024 12:21:33 , REGNOTAPEDANDROID._TXTFOCOINI.GOTFOCUS, Error: El archivo 'j:\xsoftsr\proyectos\starossa\actualizarpedandroidsql_v2.scx' no existe.;Linea : DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked;Error :          1;Ult
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6533,6 +6222,15 @@ imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\
 
 
 
+
+
+
+
+
+
+
+
+
 0190.TMP;Ultimo Control activo: IMPORTE
 21-03-2024 15:40:22 , Pila de llamadas
 21-03-2024 15:40:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
@@ -6551,6 +6249,15 @@ imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\
 21-03-2024 15:40:27 , Nº de Linea :         35
 21-03-2024 15:40:27 , En el Fuente: SELECT CsrAuxPend
 21-03-2024 15:41:16 , RINDEARQUEO_V2.GOTFOCUS, Error: El archivo 'csrfle.dbf' no existe.;Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux 
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6670,6 +6377,15 @@ on csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias A
 
 
 
+
+
+
+
+
+
+
+
+
        1;Ultimo Alias Activo: CSRRENDIFLE;Ultimo registro:         40 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000K5JD0190.TMP;Ultimo Control activo: 
 21-03-2024 15:41:27 , Pila de llamadas
 21-03-2024 15:41:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
@@ -6688,6 +6404,15 @@ on csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias A
 21-03-2024 15:41:32 , Nº de Linea :         48
 21-03-2024 15:41:33 , En el Fuente: SELECT csrauxmon.*,NVL(csrrendimon.total,0) as total FROM csrauxmon LEFT JOIN csrrendimon ON csrauxmon.id=csrrendimon.id INTO CURSOR CsrAuxPago
 21-03-2024 15:41:39 , RINDEARQUEO_V2.GOTFOCUS, Error: El archivo 'csrfle.dbf' no existe.;Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux 
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6780,6 +6505,15 @@ on csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias A
 
 
 
+
+
+
+
+
+
+
+
+
 TEMP\0000HGCP0034.TMP;Ultimo Control activo: 
 22-03-2024 15:48:27 , Pila de llamadas
 22-03-2024 15:48:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -6826,6 +6560,15 @@ TEMP\0000HGCP0034.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
 gistro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000BY15007J.TMP;Ultimo Control activo: 
 12-04-2024 10:38:35 , Pila de llamadas
 12-04-2024 10:38:36 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
@@ -6834,6 +6577,15 @@ gistro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000BY15007J.TMP;Ult
 12-04-2024 10:38:37 , Nº de Linea :          4
 12-04-2024 10:38:37 , En el Fuente: lobjprecio = CREATEOBJECT('custom')
 07-05-2024 09:14:13 , MAIN, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace idprodcombo WITH CsrAuxComboCopia.idcabecombo IN CsrAuxProdCombo;Error :         39;Ultimo Alias Activo: CSRAUXCOMBOCOPIA;Ultimo registro:          1 ;DBF:
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6916,6 +6668,15 @@ gistro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000BY15007J.TMP;Ult
 
 
 
+
+
+
+
+
+
+
+
+
 OPIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00JZ.TMP;Ultimo Control activo: CANTIDAD
 07-05-2024 09:14:49 , Pila de llamadas
 07-05-2024 09:14:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -6953,6 +6714,15 @@ OPIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI
 
 
 
+
+
+
+
+
+
+
+
+
 OPIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00K5.TMP;Ultimo Control activo: CANTIDAD
 07-05-2024 09:15:01 , Pila de llamadas
 07-05-2024 09:15:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -6980,3 +6750,38 @@ OPIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI
 07-05-2024 09:15:08 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
 07-05-2024 09:15:08 , Nº de Linea :         76
 07-05-2024 09:15:09 , En el Fuente: 					replace idprodcombo WITH CsrAuxComboCopia.idcabecombo IN CsrAuxProdCombo
+10-05-2024 14:34:00 , LISEXISTENCIA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT distinct numctacte,nomctacte FROM CsrCursor INTO CURSOR CsrAuxCtacte READWRITE;Error :          1;Ultimo Alias Activo: 
+
+
+
+
+
+
+
+_CSRPRODUCTO;Ultimo registro:        415 CNUMERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00008CUH00E1.TMP;Ultimo Control activo: 
+10-05-2024 14:34:00 , Pila de llamadas
+10-05-2024 14:34:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+10-05-2024 14:34:01 , Objeto      : lisexistencia.imprimir_vistaprevia1.impresora.click
+10-05-2024 14:34:01 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+10-05-2024 14:34:02 , Nº de Linea :          8
+10-05-2024 14:34:02 , En el Fuente: 	llOK=thisform.CrearInforme()
+10-05-2024 14:34:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisexistencia.sct
+10-05-2024 14:34:02 , Objeto      : lisexistencia.crearinforme
+10-05-2024 14:34:03 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisexistencia.sct
+10-05-2024 14:34:03 , Nº de Linea :         95
+10-05-2024 14:34:04 , En el Fuente: SELECT distinct numctacte,nomctacte FROM CsrCursor INTO CURSOR CsrAuxCtacte READWRITE 
+10-05-2024 14:35:10 , LISEXISTENCIA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT distinct numctacte,nomctacte FROM CsrCursor INTO CURSOR CsrAuxCtacte READWRITE;Error :          1;Ultimo Alias Activo: _CSR
+
+
+PRODUCTO;Ultimo registro:        415 CNUMERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00008CUH00G6.TMP;Ultimo Control activo: 
+10-05-2024 14:35:12 , Pila de llamadas
+10-05-2024 14:35:13 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+10-05-2024 14:35:13 , Objeto      : lisexistencia.imprimir_vistaprevia1.excel.click
+10-05-2024 14:35:13 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+10-05-2024 14:35:13 , Nº de Linea :          6
+10-05-2024 14:35:14 , En el Fuente: llOK=thisform.CrearInforme()
+10-05-2024 14:35:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisexistencia.sct
+10-05-2024 14:35:14 , Objeto      : lisexistencia.crearinforme
+10-05-2024 14:35:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisexistencia.sct
+10-05-2024 14:35:14 , Nº de Linea :         96
+10-05-2024 14:35:14 , En el Fuente: SELECT distinct numctacte,nomctacte FROM CsrCursor INTO CURSOR CsrAuxCtacte READWRITE 
