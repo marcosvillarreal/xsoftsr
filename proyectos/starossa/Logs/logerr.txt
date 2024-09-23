@@ -1,1697 +1,50 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nal,thisform.puestocaja                ,Csrparaconfig.idcotizadolar,Csrparaconfig.nrocaja,thisform.lniddeposito,Csrparaconfig.pefiscal,'0',"",Csrparadiario.fechaserver)
-28-02-2024 12:20:55 , REGNOTAPEDANDROID._TXTFOCOINI.GOTFOCUS, Error: El archivo 'j:\xsoftsr\proyectos\starossa\actualizarpedandroidsql_v2.scx' no existe.;Linea : DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked;Error :          1;Ult
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000Y9ZD020C.TMP;Ultimo Control activo: 
-28-02-2024 12:20:56 , Pila de llamadas
-28-02-2024 12:20:56 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:20:56 , Objeto      : regnotapedandroid._txtfocoini.gotfocus
-28-02-2024 12:20:56 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:20:57 , Nº de Linea :          1
-28-02-2024 12:20:57 , En el Fuente: thisform.cmdleer.Click()
-28-02-2024 12:20:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:20:57 , Objeto      : regnotapedandroid.cmdleer.click
-28-02-2024 12:20:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:20:58 , Nº de Linea :          1
-28-02-2024 12:20:58 , En el Fuente: IF NOT thisform.iniciarimportacion()
-28-02-2024 12:20:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:20:58 , Objeto      : regnotapedandroid.iniciarimportacion
-28-02-2024 12:20:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:20:59 , Nº de Linea :         10
-28-02-2024 12:20:59 , En el Fuente: 	DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked   
-28-02-2024 12:21:09 , REGNOTAPEDANDROID._TXTFOCOINI.GOTFOCUS, Error: El archivo 'j:\xsoftsr\proyectos\starossa\actualizarpedandroidsql_v2.scx' no existe.;Linea : DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked;Error :          1;Ult
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000Y9ZD020C.TMP;Ultimo Control activo: 
-28-02-2024 12:21:09 , Pila de llamadas
-28-02-2024 12:21:09 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:10 , Objeto      : regnotapedandroid._txtfocoini.gotfocus
-28-02-2024 12:21:10 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:10 , Nº de Linea :          1
-28-02-2024 12:21:10 , En el Fuente: thisform.cmdleer.Click()
-28-02-2024 12:21:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:11 , Objeto      : regnotapedandroid.cmdleer.click
-28-02-2024 12:21:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:12 , Nº de Linea :          1
-28-02-2024 12:21:12 , En el Fuente: IF NOT thisform.iniciarimportacion()
-28-02-2024 12:21:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:13 , Objeto      : regnotapedandroid.iniciarimportacion
-28-02-2024 12:21:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:13 , Nº de Linea :         10
-28-02-2024 12:21:13 , En el Fuente: 	DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked   
-28-02-2024 12:21:18 , REGNOTAPEDANDROID._TXTFOCOINI.GOTFOCUS, Error: El archivo 'j:\xsoftsr\proyectos\starossa\actualizarpedandroidsql_v2.scx' no existe.;Linea : DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked;Error :          1;Ult
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000Y9ZD020C.TMP;Ultimo Control activo: 
-28-02-2024 12:21:18 , Pila de llamadas
-28-02-2024 12:21:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:19 , Objeto      : regnotapedandroid._txtfocoini.gotfocus
-28-02-2024 12:21:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:20 , Nº de Linea :          1
-28-02-2024 12:21:20 , En el Fuente: thisform.cmdleer.Click()
-28-02-2024 12:21:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:21 , Objeto      : regnotapedandroid.cmdleer.click
-28-02-2024 12:21:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:21 , Nº de Linea :          1
-28-02-2024 12:21:21 , En el Fuente: IF NOT thisform.iniciarimportacion()
-28-02-2024 12:21:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:22 , Objeto      : regnotapedandroid.iniciarimportacion
-28-02-2024 12:21:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:22 , Nº de Linea :         10
-28-02-2024 12:21:22 , En el Fuente: 	DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked   
-28-02-2024 12:21:26 , REGNOTAPEDANDROID._TXTFOCOINI.GOTFOCUS, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrOpcion')#0;Error :         13;Ultimo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\T
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-EMP\0000Y9ZD020C.TMP;Ultimo Control activo: 
-28-02-2024 12:21:26 , Pila de llamadas
-28-02-2024 12:21:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:27 , Objeto      : regnotapedandroid._txtfocoini.gotfocus
-28-02-2024 12:21:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:27 , Nº de Linea :          2
-28-02-2024 12:21:27 , En el Fuente: IF RECCOUNT('CsrOpcion')#0
-28-02-2024 12:21:33 , REGNOTAPEDANDROID._TXTFOCOINI.GOTFOCUS, Error: El archivo 'j:\xsoftsr\proyectos\starossa\actualizarpedandroidsql_v2.scx' no existe.;Linea : DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked;Error :          1;Ult
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-imo Alias Activo: CSRCONEXIONCENTRAL;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000Y9ZD020C.TMP;Ultimo Control activo: 
-28-02-2024 12:21:33 , Pila de llamadas
-28-02-2024 12:21:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:33 , Objeto      : regnotapedandroid._txtfocoini.gotfocus
-28-02-2024 12:21:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:34 , Nº de Linea :          1
-28-02-2024 12:21:34 , En el Fuente: thisform.cmdleer.Click()
-28-02-2024 12:21:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:35 , Objeto      : regnotapedandroid.cmdleer.click
-28-02-2024 12:21:36 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:36 , Nº de Linea :          1
-28-02-2024 12:21:36 , En el Fuente: IF NOT thisform.iniciarimportacion()
-28-02-2024 12:21:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:36 , Objeto      : regnotapedandroid.iniciarimportacion
-28-02-2024 12:21:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\pedidos\regnotapedandroid.sct
-28-02-2024 12:21:37 , Nº de Linea :         10
-28-02-2024 12:21:38 , En el Fuente: 	DO FORM actualizarpedandroidsql_v2 WITH loObjeto NAME lobjform linked   
-21-03-2024 15:40:20 , RINDEARQUEO_V2.GRID2.KEYPRESS, Error: No se encuentra el alias 'CSRAUXPEND'.;Linea : SELECT CsrAuxPend;Error :         13;Ultimo Alias Activo: CSRRENDIFLE;Ultimo registro:         40 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000K5JD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-0190.TMP;Ultimo Control activo: IMPORTE
-21-03-2024 15:40:22 , Pila de llamadas
-21-03-2024 15:40:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:40:22 , Objeto      : rindearqueo_v2.grid2.keypress
-21-03-2024 15:40:22 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:40:23 , Nº de Linea :          6
-21-03-2024 15:40:23 , En el Fuente:         thisform.llamardetalle
-21-03-2024 15:40:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:40:24 , Objeto      : rindearqueo_v2.llamardetalle
-21-03-2024 15:40:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:40:25 , Nº de Linea :         18
-21-03-2024 15:40:25 , En el Fuente: 	this.recalcularpendiente()
-21-03-2024 15:40:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:40:26 , Objeto      : rindearqueo_v2.recalcularpendiente
-21-03-2024 15:40:26 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:40:27 , Nº de Linea :         35
-21-03-2024 15:40:27 , En el Fuente: SELECT CsrAuxPend
-21-03-2024 15:41:16 , RINDEARQUEO_V2.GOTFOCUS, Error: El archivo 'csrfle.dbf' no existe.;Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-on csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Activo: CSRRENDIFLE;Ultimo registro:         40 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000K5JD0190.TMP;Ultimo Control activo: 
-21-03-2024 15:41:16 , Pila de llamadas
-21-03-2024 15:41:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:17 , Objeto      : rindearqueo_v2.gotfocus
-21-03-2024 15:41:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:18 , Nº de Linea :          1
-21-03-2024 15:41:19 , En el Fuente: thisform.leerarqueo(.t.)
-21-03-2024 15:41:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:19 , Objeto      : rindearqueo_v2.leerarqueo
-21-03-2024 15:41:19 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:19 , Nº de Linea :         44
-21-03-2024 15:41:19 , En el Fuente: SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueoFROM csrfleleft join csraux on csrfle.id=csraux.idinto cursor csrrendifle
-21-03-2024 15:41:27 , RINDEARQUEO_V2.GOTFOCUS, Error: El archivo 'csrauxmon.dbf' no existe.;Linea : SELECT csrauxmon.*,NVL(csrrendimon.total,0) as total FROM csrauxmon LEFT JOIN csrrendimon ON csrauxmon.id=csrrendimon.id INTO CURSOR CsrAuxPago;Error :   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       1;Ultimo Alias Activo: CSRRENDIFLE;Ultimo registro:         40 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000K5JD0190.TMP;Ultimo Control activo: 
-21-03-2024 15:41:27 , Pila de llamadas
-21-03-2024 15:41:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:28 , Objeto      : rindearqueo_v2.gotfocus
-21-03-2024 15:41:28 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:29 , Nº de Linea :          6
-21-03-2024 15:41:29 , En el Fuente:    thisform.grid1.Refresh()
-21-03-2024 15:41:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:30 , Objeto      : rindearqueo_v2.grid1.afterrowcolchange
-21-03-2024 15:41:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:31 , Nº de Linea :          2
-21-03-2024 15:41:31 , En el Fuente: thisform.leerendicionpormoneda()
-21-03-2024 15:41:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:31 , Objeto      : rindearqueo_v2.leerendicionpormoneda
-21-03-2024 15:41:32 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:32 , Nº de Linea :         48
-21-03-2024 15:41:33 , En el Fuente: SELECT csrauxmon.*,NVL(csrrendimon.total,0) as total FROM csrauxmon LEFT JOIN csrrendimon ON csrauxmon.id=csrrendimon.id INTO CURSOR CsrAuxPago
-21-03-2024 15:41:39 , RINDEARQUEO_V2.GOTFOCUS, Error: El archivo 'csrfle.dbf' no existe.;Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-on csrfle.id=csraux.id into cursor csrrendifle;Error :          1;Ultimo Alias Activo: CSRRENDIFLE;Ultimo registro:         40 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000K5JD0190.TMP;Ultimo Control activo: 
-21-03-2024 15:41:40 , Pila de llamadas
-21-03-2024 15:41:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:41 , Objeto      : rindearqueo_v2.gotfocus
-21-03-2024 15:41:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:42 , Nº de Linea :          1
-21-03-2024 15:41:42 , En el Fuente: thisform.leerarqueo(.t.)
-21-03-2024 15:41:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:42 , Objeto      : rindearqueo_v2.leerarqueo
-21-03-2024 15:41:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
-21-03-2024 15:41:43 , Nº de Linea :         44
-21-03-2024 15:41:43 , En el Fuente: SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueoFROM csrfleleft join csraux on csrfle.id=csraux.idinto cursor csrrendifle
 22-03-2024 15:48:27 , LISTAPADRON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRAUX'.;Linea : SELECT CsrAux;Error :         13;Ultimo Alias Activo: CSRIMPRIMIR3;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1971,6 +324,52 @@ TEMP\0000HGCP0034.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 gistro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000BY15007J.TMP;Ultimo Control activo: 
 12-04-2024 10:38:35 , Pila de llamadas
 12-04-2024 10:38:36 , Programa    : j:\xsoftsr\desarrollo\clases\odata.vct
@@ -1979,6 +378,52 @@ gistro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000BY15007J.TMP;Ult
 12-04-2024 10:38:37 , Nº de Linea :          4
 12-04-2024 10:38:37 , En el Fuente: lobjprecio = CREATEOBJECT('custom')
 07-05-2024 09:14:13 , MAIN, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace idprodcombo WITH CsrAuxComboCopia.idcabecombo IN CsrAuxProdCombo;Error :         39;Ultimo Alias Activo: CSRAUXCOMBOCOPIA;Ultimo registro:          1 ;DBF:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2257,6 +702,52 @@ gistro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000BY15007J.TMP;Ult
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 OPIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00JZ.TMP;Ultimo Control activo: CANTIDAD
 07-05-2024 09:14:49 , Pila de llamadas
 07-05-2024 09:14:50 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -2285,6 +776,52 @@ OPIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI
 07-05-2024 09:14:56 , Nº de Linea :         76
 07-05-2024 09:14:56 , En el Fuente: 					replace idprodcombo WITH CsrAuxComboCopia.idcabecombo IN CsrAuxProdCombo
 07-05-2024 09:15:00 , REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS, Error: Desbordamiento numérico (se han perdido datos).;Linea : replace idprodcombo WITH CsrAuxComboCopia.idcabecombo IN CsrAuxProdCombo;Error :         39;Ultimo Alias Activo: CSRAUXCOMBOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2516,6 +1053,52 @@ OPIA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 _CSRPRODUCTO;Ultimo registro:        415 CNUMERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00008CUH00E1.TMP;Ultimo Control activo: 
 10-05-2024 14:34:00 , Pila de llamadas
 10-05-2024 14:34:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2529,6 +1112,52 @@ _CSRPRODUCTO;Ultimo registro:        415 CNUMERO;DBF: C:\USERS\MARCOS\APPDATA\LO
 10-05-2024 14:34:03 , Nº de Linea :         95
 10-05-2024 14:34:04 , En el Fuente: SELECT distinct numctacte,nomctacte FROM CsrCursor INTO CURSOR CsrAuxCtacte READWRITE 
 10-05-2024 14:35:10 , LISEXISTENCIA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT distinct numctacte,nomctacte FROM CsrCursor INTO CURSOR CsrAuxCtacte READWRITE;Error :          1;Ultimo Alias Activo: _CSR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2721,6 +1350,52 @@ PRODUCTO;Ultimo registro:        415 CNUMERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 15-05-2024 16:58:00 , Pila de llamadas
 15-05-2024 16:58:01 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2814,8 +1489,100 @@ PRODUCTO;Ultimo registro:        415 CNUMERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 31-05-2024 11:24:38 , ABMMARCAS._TEXTBOX1.KEYPRESS, Error: No se encuentra el alias 'CSRFAMILIA'.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :         13;Ultimo Alias Activo: CSRBLOQUEOUSER;Ultimo registro:          1 ;DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2996,6 +1763,52 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0000JHFT004Q.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 03-06-2024 16:19:56 , Pila de llamadas
 03-06-2024 16:19:57 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3014,6 +1827,52 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 03-06-2024 16:20:00 , Nº de Linea :       2135
 03-06-2024 16:20:01 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 03-06-2024 16:22:51 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3172,6 +2031,52 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 03-06-2024 16:36:42 , Pila de llamadas
 03-06-2024 16:36:43 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3179,6 +2084,52 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 03-06-2024 16:36:43 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 03-06-2024 16:36:43 , Nº de Linea :         35
 03-06-2024 16:36:44 , En el Fuente:       select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid         ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07         ,&lc8 as wcampo08,&lc9 as wcampo09       from &lcalias       order by &lcorden into c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3347,6 +2298,52 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ,00000000.00 as wcampo07 ,00000000.00 as wcampo08,space(10) as wcampo09 from CsrProducto order by cnombre into cursor _CsrProducto READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 03-06-2024 17:17:11 , Pila de llamadas
 03-06-2024 17:17:11 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
@@ -3405,8 +2402,100 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s wcampo09       from CsrProducto       order by cnombre into cursor _CsrProducto READWRITE 
 03-06-2024 17:18:38 , LISINVENTARIO.CMDCARGAGRILLA.CLICK, Error: El archivo 'csrproducto.dbf' no existe.;Linea : SELECT 0 as ok,CsrProducto.nombre as cnombre,CsrProducto.numero as cnumero,CsrProducto.id as cid ,SPACE(10) as wcampo05,space(10) as wcampo06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3506,8 +2595,100 @@ s wcampo09       from CsrProducto       order by cnombre into cursor _CsrProduct
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s wcampo09       from CsrProducto       order by cnombre into cursor _CsrProducto READWRITE 
 04-06-2024 12:53:58 , LISTAETIQUETA.CMDCARGAGRILLA.CLICK, Error: El archivo 'csrproducto.dbf' no existe.;Linea : SELECT 0 as ok,CsrProducto.nombre as cnombre,CsrProducto.numero as cnumero,CsrProducto.id as cid ,SPACE(10) as wcampo05,space(10) as wcampo06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3599,8 +2780,100 @@ s wcampo09       from CsrProducto       order by cnombre into cursor _CsrProduct
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s wcampo09       from CsrProducto       order by cnombre into cursor _CsrProducto READWRITE 
 12-06-2024 14:17:22 , _UTIL_TIENDAMIA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: FECHA_CALENDARIO2 es un miembro desconocido.;Linea : lcfecha2 = DTOS(.fecha_calendario2.txtfecha.Value);Error :       1925;Ultimo Alias Activo: CSRCOMPROBANTE;Ultimo regi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3684,6 +2957,52 @@ stro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00005DS9001Q.TMP;Ultim
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  + '' + cSep + "" + cSep + "" + cSep + "" + cSep + "Precio" + cSep + "Precio promocional" + cSep + "" + cSep + '' + cSep + '' + cSep + '' + cSep + "-" + cSep + ALLTRIM(STR(Oscatter.numero)) + cSep + P.codbarra13 + cSep + "SI" + cSep + "NO" + cSep + Oscat
 
 
@@ -3718,7 +3037,99 @@ stro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00005DS9001Q.TMP;Ultim
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep + Oscatter.nombre + cSep + Oscatter.nommarca + cSep + "SI" + cSep + "" + cSep + "" + cSep + "" + cSep + '-';Error :         13;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3800,7 +3211,99 @@ S\MARCOS\APPDATA\LOCAL\TEMP\00005DS90031.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 omocional" + cSep + ""  		+ cSep + '' + cSep + '' + cSep + '' 		+ cSep + "-" + cSep + ALLTRIM(STR(Oscatter.numero))		+ cSep + P.codbarra13 + cSep + "SI" + cSep + "NO" 		+ cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep + Oscatter.nombr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3854,6 +3357,52 @@ e 		+ cSep + Oscatter.nommarca + cSep + "SI" + cSep + "" + cSep + ""		+ cSep + "
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rubro + cSep + '' + cSep + '' + cSep + '' + cSep + "" + cSep + "" + cSep + "" + cSep + Oscatter.precio + cSep + "-" + cSep + "" + cSep + '' + cSep + '' + cSep + '' + cSep + "-" + cSep + ALLTRIM(STR(Oscatter.numero)) + cSep + P.codbarra13 + cSep + "SI" + 
 
 
@@ -3880,7 +3429,99 @@ rubro + cSep + '' + cSep + '' + cSep + '' + cSep + "" + cSep + "" + cSep + "" + 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 cSep + "NO" + cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep + Oscatter.nombre + cSep + Oscatter.nommarca + cSep + "SI" + cSep + "" + cSep + "" + cSep + "" + cSep + '-';Error :        107;Ultimo Alias Activo: CSRCURSOR;Ultimo registro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3947,7 +3588,99 @@ cSep + "NO" + cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  + cSep + ""  		+ cSep + '' + cSep + '' + cSep + '' 		+ cSep + "-" + cSep + ALLTRIM(STR(Oscatter.numero))		+ cSep + P.codbarra13 + cSep + "SI" + cSep + "NO" 		+ cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep + Oscatter.nombre 		+ cSep
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3969,6 +3702,52 @@ cSep + "NO" + cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep
 
  + Oscatter.nommarca + cSep + "SI" + cSep + "" + cSep + ""		+ cSep + "" + cSep + '-'
 28-06-2024 09:31:30 , REGFACVTA_V2.INIT, Error: No se encuentra la variable 'LCCMD'.;Linea : IF !thisform.obtenerdatos('Csrcomprobante',lccmd);Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         21 ;DBF: C:\USERS\MARCOS\APPDATA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4014,6 +3793,52 @@ cSep + "NO" + cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \LOCAL\TEMP\0000EQYX00Z2.TMP;Ultimo Control activo: 
 28-06-2024 09:31:53 , Pila de llamadas
 28-06-2024 09:31:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -4044,6 +3869,52 @@ cSep + "NO" + cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IKND00J5.TMP;Ultimo Control activo: 
 31-07-2024 11:19:16 , Pila de llamadas
 31-07-2024 11:19:17 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiquetapub.sct
@@ -4058,6 +3929,52 @@ cSep + "NO" + cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep
 31-07-2024 11:19:19 , En el Fuente: IF LEN(LTRIM(lclistar))=0
 31-07-2024 12:12:37 , LISTAETIQUETA.CMDCARGAGRILLA.CLICK, Error: Error al cargar el archivo - número de registro 14. Kitgrillatildarrubros  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRRUBRO';Linea : DO FORM listaestadistica WIT
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 H oca,lcCmdCampos,lcTypeData,lcidestado NAME lObjetoForm LINKED;Error :       2005;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000MZ9L00GW.TMP;Ultimo Control activo: 
 31-07-2024 12:12:37 , Pila de llamadas
 31-07-2024 12:12:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
@@ -4065,3 +3982,280 @@ H oca,lcCmdCampos,lcTypeData,lcidestado NAME lObjetoForm LINKED;Error :       20
 31-07-2024 12:12:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
 31-07-2024 12:12:38 , Nº de Linea :         12
 31-07-2024 12:12:38 , En el Fuente: DO FORM listaestadistica WITH oca,lcCmdCampos,lcTypeData,lcidestado NAME lObjetoForm LINKED 
+20-09-2024 18:02:36 , PASAJE_PTOVTA_IMP.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Código de excepción OLE IDispatch 0 de Microsoft OLE DB Provider for SQL Server: Error en la conexión.;Linea : oCadapter.Datasource.ActiveConnection.rollbacktrans();Err
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+or :       1429;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:       7308 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GB2H004U.TMP;Ultimo Control activo: 
+20-09-2024 18:02:37 , Pila de llamadas
+20-09-2024 18:02:38 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+20-09-2024 18:02:38 , Objeto      : pasaje_ptovta_imp.imprimir_vistaprevia1.impresora.click
+20-09-2024 18:02:38 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+20-09-2024 18:02:39 , Nº de Linea :          8
+20-09-2024 18:02:39 , En el Fuente: 	llOK=thisform.CrearInforme()
+20-09-2024 18:02:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_ptovta_imp.sct
+20-09-2024 18:02:39 , Objeto      : pasaje_ptovta_imp.crearinforme
+20-09-2024 18:02:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_ptovta_imp.sct
+20-09-2024 18:02:40 , Nº de Linea :         41
+20-09-2024 18:02:40 , En el Fuente: 		           	llok = .Generar()
+20-09-2024 18:02:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_ptovta_imp.sct
+20-09-2024 18:02:40 , Objeto      : pasaje_ptovta_imp.generar
+20-09-2024 18:02:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_ptovta_imp.sct
+20-09-2024 18:02:41 , Nº de Linea :         24
+20-09-2024 18:02:41 , En el Fuente: 	llok = thisform.actualizar()
+20-09-2024 18:02:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_ptovta_imp.sct
+20-09-2024 18:02:41 , Objeto      : pasaje_ptovta_imp.actualizar
+20-09-2024 18:02:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_ptovta_imp.sct
+20-09-2024 18:02:42 , Nº de Linea :         38
+20-09-2024 18:02:42 , En el Fuente: 		      		oCadapter.Datasource.ActiveConnection.rollbacktrans()
+23-09-2024 09:42:56 , PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrDecimal')#0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+23-09-2024 09:42:58 , Pila de llamadas
+23-09-2024 09:42:58 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:42:58 , Objeto      : ptovta_expgestion.imprimir_vistaprevia1.impresora.click
+23-09-2024 09:42:58 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:42:58 , Nº de Linea :          4
+23-09-2024 09:42:59 , En el Fuente: this.Parent.establecerseteos()
+23-09-2024 09:42:59 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:42:59 , Objeto      : ptovta_expgestion.imprimir_vistaprevia1.establecerseteos
+23-09-2024 09:43:00 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:43:00 , Nº de Linea :         16
+23-09-2024 09:43:01 , En el Fuente: IF RECCOUNT('CsrDecimal')#0
+23-09-2024 09:44:12 , PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'PRODUCTO'.;Linea : SELECT (cAlias);Error :         13;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:       1089 ;DBF: C:\USERS\MARCOS\APPDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TA\LOCAL\TEMP\0000GB2H025O.TMP;Ultimo Control activo: 
+23-09-2024 09:44:12 , Pila de llamadas
+23-09-2024 09:44:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:44:13 , Objeto      : ptovta_expgestion.imprimir_vistaprevia1.impresora.click
+23-09-2024 09:44:13 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:44:13 , Nº de Linea :          8
+23-09-2024 09:44:14 , En el Fuente: 	llOK=thisform.CrearInforme()
+23-09-2024 09:44:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:44:15 , Objeto      : ptovta_expgestion.crearinforme
+23-09-2024 09:44:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:44:15 , Nº de Linea :         15
+23-09-2024 09:44:16 , En el Fuente:     	.generar('producto','Producto')
+23-09-2024 09:44:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:44:16 , Objeto      : ptovta_expgestion.generar
+23-09-2024 09:44:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:44:17 , Nº de Linea :         16
+23-09-2024 09:44:17 , En el Fuente: 		_existe = .leerproducto()
+23-09-2024 09:44:18 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:44:18 , Objeto      : ptovta_expgestion.leerproducto
+23-09-2024 09:44:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:44:19 , Nº de Linea :         21
+23-09-2024 09:44:19 , En el Fuente: this.sync(cAlias )
+23-09-2024 09:44:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:44:20 , Objeto      : ptovta_expgestion.sync
+23-09-2024 09:44:20 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:44:20 , Nº de Linea :          2
+23-09-2024 09:44:21 , En el Fuente: SELECT (cAlias)
+23-09-2024 09:46:34 , PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrDecimal')#0;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+23-09-2024 09:46:34 , Pila de llamadas
+23-09-2024 09:46:35 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:46:35 , Objeto      : ptovta_expgestion.imprimir_vistaprevia1.impresora.click
+23-09-2024 09:46:35 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:46:36 , Nº de Linea :          4
+23-09-2024 09:46:36 , En el Fuente: this.Parent.establecerseteos()
+23-09-2024 09:46:36 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:46:36 , Objeto      : ptovta_expgestion.imprimir_vistaprevia1.establecerseteos
+23-09-2024 09:46:37 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:46:37 , Nº de Linea :         16
+23-09-2024 09:46:37 , En el Fuente: IF RECCOUNT('CsrDecimal')#0
+23-09-2024 09:47:35 , PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SYNC_LOAD es un miembro desconocido.;Linea : this.sync_load.idclave = OscSync.id;Error :       1925;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GB2H027T.TMP;Ultimo Control activo: 
+23-09-2024 09:47:35 , Pila de llamadas
+23-09-2024 09:47:36 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:47:36 , Objeto      : ptovta_expgestion.imprimir_vistaprevia1.impresora.click
+23-09-2024 09:47:36 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:47:37 , Nº de Linea :          8
+23-09-2024 09:47:37 , En el Fuente: 	llOK=thisform.CrearInforme()
+23-09-2024 09:47:37 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:47:37 , Objeto      : ptovta_expgestion.crearinforme
+23-09-2024 09:47:38 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:47:38 , Nº de Linea :         15
+23-09-2024 09:47:38 , En el Fuente:     	.generar('producto','Producto')
+23-09-2024 09:47:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:47:39 , Objeto      : ptovta_expgestion.generar
+23-09-2024 09:47:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:47:39 , Nº de Linea :         16
+23-09-2024 09:47:40 , En el Fuente: 		_existe = .leerproducto()
+23-09-2024 09:47:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:47:40 , Objeto      : ptovta_expgestion.leerproducto
+23-09-2024 09:47:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:47:40 , Nº de Linea :         20
+23-09-2024 09:47:41 , En el Fuente: this.sync(cAliasCursor)
+23-09-2024 09:47:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:47:41 , Objeto      : ptovta_expgestion.sync
+23-09-2024 09:47:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:47:42 , Nº de Linea :         23
+23-09-2024 09:47:42 , En el Fuente: 	this.sync_load.idclave = OscSync.id
+23-09-2024 09:50:47 , PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SYNC_LOAD es un miembro desconocido.;Linea : this.sync_load.idclave = OscSync.id;Error :       1925;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C
+
+
+
+
+
+
+
+
+
+
+
+
+
+:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GB2H029W.TMP;Ultimo Control activo: 
+23-09-2024 09:50:47 , Pila de llamadas
+23-09-2024 09:50:48 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:50:48 , Objeto      : ptovta_expgestion.imprimir_vistaprevia1.impresora.click
+23-09-2024 09:50:48 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 09:50:49 , Nº de Linea :          8
+23-09-2024 09:50:49 , En el Fuente: 	llOK=thisform.CrearInforme()
+23-09-2024 09:50:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:50:49 , Objeto      : ptovta_expgestion.crearinforme
+23-09-2024 09:50:50 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:50:50 , Nº de Linea :         15
+23-09-2024 09:50:50 , En el Fuente:     	.generar('producto','Producto')
+23-09-2024 09:50:51 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:50:51 , Objeto      : ptovta_expgestion.generar
+23-09-2024 09:50:51 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:50:52 , Nº de Linea :         16
+23-09-2024 09:50:52 , En el Fuente: 		_existe = .leerproducto()
+23-09-2024 09:50:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:50:52 , Objeto      : ptovta_expgestion.leerproducto
+23-09-2024 09:50:52 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:50:52 , Nº de Linea :         20
+23-09-2024 09:50:53 , En el Fuente: this.sync(cAliasCursor)
+23-09-2024 09:50:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:50:53 , Objeto      : ptovta_expgestion.sync
+23-09-2024 09:50:54 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 09:50:54 , Nº de Linea :         23
+23-09-2024 09:50:54 , En el Fuente: 	this.sync_load.idclave = OscSync.id
+23-09-2024 10:01:10 , PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad ID.;Linea : this.sync_load.idclave = OscSync.id;Error :       1734;Ultimo Alias Activo: CSRCABEPROMOPUB;Ultimo registro:          1 ;DBF: C
+
+
+
+
+
+:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000075S902G0.TMP;Ultimo Control activo: 
+23-09-2024 10:01:11 , Pila de llamadas
+23-09-2024 10:01:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 10:01:11 , Objeto      : ptovta_expgestion.imprimir_vistaprevia1.impresora.click
+23-09-2024 10:01:11 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+23-09-2024 10:01:11 , Nº de Linea :          8
+23-09-2024 10:01:12 , En el Fuente: 	llOK=thisform.CrearInforme()
+23-09-2024 10:01:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 10:01:12 , Objeto      : ptovta_expgestion.crearinforme
+23-09-2024 10:01:12 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 10:01:12 , Nº de Linea :         15
+23-09-2024 10:01:12 , En el Fuente:     	.generar('producto','Producto')
+23-09-2024 10:01:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 10:01:13 , Objeto      : ptovta_expgestion.generar
+23-09-2024 10:01:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 10:01:13 , Nº de Linea :         16
+23-09-2024 10:01:14 , En el Fuente: 		_existe = .leerproducto()
+23-09-2024 10:01:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 10:01:14 , Objeto      : ptovta_expgestion.leerproducto
+23-09-2024 10:01:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 10:01:15 , Nº de Linea :         81
+23-09-2024 10:01:15 , En el Fuente: this.sync(cAliasCursor)
+23-09-2024 10:01:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 10:01:16 , Objeto      : ptovta_expgestion.sync
+23-09-2024 10:01:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\sync\pasaje_serv_exp.sct
+23-09-2024 10:01:16 , Nº de Linea :         23
+23-09-2024 10:01:16 , En el Fuente: 	this.sync_load.idclave = OscSync.id
