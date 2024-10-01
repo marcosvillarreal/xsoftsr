@@ -2736,8 +2736,8 @@ DO CASE
 	              ,detalle c(50),esvale n(1),idcomproba n(12),idbanco i,idctaentregado i)
 	Sele Csrpago
 	CASE UPPER(lcCursor)="CSRFINANCIA"
-	Create Cursor CsrFinancia (registro i AUTOINC,numero n(3),nombre c(25),fecha d,afecta n(10,2),idvalor i;
-	              ,esclase c(3),detalle c(50),tasa n(6,3),importe n(10,2))
+	Create Cursor CsrFinancia (registro i AUTOINC,numero n(3),nombre c(25),fecha d,afecta n(11,2),idvalor i;
+	              ,esclase c(3),detalle c(50),tasa n(6,3),importe n(11,2))
 	Sele Csrfinancia
 ENDCASE 
 
