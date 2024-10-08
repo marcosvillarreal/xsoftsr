@@ -4108,3 +4108,5 @@ o:
 02-10-2024 10:17:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
 02-10-2024 10:17:41 , Nº de Linea :         16
 02-10-2024 10:17:41 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+08-10-2024 19:21:46 , LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT, Error: Desplazamiento de búsqueda no válido.;Linea : ;Error :       1103;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
+08-10-2024 19:23:02 , LISTADOVISITAS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El archivo 'csrcursor.dbf' no existe.;Linea : SELECT *,TTOC(fecha) as cfecha,IIF(idmotivo<>0,1,0) as noventas,IIF(idmotivo=0,1,0) as ventas,00 as orden,total FROM CsrCursor ORDER BY nomvendedor,orden,cfecha,nomcliente INTO CURSOR CsrImprimir READWRITE;Error :          1;Ultimo Alias Activo: _CSRVENDEDOR;Ultimo registro:        105 CNUMERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00007ZM1031P.TMP;Ultimo Control activo: 
