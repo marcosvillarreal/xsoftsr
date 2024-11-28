@@ -1,42 +1,11 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00005DS9005O.TMP;Ultimo Control activo: 
-12-06-2024 14:20:12 , Pila de llamadas
-12-06-2024 14:20:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-12-06-2024 14:20:13 , Objeto      : _util_tiendamia.imprimir_vistaprevia1.impresora.click
-12-06-2024 14:20:13 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-12-06-2024 14:20:13 , Nº de Linea :          8
-12-06-2024 14:20:14 , En el Fuente: 	llOK=thisform.CrearInforme()
-12-06-2024 14:20:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\_util_tiendamia.sct
-12-06-2024 14:20:14 , Objeto      : _util_tiendamia.crearinforme
-12-06-2024 14:20:14 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\_util_tiendamia.sct
-12-06-2024 14:20:14 , Nº de Linea :          5
-12-06-2024 14:20:15 , En el Fuente: 	.generar('articulos','Articulos....')
-12-06-2024 14:20:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\_util_tiendamia.sct
-12-06-2024 14:20:15 , Objeto      : _util_tiendamia.generar
-12-06-2024 14:20:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\_util_tiendamia.sct
-12-06-2024 14:20:16 , Nº de Linea :         14
-12-06-2024 14:20:16 , En el Fuente: 			_existe = .leerarticulos()
 12-06-2024 14:20:16 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\_util_tiendamia.sct
 12-06-2024 14:20:17 , Objeto      : _util_tiendamia.leerarticulos
 12-06-2024 14:20:17 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\_util_tiendamia.sct
 12-06-2024 14:20:17 , Nº de Linea :         72
 12-06-2024 14:20:17 , En el Fuente: 	cLinea = LEFT('0000000000' + str(Oscatter.id),10) + cSep + Oscatter.nombre + cSep + Oscatter.nomrubro + cSep + '' + cSep + '' 		+ cSep + '' + cSep + "" 		+ cSep + "" + cSep + "" 		+ cSep + Oscatter.precio + cSep + "-"
+
+
+
 
 
 
@@ -392,8 +361,14 @@
 
 
 
+
+
+
  + Oscatter.nommarca + cSep + "SI" + cSep + "" + cSep + ""		+ cSep + "" + cSep + '-'
 28-06-2024 09:31:30 , REGFACVTA_V2.INIT, Error: No se encuentra la variable 'LCCMD'.;Linea : IF !thisform.obtenerdatos('Csrcomprobante',lccmd);Error :         12;Ultimo Alias Activo: CSRPREFITERMI;Ultimo registro:         21 ;DBF: C:\USERS\MARCOS\APPDATA
+
+
+
 
 
 
@@ -755,6 +730,9 @@
 
 
 
+
+
+
 \LOCAL\TEMP\0000EQYX00Z2.TMP;Ultimo Control activo: 
 28-06-2024 09:31:53 , Pila de llamadas
 28-06-2024 09:31:54 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -780,6 +758,9 @@
 11-07-2024 10:59:18 , Nº de Linea :         16
 11-07-2024 10:59:18 , En el Fuente: IF RECCOUNT('CsrDecimal')#0
 31-07-2024 11:19:15 , LISTAETIQUETA.CMDCARGAGRILLA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : IF LEN(LTRIM(lclistar))=0;Error :         11;Ultimo Alias Activo: _CSRFAMILIA;Ultimo registro:          1 CNUMERO
+
+
+
 
 
 
@@ -1115,6 +1096,9 @@
 
 
 
+
+
+
 H oca,lcCmdCampos,lcTypeData,lcidestado NAME lObjetoForm LINKED;Error :       2005;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000MZ9L00GW.TMP;Ultimo Control activo: 
 31-07-2024 12:12:37 , Pila de llamadas
 31-07-2024 12:12:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\stock\listaetiqueta.sct
@@ -1123,6 +1107,9 @@ H oca,lcCmdCampos,lcTypeData,lcidestado NAME lObjetoForm LINKED;Error :       20
 31-07-2024 12:12:38 , Nº de Linea :         12
 31-07-2024 12:12:38 , En el Fuente: DO FORM listaestadistica WITH oca,lcCmdCampos,lcTypeData,lcidestado NAME lObjetoForm LINKED 
 20-09-2024 18:02:36 , PASAJE_PTOVTA_IMP.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Código de excepción OLE IDispatch 0 de Microsoft OLE DB Provider for SQL Server: Error en la conexión.;Linea : oCadapter.Datasource.ActiveConnection.rollbacktrans();Err
+
+
+
 
 
 
@@ -1460,6 +1447,9 @@ or :       1429;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:       7308 ;DB
 
 
 
+
+
+
 TA\LOCAL\TEMP\0000GB2H025O.TMP;Ultimo Control activo: 
 23-09-2024 09:44:12 , Pila de llamadas
 23-09-2024 09:44:13 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1500,6 +1490,9 @@ TA\LOCAL\TEMP\0000GB2H025O.TMP;Ultimo Control activo:
 23-09-2024 09:46:37 , Nº de Linea :         16
 23-09-2024 09:46:37 , En el Fuente: IF RECCOUNT('CsrDecimal')#0
 23-09-2024 09:47:35 , PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SYNC_LOAD es un miembro desconocido.;Linea : this.sync_load.idclave = OscSync.id;Error :       1925;Ultimo Alias Activo: CSRPRODUCTO;Ultimo registro:          1 ;DBF: C
+
+
+
 
 
 
@@ -1787,6 +1780,9 @@ TA\LOCAL\TEMP\0000GB2H025O.TMP;Ultimo Control activo:
 
 
 
+
+
+
 :\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GB2H029W.TMP;Ultimo Control activo: 
 23-09-2024 09:50:47 , Pila de llamadas
 23-09-2024 09:50:48 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1932,6 +1928,9 @@ TA\LOCAL\TEMP\0000GB2H025O.TMP;Ultimo Control activo:
 
 
 
+
+
+
 :\USERS\MARCOS\APPDATA\LOCAL\TEMP\000075S902G0.TMP;Ultimo Control activo: 
 23-09-2024 10:01:11 , Pila de llamadas
 23-09-2024 10:01:11 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1960,6 +1959,9 @@ TA\LOCAL\TEMP\0000GB2H025O.TMP;Ultimo Control activo:
 23-09-2024 10:01:16 , Nº de Linea :         23
 23-09-2024 10:01:16 , En el Fuente: 	this.sync_load.idclave = OscSync.id
 01-10-2024 11:14:00 , REGFACVTAPUB.CMDSALVAR.CLICK, Error: COLUMN1 es un miembro desconocido.;Linea : .containervariedad.grid1.column1.ControlSource = "nombre";Error :       1925;Ultimo Alias Activo: CSRSUBPRODUCTO;Ultimo registro:          1 ;DBF: C:\US
+
+
+
 
 
 
@@ -2225,6 +2227,9 @@ ERS\MARCOS\APPDATA\LOCAL\TEMP\0000NW9500LG.TMP;Ultimo Control activo:
 
 
 
+
+
+
 ERS\MARCOS\APPDATA\LOCAL\TEMP\0000NW9501GN.TMP;Ultimo Control activo: 
 01-10-2024 12:02:21 , Pila de llamadas
 01-10-2024 12:02:22 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -2363,6 +2368,9 @@ ERS\MARCOS\APPDATA\LOCAL\TEMP\0000NW9501GN.TMP;Ultimo Control activo:
 
 
 
+
+
+
       100 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000NW9502PT.TMP;Ultimo Control activo: 
 01-10-2024 12:17:27 , Pila de llamadas
 01-10-2024 12:17:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvtapub_v2_c.sct
@@ -2398,6 +2406,9 @@ ERS\MARCOS\APPDATA\LOCAL\TEMP\0000NW9501GN.TMP;Ultimo Control activo:
 01-10-2024 12:17:42 , Nº de Linea :         29
 01-10-2024 12:17:43 , En el Fuente: SELECT Csrprodfzavta
 01-10-2024 12:20:34 , REGFACVTAPUB.CMDSALVAR.CLICK, Error: COLUMN1 es un miembro desconocido.;Linea : .containervariedad.grid1.column1.ControlSource = "nombre";Error :       1925;Ultimo Alias Activo: CSRSUBPRODUCTO;Ultimo registro:          1 ;DBF: C:\US
+
+
+
 
 
 
@@ -2573,6 +2584,9 @@ ERS\MARCOS\APPDATA\LOCAL\TEMP\0000NW9503D9.TMP;Ultimo Control activo:
 
 
 
+
+
+
 ,00000000.00 as wcampo07 ,00000000.00 as wcampo08,space(10) as wcampo09 from CsrProducto order by cnombre into cursor _CsrProducto READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 01-10-2024 16:20:45 , Pila de llamadas
 01-10-2024 16:20:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
@@ -2585,6 +2599,9 @@ ERS\MARCOS\APPDATA\LOCAL\TEMP\0000NW9503D9.TMP;Ultimo Control activo:
 01-10-2024 16:20:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
 01-10-2024 16:20:48 , Nº de Linea :         29
 01-10-2024 16:20:48 , En el Fuente: SELECT 0 as ok,CsrProducto.nombre as cnombre,CsrProducto.numero as cnumero,CsrProducto.id as cid         ,SPACE(10) as wcampo05,space(10) as wcampo06,00000000.00 as wcampo07         ,00000000.00 as wcampo08,space(10) a
+
+
+
 
 
 
@@ -2676,6 +2693,9 @@ s wcampo09       from CsrProducto       order by cnombre into cursor _CsrProduct
 
 
 
+
+
+
 ATA\LOCAL\TEMP\0000INM101AW.TMP;Ultimo Control activo: 
 01-10-2024 16:24:48 , Pila de llamadas
 01-10-2024 16:24:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
@@ -2684,6 +2704,9 @@ ATA\LOCAL\TEMP\0000INM101AW.TMP;Ultimo Control activo:
 01-10-2024 16:24:50 , Nº de Linea :         13
 01-10-2024 16:24:50 , En el Fuente: CASE this._ogrupoestado.Value = 2
 01-10-2024 16:25:23 , LISINVENTARIO.CMDCARGAGRILLA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : IF LEN(LTRIM(lcidestado  ))=0;Error :         11;Ultimo Alias Activo: _CSRFAMILIA;Ultimo registro:          1 CNU
+
+
+
 
 
 
@@ -2779,6 +2802,9 @@ MERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000INM101CX.TMP;Ultimo Control act
 
 
 
+
+
+
 ,00000000.00 as wcampo07 ,00000000.00 as wcampo08,space(10) as wcampo09 from CsrProducto order by cnombre into cursor _CsrProducto READWRITE;Error :          1;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 01-10-2024 16:27:12 , Pila de llamadas
 01-10-2024 16:27:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisinventario.sct
@@ -2828,8 +2854,14 @@ MERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000INM101CX.TMP;Ultimo Control act
 
 
 
+
+
+
 s wcampo09       from CsrProducto       order by cnombre into cursor _CsrProducto READWRITE 
 01-10-2024 17:47:08 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias.;Linea : IF RECCOUNT('CsrDecimal')#0;Error :         13;Ultimo Alias Activo: CSRFUERZAVTA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDAT
+
+
+
 
 
 
@@ -2911,8 +2943,14 @@ A\LOCAL\TEMP\0000ZEH5001A.TMP;Ultimo Control activo:
 
 
 
+
+
+
 ZEH501N1.TMP;Ultimo Control activo: 
 02-10-2024 10:15:14 , ABMPRODUCTO.FITRARCMD.CLICK, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena;Error :         13;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activ
+
+
+
 
 
 
@@ -2982,6 +3020,9 @@ o:
 
 
 
+
+
+
 o: 
 02-10-2024 10:17:38 , Pila de llamadas
 02-10-2024 10:17:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmproducto.sct
@@ -3018,8 +3059,14 @@ o:
 
 
 
+
+
+
 r ORDER BY nomvendedor,orden,cfecha,nomcliente INTO CURSOR CsrImprimir READWRITE;Error :          1;Ultimo Alias Activo: _CSRVENDEDOR;Ultimo registro:        105 CNUMERO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00007ZM1031P.TMP;Ultimo Control activo: 
 15-10-2024 07:53:57 , EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK, Error: Error de sintaxis.;Linea : SELECT * FROM CsrEstadistica INTO CURSOR &(this.nombrecursor) READWRITE;Error :         10;Ultimo Alias Activo: CSRESTADISTICA;Ultimo registro:  
+
+
+
 
 
 
@@ -3075,7 +3122,13 @@ r ORDER BY nomvendedor,orden,cfecha,nomcliente INTO CURSOR CsrImprimir READWRITE
 
 
 
+
+
+
 ltos from csraux GROUP BY idvendedor,codvendedor,nomvendedor,idarticulo,codigo,articulo,canbultos order BY idvendedor,importefinal desc into cursor csraux3;Error :       1808;Ultimo Alias Activo: CSRAUX;Ultimo registro:       3040 ;DBF: C:\USERS\MARCOS\A
+
+
+
 
 
 
@@ -3120,8 +3173,14 @@ PPDATA\LOCAL\TEMP\0000EI2X01KT.TMP;Ultimo Control activo:
 
 
 
+
+
+
 rder BY idvendedor,importefinal descinto cursor csraux3
 15-10-2024 08:31:35 , EST_RANKPRODUCTOS.KITGRILLATILDARSTOCK.INIT, Error: El archivo 'csrproducto.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc
+
+
+
 
 
 
@@ -3147,8 +3206,14 @@ rder BY idvendedor,importefinal descinto cursor csraux3
 
 
 
+
+
+
 ursor &micursor READWRITE
 05-11-2024 11:15:33 , REGFACVTA_V2.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS, Error: No se encuentra la variable 'NIDOPERACION'.;Linea : GO TOP;Error :         12;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCOS\A
+
+
+
 
 
 
@@ -3173,6 +3238,9 @@ PPDATA\LOCAL\TEMP\00005X5501C1.TMP;Ultimo Control activo: IDCOMPROBA
 
 
 
+
+
+
  CSRAUXCUERFAC;Ultimo registro:          1 REGISTRO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00005X5501C1.TMP;Ultimo Control activo: IDCOMPROBA
 05-11-2024 11:15:42 , Pila de llamadas
 05-11-2024 11:15:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
@@ -3190,3 +3258,18 @@ PPDATA\LOCAL\TEMP\00005X5501C1.TMP;Ultimo Control activo: IDCOMPROBA
 05-11-2024 11:15:44 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v2.sct
 05-11-2024 11:15:44 , Nº de Linea :         13
 05-11-2024 11:15:45 , En el Fuente:           loObjcol.controlsource = lCaliasNavega+'.'+lccadena
+27-11-2024 12:13:52 , FRMMENU1.TREEVIEW.DBLCLICK, Error: El archivo 'j:\xsoftsr\proyectos\starossa\lispatroncarga*.scx' no existe.;Linea : DO FORM &lcForm;Error :          1;Ultimo Alias Activo: CSRKEY;Ultimo registro:          3 ;DBF: C:\USERS\MARCOS\AP
+
+
+PDATA\LOCAL\TEMP\0000DSEH00MV.TMP;Ultimo Control activo: 
+27-11-2024 12:13:52 , Pila de llamadas
+27-11-2024 12:13:52 , Programa    : j:\xsoftsr\desarrollo\forms\frmmenu.sct
+27-11-2024 12:13:52 , Objeto      : frmmenu1.treeview.dblclick
+27-11-2024 12:13:52 , Base Objeto : j:\xsoftsr\desarrollo\forms\frmmenu.sct
+27-11-2024 12:13:52 , Nº de Linea :         10
+27-11-2024 12:13:53 , En el Fuente: 	   &lcCmd
+27-11-2024 12:13:53 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+27-11-2024 12:13:53 , Objeto      : ejecutamenu
+27-11-2024 12:13:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+27-11-2024 12:13:53 , Nº de Linea :       2204
+27-11-2024 12:13:53 , En el Fuente: 					 DO FORM &lcForm

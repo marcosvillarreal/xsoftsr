@@ -40,7 +40,7 @@ NEXT
 *!*							2	N= comprobante originado por facturacion nota pedido (form facpedido)
 *!*							3   0 = no es vale , 1 = es vale
 *!*							4	1=factura al costo
-*!*							5
+*!*							5   1=factura de reparto
 
 *!*	 CABEORD.switch				1	1 = tope facturado 0=tope limite
 *!*								2	

@@ -67,7 +67,7 @@ NEXT
 *!*								5
  							   						 
 
-*!*	 MOVSTOCK.switch			1	1= es envase
+*!*	 MOVSTOCK.switch			1	1= es envase,2=regalo
 *!*								2   0=stock real   1=stock disponible
 *!*								3	1=descarga
 *!*								4	1=no muestra el substock/manda a saldo anterior resstock
