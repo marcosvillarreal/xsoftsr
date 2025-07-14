@@ -1,203 +1,11 @@
-11-02-2025 08:47:36 , Nº de Linea :       2280
-11-02-2025 08:47:37 , En el Fuente: lok =CrearCursorAdapter("Csrempresa",lcCmd)
-11-02-2025 08:47:37 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
-11-02-2025 08:47:37 , Objeto      : crearcursoradapter
-11-02-2025 08:47:37 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
-11-02-2025 08:47:37 , Nº de Linea :       2135
-11-02-2025 08:47:37 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
-19-02-2025 11:34:32 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          0 ;DBF: ;Ultimo Control activo: 
-19-02-2025 11:34:33 , Pila de llamadas
-19-02-2025 11:34:34 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 11:34:34 , Objeto      : abmproducto.contenedor1.pframe1.page1.kitbuscaoaltaenabm1.txtid.init
 19-02-2025 11:34:34 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 19-02-2025 11:34:34 , Nº de Linea :          2
 19-02-2025 11:34:34 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
 19-02-2025 11:34:39 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro:
+
+
+
+
 
 
 
@@ -565,6 +373,10 @@
 
 
 
+
+
+
+
 F: ;Ultimo Control activo: 
 19-02-2025 12:13:28 , Pila de llamadas
 19-02-2025 12:13:29 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -578,6 +390,10 @@ F: ;Ultimo Control activo:
 19-02-2025 12:13:30 , Nº de Linea :        379
 19-02-2025 12:13:30 , En el Fuente: IF this.chkcombos.Value = 1 &&AND 	lnchkpromocion = 0
 19-02-2025 12:16:22 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'ID1'.;Linea : INDEX on id1 TAG id1;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA
+
+
+
+
 
 
 
@@ -934,6 +750,10 @@ F: ;Ultimo Control activo:
 
 
 
+
+
+
+
 R(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D02ED.TMP;Ultimo Control activo: 
 19-02-2025 12:20:23 , Pila de llamadas
 19-02-2025 12:20:23 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -947,6 +767,10 @@ R(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D02ED.TMP;Ultim
 19-02-2025 12:20:25 , Nº de Linea :        405
 19-02-2025 12:20:26 , En el Fuente: 	   lcclave  = CsrCursor.rubro+&lcOrden   
 19-02-2025 12:22:57 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'RUBRO'.;Linea : lcclave  = CsrCursor.rubro+&lcOrden;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 GRUPODATO+ST
+
+
+
+
 
 
 
@@ -1283,6 +1107,10 @@ R(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D02K9.TMP;Ultim
 
 
 
+
+
+
+
 RCOS\APPDATA\LOCAL\TEMP\0004IH3D03IP.TMP;Ultimo Control activo: 
 19-02-2025 12:40:13 , Pila de llamadas
 19-02-2025 12:40:14 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1296,6 +1124,10 @@ RCOS\APPDATA\LOCAL\TEMP\0004IH3D03IP.TMP;Ultimo Control activo:
 19-02-2025 12:40:15 , Nº de Linea :        389
 19-02-2025 12:40:15 , En el Fuente: 	SELECT CsrCursor 
 19-02-2025 12:42:45 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : IF ._ogruporden.Value<>1;Error :       1940;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Contro
+
+
+
+
 
 
 
@@ -1618,6 +1450,10 @@ l activo:
 
 
 
+
+
+
+
 (IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D03NG.TMP;Ultimo Control activo: 
 19-02-2025 12:43:45 , Pila de llamadas
 19-02-2025 12:43:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1636,6 +1472,10 @@ l activo:
 19-02-2025 12:43:48 , Nº de Linea :          2
 19-02-2025 12:43:48 , En el Fuente: lobjprecio.ivari   = CsrCursor.tasa
 19-02-2025 12:44:34 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'NOMBRE1'.;Linea : lcclave  = CsrCursor.nomrubro+&lcOrden;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 GRUPODA
+
+
+
+
 
 
 
@@ -1939,6 +1779,10 @@ TO+STR(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D03PK.TMP;
 
 
 
+
+
+
+
  activo: 
 19-02-2025 12:48:52 , Pila de llamadas
 19-02-2025 12:48:52 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -1952,6 +1796,10 @@ TO+STR(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D03PK.TMP;
 19-02-2025 12:48:53 , Nº de Linea :        381
 19-02-2025 12:48:54 , En el Fuente: 	IF ._ogruporden.Value=1
 19-02-2025 12:49:28 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSOR'.;Linea : SELECT CsrCursor;Error :         13;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:        282 VAL(CNUMERO);DBF: C:\USERS\MA
+
+
+
+
 
 
 
@@ -2238,6 +2086,10 @@ RCOS\APPDATA\LOCAL\TEMP\0004IH3D040X.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 RCOS\APPDATA\LOCAL\TEMP\0004IH3D043Q.TMP;Ultimo Control activo: 
 19-02-2025 12:50:40 , Pila de llamadas
 19-02-2025 12:50:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -2251,6 +2103,10 @@ RCOS\APPDATA\LOCAL\TEMP\0004IH3D043Q.TMP;Ultimo Control activo:
 19-02-2025 12:50:42 , Nº de Linea :        395
 19-02-2025 12:50:42 , En el Fuente: 	SELECT CsrCursor 
 21-02-2025 08:42:32 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: CHKCOMBO es un miembro desconocido.;Linea : IF .chkcombo.Value=1;Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          9 CLAVE;DBF: C:\USERS\MARCOS
+
+
+
+
 
 
 
@@ -2518,7 +2374,15 @@ RCOS\APPDATA\LOCAL\TEMP\0004IH3D043Q.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
  as wcampo07 ,00000000.00 as wcampo08,space(10) as wcampo09 from CsrCtacte WHERE ctadeudor=1 order by cnombre into cursor _CsrCtacte READWRITE;Error :       1806;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOC
+
+
+
+
 
 
 
@@ -2777,10 +2641,18 @@ AL\TEMP\0003X0Y100QE.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
  as wcampo09		       from CsrCtacte WHERE ctadeudor=1		       order by cnombre into cursor _CsrCtacte READWRITE 
 27-02-2025 17:35:24 , ON..., Error: El archivo memo c:\users\marcos\appdata\local\temp\0003fjt500i0.frt no existe o no es válido.;Linea : ...;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 27-02-2025 17:35:24 , Pila de llamadas
 27-02-2025 17:36:27 , LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : INDEX on cnombre+DTOS(TTOD(vencimien)) TAG cnombre;Error :         11;Ultimo Alias Activo: CSRIMP
+
+
+
+
 
 
 
@@ -3027,6 +2899,10 @@ RIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003F
 
 
 
+
+
+
+
  Alias Activo: CSRIMPRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003FJT500Q6.TMP;Ultimo Control activo: 
 27-02-2025 17:37:19 , Pila de llamadas
 27-02-2025 17:37:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3040,6 +2916,10 @@ RIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003F
 27-02-2025 17:37:21 , Nº de Linea :         90
 27-02-2025 17:37:21 , En el Fuente: INDEX on cnombre+DTOS(TTOD(fecdesde))+DTOS(TTOD(vencimien)) TAG cnombre
 27-02-2025 17:46:26 , LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'IDVDOR'.;Linea : INDEX on STR(idvdor)+cnombre+DTOS(ctod(fecdesde))+DTOS(ctod(vencimien)) TAG orden;Error :         12;Ultimo Alias Activo: CSRIM
+
+
+
+
 
 
 
@@ -3268,6 +3148,10 @@ PRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\M
 
 
 
+
+
+
+
       11;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003FJT5019D.TMP;Ultimo Control activo: 
 27-02-2025 17:47:36 , Pila de llamadas
 27-02-2025 17:47:36 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3281,6 +3165,10 @@ PRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\M
 27-02-2025 17:47:37 , Nº de Linea :         97
 27-02-2025 17:47:37 , En el Fuente: 	INDEX on STR(idvdor)+STR(cnumero)+DTOS(ctod(fecdesde))+DTOS(ctod(vencimien)) TAG orden
 27-02-2025 17:48:28 , LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'IDCTACTE'.;Linea : nIdCtacte	= CsrImprimir.idctacte;Error :         12;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          1 CNOMBRE+DTOS
+
+
+
+
 
 
 
@@ -3494,6 +3382,10 @@ PRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\M
 
 
 
+
+
+
+
   4 DTOS(FECHA)+STR(ID,12);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003NCP5013R.TMP;Ultimo Control activo: 
 28-02-2025 12:57:51 , Pila de llamadas
 28-02-2025 12:57:52 , Programa    : j:\xsoftsr\proyectos\starossa\forms\impuctacte.sct
@@ -3507,6 +3399,10 @@ PRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\M
 28-02-2025 12:57:53 , Nº de Linea :         38
 28-02-2025 12:57:53 , En el Fuente:  local lcidrecno,lcidrecnoestaba,lnimporte,lngrupoactual,lnorden,lnimpcta
 28-02-2025 18:51:54 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
 
 
 
@@ -3705,6 +3601,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
 ,12);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003NCP501LI.TMP;Ultimo Control activo: 
 28-02-2025 20:10:44 , Pila de llamadas
 28-02-2025 20:10:44 , Programa    : j:\xsoftsr\proyectos\starossa\clases\controleslocal.vct
@@ -3723,6 +3623,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 28-02-2025 20:10:47 , Nº de Linea :         33
 28-02-2025 20:10:48 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
 05-03-2025 07:14:24 , IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRMOVCTACTE'.;Linea : Sele Csrmovctacte;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID,12);DBF: C:\USER
+
+
+
+
 
 
 
@@ -3893,6 +3797,10 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0004XOUH003D.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 RCOS\APPDATA\LOCAL\TEMP\0004XOUH013D.TMP;Ultimo Control activo: 
 05-03-2025 09:35:44 , Pila de llamadas
 05-03-2025 09:35:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\impuctacte.sct
@@ -3906,6 +3814,10 @@ RCOS\APPDATA\LOCAL\TEMP\0004XOUH013D.TMP;Ultimo Control activo:
 05-03-2025 09:35:46 , Nº de Linea :         34
 05-03-2025 09:35:46 , En el Fuente: 	lObjparametro.idorigen = CsrAuxComprobante.id
 05-03-2025 10:08:37 , IMPUCTACTE.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID
+
+
+
+
 
 
 
@@ -4064,6 +3976,10 @@ RCOS\APPDATA\LOCAL\TEMP\0004XOUH013D.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 ,12);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH0091.TMP;Ultimo Control activo: 
 05-03-2025 10:54:55 , Pila de llamadas
 05-03-2025 10:54:56 , Programa    : j:\xsoftsr\proyectos\starossa\clases\controleslocal.vct
@@ -4082,6 +3998,10 @@ RCOS\APPDATA\LOCAL\TEMP\0004XOUH013D.TMP;Ultimo Control activo:
 05-03-2025 10:54:58 , Nº de Linea :         33
 05-03-2025 10:54:58 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
 05-03-2025 11:32:01 , IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRMOVCTACTE'.;Linea : Sele Csrmovctacte;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID,12);DBF: C:\USER
+
+
+
+
 
 
 
@@ -4213,6 +4133,10 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00DO.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00FM.TMP;Ultimo Control activo: 
 05-03-2025 12:02:46 , Pila de llamadas
 05-03-2025 12:02:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\impuctacte.sct
@@ -4226,6 +4150,10 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00FM.TMP;Ultimo Control activo:
 05-03-2025 12:02:48 , Nº de Linea :         43
 05-03-2025 12:02:48 , En el Fuente: Sele Csrmovctacte
 05-03-2025 13:05:32 , IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRMOVCTACTE'.;Linea : Sele Csrmovctacte;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID,12);DBF: C:\USER
+
+
+
+
 
 
 
@@ -4341,6 +4269,10 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00VQ.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 campo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXFECHA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0007FG9500F2.TMP;Ultimo Control activo: 
 06-03-2025 17:13:58 , Pila de llamadas
 06-03-2025 17:13:59 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4395,8 +4327,16 @@ campo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error : 
 
 
 
+
+
+
+
 ursor &micursor READWRITE
 06-03-2025 17:18:02 , IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRMOVCTACTE'.;Linea : Sele Csrmovctacte;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID,12);DBF: C:\USER
+
+
+
+
 
 
 
@@ -4498,6 +4438,10 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0007FG9500QV.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
 \LOCAL\TEMP\0000KHL500X5.TMP;Ultimo Control activo: 
 07-04-2025 09:41:26 , Pila de llamadas
 07-04-2025 09:41:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
@@ -4511,6 +4455,10 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0007FG9500QV.TMP;Ultimo Control activo:
 07-04-2025 09:41:28 , Nº de Linea :         27
 07-04-2025 09:41:29 , En el Fuente: IF !thisform.obtenerdatos('Csrcomprobante',lccmd)
 24-04-2025 10:25:41 , PLANILLAPARAPEDIDOS.KITGRILLATILDARSTOCK.INIT, Error: El archivo 'csrproducto.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&
+
+
+
+
 
 
 
@@ -4593,8 +4541,16 @@ lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;
 
 
 
+
+
+
+
 ursor &micursor READWRITE
 24-04-2025 10:27:09 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
 
 
 
@@ -4679,6 +4635,10 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
 lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXDEP;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000C7PL00Y0.TMP;Ultimo Control activo: 
 24-04-2025 10:53:22 , Pila de llamadas
 24-04-2025 10:53:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4714,8 +4674,16 @@ lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;
 
 
 
+
+
+
+
 ursor &micursor READWRITE
 12-06-2025 08:35:06 , REGFACVTA_V3.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:    
+
+
+
+
 
 
 
@@ -4790,6 +4758,10 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
       4 REGISTRO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00004IRT005K.TMP;Ultimo Control activo: 
 12-06-2025 09:05:40 , Pila de llamadas
 12-06-2025 09:05:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
@@ -4818,6 +4790,10 @@ ursor &micursor READWRITE
 12-06-2025 09:05:48 , Nº de Linea :        323
 12-06-2025 09:05:48 , En el Fuente: 		GATHER NAME Oscatter
 12-06-2025 09:17:04 , REGFACVTA_V3.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:    
+
+
+
+
 
 
 
@@ -4867,3 +4843,18 @@ ursor &micursor READWRITE
 18-06-2025 10:35:58 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
 18-06-2025 10:35:58 , Nº de Linea :         16
 18-06-2025 10:35:58 , En el Fuente: IF RECCOUNT('CsrDecimal')#0
+14-07-2025 10:48:43 , ABMUNIFICADOR.CMDSALVAR.CLICK, Error: SYNC_LOAD es un miembro desconocido.;Linea : this.sync_load.idclave = CsrCabeUnifica.id;Error :       1925;Ultimo Alias Activo: CSRCABEUNIFICA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\A
+
+
+PPDATA\LOCAL\TEMP\0000IFIH0051.TMP;Ultimo Control activo: 
+14-07-2025 10:48:44 , Pila de llamadas
+14-07-2025 10:48:45 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
+14-07-2025 10:48:45 , Objeto      : abmunificador.cmdsalvar.click
+14-07-2025 10:48:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\forms.vct
+14-07-2025 10:48:45 , Nº de Linea :         11
+14-07-2025 10:48:46 , En el Fuente: 			.sync()
+14-07-2025 10:48:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\abmunificador.sct
+14-07-2025 10:48:46 , Objeto      : abmunificador.sync
+14-07-2025 10:48:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmunificador.sct
+14-07-2025 10:48:47 , Nº de Linea :          1
+14-07-2025 10:48:47 , En el Fuente: this.sync_load.idclave = CsrCabeUnifica.id
