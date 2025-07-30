@@ -1,3015 +1,3 @@
-19-02-2025 11:34:34 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 11:34:34 , Nº de Linea :          2
-19-02-2025 11:34:34 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
-19-02-2025 11:34:39 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          0 ;DBF: ;Ultimo Control activo: 
-19-02-2025 11:34:40 , Pila de llamadas
-19-02-2025 11:34:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 11:34:40 , Objeto      : abmproducto.contenedor1.pframe1.page1.kitbuscaoaltaenabm1.txtid.init
-19-02-2025 11:34:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 11:34:41 , Nº de Linea :          2
-19-02-2025 11:34:41 , En el Fuente: this.controlsource=this.parent.controlsourcetxtid
-19-02-2025 12:13:27 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: CHKCOMBOS es un miembro desconocido.;Linea : IF this.chkcombos.Value = 1 &&AND 	lnchkpromocion = 0;Error :       1925;Ultimo Alias Activo: ;Ultimo registro:          0 ;DB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-F: ;Ultimo Control activo: 
-19-02-2025 12:13:28 , Pila de llamadas
-19-02-2025 12:13:29 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:13:29 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:13:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:13:29 , Nº de Linea :          8
-19-02-2025 12:13:29 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:13:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:13:30 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:13:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:13:30 , Nº de Linea :        379
-19-02-2025 12:13:30 , En el Fuente: IF this.chkcombos.Value = 1 &&AND 	lnchkpromocion = 0
-19-02-2025 12:16:22 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'ID1'.;Linea : INDEX on id1 TAG id1;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\LOCAL\TEMP\0004IH3D027K.TMP;Ultimo Control activo: 
-19-02-2025 12:16:22 , Pila de llamadas
-19-02-2025 12:16:23 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:16:23 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:16:23 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:16:24 , Nº de Linea :          8
-19-02-2025 12:16:24 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:16:24 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:16:24 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:16:24 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:16:25 , Nº de Linea :        391
-19-02-2025 12:16:25 , En el Fuente: 	INDEX on id1 TAG id1
-19-02-2025 12:20:23 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'RUBRO'.;Linea : lcclave  = CsrCursor.rubro+&lcOrden;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 GRUPODATO+ST
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-R(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D02ED.TMP;Ultimo Control activo: 
-19-02-2025 12:20:23 , Pila de llamadas
-19-02-2025 12:20:23 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:20:23 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:20:24 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:20:24 , Nº de Linea :          8
-19-02-2025 12:20:24 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:20:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:20:25 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:20:25 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:20:25 , Nº de Linea :        405
-19-02-2025 12:20:26 , En el Fuente: 	   lcclave  = CsrCursor.rubro+&lcOrden   
-19-02-2025 12:22:57 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'RUBRO'.;Linea : lcclave  = CsrCursor.rubro+&lcOrden;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 GRUPODATO+ST
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-R(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D02K9.TMP;Ultimo Control activo: 
-19-02-2025 12:22:57 , Pila de llamadas
-19-02-2025 12:22:57 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:22:57 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:22:57 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:22:58 , Nº de Linea :          8
-19-02-2025 12:22:58 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:22:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:22:59 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:22:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:22:59 , Nº de Linea :        405
-19-02-2025 12:22:59 , En el Fuente: 	   lcclave  = CsrCursor.rubro+&lcOrden   
-19-02-2025 12:40:13 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSOR'.;Linea : SELECT CsrCursor;Error :         13;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:        282 VAL(CNUMERO);DBF: C:\USERS\MA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RCOS\APPDATA\LOCAL\TEMP\0004IH3D03IP.TMP;Ultimo Control activo: 
-19-02-2025 12:40:13 , Pila de llamadas
-19-02-2025 12:40:14 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:40:14 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:40:14 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:40:14 , Nº de Linea :          8
-19-02-2025 12:40:14 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:40:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:40:15 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:40:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:40:15 , Nº de Linea :        389
-19-02-2025 12:40:15 , En el Fuente: 	SELECT CsrCursor 
-19-02-2025 12:42:45 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : IF ._ogruporden.Value<>1;Error :       1940;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Contro
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-l activo: 
-19-02-2025 12:42:45 , Pila de llamadas
-19-02-2025 12:42:45 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:42:45 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:42:45 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:42:46 , Nº de Linea :          8
-19-02-2025 12:42:46 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:42:46 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:42:46 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:42:46 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:42:46 , Nº de Linea :        382
-19-02-2025 12:42:47 , En el Fuente: 	IF ._ogruporden.Value<>1
-19-02-2025 12:43:45 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'TASA'.;Linea : lobjprecio.ivari   = CsrCursor.tasa;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 GRUPODATO+STR
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D03NG.TMP;Ultimo Control activo: 
-19-02-2025 12:43:45 , Pila de llamadas
-19-02-2025 12:43:46 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:43:46 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:43:46 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:43:47 , Nº de Linea :          8
-19-02-2025 12:43:47 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:43:47 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:43:47 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:43:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:43:47 , Nº de Linea :        411
-19-02-2025 12:43:48 , En el Fuente: 	   thisform.calculaprecio()
-19-02-2025 12:43:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:43:48 , Objeto      : listapromocion.calculaprecio
-19-02-2025 12:43:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:43:48 , Nº de Linea :          2
-19-02-2025 12:43:48 , En el Fuente: lobjprecio.ivari   = CsrCursor.tasa
-19-02-2025 12:44:34 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'NOMBRE1'.;Linea : lcclave  = CsrCursor.nomrubro+&lcOrden;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 GRUPODA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TO+STR(IDPROMOCION,10);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D03PK.TMP;Ultimo Control activo: 
-19-02-2025 12:44:34 , Pila de llamadas
-19-02-2025 12:44:34 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:44:34 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:44:34 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:44:35 , Nº de Linea :          8
-19-02-2025 12:44:35 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:44:35 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:44:35 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:44:35 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:44:35 , Nº de Linea :        421
-19-02-2025 12:44:36 , En el Fuente: 	   lcclave  = CsrCursor.nomrubro+&lcOrden   
-19-02-2025 12:48:52 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: La expresión no es válida fuera de WITH/ENDWITH.;Linea : IF ._ogruporden.Value=1;Error :       1940;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- activo: 
-19-02-2025 12:48:52 , Pila de llamadas
-19-02-2025 12:48:52 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:48:52 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:48:52 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:48:53 , Nº de Linea :          8
-19-02-2025 12:48:53 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:48:53 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:48:53 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:48:53 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:48:53 , Nº de Linea :        381
-19-02-2025 12:48:54 , En el Fuente: 	IF ._ogruporden.Value=1
-19-02-2025 12:49:28 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSOR'.;Linea : SELECT CsrCursor;Error :         13;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:        282 VAL(CNUMERO);DBF: C:\USERS\MA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RCOS\APPDATA\LOCAL\TEMP\0004IH3D040X.TMP;Ultimo Control activo: 
-19-02-2025 12:49:28 , Pila de llamadas
-19-02-2025 12:49:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:49:28 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:49:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:49:29 , Nº de Linea :          8
-19-02-2025 12:49:29 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:49:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:49:29 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:49:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:49:30 , Nº de Linea :        395
-19-02-2025 12:49:31 , En el Fuente: 	SELECT CsrCursor 
-19-02-2025 12:50:40 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCURSOR'.;Linea : SELECT CsrCursor;Error :         13;Ultimo Alias Activo: _CSRCTACTE;Ultimo registro:        282 VAL(CNUMERO);DBF: C:\USERS\MA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RCOS\APPDATA\LOCAL\TEMP\0004IH3D043Q.TMP;Ultimo Control activo: 
-19-02-2025 12:50:40 , Pila de llamadas
-19-02-2025 12:50:41 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:50:41 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-19-02-2025 12:50:41 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-19-02-2025 12:50:41 , Nº de Linea :          8
-19-02-2025 12:50:41 , En el Fuente: 	llOK=thisform.CrearInforme()
-19-02-2025 12:50:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:50:42 , Objeto      : listapromocion.crearinforme
-19-02-2025 12:50:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-19-02-2025 12:50:42 , Nº de Linea :        395
-19-02-2025 12:50:42 , En el Fuente: 	SELECT CsrCursor 
-21-02-2025 08:42:32 , LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: CHKCOMBO es un miembro desconocido.;Linea : IF .chkcombo.Value=1;Error :       1925;Ultimo Alias Activo: CSRIMPRIMIR;Ultimo registro:          9 CLAVE;DBF: C:\USERS\MARCOS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\APPDATA\LOCAL\TEMP\0004JOY1001N.TMP;Ultimo Control activo: 
-21-02-2025 08:42:32 , Pila de llamadas
-21-02-2025 08:42:33 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-21-02-2025 08:42:33 , Objeto      : listapromocion.imprimir_vistaprevia1.impresora.click
-21-02-2025 08:42:33 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-21-02-2025 08:42:33 , Nº de Linea :          8
-21-02-2025 08:42:33 , En el Fuente: 	llOK=thisform.CrearInforme()
-21-02-2025 08:42:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-21-02-2025 08:42:33 , Objeto      : listapromocion.crearinforme
-21-02-2025 08:42:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\precio\listapromocion.sct
-21-02-2025 08:42:34 , Nº de Linea :        537
-21-02-2025 08:42:34 , En el Fuente: IF .chkcombo.Value=1
-27-02-2025 16:36:29 , LISVTOCTACTE.CMDCTACTE.CLICK, Error: SQL: no se encuentra la columna 'ID'.;Linea : SELECT 0 as ok,CsrCtacte.cnombre as cnombre,CsrCtacte.cnumero as cnumero,CsrCtacte.id as cid ,SPACE(10) as wcampo05,space(10) as wcampo06,00000000.00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as wcampo07 ,00000000.00 as wcampo08,space(10) as wcampo09 from CsrCtacte WHERE ctadeudor=1 order by cnombre into cursor _CsrCtacte READWRITE;Error :       1806;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOC
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-AL\TEMP\0003X0Y100QE.TMP;Ultimo Control activo: 
-27-02-2025 16:36:29 , Pila de llamadas
-27-02-2025 16:36:30 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisvtoctacte.sct
-27-02-2025 16:36:30 , Objeto      : lisvtoctacte.cmdctacte.click
-27-02-2025 16:36:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisvtoctacte.sct
-27-02-2025 16:36:31 , Nº de Linea :         12
-27-02-2025 16:36:31 , En el Fuente: 	thisform.leerctacte(lcCmdselect)
-27-02-2025 16:36:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisvtoctacte.sct
-27-02-2025 16:36:31 , Objeto      : lisvtoctacte.leerctacte
-27-02-2025 16:36:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisvtoctacte.sct
-27-02-2025 16:36:31 , Nº de Linea :         28
-27-02-2025 16:36:32 , En el Fuente: 		SELECT 0 as ok,CsrCtacte.cnombre as cnombre,CsrCtacte.cnumero as cnumero,CsrCtacte.id as cid		         ,SPACE(10) as wcampo05,space(10) as wcampo06,00000000.00 as wcampo07		         ,00000000.00 as wcampo08,space(10)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- as wcampo09		       from CsrCtacte WHERE ctadeudor=1		       order by cnombre into cursor _CsrCtacte READWRITE 
-27-02-2025 17:35:24 , ON..., Error: El archivo memo c:\users\marcos\appdata\local\temp\0003fjt500i0.frt no existe o no es válido.;Linea : ...;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
-27-02-2025 17:35:24 , Pila de llamadas
-27-02-2025 17:36:27 , LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : INDEX on cnombre+DTOS(TTOD(vencimien)) TAG cnombre;Error :         11;Ultimo Alias Activo: CSRIMP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RIMIR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003FJT500OF.TMP;Ultimo Control activo: 
-27-02-2025 17:36:27 , Pila de llamadas
-27-02-2025 17:36:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-27-02-2025 17:36:28 , Objeto      : lisvtoctacte.imprimir_vistaprevia1.impresora.click
-27-02-2025 17:36:29 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-27-02-2025 17:36:29 , Nº de Linea :          8
-27-02-2025 17:36:29 , En el Fuente: 	llOK=thisform.CrearInforme()
-27-02-2025 17:36:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisvtoctacte.sct
-27-02-2025 17:36:29 , Objeto      : lisvtoctacte.crearinforme
-27-02-2025 17:36:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisvtoctacte.sct
-27-02-2025 17:36:30 , Nº de Linea :         60
-27-02-2025 17:36:30 , En el Fuente: INDEX on cnombre+DTOS(TTOD(vencimien)) TAG cnombre
-27-02-2025 17:37:19 , LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : INDEX on cnombre+DTOS(TTOD(fecdesde))+DTOS(TTOD(vencimien)) TAG cnombre;Error :         11;Ultimo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- Alias Activo: CSRIMPRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003FJT500Q6.TMP;Ultimo Control activo: 
-27-02-2025 17:37:19 , Pila de llamadas
-27-02-2025 17:37:19 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-27-02-2025 17:37:19 , Objeto      : lisvtoctacte.imprimir_vistaprevia1.impresora.click
-27-02-2025 17:37:20 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-27-02-2025 17:37:20 , Nº de Linea :          8
-27-02-2025 17:37:20 , En el Fuente: 	llOK=thisform.CrearInforme()
-27-02-2025 17:37:20 , Programa    : j:\xsoftsr\proyectos\starossa\forms\lisvtoctacte.sct
-27-02-2025 17:37:21 , Objeto      : lisvtoctacte.crearinforme
-27-02-2025 17:37:21 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\lisvtoctacte.sct
-27-02-2025 17:37:21 , Nº de Linea :         90
-27-02-2025 17:37:21 , En el Fuente: INDEX on cnombre+DTOS(TTOD(fecdesde))+DTOS(TTOD(vencimien)) TAG cnombre
-27-02-2025 17:46:26 , LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'IDVDOR'.;Linea : INDEX on STR(idvdor)+cnombre+DTOS(ctod(fecdesde))+DTOS(ctod(vencimien)) TAG orden;Error :         12;Ultimo Alias Activo: CSRIM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3043,6 +31,72 @@ PRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\M
 27-02-2025 17:46:28 , Nº de Linea :         94
 27-02-2025 17:46:29 , En el Fuente: INDEX on STR(idvdor)+cnombre+DTOS(ctod(fecdesde))+DTOS(ctod(vencimien)) TAG orden
 27-02-2025 17:47:35 , LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : INDEX on STR(idvdor)+STR(cnumero)+DTOS(ctod(fecdesde))+DTOS(ctod(vencimien)) TAG orden;Error :   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3270,6 +324,72 @@ PRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\M
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 (CTOD(VENCIMIEN));DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003FJT501B8.TMP;Ultimo Control activo: 
 27-02-2025 17:48:28 , Pila de llamadas
 27-02-2025 17:48:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -3285,6 +405,72 @@ PRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\M
 27-02-2025 17:50:59 , ON..., Error: El archivo memo c:\users\marcos\appdata\local\temp\0003fjt501dz.frt no existe o no es válido.;Linea : ...;Error :         41;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 27-02-2025 17:50:59 , Pila de llamadas
 28-02-2025 12:57:51 , IMPUCTACTE.KEYPRESS, Error: Redefinición no válida de la variable LCIDRECNO.;Linea : local lcidrecno,lcidrecnoestaba,lnimporte,lngrupoactual,lnorden,lnimpcta;Error :       1960;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3496,6 +682,72 @@ PRIMIR;Ultimo registro:         40 CNOMBRE+DTOS(CTOD(VENCIMIEN));DBF: C:\USERS\M
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 28-02-2025 18:51:54 , Pila de llamadas
 28-02-2025 18:51:55 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -3514,6 +766,72 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 28-02-2025 18:51:57 , Nº de Linea :       2135
 28-02-2025 18:51:57 , En el Fuente:    Orslista.ActiveConnection = loConnDataSource
 28-02-2025 20:10:43 , IMPUCTACTE.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3708,6 +1026,72 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 S\MARCOS\APPDATA\LOCAL\TEMP\0004XOUH003D.TMP;Ultimo Control activo: 
 05-03-2025 07:14:24 , Pila de llamadas
 05-03-2025 07:14:25 , Programa    : j:\xsoftsr\proyectos\starossa\forms\impuctacte.sct
@@ -3721,6 +1105,72 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0004XOUH003D.TMP;Ultimo Control activo:
 05-03-2025 07:14:27 , Nº de Linea :         43
 05-03-2025 07:14:27 , En el Fuente: Sele Csrmovctacte
 05-03-2025 09:35:44 , IMPUCTACTE.ACEPTAR1.CLICK, Error: No se encuentra el objeto LOBJPARAMETRO.;Linea : lObjparametro.idorigen = CsrAuxComprobante.id;Error :       1923;Ultimo Alias Activo: CSRAUXCOMPROBANTE;Ultimo registro:          1 ;DBF: C:\USERS\MA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3891,6 +1341,72 @@ RCOS\APPDATA\LOCAL\TEMP\0004XOUH013D.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ,12);DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004XOUH017W.TMP;Ultimo Control activo: 
 05-03-2025 10:08:37 , Pila de llamadas
 05-03-2025 10:08:37 , Programa    : j:\xsoftsr\proyectos\starossa\clases\controleslocal.vct
@@ -3909,6 +1425,72 @@ RCOS\APPDATA\LOCAL\TEMP\0004XOUH013D.TMP;Ultimo Control activo:
 05-03-2025 10:08:39 , Nº de Linea :         33
 05-03-2025 10:08:39 , En el Fuente:    IF RECCOUNT(lcaliasseek)#0   
 05-03-2025 10:54:55 , IMPUCTACTE.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT, Error: No se encuentra el alias.;Linea : IF RECCOUNT(lcaliasseek)#0;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4063,6 +1645,72 @@ RCOS\APPDATA\LOCAL\TEMP\0004XOUH013D.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00DO.TMP;Ultimo Control activo: 
 05-03-2025 11:32:02 , Pila de llamadas
 05-03-2025 11:32:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\impuctacte.sct
@@ -4076,6 +1724,72 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00DO.TMP;Ultimo Control activo:
 05-03-2025 11:32:03 , Nº de Linea :         43
 05-03-2025 11:32:04 , En el Fuente: Sele Csrmovctacte
 05-03-2025 12:02:46 , IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRMOVCTACTE'.;Linea : Sele Csrmovctacte;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID,12);DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4207,6 +1921,72 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00FM.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00VQ.TMP;Ultimo Control activo: 
 05-03-2025 13:05:32 , Pila de llamadas
 05-03-2025 13:05:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\impuctacte.sct
@@ -4220,6 +2000,72 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00VQ.TMP;Ultimo Control activo:
 05-03-2025 13:05:33 , Nº de Linea :         43
 05-03-2025 13:05:33 , En el Fuente: Sele Csrmovctacte
 06-03-2025 17:13:57 , LISVTOCTACTE.KITGRILLATILDARCTACTE.INIT, Error: El archivo 'csrctacte.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as w
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4331,8 +2177,140 @@ campo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error : 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 06-03-2025 17:18:02 , IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK, Error: No se encuentra el alias 'CSRMOVCTACTE'.;Linea : Sele Csrmovctacte;Error :         13;Ultimo Alias Activo: CSRAUXCTA;Ultimo registro:          1 DTOS(FECHA)+STR(ID,12);DBF: C:\USER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4442,6 +2420,72 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0007FG9500QV.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \LOCAL\TEMP\0000KHL500X5.TMP;Ultimo Control activo: 
 07-04-2025 09:41:26 , Pila de llamadas
 07-04-2025 09:41:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
@@ -4455,6 +2499,72 @@ S\MARCOS\APPDATA\LOCAL\TEMP\0007FG9500QV.TMP;Ultimo Control activo:
 07-04-2025 09:41:28 , Nº de Linea :         27
 07-04-2025 09:41:29 , En el Fuente: IF !thisform.obtenerdatos('Csrcomprobante',lccmd)
 24-04-2025 10:25:41 , PLANILLAPARAPEDIDOS.KITGRILLATILDARSTOCK.INIT, Error: El archivo 'csrproducto.dbf' no existe.;Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4545,8 +2655,140 @@ lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 24-04-2025 10:27:09 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4639,6 +2881,72 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;Error :          1;Ultimo Alias Activo: CSRAUXDEP;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000C7PL00Y0.TMP;Ultimo Control activo: 
 24-04-2025 10:53:22 , Pila de llamadas
 24-04-2025 10:53:22 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
@@ -4678,8 +2986,140 @@ lc9 as wcampo09 from &lcalias order by &lcorden into cursor &micursor READWRITE;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ursor &micursor READWRITE
 12-06-2025 08:35:06 , REGFACVTA_V3.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4762,6 +3202,72 @@ ursor &micursor READWRITE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       4 REGISTRO;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00004IRT005K.TMP;Ultimo Control activo: 
 12-06-2025 09:05:40 , Pila de llamadas
 12-06-2025 09:05:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\venta\regfacvta_v3.sct
@@ -4790,6 +3296,72 @@ ursor &micursor READWRITE
 12-06-2025 09:05:48 , Nº de Linea :        323
 12-06-2025 09:05:48 , En el Fuente: 		GATHER NAME Oscatter
 12-06-2025 09:17:04 , REGFACVTA_V3.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS, Error: Desbordamiento numérico (se han perdido datos).;Linea : GATHER NAME Oscatter;Error :         39;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4846,6 +3418,72 @@ ursor &micursor READWRITE
 14-07-2025 10:48:43 , ABMUNIFICADOR.CMDSALVAR.CLICK, Error: SYNC_LOAD es un miembro desconocido.;Linea : this.sync_load.idclave = CsrCabeUnifica.id;Error :       1925;Ultimo Alias Activo: CSRCABEUNIFICA;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\A
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 PPDATA\LOCAL\TEMP\0000IFIH0051.TMP;Ultimo Control activo: 
 14-07-2025 10:48:44 , Pila de llamadas
 14-07-2025 10:48:45 , Programa    : j:\xsoftsr\desarrollo\clases\forms.vct
@@ -4858,3 +3496,657 @@ PPDATA\LOCAL\TEMP\0000IFIH0051.TMP;Ultimo Control activo:
 14-07-2025 10:48:47 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\abmunificador.sct
 14-07-2025 10:48:47 , Nº de Linea :          1
 14-07-2025 10:48:47 , En el Fuente: this.sync_load.idclave = CsrCabeUnifica.id
+30-07-2025 10:44:35 , EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: Microsoft Cursor Engine : El proveedor de datos u otro servicio devolvió un estado E_FAIL.;Linea : SELECT * FROM csrauxiliar ORDER BY id INTO CURSOR csraux READWRITE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Error :       1435;Ultimo Alias Activo: CSRAUXILIAR;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD008N.TMP;Ultimo Control activo: 
+30-07-2025 10:44:36 , Pila de llamadas
+30-07-2025 10:44:37 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 10:44:37 , Objeto      : est_ventabonificada.imprimir_vistaprevia1.impresora.click
+30-07-2025 10:44:37 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 10:44:38 , Nº de Linea :          8
+30-07-2025 10:44:38 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 10:44:38 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventabonificada.sct
+30-07-2025 10:44:38 , Objeto      : est_ventabonificada.crearinforme
+30-07-2025 10:44:39 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventabonificada.sct
+30-07-2025 10:44:39 , Nº de Linea :          7
+30-07-2025 10:44:39 , En el Fuente: 	this.crearlistado()
+30-07-2025 10:44:39 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventabonificada.sct
+30-07-2025 10:44:40 , Objeto      : est_ventabonificada.crearlistado
+30-07-2025 10:44:40 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventabonificada.sct
+30-07-2025 10:44:40 , Nº de Linea :        176
+30-07-2025 10:44:40 , En el Fuente: SELECT * FROM csrauxiliar ORDER BY id INTO CURSOR csraux READWRITE 
+30-07-2025 11:46:41 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ");Error :         11;Ultimo Alias Acti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vo: CSRAUX2;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD039R.TMP;Ultimo Control activo: 
+30-07-2025 11:46:41 , Pila de llamadas
+30-07-2025 11:46:42 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:46:42 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:46:42 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:46:42 , Nº de Linea :          8
+30-07-2025 11:46:42 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:46:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:46:43 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:46:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:46:43 , Nº de Linea :          7
+30-07-2025 11:46:43 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:46:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:46:43 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:46:43 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:46:44 , Nº de Linea :        190
+30-07-2025 11:46:44 , En el Fuente: =CrearCursorAdapter('CsrCabeCombo')
+30-07-2025 11:46:44 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+30-07-2025 11:46:44 , Objeto      : crearcursoradapter
+30-07-2025 11:46:45 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+30-07-2025 11:46:45 , Nº de Linea :       2125
+30-07-2025 11:46:45 , En el Fuente: lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ")
+30-07-2025 11:46:55 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ");Error :         11;Ultimo Alias Acti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vo: CSRAUX2;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03AT.TMP;Ultimo Control activo: 
+30-07-2025 11:46:56 , Pila de llamadas
+30-07-2025 11:46:57 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:46:57 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:46:57 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:46:57 , Nº de Linea :          8
+30-07-2025 11:46:57 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:46:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:46:57 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:46:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:46:58 , Nº de Linea :          7
+30-07-2025 11:46:58 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:46:58 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:46:59 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:46:59 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:46:59 , Nº de Linea :        190
+30-07-2025 11:47:00 , En el Fuente: =CrearCursorAdapter('CsrCabeCombo')
+30-07-2025 11:47:00 , Programa    : j:\xsoftsr\proyectos\starossa\progs\proc.fxp
+30-07-2025 11:47:00 , Objeto      : crearcursoradapter
+30-07-2025 11:47:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\progs\proc.prg
+30-07-2025 11:47:01 , Nº de Linea :       2125
+30-07-2025 11:47:01 , En el Fuente: lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ")
+30-07-2025 11:47:27 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: no se encuentra la columna 'IDPROCOMBO'.;Linea : SELECT distinct id,idprocombo,00 as cantidad FROM csraux INTO CURSOR csrauxCombos ORDER BY csraux.id;Error :       1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+806;Ultimo Alias Activo: CSRAUXCABECOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03CD.TMP;Ultimo Control activo: 
+30-07-2025 11:47:28 , Pila de llamadas
+30-07-2025 11:47:28 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:47:28 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:47:28 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:47:29 , Nº de Linea :          8
+30-07-2025 11:47:29 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:47:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:47:29 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:47:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:47:30 , Nº de Linea :          7
+30-07-2025 11:47:30 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:47:31 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:47:31 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:47:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:47:31 , Nº de Linea :        195
+30-07-2025 11:47:31 , En el Fuente: SELECT distinct id,idprocombo,00 as cantidad FROM csraux INTO CURSOR csrauxCombos ORDER BY csraux.id
+30-07-2025 11:48:39 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'IDPROCOMBO'.;Linea : lnidcombo = csraux.idprocombo;Error :         12;Ultimo Alias Activo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03DM.TMP;Ultimo Control activo: 
+30-07-2025 11:48:39 , Pila de llamadas
+30-07-2025 11:48:40 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:48:40 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:48:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:48:40 , Nº de Linea :          8
+30-07-2025 11:48:41 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:48:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:48:41 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:48:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:48:41 , Nº de Linea :          7
+30-07-2025 11:48:41 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:48:42 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:48:42 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:48:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:48:42 , Nº de Linea :        203
+30-07-2025 11:48:43 , En el Fuente: 	lnidcombo = csraux.idprocombo
+30-07-2025 11:49:46 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad IDPROCOMBO.;Linea : DO WHILE NOT EOF() AND lnidmaopera =  OscCombo.id AND lnidcombo = OscCombo.idprocombo;Error :       1734;Ultimo Alias Act
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ivo: CSRAUX;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03FD.TMP;Ultimo Control activo: 
+30-07-2025 11:49:46 , Pila de llamadas
+30-07-2025 11:49:47 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:49:47 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:49:47 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:49:47 , Nº de Linea :          8
+30-07-2025 11:49:48 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:49:48 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:49:48 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:49:48 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:49:48 , Nº de Linea :          7
+30-07-2025 11:49:48 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:49:49 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:49:49 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:49:49 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:49:50 , Nº de Linea :        207
+30-07-2025 11:49:50 , En el Fuente: 	DO WHILE NOT EOF() AND lnidmaopera =  OscCombo.id AND lnidcombo = OscCombo.idprocombo
+30-07-2025 11:50:29 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'IDARTICULO'.;Linea : LOCATE FOR id = OscCombo.idprodcombo AND idarticulo = OscCombo.idarticulo;Error :         12;Ultimo Alias Activo: CSRAUX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CABECOMBO;Ultimo registro:          9 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03HC.TMP;Ultimo Control activo: 
+30-07-2025 11:50:30 , Pila de llamadas
+30-07-2025 11:50:31 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:50:31 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:50:31 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:50:31 , Nº de Linea :          8
+30-07-2025 11:50:32 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:50:32 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:50:32 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:50:33 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:50:33 , Nº de Linea :          7
+30-07-2025 11:50:33 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:50:33 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:50:34 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:50:34 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:50:34 , Nº de Linea :        210
+30-07-2025 11:50:35 , En el Fuente: 		LOCATE FOR id = OscCombo.idprodcombo AND idarticulo = OscCombo.idarticulo
+30-07-2025 11:52:58 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRCABECOMBO'.;Linea : USE IN CsrCabeCombo;Error :         13;Ultimo Alias Activo: CSRAUXCUERCOMBO;Ultimo registro:          1 ;DBF: C:\USERS\MA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RCOS\APPDATA\LOCAL\TEMP\0000IBRD03N0.TMP;Ultimo Control activo: 
+30-07-2025 11:52:58 , Pila de llamadas
+30-07-2025 11:52:59 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:52:59 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:52:59 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:53:00 , Nº de Linea :          8
+30-07-2025 11:53:00 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:53:00 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:53:01 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:53:01 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:53:01 , Nº de Linea :          7
+30-07-2025 11:53:02 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:53:02 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:53:02 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:53:02 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:53:02 , Nº de Linea :        193
+30-07-2025 11:53:02 , En el Fuente: USE IN CsrCabeCombo
+30-07-2025 11:53:38 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra el alias 'CSRAUXCUERCOMBO'.;Linea : replace all verificador WITH 0 IN CsrAuxCuerCombo;Error :         13;Ultimo Alias Activo: CSRAUX;Ultimo registro:     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03O9.TMP;Ultimo Control activo: 
+30-07-2025 11:53:39 , Pila de llamadas
+30-07-2025 11:53:39 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:53:40 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:53:40 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:53:40 , Nº de Linea :          8
+30-07-2025 11:53:40 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:53:40 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:53:40 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:53:41 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:53:41 , Nº de Linea :          7
+30-07-2025 11:53:41 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:53:41 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:53:42 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:53:42 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:53:42 , Nº de Linea :        204
+30-07-2025 11:53:43 , En el Fuente: 	replace all verificador WITH 0 IN CsrAuxCuerCombo 
+30-07-2025 11:55:25 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se puede actualizar el cursor CSRAUXCOMBOS, ya que es sólo de lectura.;Linea : replace cantidad WITH CsrVerif.minimo IN CsrAuxCombos;Error :        111;Ultimo Alias Ac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tivo: CSRAUXCOMBOS;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03QC.TMP;Ultimo Control activo: 
+30-07-2025 11:55:25 , Pila de llamadas
+30-07-2025 11:55:26 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:55:26 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 11:55:26 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 11:55:27 , Nº de Linea :          8
+30-07-2025 11:55:27 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 11:55:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:55:27 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 11:55:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:55:27 , Nº de Linea :          7
+30-07-2025 11:55:28 , En el Fuente: 	this.crearlistado()
+30-07-2025 11:55:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:55:28 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 11:55:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 11:55:29 , Nº de Linea :        225
+30-07-2025 11:55:29 , En el Fuente: 		replace cantidad WITH CsrVerif.minimo IN CsrAuxCombos
+30-07-2025 12:13:24 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la propiedad CANTIDAD.;Linea : replace verificador WITH verificador + (OscCombo.cantidad/CsrAuxCuerCombo.cantidad);Error :       1734;Ultimo Alias Activo:
+
+
+
+
+
+
+
+
+
+
+
+ CSRAUXCUERCOMBO;Ultimo registro:         12 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD04YZ.TMP;Ultimo Control activo: 
+30-07-2025 12:13:25 , Pila de llamadas
+30-07-2025 12:13:25 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 12:13:25 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 12:13:25 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 12:13:26 , Nº de Linea :          8
+30-07-2025 12:13:26 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 12:13:26 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:13:26 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 12:13:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:13:27 , Nº de Linea :          7
+30-07-2025 12:13:27 , En el Fuente: 	this.crearlistado()
+30-07-2025 12:13:27 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:13:27 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 12:13:27 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:13:28 , Nº de Linea :        186
+30-07-2025 12:13:28 , En el Fuente: This.AnalizarCombos()
+30-07-2025 12:13:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:13:29 , Objeto      : est_ventacombos.analizarcombos
+30-07-2025 12:13:29 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:13:29 , Nº de Linea :         34
+30-07-2025 12:13:30 , En el Fuente: 			replace verificador WITH verificador + (OscCombo.cantidad/CsrAuxCuerCombo.cantidad) 
+30-07-2025 12:24:01 , EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'CODPROCOMBO'.;Linea : replace ALL codprocombo WITH CsrAuxCuerCombo.numero, nomprodcombo WITH CsrAuxCuerCombo.nombre cantCbos WITH CsrAuxCombo
+
+
+
+
+
+s.cantidad FOR idprodcombo = CsrAuxCombos.idprodcombo AND id = CsrAuxCombos.id IN CsrAux;Error :         12;Ultimo Alias Activo: CSRAUXCUERCOMBO;Ultimo registro:         12 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD063Y.TMP;Ultimo Control activo: 
+
+
+
+
+
+
+30-07-2025 12:24:01 , Pila de llamadas
+30-07-2025 12:24:02 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 12:24:02 , Objeto      : est_ventacombos.imprimir_vistaprevia1.impresora.click
+30-07-2025 12:24:02 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
+30-07-2025 12:24:03 , Nº de Linea :          8
+30-07-2025 12:24:03 , En el Fuente: 	llOK=thisform.CrearInforme()
+30-07-2025 12:24:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:24:03 , Objeto      : est_ventacombos.crearinforme
+30-07-2025 12:24:04 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:24:04 , Nº de Linea :          7
+30-07-2025 12:24:04 , En el Fuente: 	this.crearlistado()
+30-07-2025 12:24:04 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:24:05 , Objeto      : est_ventacombos.crearlistado
+30-07-2025 12:24:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:24:05 , Nº de Linea :        187
+30-07-2025 12:24:05 , En el Fuente: This.AnalizarCombos()
+30-07-2025 12:24:05 , Programa    : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:24:05 , Objeto      : est_ventacombos.analizarcombos
+30-07-2025 12:24:05 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\estadistica\est_ventacombos.sct
+30-07-2025 12:24:06 , Nº de Linea :         74
+30-07-2025 12:24:06 , En el Fuente: 	replace ALL codprocombo WITH CsrAuxCuerCombo.numero, nomprodcombo WITH CsrAuxCuerCombo.nombre		cantCbos WITH CsrAuxCombos.cantidad FOR idprodcombo = CsrAuxCombos.idprodcombo AND id = CsrAuxCombos.id IN CsrAux

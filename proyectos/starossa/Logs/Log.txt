@@ -1,4 +1,3 @@
-21-03-2024 15:41:26 , Error: El archivo 'csrauxmon.dbf' no existe. Linea : SELECT csrauxmon.*,NVL(csrrendimon.total,0) as total FROM csrauxmon LEFT JOIN csrrendimon ON csrauxmon.id=csrrendimon.id INTO CURSOR CsrAuxPago Error :          1 Ultimo Alias Act
 
 
 
@@ -10,1251 +9,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ivo: CSRRENDIFLE Ultimo registro:         40  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000K5JD0190.TMP Ultimo Control activo:  RINDEARQUEO_V2.GOTFOCUS
-21-03-2024 15:41:38 , Error: El archivo 'csrfle.dbf' no existe. Linea : SELECT csrfle.*,IIF(ISNULL(csraux.total),0,csraux.total)  as total ,IIF(ISNULL(csraux.idarqueo),-1,csraux.idarqueo) as idarqueo FROM csrfle left join csraux on csrfle.id=csraux.id in
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-to cursor csrrendifle Error :          1 Ultimo Alias Activo: CSRRENDIFLE Ultimo registro:         40  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000K5JD0190.TMP Ultimo Control activo:  RINDEARQUEO_V2.GOTFOCUS
-22-03-2024 15:48:26 , Error: No se encuentra el alias 'CSRAUX'. Linea : SELECT CsrAux Error :         13 Ultimo Alias Activo: CSRIMPRIMIR3 Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000HGCP0034.TMP Ultimo Control activo:  LISTA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PADRON.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-12-04-2024 10:38:34 , Error: La sesión de datos nº 3 no se puede liberar si hay transacciones abiertas. Linea : lobjprecio = CREATEOBJECT('custom') Error :       1549 Ultimo Alias Activo: CSRAUXCUERUNIFICAPUB Ultimo registro:          1  DBF: C:\USERS\MA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RCOS\APPDATA\LOCAL\TEMP\0000BY15007J.TMP Ultimo Control activo:  PASAJE_PTOVTA_IMP.PRECIOPROD1.INIT
-07-05-2024 09:14:12 , Error: Desbordamiento numérico (se han perdido datos). Linea : replace idprodcombo WITH CsrAuxComboCopia.idcabecombo IN CsrAuxProdCombo Error :         39 Ultimo Alias Activo: CSRAUXCOMBOCOPIA Ultimo registro:          1  DBF: C:\US
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00JO.TMP Ultimo Control activo: CANTIDAD MAIN
-07-05-2024 09:14:48 , Error: Desbordamiento numérico (se han perdido datos). Linea : replace idprodcombo WITH CsrAuxComboCopia.idcabecombo IN CsrAuxProdCombo Error :         39 Ultimo Alias Activo: CSRAUXCOMBOCOPIA Ultimo registro:          1  DBF: C:\US
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00JZ.TMP Ultimo Control activo: CANTIDAD REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
-07-05-2024 09:14:59 , Error: Desbordamiento numérico (se han perdido datos). Linea : replace idprodcombo WITH CsrAuxComboCopia.idcabecombo IN CsrAuxProdCombo Error :         39 Ultimo Alias Activo: CSRAUXCOMBOCOPIA Ultimo registro:          1  DBF: C:\US
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00K5.TMP Ultimo Control activo: CANTIDAD REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
-10-05-2024 14:33:58 , Error: El archivo 'csrcursor.dbf' no existe. Linea : SELECT distinct numctacte,nomctacte FROM CsrCursor INTO CURSOR CsrAuxCtacte READWRITE Error :          1 Ultimo Alias Activo: _CSRPRODUCTO Ultimo registro:        415 CNUMERO DBF:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00008CUH00E1.TMP Ultimo Control activo:  LISEXISTENCIA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-10-05-2024 14:35:09 , Error: El archivo 'csrcursor.dbf' no existe. Linea : SELECT distinct numctacte,nomctacte FROM CsrCursor INTO CURSOR CsrAuxCtacte READWRITE Error :          1 Ultimo Alias Activo: _CSRPRODUCTO Ultimo registro:        415 CNUMERO DBF:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00008CUH00G6.TMP Ultimo Control activo:  LISEXISTENCIA.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
-15-05-2024 16:57:58 , Error: El archivo 'csrproducto.dbf' no existe. Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- into cursor &micursor READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  LISEXISTENCIA.KITGRILLATILDARSTOCK.INIT
-31-05-2024 11:24:37 , Error: No se encuentra el alias 'CSRFAMILIA'. Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena Error :         13 Ultimo Alias Activo: CSRBLOQUEOUSER Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-00JHFT004Q.TMP Ultimo Control activo:  ABMMARCAS._TEXTBOX1.KEYPRESS
-31-05-2024 11:30:51 , Error: No se encuentra el alias 'CSRMARCA'. Linea : ... Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ON... 
-31-05-2024 11:30:59 , Error: No se encuentra el alias 'CSRMARCA'. Linea : ... Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ON... 
-03-06-2024 16:19:55 , Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Linea : Orslista.ActiveConnection = loConnDataSource Error 
 
 
 
@@ -1464,8 +218,32 @@ ERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00K5.TMP Ultimo Control activo: CANTIDAD R
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 :       1429 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  MAIN
 03-06-2024 16:36:40 , Error: El archivo 'csrproducto.dbf' no existe. Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1672,8 +450,32 @@ ERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00K5.TMP Ultimo Control activo: CANTIDAD R
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0 as wcampo08,space(10) as wcampo09 from CsrProducto order by cnombre into cursor _CsrProducto READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  LISINVENTARIO.CMDCARGAGRILLA.CLICK
 03-06-2024 17:18:37 , Error: El archivo 'csrproducto.dbf' no existe. Linea : SELECT 0 as ok,CsrProducto.nombre as cnombre,CsrProducto.numero as cnumero,CsrProducto.id as cid ,SPACE(10) as wcampo05,space(10) as wcampo06,00000000.00 as wcampo07 ,00000000.0
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1861,8 +663,32 @@ ERS\MARCOS\APPDATA\LOCAL\TEMP\0000CI6H00K5.TMP Ultimo Control activo: CANTIDAD R
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0 as wcampo08,space(10) as wcampo09 from CsrProducto order by cnombre into cursor _CsrProducto READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  LISTAETIQUETA.CMDCARGAGRILLA.CLICK
 12-06-2024 14:17:20 , Error: FECHA_CALENDARIO2 es un miembro desconocido. Linea : lcfecha2 = DTOS(.fecha_calendario2.txtfecha.Value) Error :       1925 Ultimo Alias Activo: CSRCOMPROBANTE Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TE
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2046,7 +872,31 @@ MP\00005DS9001Q.TMP Ultimo Control activo:  _UTIL_TIENDAMIA.IMPRIMIR_VISTAPREVIA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 cio" + cSep + "Precio promocional" + cSep + "" + cSep + '' + cSep + '' + cSep + '' + cSep + "-" + cSep + ALLTRIM(STR(Oscatter.numero)) + cSep + P.codbarra13 + cSep + "SI" + cSep + "NO" + cSep + Oscatter.nombre + cSep + "" + cSep + Oscatter.nombre + cSep 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2228,8 +1078,32 @@ cio" + cSep + "Precio promocional" + cSep + "" + cSep + '' + cSep + '' + cSep + 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 trol activo:  _UTIL_TIENDAMIA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 12-06-2024 14:20:10 , Error: Incompatibilidad entre el tipo de operador y el tipo de operando. Linea : cLinea = LEFT('0000000000' + str(Oscatter.id),10) + cSep + Oscatter.nombre + cSep + Oscatter.nomrubro + cSep + '' + cSep + '' + cSep + '' + cSep + "" +
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2409,7 +1283,31 @@ trol activo:  _UTIL_TIENDAMIA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  + Oscatter.nombre + cSep + Oscatter.nombre + cSep + Oscatter.nommarca + cSep + "SI" + cSep + "" + cSep + "" + cSep + "" + cSep + '-' Error :        107 Ultimo Alias Activo: CSRCURSOR Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2589,8 +1487,32 @@ trol activo:  _UTIL_TIENDAMIA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 X00S3.TMP Ultimo Control activo:  REGFACVTA_V2.INIT
 28-06-2024 09:31:52 , Error: No se encuentra la variable 'LCCMD'. Linea : IF !thisform.obtenerdatos('Csrcomprobante',lccmd) Error :         12 Ultimo Alias Activo: CSRPREFITERMI Ultimo registro:         21  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000EQY
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2766,8 +1688,32 @@ X00Z2.TMP Ultimo Control activo:  REGFACVTA_V2.INIT
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 TEMP\0000IKND00J5.TMP Ultimo Control activo:  LISTAETIQUETA.CMDCARGAGRILLA.CLICK
 31-07-2024 12:12:36 , Error: Error al cargar el archivo - número de registro 14. Kitgrillatildarrubros  <o uno de sus miembros>.  ControlSource : No se encuentra el alias 'CSRRUBRO' Linea : DO FORM listaestadistica WITH oca,lcCmdCampos,lcTypeData,lcidest
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2937,9 +1883,33 @@ ado NAME lObjetoForm LINKED Error :       2005 Ultimo Alias Activo: CSRPRODUCTO 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 egistro:       7308  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GB2H004U.TMP Ultimo Control activo:  PASAJE_PTOVTA_IMP.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 23-09-2024 09:42:55 , Error: No se encuentra el alias. Linea : IF RECCOUNT('CsrDecimal')#0 Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 23-09-2024 09:44:11 , Error: No se encuentra el alias 'PRODUCTO'. Linea : SELECT (cAlias) Error :         13 Ultimo Alias Activo: CSRPRODUCTO Ultimo registro:       1089  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GB2H025O.TMP Ultimo Control activo:  PT
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3103,8 +2073,32 @@ OVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  Control activo:  PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 23-09-2024 09:50:46 , Error: SYNC_LOAD es un miembro desconocido. Linea : this.sync_load.idclave = OscSync.id Error :       1925 Ultimo Alias Activo: CSRPRODUCTO Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GB2H029W.TMP Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3262,8 +2256,32 @@ OVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  Control activo:  PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 01-10-2024 11:13:59 , Error: COLUMN1 es un miembro desconocido. Linea : .containervariedad.grid1.column1.ControlSource = "nombre" Error :       1925 Ultimo Alias Activo: CSRSUBPRODUCTO Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3417,8 +2435,32 @@ OVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0000NW9501GN.TMP Ultimo Control activo:  REGFACVTAPUB.CMDSALVAR.CLICK
 01-10-2024 12:17:26 , Error: Microsoft Cursor Engine : El proveedor de datos u otro servicio devolvió un estado E_FAIL. Linea : INDEX on id TAG id Error :       1435 Ultimo Alias Activo: CSRPRODFZAVTA Ultimo registro:        100  DBF: C:\USERS\MARCOS\APP
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3568,8 +2610,32 @@ DATA\LOCAL\TEMP\0000NW9502PT.TMP Ultimo Control activo:  REGFACVTAPUB._TXTINICIA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0000NW9503D9.TMP Ultimo Control activo:  REGFACVTAPUB.CMDSALVAR.CLICK
 01-10-2024 16:20:44 , Error: El archivo 'csrproducto.dbf' no existe. Linea : SELECT 0 as ok,CsrProducto.nombre as cnombre,CsrProducto.numero as cnumero,CsrProducto.id as cid ,SPACE(10) as wcampo05,space(10) as wcampo06,00000000.00 as wcampo07 ,00000000.0
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3713,8 +2779,32 @@ DATA\LOCAL\TEMP\0000NW9502PT.TMP Ultimo Control activo:  REGFACVTAPUB._TXTINICIA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 mo Control activo:  LISINVENTARIO.CMDCARGAGRILLA.CLICK
 01-10-2024 16:25:22 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : IF LEN(LTRIM(lcidestado  ))=0 Error :         11 Ultimo Alias Activo: _CSRFAMILIA Ultimo registro:          1 CNUMERO DBF: C:\USERS\MARCOS\APPDATA\LO
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3854,8 +2944,32 @@ CAL\TEMP\0000INM101CX.TMP Ultimo Control activo:  LISINVENTARIO.CMDCARGAGRILLA.C
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0 as wcampo08,space(10) as wcampo09 from CsrProducto order by cnombre into cursor _CsrProducto READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  LISINVENTARIO.CMDCARGAGRILLA.CLICK
 01-10-2024 17:47:07 , Error: No se encuentra el alias. Linea : IF RECCOUNT('CsrDecimal')#0 Error :         13 Ultimo Alias Activo: CSRFUERZAVTA Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000ZEH5001A.TMP Ultimo Control activo:  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3991,8 +3105,32 @@ VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 PRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 02-10-2024 10:15:13 , Error: No se encuentra el alias 'CSRPRODUCTO'. Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ABMPRODUCTO.FITRARCMD.CLI
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4122,9 +3260,33 @@ CK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 CK
 08-10-2024 19:21:45 , Error: Desplazamiento de búsqueda no válido. Linea :  Error :       1103 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  LISTADOVISITAS.KITGRILLATILDARVENDEDOR.INIT
 08-10-2024 19:23:01 , Error: El archivo 'csrcursor.dbf' no existe. Linea : SELECT *,TTOC(fecha) as cfecha,IIF(idmotivo<>0,1,0) as noventas,IIF(idmotivo=0,1,0) as ventas,00 as orden,total FROM CsrCursor ORDER BY nomvendedor,orden,cfecha,nomcliente INTO CU
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4248,8 +3410,32 @@ RSOR CsrImprimir READWRITE Error :          1 Ultimo Alias Activo: _CSRVENDEDOR 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 00EI2X01CM.TMP Ultimo Control activo:  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 15-10-2024 07:57:49 , Error: SQL: la cláusula ORDER BY no es válida. Linea : SELECT idvendedor,codvendedor,Nomvendedor ,idarticulo,codigo,articulo, sum(importefinal-bonificacion) as importefinal ,canbultos from csraux GROUP BY idvendedor,codvendedor,nomv
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4369,8 +3555,32 @@ endedor,idarticulo,codigo,articulo,canbultos order BY idvendedor,importefinal de
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ivo:  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 15-10-2024 08:31:34 , Error: El archivo 'csrproducto.dbf' no existe. Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4488,8 +3698,32 @@ ivo:  EST_RANKPRODUCTOS.IMPRIMIR_VISTAPREVIA1.EXCEL.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ivo: IDCOMPROBA REGFACVTA_V2.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 05-11-2024 11:15:41 , Error: El origen de datos para este objeto debe ser una referencia de variable. Linea : loObjcol.controlsource = lCaliasNavega+'.'+lccadena Error :       1742 Ultimo Alias Activo: CSRAUXCUERFAC Ultimo registro:          1 REGISTRO D
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4603,8 +3837,32 @@ BF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00005X5501C1.TMP Ultimo Control activo: I
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 V.TMP Ultimo Control activo:  FRMMENU1.TREEVIEW.DBLCLICK
 02-12-2024 18:25:18 , Error: El archivo 'csrcabefac.dbf' no existe. Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4714,7 +3972,31 @@ Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,0000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 vari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4824,7 +4106,31 @@ vari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as cop
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ncion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as Subt
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4934,7 +4240,31 @@ otSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 seDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva,CAST(0 as n(16,2)) as PerceIVA5329 FROM CsrCabefac WHERE RECNO()=
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5044,8 +4374,32 @@ seDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(2
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  activo:  REGFACVTA_V2.CMDCONSULTA.CLICK
 02-12-2024 18:46:50 , Error: No se encuentra el alias. Linea : IF RECCOUNT('CsrCabePromoF4')#0 Error :         13 Ultimo Alias Activo: CSRUNIFICACION Ultimo registro:          6  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000K8P5022F.TMP Ultimo Control act
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5151,8 +4505,32 @@ ivo:  REGFACVTA_V2.CMDCONSULTA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 rol activo:  REGFACVTAPUB.GRID2.COLUMN5.TEXT1.LOSTFOCUS
 03-12-2024 07:58:41 , Error: El archivo 'csrcabefac.dbf' no existe. Linea : SELECT CsrCabefac.*,CAST(0 as int) as idctavta1,00000000.00 as ivari1,000000000.00 as Basegra1,000.00 as tasa1 ,CAST(0 as int) as idctavta2,00000000.00 as ivari2,000000000.00 as 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5254,7 +4632,31 @@ Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,0000
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 vari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as copiatkt ,SPACE(10) as nomrete1,00000000.00 as retencion1,000000000.00 as Baserete1,000.00 as tasarete1 ,SPACE(10) as nomrete2,00000000.00 as retencion2,000000000.00 as Baserete
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5356,7 +4758,31 @@ vari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as cop
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ncion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno,000000000.00 as BaseDescto,00000000.00 as BaseGra,00000000.00 as BaseIva ,00000000.00 as BaseNocatego,00000000.00 as Perceibto1,00000000.00 as Perceibto2,00000000.00 as Subt
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5458,7 +4884,31 @@ otSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 seDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva,CAST(0 as n(16,2)) as PerceIVA5329 FROM CsrCabefac WHERE RECNO()=
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5560,7 +5010,31 @@ seDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(2
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,000000000.00 as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,000000000.00 as Basegra4,000.00 as tasa4 ,CAST(0 as int) as idctavta5,00000000.00 as i
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5660,7 +5134,31 @@ vari5,000000000.00 as Basegra5,000.00 as tasa5,000000000.00 as Baseexe,00 as cop
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4 ,SPACE(10) as nomrete5,00000000.00 as rete
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5760,7 +5258,31 @@ ncion5,000000000.00 as Baserete5,000.00 as tasarete5 ,00000000.00 as BaseInterno
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 otSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as Ba
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5860,8 +5382,32 @@ seDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(2
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE Error :          1 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  REGFACVTA_V2.LOAD
 05-12-2024 15:15:35 , Error: Redefinición no válida de la variable LCSEP. Linea : LOCAL lcCadRegistroGenPromo,lcSep Error :       1960 Ultimo Alias Activo: CSRAUXCUERFAC Ultimo registro:          7 REGISTRO DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00002FW
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5959,8 +5505,32 @@ P071E.TMP Ultimo Control activo:  REGFACVTA_V2.CONTAINERENCABEZA._TXTPARADA.LOST
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 P071E.TMP Ultimo Control activo:  REGFACVTA_V2.CONTAINERENCABEZA._TXTPARADA.LOSTFOCUS
 05-12-2024 15:16:06 , Error: Redefinición no válida de la variable LCSEP. Linea : LOCAL lcCadRegistroGenPromo,lcSep Error :       1960 Ultimo Alias Activo: CSRAUXCUERFAC Ultimo registro:          7 REGISTRO DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00002FW
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6054,8 +5624,32 @@ P071E.TMP Ultimo Control activo:  REGFACVTA_V2.CONTAINERENCABEZA._TXTPARADA.LOST
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 trol activo: DESPOR REGFACVTA_V2.GRID2.COLUMN6.TEXT1.LOSTFOCUS
 03-02-2025 09:15:01 , Error: No se encuentra el alias 'CSRCUERPO'. Linea : SELECT csrcuerpo Error :         13 Ultimo Alias Activo: CSRVENDEDOR Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00003FNT000Z.TMP Ultimo Control activo:  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6145,8 +5739,32 @@ _UTILITARIO_FACTURA.CMDBUSCAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 _UTILITARIO_FACTURA.CMDBUSCAR.CLICK
 11-02-2025 08:47:32 , Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Linea : Orslista.ActiveConnection = loConnDataSource Error 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6232,8 +5850,32 @@ _UTILITARIO_FACTURA.CMDBUSCAR.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 AME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT
 19-02-2025 11:34:39 , Error: No se encuentra el alias 'CSRPRODUCTO'. Linea : this.controlsource=this.parent.controlsourcetxtid Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ABMPRODUCTO.CONTENEDOR1.PFR
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6315,8 +5957,32 @@ AME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 STAPREVIA1.IMPRESORA.CLICK
 19-02-2025 12:16:22 , Error: No se encuentra la variable 'ID1'. Linea : INDEX on id1 TAG id1 Error :         12 Ultimo Alias Activo: CSRCURSOR Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D027K.TMP Ultimo Control activo:  L
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6394,8 +6060,32 @@ ISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 EMP\0004IH3D02ED.TMP Ultimo Control activo:  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 19-02-2025 12:22:56 , Error: No se encuentra la variable 'RUBRO'. Linea : lcclave  = CsrCursor.rubro+&lcOrden Error :         12 Ultimo Alias Activo: CSRCURSOR Ultimo registro:          1 GRUPODATO+STR(IDPROMOCION,10) DBF: C:\USERS\MARCOS\APPDATA\LOCAL\T
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6469,8 +6159,32 @@ EMP\0004IH3D02K9.TMP Ultimo Control activo:  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 l activo:  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 19-02-2025 12:42:44 , Error: La expresión no es válida fuera de WITH/ENDWITH. Linea : IF ._ogruporden.Value<>1 Error :       1940 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRES
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6540,8 +6254,32 @@ ORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 MP\0004IH3D03NG.TMP Ultimo Control activo:  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 19-02-2025 12:44:33 , Error: No se encuentra la variable 'NOMBRE1'. Linea : lcclave  = CsrCursor.nomrubro+&lcOrden Error :         12 Ultimo Alias Activo: CSRCURSOR Ultimo registro:          1 GRUPODATO+STR(IDPROMOCION,10) DBF: C:\USERS\MARCOS\APPDATA\LO
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6607,8 +6345,32 @@ CAL\TEMP\0004IH3D03PK.TMP Ultimo Control activo:  LISTAPROMOCION.IMPRIMIR_VISTAP
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 RA.CLICK
 19-02-2025 12:49:27 , Error: No se encuentra el alias 'CSRCURSOR'. Linea : SELECT CsrCursor Error :         13 Ultimo Alias Activo: _CSRCTACTE Ultimo registro:        282 VAL(CNUMERO) DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004IH3D040X.TMP Ultimo Contro
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6670,8 +6432,32 @@ l activo:  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 l activo:  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 21-02-2025 08:42:31 , Error: CHKCOMBO es un miembro desconocido. Linea : IF .chkcombo.Value=1 Error :       1925 Ultimo Alias Activo: CSRIMPRIMIR Ultimo registro:          9 CLAVE DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0004JOY1001N.TMP Ultimo Control ac
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6729,7 +6515,31 @@ tivo:  LISTAPROMOCION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 campo08,space(10) as wcampo09 from CsrCtacte WHERE ctadeudor=1 order by cnombre into cursor _CsrCtacte READWRITE Error :       1806 Ultimo Alias Activo: CSRCTACTE Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003X0Y100QE.TMP Ultim
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6785,8 +6595,32 @@ o Control activo:  LISVTOCTACTE.CMDCTACTE.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 COS\APPDATA\LOCAL\TEMP\0003FJT500OF.TMP Ultimo Control activo:  LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 27-02-2025 17:37:18 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : INDEX on cnombre+DTOS(TTOD(fecdesde))+DTOS(TTOD(vencimien)) TAG cnombre Error :         11 Ultimo Alias Activo: CSRIMPRIMIR Ultimo registro:         
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6836,8 +6670,32 @@ COS\APPDATA\LOCAL\TEMP\0003FJT500OF.TMP Ultimo Control activo:  LISVTOCTACTE.IMP
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 (VENCIMIEN)) DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003FJT50147.TMP Ultimo Control activo:  LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 27-02-2025 17:47:34 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : INDEX on STR(idvdor)+STR(cnumero)+DTOS(ctod(fecdesde))+DTOS(ctod(vencimien)) TAG orden Error :         11 Ultimo Alias Activo: CSRIMPRIMIR Ultimo reg
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6883,9 +6741,33 @@ istro:          1 CNOMBRE+DTOS(CTOD(VENCIMIEN)) DBF: C:\USERS\MARCOS\APPDATA\LOC
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 \TEMP\0003FJT501B8.TMP Ultimo Control activo:  LISVTOCTACTE.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 27-02-2025 17:50:58 , Error: El archivo memo c:\users\marcos\appdata\local\temp\0003fjt501dz.frt no existe o no es válido. Linea : ... Error :         41 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ON... 
 28-02-2025 12:57:51 , Error: Redefinición no válida de la variable LCIDRECNO. Linea : local lcidrecno,lcidrecnoestaba,lnimporte,lngrupoactual,lnorden,lnimpcta Error :       1960 Ultimo Alias Activo: CSRAUXCTA Ultimo registro:          4 DTOS(FECHA)+STR(I
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6925,8 +6807,32 @@ D,12) DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003NCP5013R.TMP Ultimo Control ac
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 :       1429 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  MAIN
 28-02-2025 20:10:42 , Error: No se encuentra el alias. Linea : IF RECCOUNT(lcaliasseek)#0 Error :         13 Ultimo Alias Activo: CSRAUXCTA Ultimo registro:          1 DTOS(FECHA)+STR(ID,12) DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003NCP501LI.TMP Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6962,8 +6868,32 @@ D,12) DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0003NCP5013R.TMP Ultimo Control ac
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 05-03-2025 09:35:42 , Error: No se encuentra el objeto LOBJPARAMETRO. Linea : lObjparametro.idorigen = CsrAuxComprobante.id Error :       1923 Ultimo Alias Activo: CSRAUXCOMPROBANTE Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\000
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6995,8 +6925,32 @@ Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  Control activo:  IMPUCTACTE.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.INIT
 05-03-2025 10:54:54 , Error: No se encuentra el alias. Linea : IF RECCOUNT(lcaliasseek)#0 Error :         13 Ultimo Alias Activo: CSRAUXCTA Ultimo registro:          1 DTOS(FECHA)+STR(ID,12) DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH0091.TMP Ultimo
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7024,8 +6978,32 @@ Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 05-03-2025 12:02:46 , Error: No se encuentra el alias 'CSRMOVCTACTE'. Linea : Sele Csrmovctacte Error :         13 Ultimo Alias Activo: CSRAUXCTA Ultimo registro:          1 DTOS(FECHA)+STR(ID,12) DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0009CLQH00FM.TMP 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7049,8 +7027,32 @@ Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 06-03-2025 17:13:57 , Error: El archivo 'csrctacte.dbf' no existe. Linea : select 1 as ok,&lc2 as cnombre,&lc3 as cnumero,&lc4 as cid ,&lc5 as wcampo05,&lc6 as wcampo06,&lc7 as wcampo07 ,&lc8 as wcampo08,&lc9 as wcampo09 from &lcalias order by &lcorden i
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7070,8 +7072,32 @@ nto cursor &micursor READWRITE Error :          1 Ultimo Alias Activo: CSRAUXFEC
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 07-04-2025 09:41:26 , Error: No se encuentra la variable 'LCCMD'. Linea : IF !thisform.obtenerdatos('Csrcomprobante',lccmd) Error :         12 Ultimo Alias Activo: CSRPREFITERMI Ultimo registro:         21  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000KHL
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7087,8 +7113,32 @@ Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  into cursor &micursor READWRITE Error :          1 Ultimo Alias Activo: CSRAUXDEP Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000C7PL00TN.TMP Ultimo Control activo:  PLANILLAPARAPEDIDOS.KITGRILLATILDARSTOCK.INIT
 24-04-2025 10:27:09 , Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Linea : Orslista.ActiveConnection = loConnDataSource Error 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7100,8 +7150,32 @@ Ultimo Control activo:  IMPUCTACTE.CONTAINERENCABEZA.ACEPTAR1.CLICK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  into cursor &micursor READWRITE Error :          1 Ultimo Alias Activo: CSRAUXDEP Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000C7PL00Y0.TMP Ultimo Control activo:  PLANILLAPARAPEDIDOS.KITGRILLATILDARSTOCK.INIT
 12-06-2025 08:35:05 , Error: Desbordamiento numérico (se han perdido datos). Linea : GATHER NAME Oscatter Error :         39 Ultimo Alias Activo: CSRAUXCUERFAC Ultimo registro:          4 REGISTRO DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00003M6H005K.TMP 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7109,9 +7183,123 @@ Ultimo Control activo:  REGFACVTA_V3.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXT
 12-06-2025 09:05:39 , Error: Desbordamiento numérico (se han perdido datos). Linea : GATHER NAME Oscatter Error :         39 Ultimo Alias Activo: CSRAUXCUERFAC Ultimo registro:          4 REGISTRO DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00004IRT005K.TMP 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo Control activo:  REGFACVTA_V3.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS
 12-06-2025 09:17:03 , Error: Desbordamiento numérico (se han perdido datos). Linea : GATHER NAME Oscatter Error :         39 Ultimo Alias Activo: CSRAUXCUERFAC Ultimo registro:          4 REGISTRO DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000GM4P005K.TMP 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Ultimo Control activo:  REGFACVTA_V3.CONTAINERENCABEZA.KITBUSCAOALTAENCTACTE.TXTEXISTE1.KEYPRESS
 18-06-2025 10:35:54 , Error: No se encuentra el alias. Linea : IF RECCOUNT('CsrDecimal')#0 Error :         13 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  PTOVTA_EXPGESTION.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-14-07-2025 10:48:42 , Error: SYNC_LOAD es un miembro desconocido. Linea : this.sync_load.idclave = CsrCabeUnifica.id Error :       1925 Ultimo Alias Activo: CSRCABEUNIFICA Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IFIH0051.TMP Ultimo Control activo:  ABMUNIFICADOR.CMDSALVAR.CLICK
+14-07-2025 10:48:42 , Error: SYNC_LOAD es un miembro desconocido. Linea : this.sync_load.idclave = CsrCabeUnifica.id Error :       1925 Ultimo Alias Activo: CSRCABEUNIFICA Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IFIH0051.
+
+
+
+
+
+
+
+
+
+
+
+TMP Ultimo Control activo:  ABMUNIFICADOR.CMDSALVAR.CLICK
+30-07-2025 10:44:34 , Error: Microsoft Cursor Engine : El proveedor de datos u otro servicio devolvió un estado E_FAIL. Linea : SELECT * FROM csrauxiliar ORDER BY id INTO CURSOR csraux READWRITE Error :       1435 Ultimo Alias Activo: CSRAUXILIAR Ultimo 
+
+
+
+
+
+
+
+
+
+
+registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD008N.TMP Ultimo Control activo:  EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:46:40 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ") Error :         11 Ultimo Alias Activo: CSRAUX2 Ultimo registro:          1  DBF: C:\USERS\
+
+
+
+
+
+
+
+
+
+MARCOS\APPDATA\LOCAL\TEMP\0000IBRD039R.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:46:54 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ") Error :         11 Ultimo Alias Activo: CSRAUX2 Ultimo registro:          1  DBF: C:\USERS\
+
+
+
+
+
+
+
+
+MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03AT.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:47:26 , Error: SQL: no se encuentra la columna 'IDPROCOMBO'. Linea : SELECT distinct id,idprocombo,00 as cantidad FROM csraux INTO CURSOR csrauxCombos ORDER BY csraux.id Error :       1806 Ultimo Alias Activo: CSRAUXCABECOMBO Ultimo registr
+
+
+
+
+
+
+
+o:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03CD.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:48:38 , Error: No se encuentra la variable 'IDPROCOMBO'. Linea : lnidcombo = csraux.idprocombo Error :         12 Ultimo Alias Activo: CSRAUX Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03DM.TMP Ultimo Contr
+
+
+
+
+
+
+ol activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:49:45 , Error: No se encuentra la propiedad IDPROCOMBO. Linea : DO WHILE NOT EOF() AND lnidmaopera =  OscCombo.id AND lnidcombo = OscCombo.idprocombo Error :       1734 Ultimo Alias Activo: CSRAUX Ultimo registro:          1  DBF: C:\USERS\
+
+
+
+
+
+MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03FD.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:50:28 , Error: No se encuentra la variable 'IDARTICULO'. Linea : LOCATE FOR id = OscCombo.idprodcombo AND idarticulo = OscCombo.idarticulo Error :         12 Ultimo Alias Activo: CSRAUXCABECOMBO Ultimo registro:          9  DBF: C:\USERS\MA
+
+
+
+
+RCOS\APPDATA\LOCAL\TEMP\0000IBRD03HC.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:52:57 , Error: No se encuentra el alias 'CSRCABECOMBO'. Linea : USE IN CsrCabeCombo Error :         13 Ultimo Alias Activo: CSRAUXCUERCOMBO Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03N0.TMP Ultimo Control
+
+
+
+ activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:53:37 , Error: No se encuentra el alias 'CSRAUXCUERCOMBO'. Linea : replace all verificador WITH 0 IN CsrAuxCuerCombo Error :         13 Ultimo Alias Activo: CSRAUX Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBR
+
+
+D03O9.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 11:55:24 , Error: No se puede actualizar el cursor CSRAUXCOMBOS, ya que es sólo de lectura. Linea : replace cantidad WITH CsrVerif.minimo IN CsrAuxCombos Error :        111 Ultimo Alias Activo: CSRAUXCOMBOS Ultimo registro:          1  DBF: C:
+
+\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03QC.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 12:13:23 , Error: No se encuentra la propiedad CANTIDAD. Linea : replace verificador WITH verificador + (OscCombo.cantidad/CsrAuxCuerCombo.cantidad) Error :       1734 Ultimo Alias Activo: CSRAUXCUERCOMBO Ultimo registro:         12  DBF: C:\U
+SERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD04YZ.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
+30-07-2025 12:24:00 , Error: No se encuentra la variable 'CODPROCOMBO'. Linea : replace ALL codprocombo WITH CsrAuxCuerCombo.numero, nomprodcombo WITH CsrAuxCuerCombo.nombre cantCbos WITH CsrAuxCombos.cantidad FOR idprodcombo = CsrAuxCombos.idprodcombo AND id = CsrAuxCombos.id IN CsrAux Error :         12 Ultimo Alias Activo: CSRAUXCUERCOMBO Ultimo registro:         12  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD063Y.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
