@@ -62,7 +62,10 @@ procedure errorsys
 				RETURN		
 			CASE nError=2065
 				GRABAR_SEC(MESSAGE(),"Error2065.txt","TempError")
-				RETURN 		  		    	       
+				RETURN 	
+			CASE nError=1925 AND 'PREVIEWFORM'$Message()
+				GRABAR_SEC(MESSAGE(),"Error_PREVIEWFORM.txt","TempError")
+				RETURN				  		    	       
 			OTHERWISE	
 				=Mensaje_error(nError)
 				CLEAR CLASSLIB onegocioslocal
