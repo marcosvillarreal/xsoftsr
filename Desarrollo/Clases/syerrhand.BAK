@@ -64,32 +64,3 @@ PROCEDURE errhand2
 		CANCEL
 	ENDIF	
 ENDPROC
-
-PROCEDURE errhandPadron
-	*--PARAMETER merror, mess, mess1, mprog, mlineno
-	LOCAL cMensaje
-	cMensaje = ""
-	cMensaje	= cMensaje + PADRON.Excepcion + CHR(13)
-	cMensaje	= cMensaje + PADRON.Traceback + CHR(13)
-	*--? WSFE.XmlRequest
-	*--? WSFE.XmlResponse
-		
-	cMensaje	= cMensaje + 'Error number: ' + LTRIM(STR(ERROR())) + CHR(13)
-	cMensaje	= cMensaje + 'Error message: ' + MESSAGE() + CHR(13)
-	cMensaje	= cMensaje + 'Line of code with error: ' + MESSAGE(1) + CHR(13)
-	cMensaje	= cMensaje + 'Line number of error: ' + LTRIM(STR(LINENO())) + CHR(13)
-	cMensaje	= cMensaje + 'Program with error: ' + PROGRAM() + CHR(13)
-	
-	=Grabar_SEC(cMensaje,"Log_ErrorPADRON.txt","TempError")
-	
-	*-- Preguntar: Aceptar o cancelar?
-	ch = MESSAGEBOX("Error: " + cMensaje, 5 + 48,PADRON.Excepcion )
-	IF ch = 2 && Cancelar
-		ON ERROR 
-		CLEAR EVENTS
-		CLOSE ALL
-		RELEASE ALL
-		CLEAR ALL
-		CANCEL
-	ENDIF	
-ENDPROC
