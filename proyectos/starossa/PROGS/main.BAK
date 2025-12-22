@@ -19,6 +19,8 @@ _vfp.AutoYield = .f.
 
 lctituloGestion = "Gestión de Ventas " + IIF(lldesarrollo," - Beta","")
 
+lcVersion = "01.00.21"
+
 If !lldesarrollo
    If f_activawin(lctituloGestion)
   
@@ -182,7 +184,7 @@ IF TYPE('goApp')='O'
 		ENDIF          
 	ENDIF 
 	
-	goapp.version = "01.00.20"
+	goapp.version = lcVersion &&"01.00.21"
 	
 	PUBLIC  gcicono
 	     
