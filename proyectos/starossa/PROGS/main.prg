@@ -130,6 +130,7 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 	 SET PROCEDURE TO  foxypreviewercaller.prg ADDITIVE 
 *clear all
 
+lcIcon = 'gmsmart.ico'&&'help.ico'
 _screen.lockscreen=.t.
 _Screen.windowstate=2
 _Screen.caption=lctituloGestion
@@ -191,7 +192,7 @@ IF TYPE('goApp')='O'
 	PcmsgIU  = 'Información al Usuario'
 	PcmsgIP  = 'Información al Programador'
 	   
-	gcicono=lcdd+'gmsmart.ico' &&'help.ico'
+	gcicono=lcdd+lcIcon  &&'help.ico'
 	LcLlaveCf = SPACE(8)
 	      
 	on error do errorsys

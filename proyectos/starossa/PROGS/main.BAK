@@ -191,7 +191,7 @@ IF TYPE('goApp')='O'
 	PcmsgIU  = 'Información al Usuario'
 	PcmsgIP  = 'Información al Programador'
 	   
-	gcicono=lcdd+'help.ico'
+	gcicono=lcdd+'gmsmart.ico' &&'help.ico'
 	LcLlaveCf = SPACE(8)
 	      
 	on error do errorsys
