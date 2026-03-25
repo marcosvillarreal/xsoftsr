@@ -20,80 +20,6 @@
 
 
 
-TMP Ultimo Control activo:  ABMUNIFICADOR.CMDSALVAR.CLICK
-30-07-2025 10:44:34 , Error: Microsoft Cursor Engine : El proveedor de datos u otro servicio devolvió un estado E_FAIL. Linea : SELECT * FROM csrauxiliar ORDER BY id INTO CURSOR csraux READWRITE Error :       1435 Ultimo Alias Activo: CSRAUXILIAR Ultimo 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD008N.TMP Ultimo Control activo:  EST_VENTABONIFICADA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
-30-07-2025 11:46:40 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ") Error :         11 Ultimo Alias Activo: CSRAUX2 Ultimo registro:          1  DBF: C:\USERS\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -121,6 +47,7 @@ registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD008N.TMP U
 
 MARCOS\APPDATA\LOCAL\TEMP\0000IBRD039R.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 30-07-2025 11:46:54 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : lccmdSelectCursor=  CHRTRAN(lccmdSelectCursor,CHR(9)," ") Error :         11 Ultimo Alias Activo: CSRAUX2 Ultimo registro:          1  DBF: C:\USERS\
+
 
 
 
@@ -214,8 +141,10 @@ MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03AT.TMP Ultimo Control activo:  EST_VENTACOMB
 
 
 
+
 o:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03CD.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 30-07-2025 11:48:38 , Error: No se encuentra la variable 'IDPROCOMBO'. Linea : lnidcombo = csraux.idprocombo Error :         12 Ultimo Alias Activo: CSRAUX Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03DM.TMP Ultimo Contr
+
 
 
 
@@ -305,8 +234,10 @@ ol activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03FD.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 30-07-2025 11:50:28 , Error: No se encuentra la variable 'IDARTICULO'. Linea : LOCATE FOR id = OscCombo.idprodcombo AND idarticulo = OscCombo.idarticulo Error :         12 Ultimo Alias Activo: CSRAUXCABECOMBO Ultimo registro:          9  DBF: C:\USERS\MA
+
 
 
 
@@ -392,8 +323,10 @@ RCOS\APPDATA\LOCAL\TEMP\0000IBRD03HC.TMP Ultimo Control activo:  EST_VENTACOMBOS
 
 
 
+
  activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 30-07-2025 11:53:37 , Error: No se encuentra el alias 'CSRAUXCUERCOMBO'. Linea : replace all verificador WITH 0 IN CsrAuxCuerCombo Error :         13 Ultimo Alias Activo: CSRAUX Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBR
+
 
 
 
@@ -475,8 +408,10 @@ D03O9.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESOR
 
 
 
+
 \USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD03QC.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 30-07-2025 12:13:23 , Error: No se encuentra la propiedad CANTIDAD. Linea : replace verificador WITH verificador + (OscCombo.cantidad/CsrAuxCuerCombo.cantidad) Error :       1734 Ultimo Alias Activo: CSRAUXCUERCOMBO Ultimo registro:         12  DBF: C:\U
+
 
 
 
@@ -554,8 +489,10 @@ SERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD04YZ.TMP Ultimo Control activo:  EST_VENT
 
 
 
+
 ND id = CsrAuxCombos.id IN CsrAux Error :         12 Ultimo Alias Activo: CSRAUXCUERCOMBO Ultimo registro:         12  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000IBRD063Y.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 25-08-2025 11:03:16 , Error: Desbordamiento numérico (se han perdido datos). Linea : replace verificador WITH verificador + (OscCombo.unidades/CsrAuxCuerCombo.cantidad) Error :         39 Ultimo Alias Activo: CSRAUXCUERCOMBO Ultimo registro:         19  
+
 
 
 
@@ -629,8 +566,10 @@ DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OF0P001P.TMP Ultimo Control activo: 
 
 
 
+
 DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000OF0P0094.TMP Ultimo Control activo:  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 25-08-2025 14:40:47 , Error: El archivo 'csrauxiliar.dbf' no existe. Linea : SELECT *,CAST(0 as i) as codprodcombo,SPACE(100) as nomprodcombo,CAST(0 as i) as CantCbos FROM csrauxiliar ORDER BY id INTO CURSOR csraux READWRITE Error :          1 Ultimo Ali
+
 
 
 
@@ -700,8 +639,10 @@ as Activo: _CSRCOMPROBANTE Ultimo registro:         12 CNUMERO DBF: C:\USERS\MAR
 
 
 
+
  EST_VENTACOMBOS.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 08:14:53 , Error: El archivo 'csr2.dbf' no existe. Linea : SELECT csr2.*, netosinbonificar as gravado from Csr2 into cursor Csr1 readwrite Error :          1 Ultimo Alias Activo: CSRDATOS Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDA
+
 
 
 
@@ -767,7 +708,9 @@ TA\LOCAL\TEMP\0000J4ZT00S1.TMP Ultimo Control activo:  VENTASPORFECHA.IMPRIMIR_V
 
 
 
+
 EstProducto.nombre,SPACE(30)) as articulo , NVL(EstProducto.peso,0) as peso,NVL(EstProducto.codalfa,'') as codalfa ,EstProducto.idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProveed.cnombre as nomProvArt ,idFletero,NVL(EstFletero.numer
+
 
 
 
@@ -831,7 +774,9 @@ o,0) as codfletero,NVL(EstFletero.nombre,SPACE(30)) as nomfletero ,idVendedor,NV
 
 
 
+
 ro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,cdireccion ,Idcovertura,NVL(EstCover.numero,0) as CodCovertura,NVL(EstCover.nombre,SPACE(30)) as nomcovertura ,idsect
+
 
 
 
@@ -895,7 +840,9 @@ orvta,sectorruta,NVL(EstSectorVta.numero,0) as codsector,NVL(EstSectorVta.nombre
 
 
 
+
 ernos) as Internos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros,SUM(netosinbonificar) as netosinbonificar ,SUM(totalNG) as TotalNG,SUM(promocion) as promocion,SUM(ImporteFinal) as ImporteFinal ,SUM(costosiva) as CostoSiva,SUM(costoCiva) as Cost
+
 
 
 
@@ -959,7 +906,9 @@ oCiva ,SUM(fac_a) as fac_a,SUM(nc_a) as nc_a,SUM(fac_b) as fac_b,SUM(nc_b) as nc
 
 
 
+
  = EstProducto.id LEFT JOIN EstProveed ON idproveedor = EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFletero.id GROUP BY fecha,idmaopera,numcomp,cabrevia,clasecomp,abrevia,codclasevalor,cuit ,preunitario,Idarticulo,EstProducto.numero,EstProducto.
+
 
 
 
@@ -1023,7 +972,9 @@ nombre,pesable,EstProducto.peso ,EstProducto.codartprod ,IdProveedor,EstProveed.
 
 
 
+
 numero,EstRubro.nombre ,idvariedad,codvariedad,nomvariedad,cdireccion,sucursal,nomsucursal INTO CURSOR ZsrAuxiliar READWRITE Error :          1 Ultimo Alias Activo: ESTVARIEDAD Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT
+
 
 
 
@@ -1087,7 +1038,9 @@ numero,EstRubro.nombre ,idvariedad,codvariedad,nomvariedad,cdireccion,sucursal,n
 
 
 
+
 go,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,EstProducto.idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProveed.cnombre as nomProvArt ,idFletero,NVL(EstFletero.numero,0) as codfletero,NVL(Est
+
 
 
 
@@ -1149,7 +1102,9 @@ Fletero.nombre,SPACE(30)) as nomfletero ,idVendedor,NVL(EstVdor.numero,0) as Cod
 
 
 
+
 omrubro ,idvariedad,NVL(EstVariedad.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,cdireccion ,Idcovertura,NVL(EstCover.numero,0) as CodCovertura,NVL(EstCover.nombre,SPACE(30)) as nomcovertura ,idsectorvta,sectorruta,NVL(EstSe
+
 
 
 
@@ -1211,7 +1166,9 @@ ctorVta.numero,0) as codsector,NVL(EstSectorVta.nombre,SPACE(30)) as nomsector ,
 
 
 
+
 akilos) as VtaKilos,SUM(VtaLitros) as VtaLitros,SUM(netosinbonificar) as netosinbonificar ,SUM(totalNG) as TotalNG,SUM(promocion) as promocion,SUM(ImporteFinal) as ImporteFinal ,SUM(costosiva) as CostoSiva,SUM(costoCiva) as CostoCiva ,SUM(fac_a) as fac_a
+
 
 
 
@@ -1273,7 +1230,9 @@ akilos) as VtaKilos,SUM(VtaLitros) as VtaLitros,SUM(netosinbonificar) as netosin
 
 
 
+
 N EstProveed ON idproveedor = EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFletero.id GROUP BY fecha,idmaopera,numcomp,cabrevia,clasecomp,abrevia,codclasevalor,cuit ,preunitario,Idarticulo,EstProducto.numero,EstProducto.nombre,pesable,EstProducto
+
 
 
 
@@ -1335,7 +1294,9 @@ N EstProveed ON idproveedor = EstProveed.id LEFT JOIN EstFletero ON idfletero = 
 
 
 
+
 variedad,codvariedad,nomvariedad,cdireccion,sucursal,nomsucursal INTO CURSOR ZsrAuxiliar READWRITE Error :       1806 Ultimo Alias Activo: ESTVARIEDAD Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT014P.TMP Ultimo Control ac
+
 
 
 
@@ -1397,7 +1358,9 @@ tivo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,EstProducto.idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProveed.cnombre as nomProvArt ,idFletero,NVL(EstFletero.numero,0) as codfletero,NVL(EstFle
+
 
 
 
@@ -1457,7 +1420,9 @@ tero.nombre,SPACE(30)) as nomfletero ,idVendedor,NVL(EstVdor.numero,0) as CodVen
 
 
 
+
 ubro ,idvariedad,NVL(EstVariedad.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,cdireccion ,Idcovertura,NVL(EstCover.numero,0) as CodCovertura,NVL(EstCover.nombre,SPACE(30)) as nomcovertura ,idsectorvta,sectorruta,NVL(EstSecto
+
 
 
 
@@ -1517,7 +1482,9 @@ rVta.numero,0) as codsector,NVL(EstSectorVta.nombre,SPACE(30)) as nomsector ,SUM
 
 
 
+
 los) as VtaKilos,SUM(VtaLitros) as VtaLitros,SUM(netosinbonificar) as netosinbonificar ,SUM(totalNG) as TotalNG,SUM(promocion) as promocion,SUM(ImporteFinal) as ImporteFinal ,SUM(costosiva) as CostoSiva,SUM(costoCiva) as CostoCiva ,SUM(fac_a) as fac_a,SU
+
 
 
 
@@ -1577,6 +1544,7 @@ M(nc_a) as nc_a,SUM(fac_b) as fac_b,SUM(nc_b) as nc_b ,SUM(Netogravado) as NetoG
 
 
 
+
 stProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFletero.id GROUP BY fecha,idmaopera,numcomp,cabrevia,clasecomp,abrevia,codclasevalor,cuit ,preunitario,Idarticulo,EstProducto.numero,EstProducto.nombre,pesable,EstProducto.peso 
 
 
@@ -1607,7 +1575,9 @@ stProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFle
 
 
 
+
 ,EstProducto.codartprod ,IdProveedor,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,EstRubro.numero,EstRubro.nombre ,idvaried
+
 
 
 
@@ -1667,8 +1637,10 @@ ad,codvariedad,nomvariedad,cdireccion,sucursal,nomsucursal INTO CURSOR ZsrAuxili
 
 
 
+
  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 08:28:45 , Error: SQL: no se encuentra la columna 'IDMAOPERA'. Linea : SELECT fecha,idmaopera,numcomp,cabrevia,clasecomp,abrevia,codclasevalor,cuit ,preunitario,pesable ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombr
+
 
 
 
@@ -1726,7 +1698,9 @@ e,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,EstProducto.id
 
 
 
+
 ) as nomfletero ,idVendedor,NVL(EstVdor.numero,0) as CodVendedor,NVL(EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(
+
 
 
 
@@ -1784,7 +1758,9 @@ EstVariedad.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvar
 
 
 
+
 sector,NVL(EstSectorVta.nombre,SPACE(30)) as nomsector ,SUM(Boniciva) as Boniciva,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos,SUM(internos) as Internos ,SUM(Vtakilos) as VtaKilos,SUM(
+
 
 
 
@@ -1842,7 +1818,9 @@ VtaLitros) as VtaLitros,SUM(netosinbonificar) as netosinbonificar ,SUM(totalNG) 
 
 
 
+
 ac_b) as fac_b,SUM(nc_b) as nc_b ,SUM(Netogravado) as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovar
+
 
 
 
@@ -1900,7 +1878,9 @@ t= EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFletero.id GROUP BY fech
 
 
 
+
 od ,IdProveedor,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,EstRubro.numero,EstRubro.nombre ,idvariedad,codvariedad,nomvar
+
 
 
 
@@ -1958,8 +1938,10 @@ iedad,cdireccion,sucursal,nomsucursal INTO CURSOR ZsrAuxiliar READWRITE Error : 
 
 
 
+
 MIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 08:30:13 , Error: SQL: no se encuentra la columna 'IDESTADO'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,EstProducto.idestado
+
 
 
 
@@ -2015,7 +1997,9 @@ MIR_VISTAPREVIA1.IMPRESORA.CLICK
 
 
 
+
 ACE(30)) as nomvendedor ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad 
+
 
 
 
@@ -2071,7 +2055,9 @@ ACE(30)) as nomvendedor ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,NVL(Est
 
 
 
+
 Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos,SUM(internos) as Internos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros,SUM(netosinbonificar) as netosinbonificar ,SUM(totalNG) as Tot
+
 
 
 
@@ -2127,7 +2113,9 @@ alNG,SUM(promocion) as promocion,SUM(ImporteFinal) as ImporteFinal ,SUM(costosiv
 
 
 
+
 OIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFletero.id GROUP BY fecha,idma
+
 
 
 
@@ -2183,7 +2171,9 @@ opera,numcomp,cabrevia,clasecomp,abrevia,codclasevalor,cuit ,preunitario,Idartic
 
 
 
+
 Fletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,EstRubro.numero,EstRubro.nombre ,idvariedad,codvariedad,nomvariedad,cdireccion,sucursal,nomsucursal INTO CURSOR ZsrAuxiliar READWRITE Error :       
+
 
 
 
@@ -2239,7 +2229,9 @@ Fletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,ctacte,nomcli
 
 
 
+
 do,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProveed.cnombre as nomProvArt ,idFletero,NVL(EstFletero.numero,0) as codfletero,NVL(EstFletero.nombre,SPACE(30)) as nomfletero ,idVendedor,NVL(EstVdor.numero,0) as CodVendedor,NVL(
+
 
 
 
@@ -2293,7 +2285,9 @@ EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,ctacte,nomcliente,idcategoria
 
 
 
+
 ) as nomvariedad ,cdireccion ,Idcovertura,NVL(EstCover.numero,0) as CodCovertura,NVL(EstCover.nombre,SPACE(30)) as nomcovertura ,idsectorvta,sectorruta,NVL(EstSectorVta.numero,0) as codsector,NVL(EstSectorVta.nombre,SPACE(30)) as nomsector ,SUM(Boniciva)
+
 
 
 
@@ -2347,7 +2341,9 @@ EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,ctacte,nomcliente,idcategoria
 
 
 
+
 M(totalNG) as TotalNG,SUM(promocion) as promocion,SUM(ImporteFinal) as ImporteFinal ,SUM(costosiva) as CostoSiva,SUM(costoCiva) as CostoCiva ,SUM(fac_a) as fac_a,SUM(nc_a) as nc_a,SUM(fac_b) as fac_b,SUM(nc_b) as nc_b ,SUM(Netogravado) as NetoGravado FRO
+
 
 
 
@@ -2401,7 +2397,9 @@ M &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idve
 
 
 
+
 OUP BY fecha,idmaopera,numcomp,cabrevia,clasecomp,abrevia,codclasevalor,cuit ,preunitario,Idarticulo,EstProducto.numero,EstProducto.nombre,pesable,EstProducto.peso ,EstProducto.codartprod ,IdProveedor,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstF
+
 
 
 
@@ -2455,8 +2453,10 @@ letero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCta
 
 
 
+
 TE Error :       1806 Ultimo Alias Activo: ESTVARIEDAD Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT01EH.TMP Ultimo Control activo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 08:43:02 , Error: El archivo 'estcliente.dbf' no existe. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.idestado,
+
 
 
 
@@ -2508,7 +2508,9 @@ TE Error :       1806 Ultimo Alias Activo: ESTVARIEDAD Ultimo registro:         
 
 
 
+
 Vdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad.nume
+
 
 
 
@@ -2560,7 +2562,9 @@ ro,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,Idcovertu
 
 
 
+
 re,SPACE(30)) as nomsector ,SUM(Boniciva) as Boniciva,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos,SUM(internos) as Internos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros,SUM(
+
 
 
 
@@ -2612,7 +2616,9 @@ netosinbonificar) as netosinbonificar ,SUM(totalNG) as TotalNG,SUM(promocion) as
 
 
 
+
 nc_b ,SUM(Netogravado) as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN E
+
 
 
 
@@ -2664,7 +2670,9 @@ stFletero ON idfletero = EstFletero.id LEFT JOIN EstCliente ON idctacte = EstCli
 
 
 
+
 ,EstProducto.codartprod ,IdProveedor,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,EstRubro.numero,EstRubro.nombre ,idvaried
+
 
 
 
@@ -2716,8 +2724,10 @@ ad,codvariedad,nomvariedad,cdireccion,sucursal,nomsucursal INTO CURSOR ZsrAuxili
 
 
 
+
 ENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 08:45:38 , Error: SQL: no se encuentra la columna 'IDSECTORVTA'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.i
+
 
 
 
@@ -2767,7 +2777,9 @@ destado,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstP
 
 
 
+
 ,NVL(EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVarie
+
 
 
 
@@ -2817,7 +2829,9 @@ dad.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,I
 
 
 
+
 Vta.nombre,SPACE(30)) as nomsector ,SUM(Boniciva) as Boniciva,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos,SUM(internos) as Internos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLit
+
 
 
 
@@ -2867,7 +2881,9 @@ ros,SUM(netosinbonificar) as netosinbonificar ,SUM(totalNG) as TotalNG,SUM(promo
 
 
 
+
 c_b) as nc_b ,SUM(Netogravado) as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEF
+
 
 
 
@@ -2917,7 +2933,9 @@ T JOIN EstFletero ON idfletero = EstFletero.id LEFT JOIN EstCliente ON idctacte 
 
 
 
+
 to.peso ,EstProducto.codartprod ,IdProveedor,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,EstRubro.numero,EstRubro.nombre ,
+
 
 
 
@@ -2967,8 +2985,10 @@ idvariedad,codvariedad,nomvariedad,cdireccion,sucursal,nomsucursal INTO CURSOR Z
 
 
 
+
 ctivo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 08:52:52 , Error: SQL: no se encuentra la columna 'IDSECTOR'. Linea : SELECT COUNT(idvendedor) as c_vendedor ,COUNT(idrubro) as c_rubro, COUNT(idarticulo) as c_articulo ,COUNT(idfletero) as c_fletero, count(idcovertura) as c_covertura ,COUNT(i
+
 
 
 
@@ -3016,8 +3036,10 @@ dsector) as c_sector,COUNT(idvariedad) as c_variedad FROM CsrEstadistica INTO CU
 
 
 
+
 ctivo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 08:53:54 , Error: SQL: no se encuentra la columna 'IDSECTORVTA'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.i
+
 
 
 
@@ -3063,7 +3085,9 @@ destado,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstP
 
 
 
+
 ,NVL(EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVarie
+
 
 
 
@@ -3109,7 +3133,9 @@ dad.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,I
 
 
 
+
 Vta.nombre,SPACE(30)) as nomsector ,SUM(Boniciva) as Boniciva,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos,SUM(internos) as Internos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLit
+
 
 
 
@@ -3155,7 +3181,9 @@ ros,SUM(netosinbonificar) as netosinbonificar ,SUM(totalNG) as TotalNG,SUM(promo
 
 
 
+
 c_b) as nc_b ,SUM(Netogravado) as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEF
+
 
 
 
@@ -3201,7 +3229,9 @@ T JOIN EstFletero ON idfletero = EstFletero.id LEFT JOIN EstCliente ON idctacte 
 
 
 
+
 to.peso ,EstProducto.codartprod ,IdProveedor,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,EstRubro.numero,EstRubro.nombre ,
+
 
 
 
@@ -3247,8 +3277,10 @@ idvariedad,codvariedad,nomvariedad,cdireccion,sucursal,nomsucursal INTO CURSOR Z
 
 
 
+
 ctivo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 08:56:23 , Error: SQL: no se encuentra la columna 'BONICIVA'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.ides
+
 
 
 
@@ -3292,7 +3324,9 @@ tado,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProv
 
 
 
+
 L(EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad
+
 
 
 
@@ -3336,7 +3370,9 @@ L(EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') 
 
 
 
+
 mbre,SPACE(30)) as nomsector ,SUM(Boniciva) as Boniciva,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos,SUM(internos) as Internos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros,SU
+
 
 
 
@@ -3380,7 +3416,9 @@ M(netosinbonificar) as netosinbonificar ,SUM(totalNG) as TotalNG,SUM(promocion) 
 
 
 
+
 s nc_b ,SUM(Netogravado) as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN
+
 
 
 
@@ -3424,7 +3462,9 @@ s nc_b ,SUM(Netogravado) as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idru
 
 
 
+
 clasevalor,cuit ,preunitario,Idarticulo,EstProducto.numero,EstProducto.nombre,pesable,EstProducto.peso ,EstProducto.codartprod ,IdProveedor,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,Es
+
 
 
 
@@ -3468,8 +3508,10 @@ tVdor.nombre ,idCtacte,ctacte,nomcliente,idcategoria ,idrubro,EstRubro.numero,Es
 
 
 
+
 registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT021X.TMP Ultimo Control activo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 09:04:15 , Error: SQL: no se encuentra la columna 'IDMAOPERA'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.ide
+
 
 
 
@@ -3511,7 +3553,9 @@ stado,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstPro
 
 
 
+
 VL(EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVarieda
+
 
 
 
@@ -3553,7 +3597,9 @@ d.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,Idc
 
 
 
+
 ombre,SPACE(30)) as nomsector ,SUM(netosinbonificar) as netosinbonificar,SUM(internos) as Internos ,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(Convenio) as Convenio,SUM(Convsiva) as Convsiva ,SUM(unidades) as Unidades,SUM(CanBultos)
+
 
 
 
@@ -3595,7 +3641,9 @@ ombre,SPACE(30)) as nomsector ,SUM(netosinbonificar) as netosinbonificar,SUM(int
 
 
 
+
 o) as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idflete
+
 
 
 
@@ -3637,7 +3685,9 @@ ro = EstFletero.id LEFT JOIN EstCliente ON idctacte = EstCliente.id LEFT JOIN Es
 
 
 
+
 itario,Idarticulo,EstProducto.numero,EstProducto.nombre,pesable,EstProducto.peso ,EstProducto.codartprod ,IdProveedor,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte
+
 
 
 
@@ -3679,8 +3729,10 @@ itario,Idarticulo,EstProducto.numero,EstProducto.nombre,pesable,EstProducto.peso
 
 
 
+
 DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT0242.TMP Ultimo Control activo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 09:09:04 , Error: SQL: no se encuentra la columna 'PESABLE'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.idest
+
 
 
 
@@ -3720,7 +3772,9 @@ ado,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProve
 
 
 
+
 (EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad.
+
 
 
 
@@ -3760,7 +3814,9 @@ numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,Idcov
 
 
 
+
 bre,SPACE(30)) as nomsector ,SUM(netosinbonificar) as netosinbonificar,SUM(internos) as Internos ,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(Convenio) as Convenio,SUM(Convsiva) as Convsiva ,SUM(unidades) as Unidades,SUM(CanBultos) a
+
 
 
 
@@ -3800,7 +3856,9 @@ s CanBultos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros ,SUM(ImporteF
 
 
 
+
  as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idfletero
+
 
 
 
@@ -3840,7 +3898,9 @@ s CanBultos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros ,SUM(ImporteF
 
 
 
+
 o ,EstProducto.codartprod ,idprovart,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,EstCliente.cnumero,EstCliente.cnombre ,idrubro,EstRubro.numero,EstRubro.nombre ,
+
 
 
 
@@ -3880,8 +3940,10 @@ idvariedad,EstVariedad.numero,EstVariedad.nombre ,Idcovertura,EstCover.numero,Es
 
 
 
+
 o:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT0266.TMP Ultimo Control activo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 09:10:24 , Error: SQL: no se encuentra la columna 'NUMERO'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.idesta
+
 
 
 
@@ -3919,7 +3981,9 @@ do,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProvee
 
 
 
+
 EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad.n
+
 
 
 
@@ -3957,7 +4021,9 @@ umero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,Idcove
 
 
 
+
 re,SPACE(30)) as nomsector ,SUM(netosinbonificar) as netosinbonificar,SUM(internos) as Internos ,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(Convenio) as Convenio,SUM(Convsiva) as Convsiva ,SUM(unidades) as Unidades,SUM(CanBultos) as
+
 
 
 
@@ -3995,7 +4061,9 @@ re,SPACE(30)) as nomsector ,SUM(netosinbonificar) as netosinbonificar,SUM(intern
 
 
 
+
 as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idfletero 
+
 
 
 
@@ -4033,7 +4101,9 @@ as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JO
 
 
 
+
 Producto.idestado,comision ,idprovart,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,EstCliente.cnumero,EstCliente.cnombre ,idrubro,EstRubro.numero,EstRubro.nombre 
+
 
 
 
@@ -4071,8 +4141,10 @@ Producto.idestado,comision ,idprovart,EstProveed.cnumero,EstProveed.cnombre ,idF
 
 
 
+
 ro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT028A.TMP Ultimo Control activo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 09:14:53 , Error: SQL: no se encuentra la columna 'NUMERO'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.idesta
+
 
 
 
@@ -4108,7 +4180,9 @@ do,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProvee
 
 
 
+
 EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad.n
+
 
 
 
@@ -4144,7 +4218,9 @@ umero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,Idcove
 
 
 
+
 re,SPACE(30)) as nomsector ,SUM(netosinbonificar) as netosinbonificar,SUM(internos) as Internos ,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion ,SUM(Convenio) as Convenio,SUM(Convsiva) as Convsiva ,SUM(unidades) as Unidades,SUM(CanBultos) as
+
 
 
 
@@ -4180,7 +4256,9 @@ re,SPACE(30)) as nomsector ,SUM(netosinbonificar) as netosinbonificar,SUM(intern
 
 
 
+
 ) as nc_b ,SUM(Netogravado) as NetoGravado FROM &lcAlias LEFT JOIN EstRubro ON idrubro = EstRubro.id LEFT JOIN EstVdor ON idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT J
+
 
 
 
@@ -4216,7 +4294,9 @@ OIN EstFletero ON idfletero = EstFletero.id LEFT JOIN EstCliente ON idctacte = E
 
 
 
+
 bre ,EstProducto.codalfa,EstProducto.idestado,comision ,idprovart,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,EstCliente.cnumero,EstCliente.cnombre ,idrubro,EstR
+
 
 
 
@@ -4252,8 +4332,10 @@ ubro.numero,EstRubro.nombre ,idvariedad,EstVariedad.numero,EstVariedad.nombre ,I
 
 
 
+
 vo: ESTCLIENTE Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT02AE.TMP Ultimo Control activo:  VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 03-09-2025 09:18:37 , Error: SQL: no se encuentra la columna 'NUMERO'. Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstProducto.codalfa,'') as codalfa ,NVL(EstProducto.idesta
+
 
 
 
@@ -4287,7 +4369,9 @@ do,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProvee
 
 
 
+
 EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad.n
+
 
 
 
@@ -4321,7 +4405,9 @@ umero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,Idcove
 
 
 
+
  Convenio,SUM(Convsiva) as Convsiva ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros ,SUM(ImporteFinal) as ImporteFinal ,SUM(promocion) as promocion ,SUM(costosiva) as CostoSiva,SUM(costociva) 
+
 
 
 
@@ -4355,7 +4441,9 @@ as Costociva ,SUM(fac_a) as fac_a,SUM(nc_a) as nc_a,SUM(fac_b) as fac_b,SUM(nc_b
 
 
 
+
 rticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFletero.id LEFT JOIN EstCliente ON idctacte = EstCliente.id LEFT JOIN EstSectorVta ON idsector = EstSectorVta.id LEFT JOIN EstCover ON idcove
+
 
 
 
@@ -4389,7 +4477,9 @@ rtura = EstCover.id GROUP BY fecha,Idarticulo,EstProducto.numero,EstProducto.nom
 
 
 
+
 ero,EstVdor.nombre ,idCtacte,EstCliente.cnumero,EstCliente.cnombre ,idrubro,EstRubro.numero,EstRubro.nombre ,idvariedad,EstVariedad.numero,EstVariedad.nombre ,Idcovertura ,idsector,sectorruta INTO CURSOR ZsrAuxiliar READWRITE Error :       1806 Ultimo Al
+
 
 
 
@@ -4423,8 +4513,10 @@ ias Activo: ESTCLIENTE Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA
 
 
 
+
 timo Control activo:  LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK
 05-09-2025 13:42:41 , Error: El archivo 'csrcursor.dbf' no existe. Linea : SELECT * FROM CsrCursor ORDER BY idmaopera INTO CURSOR Csrauxiliar READWRITE Error :          1 Ultimo Alias Activo: CSRRENDIFLE Ultimo registro:          1  DBF: C:\USERS\MARCOS\
+
 
 
 
@@ -4454,8 +4546,10 @@ APPDATA\LOCAL\TEMP\00008QA100HG.TMP Ultimo Control activo:  RINDEARQUEO_V2.CONTE
 
 
 
+
 trol activo:  RINDEARQUEO_V2.INIT
 11-12-2025 12:02:08 , Error: No se encuentra la variable 'LNIDARTICULO'. Linea : Where idarticulo=<<lnidarticulo>> Error :         12 Ultimo Alias Activo: CSRCUERPROMO Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000A8SP005B.TMP 
+
 
 
 
@@ -4482,7 +4576,9 @@ Ultimo Control activo:  ABMPROMOCION.CMDBORRAR.CLICK
 
 
 
+
 16-12-2025 15:31:05 , Error: No se encuentra la propiedad TOPECF. Linea : THIS.TOPecf = THISFORM.TOPECF Error :       1734 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
+
 
 
 
@@ -4500,8 +4596,10 @@ Ultimo Control activo:  ABMPROMOCION.CMDBORRAR.CLICK
 
 
 
+
 ND1.CLICK
 16-12-2025 15:56:56 , Error: No se encuentra la variable 'OCONSTANCIACUIT'. Linea : IF NOT ISNULL(oConstanciaCuit) Error :         12 Ultimo Alias Activo: CSRCTACTE Ultimo registro:         -1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000VFNT02A9.TMP Ult
+
 
 
 
@@ -4515,8 +4613,10 @@ imo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
 
 
 
+
 imo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
 16-12-2025 16:02:00 , Error: No se encuentra la variable 'OCONSTANCIACUIT'. Linea : IF NOT ISNULL(oConstanciaCuit) Error :         12 Ultimo Alias Activo: CSRCTACTE Ultimo registro:         -1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000VFNT02CC.TMP Ult
+
 
 
 
@@ -4526,14 +4626,20 @@ imo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
 
 
 
+
 H00GS.TMP Ultimo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
 16-12-2025 16:33:34 , Error: No se encuentra la propiedad LOCALIDAD_ODATA_ALTA. Linea : oCtacteObjeto.Localidad_odata_alta(loRefLocalidad ,clocalidad, cCodPostal ,cProvincia) Error :       1734 Ultimo Alias Activo: CSRLOCALIDAD Ultimo registro:          
+
 
 
 1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000H5AH00JE.TMP Ultimo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
 16-12-2025 16:37:01 , Error: ODATA no es un objeto. Linea : oData.agregar() Error :       1924 Ultimo Alias Activo: CSRLOCALIDAD Ultimo registro:          1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000PUKP002X.TMP Ultimo Control activo:  ABMCTACTE.CONTE
 
+
 NEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
 16-12-2025 16:43:46 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : IF UPPER(Ocursor.alias) = UPPER(lcalias) Error :         11 Ultimo Alias Activo: CSRLOCALIDAD Ultimo registro:         -1  DBF: C:\USERS\MARCOS\APPDA
+
 TA\LOCAL\TEMP\0000PUKP00IE.TMP Ultimo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
-16-12-2025 16:45:17 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : IF UPPER(Ocursor.alias) = UPPER(lcalias) Error :         11 Ultimo Alias Activo: CSRLOCALIDAD Ultimo registro:         -1  DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000PPU1002S.TMP Ultimo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
+16-12-2025 16:45:17 , Error: El valor, tipo o número de argumentos no es válido para la función. Linea : IF UPPER(Ocursor.alias) = UPPER(lcalias) Error :         11 Ultimo Alias Activo: CSRLOCALIDAD Ultimo registro:         -1  DBF: C:\USERS\MARCOS\APPDA
+TA\LOCAL\TEMP\0000PPU1002S.TMP Ultimo Control activo:  ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK
+25-03-2026 16:24:14 , Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto.. Linea : Orslista.ActiveConnection = loConnDataSource Error :       1429 Ultimo Alias Activo:  Ultimo registro:          0  DBF:  Ultimo Control activo:  MAIN
