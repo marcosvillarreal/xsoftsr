@@ -102,11 +102,22 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 *-- APERTURA DE CLASES Y ARCHIVOS DE PROCEDIMIENTOS
 
    SET PROCEDURE  TO  proc.prg ADDITIVE  && Procedimientos generales
+   
+   
+   Grabar_Log('Cargando procedimientos') 
    SET PROCEDURE TO googlemaps.prg ADDITIVE 
    SET PROCEDURE  TO  syserror.prg ADDITIVE  
    SET PROCEDURE TO procfiscal.prg ADDITIVE 
    SET PROCEDURE  TO registry.prg ADDITIVE 
    SET PROCEDURE TO syerrhand.prg ADDITIVE 
+   SET PROCEDURE TO FoxBarcode.prg ADDITIVE 
+	SET PROCEDURE TO gpImage2.prg ADDITIVE
+	*SET PROCEDURE TO importexcelprovee.prg ADDITIVE 
+	 SET PROCEDURE TO FoxBarcodeQR ADDITIVE
+	 SET PROCEDURE TO mapsApiKey.prg ADDITIVE 
+	 SET PROCEDURE TO  foxypreviewercaller.prg ADDITIVE 
+	 
+    Grabar_Log('Cargando clases') 
    SET CLASSLIB TO  reindexer ADDITIVE 
    SET CLASSLIB TO  clasesgenerales ADDITIVE 
    SET CLASSLIB TO  controles ADDITIVE 
@@ -122,12 +133,7 @@ Set classlib to aplicacion.vcx additive && Objeto Aplicacion
 	 SET CLASSLIB TO onegocioslocal ADDITIVE 
 *	SET LIBRARY TO vfpconnection.fll ADDITIVE 
 	*BarCode
-	SET PROCEDURE TO FoxBarcode.prg ADDITIVE 
-	SET PROCEDURE TO gpImage2.prg ADDITIVE
-	*SET PROCEDURE TO importexcelprovee.prg ADDITIVE 
-	 SET PROCEDURE TO FoxBarcodeQR ADDITIVE
-	 SET PROCEDURE TO mapsApiKey.prg ADDITIVE 
-	 SET PROCEDURE TO  foxypreviewercaller.prg ADDITIVE 
+	
 *clear all
 
 lcIcon = 'gmsmart.ico'&&'help.ico'
@@ -150,6 +156,8 @@ PUBLIC OAvisar
 Oavisar=CREATEOBJECT('avisar')
 
  Public goapp,ObjReporter
+
+Grabar_Log('Inicializando objetos publicos') 
  
 goapp=createobject('app',!lldesarrollo,lldesarrollo)
  
@@ -199,26 +207,30 @@ IF TYPE('goApp')='O'
 	           		                          
 	do setup
 	
+	Grabar_Log('Cargando configuraciones de terminal') 
+	
 	LeerConfigTermi()
 	
 	_screen.LockScreen=.f.
 	
 	oavisar.proceso('S','Inicializando el sistema, aguarde unos instantes por favor ...')
-
+	
+	Grabar_Log('Verificando OCX') 
+	
     WAIT WINDOW "Verificando ActiveX instalados ..." nowait
     DO Verifica_OCX WITH "Check"
     
     _screen.LockScreen=.t.	
+    
+    Grabar_Log('Acceso al sistema, antes de autenticar') 
     
 	DO directivasfiscal    && en procfiscal.prg
 	DO directivasHasar
 	  
 	= Fwin32()    && funciones api win32
 	
-	
+	Grabar_Log('Obteniendo conexion a servidor') 
 	 =ObtenerServidor()
-	
-	
 	
 	IF LEN(TRIM(LcConectionString))=0
 		DO FORM configbd
@@ -233,6 +245,7 @@ IF TYPE('goApp')='O'
 		oavisar.usuario('Conectado a  '+ALLTRIM(goapp.servidor)+'\'+LTRIM(goapp.initcatalo))
 	ENDIF 
 	
+	Grabar_Log('Conectando DSN') 
 	   * en proc.prg   
 	IF ExisteDSN()  			
 		IF !ConeccionADO()
@@ -257,14 +270,18 @@ IF TYPE('goApp')='O'
 *!*				RETURN 	
 *!*		      ENDIF 
 *!*		ENDIF 
-
+	
+	Grabar_Log('Leyendo empresa') 
 	LeerEmpresa()
 	    
 	Goapp.idusuario           = 0
 	Goapp.perfilusuario     = 0
 	Goapp.nombreusuario= ""
-	    		
+	
+	Grabar_Log('Cargando Login')     		
 	DO FORM frmlogin
+	
+	Grabar_Log('Cargando Menu') 
 		 
 	LOCAL oMenu
 	oMenu= null
