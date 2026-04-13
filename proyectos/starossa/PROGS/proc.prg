@@ -1,3 +1,16 @@
+
+FUNCTION STOD
+PARAMETERS oFecha
+
+sFecha = oFecha
+IF VARTYPE(oFecha)$'N'
+	sFecha = STR(oFecha,8)
+ENDIF 
+sFecha = RIGHT(sFecha,2)+'-'+LEFT(RIGHT(sFecha,4),2)+'-'+LEFT(sFecha,4)
+
+RETURN CTOD(sFecha)
+
+
 *--------------------------------------------------
 
 FUNCTION OpenFileShell
