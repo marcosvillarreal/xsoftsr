@@ -148,969 +148,19 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-cto.numero,EstProducto.nombre ,EstProducto.codalfa,EstProducto.idestado,comision ,idprovart,EstProveed.cnumero,EstProveed.cnombre ,idFletero,EstFletero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,EstCliente.cnumero,EstCli
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ente.cnombre ,idrubro,EstRubro.numero,EstRubro.nombre ,idvariedad,EstVariedad.numero,EstVariedad.nombre ,Idcovertura,EstCover.numero,EstCover.nombre ,idsector,sectorruta,EstSectorVta.numero,EstSectorVta.nombre INTO CURSOR ZsrAuxiliar READWRITE;Error :   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    1806;Ultimo Alias Activo: ESTCLIENTE;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT028A.TMP;Ultimo Control activo: 
-03-09-2025 09:10:25 , Pila de llamadas
-03-09-2025 09:10:26 , Programa    : j:\xsoftsr\desarrollo\clases\controles.vct
-03-09-2025 09:10:26 , Objeto      : ventasporfecha.imprimir_vistaprevia1.impresora.click
-03-09-2025 09:10:27 , Base Objeto : j:\xsoftsr\desarrollo\clases\controles.vct
-03-09-2025 09:10:28 , Nº de Linea :          8
-03-09-2025 09:10:28 , En el Fuente: 	llOK=thisform.CrearInforme()
-03-09-2025 09:10:29 , Programa    : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
-03-09-2025 09:10:29 , Objeto      : ventasporfecha.crearinforme
-03-09-2025 09:10:30 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\est_ventasporfechas.sct
-03-09-2025 09:10:30 , Nº de Linea :         69
-03-09-2025 09:10:30 , En el Fuente: 	.estadistica.generarcursor()
-03-09-2025 09:10:30 , Programa    : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
-03-09-2025 09:10:30 , Objeto      : ventasporfecha.estadistica.generarcursor
-03-09-2025 09:10:31 , Base Objeto : j:\xsoftsr\proyectos\starossa\clases\onegocioslocal.vct
-03-09-2025 09:10:32 , Nº de Linea :        112
-03-09-2025 09:10:32 , En el Fuente: SELECT fecha		,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo		,NVL(EstProducto.codalfa,'') as codalfa		,NVL(EstProducto.idestado,1) as idestado,comision		,idprovart,E
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-stProveed.cnumero as CodProvArt,EstProveed.cnombre as nomProvArt		,idFletero,NVL(EstFletero.numero,0) as codfletero,NVL(EstFletero.nombre,SPACE(30)) as nomfletero		,idVendedor,NVL(EstVdor.numero,0) as CodVendedor,NVL(EstVdor.nombre,SPACE(30)) as nomvende
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-dor		,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente		,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre ,SPACE(30)) as nomrubro		,idvariedad,NVL(EstVariedad.numero,0) as codvariedad,NVL(EstVar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-iedad.nombre,SPACE(30)) as nomvariedad		,Idcovertura,NVL(EstCover.numero,0) as CodCovertura,NVL(EstCover.nombre,SPACE(30)) as nomcovertura		,idsector,sectorruta,NVL(EstSectorVta.numero,0) as codsector,NVL(EstSectorVta.nombre,SPACE(30)) as nomsector		,SUM
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 (netosinbonificar) as netosinbonificar,SUM(internos) as Internos		,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion		,SUM(Convenio) as Convenio,SUM(Convsiva) as Convsiva		,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos		,SUM(Vtakilos) a
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1416,7 +466,31 @@ s VtaKilos,SUM(VtaLitros) as VtaLitros		,SUM(ImporteFinal) as ImporteFinal;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 roducto.codalfa,'') as codalfa ,NVL(EstProducto.idestado,1) as idestado,comision ,idprovart,EstProveed.cnumero as CodProvArt,EstProveed.cnombre as nomProvArt ,idFletero,NVL(EstFletero.numero,0) as codfletero,NVL(EstFletero.nombre,SPACE(30)) as nomfletero
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1720,7 +794,31 @@ roducto.codalfa,'') as codalfa ,NVL(EstProducto.idestado,1) as idestado,comision
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  ,SPACE(30)) as nomrubro ,idvariedad,NVL(EstVariedad.numero,0) as codvariedad,NVL(EstVariedad.nombre,SPACE(30)) as nomvariedad ,Idcovertura,NVL(EstCover.numero,0) as CodCovertura,NVL(EstCover.nombre,SPACE(30)) as nomcovertura ,idsector,sectorruta,NVL(Est
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2024,7 +1122,31 @@ SectorVta.numero,0) as codsector,NVL(EstSectorVta.nombre,SPACE(30)) as nomsector
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  Convsiva ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros ,SUM(ImporteFinal) as ImporteFinal ,SUM(promocion) as promocion ,SUM(costosiva) as CostoSiva,SUM(costociva) as Costociva ,SUM(fac_a) a
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2328,7 +1450,31 @@ s fac_a,SUM(nc_a) as nc_a,SUM(fac_b) as fac_b,SUM(nc_b) as nc_b ,SUM(Netogravado
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 EFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFletero.id LEFT JOIN EstCliente ON idctacte = EstCliente.id LEFT JOIN EstSectorVta ON idsector = EstSectorVta.id LEFT JOIN EstCover ON idcovertura = EstCover.id GROUP 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2632,7 +1778,31 @@ BY fecha,Idarticulo,EstProducto.numero,EstProducto.nombre ,EstProducto.codalfa,E
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 te,EstCliente.cnumero,EstCliente.cnombre ,idrubro,EstRubro.numero,EstRubro.nombre ,idvariedad,EstVariedad.numero,EstVariedad.nombre ,Idcovertura,EstCover.numero,EstCover.nombre ,idsector,sectorruta,EstSectorVta.numero,EstSectorVta.nombre INTO CURSOR ZsrA
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2941,7 +2111,31 @@ uxiliar READWRITE;Error :       1806;Ultimo Alias Activo: ESTCLIENTE;Ultimo regi
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 stProveed.cnumero as CodProvArt,EstProveed.cnombre as nomProvArt		,idFletero,NVL(EstFletero.numero,0) as codfletero,NVL(EstFletero.nombre,SPACE(30)) as nomfletero		,idVendedor,NVL(EstVdor.numero,0) as CodVendedor,NVL(EstVdor.nombre,SPACE(30)) as nomvende
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3223,7 +2417,31 @@ dor		,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPAC
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 iedad.nombre,SPACE(30)) as nomvariedad		,Idcovertura,NVL(EstCover.numero,0) as CodCovertura,NVL(EstCover.nombre,SPACE(30)) as nomcovertura		,idsector,sectorruta,NVL(EstSectorVta.numero,0) as codsector,NVL(EstSectorVta.nombre,SPACE(30)) as nomsector		,SUM
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3505,8 +2723,32 @@ iedad.nombre,SPACE(30)) as nomvariedad		,Idcovertura,NVL(EstCover.numero,0) as C
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 s VtaKilos,SUM(VtaLitros) as VtaLitros		,SUM(ImporteFinal) as ImporteFinal;		
 03-09-2025 09:18:38 , VENTASPORFECHA.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: SQL: no se encuentra la columna 'NUMERO'.;Linea : SELECT fecha ,Idarticulo,STR(NVL(EstProducto.numero,0)) as codigo,NVL(EstProducto.nombre,SPACE(30)) as articulo ,NVL(EstP
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3786,7 +3028,31 @@ roducto.codalfa,'') as codalfa ,NVL(EstProducto.idestado,1) as idestado,comision
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  ,idVendedor,NVL(EstVdor.numero,0) as CodVendedor,NVL(EstVdor.nombre,SPACE(30)) as nomvendedor ,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPACE(30)) as nomcliente ,idrubro,NVL(EstRubro.numero,0) as codrubro,NVL(EstRubro.nombre
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4066,7 +3332,31 @@ roducto.codalfa,'') as codalfa ,NVL(EstProducto.idestado,1) as idestado,comision
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 va,SUM(Bonificacion) as Bonificacion ,SUM(Convenio) as Convenio,SUM(Convsiva) as Convsiva ,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos ,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros ,SUM(ImporteFinal) as ImporteFinal ,SUM(promocion) as 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4346,7 +3636,31 @@ promocion ,SUM(costosiva) as CostoSiva,SUM(costociva) as Costociva ,SUM(fac_a) a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 N idvendedor = EstVdor.id LEFT JOIN EstProducto ON idarticulo = EstProducto.id LEFT JOIN EstProveed ON idprovart= EstProveed.id LEFT JOIN EstFletero ON idfletero = EstFletero.id LEFT JOIN EstCliente ON idctacte = EstCliente.id LEFT JOIN EstSectorVta ON i
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4626,7 +3940,31 @@ dsector = EstSectorVta.id LEFT JOIN EstCover ON idcovertura = EstCover.id GROUP 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 etero.numero,EstFletero.nombre ,idVendedor,EstVdor.numero,EstVdor.nombre ,idCtacte,EstCliente.cnumero,EstCliente.cnombre ,idrubro,EstRubro.numero,EstRubro.nombre ,idvariedad,EstVariedad.numero,EstVariedad.nombre ,Idcovertura ,idsector,sectorruta INTO CUR
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4910,7 +4248,31 @@ SOR ZsrAuxiliar READWRITE;Error :       1806;Ultimo Alias Activo: ESTCLIENTE;Ult
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 stProveed.cnumero as CodProvArt,EstProveed.cnombre as nomProvArt		,idFletero,NVL(EstFletero.numero,0) as codfletero,NVL(EstFletero.nombre,SPACE(30)) as nomfletero		,idVendedor,NVL(EstVdor.numero,0) as CodVendedor,NVL(EstVdor.nombre,SPACE(30)) as nomvende
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5166,7 +4528,31 @@ dor		,idCtacte,NVL(EstCliente.cnumero,'') as ctacte, NVL(EstCliente.cnombre,SPAC
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 iedad.nombre,SPACE(30)) as nomvariedad		,Idcovertura		,idsector,sectorruta		,SUM(netosinbonificar) as netosinbonificar,SUM(internos) as Internos		,SUM(Bonisiva) as Bonisiva,SUM(Bonificacion) as Bonificacion		,SUM(Convenio) as Convenio,SUM(Convsiva) as Co
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5296,6 +4682,18 @@ iedad.nombre,SPACE(30)) as nomvariedad		,Idcovertura		,idsector,sectorruta		,SUM
 
 nvsiva		,SUM(unidades) as Unidades,SUM(CanBultos) as CanBultos		,SUM(Vtakilos) as VtaKilos,SUM(VtaLitros) as VtaLitros		,SUM(ImporteFinal) as ImporteFinal;		
 03-09-2025 11:04:53 , LISTAPRECIO.IMPRIMIR_VISTAPREVIA1.IMPRESORA.CLICK, Error: No se encuentra la variable 'PVTACIVA1'.;Linea : lcclave = CsrCursor.nomrubro+&lcOrden;Error :         12;Ultimo Alias Activo: CSRCURSOR;Ultimo registro:          1 ;DBF: C:\
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5555,6 +4953,18 @@ USERS\MARCOS\APPDATA\LOCAL\TEMP\0000J4ZT03XN.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 DIFLE;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00008QA100HG.TMP;Ultimo Control activo: 
 05-09-2025 13:42:42 , Pila de llamadas
 05-09-2025 13:42:43 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
@@ -5682,6 +5092,18 @@ DIFLE;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\00008
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 A100UJ.TMP;Ultimo Control activo: 
 05-09-2025 19:53:13 , Pila de llamadas
 05-09-2025 19:53:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\regarqueo_v2.sct
@@ -5690,6 +5112,18 @@ A100UJ.TMP;Ultimo Control activo:
 05-09-2025 19:53:16 , Nº de Linea :         22
 05-09-2025 19:53:16 , En el Fuente: SELECT csrparadiario
 11-12-2025 12:02:09 , ABMPROMOCION.CMDBORRAR.CLICK, Error: No se encuentra la variable 'LNIDARTICULO'.;Linea : Where idarticulo=<<lnidarticulo>>;Error :         12;Ultimo Alias Activo: CSRCUERPROMO;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPDAT
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5931,6 +5365,18 @@ A\LOCAL\TEMP\0000A8SP005B.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  
 16-12-2025 15:30:12 , Pila de llamadas
 16-12-2025 15:30:12 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
@@ -5944,6 +5390,18 @@ A\LOCAL\TEMP\0000A8SP005B.TMP;Ultimo Control activo:
 16-12-2025 15:30:15 , Nº de Linea :         41
 16-12-2025 15:30:15 , En el Fuente: THIS.TOPecf = THISFORM.TOPECF
 16-12-2025 15:31:05 , ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK, Error: No se encuentra la propiedad TOPECF.;Linea : THIS.TOPecf = THISFORM.TOPECF;Error :       1734;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo:
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6131,6 +5589,18 @@ A\LOCAL\TEMP\0000A8SP005B.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 l activo: 
 16-12-2025 15:34:44 , Pila de llamadas
 16-12-2025 15:34:45 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
@@ -6149,6 +5619,18 @@ l activo:
 16-12-2025 15:34:50 , Nº de Linea :         12
 16-12-2025 15:34:51 , En el Fuente: 		.oWsAFIP.cuit_consultar(cCuit)
 16-12-2025 15:56:57 , ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK, Error: No se encuentra la variable 'OCONSTANCIACUIT'.;Linea : IF NOT ISNULL(oConstanciaCuit);Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:         -1 ;DBF: C:\
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6308,6 +5790,18 @@ USERS\MARCOS\APPDATA\LOCAL\TEMP\0000VFNT02A9.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 USERS\MARCOS\APPDATA\LOCAL\TEMP\0000VFNT02CC.TMP;Ultimo Control activo: 
 16-12-2025 16:00:26 , Pila de llamadas
 16-12-2025 16:00:28 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
@@ -6316,6 +5810,18 @@ USERS\MARCOS\APPDATA\LOCAL\TEMP\0000VFNT02CC.TMP;Ultimo Control activo:
 16-12-2025 16:00:29 , Nº de Linea :         10
 16-12-2025 16:00:29 , En el Fuente: IF NOT ISNULL(oConstanciaCuit)
 16-12-2025 16:02:01 , ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK, Error: No se encuentra la variable 'OCONSTANCIACUIT'.;Linea : IF NOT ISNULL(oConstanciaCuit);Error :         12;Ultimo Alias Activo: CSRCTACTE;Ultimo registro:         -1 ;DBF: C:\
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6462,6 +5968,18 @@ USERS\MARCOS\APPDATA\LOCAL\TEMP\0000VFNT02CC.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000H5AH00GS.TMP;Ultimo Control activo: 
 16-12-2025 16:30:36 , Pila de llamadas
 16-12-2025 16:30:36 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
@@ -6470,6 +5988,18 @@ USERS\MARCOS\APPDATA\LOCAL\TEMP\0000VFNT02CC.TMP;Ultimo Control activo:
 16-12-2025 16:30:36 , Nº de Linea :         48
 16-12-2025 16:30:37 , En el Fuente: 			oCtacteObjeto = CREATEOBJECT("oCtacte")
 16-12-2025 16:33:35 , ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK, Error: No se encuentra la propiedad LOCALIDAD_ODATA_ALTA.;Linea : oCtacteObjeto.Localidad_odata_alta(loRefLocalidad ,clocalidad, cCodPostal ,cProvincia);Error :       1734;Ultimo A
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6605,6 +6135,18 @@ lias Activo: CSRLOCALIDAD;Ultimo registro:          1 ;DBF: C:\USERS\MARCOS\APPD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 PUKP002X.TMP;Ultimo Control activo: 
 16-12-2025 16:37:02 , Pila de llamadas
 16-12-2025 16:37:03 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
@@ -6618,6 +6160,18 @@ PUKP002X.TMP;Ultimo Control activo:
 16-12-2025 16:37:05 , Nº de Linea :         18
 16-12-2025 16:37:05 , En el Fuente: oData.agregar()
 16-12-2025 16:43:47 , ABMCTACTE.CONTENEDOR1.PFRAME1.PAGE1.COMMAND1.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : IF UPPER(Ocursor.alias) = UPPER(lcalias);Error :         11;Ultimo Alias Activo: CSRLOCALIDAD;Ult
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6747,6 +6301,18 @@ imo registro:         -1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000PUKP00IE.T
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 imo registro:         -1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000PPU1002S.TMP;Ultimo Control activo: 
 16-12-2025 16:45:18 , Pila de llamadas
 16-12-2025 16:45:19 , Programa    : j:\xsoftsr\proyectos\starossa\forms\ctacte\abmctactepub.sct
@@ -6770,6 +6336,18 @@ imo registro:         -1 ;DBF: C:\USERS\MARCOS\APPDATA\LOCAL\TEMP\0000PPU1002S.T
 16-12-2025 16:45:22 , Nº de Linea :         10
 16-12-2025 16:45:22 , En el Fuente:     IF UPPER(Ocursor.alias) = UPPER(lcalias)
 25-03-2026 16:24:15 , MAIN, Error: Código de excepción OLE IDispatch 0 de ADODB.Recordset: No se puede utilizar la conexión para realizar esta operación. Está cerrada o no es válida en este contexto..;Linea : Orslista.ActiveConnection = loConnDataSource;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6872,6 +6450,18 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  0 ;DBF: ;Ultimo Control activo: 
 10-04-2026 16:01:31 , Pila de llamadas
 10-04-2026 16:01:32 , Programa    : j:\xsoftsr\desarrollo\forms\pidoverificocae.sct
@@ -6900,6 +6490,18 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 10-04-2026 16:01:36 , Nº de Linea :          3
 10-04-2026 16:01:36 , En el Fuente: cPeriodo = strzero(YEAR(dFecha),4)+strzero(MONTH(dFecha),2)
 15-04-2026 10:14:17 , ABMPRODUCTO.CONTENEDOR1.PFRAME1.PAGE1.KITBUSCAOALTAENABM1.TXTID.INIT, Error: No se encuentra el alias 'CSRPRODUCTO'.;Linea : this.controlsource=this.parent.controlsourcetxtid;Error :         13;Ultimo Alias Activo: ;Ultimo registro:
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6988,6 +6590,18 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ultimo Control activo: 
 15-04-2026 16:08:47 , Pila de llamadas
 15-04-2026 16:08:48 , Programa    : j:\xsoftsr\proyectos\starossa\progs\main.fxp
@@ -7018,7 +6632,31 @@ Error :       1429;Ultimo Alias Activo: ;Ultimo registro:          0 ;DBF: ;Ulti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 as ivari2,CAST(0 as n(12,2)) as Basegra2,000.00 as tasa2 ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,CAST(0 as n(12,2)) as Basegra3,000.00 as tasa3 ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,CAST(0 as n(12,2)) as Basegra4,000.00 as tasa4 ,
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7044,7 +6682,31 @@ CAST(0 as int) as idctavta5,00000000.00 as ivari5,CAST(0 as n(12,2)) as Basegra5
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ,00000000.00 as retencion2,000000000.00 as Baserete2,000.00 as tasarete2 ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3 ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as t
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7070,6 +6732,18 @@ asarete4 ,SPACE(10) as nomrete5,00000000.00 as retencion5,000000000.00 as Basere
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro ,DATETIME(YEAR(DATE()),MONTH(DATE()
 
 
@@ -7083,7 +6757,31 @@ ibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ),DAY(DATE()),0,0,0) as Vencimien,00000000.00 as BaseDesctoSiva ,'0' as facturacosto,0 as SolicitaDNI,SPACE(2) as TipoCbte, SPACE(29) as CAECheck ,SPACE(20) as NomProvincia,CAST(0 as i) as idpedmobile,0 as autodec567 ,SPACE(2) as categoiva,CAST(0 as n(16
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7116,7 +6814,31 @@ ibto1,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 sa2	   ,CAST(0 as int) as idctavta3,00000000.00 as ivari3,CAST(0 as n(12,2)) as Basegra3,000.00 as tasa3	   ,CAST(0 as int) as idctavta4,00000000.00 as ivari4,CAST(0 as n(12,2)) as Basegra4,000.00 as tasa4	   ,CAST(0 as int) as idctavta5,00000000.00 as i
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7134,7 +6856,31 @@ vari5,CAST(0 as n(12,2)) as Basegra5,000.00 as tasa5	   ,000000000.00 as Baseexe
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0000.00 as Baserete2,000.00 as tasarete2	   ,SPACE(10) as nomrete3,00000000.00 as retencion3,000000000.00 as Baserete3,000.00 as tasarete3   	   ,SPACE(10) as nomrete4,00000000.00 as retencion4,000000000.00 as Baserete4,000.00 as tasarete4   	   ,SPACE(1
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7152,7 +6898,31 @@ vari5,CAST(0 as n(12,2)) as Basegra5,000.00 as tasa5	   ,000000000.00 as Baseexe
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ,00000000.00 as Perceibto2,00000000.00 as SubtotSiva,SPACE(3) as subnumero       ,SPACE(25) as subcnombre,0000000000 as idprefijo,00000000.00 as SubtotCiva,SPACE(40) as detalle,SPACE(5) as parada,SPACE(13) as proximonro       ,DATETIME(YEAR(DATE()),MONTH
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7170,8 +6940,32 @@ vari5,CAST(0 as n(12,2)) as Basegra5,000.00 as tasa5	   ,000000000.00 as Baseexe
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
  categoiva,CAST(0 as n(16,2)) as PerceIVA5329       ,AliConvenio as AliReintegro,Convenio as Reintegro       FROM CsrCabefac WHERE RECNO()=1 AND id=0 INTO CURSOR CsrAuxcabefac READWRITE  
 31-07-2026 19:27:07 , DEBCREDFISCAL.CMDBUSCAR.CLICK, Error: No se encuentra el alias 'CSRIMPRIMIR'.;Linea : SELECT CsrImprimir;Error :         13;Ultimo Alias Activo: CSRCOMPVENTA;Ultimo registro:          1 ;DBF: C:\USERS\USUARIO\APPDATA\LOCAL\TEMP\0000
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7195,6 +6989,18 @@ FTHL0010.TMP;Ultimo Control activo:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 FTHL001S.TMP;Ultimo Control activo: 
 31-07-2026 19:28:13 , Pila de llamadas
 31-07-2026 19:28:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\util\debcredfiscal.sct
@@ -7207,3 +7013,56 @@ FTHL001S.TMP;Ultimo Control activo:
 31-07-2026 19:28:18 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\util\debcredfiscal.sct
 31-07-2026 19:28:18 , Nº de Linea :         85
 31-07-2026 19:28:18 , En el Fuente: SELECT CsrImprimir
+22-09-2026 20:31:13 , REGFACCPRA.CMDCONSULTA.CLICK, Error: No se encuentra la variable 'MARGEN1'.;Linea : replace margen1 WITH CsrCodAlfa.margen1 IN CsrAuxCuerfac;Error :         12;Ultimo Alias Activo: CSRCODALFA;Ultimo registro:          1 ;DBF: C:\USE
+
+
+
+
+
+
+
+
+
+
+
+RS\USUARIO\APPDATA\LOCAL\TEMP\0000HDL5013U.TMP;Ultimo Control activo: 
+22-09-2026 20:31:13 , Pila de llamadas
+22-09-2026 20:31:13 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:31:13 , Objeto      : regfaccpra.cmdconsulta.click
+22-09-2026 20:31:13 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:31:14 , Nº de Linea :          1
+22-09-2026 20:31:14 , En el Fuente: thisform.key_f4()  
+22-09-2026 20:31:14 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:31:14 , Objeto      : regfaccpra.key_f4
+22-09-2026 20:31:15 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:31:15 , Nº de Linea :         37
+22-09-2026 20:31:15 , En el Fuente: 	thisform.muestracomprobante(lcidretorno)
+22-09-2026 20:31:15 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:31:15 , Objeto      : regfaccpra.muestracomprobante
+22-09-2026 20:31:16 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:31:16 , Nº de Linea :        158
+22-09-2026 20:31:16 , En el Fuente: 		replace margen1 WITH CsrCodAlfa.margen1 IN CsrAuxCuerfac
+22-09-2026 20:36:56 , REGFACCPRA.CMDIMPRIMIR.CLICK, Error: El valor, tipo o número de argumentos no es válido para la función.;Linea : INSERT INTO CsrimpCue (grupo ,Campo001 ,Campo002 ,Campo003 ,Campo004 ,Campo005 ,Campo006 ,Campo007 ,Campo008, campo009,
+
+
+
+ pos,Campo010,Campo011,Campo012 ) VALUES ('1',strzero(RECNO('CsrAuxCuerfac'),2)+STR(CsrAuxCuerfac.idarticulo*10+1),CsrAuxCuerfac.codigo,cCampo003,STR(lnCantidad,11) ,transform('9.999.999,99',CsrAuxCuerfac.total),STR(CsrAuxCuerfac.margen1,7,3),STR(lniva,1
+
+
+
+1,3),'1',STR(CsrAuxCuerfac.uniciva,11,2),RECNO('CsrAuxCuerfac') ,LTRIM(STR(CsrAuxCuerfac.Unibulto,11)),lcBultos,STR(CsrauxCuerfac.preunita,11,2));Error :         11;Ultimo Alias Activo: CSRAUXCUERFAC;Ultimo registro:          1 ;DBF: C:\USERS\USUARIO\APP
+
+
+
+DATA\LOCAL\TEMP\0000HDL501UI.TMP;Ultimo Control activo: 
+22-09-2026 20:36:56 , Pila de llamadas
+22-09-2026 20:36:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:36:57 , Objeto      : regfaccpra.cmdimprimir.click
+22-09-2026 20:36:57 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:36:57 , Nº de Linea :          2
+22-09-2026 20:36:57 , En el Fuente: LOK = thisform.imprimir(.t.)
+22-09-2026 20:36:57 , Programa    : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:36:57 , Objeto      : regfaccpra.imprimir
+22-09-2026 20:36:58 , Base Objeto : j:\xsoftsr\proyectos\starossa\forms\compras\regfaccpra_v1.sct
+22-09-2026 20:36:58 , Nº de Linea :        115
+22-09-2026 20:36:58 , En el Fuente: 	INSERT INTO CsrimpCue (grupo ,Campo001 ,Campo002 ,Campo003 ,Campo004 ,Campo005 ,Campo006 ,Campo007 ,Campo008, campo009, pos,Campo010,Campo011,Campo012 )	VALUES ('1',strzero(RECNO('CsrAuxCuerfac'),2)+STR(CsrAuxCuerfac.idarticulo*10+1),CsrAuxCuerfac.codigo,cCampo003,STR(lnCantidad,11)	,transform('9.999.999,99',CsrAuxCuerfac.total),STR(CsrAuxCuerfac.margen1,7,3),STR(lniva,11,3),'1',STR(CsrAuxCuerfac.uniciva,11,2),RECNO('CsrAuxCuerfac')	,LTRIM(STR(CsrAuxCuerfac.Unibulto,11)),lcBultos,STR(CsrauxCuerfac.preunita,11,2))
