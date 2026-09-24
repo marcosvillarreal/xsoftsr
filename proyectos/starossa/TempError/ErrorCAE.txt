@@ -15,3 +15,63 @@
   File "pysimplesoap\client.py", line 234, in call
 pysimplesoap.client.SoapFault: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1619). ---> Input string was not in a correct format.
 .Exepción: soap:Client: Server was unable to read request. ---> There is an error in XML document (5, 1619). ---> Input string was not in a correct format.Traceback: Server was unable to read request. ---> There is an error in XML document (5, 1619). ---> Input string was not in a correct format.
+24-09-2026 , Version 3.13b InstallDir C:\GMSOLU~1\PyAfipWsJ:\XSOFTSR\PROYECTOS\STAROSSA\afipcert\Certificados ProduccionCodigo error afip:*****Numero de Error: 1429Linea de codigo de error: cms = WSAA.SignTRA(tra, cRuta + "santarossa.crt", cRuta + "santarossa.key") && Cert. DemoProcedimiento: sw_iniciarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.py", line 298, in _Invoke_
+  File "win32com\server\policy.py", line 303, in _invoke_
+  File "win32com\server\policy.py", line 631, in _invokeex_
+  File "pyafipws\utils.py", line 193, in capturar_errores_wrapper
+TypeError: 'FileNotFoundError' object is not subscriptable
+.Exepción: TypeError: 'FileNotFoundError' object is not subscriptable
+Traceback: Traceback (most recent call last):
+  File "pyafipws\utils.py", line 191, in capturar_errores_wrapper
+  File "pyafipws\wsaa.py", line 447, in SignTRA
+  File "pyafipws\wsaa.py", line 263, in sign_tra
+  File "pyafipws\wsaa.py", line 119, in sign_tra_new
+FileNotFoundError: [Errno 2] No such file or directory: b'J:\\XSOFTSR\\PROYECTOS\\STAROSSA\\afipcert\\santarossa.key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pyafipws\utils.py", line 193, in capturar_errores_wrapper
+TypeError: 'FileNotFoundError' object is not subscriptable
+
+24-09-2026 , Version 3.13b InstallDir C:\GMSOLU~1\PyAfipWsJ:\XSOFTSR\PROYECTOS\STAROSSA\afipcert\Certificados ProduccionCodigo error afip:*****Numero de Error: 1429Linea de codigo de error: cms = WSAA.SignTRA(tra, cRuta + "santarossa.crt", cRuta + "santarossa.key") && Cert. DemoProcedimiento: sw_iniciarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.py", line 298, in _Invoke_
+  File "win32com\server\policy.py", line 303, in _invoke_
+  File "win32com\server\policy.py", line 631, in _invokeex_
+  File "pyafipws\utils.py", line 193, in capturar_errores_wrapper
+TypeError: 'FileNotFoundError' object is not subscriptable
+.Exepción: TypeError: 'FileNotFoundError' object is not subscriptable
+Traceback: Traceback (most recent call last):
+  File "pyafipws\utils.py", line 191, in capturar_errores_wrapper
+  File "pyafipws\wsaa.py", line 447, in SignTRA
+  File "pyafipws\wsaa.py", line 263, in sign_tra
+  File "pyafipws\wsaa.py", line 119, in sign_tra_new
+FileNotFoundError: [Errno 2] No such file or directory: b'J:\\XSOFTSR\\PROYECTOS\\STAROSSA\\afipcert\\santarossa.key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pyafipws\utils.py", line 193, in capturar_errores_wrapper
+TypeError: 'FileNotFoundError' object is not subscriptable
+
+24-09-2026 , Version 3.13b InstallDir C:\GMSOLU~1\PyAfipWsJ:\XSOFTSR\PROYECTOS\STAROSSA\afipcert\Certificados ProduccionCodigo error afip:*****Numero de Error: 1429Linea de codigo de error: cms = WSAA.SignTRA(tra, cRuta + "santarossa.crt", cRuta + "santarossa.key") && Cert. DemoProcedimiento: sw_iniciarError VFP: Código de excepción OLE IDispatch 0 de Python COM Server Internal Error: Unexpected Python Error: Traceback (most recent call last):
+  File "win32com\server\policy.py", line 298, in _Invoke_
+  File "win32com\server\policy.py", line 303, in _invoke_
+  File "win32com\server\policy.py", line 631, in _invokeex_
+  File "pyafipws\utils.py", line 193, in capturar_errores_wrapper
+TypeError: 'FileNotFoundError' object is not subscriptable
+.Exepción: TypeError: 'FileNotFoundError' object is not subscriptable
+Traceback: Traceback (most recent call last):
+  File "pyafipws\utils.py", line 191, in capturar_errores_wrapper
+  File "pyafipws\wsaa.py", line 447, in SignTRA
+  File "pyafipws\wsaa.py", line 263, in sign_tra
+  File "pyafipws\wsaa.py", line 119, in sign_tra_new
+FileNotFoundError: [Errno 2] No such file or directory: b'J:\\XSOFTSR\\PROYECTOS\\STAROSSA\\afipcert\\santarossa.key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pyafipws\utils.py", line 193, in capturar_errores_wrapper
+TypeError: 'FileNotFoundError' object is not subscriptable
+
