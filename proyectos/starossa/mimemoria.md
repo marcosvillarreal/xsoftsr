@@ -1,5 +1,8 @@
 # Memoria del proyecto Santa Rossa
 
+## Reglas de trabajo
+- **Datos de la base de datos:** se leen de `CFCONFIG.INI` del proyecto, sin pedirlos ni escribirlos en el chat (servidor, usuario, contraseña) y sin mostrar su contenido. Los scripts los leen al ejecutarse; no se guardan en archivos ni en esta memoria.
+
 ## Descuento por pago en efectivo (regfacvtapub + pidoefectivo)
 
 ### Estado al 06/11/2026
