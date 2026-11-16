@@ -19,7 +19,7 @@ _vfp.AutoYield = .f.
 
 lctituloGestion = "Gestión de Ventas " + IIF(lldesarrollo," - Beta","")
 
-lcVersion = "01.00.23"
+lcVersion = "01.00.24"
 
 If !lldesarrollo
    If f_activawin(lctituloGestion)
